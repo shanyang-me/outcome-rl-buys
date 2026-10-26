@@ -1,0 +1,13 @@
+{
+ "_doc": "Minimal config for your own pair(s). Keys under 'bases' and 'pairs' are the model names used in row file names (<model>_cap<C>.jsonl.gz). train_cap is the response-length cap the RL run trained with, in tokens; the cap study reads each pair at the smallest shared budget >= train_cap and one budget beyond. Everything else (budgets, benchmarks, views, groups) is optional and derived from the rows when absent; see configs/recipes.json for the full form.",
+ "bases": {
+  "my_base": {"hf_id": "Qwen/Qwen2.5-Math-7B", "label": "Qwen2.5-Math-7B"}
+ },
+ "pairs": {
+  "my_rl": {"model": "my_rl", "hf_id": "me/my-rl-run", "base": "my_base", "train_cap": 8192, "notes": "where the cap was verified"}
+ },
+ "protocol": {
+  "kinds": ["phys", "math"],
+  "kind_labels": {"phys": "physics", "math": "MATH-500"}
+ }
+}

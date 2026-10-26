@@ -1,0 +1,357 @@
+{
+ "_doc": "Registry of the released base -> outcome-RL pairs the audit reads. train_cap is the recipe's final training response cap in tokens, verified against the recipe's primary source (paper, model card or training script); the at-cap budget is the smallest ladder budget >= train_cap and 'beyond' the next one up. authors_T is the sampling the recipe's authors evaluate with ([temperature, top_p]) where the audit re-read the pair at it.",
+ "protocol": {
+  "kinds": [
+   "phys",
+   "math"
+  ],
+  "kind_labels": {
+   "phys": "physics",
+   "math": "MATH-500"
+  },
+  "binding": [
+   4096,
+   8192
+  ],
+  "n": 8,
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "seed": 0,
+  "dtype": "bfloat16",
+  "instruction": "\n\nPlease reason step by step, and put your final answer within \\boxed{}.",
+  "finished": "vLLM finish_reason == 'stop' and token length <= budget; an unfinished sample scores 0"
+ },
+ "budgets": {
+  "fixed": [
+   4096,
+   8192,
+   16384
+  ],
+  "ladder": [
+   4096,
+   8192,
+   16384,
+   24576,
+   28672,
+   32768,
+   36864,
+   49152,
+   53248,
+   65536
+  ],
+  "labels": {
+   "4096": "4k",
+   "8192": "8k",
+   "16384": "16k",
+   "24576": "24k",
+   "28672": "28k",
+   "32768": "32k",
+   "36864": "36k",
+   "49152": "48k",
+   "53248": "52k",
+   "65536": "64k"
+  }
+ },
+ "views": {
+  "_doc": "Ordered row runs per analysis view; the first run holding a (model, budget) file wins. The fixed-budget view uses the original per-budget generations for the first eight pairs; the cap view uses one long generation per model so that 'at' and 'beyond' are the same samples read at two budgets.",
+  "fixed": [
+   "pair_decomp3_a",
+   "pair_decomp3_b",
+   "pair_decomp3_e",
+   "pair_decomp3_f",
+   "pair_decomp2",
+   "pair_decomp4"
+  ],
+  "cap": [
+   "pair_decomp5_big",
+   "pair_decomp5c_cap48",
+   "pair_decomp6_cap64",
+   "pair_decomp9_32b",
+   "pair_decomp10_native"
+  ],
+  "extra": [
+   "pair_decomp5c_cap48",
+   "pair_decomp9_32b"
+  ],
+  "authors_T": [
+   "pair_temp"
+  ]
+ },
+ "bases": {
+  "DeepSeek-R1-Distill-Qwen-1.5B": {
+   "hf_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+   "label": "R1-1.5B",
+   "authors_T": null
+  },
+  "OpenMath-Nemotron-1.5B": {
+   "hf_id": "nvidia/OpenMath-Nemotron-1.5B",
+   "label": "OMN-1.5B",
+   "authors_T": [
+    0.7,
+    1.0
+   ]
+  },
+  "Qwen3-1.7B": {
+   "hf_id": "Qwen/Qwen3-1.7B",
+   "label": "Q3-1.7B",
+   "authors_T": [
+    1.4,
+    1.0
+   ]
+  },
+  "Qwen3-4B": {
+   "hf_id": "Qwen/Qwen3-4B",
+   "label": "Q3-4B",
+   "authors_T": [
+    1.4,
+    1.0
+   ]
+  },
+  "DeepSeek-R1-Distill-Qwen-7B": {
+   "hf_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+   "label": "R1-7B",
+   "authors_T": [
+    1.0,
+    1.0
+   ]
+  },
+  "DeepSeek-R1-Distill-Qwen-14B": {
+   "hf_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+   "label": "R1-14B",
+   "authors_T": null
+  },
+  "DeepSeek-R1-Distill-Qwen-32B": {
+   "hf_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+   "label": "R1-32B",
+   "authors_T": [
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "recipes": {
+  "ProRL v2": {
+   "model": "Nemotron-Research-Reasoning-Qwen-1.5B",
+   "hf_id": "nvidia/Nemotron-Research-Reasoning-Qwen-1.5B",
+   "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+   "train_cap": 8192,
+   "cap_label": "8k",
+   "group": "original",
+   "authors_T": null
+  },
+  "JustRL-D": {
+   "model": "JustRL-DeepSeek-1.5B",
+   "hf_id": "hbx/JustRL-DeepSeek-1.5B",
+   "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+   "train_cap": 16384,
+   "cap_label": "15k",
+   "group": "amend1",
+   "authors_T": null
+  },
+  "DeepScaleR": {
+   "model": "DeepScaleR-1.5B-Preview",
+   "hf_id": "agentica-org/DeepScaleR-1.5B-Preview",
+   "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+   "train_cap": 24576,
+   "cap_label": "8$\\to$24k",
+   "group": "original",
+   "authors_T": null
+  },
+  "DeepMath": {
+   "model": "DeepMath-1.5B",
+   "hf_id": "zwhe99/DeepMath-1.5B",
+   "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+   "train_cap": 24576,
+   "cap_label": "24k$^\\dagger$",
+   "group": "amend1",
+   "authors_T": null,
+   "notes": "soft cap: the overlong penalty starts at 20k"
+  },
+  "RLinf": {
+   "model": "RLinf-math-1.5B",
+   "hf_id": "RLinf/RLinf-math-1.5B",
+   "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+   "train_cap": 28672,
+   "cap_label": "27.6k",
+   "group": "amend1",
+   "authors_T": null
+  },
+  "STILL-3": {
+   "model": "STILL-3-1.5B-preview",
+   "hf_id": "RUC-AIBOX/STILL-3-1.5B-preview",
+   "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+   "train_cap": 28672,
+   "cap_label": "29k$^\\dagger$",
+   "group": "original",
+   "authors_T": null,
+   "notes": "read just below its 29k cap (28k is the nearest ladder budget)"
+  },
+  "AReaL": {
+   "model": "AReaL-1.5B-Preview-Stage-3",
+   "hf_id": "inclusionAI/AReaL-1.5B-Preview-Stage-3",
+   "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+   "train_cap": 24576,
+   "cap_label": "8$\\to$24k",
+   "group": "amend1",
+   "authors_T": null,
+   "notes": "ships float16 weights, read in bfloat16 like every model; its chat template does not append <think> after the assistant tag"
+  },
+  "Open-RS3": {
+   "model": "Open-RS3",
+   "hf_id": "knoveleng/Open-RS3",
+   "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+   "train_cap": 4096,
+   "cap_label": "3.5k",
+   "group": "original",
+   "authors_T": null
+  },
+  "JustRL-N": {
+   "model": "JustRL-Nemotron-1.5B",
+   "hf_id": "hbx/JustRL-Nemotron-1.5B",
+   "base": "OpenMath-Nemotron-1.5B",
+   "train_cap": 16384,
+   "cap_label": "15k",
+   "group": "added",
+   "authors_T": [
+    0.7,
+    1.0
+   ]
+  },
+  "QuestA": {
+   "model": "QuestA-Nemotron-1.5B",
+   "hf_id": "foreverlasting1202/QuestA-Nemotron-1.5B",
+   "base": "OpenMath-Nemotron-1.5B",
+   "train_cap": 24576,
+   "cap_label": "24k",
+   "group": "added",
+   "authors_T": [
+    0.7,
+    1.0
+   ],
+   "notes": "ships float16 weights"
+  },
+  "KnowRL": {
+   "model": "KnowRL-Nemotron-1.5B",
+   "hf_id": "HasuerYu/KnowRL-Nemotron-1.5B",
+   "base": "OpenMath-Nemotron-1.5B",
+   "train_cap": 24576,
+   "cap_label": "24k",
+   "group": "added",
+   "authors_T": [
+    0.7,
+    1.0
+   ]
+  },
+  "DeepMath-Omn": {
+   "model": "DeepMath-Omn-1.5B",
+   "hf_id": "zwhe99/DeepMath-Omn-1.5B",
+   "base": "OpenMath-Nemotron-1.5B",
+   "train_cap": 24576,
+   "cap_label": "24k$^\\dagger$",
+   "group": "added",
+   "authors_T": [
+    0.7,
+    1.0
+   ],
+   "notes": "soft cap, as DeepMath"
+  },
+  "e3": {
+   "model": "e3-1.7B",
+   "hf_id": "CMU-AIRe/e3-1.7B",
+   "base": "Qwen3-1.7B",
+   "train_cap": 16384,
+   "cap_label": "8$\\to$16k",
+   "group": "added",
+   "authors_T": null
+  },
+  "Polaris-1.7B": {
+   "model": "Polaris-1.7B-Preview",
+   "hf_id": "POLARIS-Project/Polaris-1.7B-Preview",
+   "base": "Qwen3-1.7B",
+   "train_cap": 49152,
+   "cap_label": "40$\\to$48k",
+   "group": "added",
+   "authors_T": [
+    1.4,
+    1.0
+   ],
+   "notes": "ships YaRN 1.5 over 65,536 and is loaded unchanged; read at and past the cap on physics only"
+  },
+  "Polaris-4B": {
+   "model": "Polaris-4B-Preview",
+   "hf_id": "POLARIS-Project/Polaris-4B-Preview",
+   "base": "Qwen3-4B",
+   "train_cap": 53248,
+   "cap_label": "40$\\to$52k",
+   "group": "original",
+   "authors_T": [
+    1.4,
+    1.0
+   ],
+   "notes": "as Polaris-1.7B"
+  },
+  "Skywork-7B": {
+   "model": "Skywork-OR1-7B",
+   "hf_id": "Skywork/Skywork-OR1-7B",
+   "base": "DeepSeek-R1-Distill-Qwen-7B",
+   "train_cap": 32768,
+   "cap_label": "16$\\to$32k",
+   "group": "original",
+   "authors_T": [
+    1.0,
+    1.0
+   ]
+  },
+  "AceReason-14B": {
+   "model": "AceReason-Nemotron-14B",
+   "hf_id": "nvidia/AceReason-Nemotron-14B",
+   "base": "DeepSeek-R1-Distill-Qwen-14B",
+   "train_cap": 32768,
+   "cap_label": "8$\\to$32k",
+   "group": "extra",
+   "authors_T": null
+  },
+  "Skywork-32B": {
+   "model": "Skywork-OR1-32B",
+   "hf_id": "Skywork/Skywork-OR1-32B",
+   "base": "DeepSeek-R1-Distill-Qwen-32B",
+   "train_cap": 24576,
+   "cap_label": "16$\\to$24k",
+   "group": "extra",
+   "authors_T": [
+    1.0,
+    1.0
+   ],
+   "notes": "the released checkpoint (step 1000) is in the 24k stage of the 16k -> 24k schedule (Skywork-OR1 report, Table 12), not the 32k the model card suggests"
+  },
+  "Skywork-Math": {
+   "model": "Skywork-OR1-Math-7B",
+   "hf_id": "Skywork/Skywork-OR1-Math-7B",
+   "base": "DeepSeek-R1-Distill-Qwen-7B",
+   "train_cap": 32768,
+   "cap_label": "8$\\to$32k",
+   "group": "original",
+   "authors_T": [
+    1.0,
+    1.0
+   ]
+  },
+  "AceReason": {
+   "model": "AceReason-Nemotron-7B",
+   "hf_id": "nvidia/AceReason-Nemotron-7B",
+   "base": "DeepSeek-R1-Distill-Qwen-7B",
+   "train_cap": 32768,
+   "cap_label": "8$\\to$32k",
+   "group": "original",
+   "authors_T": null
+  }
+ },
+ "groups": {
+  "_doc": "original = the first eight pairs (analysis fixed after seeing them); added = six pre-registered 2026-10-11 before any output existed; amend1 = four more registered the same day (amendment 1); extra = the 14B and 32B pairs, read in addition and not registered. The 18 registered recipes (original + added + amend1) are the fixed-budget study; all 20 enter the cap study.",
+  "registered": [
+   "original",
+   "added",
+   "amend1"
+  ]
+ }
+}

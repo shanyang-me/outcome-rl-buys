@@ -1,0 +1,146 @@
+{
+ "Qwen3-4B cap4096 post": {
+  "mean": 0.015873015873015872,
+  "finished": 0.015873015873015872,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.047619047619047616,
+  "mean_len": 4089.121031746032,
+  "n_items": 63
+ },
+ "Qwen3-4B cap4096 pre": {
+  "mean": 0.01936619718309859,
+  "finished": 0.01995305164319249,
+  "score_given_finished": 0.9705882352941176,
+  "any_solve8": 0.051643192488262914,
+  "mean_len": 4084.9964788732395,
+  "n_items": 213
+ },
+ "Qwen3-4B cap8192 post": {
+  "mean": 0.1527777777777778,
+  "finished": 0.1527777777777778,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.2698412698412698,
+  "mean_len": 7896.8234126984125,
+  "n_items": 63
+ },
+ "Qwen3-4B cap8192 pre": {
+  "mean": 0.1607981220657277,
+  "finished": 0.16901408450704225,
+  "score_given_finished": 0.9513888888888888,
+  "any_solve8": 0.2535211267605634,
+  "mean_len": 7819.780516431925,
+  "n_items": 213
+ },
+ "Qwen3-4B cap16384 post": {
+  "mean": 0.38492063492063494,
+  "finished": 0.4623015873015873,
+  "score_given_finished": 0.8326180257510729,
+  "any_solve8": 0.5396825396825397,
+  "mean_len": 13444.442460317461,
+  "n_items": 63
+ },
+ "Qwen3-4B cap16384 pre": {
+  "mean": 0.3996478873239437,
+  "finished": 0.4724178403755869,
+  "score_given_finished": 0.8459627329192546,
+  "any_solve8": 0.5539906103286385,
+  "mean_len": 13231.727699530516,
+  "n_items": 213
+ },
+ "Qwen3-4B cap24576 post": {
+  "mean": 0.4742063492063492,
+  "finished": 0.748015873015873,
+  "score_given_finished": 0.6339522546419099,
+  "any_solve8": 0.6349206349206349,
+  "mean_len": 16605.593253968254,
+  "n_items": 63
+ },
+ "Qwen3-4B cap24576 pre": {
+  "mean": 0.5070422535211268,
+  "finished": 0.7224178403755869,
+  "score_given_finished": 0.7018683996750609,
+  "any_solve8": 0.704225352112676,
+  "mean_len": 16499.93427230047,
+  "n_items": 213
+ },
+ "Qwen3-4B cap28672 post": {
+  "mean": 0.5,
+  "finished": 0.8373015873015873,
+  "score_given_finished": 0.5971563981042654,
+  "any_solve8": 0.7142857142857143,
+  "mean_len": 17455.384920634922,
+  "n_items": 63
+ },
+ "Qwen3-4B cap28672 pre": {
+  "mean": 0.5381455399061033,
+  "finished": 0.8415492957746479,
+  "score_given_finished": 0.6394700139470014,
+  "any_solve8": 0.7230046948356808,
+  "mean_len": 17377.663732394365,
+  "n_items": 213
+ },
+ "Qwen3-4B cap32768 post": {
+  "mean": 0.5099206349206349,
+  "finished": 0.9027777777777778,
+  "score_given_finished": 0.5648351648351648,
+  "any_solve8": 0.7142857142857143,
+  "mean_len": 17971.56746031746,
+  "n_items": 63
+ },
+ "Qwen3-4B cap32768 pre": {
+  "mean": 0.5522300469483568,
+  "finished": 0.8984741784037559,
+  "score_given_finished": 0.6146309601567603,
+  "any_solve8": 0.7230046948356808,
+  "mean_len": 17892.951877934272,
+  "n_items": 213
+ },
+ "Qwen3-4B cap36864 post": {
+  "mean": 0.5138888888888888,
+  "finished": 0.9325396825396826,
+  "score_given_finished": 0.551063829787234,
+  "any_solve8": 0.7142857142857143,
+  "mean_len": 18306.05753968254,
+  "n_items": 63
+ },
+ "Qwen3-4B cap36864 pre": {
+  "mean": 0.5598591549295775,
+  "finished": 0.9477699530516432,
+  "score_given_finished": 0.5907120743034056,
+  "any_solve8": 0.7276995305164319,
+  "mean_len": 18195.06572769953,
+  "n_items": 213
+ },
+ "Qwen3-4B cap49152 post": {
+  "mean": 0.5158730158730159,
+  "finished": 0.9781746031746031,
+  "score_given_finished": 0.5273833671399595,
+  "any_solve8": 0.7142857142857143,
+  "mean_len": 18761.51785714286,
+  "n_items": 63
+ },
+ "Qwen3-4B cap49152 pre": {
+  "mean": 0.562793427230047,
+  "finished": 0.982981220657277,
+  "score_given_finished": 0.5725373134328359,
+  "any_solve8": 0.7323943661971831,
+  "mean_len": 18550.07629107981,
+  "n_items": 213
+ },
+ "Qwen3-4B cap53248 post": {
+  "mean": 0.5158730158730159,
+  "finished": 0.9781746031746031,
+  "score_given_finished": 0.5273833671399595,
+  "any_solve8": 0.7142857142857143,
+  "mean_len": 18850.914682539682,
+  "n_items": 63
+ },
+ "Qwen3-4B cap53248 pre": {
+  "mean": 0.562793427230047,
+  "finished": 0.9853286384976526,
+  "score_given_finished": 0.5711733174508636,
+  "any_solve8": 0.7323943661971831,
+  "mean_len": 18614.755868544602,
+  "n_items": 213
+ }
+}

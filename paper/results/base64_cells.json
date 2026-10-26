@@ -1,0 +1,639 @@
+{
+ "ProRL v2": [
+  {
+   "id": "physcorp_3348",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "physcorp_3913",
+   "base_solved_of56": 4,
+   "robust": false
+  },
+  {
+   "id": "tbr_646306",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "physcorp_1719",
+   "base_solved_of56": 2,
+   "robust": true
+  },
+  {
+   "id": "tbr_172668",
+   "base_solved_of56": 0,
+   "robust": true
+  },
+  {
+   "id": "tbr_500712",
+   "base_solved_of56": 0,
+   "robust": true
+  },
+  {
+   "id": "tbr_245633",
+   "base_solved_of56": 0,
+   "robust": true
+  },
+  {
+   "id": "tbr_353756",
+   "base_solved_of56": 6,
+   "robust": false
+  }
+ ],
+ "JustRL-D": [
+  {
+   "id": "physcorp_3348",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "physcorp_2424",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "physcorp_3913",
+   "base_solved_of56": 4,
+   "robust": false
+  },
+  {
+   "id": "physcorp_2442",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "tbr_245633",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "physcorp_2013",
+   "base_solved_of56": 3,
+   "robust": false
+  },
+  {
+   "id": "tbr_353756",
+   "base_solved_of56": 6,
+   "robust": false
+  }
+ ],
+ "DeepScaleR": [
+  {
+   "id": "physcorp_3348",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "physcorp_2424",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "tbr_351598",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "physcorp_3913",
+   "base_solved_of56": 4,
+   "robust": false
+  },
+  {
+   "id": "tbr_495459",
+   "base_solved_of56": 10,
+   "robust": false
+  },
+  {
+   "id": "tbr_609067",
+   "base_solved_of56": 2,
+   "robust": false
+  },
+  {
+   "id": "physcorp_3043",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "tbr_353756",
+   "base_solved_of56": 6,
+   "robust": false
+  }
+ ],
+ "DeepMath": [
+  {
+   "id": "tbr_81921",
+   "base_solved_of56": 2,
+   "robust": false
+  },
+  {
+   "id": "physcorp_3913",
+   "base_solved_of56": 4,
+   "robust": false
+  },
+  {
+   "id": "tbr_495459",
+   "base_solved_of56": 10,
+   "robust": false
+  },
+  {
+   "id": "tbr_609067",
+   "base_solved_of56": 2,
+   "robust": false
+  },
+  {
+   "id": "physcorp_6029",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "physcorp_3043",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "tbr_353756",
+   "base_solved_of56": 6,
+   "robust": false
+  }
+ ],
+ "RLinf": [
+  {
+   "id": "physcorp_3776",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "physcorp_3348",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "physcorp_2424",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "physcorp_1719",
+   "base_solved_of56": 2,
+   "robust": false
+  },
+  {
+   "id": "tbr_609067",
+   "base_solved_of56": 2,
+   "robust": false
+  },
+  {
+   "id": "physcorp_6029",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "tbr_321204",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "tbr_245633",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "tbr_353756",
+   "base_solved_of56": 6,
+   "robust": false
+  }
+ ],
+ "STILL-3": [
+  {
+   "id": "physcorp_3348",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "tbr_479532",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "physcorp_3913",
+   "base_solved_of56": 4,
+   "robust": false
+  },
+  {
+   "id": "tbr_495459",
+   "base_solved_of56": 10,
+   "robust": false
+  },
+  {
+   "id": "physcorp_1719",
+   "base_solved_of56": 2,
+   "robust": false
+  },
+  {
+   "id": "physcorp_3043",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "tbr_353756",
+   "base_solved_of56": 6,
+   "robust": false
+  }
+ ],
+ "AReaL": [
+  {
+   "id": "physcorp_2424",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "tbr_495459",
+   "base_solved_of56": 10,
+   "robust": false
+  },
+  {
+   "id": "physcorp_1719",
+   "base_solved_of56": 2,
+   "robust": false
+  },
+  {
+   "id": "tbr_353756",
+   "base_solved_of56": 6,
+   "robust": false
+  }
+ ],
+ "Open-RS3": [
+  {
+   "id": "physcorp_3348",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "tbr_81921",
+   "base_solved_of56": 2,
+   "robust": false
+  },
+  {
+   "id": "tbr_495459",
+   "base_solved_of56": 10,
+   "robust": false
+  },
+  {
+   "id": "physcorp_1719",
+   "base_solved_of56": 2,
+   "robust": false
+  },
+  {
+   "id": "physcorp_3043",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "tbr_353756",
+   "base_solved_of56": 6,
+   "robust": false
+  },
+  {
+   "id": "tbr_79501",
+   "base_solved_of56": 0,
+   "robust": false
+  }
+ ],
+ "JustRL-N": [
+  {
+   "id": "tbr_136169",
+   "base_solved_of56": 3,
+   "robust": true
+  },
+  {
+   "id": "cal_problem_00335",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "physcorp_2424",
+   "base_solved_of56": 3,
+   "robust": false
+  },
+  {
+   "id": "cal_problem_01082",
+   "base_solved_of56": 11,
+   "robust": false
+  },
+  {
+   "id": "cal_problem_01093",
+   "base_solved_of56": 2,
+   "robust": false
+  },
+  {
+   "id": "physicsb_1808",
+   "base_solved_of56": 5,
+   "robust": false
+  },
+  {
+   "id": "physicsb_3952",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "physcorp_1714",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "tbr_81921",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "tbr_323328",
+   "base_solved_of56": 20,
+   "robust": false
+  },
+  {
+   "id": "physcorp_6029",
+   "base_solved_of56": 2,
+   "robust": false
+  },
+  {
+   "id": "physcorp_3616",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "physcorp_610",
+   "base_solved_of56": 0,
+   "robust": false
+  }
+ ],
+ "QuestA": [
+  {
+   "id": "physcorp_2424",
+   "base_solved_of56": 3,
+   "robust": false
+  },
+  {
+   "id": "cal_problem_01082",
+   "base_solved_of56": 11,
+   "robust": false
+  }
+ ],
+ "KnowRL": [
+  {
+   "id": "tbr_274639",
+   "base_solved_of56": 3,
+   "robust": false
+  },
+  {
+   "id": "tbr_136169",
+   "base_solved_of56": 3,
+   "robust": false
+  },
+  {
+   "id": "physcorp_4043",
+   "base_solved_of56": 2,
+   "robust": false
+  },
+  {
+   "id": "physcorp_3344",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "physicsb_3952",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "physcorp_1714",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "tbr_178377",
+   "base_solved_of56": 0,
+   "robust": false
+  }
+ ],
+ "DeepMath-Omn": [
+  {
+   "id": "tbr_274639",
+   "base_solved_of56": 3,
+   "robust": false
+  },
+  {
+   "id": "tbr_136169",
+   "base_solved_of56": 3,
+   "robust": false
+  },
+  {
+   "id": "cal_problem_01082",
+   "base_solved_of56": 11,
+   "robust": true
+  },
+  {
+   "id": "tbr_81921",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "tbr_323328",
+   "base_solved_of56": 20,
+   "robust": false
+  },
+  {
+   "id": "physcorp_5518",
+   "base_solved_of56": 1,
+   "robust": false
+  }
+ ],
+ "e3": [
+  {
+   "id": "physcorp_1076",
+   "base_solved_of56": 2,
+   "robust": false
+  },
+  {
+   "id": "physcorp_2983",
+   "base_solved_of56": 3,
+   "robust": false
+  },
+  {
+   "id": "physcorp_6368",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "tbr_333529",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "tbr_78665",
+   "base_solved_of56": 8,
+   "robust": false
+  },
+  {
+   "id": "tbr_462584",
+   "base_solved_of56": 1,
+   "robust": false
+  }
+ ],
+ "Skywork-7B": [
+  {
+   "id": "physcorp_3348",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "physcorp_3717",
+   "base_solved_of56": 3,
+   "robust": false
+  },
+  {
+   "id": "tbr_106015",
+   "base_solved_of56": 4,
+   "robust": true
+  },
+  {
+   "id": "cal_problem_01040",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "physcorp_3132",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "tbr_479532",
+   "base_solved_of56": 5,
+   "robust": false
+  },
+  {
+   "id": "tbr_22163",
+   "base_solved_of56": 0,
+   "robust": true
+  },
+  {
+   "id": "physcorp_397",
+   "base_solved_of56": 17,
+   "robust": false
+  },
+  {
+   "id": "physicsb_2258",
+   "base_solved_of56": 3,
+   "robust": true
+  },
+  {
+   "id": "tbr_500712",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "tbr_462584",
+   "base_solved_of56": 14,
+   "robust": true
+  }
+ ],
+ "Skywork-Math": [
+  {
+   "id": "tbr_539290",
+   "base_solved_of56": 3,
+   "robust": false
+  },
+  {
+   "id": "physcorp_4878",
+   "base_solved_of56": 2,
+   "robust": false
+  },
+  {
+   "id": "tbr_106015",
+   "base_solved_of56": 4,
+   "robust": true
+  },
+  {
+   "id": "cal_problem_01040",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "tbr_22163",
+   "base_solved_of56": 0,
+   "robust": true
+  },
+  {
+   "id": "physcorp_397",
+   "base_solved_of56": 17,
+   "robust": false
+  },
+  {
+   "id": "physicsb_2258",
+   "base_solved_of56": 3,
+   "robust": true
+  },
+  {
+   "id": "tbr_500712",
+   "base_solved_of56": 0,
+   "robust": true
+  },
+  {
+   "id": "tbr_245633",
+   "base_solved_of56": 0,
+   "robust": false
+  },
+  {
+   "id": "tbr_462584",
+   "base_solved_of56": 14,
+   "robust": true
+  }
+ ],
+ "AceReason": [
+  {
+   "id": "tbr_539290",
+   "base_solved_of56": 3,
+   "robust": false
+  },
+  {
+   "id": "tbr_106015",
+   "base_solved_of56": 4,
+   "robust": true
+  },
+  {
+   "id": "physcorp_3132",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "tbr_479532",
+   "base_solved_of56": 5,
+   "robust": false
+  },
+  {
+   "id": "tbr_646306",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "physcorp_397",
+   "base_solved_of56": 17,
+   "robust": true
+  },
+  {
+   "id": "physicsb_2258",
+   "base_solved_of56": 3,
+   "robust": true
+  },
+  {
+   "id": "physcorp_5247",
+   "base_solved_of56": 1,
+   "robust": false
+  },
+  {
+   "id": "tbr_462584",
+   "base_solved_of56": 14,
+   "robust": false
+  }
+ ]
+}

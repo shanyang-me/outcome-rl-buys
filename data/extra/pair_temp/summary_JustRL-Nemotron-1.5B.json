@@ -1,0 +1,82 @@
+{
+ "JustRL-Nemotron-1.5B cap4096 phys": {
+  "mean": 0.027083333333333334,
+  "finished": 0.05125,
+  "score_given_finished": 0.5284552845528455,
+  "any_solve8": 0.07666666666666666,
+  "mean_len": 4052.7075,
+  "n_items": 300
+ },
+ "JustRL-Nemotron-1.5B cap8192 phys": {
+  "mean": 0.14888888888888888,
+  "finished": 0.36666666666666664,
+  "score_given_finished": 0.40606060606060607,
+  "any_solve8": 0.26,
+  "mean_len": 7344.96875,
+  "n_items": 300
+ },
+ "JustRL-Nemotron-1.5B cap16384 phys": {
+  "mean": 0.26545138888888886,
+  "finished": 0.96625,
+  "score_given_finished": 0.2747233002731062,
+  "any_solve8": 0.37,
+  "mean_len": 9538.681666666667,
+  "n_items": 300
+ },
+ "JustRL-Nemotron-1.5B cap24576 phys": {
+  "mean": 0.2678125,
+  "finished": 0.9954166666666666,
+  "score_given_finished": 0.2690456257848472,
+  "any_solve8": 0.37333333333333335,
+  "mean_len": 9616.347916666668,
+  "n_items": 300
+ },
+ "JustRL-Nemotron-1.5B cap28672 phys": {
+  "mean": 0.2680208333333333,
+  "finished": 0.9958333333333333,
+  "score_given_finished": 0.2691422594142259,
+  "any_solve8": 0.37333333333333335,
+  "mean_len": 9633.675833333333,
+  "n_items": 300
+ },
+ "JustRL-Nemotron-1.5B cap32768 phys": {
+  "mean": 0.2680208333333333,
+  "finished": 0.9958333333333333,
+  "score_given_finished": 0.2691422594142259,
+  "any_solve8": 0.37333333333333335,
+  "mean_len": 9650.7425,
+  "n_items": 300
+ },
+ "JustRL-Nemotron-1.5B cap36864 phys": {
+  "mean": 0.2680208333333333,
+  "finished": 0.9958333333333333,
+  "score_given_finished": 0.2691422594142259,
+  "any_solve8": 0.37333333333333335,
+  "mean_len": 9667.809166666666,
+  "n_items": 300
+ },
+ "JustRL-Nemotron-1.5B cap49152 phys": {
+  "mean": 0.2680208333333333,
+  "finished": 0.9966666666666667,
+  "score_given_finished": 0.2689172240802676,
+  "any_solve8": 0.37333333333333335,
+  "mean_len": 9714.42375,
+  "n_items": 300
+ },
+ "JustRL-Nemotron-1.5B cap53248 phys": {
+  "mean": 0.2680208333333333,
+  "finished": 0.9966666666666667,
+  "score_given_finished": 0.2689172240802676,
+  "any_solve8": 0.37333333333333335,
+  "mean_len": 9728.077083333334,
+  "n_items": 300
+ },
+ "JustRL-Nemotron-1.5B cap65536 phys": {
+  "mean": 0.2680208333333333,
+  "finished": 0.9966666666666667,
+  "score_given_finished": 0.2689172240802676,
+  "any_solve8": 0.37333333333333335,
+  "mean_len": 9769.037083333333,
+  "n_items": 300
+ }
+}

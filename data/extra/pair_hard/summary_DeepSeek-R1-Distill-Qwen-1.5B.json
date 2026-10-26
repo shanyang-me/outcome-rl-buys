@@ -1,0 +1,82 @@
+{
+ "DeepSeek-R1-Distill-Qwen-1.5B cap4096 hard": {
+  "mean": 0.04137473460721868,
+  "finished": 0.10960721868365181,
+  "score_given_finished": 0.3774818401937046,
+  "any_solve8": 0.11464968152866242,
+  "mean_len": 3938.2762738853503,
+  "n_items": 471
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap4096 refill": {
+  "mean": 0.059375,
+  "finished": 0.14,
+  "score_given_finished": 0.42410714285714285,
+  "any_solve8": 0.12,
+  "mean_len": 3897.12125,
+  "n_items": 200
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap8192 hard": {
+  "mean": 0.07128134162369831,
+  "finished": 0.29432059447983017,
+  "score_given_finished": 0.2421894456610417,
+  "any_solve8": 0.16560509554140126,
+  "mean_len": 7225.002653927813,
+  "n_items": 471
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap8192 refill": {
+  "mean": 0.09763888888888889,
+  "finished": 0.388125,
+  "score_given_finished": 0.25156557523707285,
+  "any_solve8": 0.2,
+  "mean_len": 6914.703125,
+  "n_items": 200
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap16384 hard": {
+  "mean": 0.09058803457688808,
+  "finished": 0.7314225053078556,
+  "score_given_finished": 0.12385185569147833,
+  "any_solve8": 0.1932059447983015,
+  "mean_len": 11221.924363057326,
+  "n_items": 471
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap16384 refill": {
+  "mean": 0.13274305555555554,
+  "finished": 0.795625,
+  "score_given_finished": 0.16684123243431964,
+  "any_solve8": 0.26,
+  "mean_len": 10102.956875,
+  "n_items": 200
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap24576 hard": {
+  "mean": 0.09448046203619452,
+  "finished": 0.916135881104034,
+  "score_given_finished": 0.10312931082050433,
+  "any_solve8": 0.19957537154989385,
+  "mean_len": 12434.277335456476,
+  "n_items": 471
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap24576 refill": {
+  "mean": 0.1409375,
+  "finished": 0.926875,
+  "score_given_finished": 0.15205664194200944,
+  "any_solve8": 0.285,
+  "mean_len": 11068.48875,
+  "n_items": 200
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap28672 hard": {
+  "mean": 0.09448046203619452,
+  "finished": 0.9323248407643312,
+  "score_given_finished": 0.10133856559988072,
+  "any_solve8": 0.19957537154989385,
+  "mean_len": 12742.251326963906,
+  "n_items": 471
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap28672 refill": {
+  "mean": 0.1421875,
+  "finished": 0.948125,
+  "score_given_finished": 0.14996704021094265,
+  "any_solve8": 0.285,
+  "mean_len": 11321.93125,
+  "n_items": 200
+ }
+}

@@ -1,0 +1,2148 @@
+{
+ "ProRL v2": {
+  "base": "R1-1.5B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 74,
+   "n_never_rl": 186,
+   "rl_on_N": {
+    "1": 10,
+    "2": 8,
+    "4": 6,
+    "8": 1
+   },
+   "base_on_Nr": {
+    "1": 19,
+    "2": 8,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:physcorp_1719",
+    "phys:tbr_172668",
+    "phys:tbr_500712",
+    "phys:tbr_245633",
+    "math:test/prealgebra/105.json",
+    "math:test/prealgebra/1128.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_3348",
+    "phys:physcorp_3913",
+    "phys:tbr_646306",
+    "phys:physcorp_1719",
+    "phys:tbr_172668",
+    "phys:tbr_500712",
+    "phys:tbr_245633",
+    "phys:tbr_353756",
+    "math:test/prealgebra/105.json",
+    "math:test/prealgebra/1128.json"
+   ],
+   "mirror_robust_ids": []
+  },
+  "at 8k": {
+   "n": 800,
+   "n_never_base": 34,
+   "n_never_rl": 167,
+   "rl_on_N": {
+    "1": 4,
+    "2": 3,
+    "4": 3,
+    "8": 1
+   },
+   "base_on_Nr": {
+    "1": 12,
+    "2": 0,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_500712",
+    "phys:tbr_245633",
+    "math:test/prealgebra/105.json"
+   ],
+   "any_ids": [
+    "phys:tbr_646306",
+    "phys:tbr_500712",
+    "phys:tbr_245633",
+    "math:test/prealgebra/105.json"
+   ],
+   "mirror_robust_ids": []
+  },
+  "beyond 16k": {
+   "n": 800,
+   "n_never_base": 80,
+   "n_never_rl": 187,
+   "rl_on_N": {
+    "1": 10,
+    "2": 7,
+    "4": 6,
+    "8": 1
+   },
+   "base_on_Nr": {
+    "1": 20,
+    "2": 3,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:physcorp_3717",
+    "phys:tbr_22163",
+    "phys:tbr_500712",
+    "phys:physcorp_3104",
+    "phys:tbr_245633",
+    "math:test/prealgebra/105.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_3717",
+    "phys:tbr_277596",
+    "phys:tbr_646306",
+    "phys:tbr_22163",
+    "phys:physcorp_397",
+    "phys:tbr_500712",
+    "phys:physcorp_3104",
+    "phys:tbr_245633",
+    "phys:tbr_353756",
+    "math:test/prealgebra/105.json"
+   ],
+   "mirror_robust_ids": []
+  }
+ },
+ "JustRL-D": {
+  "base": "R1-1.5B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 74,
+   "n_never_rl": 159,
+   "rl_on_N": {
+    "1": 9,
+    "2": 1,
+    "4": 0,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 15,
+    "2": 5,
+    "4": 2,
+    "8": 0
+   },
+   "robust_ids": [],
+   "any_ids": [
+    "phys:physcorp_3348",
+    "phys:physcorp_2424",
+    "phys:physcorp_3913",
+    "phys:physcorp_2442",
+    "phys:tbr_245633",
+    "phys:physcorp_2013",
+    "phys:tbr_353756",
+    "math:test/prealgebra/105.json",
+    "math:test/prealgebra/1128.json"
+   ],
+   "mirror_robust_ids": [
+    "math:test/number_theory/847.json",
+    "math:test/number_theory/368.json"
+   ]
+  },
+  "at 16k": {
+   "n": 800,
+   "n_never_base": 80,
+   "n_never_rl": 160,
+   "rl_on_N": {
+    "1": 10,
+    "2": 3,
+    "4": 1,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 16,
+    "2": 5,
+    "4": 2,
+    "8": 0
+   },
+   "robust_ids": [
+    "math:test/precalculus/768.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_3717",
+    "phys:physcorp_2424",
+    "phys:physcorp_2442",
+    "phys:physcorp_397",
+    "phys:physcorp_3104",
+    "phys:tbr_245633",
+    "phys:physcorp_2013",
+    "phys:tbr_353756",
+    "math:test/prealgebra/105.json",
+    "math:test/precalculus/768.json"
+   ],
+   "mirror_robust_ids": [
+    "math:test/number_theory/847.json",
+    "math:test/number_theory/368.json"
+   ]
+  },
+  "beyond 24k": {
+   "n": 800,
+   "n_never_base": 129,
+   "n_never_rl": 177,
+   "rl_on_N": {
+    "1": 23,
+    "2": 8,
+    "4": 3,
+    "8": 1
+   },
+   "base_on_Nr": {
+    "1": 22,
+    "2": 6,
+    "4": 2,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_558505",
+    "math:test/counting_and_probability/525.json",
+    "math:test/precalculus/768.json"
+   ],
+   "any_ids": [
+    "phys:tbr_558505",
+    "phys:physcorp_3348",
+    "phys:physcorp_3717",
+    "phys:physcorp_5657",
+    "phys:physcorp_2424",
+    "phys:physcorp_1953",
+    "phys:physcorp_4337",
+    "phys:physcorp_318",
+    "phys:physicsb_2293",
+    "phys:physcorp_2442",
+    "phys:physcorp_3099",
+    "phys:physcorp_3829",
+    "phys:physcorp_3616",
+    "phys:physcorp_397",
+    "phys:physcorp_3104",
+    "phys:tbr_245633",
+    "phys:physcorp_2013",
+    "phys:tbr_353756",
+    "math:test/counting_and_probability/525.json",
+    "math:test/prealgebra/1646.json",
+    "math:test/prealgebra/105.json",
+    "math:test/counting_and_probability/765.json",
+    "math:test/precalculus/768.json"
+   ],
+   "mirror_robust_ids": [
+    "math:test/number_theory/847.json",
+    "math:test/number_theory/368.json"
+   ]
+  }
+ },
+ "DeepScaleR": {
+  "base": "R1-1.5B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 74,
+   "n_never_rl": 163,
+   "rl_on_N": {
+    "1": 9,
+    "2": 2,
+    "4": 0,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 16,
+    "2": 6,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [],
+   "any_ids": [
+    "phys:physcorp_3348",
+    "phys:physcorp_2424",
+    "phys:tbr_351598",
+    "phys:physcorp_3913",
+    "phys:tbr_495459",
+    "phys:tbr_609067",
+    "phys:physcorp_3043",
+    "phys:tbr_353756",
+    "math:test/prealgebra/1128.json"
+   ],
+   "mirror_robust_ids": []
+  },
+  "at 24k": {
+   "n": 800,
+   "n_never_base": 129,
+   "n_never_rl": 176,
+   "rl_on_N": {
+    "1": 21,
+    "2": 9,
+    "4": 2,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 24,
+    "2": 5,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_558505",
+    "phys:physcorp_318"
+   ],
+   "any_ids": [
+    "phys:tbr_558505",
+    "phys:physcorp_3348",
+    "phys:physcorp_3717",
+    "phys:physicsb_2925",
+    "phys:physcorp_5279",
+    "phys:physcorp_2424",
+    "phys:tbr_351598",
+    "phys:cal_problem_01093",
+    "phys:physicsb_7678",
+    "phys:physcorp_2849",
+    "phys:physcorp_318",
+    "phys:physicsb_2293",
+    "phys:tbr_619005",
+    "phys:tbr_609067",
+    "phys:physcorp_3043",
+    "phys:tbr_353756",
+    "phys:tbr_289366",
+    "math:test/counting_and_probability/525.json",
+    "math:test/prealgebra/1646.json",
+    "math:test/counting_and_probability/765.json",
+    "math:test/number_theory/928.json"
+   ],
+   "mirror_robust_ids": []
+  },
+  "beyond 28k": {
+   "n": 800,
+   "n_never_base": 141,
+   "n_never_rl": 177,
+   "rl_on_N": {
+    "1": 26,
+    "2": 11,
+    "4": 2,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 24,
+    "2": 5,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_558505",
+    "phys:physcorp_318"
+   ],
+   "any_ids": [
+    "phys:physcorp_3933",
+    "phys:tbr_558505",
+    "phys:physcorp_3348",
+    "phys:physcorp_3717",
+    "phys:physicsb_2925",
+    "phys:physcorp_6137",
+    "phys:physcorp_5279",
+    "phys:physcorp_2424",
+    "phys:tbr_351598",
+    "phys:cal_problem_01093",
+    "phys:physicsb_7678",
+    "phys:physcorp_2849",
+    "phys:physcorp_318",
+    "phys:physicsb_2293",
+    "phys:tbr_619005",
+    "phys:tbr_609067",
+    "phys:physcorp_3043",
+    "phys:physicsb_716",
+    "phys:tbr_353756",
+    "phys:tbr_289366",
+    "math:test/counting_and_probability/525.json",
+    "math:test/prealgebra/1646.json",
+    "math:test/intermediate_algebra/582.json",
+    "math:test/counting_and_probability/765.json",
+    "math:test/precalculus/801.json",
+    "math:test/number_theory/928.json"
+   ],
+   "mirror_robust_ids": []
+  }
+ },
+ "DeepMath": {
+  "base": "R1-1.5B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 74,
+   "n_never_rl": 140,
+   "rl_on_N": {
+    "1": 9,
+    "2": 4,
+    "4": 0,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 5,
+    "2": 2,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [],
+   "any_ids": [
+    "phys:tbr_81921",
+    "phys:physcorp_3913",
+    "phys:tbr_495459",
+    "phys:tbr_609067",
+    "phys:physcorp_6029",
+    "phys:physcorp_3043",
+    "phys:tbr_353756",
+    "math:test/prealgebra/105.json",
+    "math:test/prealgebra/1128.json"
+   ],
+   "mirror_robust_ids": []
+  },
+  "at 24k": {
+   "n": 800,
+   "n_never_base": 129,
+   "n_never_rl": 170,
+   "rl_on_N": {
+    "1": 19,
+    "2": 13,
+    "4": 1,
+    "8": 1
+   },
+   "base_on_Nr": {
+    "1": 14,
+    "2": 2,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_558505"
+   ],
+   "any_ids": [
+    "phys:tbr_558505",
+    "phys:physcorp_3717",
+    "phys:cal_problem_01040",
+    "phys:cal_problem_01093",
+    "phys:tbr_623123",
+    "phys:physicsb_2293",
+    "phys:physcorp_3099",
+    "phys:tbr_619005",
+    "phys:physcorp_3829",
+    "phys:physicsb_15",
+    "phys:physcorp_3104",
+    "phys:tbr_353756",
+    "phys:tbr_289366",
+    "math:test/counting_and_probability/525.json",
+    "math:test/prealgebra/1646.json",
+    "math:test/prealgebra/105.json",
+    "math:test/counting_and_probability/765.json",
+    "math:test/precalculus/768.json",
+    "math:test/number_theory/928.json"
+   ],
+   "mirror_robust_ids": [
+    "math:test/intermediate_algebra/1279.json"
+   ]
+  },
+  "beyond 28k": {
+   "n": 800,
+   "n_never_base": 141,
+   "n_never_rl": 172,
+   "rl_on_N": {
+    "1": 24,
+    "2": 15,
+    "4": 2,
+    "8": 1
+   },
+   "base_on_Nr": {
+    "1": 14,
+    "2": 2,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_558505",
+    "math:test/intermediate_algebra/582.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_4130",
+    "phys:tbr_558505",
+    "phys:physcorp_3717",
+    "phys:cal_problem_01040",
+    "phys:cal_problem_01093",
+    "phys:tbr_623123",
+    "phys:physcorp_398",
+    "phys:physicsb_2293",
+    "phys:physcorp_3099",
+    "phys:tbr_619005",
+    "phys:physcorp_3829",
+    "phys:physcorp_1160",
+    "phys:physicsb_15",
+    "phys:physcorp_3104",
+    "phys:physicsb_716",
+    "phys:tbr_353756",
+    "phys:tbr_289366",
+    "math:test/counting_and_probability/525.json",
+    "math:test/prealgebra/1646.json",
+    "math:test/prealgebra/105.json",
+    "math:test/intermediate_algebra/582.json",
+    "math:test/counting_and_probability/765.json",
+    "math:test/precalculus/768.json",
+    "math:test/number_theory/928.json"
+   ],
+   "mirror_robust_ids": [
+    "math:test/intermediate_algebra/1279.json"
+   ]
+  }
+ },
+ "RLinf": {
+  "base": "R1-1.5B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 74,
+   "n_never_rl": 125,
+   "rl_on_N": {
+    "1": 11,
+    "2": 5,
+    "4": 2,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 18,
+    "2": 6,
+    "4": 2,
+    "8": 0
+   },
+   "robust_ids": [
+    "math:test/prealgebra/105.json",
+    "math:test/prealgebra/1128.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_3776",
+    "phys:physcorp_3348",
+    "phys:physcorp_2424",
+    "phys:physcorp_1719",
+    "phys:tbr_609067",
+    "phys:physcorp_6029",
+    "phys:tbr_321204",
+    "phys:tbr_245633",
+    "phys:tbr_353756",
+    "math:test/prealgebra/105.json",
+    "math:test/prealgebra/1128.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:physicsb_7699",
+    "math:test/prealgebra/1865.json"
+   ]
+  },
+  "at 28k": {
+   "n": 800,
+   "n_never_base": 141,
+   "n_never_rl": 180,
+   "rl_on_N": {
+    "1": 25,
+    "2": 16,
+    "4": 5,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 28,
+    "2": 10,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_558505",
+    "math:test/counting_and_probability/525.json",
+    "math:test/prealgebra/105.json",
+    "math:test/intermediate_algebra/582.json",
+    "math:test/counting_and_probability/765.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_4130",
+    "phys:physcorp_3776",
+    "phys:tbr_558505",
+    "phys:physcorp_3348",
+    "phys:physcorp_2424",
+    "phys:physcorp_1953",
+    "phys:physcorp_4337",
+    "phys:physcorp_318",
+    "phys:tbr_22163",
+    "phys:physcorp_3099",
+    "phys:tbr_619005",
+    "phys:tbr_609067",
+    "phys:physcorp_1160",
+    "phys:tbr_321204",
+    "phys:physcorp_3104",
+    "phys:tbr_245633",
+    "phys:tbr_353756",
+    "phys:tbr_289366",
+    "math:test/counting_and_probability/525.json",
+    "math:test/prealgebra/1646.json",
+    "math:test/prealgebra/105.json",
+    "math:test/intermediate_algebra/582.json",
+    "math:test/counting_and_probability/765.json",
+    "math:test/precalculus/801.json",
+    "math:test/number_theory/928.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:physicsb_7699"
+   ]
+  },
+  "beyond 32k": {
+   "n": 800,
+   "n_never_base": 157,
+   "n_never_rl": 191,
+   "rl_on_N": {
+    "1": 29,
+    "2": 18,
+    "4": 6,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 30,
+    "2": 10,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_558505",
+    "phys:tbr_78665",
+    "math:test/counting_and_probability/525.json",
+    "math:test/prealgebra/105.json",
+    "math:test/intermediate_algebra/582.json",
+    "math:test/counting_and_probability/765.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_4130",
+    "phys:tbr_10275",
+    "phys:physcorp_3776",
+    "phys:tbr_558505",
+    "phys:physcorp_3348",
+    "phys:physcorp_2783",
+    "phys:physcorp_2424",
+    "phys:physcorp_1953",
+    "phys:physcorp_4337",
+    "phys:physcorp_318",
+    "phys:tbr_22163",
+    "phys:physcorp_3099",
+    "phys:tbr_619005",
+    "phys:tbr_609067",
+    "phys:physcorp_6029",
+    "phys:physcorp_1160",
+    "phys:tbr_321204",
+    "phys:physcorp_3104",
+    "phys:tbr_245633",
+    "phys:tbr_78665",
+    "phys:tbr_353756",
+    "phys:tbr_289366",
+    "math:test/counting_and_probability/525.json",
+    "math:test/prealgebra/1646.json",
+    "math:test/prealgebra/105.json",
+    "math:test/intermediate_algebra/582.json",
+    "math:test/counting_and_probability/765.json",
+    "math:test/precalculus/801.json",
+    "math:test/number_theory/928.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:physicsb_7699"
+   ]
+  }
+ },
+ "STILL-3": {
+  "base": "R1-1.5B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 74,
+   "n_never_rl": 115,
+   "rl_on_N": {
+    "1": 8,
+    "2": 2,
+    "4": 0,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 8,
+    "2": 2,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [],
+   "any_ids": [
+    "phys:physcorp_3348",
+    "phys:tbr_479532",
+    "phys:physcorp_3913",
+    "phys:tbr_495459",
+    "phys:physcorp_1719",
+    "phys:physcorp_3043",
+    "phys:tbr_353756",
+    "math:test/prealgebra/1128.json"
+   ],
+   "mirror_robust_ids": []
+  },
+  "at 28k": {
+   "n": 800,
+   "n_never_base": 141,
+   "n_never_rl": 144,
+   "rl_on_N": {
+    "1": 19,
+    "2": 8,
+    "4": 1,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 12,
+    "2": 1,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_558505"
+   ],
+   "any_ids": [
+    "phys:tbr_558505",
+    "phys:physcorp_3348",
+    "phys:physcorp_3717",
+    "phys:cal_problem_01093",
+    "phys:physcorp_1953",
+    "phys:physcorp_318",
+    "phys:tbr_479532",
+    "phys:physcorp_3099",
+    "phys:tbr_619005",
+    "phys:physcorp_397",
+    "phys:physicsb_15",
+    "phys:physcorp_3104",
+    "phys:tbr_353756",
+    "phys:tbr_289366",
+    "math:test/counting_and_probability/525.json",
+    "math:test/prealgebra/1646.json",
+    "math:test/intermediate_algebra/582.json",
+    "math:test/counting_and_probability/765.json",
+    "math:test/precalculus/801.json"
+   ],
+   "mirror_robust_ids": []
+  },
+  "beyond 32k": {
+   "n": 800,
+   "n_never_base": 157,
+   "n_never_rl": 150,
+   "rl_on_N": {
+    "1": 23,
+    "2": 9,
+    "4": 1,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 12,
+    "2": 1,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_558505"
+   ],
+   "any_ids": [
+    "phys:tbr_558505",
+    "phys:physcorp_3348",
+    "phys:physcorp_3717",
+    "phys:physcorp_1358",
+    "phys:physcorp_715",
+    "phys:cal_problem_01093",
+    "phys:physcorp_1953",
+    "phys:physcorp_318",
+    "phys:tbr_479532",
+    "phys:physcorp_2974",
+    "phys:physcorp_3099",
+    "phys:tbr_619005",
+    "phys:physcorp_397",
+    "phys:physicsb_15",
+    "phys:physcorp_3104",
+    "phys:tbr_78665",
+    "phys:tbr_353756",
+    "phys:tbr_289366",
+    "math:test/counting_and_probability/525.json",
+    "math:test/prealgebra/1646.json",
+    "math:test/intermediate_algebra/582.json",
+    "math:test/counting_and_probability/765.json",
+    "math:test/precalculus/801.json"
+   ],
+   "mirror_robust_ids": []
+  }
+ },
+ "AReaL": {
+  "base": "R1-1.5B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 74,
+   "n_never_rl": 97,
+   "rl_on_N": {
+    "1": 5,
+    "2": 1,
+    "4": 0,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 11,
+    "2": 4,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [],
+   "any_ids": [
+    "phys:physcorp_2424",
+    "phys:tbr_495459",
+    "phys:physcorp_1719",
+    "phys:tbr_353756",
+    "math:test/prealgebra/1128.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:physcorp_417"
+   ]
+  },
+  "at 24k": {
+   "n": 800,
+   "n_never_base": 129,
+   "n_never_rl": 150,
+   "rl_on_N": {
+    "1": 17,
+    "2": 6,
+    "4": 1,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 15,
+    "2": 4,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "math:test/prealgebra/1646.json"
+   ],
+   "any_ids": [
+    "phys:tbr_558505",
+    "phys:physcorp_2424",
+    "phys:cal_problem_01093",
+    "phys:physcorp_1953",
+    "phys:physcorp_318",
+    "phys:physicsb_2293",
+    "phys:tbr_479532",
+    "phys:physcorp_3099",
+    "phys:tbr_619005",
+    "phys:tbr_609067",
+    "phys:physcorp_397",
+    "phys:tbr_353756",
+    "math:test/counting_and_probability/525.json",
+    "math:test/prealgebra/1646.json",
+    "math:test/prealgebra/105.json",
+    "math:test/counting_and_probability/765.json",
+    "math:test/number_theory/928.json"
+   ],
+   "mirror_robust_ids": []
+  },
+  "beyond 28k": {
+   "n": 800,
+   "n_never_base": 141,
+   "n_never_rl": 165,
+   "rl_on_N": {
+    "1": 20,
+    "2": 7,
+    "4": 1,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 21,
+    "2": 5,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [
+    "math:test/prealgebra/1646.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_4130",
+    "phys:tbr_558505",
+    "phys:physcorp_2424",
+    "phys:cal_problem_01093",
+    "phys:physcorp_1953",
+    "phys:physcorp_318",
+    "phys:physicsb_2293",
+    "phys:tbr_479532",
+    "phys:physcorp_3099",
+    "phys:tbr_619005",
+    "phys:tbr_609067",
+    "phys:physcorp_1160",
+    "phys:physcorp_397",
+    "phys:tbr_353756",
+    "math:test/counting_and_probability/525.json",
+    "math:test/prealgebra/1646.json",
+    "math:test/prealgebra/105.json",
+    "math:test/counting_and_probability/765.json",
+    "math:test/precalculus/801.json",
+    "math:test/number_theory/928.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:tbr_178377"
+   ]
+  }
+ },
+ "Open-RS3": {
+  "base": "R1-1.5B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 74,
+   "n_never_rl": 76,
+   "rl_on_N": {
+    "1": 7,
+    "2": 3,
+    "4": 0,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 9,
+    "2": 1,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [],
+   "any_ids": [
+    "phys:physcorp_3348",
+    "phys:tbr_81921",
+    "phys:tbr_495459",
+    "phys:physcorp_1719",
+    "phys:physcorp_3043",
+    "phys:tbr_353756",
+    "phys:tbr_79501"
+   ],
+   "mirror_robust_ids": []
+  },
+  "at 4k": {
+   "n": 800,
+   "n_never_base": 17,
+   "n_never_rl": 19,
+   "rl_on_N": {
+    "1": 0,
+    "2": 0,
+    "4": 0,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 0,
+    "2": 0,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [],
+   "any_ids": [],
+   "mirror_robust_ids": []
+  },
+  "beyond 8k": {
+   "n": 800,
+   "n_never_base": 34,
+   "n_never_rl": 32,
+   "rl_on_N": {
+    "1": 0,
+    "2": 0,
+    "4": 0,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 3,
+    "2": 0,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [],
+   "any_ids": [],
+   "mirror_robust_ids": []
+  }
+ },
+ "JustRL-N": {
+  "base": "OMN-1.5B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 157,
+   "n_never_rl": 182,
+   "rl_on_N": {
+    "1": 15,
+    "2": 6,
+    "4": 1,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 14,
+    "2": 4,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_136169"
+   ],
+   "any_ids": [
+    "phys:tbr_136169",
+    "phys:cal_problem_00335",
+    "phys:physcorp_2424",
+    "phys:cal_problem_01082",
+    "phys:cal_problem_01093",
+    "phys:physicsb_1808",
+    "phys:physicsb_3952",
+    "phys:physcorp_1714",
+    "phys:tbr_81921",
+    "phys:tbr_323328",
+    "phys:physcorp_6029",
+    "phys:physcorp_3616",
+    "phys:physcorp_610",
+    "math:test/prealgebra/378.json",
+    "math:test/algebra/1787.json"
+   ],
+   "mirror_robust_ids": [
+    "math:test/number_theory/516.json"
+   ]
+  },
+  "at 16k": {
+   "n": 800,
+   "n_never_base": 158,
+   "n_never_rl": 179,
+   "rl_on_N": {
+    "1": 18,
+    "2": 8,
+    "4": 2,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 14,
+    "2": 3,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_136169",
+    "phys:physcorp_1330"
+   ],
+   "any_ids": [
+    "phys:tbr_136169",
+    "phys:cal_problem_00335",
+    "phys:physcorp_2783",
+    "phys:physcorp_2424",
+    "phys:physcorp_5403",
+    "phys:physcorp_1358",
+    "phys:cal_problem_01082",
+    "phys:cal_problem_01093",
+    "phys:physicsb_1808",
+    "phys:tbr_81921",
+    "phys:physcorp_6029",
+    "phys:physcorp_3616",
+    "phys:physcorp_1330",
+    "phys:tbr_321204",
+    "phys:physcorp_610",
+    "math:test/prealgebra/378.json",
+    "math:test/algebra/1787.json",
+    "math:test/prealgebra/1187.json"
+   ],
+   "mirror_robust_ids": [
+    "math:test/number_theory/516.json"
+   ]
+  },
+  "beyond 24k": {
+   "n": 800,
+   "n_never_base": 201,
+   "n_never_rl": 215,
+   "rl_on_N": {
+    "1": 23,
+    "2": 12,
+    "4": 2,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 18,
+    "2": 4,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_136169",
+    "phys:physcorp_1330"
+   ],
+   "any_ids": [
+    "phys:physcorp_5672",
+    "phys:tbr_136169",
+    "phys:cal_problem_00335",
+    "phys:physcorp_2783",
+    "phys:physcorp_2424",
+    "phys:physcorp_5403",
+    "phys:physcorp_1358",
+    "phys:cal_problem_01082",
+    "phys:cal_problem_01093",
+    "phys:physcorp_1953",
+    "phys:physicsb_1808",
+    "phys:physicsb_3952",
+    "phys:tbr_81921",
+    "phys:physcorp_3569",
+    "phys:physcorp_6029",
+    "phys:physcorp_3616",
+    "phys:physcorp_1330",
+    "phys:tbr_321204",
+    "phys:tbr_272924",
+    "phys:physcorp_610",
+    "math:test/prealgebra/378.json",
+    "math:test/algebra/1787.json",
+    "math:test/prealgebra/1187.json"
+   ],
+   "mirror_robust_ids": [
+    "math:test/number_theory/516.json"
+   ]
+  }
+ },
+ "QuestA": {
+  "base": "OMN-1.5B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 157,
+   "n_never_rl": 32,
+   "rl_on_N": {
+    "1": 6,
+    "2": 3,
+    "4": 1,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 3,
+    "2": 1,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "math:test/geometry/172.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_2424",
+    "phys:cal_problem_01082",
+    "math:test/geometry/172.json",
+    "math:test/prealgebra/378.json",
+    "math:test/counting_and_probability/894.json",
+    "math:test/precalculus/768.json"
+   ],
+   "mirror_robust_ids": []
+  },
+  "at 24k": {
+   "n": 800,
+   "n_never_base": 201,
+   "n_never_rl": 89,
+   "rl_on_N": {
+    "1": 22,
+    "2": 7,
+    "4": 1,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 7,
+    "2": 2,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "math:test/geometry/172.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_5672",
+    "phys:tbr_136169",
+    "phys:cal_problem_00335",
+    "phys:physcorp_5657",
+    "phys:physcorp_4936",
+    "phys:physcorp_2783",
+    "phys:physcorp_5403",
+    "phys:cal_problem_01082",
+    "phys:physcorp_2218",
+    "phys:cal_problem_01093",
+    "phys:physcorp_4043",
+    "phys:physcorp_3569",
+    "phys:physcorp_1719",
+    "phys:physcorp_1330",
+    "phys:tbr_321204",
+    "phys:physcorp_3043",
+    "phys:tbr_178377",
+    "math:test/geometry/434.json",
+    "math:test/geometry/172.json",
+    "math:test/prealgebra/378.json",
+    "math:test/precalculus/768.json",
+    "math:test/prealgebra/1187.json"
+   ],
+   "mirror_robust_ids": []
+  },
+  "beyond 28k": {
+   "n": 800,
+   "n_never_base": 201,
+   "n_never_rl": 122,
+   "rl_on_N": {
+    "1": 23,
+    "2": 9,
+    "4": 1,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 12,
+    "2": 4,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [
+    "math:test/geometry/172.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_5672",
+    "phys:tbr_136169",
+    "phys:cal_problem_00335",
+    "phys:physcorp_5657",
+    "phys:physcorp_4936",
+    "phys:physcorp_2783",
+    "phys:physcorp_5403",
+    "phys:cal_problem_01082",
+    "phys:physcorp_2218",
+    "phys:cal_problem_01093",
+    "phys:physcorp_4043",
+    "phys:physcorp_318",
+    "phys:physcorp_3569",
+    "phys:physcorp_1719",
+    "phys:physcorp_1330",
+    "phys:tbr_321204",
+    "phys:physcorp_3043",
+    "phys:tbr_178377",
+    "math:test/geometry/434.json",
+    "math:test/geometry/172.json",
+    "math:test/prealgebra/378.json",
+    "math:test/precalculus/768.json",
+    "math:test/prealgebra/1187.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:tbr_22163"
+   ]
+  }
+ },
+ "KnowRL": {
+  "base": "OMN-1.5B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 157,
+   "n_never_rl": 77,
+   "rl_on_N": {
+    "1": 12,
+    "2": 4,
+    "4": 2,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 8,
+    "2": 3,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [
+    "math:test/geometry/172.json",
+    "math:test/counting_and_probability/894.json"
+   ],
+   "any_ids": [
+    "phys:tbr_274639",
+    "phys:tbr_136169",
+    "phys:physcorp_4043",
+    "phys:physcorp_3344",
+    "phys:physicsb_3952",
+    "phys:physcorp_1714",
+    "phys:tbr_178377",
+    "math:test/geometry/172.json",
+    "math:test/prealgebra/378.json",
+    "math:test/algebra/1787.json",
+    "math:test/counting_and_probability/894.json",
+    "math:test/precalculus/768.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:tbr_500712"
+   ]
+  },
+  "at 24k": {
+   "n": 800,
+   "n_never_base": 201,
+   "n_never_rl": 199,
+   "rl_on_N": {
+    "1": 28,
+    "2": 15,
+    "4": 3,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 23,
+    "2": 10,
+    "4": 4,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_272924",
+    "math:test/geometry/172.json",
+    "math:test/counting_and_probability/894.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_5672",
+    "phys:tbr_136169",
+    "phys:cal_problem_00335",
+    "phys:physcorp_4936",
+    "phys:physicsb_6311",
+    "phys:physcorp_2783",
+    "phys:physcorp_2218",
+    "phys:physcorp_4043",
+    "phys:physcorp_1953",
+    "phys:physcorp_3344",
+    "phys:physicsb_1808",
+    "phys:physcorp_318",
+    "phys:tbr_267770",
+    "phys:physcorp_3569",
+    "phys:physcorp_1719",
+    "phys:physcorp_6029",
+    "phys:physcorp_3616",
+    "phys:physcorp_1330",
+    "phys:tbr_321204",
+    "phys:tbr_272924",
+    "phys:tbr_178377",
+    "math:test/geometry/434.json",
+    "math:test/geometry/172.json",
+    "math:test/prealgebra/378.json",
+    "math:test/algebra/1787.json",
+    "math:test/counting_and_probability/894.json",
+    "math:test/precalculus/768.json",
+    "math:test/geometry/817.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:tbr_421768",
+    "phys:tbr_22163",
+    "phys:tbr_500712",
+    "math:test/number_theory/516.json"
+   ]
+  },
+  "beyond 28k": {
+   "n": 800,
+   "n_never_base": 201,
+   "n_never_rl": 222,
+   "rl_on_N": {
+    "1": 29,
+    "2": 15,
+    "4": 3,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 23,
+    "2": 10,
+    "4": 4,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_272924",
+    "math:test/geometry/172.json",
+    "math:test/counting_and_probability/894.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_5672",
+    "phys:tbr_136169",
+    "phys:cal_problem_00335",
+    "phys:physcorp_4936",
+    "phys:physicsb_6311",
+    "phys:physcorp_2783",
+    "phys:physcorp_2218",
+    "phys:physcorp_4043",
+    "phys:physcorp_1953",
+    "phys:physcorp_3344",
+    "phys:physicsb_1808",
+    "phys:physcorp_318",
+    "phys:tbr_267770",
+    "phys:physcorp_3569",
+    "phys:physcorp_1719",
+    "phys:physcorp_6029",
+    "phys:physcorp_1160",
+    "phys:physcorp_3616",
+    "phys:physcorp_1330",
+    "phys:tbr_321204",
+    "phys:tbr_272924",
+    "phys:tbr_178377",
+    "math:test/geometry/434.json",
+    "math:test/geometry/172.json",
+    "math:test/prealgebra/378.json",
+    "math:test/algebra/1787.json",
+    "math:test/counting_and_probability/894.json",
+    "math:test/precalculus/768.json",
+    "math:test/geometry/817.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:tbr_421768",
+    "phys:tbr_22163",
+    "phys:tbr_500712",
+    "math:test/number_theory/516.json"
+   ]
+  }
+ },
+ "DeepMath-Omn": {
+  "base": "OMN-1.5B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 157,
+   "n_never_rl": 110,
+   "rl_on_N": {
+    "1": 11,
+    "2": 3,
+    "4": 1,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 11,
+    "2": 4,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:cal_problem_01082"
+   ],
+   "any_ids": [
+    "phys:tbr_274639",
+    "phys:tbr_136169",
+    "phys:cal_problem_01082",
+    "phys:tbr_81921",
+    "phys:tbr_323328",
+    "phys:physcorp_5518",
+    "math:test/geometry/172.json",
+    "math:test/prealgebra/378.json",
+    "math:test/counting_and_probability/894.json",
+    "math:test/precalculus/768.json",
+    "math:test/prealgebra/1991.json"
+   ],
+   "mirror_robust_ids": []
+  },
+  "at 24k": {
+   "n": 800,
+   "n_never_base": 201,
+   "n_never_rl": 205,
+   "rl_on_N": {
+    "1": 16,
+    "2": 8,
+    "4": 0,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 17,
+    "2": 6,
+    "4": 2,
+    "8": 0
+   },
+   "robust_ids": [],
+   "any_ids": [
+    "phys:tbr_136169",
+    "phys:physcorp_2783",
+    "phys:cal_problem_01082",
+    "phys:physcorp_2218",
+    "phys:physcorp_1953",
+    "phys:physicsb_1808",
+    "phys:physcorp_318",
+    "phys:physcorp_3569",
+    "phys:physcorp_6029",
+    "phys:physcorp_1330",
+    "phys:tbr_321204",
+    "phys:tbr_272924",
+    "math:test/geometry/172.json",
+    "math:test/prealgebra/378.json",
+    "math:test/geometry/826.json",
+    "math:test/precalculus/768.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:tbr_500712",
+    "math:test/number_theory/516.json"
+   ]
+  },
+  "beyond 28k": {
+   "n": 800,
+   "n_never_base": 201,
+   "n_never_rl": 214,
+   "rl_on_N": {
+    "1": 16,
+    "2": 8,
+    "4": 0,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 17,
+    "2": 6,
+    "4": 2,
+    "8": 0
+   },
+   "robust_ids": [],
+   "any_ids": [
+    "phys:tbr_136169",
+    "phys:physcorp_2783",
+    "phys:cal_problem_01082",
+    "phys:physcorp_2218",
+    "phys:physcorp_1953",
+    "phys:physicsb_1808",
+    "phys:physcorp_318",
+    "phys:physcorp_3569",
+    "phys:physcorp_6029",
+    "phys:physcorp_1330",
+    "phys:tbr_321204",
+    "phys:tbr_272924",
+    "math:test/geometry/172.json",
+    "math:test/prealgebra/378.json",
+    "math:test/geometry/826.json",
+    "math:test/precalculus/768.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:tbr_500712",
+    "math:test/number_theory/516.json"
+   ]
+  }
+ },
+ "e3": {
+  "base": "Q3-1.7B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 93,
+   "n_never_rl": 126,
+   "rl_on_N": {
+    "1": 8,
+    "2": 1,
+    "4": 0,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 16,
+    "2": 6,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [],
+   "any_ids": [
+    "phys:physcorp_1076",
+    "phys:physcorp_2983",
+    "phys:physcorp_6368",
+    "phys:tbr_333529",
+    "phys:tbr_78665",
+    "phys:tbr_462584",
+    "math:test/number_theory/847.json",
+    "math:test/prealgebra/1128.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:physcorp_3717"
+   ]
+  },
+  "at 16k": {
+   "n": 800,
+   "n_never_base": 90,
+   "n_never_rl": 128,
+   "rl_on_N": {
+    "1": 10,
+    "2": 2,
+    "4": 0,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 13,
+    "2": 7,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [],
+   "any_ids": [
+    "phys:physcorp_154",
+    "phys:physcorp_4043",
+    "phys:physcorp_3627",
+    "phys:physcorp_1076",
+    "phys:tbr_100404",
+    "phys:tbr_78665",
+    "phys:tbr_462584",
+    "math:test/number_theory/368.json",
+    "math:test/prealgebra/1187.json",
+    "math:test/prealgebra/1128.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:physcorp_417"
+   ]
+  },
+  "beyond 24k": {
+   "n": 800,
+   "n_never_base": 146,
+   "n_never_rl": 167,
+   "rl_on_N": {
+    "1": 21,
+    "2": 8,
+    "4": 2,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 20,
+    "2": 9,
+    "4": 2,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:physcorp_3393",
+    "phys:physcorp_2013"
+   ],
+   "any_ids": [
+    "phys:tbr_539290",
+    "phys:physcorp_154",
+    "phys:tbr_421768",
+    "phys:tbr_153636",
+    "phys:physcorp_4043",
+    "phys:physcorp_3627",
+    "phys:tbr_267770",
+    "phys:physcorp_1076",
+    "phys:tbr_619005",
+    "phys:physcorp_3829",
+    "phys:physcorp_2134",
+    "phys:physcorp_397",
+    "phys:tbr_100404",
+    "phys:physcorp_3393",
+    "phys:physcorp_2013",
+    "phys:tbr_78665",
+    "phys:tbr_462584",
+    "math:test/counting_and_probability/181.json",
+    "math:test/number_theory/368.json",
+    "math:test/prealgebra/1187.json",
+    "math:test/prealgebra/1128.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:physcorp_417",
+    "phys:tbr_572530"
+   ]
+  }
+ },
+ "Skywork-7B": {
+  "base": "R1-7B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 83,
+   "n_never_rl": 63,
+   "rl_on_N": {
+    "1": 11,
+    "2": 6,
+    "4": 4,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 6,
+    "2": 4,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_106015",
+    "phys:tbr_22163",
+    "phys:physicsb_2258",
+    "phys:tbr_462584"
+   ],
+   "any_ids": [
+    "phys:physcorp_3348",
+    "phys:physcorp_3717",
+    "phys:tbr_106015",
+    "phys:cal_problem_01040",
+    "phys:physcorp_3132",
+    "phys:tbr_479532",
+    "phys:tbr_22163",
+    "phys:physcorp_397",
+    "phys:physicsb_2258",
+    "phys:tbr_500712",
+    "phys:tbr_462584"
+   ],
+   "mirror_robust_ids": [
+    "phys:physcorp_2961"
+   ]
+  },
+  "at 32k": {
+   "n": 800,
+   "n_never_base": 122,
+   "n_never_rl": 102,
+   "rl_on_N": {
+    "1": 24,
+    "2": 14,
+    "4": 5,
+    "8": 1
+   },
+   "base_on_Nr": {
+    "1": 15,
+    "2": 4,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:physcorp_3132",
+    "phys:tbr_22163",
+    "phys:physicsb_2258",
+    "math:test/number_theory/516.json",
+    "math:test/intermediate_algebra/1544.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_3717",
+    "phys:tbr_136169",
+    "phys:tbr_421768",
+    "phys:physcorp_4878",
+    "phys:cal_problem_00346",
+    "phys:tbr_634813",
+    "phys:cal_problem_01040",
+    "phys:physcorp_3132",
+    "phys:physcorp_4337",
+    "phys:physcorp_409",
+    "phys:tbr_642894",
+    "phys:tbr_73427",
+    "phys:physcorp_741",
+    "phys:tbr_22163",
+    "phys:physcorp_3616",
+    "phys:physcorp_3590",
+    "phys:physcorp_2687",
+    "phys:physicsb_2258",
+    "phys:tbr_524703",
+    "math:test/number_theory/516.json",
+    "math:test/prealgebra/874.json",
+    "math:test/intermediate_algebra/1544.json",
+    "math:test/geometry/465.json",
+    "math:test/geometry/817.json"
+   ],
+   "mirror_robust_ids": []
+  },
+  "beyond 48k": {
+   "n": 800,
+   "n_never_base": 130,
+   "n_never_rl": 111,
+   "rl_on_N": {
+    "1": 27,
+    "2": 16,
+    "4": 6,
+    "8": 1
+   },
+   "base_on_Nr": {
+    "1": 17,
+    "2": 6,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:physcorp_3132",
+    "phys:tbr_22163",
+    "phys:physicsb_2258",
+    "math:test/number_theory/516.json",
+    "math:test/intermediate_algebra/1544.json",
+    "math:test/geometry/465.json"
+   ],
+   "any_ids": [
+    "phys:physcorp_5263",
+    "phys:physcorp_3717",
+    "phys:tbr_136169",
+    "phys:tbr_421768",
+    "phys:physcorp_4878",
+    "phys:cal_problem_00346",
+    "phys:tbr_634813",
+    "phys:cal_problem_01040",
+    "phys:physcorp_3132",
+    "phys:physcorp_4337",
+    "phys:physcorp_409",
+    "phys:tbr_642894",
+    "phys:tbr_73427",
+    "phys:physcorp_741",
+    "phys:tbr_646306",
+    "phys:tbr_22163",
+    "phys:physcorp_3616",
+    "phys:physcorp_3590",
+    "phys:physcorp_2687",
+    "phys:physicsb_2258",
+    "phys:tbr_172668",
+    "phys:tbr_524703",
+    "math:test/number_theory/516.json",
+    "math:test/prealgebra/874.json",
+    "math:test/intermediate_algebra/1544.json",
+    "math:test/geometry/465.json",
+    "math:test/geometry/817.json"
+   ],
+   "mirror_robust_ids": [
+    "math:test/prealgebra/1128.json"
+   ]
+  }
+ },
+ "AceReason-14B": {
+  "base": "R1-14B",
+  "at 32k": {
+   "n": 800,
+   "n_never_base": 126,
+   "n_never_rl": 118,
+   "rl_on_N": {
+    "1": 22,
+    "2": 16,
+    "4": 3,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 12,
+    "2": 9,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:physicsb_1985",
+    "phys:physcorp_1059",
+    "phys:physcorp_6368"
+   ],
+   "any_ids": [
+    "phys:physcorp_3933",
+    "phys:physicsb_1985",
+    "phys:tbr_568643",
+    "phys:physcorp_5279",
+    "phys:physcorp_2775",
+    "phys:tbr_277596",
+    "phys:physcorp_2424",
+    "phys:tbr_351598",
+    "phys:physcorp_400",
+    "phys:physcorp_5094",
+    "phys:physcorp_2442",
+    "phys:tbr_22163",
+    "phys:physcorp_3099",
+    "phys:physcorp_1160",
+    "phys:physcorp_1059",
+    "phys:cal_problem_00917",
+    "phys:physcorp_3840",
+    "phys:physcorp_5612",
+    "phys:physcorp_6368",
+    "phys:tbr_75206",
+    "phys:tbr_78665",
+    "math:test/geometry/817.json"
+   ],
+   "mirror_robust_ids": []
+  },
+  "beyond 48k": {
+   "n": 800,
+   "n_never_base": 129,
+   "n_never_rl": 124,
+   "rl_on_N": {
+    "1": 23,
+    "2": 16,
+    "4": 3,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 12,
+    "2": 9,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:physicsb_1985",
+    "phys:physcorp_1059",
+    "phys:physcorp_6368"
+   ],
+   "any_ids": [
+    "phys:physcorp_3933",
+    "phys:physcorp_3776",
+    "phys:physicsb_1985",
+    "phys:tbr_568643",
+    "phys:physcorp_5279",
+    "phys:physcorp_2775",
+    "phys:tbr_277596",
+    "phys:physcorp_2424",
+    "phys:tbr_351598",
+    "phys:physcorp_400",
+    "phys:physcorp_5094",
+    "phys:physcorp_2442",
+    "phys:tbr_22163",
+    "phys:physcorp_3099",
+    "phys:physcorp_1160",
+    "phys:physcorp_1059",
+    "phys:cal_problem_00917",
+    "phys:physcorp_3840",
+    "phys:physcorp_5612",
+    "phys:physcorp_6368",
+    "phys:tbr_75206",
+    "phys:tbr_78665",
+    "math:test/geometry/817.json"
+   ],
+   "mirror_robust_ids": []
+  }
+ },
+ "Skywork-32B": {
+  "base": "R1-32B"
+ },
+ "Skywork-Math": {
+  "base": "R1-7B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 83,
+   "n_never_rl": 74,
+   "rl_on_N": {
+    "1": 10,
+    "2": 7,
+    "4": 5,
+    "8": 2
+   },
+   "base_on_Nr": {
+    "1": 9,
+    "2": 4,
+    "4": 0,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_106015",
+    "phys:tbr_22163",
+    "phys:physicsb_2258",
+    "phys:tbr_500712",
+    "phys:tbr_462584"
+   ],
+   "any_ids": [
+    "phys:tbr_539290",
+    "phys:physcorp_4878",
+    "phys:tbr_106015",
+    "phys:cal_problem_01040",
+    "phys:tbr_22163",
+    "phys:physcorp_397",
+    "phys:physicsb_2258",
+    "phys:tbr_500712",
+    "phys:tbr_245633",
+    "phys:tbr_462584"
+   ],
+   "mirror_robust_ids": []
+  },
+  "at 32k": {
+   "n": 800,
+   "n_never_base": 122,
+   "n_never_rl": 114,
+   "rl_on_N": {
+    "1": 21,
+    "2": 15,
+    "4": 9,
+    "8": 3
+   },
+   "base_on_Nr": {
+    "1": 16,
+    "2": 5,
+    "4": 2,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_421768",
+    "phys:tbr_642894",
+    "phys:tbr_22163",
+    "phys:tbr_585100",
+    "phys:physicsb_2258",
+    "phys:tbr_500712",
+    "phys:tbr_245633",
+    "math:test/number_theory/516.json",
+    "math:test/intermediate_algebra/1544.json"
+   ],
+   "any_ids": [
+    "phys:tbr_421768",
+    "phys:physicsb_2925",
+    "phys:cal_problem_01040",
+    "phys:physcorp_3132",
+    "phys:physcorp_4337",
+    "phys:tbr_642894",
+    "phys:tbr_73427",
+    "phys:tbr_22163",
+    "phys:physcorp_3616",
+    "phys:physcorp_3590",
+    "phys:tbr_585100",
+    "phys:physcorp_2687",
+    "phys:tbr_321204",
+    "phys:physicsb_2258",
+    "phys:physcorp_3043",
+    "phys:tbr_500712",
+    "phys:tbr_245633",
+    "phys:tbr_524703",
+    "math:test/number_theory/516.json",
+    "math:test/intermediate_algebra/1544.json",
+    "math:test/geometry/465.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:physcorp_6368",
+    "phys:physcorp_4414"
+   ]
+  },
+  "beyond 48k": {
+   "n": 800,
+   "n_never_base": 130,
+   "n_never_rl": 124,
+   "rl_on_N": {
+    "1": 23,
+    "2": 16,
+    "4": 10,
+    "8": 3
+   },
+   "base_on_Nr": {
+    "1": 17,
+    "2": 5,
+    "4": 2,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_421768",
+    "phys:tbr_642894",
+    "phys:tbr_22163",
+    "phys:tbr_585100",
+    "phys:physicsb_2258",
+    "phys:tbr_172668",
+    "phys:tbr_500712",
+    "phys:tbr_245633",
+    "math:test/number_theory/516.json",
+    "math:test/intermediate_algebra/1544.json"
+   ],
+   "any_ids": [
+    "phys:tbr_421768",
+    "phys:physicsb_2925",
+    "phys:tbr_317851",
+    "phys:cal_problem_01040",
+    "phys:physcorp_3132",
+    "phys:physcorp_4337",
+    "phys:tbr_642894",
+    "phys:tbr_73427",
+    "phys:tbr_22163",
+    "phys:physcorp_3616",
+    "phys:physcorp_3590",
+    "phys:tbr_585100",
+    "phys:physcorp_2687",
+    "phys:tbr_321204",
+    "phys:physicsb_2258",
+    "phys:physcorp_3043",
+    "phys:tbr_172668",
+    "phys:tbr_500712",
+    "phys:tbr_245633",
+    "phys:tbr_524703",
+    "math:test/number_theory/516.json",
+    "math:test/intermediate_algebra/1544.json",
+    "math:test/geometry/465.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:physcorp_6368",
+    "phys:physcorp_4414"
+   ]
+  }
+ },
+ "AceReason": {
+  "base": "R1-7B",
+  "16k": {
+   "n": 800,
+   "n_never_base": 83,
+   "n_never_rl": 102,
+   "rl_on_N": {
+    "1": 9,
+    "2": 7,
+    "4": 3,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 14,
+    "2": 7,
+    "4": 1,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:tbr_106015",
+    "phys:physcorp_397",
+    "phys:physicsb_2258"
+   ],
+   "any_ids": [
+    "phys:tbr_539290",
+    "phys:tbr_106015",
+    "phys:physcorp_3132",
+    "phys:tbr_479532",
+    "phys:tbr_646306",
+    "phys:physcorp_397",
+    "phys:physicsb_2258",
+    "phys:physcorp_5247",
+    "phys:tbr_462584"
+   ],
+   "mirror_robust_ids": [
+    "phys:physcorp_2961"
+   ]
+  },
+  "at 32k": {
+   "n": 800,
+   "n_never_base": 122,
+   "n_never_rl": 129,
+   "rl_on_N": {
+    "1": 22,
+    "2": 8,
+    "4": 5,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 20,
+    "2": 10,
+    "4": 2,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:physcorp_4337",
+    "phys:physcorp_2687",
+    "phys:physicsb_2258",
+    "math:test/number_theory/516.json",
+    "math:test/intermediate_algebra/1544.json"
+   ],
+   "any_ids": [
+    "phys:tbr_136169",
+    "phys:physicsb_2925",
+    "phys:tbr_634813",
+    "phys:physcorp_4337",
+    "phys:physcorp_3627",
+    "phys:physcorp_409",
+    "phys:tbr_642894",
+    "phys:tbr_73427",
+    "phys:physcorp_741",
+    "phys:tbr_646306",
+    "phys:physicsb_2066",
+    "phys:physcorp_3616",
+    "phys:physcorp_3590",
+    "phys:physcorp_2687",
+    "phys:physicsb_2258",
+    "phys:physicsb_716",
+    "phys:physcorp_4032",
+    "math:test/number_theory/516.json",
+    "math:test/prealgebra/874.json",
+    "math:test/precalculus/768.json",
+    "math:test/intermediate_algebra/1544.json",
+    "math:test/geometry/817.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:tbr_572530",
+    "math:test/geometry/711.json"
+   ]
+  },
+  "beyond 48k": {
+   "n": 800,
+   "n_never_base": 130,
+   "n_never_rl": 130,
+   "rl_on_N": {
+    "1": 23,
+    "2": 9,
+    "4": 5,
+    "8": 0
+   },
+   "base_on_Nr": {
+    "1": 20,
+    "2": 10,
+    "4": 2,
+    "8": 0
+   },
+   "robust_ids": [
+    "phys:physcorp_4337",
+    "phys:physcorp_2687",
+    "phys:physicsb_2258",
+    "math:test/number_theory/516.json",
+    "math:test/intermediate_algebra/1544.json"
+   ],
+   "any_ids": [
+    "phys:tbr_136169",
+    "phys:physicsb_2925",
+    "phys:tbr_634813",
+    "phys:physcorp_4337",
+    "phys:physcorp_3627",
+    "phys:physcorp_409",
+    "phys:tbr_642894",
+    "phys:tbr_73427",
+    "phys:physcorp_741",
+    "phys:tbr_646306",
+    "phys:physicsb_2066",
+    "phys:physcorp_3616",
+    "phys:physcorp_3590",
+    "phys:physcorp_2687",
+    "phys:physicsb_2258",
+    "phys:physicsb_716",
+    "phys:physcorp_4032",
+    "math:test/number_theory/516.json",
+    "math:test/prealgebra/874.json",
+    "math:test/geometry/826.json",
+    "math:test/precalculus/768.json",
+    "math:test/intermediate_algebra/1544.json",
+    "math:test/geometry/817.json"
+   ],
+   "mirror_robust_ids": [
+    "phys:tbr_572530",
+    "math:test/geometry/711.json"
+   ]
+  }
+ }
+}

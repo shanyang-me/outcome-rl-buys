@@ -1,0 +1,4714 @@
+{
+ "n": 671,
+ "doc": "The 671-problem harder physics read (Oct 2026): 471 unfiltered harder problems and 200 refills from the audit's own pools. Problem texts are not in this repository; see data/README.md.",
+ "by_source": {
+  "OB-phys-en": 234,
+  "PHYBench": 100,
+  "PHYSICS-test": 118,
+  "FrontierSci-phys-short": 50,
+  "UGPhysics-en-1part": 169
+ },
+ "by_kind": {
+  "hard": 471,
+  "refill": 200
+ },
+ "ids": [
+  {
+   "id": "OB-phys-en|802",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|803",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 10000000000000.0
+  },
+  {
+   "id": "OB-phys-en|806",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.001
+  },
+  {
+   "id": "OB-phys-en|807",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|808",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.01
+  },
+  {
+   "id": "OB-phys-en|810",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|811",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.001
+  },
+  {
+   "id": "OB-phys-en|812",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.001
+  },
+  {
+   "id": "OB-phys-en|813",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.01
+  },
+  {
+   "id": "OB-phys-en|814",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|816",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|817",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 10.0
+  },
+  {
+   "id": "OB-phys-en|819",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|821",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1.0
+  },
+  {
+   "id": "OB-phys-en|823",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|826",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1.0
+  },
+  {
+   "id": "OB-phys-en|828",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|835",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1000.0
+  },
+  {
+   "id": "OB-phys-en|836",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.05
+  },
+  {
+   "id": "OB-phys-en|837",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|840",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.2
+  },
+  {
+   "id": "OB-phys-en|842",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|844",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|847",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1e-09
+  },
+  {
+   "id": "OB-phys-en|849",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|851",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|853",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|856",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.06
+  },
+  {
+   "id": "OB-phys-en|860",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|861",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|863",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1.0
+  },
+  {
+   "id": "OB-phys-en|865",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 100.0
+  },
+  {
+   "id": "OB-phys-en|866",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1e-05
+  },
+  {
+   "id": "OB-phys-en|868",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.01
+  },
+  {
+   "id": "OB-phys-en|869",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 100000000000.0
+  },
+  {
+   "id": "OB-phys-en|870",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|871",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 5000000.0
+  },
+  {
+   "id": "OB-phys-en|872",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.3
+  },
+  {
+   "id": "OB-phys-en|873",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|876",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|877",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|878",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": false,
+   "tol": 1e-08
+  },
+  {
+   "id": "OB-phys-en|881",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1.0
+  },
+  {
+   "id": "OB-phys-en|883",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.05
+  },
+  {
+   "id": "OB-phys-en|884",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.0001
+  },
+  {
+   "id": "OB-phys-en|885",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|888",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|890",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|891",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.01
+  },
+  {
+   "id": "OB-phys-en|893",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|894",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|897",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.001
+  },
+  {
+   "id": "OB-phys-en|898",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.005
+  },
+  {
+   "id": "OB-phys-en|899",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 2.0
+  },
+  {
+   "id": "OB-phys-en|900",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 5.0
+  },
+  {
+   "id": "OB-phys-en|901",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.02
+  },
+  {
+   "id": "OB-phys-en|902",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|903",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|905",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.01
+  },
+  {
+   "id": "OB-phys-en|907",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.2
+  },
+  {
+   "id": "OB-phys-en|908",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 2e-05
+  },
+  {
+   "id": "OB-phys-en|909",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|910",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1e+23
+  },
+  {
+   "id": "OB-phys-en|911",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|912",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.2
+  },
+  {
+   "id": "OB-phys-en|915",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|917",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.01
+  },
+  {
+   "id": "OB-phys-en|918",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1e-17
+  },
+  {
+   "id": "OB-phys-en|919",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 100.0
+  },
+  {
+   "id": "OB-phys-en|922",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.03
+  },
+  {
+   "id": "OB-phys-en|923",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|926",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|928",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.003
+  },
+  {
+   "id": "OB-phys-en|929",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1e-11
+  },
+  {
+   "id": "OB-phys-en|936",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.5
+  },
+  {
+   "id": "OB-phys-en|939",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|940",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|941",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|942",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|944",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|947",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|949",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|954",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1e-08
+  },
+  {
+   "id": "OB-phys-en|955",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1e-08
+  },
+  {
+   "id": "OB-phys-en|956",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|957",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|972",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|973",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|974",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|982",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|984",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|985",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|986",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|987",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|988",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|989",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1006",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1e-05
+  },
+  {
+   "id": "OB-phys-en|1012",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1013",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 5e-05
+  },
+  {
+   "id": "OB-phys-en|1014",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|1015",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1016",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.01
+  },
+  {
+   "id": "OB-phys-en|1017",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1018",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1050",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1051",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1052",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1053",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1054",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1060",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 10.0
+  },
+  {
+   "id": "OB-phys-en|1061",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1062",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1063",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1064",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1065",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1066",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1067",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.001
+  },
+  {
+   "id": "OB-phys-en|1068",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1069",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 100000.0
+  },
+  {
+   "id": "OB-phys-en|1070",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 10000000000000.0
+  },
+  {
+   "id": "OB-phys-en|1071",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1072",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1073",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1097",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1098",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|1099",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1.0
+  },
+  {
+   "id": "OB-phys-en|1101",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1115",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1116",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1000000000.0
+  },
+  {
+   "id": "OB-phys-en|1117",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1118",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1163",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1173",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1174",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1175",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1176",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1177",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1178",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1213",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1214",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1215",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1216",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1217",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|1223",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1224",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1225",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1321",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1.0
+  },
+  {
+   "id": "OB-phys-en|1338",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1339",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1340",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.001
+  },
+  {
+   "id": "OB-phys-en|1341",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1342",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1343",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.001
+  },
+  {
+   "id": "OB-phys-en|1344",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1345",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1346",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1348",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1349",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.1
+  },
+  {
+   "id": "OB-phys-en|1350",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1354",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1355",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1356",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1358",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1359",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1360",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1363",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1364",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1.0
+  },
+  {
+   "id": "OB-phys-en|1365",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1366",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1367",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1.0
+  },
+  {
+   "id": "OB-phys-en|1368",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1382",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1383",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1384",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1386",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1393",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1394",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1395",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1396",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1400",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1401",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1402",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1416",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1417",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1418",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1419",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1420",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1421",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1427",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1428",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1429",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1430",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1431",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1432",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1434",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1435",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 1.0
+  },
+  {
+   "id": "OB-phys-en|1436",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 5.0
+  },
+  {
+   "id": "OB-phys-en|1437",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1438",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1441",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1442",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 2e-05
+  },
+  {
+   "id": "OB-phys-en|1443",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 5e+18
+  },
+  {
+   "id": "OB-phys-en|1458",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1460",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1461",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1462",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1464",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1465",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1466",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1475",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1476",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1477",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1478",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1482",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1486",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1488",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1489",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1491",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1492",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1493",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1494",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 50000000000000.0
+  },
+  {
+   "id": "OB-phys-en|1502",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": 0.05
+  },
+  {
+   "id": "OB-phys-en|1565",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1566",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1572",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1573",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1574",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1576",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1577",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1592",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1594",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1596",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1597",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "OB-phys-en|1599",
+   "src": "OB-phys-en",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|495",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|600",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|285",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|321",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|674",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|83",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|54",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|10",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|33",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|41",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|453",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|281",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|95",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|101",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|630",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|134",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|650",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|332",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|250",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|409",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|133",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|336",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|88",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|105",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|617",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|702",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|367",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|497",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|457",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|432",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|284",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|39",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|124",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|55",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|419",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|458",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|206",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|204",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|478",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|71",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|259",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|766",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|716",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|103",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|310",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|110",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|256",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|112",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|505",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|331",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|498",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|737",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|636",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|420",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|228",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|450",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|708",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|649",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|688",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|118",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|318",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|62",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|143",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|401",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|443",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|115",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|493",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|69",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|65",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|131",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|709",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|423",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|36",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|333",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|50",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|221",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|120",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|121",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|648",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|72",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|603",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|670",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|140",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|653",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|719",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|211",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|139",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|106",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|58",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|412",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|43",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|117",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|42",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|45",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|37",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|654",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|244",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|25",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|100",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYBench|89",
+   "src": "PHYBench",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|61",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|64",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2514",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2524",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2525",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2526",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2530",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2531",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2545",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2548",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2858",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2860",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2864",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2887",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2893",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2897",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2905",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2912",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|4335",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|4580",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|5281",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|5688",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|5727",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|5777",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7046",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7088",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7117",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7174",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7175",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7202",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7225",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7240",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7246",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7248",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7256",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7275",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7279",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7282",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7285",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7290",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7304",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7309",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7359",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7382",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7384",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7391",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7395",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7397",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7399",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7404",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7422",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7423",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7427",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7429",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7432",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7436",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7440",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7446",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7450",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7463",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7465",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7469",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7472",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7476",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7477",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7479",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7481",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7482",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7484",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7488",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7492",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7495",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7503",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7505",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7508",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7518",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7537",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7547",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7548",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7549",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7554",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7557",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7564",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7571",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7580",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7581",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7583",
+   "src": "PHYSICS-test",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|27c865e6-1c87-489b-b7ea-b197fe3356ba",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|0ea11f5b-df09-4330-92cc-302a63c22008",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|bb0539ef-d9fd-4215-bf16-b0eca44a8778",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|516da073-8d2a-4db5-a739-c752655ec14c",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|94c55a69-1e8d-4934-ae59-2cf0401e1b01",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|b90fc8dc-2fca-4ff7-9c9f-a2e6a0ac7812",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|cb11faa6-e12a-4621-9fa7-f6f4b11a9300",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|62dc1c65-0200-41d8-91fd-aa3c606e46cc",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|f398c3ad-6cff-45b1-a21d-5ce963db75aa",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|f10254b9-f0a1-407f-8af9-3169e23eee5e",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|dbe975d5-c431-4d73-8f7c-f8bba77ea458",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|f4681d73-b08d-450c-89d3-85b9d1250419",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|afb2ebc7-421e-4e61-8073-7c4393aa9855",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|4195adea-9fa5-4f25-91ef-ebd6c57cfb88",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|e2bef5ee-c2ee-4704-b52a-63bb2e7aea7a",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|e1b0b588-915d-46ad-990e-ba5aa554053e",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|16318af5-cfa6-4b2c-bf25-9eb3ac468b48",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|bc8a05ac-9db5-47b4-8618-84aa4a46466a",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|20fcf049-b356-45cf-83d8-833f280ee107",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|710c1336-0995-4d45-bfea-48ff475f255f",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|1e2f4cbe-4a38-4dd3-9378-14df40f7599f",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|69bd11e8-5f96-45dc-8123-b9d800101430",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|422512ca-5a0c-4a23-b987-7fa2eb2024e6",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|953ba4b1-94ae-42ac-9621-408386bc382b",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|d1cec1fb-13bb-475a-b2f1-956db5ef3b77",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|11c1fcc0-bcad-4507-951b-550e19f1e2aa",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|239c543b-7543-445a-b492-89c994b9ba7c",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|5c97845c-c039-48d8-abcf-703afc476b98",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|f3ba1aae-2fc3-4d9b-a5a3-42bb91de4d7d",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|f88cc0c0-2ca6-4cb0-bd1e-a37ddcf11294",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|6e9aca19-46c4-46ea-9643-86b138e8f2f5",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|218df0c2-18db-495f-8c53-eb6758feaff2",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|f9fdb988-7a10-4510-a8ab-d011e663be3f",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|1dba0086-bca8-4b25-8843-e6e428f9284d",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|84bba88d-2aee-4fcb-baab-4c6eea17b0d8",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|cfa05761-b488-4491-9f77-8854ece1cf98",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|3a998a27-4c4b-47c6-bd2c-dd1c9deb3d63",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|328c6a47-15d7-470e-99f5-73e468634614",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|dcc38501-c38e-4a8e-a069-1a401d6432c0",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|6646019d-bda1-4b1c-83ac-7953e853effd",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|bdb3fc5f-9374-4e37-9af9-6036e3e29093",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|19962a30-eaf9-4b7e-86c7-17c02cdb01bd",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|70929247-a356-4a12-8534-49fd885f0c3e",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|4225f097-0cee-4e43-b5b9-6efbab4c3447",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|ae667a28-9659-4f33-a51e-7a19f133e111",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|2c46387b-36e6-43cb-9e73-dbf1341bfafd",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|4f1cf869-3ea3-400c-8fa3-e4d3f6fe1cdf",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|8a983c4c-070e-45b1-b2ce-300c7a68feb6",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|20daab54-df1b-4006-a544-7198daee7847",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "FrontierSci-phys-short|aeaa8d2c-fcb9-423f-b1c0-ac9c122999e6",
+   "src": "FrontierSci-phys-short",
+   "kind": "hard",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4576",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_1022",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_1740",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3651",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Wave Optics_5048",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4192",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2739",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|1828",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4878",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_1266",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|492",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Wave Optics_5168",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4208",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3169",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Electrodynamics_140",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Wave Optics_5342",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4488",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|6185",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|6350",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Relativity_1974",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2576",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2131",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3439",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|6433",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_467",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Semiconductor Physics_3999",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4760",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|1351",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Wave Optics_5300",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4718",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2783",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_440",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_659",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_5259",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2741",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Relativity_2506",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|6",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4944",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4620",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Theoretical Mechanics_2185",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2735",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Wave Optics_5147",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4325",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4607",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2462",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_842",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_1242",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Theoretical Mechanics_2456",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3645",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|5658",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2243",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_1773",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Relativity_1491",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|3786",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4879",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4406",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2325",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|3222",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2277",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Relativity_2403",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2601",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_828",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4501",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|1373",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Thermodynamics_3361",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Semiconductor Physics_4058",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_84",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2851",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Thermodynamics_3278",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|5249",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Theoretical Mechanics_2798",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4276",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_537",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4727",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Theoretical Mechanics_2360",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4537",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_54",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4299",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4637",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_1570",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2673",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Relativity_1890",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2561",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|3755",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4587",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|3261",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Wave Optics_5415",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4510",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Wave Optics_5409",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3268",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_1422",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Thermodynamics_3288",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|7852",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3040",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Theoretical Mechanics_2491",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4317",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3491",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_1673",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2713",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2390",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4951",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_1752",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|5464",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|1588",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4975",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_1453",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_1004",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2761",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4354",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2540",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2016",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_1501",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_1715",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4811",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Wave Optics_5229",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_341",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_499",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_179",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3552",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Thermodynamics_2907",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|1262",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3708",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_707",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_332",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_5094",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Geometrical Optics_5161",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|4003",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|1380",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4873",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|6068",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_1045",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|5436",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2035",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_904",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3097",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Theoretical Mechanics_1794",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|4864",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Wave Optics_5386",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Theoretical Mechanics_1816",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Wave Optics_5150",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Solid-State Physics_4057",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4668",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Thermodynamics_3417",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3296",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Electrodynamics_127",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_100",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3164",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_1709",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_5060",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_240",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3546",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_397",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4721",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Wave Optics_5221",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4861",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_634",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_750",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_410",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|1834",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2292",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_1563",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4787",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4705",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2372",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_1206",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_1978",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Thermodynamics_3298",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2247",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|4585",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Relativity_2780",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Theoretical Mechanics_2173",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_1071",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|5375",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Geometrical Optics_5188",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2350",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|2107",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_948",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3148",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Thermodynamics_3397",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_168",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3508",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4265",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Solid-State Physics_3928",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "PHYSICS-test|3217",
+   "src": "PHYSICS-test",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_2551",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3043",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_1686",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4403",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4254",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Electromagnetism_142",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Electrodynamics_178",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_5345",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3723",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Thermodynamics_2922",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4334",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": false,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_5289",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Quantum Mechanics_4381",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Statistical Mechanics_3563",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Atomic Physics_1515",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  },
+  {
+   "id": "UGPhysics-en-1part|Classical Mechanics_1606",
+   "src": "UGPhysics-en-1part",
+   "kind": "refill",
+   "scorable": true,
+   "tol": null
+  }
+ ]
+}

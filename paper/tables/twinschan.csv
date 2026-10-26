@@ -1,0 +1,13 @@
+# Text-only twins: channels B--E and the revisit arm without replay against the base on the twins of the credited and the other problems, split as in Table~\ref{tab:twins}. The last column is the difference from the control's first seed in mean score with the reward's partial credit. Channels B--D are RL runs from the base, as the control is. E is a supervised fine-tune of the base. The revisit arm continues the control. Net reach is omitted, so the two terms do not add up to the change in pass@1. The groups are the control's credited problems in every row. The matched column's $n$ (in parentheses) differs by arm.
+"model","twins of","n","pass@1","fin@1(B)","pass@1(B|fin)","finishing F","reliability P","matched P (n)","against the control"
+"","","","base->model","base->model","base->model","","","","(mean score)"
+"hint (B)","credited","75","0.28->0.55","0.37->0.75","0.77->0.74","0.285","-0.017 [-0.041, 0.009]","0.012 [-0.003, 0.030] (15)","0 [-0.043, 0.043]"
+"","other","85","0.36->0.54","0.45->0.78","0.81->0.69","0.232","-0.056 [-0.084, -0.024]","0.013 [-0.009, 0.037] (27)","0.002 [-0.032, 0.037]"
+"teacher (C)","credited","75","0.28->0.51","0.37->0.74","0.77->0.69","0.262","-0.030 [-0.055, -0.004]","0.011 [-0.003, 0.028] (15)","-0.043 [-0.087, 0.002]"
+"","other","85","0.36->0.51","0.45->0.76","0.81->0.67","0.215","-0.066 [-0.097, -0.030]","0 [-0.039, 0.043] (27)","-0.024 [-0.064, 0.015]"
+"setup-first (D)","credited","75","0.28->0.40","0.37->0.61","0.77->0.66","0.161","-0.044 [-0.068, -0.020]","-0.012 [-0.037, 0.007] (14)","-0.152 [-0.207, -0.102]"
+"","other","85","0.36->0.45","0.45->0.61","0.81->0.73","0.122","-0.037 [-0.059, -0.014]","0.002 [-0.015, 0.019] (27)","-0.093 [-0.152, -0.036]"
+"questioner (E)","credited","75","0.28->0.28","0.37->0.44","0.77->0.64","0.048","-0.053 [-0.079, -0.025]","-0.009 [-0.038, 0.016] (11)","-0.278 [-0.342, -0.215]"
+"","other","85","0.36->0.32","0.45->0.47","0.81->0.68","0.022","-0.062 [-0.090, -0.033]","-0.024 [-0.063, 0.006] (20)","-0.217 [-0.279, -0.156]"
+"revisit arm","credited","75","0.28->0.53","0.37->0.71","0.77->0.74","0.257","-0.012 [-0.037, 0.014]","0.015 [0.002, 0.032] (14)","-0.026 [-0.065, 0.012]"
+"","other","85","0.36->0.52","0.45->0.74","0.81->0.70","0.206","-0.047 [-0.077, -0.010]","0.021 [-0.012, 0.065] (27)","-0.020 [-0.044, 0.004]"

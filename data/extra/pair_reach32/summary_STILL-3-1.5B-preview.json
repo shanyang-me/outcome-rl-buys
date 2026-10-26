@@ -1,0 +1,15 @@
+{
+ "model": "RUC-AIBOX/STILL-3-1.5B-preview",
+ "path": "/root/hf/hub/models--RUC-AIBOX--STILL-3-1.5B-preview/snapshots/88d330baa0f8ea60bde6519141125ddf308e9fc2",
+ "cap": 28672,
+ "n_problems": 104,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 22,
+ "finished": 0.9751602564102564,
+ "seconds": {
+  "load": 60,
+  "generate": 2690
+ },
+ "host": "dab6ed79f1a0"
+}

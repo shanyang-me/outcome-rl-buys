@@ -1,0 +1,265 @@
+{
+ "cells": {
+  "ProRL v2": [
+   "physcorp_3104",
+   "physcorp_3348",
+   "tbr_172668",
+   "tbr_22163",
+   "tbr_245633",
+   "tbr_500712",
+   "tbr_646306"
+  ],
+  "Skywork-Math": [
+   "cal_problem_01040",
+   "physicsb_2258",
+   "tbr_106015",
+   "tbr_22163",
+   "tbr_245633",
+   "tbr_421768",
+   "tbr_462584",
+   "tbr_500712",
+   "tbr_585100",
+   "tbr_642894"
+  ],
+  "Skywork-7B": [
+   "cal_problem_01040",
+   "physcorp_3132",
+   "physcorp_3348",
+   "physicsb_2258",
+   "tbr_106015",
+   "tbr_22163",
+   "tbr_462584",
+   "tbr_500712"
+  ],
+  "JustRL-D": [
+   "physcorp_3348",
+   "tbr_245633"
+  ],
+  "AceReason-14B": [
+   "physcorp_1059",
+   "physcorp_6368",
+   "physicsb_1985"
+  ],
+  "JustRL-N": [
+   "cal_problem_00335",
+   "physcorp_1714",
+   "physcorp_610",
+   "physicsb_3952",
+   "tbr_81921"
+  ],
+  "DeepScaleR": [
+   "physcorp_3348",
+   "tbr_351598",
+   "tbr_558505"
+  ],
+  "e3": [
+   "physcorp_2013",
+   "physcorp_3393",
+   "tbr_333529"
+  ],
+  "KnowRL": [
+   "physcorp_1714",
+   "physicsb_3952",
+   "tbr_178377"
+  ],
+  "AceReason": [
+   "physcorp_397",
+   "physicsb_2258",
+   "tbr_106015"
+  ],
+  "Open-RS3": [
+   "physcorp_3348",
+   "tbr_79501"
+  ],
+  "DeepMath-Omn": [
+   "tbr_81921"
+  ],
+  "STILL-3": [
+   "physcorp_3348",
+   "tbr_479532",
+   "tbr_558505"
+  ],
+  "RLinf": [
+   "physcorp_3348",
+   "physcorp_3776",
+   "tbr_245633",
+   "tbr_78665"
+  ]
+ },
+ "budgets": {
+  "ProRL v2|tbr_172668": [
+   "16k"
+  ],
+  "ProRL v2|tbr_500712": [
+   "16k",
+   "at 8k",
+   "beyond 16k"
+  ],
+  "ProRL v2|tbr_245633": [
+   "16k",
+   "at 8k",
+   "beyond 16k"
+  ],
+  "ProRL v2|tbr_22163": [
+   "beyond 16k"
+  ],
+  "ProRL v2|physcorp_3104": [
+   "beyond 16k"
+  ],
+  "DeepScaleR|tbr_558505": [
+   "at 24k",
+   "beyond 28k"
+  ],
+  "RLinf|tbr_78665": [
+   "beyond 32k"
+  ],
+  "STILL-3|tbr_558505": [
+   "at 28k",
+   "beyond 32k"
+  ],
+  "e3|physcorp_3393": [
+   "beyond 24k"
+  ],
+  "e3|physcorp_2013": [
+   "beyond 24k"
+  ],
+  "Skywork-7B|tbr_106015": [
+   "16k"
+  ],
+  "Skywork-7B|tbr_22163": [
+   "16k",
+   "at 32k",
+   "beyond 48k"
+  ],
+  "Skywork-7B|physicsb_2258": [
+   "16k",
+   "at 32k",
+   "beyond 48k"
+  ],
+  "Skywork-7B|tbr_462584": [
+   "16k"
+  ],
+  "Skywork-7B|physcorp_3132": [
+   "at 32k",
+   "beyond 48k"
+  ],
+  "AceReason-14B|physicsb_1985": [
+   "at 32k",
+   "beyond 48k"
+  ],
+  "AceReason-14B|physcorp_1059": [
+   "at 32k",
+   "beyond 48k"
+  ],
+  "AceReason-14B|physcorp_6368": [
+   "at 32k",
+   "beyond 48k"
+  ],
+  "Skywork-Math|tbr_106015": [
+   "16k"
+  ],
+  "Skywork-Math|tbr_22163": [
+   "16k",
+   "at 32k",
+   "beyond 48k"
+  ],
+  "Skywork-Math|physicsb_2258": [
+   "16k",
+   "at 32k",
+   "beyond 48k"
+  ],
+  "Skywork-Math|tbr_500712": [
+   "16k",
+   "at 32k",
+   "beyond 48k"
+  ],
+  "Skywork-Math|tbr_462584": [
+   "16k"
+  ],
+  "Skywork-Math|tbr_421768": [
+   "at 32k",
+   "beyond 48k"
+  ],
+  "Skywork-Math|tbr_642894": [
+   "at 32k",
+   "beyond 48k"
+  ],
+  "Skywork-Math|tbr_585100": [
+   "at 32k",
+   "beyond 48k"
+  ],
+  "Skywork-Math|tbr_245633": [
+   "at 32k",
+   "beyond 48k"
+  ],
+  "AceReason|tbr_106015": [
+   "16k"
+  ],
+  "AceReason|physcorp_397": [
+   "16k"
+  ],
+  "AceReason|physicsb_2258": [
+   "16k",
+   "at 32k",
+   "beyond 48k"
+  ]
+ },
+ "pairs": {
+  "ProRL v2": [
+   "Nemotron-Research-Reasoning-Qwen-1.5B",
+   "DeepSeek-R1-Distill-Qwen-1.5B"
+  ],
+  "Skywork-Math": [
+   "Skywork-OR1-Math-7B",
+   "DeepSeek-R1-Distill-Qwen-7B"
+  ],
+  "Skywork-7B": [
+   "Skywork-OR1-7B",
+   "DeepSeek-R1-Distill-Qwen-7B"
+  ],
+  "JustRL-D": [
+   "JustRL-DeepSeek-1.5B",
+   "DeepSeek-R1-Distill-Qwen-1.5B"
+  ],
+  "AceReason-14B": [
+   "AceReason-Nemotron-14B",
+   "DeepSeek-R1-Distill-Qwen-14B"
+  ],
+  "JustRL-N": [
+   "JustRL-Nemotron-1.5B",
+   "OpenMath-Nemotron-1.5B"
+  ],
+  "DeepScaleR": [
+   "DeepScaleR-1.5B-Preview",
+   "DeepSeek-R1-Distill-Qwen-1.5B"
+  ],
+  "e3": [
+   "e3-1.7B",
+   "Qwen3-1.7B"
+  ],
+  "KnowRL": [
+   "KnowRL-Nemotron-1.5B",
+   "OpenMath-Nemotron-1.5B"
+  ],
+  "AceReason": [
+   "AceReason-Nemotron-7B",
+   "DeepSeek-R1-Distill-Qwen-7B"
+  ],
+  "Open-RS3": [
+   "Open-RS3",
+   "DeepSeek-R1-Distill-Qwen-1.5B"
+  ],
+  "DeepMath-Omn": [
+   "DeepMath-Omn-1.5B",
+   "OpenMath-Nemotron-1.5B"
+  ],
+  "STILL-3": [
+   "STILL-3-1.5B-preview",
+   "DeepSeek-R1-Distill-Qwen-1.5B"
+  ],
+  "RLinf": [
+   "RLinf-math-1.5B",
+   "DeepSeek-R1-Distill-Qwen-1.5B"
+  ]
+ }
+}

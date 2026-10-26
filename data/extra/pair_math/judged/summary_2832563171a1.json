@@ -1,0 +1,21 @@
+{
+ "files": {
+  "Polaris-4B-Preview": {
+   "solved_matcher": 1320,
+   "solved_judged": 1338,
+   "rejected": 375,
+   "raised": 18,
+   "now_full": 18
+  },
+  "Qwen3-4B": {
+   "solved_matcher": 1219,
+   "solved_judged": 1230,
+   "rejected": 953,
+   "raised": 11,
+   "now_full": 11
+  }
+ },
+ "deferred_last_run": 480,
+ "distinct_prompts_last_run": 315,
+ "unparsed_last_run": 0
+}

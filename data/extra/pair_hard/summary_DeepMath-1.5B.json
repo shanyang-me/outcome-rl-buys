@@ -1,0 +1,66 @@
+{
+ "DeepMath-1.5B cap4096 hard": {
+  "mean": 0.029803609341825903,
+  "finished": 0.06873673036093418,
+  "score_given_finished": 0.4335907335907336,
+  "any_solve8": 0.07218683651804671,
+  "mean_len": 4013.0238853503183,
+  "n_items": 471
+ },
+ "DeepMath-1.5B cap4096 refill": {
+  "mean": 0.049791666666666665,
+  "finished": 0.088125,
+  "score_given_finished": 0.5650118203309693,
+  "any_solve8": 0.095,
+  "mean_len": 3992.605,
+  "n_items": 200
+ },
+ "DeepMath-1.5B cap8192 hard": {
+  "mean": 0.08574398443029016,
+  "finished": 0.29909766454352443,
+  "score_given_finished": 0.28667553978112986,
+  "any_solve8": 0.1762208067940552,
+  "mean_len": 7443.873142250531,
+  "n_items": 471
+ },
+ "DeepMath-1.5B cap8192 refill": {
+  "mean": 0.12541666666666668,
+  "finished": 0.39125,
+  "score_given_finished": 0.32055378061767836,
+  "any_solve8": 0.22,
+  "mean_len": 7202.68625,
+  "n_items": 200
+ },
+ "DeepMath-1.5B cap16384 hard": {
+  "mean": 0.13441891618643212,
+  "finished": 0.9506369426751592,
+  "score_given_finished": 0.1413987929063306,
+  "any_solve8": 0.22717622080679406,
+  "mean_len": 9760.160031847134,
+  "n_items": 471
+ },
+ "DeepMath-1.5B cap16384 refill": {
+  "mean": 0.19871527777777778,
+  "finished": 0.969375,
+  "score_given_finished": 0.2049931943548965,
+  "any_solve8": 0.305,
+  "mean_len": 9121.283125,
+  "n_items": 200
+ },
+ "DeepMath-1.5B cap24576 hard": {
+  "mean": 0.13614396926498837,
+  "finished": 0.9745222929936306,
+  "score_given_finished": 0.13970328872289656,
+  "any_solve8": 0.22717622080679406,
+  "mean_len": 10015.794851380042,
+  "n_items": 471
+ },
+ "DeepMath-1.5B cap24576 refill": {
+  "mean": 0.19902777777777778,
+  "finished": 0.986875,
+  "score_given_finished": 0.20167475898951517,
+  "any_solve8": 0.305,
+  "mean_len": 9278.975,
+  "n_items": 200
+ }
+}

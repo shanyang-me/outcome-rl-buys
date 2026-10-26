@@ -1,0 +1,7 @@
+# The training hard set under the control and under three fine-tunes that never saw it. The control credited no success on these problems in its first thirty steps. By step $60$ the control solves a third of them, a gain that does not reach the held-out set. The fine-tunes transfer less, and about equally with or without the questions. The questions-removed fine-tune was not read on the held-out set.
+"training hard set (160 problems, k=8, 12k)","fin@1(B)","pass@1(B|fin) (full)","pass@8","any-partial@8","held-out reward / pass@8"
+"base","0.36","0.022","0.056","0.062","0.166 / 0.103"
+"control, step 60 (outcome RL on the corpus)","0.69","0.145","0.344","0.444","0.265 / 0.132"
+"fine-tune on 217 unaided own derivations","0.32","0.036","0.106","0.144","0.169 / 0.096"
+"fine-tune on 210 question-aided derivations, questions removed","0.40","0.043","0.131","0.169","---"
+"fine-tune on the same 210 with the questions (channel E)","0.36","0.059","0.150","0.188","0.156 / 0.103"

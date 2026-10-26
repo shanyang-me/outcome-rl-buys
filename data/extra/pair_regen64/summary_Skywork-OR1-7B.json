@@ -1,0 +1,82 @@
+{
+ "Skywork-OR1-7B cap4096 phys": {
+  "mean": 0.098125,
+  "finished": 0.13166666666666665,
+  "score_given_finished": 0.745253164556962,
+  "any_solve8": 0.18666666666666668,
+  "mean_len": 3932.664583333333,
+  "n_items": 300
+ },
+ "Skywork-OR1-7B cap8192 phys": {
+  "mean": 0.2527951388888889,
+  "finished": 0.36791666666666667,
+  "score_given_finished": 0.6870989052472631,
+  "any_solve8": 0.43,
+  "mean_len": 7029.357083333333,
+  "n_items": 300
+ },
+ "Skywork-OR1-7B cap16384 phys": {
+  "mean": 0.4820659722222222,
+  "finished": 0.80125,
+  "score_given_finished": 0.6016423990292945,
+  "any_solve8": 0.7033333333333334,
+  "mean_len": 10161.357916666666,
+  "n_items": 300
+ },
+ "Skywork-OR1-7B cap24576 phys": {
+  "mean": 0.5263715277777777,
+  "finished": 0.9291666666666667,
+  "score_given_finished": 0.5664985052316891,
+  "any_solve8": 0.7233333333333334,
+  "mean_len": 11167.645416666666,
+  "n_items": 300
+ },
+ "Skywork-OR1-7B cap28672 phys": {
+  "mean": 0.5293715277777777,
+  "finished": 0.94625,
+  "score_given_finished": 0.5594415088800822,
+  "any_solve8": 0.7233333333333334,
+  "mean_len": 11417.03375,
+  "n_items": 300
+ },
+ "Skywork-OR1-7B cap32768 phys": {
+  "mean": 0.5332256944444445,
+  "finished": 0.9608333333333333,
+  "score_given_finished": 0.5549616941312518,
+  "any_solve8": 0.7233333333333334,
+  "mean_len": 11606.10875,
+  "n_items": 300
+ },
+ "Skywork-OR1-7B cap36864 phys": {
+  "mean": 0.5373229166666667,
+  "finished": 0.9720833333333333,
+  "score_given_finished": 0.5527539648521217,
+  "any_solve8": 0.7266666666666667,
+  "mean_len": 11745.301666666666,
+  "n_items": 300
+ },
+ "Skywork-OR1-7B cap49152 phys": {
+  "mean": 0.5432395833333333,
+  "finished": 0.99125,
+  "score_given_finished": 0.5480348886086591,
+  "any_solve8": 0.7266666666666667,
+  "mean_len": 11947.485,
+  "n_items": 300
+ },
+ "Skywork-OR1-7B cap53248 phys": {
+  "mean": 0.5432395833333333,
+  "finished": 0.9916666666666667,
+  "score_given_finished": 0.5478046218487395,
+  "any_solve8": 0.7266666666666667,
+  "mean_len": 11982.9075,
+  "n_items": 300
+ },
+ "Skywork-OR1-7B cap65536 phys": {
+  "mean": 0.5432395833333333,
+  "finished": 0.9920833333333333,
+  "score_given_finished": 0.5475745485090299,
+  "any_solve8": 0.7266666666666667,
+  "mean_len": 12083.22,
+  "n_items": 300
+ }
+}

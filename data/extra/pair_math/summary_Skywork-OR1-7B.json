@@ -1,0 +1,98 @@
+{
+ "Skywork-OR1-7B cap4096 post": {
+  "mean": 0.031746031746031744,
+  "finished": 0.031746031746031744,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.07936507936507936,
+  "mean_len": 4075.9246031746034,
+  "n_items": 63
+ },
+ "Skywork-OR1-7B cap4096 pre": {
+  "mean": 0.03403755868544601,
+  "finished": 0.035211267605633804,
+  "score_given_finished": 0.9666666666666667,
+  "any_solve8": 0.07981220657276995,
+  "mean_len": 4069.5580985915494,
+  "n_items": 213
+ },
+ "Skywork-OR1-7B cap8192 post": {
+  "mean": 0.19642857142857142,
+  "finished": 0.2003968253968254,
+  "score_given_finished": 0.9801980198019802,
+  "any_solve8": 0.3492063492063492,
+  "mean_len": 7697.071428571428,
+  "n_items": 63
+ },
+ "Skywork-OR1-7B cap8192 pre": {
+  "mean": 0.19131455399061034,
+  "finished": 0.20305164319248825,
+  "score_given_finished": 0.9421965317919075,
+  "any_solve8": 0.3192488262910798,
+  "mean_len": 7685.99823943662,
+  "n_items": 213
+ },
+ "Skywork-OR1-7B cap16384 post": {
+  "mean": 0.37896825396825395,
+  "finished": 0.503968253968254,
+  "score_given_finished": 0.7519685039370079,
+  "any_solve8": 0.5238095238095238,
+  "mean_len": 12882.422619047618,
+  "n_items": 63
+ },
+ "Skywork-OR1-7B cap16384 pre": {
+  "mean": 0.37734741784037557,
+  "finished": 0.48532863849765256,
+  "score_given_finished": 0.777509068923821,
+  "any_solve8": 0.5492957746478874,
+  "mean_len": 12943.132042253521,
+  "n_items": 213
+ },
+ "Skywork-OR1-7B cap24576 post": {
+  "mean": 0.41865079365079366,
+  "finished": 0.6944444444444444,
+  "score_given_finished": 0.6028571428571429,
+  "any_solve8": 0.6031746031746031,
+  "mean_len": 16110.337301587302,
+  "n_items": 63
+ },
+ "Skywork-OR1-7B cap24576 pre": {
+  "mean": 0.43309859154929575,
+  "finished": 0.6813380281690141,
+  "score_given_finished": 0.6356589147286822,
+  "any_solve8": 0.6338028169014085,
+  "mean_len": 16299.919014084508,
+  "n_items": 213
+ },
+ "Skywork-OR1-7B cap28672 post": {
+  "mean": 0.43253968253968256,
+  "finished": 0.7420634920634921,
+  "score_given_finished": 0.5828877005347594,
+  "any_solve8": 0.6031746031746031,
+  "mean_len": 17250.458333333332,
+  "n_items": 63
+ },
+ "Skywork-OR1-7B cap28672 pre": {
+  "mean": 0.443075117370892,
+  "finished": 0.7423708920187794,
+  "score_given_finished": 0.5968379446640316,
+  "any_solve8": 0.6431924882629108,
+  "mean_len": 17471.25528169014,
+  "n_items": 213
+ },
+ "Skywork-OR1-7B cap32768 post": {
+  "mean": 0.4365079365079365,
+  "finished": 0.7797619047619048,
+  "score_given_finished": 0.5597964376590331,
+  "any_solve8": 0.6031746031746031,
+  "mean_len": 18227.083333333332,
+  "n_items": 63
+ },
+ "Skywork-OR1-7B cap32768 pre": {
+  "mean": 0.4524647887323944,
+  "finished": 0.8045774647887324,
+  "score_given_finished": 0.562363238512035,
+  "any_solve8": 0.6572769953051644,
+  "mean_len": 18392.788145539907,
+  "n_items": 213
+ }
+}

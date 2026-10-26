@@ -1,0 +1,66 @@
+{
+ "AceReason-Nemotron-14B cap4096 phys": {
+  "mean": 0.10166666666666667,
+  "finished": 0.1325,
+  "score_given_finished": 0.7672955974842768,
+  "any_solve8": 0.21,
+  "mean_len": 3894.14875,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-14B cap8192 phys": {
+  "mean": 0.2750520833333333,
+  "finished": 0.3829166666666667,
+  "score_given_finished": 0.7183079434167573,
+  "any_solve8": 0.48,
+  "mean_len": 6981.38,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-14B cap16384 phys": {
+  "mean": 0.5123819444444444,
+  "finished": 0.82125,
+  "score_given_finished": 0.623904955183494,
+  "any_solve8": 0.68,
+  "mean_len": 10046.936666666666,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-14B cap24576 phys": {
+  "mean": 0.5640416666666667,
+  "finished": 0.9616666666666667,
+  "score_given_finished": 0.5865251299826689,
+  "any_solve8": 0.7033333333333334,
+  "mean_len": 10856.111666666666,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-14B cap28672 phys": {
+  "mean": 0.5691805555555556,
+  "finished": 0.98375,
+  "score_given_finished": 0.578582521530425,
+  "any_solve8": 0.7033333333333334,
+  "mean_len": 10962.794583333334,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-14B cap32768 phys": {
+  "mean": 0.5706875,
+  "finished": 0.9916666666666667,
+  "score_given_finished": 0.5754831932773109,
+  "any_solve8": 0.7066666666666667,
+  "mean_len": 11006.856666666667,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-14B cap36864 phys": {
+  "mean": 0.5723541666666667,
+  "finished": 0.99625,
+  "score_given_finished": 0.574508573818486,
+  "any_solve8": 0.7066666666666667,
+  "mean_len": 11031.601666666667,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-14B cap49152 phys": {
+  "mean": 0.5723541666666667,
+  "finished": 0.9979166666666667,
+  "score_given_finished": 0.5735490605427975,
+  "any_solve8": 0.7066666666666667,
+  "mean_len": 11064.20125,
+  "n_items": 300
+ }
+}

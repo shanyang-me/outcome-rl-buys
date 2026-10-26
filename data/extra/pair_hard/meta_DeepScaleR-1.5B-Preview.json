@@ -1,0 +1,30 @@
+{
+ "model": "agentica-org/DeepScaleR-1.5B-Preview",
+ "path": "/root/hf/hub/models--agentica-org--DeepScaleR-1.5B-Preview/snapshots/e3f524ce413a296b4d388e7560dd5c82c1c56725",
+ "revision": "e3f524ce413a296b4d388e7560dd5c82c1c56725",
+ "host": "497aced59eab",
+ "gpu": "NVIDIA H100 80GB HBM3",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "yarn": null,
+ "hf_overrides": null,
+ "gen_cap": 24576,
+ "derived_caps": [
+  4096,
+  8192,
+  16384
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  151649
+ ],
+ "seconds": {
+  "load": 65,
+  "generate": 4879,
+  "score": 385
+ },
+ "trace_rows": 0
+}

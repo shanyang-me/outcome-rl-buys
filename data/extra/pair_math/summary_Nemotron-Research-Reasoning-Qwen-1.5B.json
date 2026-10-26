@@ -1,0 +1,50 @@
+{
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap4096 post": {
+  "mean": 0.06547619047619048,
+  "finished": 0.09523809523809523,
+  "score_given_finished": 0.6875,
+  "any_solve8": 0.14285714285714285,
+  "mean_len": 4031.1944444444443,
+  "n_items": 63
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap4096 pre": {
+  "mean": 0.0721830985915493,
+  "finished": 0.09272300469483569,
+  "score_given_finished": 0.7784810126582279,
+  "any_solve8": 0.14084507042253522,
+  "mean_len": 4044.9090375586857,
+  "n_items": 213
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap8192 post": {
+  "mean": 0.25992063492063494,
+  "finished": 0.871031746031746,
+  "score_given_finished": 0.2984054669703872,
+  "any_solve8": 0.4126984126984127,
+  "mean_len": 6304.708333333333,
+  "n_items": 63
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap8192 pre": {
+  "mean": 0.2992957746478873,
+  "finished": 0.8931924882629108,
+  "score_given_finished": 0.33508541392904073,
+  "any_solve8": 0.4694835680751174,
+  "mean_len": 6237.955399061033,
+  "n_items": 213
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap16384 post": {
+  "mean": 0.2718253968253968,
+  "finished": 0.9940476190476191,
+  "score_given_finished": 0.27345309381237526,
+  "any_solve8": 0.4444444444444444,
+  "mean_len": 6439.363095238095,
+  "n_items": 63
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap16384 pre": {
+  "mean": 0.306924882629108,
+  "finished": 0.9988262910798122,
+  "score_given_finished": 0.3072855464159812,
+  "any_solve8": 0.4788732394366197,
+  "mean_len": 6319.414319248826,
+  "n_items": 213
+ }
+}

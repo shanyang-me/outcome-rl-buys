@@ -1,0 +1,31 @@
+{
+ "model": "nvidia/AceReason-Nemotron-14B",
+ "path": "/root/hf/hub/models--nvidia--AceReason-Nemotron-14B/snapshots/b244ed5578b03df25c49c7d1e7bc30fbcf8a63b5",
+ "revision": "b244ed5578b03df25c49c7d1e7bc30fbcf8a63b5",
+ "host": "b30380191c19",
+ "gpu": "NVIDIA H200",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "gen_cap": 49152,
+ "derived_caps": [
+  4096,
+  8192,
+  16384,
+  24576,
+  28672,
+  32768
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  151649
+ ],
+ "seconds": {
+  "load": 223,
+  "generate": 25025,
+  "score": 114
+ },
+ "trace_rows": 1200
+}

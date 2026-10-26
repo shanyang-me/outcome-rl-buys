@@ -1,0 +1,94 @@
+{
+ "AceReason-14B": {
+  "base": "R1-14B",
+  "cap": "8$\\to$32k",
+  "4096": {
+   "F": -0.1474511400651466,
+   "P": 0.03545461228736881,
+   "d": -0.11199652777777777,
+   "n": 300,
+   "both": 54,
+   "base_only": 58,
+   "rl_only": 7,
+   "neither": 181,
+   "rl_only_base_all_finished": 1,
+   "base_only_rl_all_finished": 0,
+   "rl_only_base_some_truncated": 6,
+   "base_only_rl_some_truncated": 58
+  },
+  "8192": {
+   "F": -0.20636355683090712,
+   "P": 0.08462744571979595,
+   "d": -0.1217361111111111,
+   "n": 300,
+   "both": 124,
+   "base_only": 64,
+   "rl_only": 8,
+   "neither": 104,
+   "rl_only_base_all_finished": 1,
+   "base_only_rl_all_finished": 1,
+   "rl_only_base_some_truncated": 7,
+   "base_only_rl_some_truncated": 63
+  },
+  "16384": {
+   "F": -0.07820285769828929,
+   "P": 0.08954660769828927,
+   "d": 0.01134374999999993,
+   "n": 300,
+   "both": 182,
+   "base_only": 23,
+   "rl_only": 19,
+   "neither": 76,
+   "rl_only_base_all_finished": 11,
+   "base_only_rl_all_finished": 6,
+   "rl_only_base_some_truncated": 8,
+   "base_only_rl_some_truncated": 17
+  }
+ },
+ "Skywork-32B": {
+  "base": "R1-32B",
+  "cap": "8$\\to$32k",
+  "4096": {
+   "F": -0.2159171597633136,
+   "P": 0.02508382642998029,
+   "d": -0.19083333333333335,
+   "n": 300,
+   "both": 36,
+   "base_only": 95,
+   "rl_only": 0,
+   "neither": 169,
+   "rl_only_base_all_finished": 0,
+   "base_only_rl_all_finished": 0,
+   "rl_only_base_some_truncated": 0,
+   "base_only_rl_some_truncated": 95
+  },
+  "8192": {
+   "F": -0.30367362982929025,
+   "P": 0.08409029649595688,
+   "d": -0.21958333333333332,
+   "n": 300,
+   "both": 116,
+   "base_only": 95,
+   "rl_only": 6,
+   "neither": 83,
+   "rl_only_base_all_finished": 2,
+   "base_only_rl_all_finished": 0,
+   "rl_only_base_some_truncated": 4,
+   "base_only_rl_some_truncated": 95
+  },
+  "16384": {
+   "F": -0.07190104166666661,
+   "P": 0.0773177083333333,
+   "d": 0.005416666666666736,
+   "n": 300,
+   "both": 203,
+   "base_only": 17,
+   "rl_only": 16,
+   "neither": 64,
+   "rl_only_base_all_finished": 10,
+   "base_only_rl_all_finished": 7,
+   "rl_only_base_some_truncated": 6,
+   "base_only_rl_some_truncated": 10
+  }
+ }
+}

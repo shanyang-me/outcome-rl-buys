@@ -1,0 +1,32 @@
+{
+ "model": "Skywork/Skywork-OR1-Math-7B",
+ "path": "/root/hf/hub/models--Skywork--Skywork-OR1-Math-7B/snapshots/fcef970f1d10682f13c182b280146a194ed57d1e",
+ "revision": "fcef970f1d10682f13c182b280146a194ed57d1e",
+ "host": "47f6cf1ebbc6",
+ "gpu": "NVIDIA H100 80GB HBM3",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "yarn": null,
+ "hf_overrides": null,
+ "gen_cap": 32768,
+ "derived_caps": [
+  4096,
+  8192,
+  16384,
+  24576,
+  28672
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  151649
+ ],
+ "seconds": {
+  "load": 89,
+  "generate": 13461,
+  "score": 14
+ },
+ "trace_rows": 0
+}

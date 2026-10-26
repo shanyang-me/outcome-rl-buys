@@ -1,0 +1,66 @@
+{
+ "DeepScaleR-1.5B-Preview cap4096 post": {
+  "mean": 0.07936507936507936,
+  "finished": 0.125,
+  "score_given_finished": 0.6349206349206349,
+  "any_solve8": 0.19047619047619047,
+  "mean_len": 3999.811507936508,
+  "n_items": 63
+ },
+ "DeepScaleR-1.5B-Preview cap4096 pre": {
+  "mean": 0.09741784037558686,
+  "finished": 0.13145539906103287,
+  "score_given_finished": 0.7410714285714286,
+  "any_solve8": 0.16901408450704225,
+  "mean_len": 3969.7658450704225,
+  "n_items": 213
+ },
+ "DeepScaleR-1.5B-Preview cap8192 post": {
+  "mean": 0.21626984126984128,
+  "finished": 0.5158730158730159,
+  "score_given_finished": 0.41923076923076924,
+  "any_solve8": 0.3492063492063492,
+  "mean_len": 6733.748015873016,
+  "n_items": 63
+ },
+ "DeepScaleR-1.5B-Preview cap8192 pre": {
+  "mean": 0.2244718309859155,
+  "finished": 0.4835680751173709,
+  "score_given_finished": 0.4641990291262136,
+  "any_solve8": 0.36619718309859156,
+  "mean_len": 6799.681924882629,
+  "n_items": 213
+ },
+ "DeepScaleR-1.5B-Preview cap16384 post": {
+  "mean": 0.25595238095238093,
+  "finished": 0.9007936507936508,
+  "score_given_finished": 0.2841409691629956,
+  "any_solve8": 0.3968253968253968,
+  "mean_len": 8934.34126984127,
+  "n_items": 63
+ },
+ "DeepScaleR-1.5B-Preview cap16384 pre": {
+  "mean": 0.2634976525821596,
+  "finished": 0.9131455399061033,
+  "score_given_finished": 0.288560411311054,
+  "any_solve8": 0.431924882629108,
+  "mean_len": 8847.389671361503,
+  "n_items": 213
+ },
+ "DeepScaleR-1.5B-Preview cap24576 post": {
+  "mean": 0.25595238095238093,
+  "finished": 0.9642857142857143,
+  "score_given_finished": 0.2654320987654321,
+  "any_solve8": 0.3968253968253968,
+  "mean_len": 9397.541666666666,
+  "n_items": 63
+ },
+ "DeepScaleR-1.5B-Preview cap24576 pre": {
+  "mean": 0.2664319248826291,
+  "finished": 0.9700704225352113,
+  "score_given_finished": 0.27465214761040535,
+  "any_solve8": 0.43661971830985913,
+  "mean_len": 9224.847417840376,
+  "n_items": 213
+ }
+}

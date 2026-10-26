@@ -1,0 +1,15 @@
+{
+ "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+ "path": "/root/hf/hub/models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B/snapshots/ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562",
+ "cap": 28672,
+ "n_problems": 133,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 49,
+ "finished": 0.9633458646616542,
+ "seconds": {
+  "load": 29,
+  "generate": 4949
+ },
+ "host": "be6e03e66e9d"
+}

@@ -1,0 +1,15 @@
+{
+ "model": "POLARIS-Project/Polaris-1.7B-Preview",
+ "path": "/root/hf/hub/models--POLARIS-Project--Polaris-1.7B-Preview/snapshots/f4f2331bd496862e443a4f17703211a72f7f8146",
+ "cap": 49152,
+ "n_problems": 114,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 28,
+ "finished": 0.8819444444444444,
+ "seconds": {
+  "load": 71,
+  "generate": 0
+ },
+ "host": "581f84ff14e9"
+}

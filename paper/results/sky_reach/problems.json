@@ -1,0 +1,30 @@
+{
+ "tbr_245633": {
+  "q": "In a Young's double-slit experiment, the fringe width is given by \\(\\beta = \\frac{\\lambda D}{d}\\), where \\(D\\) is the distance from the slits to the screen and \\(d\\) is the separation between the slits. If the slit separation \\(d\\) is halved and the screen distance \\(D\\) is tripled, the bandwidth (inverse of fringe width) becomes:\n\n(a) tripled  \n(b) halved  \n(c) one-sixth  \n(d) six times",
+  "gt": "{\"equiv_mode\":\"sympy\",\"golds\":[\"(c)\"],\"milestones\":[],\"source_tag\":\"textbookreasoning\"}"
+ },
+ "tbr_421768": {
+  "q": "The work done in adiabatic compression of 2 moles of an ideal monoatomic gas against a constant external pressure of 2 atm is to be calculated. The gas starts at an initial pressure of 1 atm and an initial temperature of 300 K. Given \\( R = 2 \\, \\text{cal/mol-K} \\), what is the work done in calories?  \n(a) 360 cal  \n(b) 720 cal  \n(c) 800 cal  \n(d) 1000 cal",
+  "gt": "{\"equiv_mode\":\"numeric\",\"golds\":[\"720\"],\"milestones\":[],\"source_tag\":\"textbookreasoning\"}"
+ },
+ "tbr_585100": {
+  "q": "The average velocity of an ideal gas molecule at 27\u00b0C is 0.3 m/s. What will be the average velocity at 927\u00b0C?  \n   a. 0.6 m/s  \n   b. 0.3 m/s  \n   c. 0.9 m/s  \n   d. 3.0 m/s",
+  "gt": "{\"equiv_mode\":\"numeric\",\"golds\":[\"0.6\"],\"milestones\":[],\"source_tag\":\"textbookreasoning\"}"
+ },
+ "tbr_642894": {
+  "q": "A series RC circuit, with \\( R = 10 \\, \\Omega \\) and \\( C = 4 \\, \\mu\\text{F} \\), has an initial charge \\( Q_0 = 800 \\, \\mu\\text{C} \\) on the capacitor at the time the switch is closed, applying a constant-voltage source \\( V = 100 \\, \\text{V} \\). Find the resulting current transient if the charge is (a) of the same polarity as that deposited by the source, and (b) of the opposite polarity.",
+  "gt": "{\"equiv_mode\":\"sympy\",\"golds\":[\"I(t) = -10 e^{-25,000 t} \\\\, \\\\text{A}, I(t) = 30 e^{-25,000 t} \\\\, \\\\text{A}\"],\"milestones\":[],\"source_tag\":\"textbookreasoning\"}"
+ },
+ "tbr_500712": {
+  "q": "The average energy in one time period in simple harmonic motion is  \n(a) \\( \\frac{1}{2} m \\omega^2 A^2 \\)  \n(b) \\( \\frac{1}{4} m \\omega^2 A^2 \\)  \n(c) \\( m \\omega^2 A^2 \\)  \n(d) zero.",
+  "gt": "{\"equiv_mode\":\"sympy\",\"golds\":[\"\\\\(\\\\frac{1}{2} m \\\\omega^2 A^2\\\\)\"],\"milestones\":[],\"source_tag\":\"textbookreasoning\"}"
+ },
+ "tbr_22163": {
+  "q": "A ray of light strikes a plane mirror at an angle of 30\u00b0 as shown in the figure. After reflection, the ray passes through a prism of refractive index 1.5 whose apex angle is 4\u00b0. The total angle through which the ray deviates is:\n(a) 90\u00b0  \n(b) 270\u00b0  \n(c) 145\u00b0  \n(d) 122\u00b0",
+  "gt": "{\"equiv_mode\":\"numeric\",\"golds\":[\"122\"],\"milestones\":[],\"source_tag\":\"textbookreasoning\"}"
+ },
+ "physicsb_2258": {
+  "q": "The wavelength of a certain ultraviolet laser is $\\lambda$, and the energy of a single photon is $\\qquad$. If this laser is used in a photoelectric effect experiment, and the cutoff frequency of the photoelectric material is $v_{0}$, then the maximum initial kinetic energy of the emitted photoelectrons is $\\qquad$. (Planck's constant is $h$, and the speed of light in a vacuum is $c$.)",
+  "gt": "{\"equiv_mode\":\"sympy\",\"golds\":[\"h \\\\frac{c}{\\\\lambda}\",\"h \\\\frac{c}{\\\\lambda}-h v_{0}\"],\"milestones\":[],\"source_tag\":\"physics_bench\"}"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "model": "POLARIS-Project/Polaris-1.7B-Preview",
+ "path": "/root/hf/hub/models--POLARIS-Project--Polaris-1.7B-Preview/snapshots/f4f2331bd496862e443a4f17703211a72f7f8146",
+ "revision": "f4f2331bd496862e443a4f17703211a72f7f8146",
+ "host": "c590611b20dd",
+ "gpu": "NVIDIA H200",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "yarn": null,
+ "hf_overrides": null,
+ "gen_cap": 65536,
+ "derived_caps": [
+  4096,
+  8192,
+  16384,
+  24576,
+  28672,
+  32768,
+  36864,
+  49152,
+  53248
+ ],
+ "n": 8,
+ "temperature": 1.4,
+ "top_p": 1.0,
+ "seed": 0,
+ "close_ids": [
+  151668
+ ],
+ "seconds": {
+  "load": 244,
+  "generate": 14455,
+  "score": 223
+ },
+ "trace_rows": 600
+}

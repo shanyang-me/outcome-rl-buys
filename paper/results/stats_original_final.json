@@ -1,0 +1,408 @@
+{
+ "n_cells": 48,
+ "n_recipes": 8,
+ "pooled_dominance": 0.8186375575569831,
+ "pooled_dominance_ci_crossed": [
+  0.7196161229704194,
+  0.8842251161728247
+ ],
+ "pooled_dominance_p_le_half": 0.0,
+ "r2_dmean_on_F": 0.9328659314513527,
+ "r2_ci_crossed": [
+  0.7327825209549099,
+  0.9776734774376364
+ ],
+ "pooled_matched_change": 0.014559992103443352,
+ "pooled_matched_ci_crossed": [
+  0.003513426741290923,
+  0.029337428012492665
+ ],
+ "per_recipe": {
+  "AceReason-Nemotron-7B": {
+   "dominance": 0.7477287898933039,
+   "dominance_ci_problems": [
+    0.6713171700497091,
+    0.8356657061568197
+   ],
+   "matched_mean": 0.00749155790345013,
+   "matched_ci_problems": [
+    -0.003733720592551879,
+    0.019936817762825777
+   ]
+  },
+  "DeepScaleR-1.5B-Preview": {
+   "dominance": 0.89015530829366,
+   "dominance_ci_problems": [
+    0.8443280148060184,
+    0.9118752600388694
+   ],
+   "matched_mean": 0.015090780703302664,
+   "matched_ci_problems": [
+    0.0008445145160803746,
+    0.029853551972222288
+   ]
+  },
+  "Nemotron-Research-Reasoning-Qwen-1.5B": {
+   "dominance": 0.7897333659742827,
+   "dominance_ci_problems": [
+    0.7618902452876214,
+    0.8169196121504897
+   ],
+   "matched_mean": 0.04704487373965676,
+   "matched_ci_problems": [
+    0.02526282900957011,
+    0.0703963368681081
+   ]
+  },
+  "Open-RS3": {
+   "dominance": 0.5150439845615417,
+   "dominance_ci_problems": [
+    0.2857724842237503,
+    0.7460773634688741
+   ],
+   "matched_mean": -0.00335941509910731,
+   "matched_ci_problems": [
+    -0.012300194392830104,
+    0.005340508757815896
+   ]
+  },
+  "Polaris-4B-Preview": {
+   "dominance": 0.938562040329622,
+   "dominance_ci_problems": [
+    0.8899610237124556,
+    0.9629375824106565
+   ],
+   "matched_mean": -0.0003523933596152773,
+   "matched_ci_problems": [
+    -0.0092724448848559,
+    0.007910965275134471
+   ]
+  },
+  "STILL-3-1.5B-preview": {
+   "dominance": 0.8721371645828628,
+   "dominance_ci_problems": [
+    0.8130488879882937,
+    0.9141493790322588
+   ],
+   "matched_mean": 0.008602245623127447,
+   "matched_ci_problems": [
+    -0.002255823086694994,
+    0.01986669134201478
+   ]
+  },
+  "Skywork-OR1-7B": {
+   "dominance": 0.7384615717916798,
+   "dominance_ci_problems": [
+    0.697333808340073,
+    0.7863153593116945
+   ],
+   "matched_mean": 0.018899229231455594,
+   "matched_ci_problems": [
+    0.009535570451620254,
+    0.02892926082378308
+   ]
+  },
+  "Skywork-OR1-Math-7B": {
+   "dominance": 0.6503630398743138,
+   "dominance_ci_problems": [
+    0.5918625220059558,
+    0.7164949801308369
+   ],
+   "matched_mean": 0.023063058085276793,
+   "matched_ci_problems": [
+    0.008891234974129475,
+    0.0399957768133147
+   ]
+  }
+ },
+ "sign_test_point": {
+  "k": 8,
+  "n": 8,
+  "p_one_sided": 0.00390625
+ },
+ "recipes_dominance_ci_above_half": 7,
+ "re_meta_matched": {
+  "mu": 0.012211558901325272,
+  "ci": [
+   0.0035298493408168555,
+   0.02089326846183369
+  ],
+  "tau2": 0.00011500259567513279,
+  "Q": 30.608470429451835,
+  "k": 8,
+  "I2": 0.7713051354155706,
+  "hksj_ci": [
+   0.0002838673096809269,
+   0.024139250492969618
+  ],
+  "hksj_p_two_sided": 0.0460313129229404
+ },
+ "dominance_by_capset": {
+  "4k": {
+   "pooled": 0.8816188943513488,
+   "ci_crossed": [
+    0.7864154083548819,
+    0.932951425810082
+   ],
+   "per_recipe": {
+    "AceReason-Nemotron-7B": 0.8670670852267213,
+    "DeepScaleR-1.5B-Preview": 0.9739839576403833,
+    "Nemotron-Research-Reasoning-Qwen-1.5B": 0.6387019779734492,
+    "Open-RS3": 0.5884342071829032,
+    "Polaris-4B-Preview": 0.9915561019424869,
+    "STILL-3-1.5B-preview": 0.9253985195775715,
+    "Skywork-OR1-7B": 0.8674518093324014,
+    "Skywork-OR1-Math-7B": 0.7904894860872396
+   },
+   "per_recipe_ci_problems": {
+    "AceReason-Nemotron-7B": [
+     0.8051852892971282,
+     0.943989146077163
+    ],
+    "DeepScaleR-1.5B-Preview": [
+     0.9036912231715194,
+     0.9918107771024158
+    ],
+    "Nemotron-Research-Reasoning-Qwen-1.5B": [
+     0.5233316313422193,
+     0.7501855593210258
+    ],
+    "Open-RS3": [
+     0.1999003986813316,
+     0.9049743920228067
+    ],
+    "Polaris-4B-Preview": [
+     0.8997228695752917,
+     0.9921448040565178
+    ],
+    "STILL-3-1.5B-preview": [
+     0.8652354104134942,
+     0.9751675199008057
+    ],
+    "Skywork-OR1-7B": [
+     0.8174799347787607,
+     0.9273058184393538
+    ],
+    "Skywork-OR1-Math-7B": [
+     0.7346876178923932,
+     0.8533594905149702
+    ]
+   },
+   "k_above_half_changing": 7,
+   "n_changing": 7,
+   "sign_p_changing": 0.0078125
+  },
+  "8k": {
+   "pooled": 0.8344603548607411,
+   "ci_crossed": [
+    0.7211198664434941,
+    0.9095283466491921
+   ],
+   "per_recipe": {
+    "AceReason-Nemotron-7B": 0.6363645490495856,
+    "DeepScaleR-1.5B-Preview": 0.8529638816248574,
+    "Nemotron-Research-Reasoning-Qwen-1.5B": 0.9084872993906019,
+    "Open-RS3": 0.5090645215176819,
+    "Polaris-4B-Preview": 0.9487178901619842,
+    "STILL-3-1.5B-preview": 0.8692802910166495,
+    "Skywork-OR1-7B": 0.7389482451630747,
+    "Skywork-OR1-Math-7B": 0.6599413955284836
+   },
+   "per_recipe_ci_problems": {
+    "AceReason-Nemotron-7B": [
+     0.5126859817957895,
+     0.7803645329433777
+    ],
+    "DeepScaleR-1.5B-Preview": [
+     0.7958665772695087,
+     0.9190754167552647
+    ],
+    "Nemotron-Research-Reasoning-Qwen-1.5B": [
+     0.8608673045830428,
+     0.9598423088373321
+    ],
+    "Open-RS3": [
+     0.16312788192453692,
+     0.8770083227858875
+    ],
+    "Polaris-4B-Preview": [
+     0.884216051794319,
+     0.990092125180673
+    ],
+    "STILL-3-1.5B-preview": [
+     0.7809851356327304,
+     0.9300790973915676
+    ],
+    "Skywork-OR1-7B": [
+     0.6899531874656332,
+     0.7967171842727584
+    ],
+    "Skywork-OR1-Math-7B": [
+     0.5918222804612625,
+     0.736262991368676
+    ]
+   },
+   "k_above_half_changing": 7,
+   "n_changing": 7,
+   "sign_p_changing": 0.0078125
+  },
+  "16k": {
+   "pooled": 0.7106777578971176,
+   "ci_crossed": [
+    0.48762040860284345,
+    0.8383107399609085
+   ],
+   "per_recipe": {
+    "AceReason-Nemotron-7B": 0.5559184389834311,
+    "DeepScaleR-1.5B-Preview": 0.8529113402778565,
+    "Nemotron-Research-Reasoning-Qwen-1.5B": 0.6549128354781607,
+    "Open-RS3": 0.4709217279553118,
+    "Polaris-4B-Preview": 0.8868617240107304,
+    "STILL-3-1.5B-preview": 0.7553945311235434,
+    "Skywork-OR1-7B": 0.49138602719141683,
+    "Skywork-OR1-Math-7B": 0.29058258375927243
+   },
+   "per_recipe_ci_problems": {
+    "AceReason-Nemotron-7B": [
+     0.39867919504681515,
+     0.7829706857327747
+    ],
+    "DeepScaleR-1.5B-Preview": [
+     0.7261549944307493,
+     0.9631358465865072
+    ],
+    "Nemotron-Research-Reasoning-Qwen-1.5B": [
+     0.5685900106406588,
+     0.7436728679067863
+    ],
+    "Open-RS3": [
+     0.09918732144874544,
+     0.8034698664188996
+    ],
+    "Polaris-4B-Preview": [
+     0.8211000673282494,
+     0.9613998213785577
+    ],
+    "STILL-3-1.5B-preview": [
+     0.5950386080475062,
+     0.9251264987639787
+    ],
+    "Skywork-OR1-7B": [
+     0.411099189121841,
+     0.5812134847606794
+    ],
+    "Skywork-OR1-Math-7B": [
+     0.17418255057135912,
+     0.4239833245309304
+    ]
+   },
+   "k_above_half_changing": 5,
+   "n_changing": 6,
+   "sign_p_changing": 0.109375
+  },
+  "4k+8k": {
+   "pooled": 0.8553848863014258,
+   "ci_crossed": [
+    0.7784745643347565,
+    0.9085699347869678
+   ],
+   "per_recipe": {
+    "AceReason-Nemotron-7B": 0.7913118612651385,
+    "DeepScaleR-1.5B-Preview": 0.9012532771062891,
+    "Nemotron-Research-Reasoning-Qwen-1.5B": 0.843827919944714,
+    "Open-RS3": 0.5409867157982339,
+    "Polaris-4B-Preview": 0.9663314282923853,
+    "STILL-3-1.5B-preview": 0.8991382016449058,
+    "Skywork-OR1-7B": 0.800469118163411,
+    "Skywork-OR1-Math-7B": 0.7263124686526387
+   },
+   "per_recipe_ci_problems": {
+    "AceReason-Nemotron-7B": [
+     0.7241347947779332,
+     0.8657762840468347
+    ],
+    "DeepScaleR-1.5B-Preview": [
+     0.8467692461072331,
+     0.9402528310363399
+    ],
+    "Nemotron-Research-Reasoning-Qwen-1.5B": [
+     0.8064558277457425,
+     0.8850757615679274
+    ],
+    "Open-RS3": [
+     0.2939931987801325,
+     0.8190733160989644
+    ],
+    "Polaris-4B-Preview": [
+     0.9056740600536313,
+     0.9811144805007261
+    ],
+    "STILL-3-1.5B-preview": [
+     0.8344000617933464,
+     0.9436616865880048
+    ],
+    "Skywork-OR1-7B": [
+     0.7601404977012126,
+     0.8490991087966645
+    ],
+    "Skywork-OR1-Math-7B": [
+     0.6749429841167421,
+     0.7836587462314393
+    ]
+   },
+   "k_above_half_changing": 7,
+   "n_changing": 7,
+   "sign_p_changing": 0.0078125
+  }
+ },
+ "length_vs_finishing": {
+  "x_median_log_len_ratio": {
+   "AceReason-Nemotron-7B": 0.121459218331809,
+   "DeepScaleR-1.5B-Preview": -0.22687401015451492,
+   "Nemotron-Research-Reasoning-Qwen-1.5B": -0.15399457171902686,
+   "Open-RS3": -0.0015407902642872997,
+   "Polaris-4B-Preview": 0.25555990817888674,
+   "STILL-3-1.5B-preview": -0.1800082412105875,
+   "Skywork-OR1-7B": 0.23234120270333827,
+   "Skywork-OR1-Math-7B": 0.12394129010737284
+  },
+  "y_mean_dfinished_4k8k": {
+   "AceReason-Nemotron-7B": -0.07460416666666668,
+   "DeepScaleR-1.5B-Preview": 0.15587499999999999,
+   "Nemotron-Research-Reasoning-Qwen-1.5B": 0.18172916666666664,
+   "Open-RS3": 0.003145833333333313,
+   "Polaris-4B-Preview": -0.2603958333333333,
+   "STILL-3-1.5B-preview": 0.10429166666666669,
+   "Skywork-OR1-7B": -0.17239583333333333,
+   "Skywork-OR1-Math-7B": -0.10954166666666665
+  },
+  "spearman": -0.9285714285714287,
+  "p_exact_two_sided": 0.002232142857142857,
+  "p_method": "exact"
+ },
+ "length_vs_finishing_matched": {
+  "x_median_matched_finished_len_ratio": {
+   "AceReason-Nemotron-7B": 1.3466725507717148,
+   "DeepScaleR-1.5B-Preview": 0.789241645881432,
+   "Nemotron-Research-Reasoning-Qwen-1.5B": 1.0285237730377148,
+   "Open-RS3": 0.991206878339969,
+   "Polaris-4B-Preview": 1.740041549523914,
+   "STILL-3-1.5B-preview": 0.7828783487393844,
+   "Skywork-OR1-7B": 1.3721035090401084,
+   "Skywork-OR1-Math-7B": 1.1786451154550583
+  },
+  "y_mean_dfinished_4k8k": {
+   "AceReason-Nemotron-7B": -0.07460416666666668,
+   "DeepScaleR-1.5B-Preview": 0.15587499999999999,
+   "Nemotron-Research-Reasoning-Qwen-1.5B": 0.18172916666666664,
+   "Open-RS3": 0.003145833333333313,
+   "Polaris-4B-Preview": -0.2603958333333333,
+   "STILL-3-1.5B-preview": 0.10429166666666669,
+   "Skywork-OR1-7B": -0.17239583333333333,
+   "Skywork-OR1-Math-7B": -0.10954166666666665
+  },
+  "spearman": -0.8095238095238096,
+  "p_exact_two_sided": 0.02177579365079365,
+  "p_method": "exact"
+ }
+}

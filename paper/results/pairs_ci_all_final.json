@@ -1,0 +1,7463 @@
+{
+ "DeepScaleR-1.5B-Preview cap4096 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "DeepScaleR-1.5B-Preview",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.9825176019501769,
+  "mean": {
+   "base": 0.11895833333333333,
+   "rl": 0.15598958333333332,
+   "delta": 0.03703124999999999,
+   "ci": [
+    0.0195138888888889,
+    0.05510416666666665
+   ]
+  },
+  "finished": {
+   "base": 0.20625,
+   "rl": 0.28,
+   "delta": 0.07375000000000004,
+   "ci": [
+    0.050416666666666665,
+    0.0975
+   ]
+  },
+  "sgf": {
+   "base": 0.5767676767676768,
+   "rl": 0.5571056547619048,
+   "delta": -0.01966202200577205,
+   "ci": [
+    -0.07023420479302833,
+    0.029671707306062056
+   ]
+  },
+  "any8": {
+   "base": 0.23666666666666666,
+   "rl": 0.2833333333333333,
+   "delta": 0.04666666666666666,
+   "ci": [
+    0.010000000000000009,
+    0.08333333333333334
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 20,
+   "base": 0.6655405405405406,
+   "rl": 0.7115384615384616,
+   "delta": 0.045997920997920994,
+   "ci": [
+    -0.006578947368421018,
+    0.09762031139419669
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.0410865420386905,
+  "perfinished_term": -0.004055292038690485,
+  "finishing_share": 1.109509995981516,
+  "finishing_share_alt": 1.1486681157567245,
+  "finishing_share_ci": [
+   0.8651458223273318,
+   1.6331334545393903
+  ]
+ },
+ "DeepScaleR-1.5B-Preview cap4096 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "DeepScaleR-1.5B-Preview",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.849147312352382,
+  "mean": {
+   "base": 0.58375,
+   "rl": 0.713125,
+   "delta": 0.12937500000000002,
+   "ci": [
+    0.11087499999999995,
+    0.14837500000000003
+   ]
+  },
+  "finished": {
+   "base": 0.641,
+   "rl": 0.78375,
+   "delta": 0.14274999999999993,
+   "ci": [
+    0.12375000000000003,
+    0.16249999999999998
+   ]
+  },
+  "sgf": {
+   "base": 0.9106864274570983,
+   "rl": 0.9098883572567783,
+   "delta": -0.0007980702003199669,
+   "ci": [
+    -0.010868882820102344,
+    0.009035270244924232
+   ]
+  },
+  "any8": {
+   "base": 0.742,
+   "rl": 0.808,
+   "delta": 0.06600000000000006,
+   "ci": [
+    0.04400000000000004,
+    0.08999999999999997
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 261,
+   "base": 0.9261279127416956,
+   "rl": 0.9325301204819277,
+   "delta": 0.0064022077402321464,
+   "ci": [
+    0.0025035918041289573,
+    0.010815454757867826
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.12988656299840504,
+  "perfinished_term": -0.0005115629984050987,
+  "finishing_share": 1.0039541101325993,
+  "finishing_share_alt": 1.0048346861410682,
+  "finishing_share_ci": [
+   0.9565927677998723,
+   1.0564230735476439
+  ]
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap4096 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "Nemotron-Research-Reasoning-Qwen-1.5B",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.043970909897675,
+  "mean": {
+   "base": 0.11895833333333333,
+   "rl": 0.12236111111111111,
+   "delta": 0.0034027777777777823,
+   "ci": [
+    -0.018750000000000017,
+    0.02541666666666667
+   ]
+  },
+  "finished": {
+   "base": 0.20625,
+   "rl": 0.16541666666666666,
+   "delta": -0.04083333333333333,
+   "ci": [
+    -0.0675,
+    -0.014583333333333337
+   ]
+  },
+  "sgf": {
+   "base": 0.5767676767676768,
+   "rl": 0.7397145256087322,
+   "delta": 0.16294684884105537,
+   "ci": [
+    0.08053524617023011,
+    0.24843437974279092
+   ]
+  },
+  "any8": {
+   "base": 0.23666666666666666,
+   "rl": 0.20333333333333334,
+   "delta": -0.033333333333333326,
+   "ci": [
+    -0.07,
+    0.003333333333333327
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 15,
+   "base": 0.7045454545454546,
+   "rl": 0.7931034482758621,
+   "delta": 0.08855799373040751,
+   "ci": [
+    0.0071428571428571175,
+    0.18514813389765294
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.030205009795689897,
+  "perfinished_term": 0.03360778757346767,
+  "finishing_share": -8.876574307304773,
+  "finishing_share_alt": -6.921212121212112,
+  "finishing_share_ci": [
+   -40.44947976878433,
+   44.2619047619067
+  ]
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap4096 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "Nemotron-Research-Reasoning-Qwen-1.5B",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.009662821585925,
+  "mean": {
+   "base": 0.58375,
+   "rl": 0.65,
+   "delta": 0.06625000000000003,
+   "ci": [
+    0.04699999999999993,
+    0.08574999999999999
+   ]
+  },
+  "finished": {
+   "base": 0.641,
+   "rl": 0.69775,
+   "delta": 0.05674999999999997,
+   "ci": [
+    0.03649999999999998,
+    0.07674999999999998
+   ]
+  },
+  "sgf": {
+   "base": 0.9106864274570983,
+   "rl": 0.9315657470440702,
+   "delta": 0.02087931958697198,
+   "ci": [
+    0.010975854553796682,
+    0.031654220417491885
+   ]
+  },
+  "any8": {
+   "base": 0.742,
+   "rl": 0.748,
+   "delta": 0.006000000000000005,
+   "ci": [
+    -0.020000000000000018,
+    0.03200000000000003
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 244,
+   "base": 0.9408033826638478,
+   "rl": 0.9458762886597938,
+   "delta": 0.005072905995946009,
+   "ci": [
+    0.0019486547947701327,
+    0.009369438579061917
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.05286635614475096,
+  "perfinished_term": 0.013383643855249039,
+  "finishing_share": 0.7979827342603915,
+  "finishing_share_alt": 0.780097430312306,
+  "finishing_share_ci": [
+   0.675575790949708,
+   0.8919539491642462
+  ]
+ },
+ "Open-RS3 cap4096 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "Open-RS3",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0023113045130516,
+  "mean": {
+   "base": 0.11895833333333333,
+   "rl": 0.12182291666666667,
+   "delta": 0.002864583333333337,
+   "ci": [
+    -0.007829861111111114,
+    0.013750000000000012
+   ]
+  },
+  "finished": {
+   "base": 0.20625,
+   "rl": 0.20833333333333334,
+   "delta": 0.0020833333333333537,
+   "ci": [
+    -0.012916666666666687,
+    0.01708333333333334
+   ]
+  },
+  "sgf": {
+   "base": 0.5767676767676768,
+   "rl": 0.58475,
+   "delta": 0.007982323232323174,
+   "ci": [
+    -0.03158891547049436,
+    0.04810085134250175
+   ]
+  },
+  "any8": {
+   "base": 0.23666666666666666,
+   "rl": 0.24333333333333335,
+   "delta": 0.006666666666666682,
+   "ci": [
+    -0.023333333333333345,
+    0.03999999999999998
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 12
+  },
+  "finishing_term": 0.0012182291666666786,
+  "perfinished_term": 0.0016463541666666545,
+  "finishing_share": 0.4252727272727309,
+  "finishing_share_alt": 0.41946740128558674,
+  "finishing_share_ci": [
+   -5.716752891052828,
+   6.780082987552032
+  ]
+ },
+ "Open-RS3 cap4096 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "Open-RS3",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.9973863326074944,
+  "mean": {
+   "base": 0.58375,
+   "rl": 0.5855,
+   "delta": 0.0017500000000000293,
+   "ci": [
+    -0.011249999999999982,
+    0.01474999999999993
+   ]
+  },
+  "finished": {
+   "base": 0.641,
+   "rl": 0.6445,
+   "delta": 0.0034999999999999476,
+   "ci": [
+    -0.010000000000000009,
+    0.016750000000000043
+   ]
+  },
+  "sgf": {
+   "base": 0.9106864274570983,
+   "rl": 0.9084561675717611,
+   "delta": -0.0022302598853372047,
+   "ci": [
+    -0.010334292332760286,
+    0.00582004037321282
+   ]
+  },
+  "any8": {
+   "base": 0.742,
+   "rl": 0.738,
+   "delta": -0.0040000000000000036,
+   "ci": [
+    -0.02400000000000002,
+    0.016000000000000014
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 234,
+   "base": 0.9273127753303965,
+   "rl": 0.9308072487644151,
+   "delta": 0.0034944734340186523,
+   "ci": [
+    -0.0008735682180658344,
+    0.008338801675836671
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.003179596586501116,
+  "perfinished_term": -0.0014295965865011482,
+  "finishing_share": 1.8169123351434646,
+  "finishing_share_alt": 1.8213728549141388,
+  "finishing_share_ci": [
+   -3.5901447008211416,
+   5.440860215053764
+  ]
+ },
+ "STILL-3-1.5B-preview cap4096 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "STILL-3-1.5B-preview",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.9454143768983773,
+  "mean": {
+   "base": 0.11895833333333333,
+   "rl": 0.16760416666666664,
+   "delta": 0.048645833333333305,
+   "ci": [
+    0.03427083333333335,
+    0.0640277777777778
+   ]
+  },
+  "finished": {
+   "base": 0.20625,
+   "rl": 0.30583333333333335,
+   "delta": 0.09958333333333336,
+   "ci": [
+    0.07958333333333334,
+    0.11958333333333335
+   ]
+  },
+  "sgf": {
+   "base": 0.5767676767676768,
+   "rl": 0.5480245231607629,
+   "delta": -0.02874315360691393,
+   "ci": [
+    -0.0739437645687645,
+    0.017003348154782882
+   ]
+  },
+  "any8": {
+   "base": 0.23666666666666666,
+   "rl": 0.31,
+   "delta": 0.07333333333333333,
+   "ci": [
+    0.03999999999999998,
+    0.11000000000000001
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 21,
+   "base": 0.7,
+   "rl": 0.728125,
+   "delta": 0.028125000000000067,
+   "ci": [
+    -0.004605263157894668,
+    0.06357703880270404
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.054574108764759315,
+  "perfinished_term": -0.005928275431425998,
+  "finishing_share": 1.1218660474126119,
+  "finishing_share_alt": 1.1807064218199133,
+  "finishing_share_ci": [
+   0.9365250896190912,
+   1.3936618128757887
+  ]
+ },
+ "STILL-3-1.5B-preview cap4096 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "STILL-3-1.5B-preview",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.8510332149807307,
+  "mean": {
+   "base": 0.58375,
+   "rl": 0.6735,
+   "delta": 0.08975,
+   "ci": [
+    0.07525000000000004,
+    0.10475000000000001
+   ]
+  },
+  "finished": {
+   "base": 0.641,
+   "rl": 0.7475,
+   "delta": 0.10650000000000004,
+   "ci": [
+    0.09125000000000005,
+    0.12224999999999997
+   ]
+  },
+  "sgf": {
+   "base": 0.9106864274570983,
+   "rl": 0.9010033444816054,
+   "delta": -0.009683082975492918,
+   "ci": [
+    -0.019416355541397312,
+    -0.000389966047794732
+   ]
+  },
+  "any8": {
+   "base": 0.742,
+   "rl": 0.794,
+   "delta": 0.052000000000000046,
+   "ci": [
+    0.029999999999999916,
+    0.07600000000000007
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 257,
+   "base": 0.9250125817815803,
+   "rl": 0.929377145659637,
+   "delta": 0.004364563878056726,
+   "ci": [
+    -0.00011906179307064058,
+    0.009284163056406114
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.09595685618729101,
+  "perfinished_term": -0.006206856187290961,
+  "finishing_share": 1.0691571720032425,
+  "finishing_share_alt": 1.0806474041691476,
+  "finishing_share_ci": [
+   1.0027937309006296,
+   1.14828847919757
+  ]
+ },
+ "DeepScaleR-1.5B-Preview cap8192 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "DeepScaleR-1.5B-Preview",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.8757393855980522,
+  "mean": {
+   "base": 0.20713541666666666,
+   "rl": 0.29289930555555554,
+   "delta": 0.08576388888888889,
+   "ci": [
+    0.06468750000000001,
+    0.10815972222222223
+   ]
+  },
+  "finished": {
+   "base": 0.45416666666666666,
+   "rl": 0.7291666666666666,
+   "delta": 0.27499999999999997,
+   "ci": [
+    0.24458333333333337,
+    0.30624999999999997
+   ]
+  },
+  "sgf": {
+   "base": 0.45607798165137614,
+   "rl": 0.4016904761904762,
+   "delta": -0.05438750546089993,
+   "ci": [
+    -0.0895012862477691,
+    -0.019497695369788348
+   ]
+  },
+  "any8": {
+   "base": 0.38666666666666666,
+   "rl": 0.4866666666666667,
+   "delta": 0.10000000000000003,
+   "ci": [
+    0.053333333333333344,
+    0.14666666666666667
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": true,
+  "matched": {
+   "n": 69,
+   "base": 0.5956907477820026,
+   "rl": 0.5886460230722526,
+   "delta": -0.007044724709750039,
+   "ci": [
+    -0.03978483434788371,
+    0.02616021728147877
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.11046488095238094,
+  "perfinished_term": -0.024700992063492053,
+  "finishing_share": 1.2880115673799883,
+  "finishing_share_alt": 1.4624038925825502,
+  "finishing_share_ci": [
+   1.0880873030627236,
+   1.5887199387116118
+  ]
+ },
+ "DeepScaleR-1.5B-Preview cap8192 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "DeepScaleR-1.5B-Preview",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.7480949089982718,
+  "mean": {
+   "base": 0.7195,
+   "rl": 0.820375,
+   "delta": 0.10087499999999994,
+   "ci": [
+    0.08274999999999999,
+    0.11975000000000002
+   ]
+  },
+  "finished": {
+   "base": 0.80925,
+   "rl": 0.94125,
+   "delta": 0.132,
+   "ci": [
+    0.11150000000000004,
+    0.15250000000000008
+   ]
+  },
+  "sgf": {
+   "base": 0.8890948409020698,
+   "rl": 0.8715803452855245,
+   "delta": -0.017514495616545278,
+   "ci": [
+    -0.030763903980669416,
+    -0.004677815795587237
+   ]
+  },
+  "any8": {
+   "base": 0.846,
+   "rl": 0.88,
+   "delta": 0.03400000000000003,
+   "ci": [
+    0.018000000000000016,
+    0.052000000000000046
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": true,
+  "matched": {
+   "n": 352,
+   "base": 0.9126984126984127,
+   "rl": 0.9142095914742451,
+   "delta": 0.0015111787758324002,
+   "ci": [
+    -0.003383053297411953,
+    0.006636053443539236
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.11504860557768924,
+  "perfinished_term": -0.014173605577689267,
+  "finishing_share": 1.1405066228271554,
+  "finishing_share_alt": 1.1634252193216683,
+  "finishing_share_ci": [
+   1.0347553537703642,
+   1.2682365860090694
+  ]
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap8192 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "Nemotron-Research-Reasoning-Qwen-1.5B",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.8571879069036454,
+  "mean": {
+   "base": 0.20713541666666666,
+   "rl": 0.4062291666666668,
+   "delta": 0.19909375000000015,
+   "ci": [
+    0.1670416666666667,
+    0.23211805555555565
+   ]
+  },
+  "finished": {
+   "base": 0.45416666666666666,
+   "rl": 0.9854166666666667,
+   "delta": 0.53125,
+   "ci": [
+    0.49249999999999994,
+    0.5695833333333333
+   ]
+  },
+  "sgf": {
+   "base": 0.45607798165137614,
+   "rl": 0.4122410147991544,
+   "delta": -0.043836966852221715,
+   "ci": [
+    -0.08720517192384192,
+    0.001012140365405756
+   ]
+  },
+  "any8": {
+   "base": 0.38666666666666666,
+   "rl": 0.5433333333333333,
+   "delta": 0.15666666666666668,
+   "ci": [
+    0.10666666666666669,
+    0.20666666666666667
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 72,
+   "base": 0.585313833028641,
+   "rl": 0.6487268518518519,
+   "delta": 0.06341301882321082,
+   "ci": [
+    0.010706018518518379,
+    0.1181952426564496
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.2190030391120508,
+  "perfinished_term": -0.019909289112050695,
+  "finishing_share": 1.0999995686054969,
+  "finishing_share_alt": 1.2169715410568809,
+  "finishing_share_ci": [
+   0.9980271167103774,
+   1.2272650208581626
+  ]
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap8192 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "Nemotron-Research-Reasoning-Qwen-1.5B",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.8573654513638228,
+  "mean": {
+   "base": 0.7195,
+   "rl": 0.8575,
+   "delta": 0.138,
+   "ci": [
+    0.11674999999999991,
+    0.16074999999999995
+   ]
+  },
+  "finished": {
+   "base": 0.80925,
+   "rl": 0.989,
+   "delta": 0.17974999999999997,
+   "ci": [
+    0.15474999999999994,
+    0.20650000000000002
+   ]
+  },
+  "sgf": {
+   "base": 0.8890948409020698,
+   "rl": 0.8670374115267947,
+   "delta": -0.022057429375275106,
+   "ci": [
+    -0.038948432348453466,
+    -0.005699815911531014
+   ]
+  },
+  "any8": {
+   "base": 0.846,
+   "rl": 0.898,
+   "delta": 0.052000000000000046,
+   "ci": [
+    0.03200000000000003,
+    0.07200000000000006
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": true,
+  "matched": {
+   "n": 355,
+   "base": 0.91159627773801,
+   "rl": 0.9203945051074321,
+   "delta": 0.008798227369422151,
+   "ci": [
+    0.002571933063428067,
+    0.01606113454582947
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.15584997472194131,
+  "perfinished_term": -0.01784997472194138,
+  "finishing_share": 1.1293476429126181,
+  "finishing_share_alt": 1.1580782438561377,
+  "finishing_share_ci": [
+   1.0319526443834937,
+   1.2443552550259935
+  ]
+ },
+ "Open-RS3 cap8192 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "Open-RS3",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.9995356163152828,
+  "mean": {
+   "base": 0.20713541666666666,
+   "rl": 0.20508680555555553,
+   "delta": -0.002048611111111126,
+   "ci": [
+    -0.015763888888888883,
+    0.01166666666666663
+   ]
+  },
+  "finished": {
+   "base": 0.45416666666666666,
+   "rl": 0.4554166666666667,
+   "delta": 0.0012500000000000289,
+   "ci": [
+    -0.020416666666666694,
+    0.023333333333333317
+   ]
+  },
+  "sgf": {
+   "base": 0.45607798165137614,
+   "rl": 0.4503278438548337,
+   "delta": -0.005750137796542432,
+   "ci": [
+    -0.03257035818713455,
+    0.02095833961303112
+   ]
+  },
+  "any8": {
+   "base": 0.38666666666666666,
+   "rl": 0.38,
+   "delta": -0.006666666666666654,
+   "ci": [
+    -0.03999999999999998,
+    0.026666666666666672
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 51,
+   "base": 0.6603375527426162,
+   "rl": 0.6462585034013606,
+   "delta": -0.01407904934125559,
+   "ci": [
+    -0.04254182303924681,
+    0.01326355284381786
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.0005629098048185551,
+  "perfinished_term": -0.0026115209159296876,
+  "finishing_share": -0.27477631150464865,
+  "finishing_share_alt": -0.2782848701601661,
+  "finishing_share_ci": [
+   -6.63839701770746,
+   7.790574852732221
+  ]
+ },
+ "Open-RS3 cap8192 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "Open-RS3",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.9966129505248087,
+  "mean": {
+   "base": 0.7195,
+   "rl": 0.72175,
+   "delta": 0.0022499999999999742,
+   "ci": [
+    -0.009500000000000064,
+    0.014000000000000012
+   ]
+  },
+  "finished": {
+   "base": 0.80925,
+   "rl": 0.815,
+   "delta": 0.005749999999999922,
+   "ci": [
+    -0.006249999999999978,
+    0.017750000000000044
+   ]
+  },
+  "sgf": {
+   "base": 0.8890948409020698,
+   "rl": 0.8855828220858896,
+   "delta": -0.00351201881618024,
+   "ci": [
+    -0.012180083973931999,
+    0.0050385970546266146
+   ]
+  },
+  "any8": {
+   "base": 0.846,
+   "rl": 0.854,
+   "delta": 0.008000000000000007,
+   "ci": [
+    -0.006000000000000005,
+    0.02200000000000002
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 340,
+   "base": 0.9228187919463087,
+   "rl": 0.922817534657175,
+   "delta": -1.2572891336937175e-06,
+   "ci": [
+    -0.005321323409860579,
+    0.005383583266352465
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.005092101226993796,
+  "perfinished_term": -0.0028421012269938596,
+  "finishing_share": 2.2631561008861576,
+  "finishing_share_alt": 2.272131260083062,
+  "finishing_share_ci": [
+   -6.203529053846527,
+   8.507944358578241
+  ]
+ },
+ "STILL-3-1.5B-preview cap8192 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "STILL-3-1.5B-preview",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.892121180784946,
+  "mean": {
+   "base": 0.20713541666666666,
+   "rl": 0.2635486111111111,
+   "delta": 0.05641319444444445,
+   "ci": [
+    0.038947916666666665,
+    0.07404513888888897
+   ]
+  },
+  "finished": {
+   "base": 0.45416666666666666,
+   "rl": 0.59375,
+   "delta": 0.13958333333333334,
+   "ci": [
+    0.11541666666666667,
+    0.16375000000000006
+   ]
+  },
+  "sgf": {
+   "base": 0.45607798165137614,
+   "rl": 0.44387134502923975,
+   "delta": -0.012206636622136391,
+   "ci": [
+    -0.04255928203260678,
+    0.018317616244956703
+   ]
+  },
+  "any8": {
+   "base": 0.38666666666666666,
+   "rl": 0.4633333333333333,
+   "delta": 0.07666666666666666,
+   "ci": [
+    0.03666666666666668,
+    0.11666666666666664
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 66,
+   "base": 0.5999335989375829,
+   "rl": 0.6006535947712418,
+   "delta": 0.000719995833658893,
+   "ci": [
+    -0.03055838634632413,
+    0.031246179878656855
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.061957041910331384,
+  "perfinished_term": -0.005543847465886944,
+  "finishing_share": 1.0982721776435918,
+  "finishing_share_alt": 1.1284750946257966,
+  "finishing_share_ci": [
+   0.8796985636570819,
+   1.4535865918602595
+  ]
+ },
+ "STILL-3-1.5B-preview cap8192 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "STILL-3-1.5B-preview",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.8081963478670436,
+  "mean": {
+   "base": 0.7195,
+   "rl": 0.76875,
+   "delta": 0.049250000000000016,
+   "ci": [
+    0.036250000000000004,
+    0.06299999999999994
+   ]
+  },
+  "finished": {
+   "base": 0.80925,
+   "rl": 0.88075,
+   "delta": 0.07150000000000001,
+   "ci": [
+    0.05725000000000002,
+    0.08625000000000005
+   ]
+  },
+  "sgf": {
+   "base": 0.8890948409020698,
+   "rl": 0.8728356514334374,
+   "delta": -0.016259189468632362,
+   "ci": [
+    -0.025890691120858622,
+    -0.0070763839675398454
+   ]
+  },
+  "any8": {
+   "base": 0.846,
+   "rl": 0.872,
+   "delta": 0.026000000000000023,
+   "ci": [
+    0.010000000000000009,
+    0.04200000000000004
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": true,
+  "matched": {
+   "n": 350,
+   "base": 0.9140369967355821,
+   "rl": 0.9104638619201726,
+   "delta": -0.003573134815409551,
+   "ci": [
+    -0.008919201830832502,
+    0.001802872383564802
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.06240774907749078,
+  "perfinished_term": -0.01315774907749074,
+  "finishing_share": 1.2671624178170713,
+  "finishing_share_alt": 1.2907671294314311,
+  "finishing_share_ci": [
+   1.1035054021608641,
+   1.5102285819238257
+  ]
+ },
+ "DeepScaleR-1.5B-Preview cap16384 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "DeepScaleR-1.5B-Preview",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.6956328781095912,
+  "mean": {
+   "base": 0.27052430555555557,
+   "rl": 0.33908680555555554,
+   "delta": 0.06856249999999997,
+   "ci": [
+    0.04741666666666661,
+    0.0898402777777777
+   ]
+  },
+  "finished": {
+   "base": 0.82375,
+   "rl": 0.9741666666666666,
+   "delta": 0.15041666666666664,
+   "ci": [
+    0.1266666666666667,
+    0.1745833333333333
+   ]
+  },
+  "sgf": {
+   "base": 0.3284058337548474,
+   "rl": 0.34807884231536923,
+   "delta": 0.019673008560521843,
+   "ci": [
+    -0.0028776877181131977,
+    0.04204697156747261
+   ]
+  },
+  "any8": {
+   "base": 0.4633333333333333,
+   "rl": 0.5266666666666666,
+   "delta": 0.0633333333333333,
+   "ci": [
+    0.019999999999999962,
+    0.10666666666666674
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 185,
+   "base": 0.3909604519774012,
+   "rl": 0.4273817605793166,
+   "delta": 0.03642130860191539,
+   "ci": [
+    0.01096582502315624,
+    0.06272470467385721
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.052356859198270114,
+  "perfinished_term": 0.016205640801729867,
+  "finishing_share": 0.7636369618708497,
+  "finishing_share_alt": 0.7204770950197504,
+  "finishing_share_ci": [
+   0.5961836968082813,
+   1.0479699873824382
+  ]
+ },
+ "DeepScaleR-1.5B-Preview cap16384 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "DeepScaleR-1.5B-Preview",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.6376726685681466,
+  "mean": {
+   "base": 0.77975,
+   "rl": 0.836125,
+   "delta": 0.05637499999999995,
+   "ci": [
+    0.04300000000000004,
+    0.07012499999999999
+   ]
+  },
+  "finished": {
+   "base": 0.91775,
+   "rl": 0.988,
+   "delta": 0.07025000000000003,
+   "ci": [
+    0.057499999999999996,
+    0.08374999999999999
+   ]
+  },
+  "sgf": {
+   "base": 0.8496322527921547,
+   "rl": 0.8462803643724697,
+   "delta": -0.003351888419685034,
+   "ci": [
+    -0.015599404449731957,
+    0.009052477484886245
+   ]
+  },
+  "any8": {
+   "base": 0.874,
+   "rl": 0.894,
+   "delta": 0.020000000000000018,
+   "ci": [
+    0.0040000000000000036,
+    0.038000000000000034
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 424,
+   "base": 0.8802395209580839,
+   "rl": 0.8874963137717488,
+   "delta": 0.00725679281366487,
+   "ci": [
+    -0.0013707827153445207,
+    0.015853680207555843
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.05945119559716602,
+  "perfinished_term": -0.00307619559716594,
+  "finishing_share": 1.054566662477447,
+  "finishing_share_alt": 1.0587435167831298,
+  "finishing_share_ci": [
+   0.8701328170120824,
+   1.3015628048888634
+  ]
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap16384 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "Nemotron-Research-Reasoning-Qwen-1.5B",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.5993485309988617,
+  "mean": {
+   "base": 0.27052430555555557,
+   "rl": 0.407513888888889,
+   "delta": 0.13698958333333344,
+   "ci": [
+    0.10787500000000008,
+    0.16693055555555564
+   ]
+  },
+  "finished": {
+   "base": 0.82375,
+   "rl": 1.0,
+   "delta": 0.17625000000000002,
+   "ci": [
+    0.15249999999999997,
+    0.2008333333333333
+   ]
+  },
+  "sgf": {
+   "base": 0.3284058337548474,
+   "rl": 0.407513888888889,
+   "delta": 0.07910805513404162,
+   "ci": [
+    0.0494511477130859,
+    0.10941541580400271
+   ]
+  },
+  "any8": {
+   "base": 0.4633333333333333,
+   "rl": 0.5433333333333333,
+   "delta": 0.08000000000000002,
+   "ci": [
+    0.033333333333333326,
+    0.12999999999999995
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 191,
+   "base": 0.38439425051334714,
+   "rl": 0.47834860383944144,
+   "delta": 0.09395435332609431,
+   "ci": [
+    0.06049131187082413,
+    0.12932750196200704
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.0718243229166667,
+  "perfinished_term": 0.06516526041666679,
+  "finishing_share": 0.5243049958178083,
+  "finishing_share_alt": 0.4225250328592513,
+  "finishing_share_ci": [
+   0.4408972707319403,
+   0.636915125474812
+  ]
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap16384 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "Nemotron-Research-Reasoning-Qwen-1.5B",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.6798600962167265,
+  "mean": {
+   "base": 0.77975,
+   "rl": 0.8605,
+   "delta": 0.08074999999999999,
+   "ci": [
+    0.0655,
+    0.09750000000000003
+   ]
+  },
+  "finished": {
+   "base": 0.91775,
+   "rl": 1.0,
+   "delta": 0.08225000000000005,
+   "ci": [
+    0.0665,
+    0.09924999999999995
+   ]
+  },
+  "sgf": {
+   "base": 0.8496322527921547,
+   "rl": 0.8605,
+   "delta": 0.010867747207845335,
+   "ci": [
+    -0.004351648351648363,
+    0.026435022026431665
+   ]
+  },
+  "any8": {
+   "base": 0.874,
+   "rl": 0.902,
+   "delta": 0.028000000000000025,
+   "ci": [
+    0.010000000000000009,
+    0.04600000000000004
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 424,
+   "base": 0.8802395209580839,
+   "rl": 0.9027122641509434,
+   "delta": 0.022472743192859523,
+   "ci": [
+    0.01297637765798143,
+    0.03245182807718794
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.07077612500000004,
+  "perfinished_term": 0.009973875000000056,
+  "finishing_share": 0.8764845201238396,
+  "finishing_share_alt": 0.8654148952588826,
+  "finishing_share_ci": [
+   0.7288159999999997,
+   1.055227040816327
+  ]
+ },
+ "Open-RS3 cap16384 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "Open-RS3",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0014937971882016,
+  "mean": {
+   "base": 0.27052430555555557,
+   "rl": 0.2694097222222222,
+   "delta": -0.0011145833333333632,
+   "ci": [
+    -0.015944444444444428,
+    0.013909722222222198
+   ]
+  },
+  "finished": {
+   "base": 0.82375,
+   "rl": 0.8145833333333333,
+   "delta": -0.009166666666666656,
+   "ci": [
+    -0.028333333333333433,
+    0.009583333333333388
+   ]
+  },
+  "sgf": {
+   "base": 0.3284058337548474,
+   "rl": 0.3307331628303495,
+   "delta": 0.0023273290755020937,
+   "ci": [
+    -0.015418216708694754,
+    0.02008283108897929
+   ]
+  },
+  "any8": {
+   "base": 0.4633333333333333,
+   "rl": 0.4533333333333333,
+   "delta": -0.010000000000000009,
+   "ci": [
+    -0.04666666666666669,
+    0.026666666666666672
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 159,
+   "base": 0.41632708503124155,
+   "rl": 0.41408584623743544,
+   "delta": -0.0022412387938061107,
+   "ci": [
+    -0.02384480518324711,
+    0.019202559551895204
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.0030317206592782,
+  "perfinished_term": 0.0019171373259448496,
+  "finishing_share": 2.720048441969153,
+  "finishing_share_alt": 2.700907791628576,
+  "finishing_share_ci": [
+   -6.900811325755209,
+   7.469160543307678
+  ]
+ },
+ "Open-RS3 cap16384 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "Open-RS3",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.9944510776452085,
+  "mean": {
+   "base": 0.77975,
+   "rl": 0.778,
+   "delta": -0.0017500000000000293,
+   "ci": [
+    -0.012750000000000039,
+    0.008750000000000036
+   ]
+  },
+  "finished": {
+   "base": 0.91775,
+   "rl": 0.92025,
+   "delta": 0.0025000000000000577,
+   "ci": [
+    -0.00649999999999995,
+    0.011249999999999982
+   ]
+  },
+  "sgf": {
+   "base": 0.8496322527921547,
+   "rl": 0.8454224395544689,
+   "delta": -0.004209813237685767,
+   "ci": [
+    -0.014390259350399504,
+    0.005715319225899851
+   ]
+  },
+  "any8": {
+   "base": 0.874,
+   "rl": 0.882,
+   "delta": 0.008000000000000007,
+   "ci": [
+    -0.006000000000000005,
+    0.02200000000000002
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 405,
+   "base": 0.8859731333958138,
+   "rl": 0.8820031298904538,
+   "delta": -0.003970003505360031,
+   "ci": [
+    -0.011703520271451717,
+    0.0034396497811132187
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.002113556098886221,
+  "perfinished_term": -0.003863556098886112,
+  "finishing_share": -1.2077463422206776,
+  "finishing_share_alt": -1.2137603611316572,
+  "finishing_share_ci": [
+   -7.397126592572269,
+   7.45440421507703
+  ]
+ },
+ "STILL-3-1.5B-preview cap16384 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "STILL-3-1.5B-preview",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.8197856611114127,
+  "mean": {
+   "base": 0.27052430555555557,
+   "rl": 0.30874305555555553,
+   "delta": 0.03821874999999997,
+   "ci": [
+    0.021288194444444353,
+    0.05558333333333326
+   ]
+  },
+  "finished": {
+   "base": 0.82375,
+   "rl": 0.9008333333333334,
+   "delta": 0.07708333333333339,
+   "ci": [
+    0.057916666666666616,
+    0.09625000000000006
+   ]
+  },
+  "sgf": {
+   "base": 0.3284058337548474,
+   "rl": 0.3427304964539007,
+   "delta": 0.014324662699053303,
+   "ci": [
+    -0.004627755940884659,
+    0.03366981219394516
+   ]
+  },
+  "any8": {
+   "base": 0.4633333333333333,
+   "rl": 0.52,
+   "delta": 0.0566666666666667,
+   "ci": [
+    0.016666666666666607,
+    0.09999999999999998
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 184,
+   "base": 0.3930545712260809,
+   "rl": 0.4186199722607489,
+   "delta": 0.02556540103466798,
+   "ci": [
+    0.0034317735895286194,
+    0.04700208421371138
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.026418809101654867,
+  "perfinished_term": 0.011799940898345159,
+  "finishing_share": 0.691252568481567,
+  "finishing_share_alt": 0.6623611800997206,
+  "finishing_share_ci": [
+   0.4717123613923126,
+   1.1714848087351604
+  ]
+ },
+ "STILL-3-1.5B-preview cap16384 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "STILL-3-1.5B-preview",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.7711731226812004,
+  "mean": {
+   "base": 0.77975,
+   "rl": 0.80125,
+   "delta": 0.021499999999999964,
+   "ci": [
+    0.011499999999999955,
+    0.031749999999999945
+   ]
+  },
+  "finished": {
+   "base": 0.91775,
+   "rl": 0.94975,
+   "delta": 0.03200000000000003,
+   "ci": [
+    0.02300000000000002,
+    0.04149999999999998
+   ]
+  },
+  "sgf": {
+   "base": 0.8496322527921547,
+   "rl": 0.8436430639642011,
+   "delta": -0.005989188827953629,
+   "ci": [
+    -0.015530515271815482,
+    0.0034092321680357918
+   ]
+  },
+  "any8": {
+   "base": 0.874,
+   "rl": 0.884,
+   "delta": 0.010000000000000009,
+   "ci": [
+    -0.0040000000000000036,
+    0.026000000000000023
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 416,
+   "base": 0.8842169408897014,
+   "rl": 0.8806285886974917,
+   "delta": -0.003588352192209654,
+   "ci": [
+    -0.011269719454607752,
+    0.004179704525489547
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.026996578046854458,
+  "perfinished_term": -0.005496578046854442,
+  "finishing_share": 1.2556547928769537,
+  "finishing_share_alt": 1.2645689343883266,
+  "finishing_share_ci": [
+   0.8872434789145333,
+   2.097972302064284
+  ]
+ },
+ "Skywork-OR1-7B cap4096 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "Skywork-OR1-7B",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0779199910645119,
+  "mean": {
+   "base": 0.19755208333333332,
+   "rl": 0.0957638888888889,
+   "delta": -0.10178819444444442,
+   "ci": [
+    -0.12345486111111115,
+    -0.08161458333333334
+   ]
+  },
+  "finished": {
+   "base": 0.3020833333333333,
+   "rl": 0.12625,
+   "delta": -0.1758333333333333,
+   "ci": [
+    -0.2016666666666667,
+    -0.15083333333333335
+   ]
+  },
+  "sgf": {
+   "base": 0.6539655172413793,
+   "rl": 0.7585258525852585,
+   "delta": 0.10456033534387921,
+   "ci": [
+    0.03525852285051756,
+    0.1726470582962697
+   ]
+  },
+  "any8": {
+   "base": 0.4033333333333333,
+   "rl": 0.18,
+   "delta": -0.22333333333333333,
+   "ci": [
+    -0.2733333333333333,
+    -0.17333333333333337
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 14
+  },
+  "finishing_term": -0.1333741290795746,
+  "perfinished_term": 0.031585934635130174,
+  "finishing_share": 1.3103103931406275,
+  "finishing_share_alt": 1.129688343616014,
+  "finishing_share_ci": [
+   1.096187003189302,
+   1.5628054853999171
+  ]
+ },
+ "Skywork-OR1-7B cap4096 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "Skywork-OR1-7B",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.204646812816781,
+  "mean": {
+   "base": 0.6645,
+   "rl": 0.52725,
+   "delta": -0.13724999999999998,
+   "ci": [
+    -0.15775000000000006,
+    -0.11750000000000005
+   ]
+  },
+  "finished": {
+   "base": 0.72475,
+   "rl": 0.56525,
+   "delta": -0.15949999999999998,
+   "ci": [
+    -0.18099999999999994,
+    -0.13875000000000004
+   ]
+  },
+  "sgf": {
+   "base": 0.916867885477751,
+   "rl": 0.9327731092436975,
+   "delta": 0.015905223765946497,
+   "ci": [
+    0.004181406403284127,
+    0.028679848399171926
+   ]
+  },
+  "any8": {
+   "base": 0.8,
+   "rl": 0.674,
+   "delta": -0.126,
+   "ci": [
+    -0.15600000000000003,
+    -0.09799999999999998
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 228,
+   "base": 0.9332597904026475,
+   "rl": 0.9335959482273495,
+   "delta": 0.00033615782470197697,
+   "ci": [
+    -0.0012228638329960795,
+    0.0022765075871136187
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.14877731092436972,
+  "perfinished_term": 0.011527310924369724,
+  "finishing_share": 1.0839876934380308,
+  "finishing_share_alt": 1.0655040272036524,
+  "finishing_share_ci": [
+   1.0212811185133233,
+   1.1598534810636245
+  ]
+ },
+ "AceReason-Nemotron-7B cap4096 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "AceReason-Nemotron-7B",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0808573728682995,
+  "mean": {
+   "base": 0.19755208333333332,
+   "rl": 0.1071701388888889,
+   "delta": -0.09038194444444442,
+   "ci": [
+    -0.11131944444444446,
+    -0.07079861111111108
+   ]
+  },
+  "finished": {
+   "base": 0.3020833333333333,
+   "rl": 0.14625,
+   "delta": -0.15583333333333332,
+   "ci": [
+    -0.1791666666666667,
+    -0.1333333333333333
+   ]
+  },
+  "sgf": {
+   "base": 0.6539655172413793,
+   "rl": 0.7327872744539412,
+   "delta": 0.0788217572125619,
+   "ci": [
+    0.016221174004192984,
+    0.1406758253570627
+   ]
+  },
+  "any8": {
+   "base": 0.4033333333333333,
+   "rl": 0.20666666666666667,
+   "delta": -0.19666666666666666,
+   "ci": [
+    -0.24333333333333335,
+    -0.15
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 21,
+   "base": 0.7774390243902439,
+   "rl": 0.7770700636942676,
+   "delta": -0.0003689606959763614,
+   "ci": [
+    -0.0337711069418386,
+    0.04100318471337583
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.11419268360240584,
+  "perfinished_term": 0.02381073915796141,
+  "finishing_share": 1.263445750191813,
+  "finishing_share_alt": 1.1275440804376915,
+  "finishing_share_ci": [
+   1.049454720509545,
+   1.5291392394448873
+  ]
+ },
+ "AceReason-Nemotron-7B cap4096 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "AceReason-Nemotron-7B",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.2080347498737405,
+  "mean": {
+   "base": 0.6645,
+   "rl": 0.58425,
+   "delta": -0.08024999999999993,
+   "ci": [
+    -0.09675,
+    -0.0645
+   ]
+  },
+  "finished": {
+   "base": 0.72475,
+   "rl": 0.6305,
+   "delta": -0.09425000000000006,
+   "ci": [
+    -0.11125000000000007,
+    -0.07799999999999996
+   ]
+  },
+  "sgf": {
+   "base": 0.916867885477751,
+   "rl": 0.9266455194290246,
+   "delta": 0.009777633951273623,
+   "ci": [
+    0.0020117746789054536,
+    0.018064759628320992
+   ]
+  },
+  "any8": {
+   "base": 0.8,
+   "rl": 0.73,
+   "delta": -0.07000000000000006,
+   "ci": [
+    -0.09799999999999998,
+    -0.04400000000000004
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 254,
+   "base": 0.9273993038289409,
+   "rl": 0.9290387518872673,
+   "delta": 0.001639448058326387,
+   "ci": [
+    -0.00023425286196987471,
+    0.003890776808036067
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.08733634020618562,
+  "perfinished_term": 0.007086340206185558,
+  "finishing_share": 1.0883033047499775,
+  "finishing_share_alt": 1.07681991534303,
+  "finishing_share_ci": [
+   1.0169367055259169,
+   1.1770776656428248
+  ]
+ },
+ "Skywork-OR1-Math-7B cap4096 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "Skywork-OR1-Math-7B",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0617975109229603,
+  "mean": {
+   "base": 0.19755208333333332,
+   "rl": 0.12993055555555558,
+   "delta": -0.06762152777777775,
+   "ci": [
+    -0.08673611111111121,
+    -0.049392361111111144
+   ]
+  },
+  "finished": {
+   "base": 0.3020833333333333,
+   "rl": 0.16458333333333333,
+   "delta": -0.13749999999999998,
+   "ci": [
+    -0.16208333333333333,
+    -0.1141666666666667
+   ]
+  },
+  "sgf": {
+   "base": 0.6539655172413793,
+   "rl": 0.789451476793249,
+   "delta": 0.1354859595518697,
+   "ci": [
+    0.0757466333754313,
+    0.19469579671968518
+   ]
+  },
+  "any8": {
+   "base": 0.4033333333333333,
+   "rl": 0.20666666666666667,
+   "delta": -0.19666666666666666,
+   "ci": [
+    -0.24666666666666667,
+    -0.14999999999999997
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 29,
+   "base": 0.8008849557522124,
+   "rl": 0.8415178571428571,
+   "delta": 0.04063290139064468,
+   "ci": [
+    0.005903012024286669,
+    0.08859478550736144
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.10854957805907173,
+  "perfinished_term": 0.04092805028129397,
+  "finishing_share": 1.605251783363937,
+  "finishing_share_alt": 1.3297578681775932,
+  "finishing_share_ci": [
+   1.2941074971961009,
+   2.0581455581455566
+  ]
+ },
+ "Skywork-OR1-Math-7B cap4096 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "Skywork-OR1-Math-7B",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.0717842811304845,
+  "mean": {
+   "base": 0.6645,
+   "rl": 0.59325,
+   "delta": -0.07124999999999992,
+   "ci": [
+    -0.09050000000000002,
+    -0.05225000000000002
+   ]
+  },
+  "finished": {
+   "base": 0.72475,
+   "rl": 0.63825,
+   "delta": -0.08650000000000002,
+   "ci": [
+    -0.10650000000000004,
+    -0.06674999999999998
+   ]
+  },
+  "sgf": {
+   "base": 0.916867885477751,
+   "rl": 0.9294947121034077,
+   "delta": 0.012626826625656729,
+   "ci": [
+    0.004158923348457133,
+    0.02202730675141651
+   ]
+  },
+  "any8": {
+   "base": 0.8,
+   "rl": 0.714,
+   "delta": -0.08600000000000008,
+   "ci": [
+    -0.11399999999999999,
+    -0.05999999999999994
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 263,
+   "base": 0.9378313253012048,
+   "rl": 0.9383429672447013,
+   "delta": 0.0005116419434965103,
+   "ci": [
+    -0.0010319191242066372,
+    0.0022592594665070687
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.08040129259694478,
+  "perfinished_term": 0.009151292596944714,
+  "finishing_share": 1.1284391943430858,
+  "finishing_share_alt": 1.1131097837729904,
+  "finishing_share_ci": [
+   1.0395528551203408,
+   1.2550841474801298
+  ]
+ },
+ "Skywork-OR1-7B cap8192 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "Skywork-OR1-7B",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.227219019870759,
+  "mean": {
+   "base": 0.37385416666666665,
+   "rl": 0.2561111111111111,
+   "delta": -0.11774305555555553,
+   "ci": [
+    -0.14468750000000002,
+    -0.09194444444444444
+   ]
+  },
+  "finished": {
+   "base": 0.6525,
+   "rl": 0.37125,
+   "delta": -0.28124999999999994,
+   "ci": [
+    -0.3133333333333333,
+    -0.24875000000000003
+   ]
+  },
+  "sgf": {
+   "base": 0.5729565772669221,
+   "rl": 0.6898615787504677,
+   "delta": 0.11690500148354566,
+   "ci": [
+    0.07495227057456266,
+    0.1589754780956778
+   ]
+  },
+  "any8": {
+   "base": 0.6033333333333334,
+   "rl": 0.43,
+   "delta": -0.1733333333333334,
+   "ci": [
+    -0.22333333333333333,
+    -0.12333333333333335
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 61,
+   "base": 0.7140387275242046,
+   "rl": 0.7526652452025586,
+   "delta": 0.03862651767835401,
+   "ci": [
+    0.010216767054209264,
+    0.07246998859902098
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.19402356902356901,
+  "perfinished_term": 0.07628051346801354,
+  "finishing_share": 1.647855732196635,
+  "finishing_share_alt": 1.3686075717670507,
+  "finishing_share_ci": [
+   1.3657235305179287,
+   2.0395685164677393
+  ]
+ },
+ "Skywork-OR1-7B cap8192 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "Skywork-OR1-7B",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.2968415810876472,
+  "mean": {
+   "base": 0.81625,
+   "rl": 0.76475,
+   "delta": -0.05149999999999999,
+   "ci": [
+    -0.06699999999999995,
+    -0.03649999999999998
+   ]
+  },
+  "finished": {
+   "base": 0.898,
+   "rl": 0.825,
+   "delta": -0.07300000000000006,
+   "ci": [
+    -0.08975,
+    -0.05675000000000008
+   ]
+  },
+  "sgf": {
+   "base": 0.9089643652561247,
+   "rl": 0.926969696969697,
+   "delta": 0.018005331713572326,
+   "ci": [
+    0.00912476812335028,
+    0.027581124010431113
+   ]
+  },
+  "any8": {
+   "base": 0.892,
+   "rl": 0.856,
+   "delta": -0.03600000000000003,
+   "ci": [
+    -0.05400000000000005,
+    -0.018000000000000016
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 368,
+   "base": 0.9217094017094017,
+   "rl": 0.9248455730954015,
+   "delta": 0.003136171385999753,
+   "ci": [
+    -0.0016985209571642734,
+    0.008324332097322862
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.06766878787878794,
+  "perfinished_term": 0.01616878787878795,
+  "finishing_share": 1.3139570461900574,
+  "finishing_share_alt": 1.288434925508683,
+  "finishing_share_ci": [
+   1.1438803777430846,
+   1.5713559713559686
+  ]
+ },
+ "AceReason-Nemotron-7B cap8192 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "AceReason-Nemotron-7B",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.1520668030060683,
+  "mean": {
+   "base": 0.37385416666666665,
+   "rl": 0.3572743055555555,
+   "delta": -0.01657986111111115,
+   "ci": [
+    -0.04090277777777784,
+    0.0077430555555556
+   ]
+  },
+  "finished": {
+   "base": 0.6525,
+   "rl": 0.5766666666666667,
+   "delta": -0.07583333333333331,
+   "ci": [
+    -0.10375000000000001,
+    -0.04833333333333334
+   ]
+  },
+  "sgf": {
+   "base": 0.5729565772669221,
+   "rl": 0.6195508188824662,
+   "delta": 0.04659424161554415,
+   "ci": [
+    0.01612933652412807,
+    0.07791003922264272
+   ]
+  },
+  "any8": {
+   "base": 0.6033333333333334,
+   "rl": 0.56,
+   "delta": -0.043333333333333335,
+   "ci": [
+    -0.08999999999999997,
+    0.0033333333333332993
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 95,
+   "base": 0.6693693693693693,
+   "rl": 0.6811766034327009,
+   "delta": 0.011807234063331618,
+   "ci": [
+    -0.024790948551002168,
+    0.04878280312622063
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.04698260376525367,
+  "perfinished_term": 0.030402742654142556,
+  "finishing_share": 2.833715159035189,
+  "finishing_share_alt": 2.620601392148596,
+  "finishing_share_ci": [
+   -19.07608695652202,
+   23.652463662383564
+  ]
+ },
+ "AceReason-Nemotron-7B cap8192 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "AceReason-Nemotron-7B",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.181675062831378,
+  "mean": {
+   "base": 0.81625,
+   "rl": 0.8525,
+   "delta": 0.036250000000000004,
+   "ci": [
+    0.025249999999999995,
+    0.04799999999999993
+   ]
+  },
+  "finished": {
+   "base": 0.898,
+   "rl": 0.9255,
+   "delta": 0.02749999999999997,
+   "ci": [
+    0.01650000000000007,
+    0.03875000000000006
+   ]
+  },
+  "sgf": {
+   "base": 0.9089643652561247,
+   "rl": 0.9211237169097785,
+   "delta": 0.012159351653653783,
+   "ci": [
+    0.0057128380837339066,
+    0.01939784093834207
+   ]
+  },
+  "any8": {
+   "base": 0.892,
+   "rl": 0.896,
+   "delta": 0.0040000000000000036,
+   "ci": [
+    -0.006000000000000005,
+    0.016000000000000014
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 410,
+   "base": 0.9202340622112719,
+   "rl": 0.9238997555012225,
+   "delta": 0.003665693289950589,
+   "ci": [
+    0.00032444265118580784,
+    0.0075636208560336815
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.02533090221501888,
+  "perfinished_term": 0.010919097784981097,
+  "finishing_share": 0.6987835093798311,
+  "finishing_share_alt": 0.6895591736425765,
+  "finishing_share_ci": [
+   0.5254767640269007,
+   0.8460012907604704
+  ]
+ },
+ "Skywork-OR1-Math-7B cap8192 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "Skywork-OR1-Math-7B",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.1703504468212262,
+  "mean": {
+   "base": 0.37385416666666665,
+   "rl": 0.3176701388888889,
+   "delta": -0.056184027777777756,
+   "ci": [
+    -0.08286458333333338,
+    -0.02995138888888893
+   ]
+  },
+  "finished": {
+   "base": 0.6525,
+   "rl": 0.46958333333333335,
+   "delta": -0.18291666666666662,
+   "ci": [
+    -0.21291666666666664,
+    -0.15250000000000002
+   ]
+  },
+  "sgf": {
+   "base": 0.5729565772669221,
+   "rl": 0.6764936409346347,
+   "delta": 0.10353706366771265,
+   "ci": [
+    0.06509952244201633,
+    0.14140741051180683
+   ]
+  },
+  "any8": {
+   "base": 0.6033333333333334,
+   "rl": 0.53,
+   "delta": -0.07333333333333336,
+   "ci": [
+    -0.12000000000000005,
+    -0.026666666666666616
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 79,
+   "base": 0.7130225080385851,
+   "rl": 0.7600434310532029,
+   "delta": 0.0470209230146178,
+   "ci": [
+    0.0006266709052724639,
+    0.09851745513866239
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.12374196182096023,
+  "perfinished_term": 0.0675579340431825,
+  "finishing_share": 2.202440207925132,
+  "finishing_share_alt": 1.8653576719869882,
+  "finishing_share_ci": [
+   1.5559727041007139,
+   3.8392857142857224
+  ]
+ },
+ "Skywork-OR1-Math-7B cap8192 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "Skywork-OR1-Math-7B",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.1294953693419874,
+  "mean": {
+   "base": 0.81625,
+   "rl": 0.7985,
+   "delta": -0.017750000000000044,
+   "ci": [
+    -0.03249999999999997,
+    -0.0035000000000000586
+   ]
+  },
+  "finished": {
+   "base": 0.898,
+   "rl": 0.86675,
+   "delta": -0.03125,
+   "ci": [
+    -0.0472499999999999,
+    -0.015750000000000042
+   ]
+  },
+  "sgf": {
+   "base": 0.9089643652561247,
+   "rl": 0.9212575713873666,
+   "delta": 0.012293206131241963,
+   "ci": [
+    0.004922467991649526,
+    0.02038328619146834
+   ]
+  },
+  "any8": {
+   "base": 0.892,
+   "rl": 0.87,
+   "delta": -0.02200000000000002,
+   "ci": [
+    -0.038000000000000034,
+    -0.008000000000000007
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 385,
+   "base": 0.9217675941080197,
+   "rl": 0.925392670157068,
+   "delta": 0.0036250760490483813,
+   "ci": [
+    0.0014873981261845914,
+    0.0059973041196690335
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.028789299105855207,
+  "perfinished_term": 0.011039299105855284,
+  "finishing_share": 1.6219323439918387,
+  "finishing_share_alt": 1.6002893754509198,
+  "finishing_share_ci": [
+   1.1655485864921336,
+   4.0354237288135435
+  ]
+ },
+ "Skywork-OR1-7B cap16384 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "Skywork-OR1-7B",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.4003936554847634,
+  "mean": {
+   "base": 0.4636666666666667,
+   "rl": 0.46410416666666665,
+   "delta": 0.00043749999999992406,
+   "ci": [
+    -0.025590277777777726,
+    0.026416666666666644
+   ]
+  },
+  "finished": {
+   "base": 0.9045833333333333,
+   "rl": 0.79375,
+   "delta": -0.11083333333333334,
+   "ci": [
+    -0.13583333333333336,
+    -0.08624999999999994
+   ]
+  },
+  "sgf": {
+   "base": 0.5125748502994013,
+   "rl": 0.5846981627296588,
+   "delta": 0.07212331243025749,
+   "ci": [
+    0.04348867530093359,
+    0.1004573508832044
+   ]
+  },
+  "any8": {
+   "base": 0.6766666666666666,
+   "rl": 0.68,
+   "delta": 0.0033333333333334103,
+   "ci": [
+    -0.036666666666666736,
+    0.043333333333333335
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 177,
+   "base": 0.5754593175853018,
+   "rl": 0.6159393939393939,
+   "delta": 0.04048007635409212,
+   "ci": [
+    0.00972215290947187,
+    0.07243638097715355
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.06480404636920385,
+  "perfinished_term": 0.06524154636920375,
+  "finishing_share": -148.12353455820593,
+  "finishing_share_alt": -129.8522954092042,
+  "finishing_share_ci": [
+   -83.04662903265866,
+   74.02412963765869
+  ]
+ },
+ "Skywork-OR1-7B cap16384 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "Skywork-OR1-7B",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.3225371481524142,
+  "mean": {
+   "base": 0.864,
+   "rl": 0.8665,
+   "delta": 0.0025000000000000577,
+   "ci": [
+    -0.008500000000000063,
+    0.013499999999999956
+   ]
+  },
+  "finished": {
+   "base": 0.968,
+   "rl": 0.94725,
+   "delta": -0.020749999999999935,
+   "ci": [
+    -0.03249999999999997,
+    -0.010000000000000009
+   ]
+  },
+  "sgf": {
+   "base": 0.8925619834710744,
+   "rl": 0.9147532330430193,
+   "delta": 0.02219124957194485,
+   "ci": [
+    0.01381154877651114,
+    0.031043947106874303
+   ]
+  },
+  "any8": {
+   "base": 0.914,
+   "rl": 0.908,
+   "delta": -0.006000000000000005,
+   "ci": [
+    -0.016000000000000014,
+    0.0040000000000000036
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 451,
+   "base": 0.9077480490523969,
+   "rl": 0.9196652719665271,
+   "delta": 0.011917222914130221,
+   "ci": [
+    0.006234614023054252,
+    0.018297920870074647
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.01898112958564259,
+  "perfinished_term": 0.021481129585642612,
+  "finishing_share": -7.5924518342568605,
+  "finishing_share_alt": -7.408264462809724,
+  "finishing_share_ci": [
+   -40.86468866417849,
+   39.93774729622347
+  ]
+ },
+ "AceReason-Nemotron-7B cap16384 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "AceReason-Nemotron-7B",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0872972340531495,
+  "mean": {
+   "base": 0.4636666666666667,
+   "rl": 0.518798611111111,
+   "delta": 0.0551319444444443,
+   "ci": [
+    0.031131944444444448,
+    0.07978472222222222
+   ]
+  },
+  "finished": {
+   "base": 0.9045833333333333,
+   "rl": 0.96,
+   "delta": 0.05541666666666667,
+   "ci": [
+    0.03875000000000006,
+    0.07291666666666663
+   ]
+  },
+  "sgf": {
+   "base": 0.5125748502994013,
+   "rl": 0.5404152199074074,
+   "delta": 0.027840369608006066,
+   "ci": [
+    0.0033099789381272338,
+    0.05298243401984204
+   ]
+  },
+  "any8": {
+   "base": 0.6766666666666666,
+   "rl": 0.6966666666666667,
+   "delta": 0.020000000000000018,
+   "ci": [
+    -0.020000000000000018,
+    0.06000000000000005
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 243,
+   "base": 0.542257217847769,
+   "rl": 0.5606846473029046,
+   "delta": 0.018427429455135536,
+   "ci": [
+    -0.007494189249408145,
+    0.04486515240191713
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.02994801010320216,
+  "perfinished_term": 0.025183934341242154,
+  "finishing_share": 0.5432061285881247,
+  "finishing_share_alt": 0.5152219807770794,
+  "finishing_share_ci": [
+   0.3559610080167981,
+   0.9095431244787369
+  ]
+ },
+ "AceReason-Nemotron-7B cap16384 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "AceReason-Nemotron-7B",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.1066759550589846,
+  "mean": {
+   "base": 0.864,
+   "rl": 0.8875,
+   "delta": 0.023499999999999965,
+   "ci": [
+    0.015000000000000013,
+    0.03225
+   ]
+  },
+  "finished": {
+   "base": 0.968,
+   "rl": 0.98325,
+   "delta": 0.015249999999999986,
+   "ci": [
+    0.008499999999999952,
+    0.022499999999999964
+   ]
+  },
+  "sgf": {
+   "base": 0.8925619834710744,
+   "rl": 0.9026188660055937,
+   "delta": 0.010056882534519307,
+   "ci": [
+    0.00235673959489624,
+    0.017920942730421774
+   ]
+  },
+  "any8": {
+   "base": 0.914,
+   "rl": 0.912,
+   "delta": -0.0020000000000000018,
+   "ci": [
+    -0.008000000000000007,
+    0.0040000000000000036
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 469,
+   "base": 0.9077995175556152,
+   "rl": 0.9175780208055482,
+   "delta": 0.009778503249933013,
+   "ci": [
+    0.0037815284785137626,
+    0.016261918772044526
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.013764937706585292,
+  "perfinished_term": 0.00973506229341469,
+  "finishing_share": 0.5857420300674601,
+  "finishing_share_alt": 0.5792157552312294,
+  "finishing_share_ci": [
+   0.3626007962868449,
+   0.8712769464038487
+  ]
+ },
+ "Skywork-OR1-Math-7B cap16384 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "Skywork-OR1-Math-7B",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.2313781432687199,
+  "mean": {
+   "base": 0.4636666666666667,
+   "rl": 0.4894861111111111,
+   "delta": 0.025819444444444395,
+   "ci": [
+    -0.0008194444444444837,
+    0.052895833333333475
+   ]
+  },
+  "finished": {
+   "base": 0.9045833333333333,
+   "rl": 0.8641666666666666,
+   "delta": -0.040416666666666656,
+   "ci": [
+    -0.06291666666666673,
+    -0.01791666666666658
+   ]
+  },
+  "sgf": {
+   "base": 0.5125748502994013,
+   "rl": 0.5664255866280938,
+   "delta": 0.05385073632869253,
+   "ci": [
+    0.024844452758578828,
+    0.08304220292181425
+   ]
+  },
+  "any8": {
+   "base": 0.6766666666666666,
+   "rl": 0.6866666666666666,
+   "delta": 0.010000000000000009,
+   "ci": [
+    -0.030000000000000027,
+    0.050000000000000044
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 209,
+   "base": 0.5665044606650446,
+   "rl": 0.5982488291590309,
+   "delta": 0.03174436849398632,
+   "ci": [
+    -0.0009132802870743806,
+    0.0651826961508788
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.022893034126218785,
+  "perfinished_term": 0.04871247857066311,
+  "finishing_share": -0.8866586643828702,
+  "finishing_share_alt": -0.8023629985859387,
+  "finishing_share_ci": [
+   -6.269118196537447,
+   2.281461612159113
+  ]
+ },
+ "Skywork-OR1-Math-7B cap16384 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-7B",
+  "rl": "Skywork-OR1-Math-7B",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.1344087873720852,
+  "mean": {
+   "base": 0.864,
+   "rl": 0.87975,
+   "delta": 0.015750000000000042,
+   "ci": [
+    0.005750000000000033,
+    0.025999999999999912
+   ]
+  },
+  "finished": {
+   "base": 0.968,
+   "rl": 0.9615,
+   "delta": -0.00649999999999995,
+   "ci": [
+    -0.016249999999999987,
+    0.0030000000000000027
+   ]
+  },
+  "sgf": {
+   "base": 0.8925619834710744,
+   "rl": 0.9149765990639626,
+   "delta": 0.022414615592888154,
+   "ci": [
+    0.013953256875044895,
+    0.03145745528050181
+   ]
+  },
+  "any8": {
+   "base": 0.914,
+   "rl": 0.91,
+   "delta": -0.0040000000000000036,
+   "ci": [
+    -0.01200000000000001,
+    0.0040000000000000036
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": false,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 458,
+   "base": 0.9105133132034038,
+   "rl": 0.9253567508232712,
+   "delta": 0.014843437619867395,
+   "ci": [
+    0.00923923506445612,
+    0.021094949001072894
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.005947347893915711,
+  "perfinished_term": 0.021697347893915732,
+  "finishing_share": -0.3776093900898854,
+  "finishing_share_alt": -0.3683589138134555,
+  "finishing_share_ci": [
+   -2.0933457019171264,
+   0.1362892755128521
+  ]
+ },
+ "Polaris-4B-Preview cap4096 phys": {
+  "base": "Qwen3-4B",
+  "rl": "Polaris-4B-Preview",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0379896740897927,
+  "mean": {
+   "base": 0.11732638888888891,
+   "rl": 0.029166666666666667,
+   "delta": -0.08815972222222224,
+   "ci": [
+    -0.11395833333333334,
+    -0.06430555555555555
+   ]
+  },
+  "finished": {
+   "base": 0.16458333333333333,
+   "rl": 0.04083333333333333,
+   "delta": -0.12375,
+   "ci": [
+    -0.15333333333333332,
+    -0.09583333333333333
+   ]
+  },
+  "sgf": {
+   "base": 0.7128691983122364,
+   "rl": 0.7142857142857143,
+   "delta": 0.0014165159734779165,
+   "ci": [
+    -0.15508166076347896,
+    0.15395449620801738
+   ]
+  },
+  "any8": {
+   "base": 0.17333333333333334,
+   "rl": 0.06,
+   "delta": -0.11333333333333334,
+   "ci": [
+    -0.15,
+    -0.07999999999999999
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 6
+  },
+  "finishing_term": -0.08839285714285715,
+  "perfinished_term": 0.0002331349206349071,
+  "finishing_share": 1.0026444606988127,
+  "finishing_share_alt": 1.0006560940467941,
+  "finishing_share_ci": [
+   0.7253407253407256,
+   1.3018683820606411
+  ]
+ },
+ "Polaris-4B-Preview cap4096 math": {
+  "base": "Qwen3-4B",
+  "rl": "Polaris-4B-Preview",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.167450034141088,
+  "mean": {
+   "base": 0.52425,
+   "rl": 0.247,
+   "delta": -0.27725,
+   "ci": [
+    -0.308,
+    -0.24724999999999997
+   ]
+  },
+  "finished": {
+   "base": 0.571,
+   "rl": 0.2705,
+   "delta": -0.30049999999999993,
+   "ci": [
+    -0.33149999999999996,
+    -0.26975000000000005
+   ]
+  },
+  "sgf": {
+   "base": 0.9181260945709282,
+   "rl": 0.9131238447319778,
+   "delta": -0.005002249838950368,
+   "ci": [
+    -0.034170133726832974,
+    0.023087688370330817
+   ]
+  },
+  "any8": {
+   "base": 0.638,
+   "rl": 0.374,
+   "delta": -0.264,
+   "ci": [
+    -0.304,
+    -0.22599999999999998
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 93,
+   "base": 0.892328398384926,
+   "rl": 0.8888888888888888,
+   "delta": -0.0034395094960371075,
+   "ci": [
+    -0.00587269797768375,
+    -0.0014955060044566926
+   ],
+   "gain": false,
+   "loss": true
+  },
+  "finishing_term": -0.2743937153419593,
+  "perfinished_term": -0.00285628465804066,
+  "finishing_share": 0.9896978010530542,
+  "finishing_share_alt": 0.9951195362256587,
+  "finishing_share_ci": [
+   0.9308225349695355,
+   1.0483776215001512
+  ]
+ },
+ "Polaris-4B-Preview cap8192 phys": {
+  "base": "Qwen3-4B",
+  "rl": "Polaris-4B-Preview",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.1582659667794835,
+  "mean": {
+   "base": 0.2999131944444444,
+   "rl": 0.0993923611111111,
+   "delta": -0.20052083333333331,
+   "ci": [
+    -0.23385416666666664,
+    -0.16805555555555557
+   ]
+  },
+  "finished": {
+   "base": 0.45958333333333334,
+   "rl": 0.14125,
+   "delta": -0.31833333333333336,
+   "ci": [
+    -0.35791666666666666,
+    -0.28041666666666665
+   ]
+  },
+  "sgf": {
+   "base": 0.6525763070414022,
+   "rl": 0.7036627335299901,
+   "delta": 0.051086426488587855,
+   "ci": [
+    -0.035757807271211806,
+    0.13354860076171537
+   ]
+  },
+  "any8": {
+   "base": 0.4533333333333333,
+   "rl": 0.14666666666666667,
+   "delta": -0.30666666666666664,
+   "ci": [
+    -0.36,
+    -0.25333333333333335
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 28,
+   "base": 0.7589285714285714,
+   "rl": 0.7511520737327189,
+   "delta": -0.007776497695852536,
+   "ci": [
+    -0.034447674418604635,
+    0.014112903225806495
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.22399930350704686,
+  "perfinished_term": 0.023478470173713503,
+  "finishing_share": 1.1170874356715066,
+  "finishing_share_alt": 1.0359860749706626,
+  "finishing_share_ci": [
+   0.9227562064467068,
+   1.3249198575244878
+  ]
+ },
+ "Polaris-4B-Preview cap8192 math": {
+  "base": "Qwen3-4B",
+  "rl": "Polaris-4B-Preview",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.4280329016487632,
+  "mean": {
+   "base": 0.77225,
+   "rl": 0.49575,
+   "delta": -0.27649999999999997,
+   "ci": [
+    -0.31,
+    -0.24425000000000008
+   ]
+  },
+  "finished": {
+   "base": 0.84175,
+   "rl": 0.54275,
+   "delta": -0.29900000000000004,
+   "ci": [
+    -0.3324999999999999,
+    -0.26649999999999996
+   ]
+  },
+  "sgf": {
+   "base": 0.9174339174339174,
+   "rl": 0.9134039613081529,
+   "delta": -0.004029956125764511,
+   "ci": [
+    -0.01992556404759438,
+    0.01224538655221441
+   ]
+  },
+  "any8": {
+   "base": 0.844,
+   "rl": 0.614,
+   "delta": -0.22999999999999998,
+   "ci": [
+    -0.268,
+    -0.19199999999999995
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 245,
+   "base": 0.9111791730474732,
+   "rl": 0.9136765470618825,
+   "delta": 0.0024973740144093037,
+   "ci": [
+    -0.0014124965519866084,
+    0.00783546579253469
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.27310778443113776,
+  "perfinished_term": -0.0033922155688622772,
+  "finishing_share": 0.9877315892627044,
+  "finishing_share_alt": 0.9920894803354119,
+  "finishing_share_ci": [
+   0.9414300138958605,
+   1.0384410928751553
+  ]
+ },
+ "Polaris-4B-Preview cap16384 phys": {
+  "base": "Qwen3-4B",
+  "rl": "Polaris-4B-Preview",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.4770189137448393,
+  "mean": {
+   "base": 0.5321527777777779,
+   "rl": 0.28359375,
+   "delta": -0.24855902777777794,
+   "ci": [
+    -0.2861111111111111,
+    -0.2129166666666667
+   ]
+  },
+  "finished": {
+   "base": 0.8766666666666667,
+   "rl": 0.43291666666666667,
+   "delta": -0.44375000000000003,
+   "ci": [
+    -0.4875,
+    -0.40124999999999994
+   ]
+  },
+  "sgf": {
+   "base": 0.6070183776932828,
+   "rl": 0.6550769971126083,
+   "delta": 0.04805861941932543,
+   "ci": [
+    0.00017712053205798384,
+    0.09593230495468574
+   ]
+  },
+  "any8": {
+   "base": 0.6766666666666666,
+   "rl": 0.43333333333333335,
+   "delta": -0.2433333333333333,
+   "ci": [
+    -0.29666666666666663,
+    -0.1933333333333333
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 98,
+   "base": 0.6549744897959183,
+   "rl": 0.6553424360641525,
+   "delta": 0.0003679462682342205,
+   "ci": [
+    -0.027437751586422587,
+    0.028309425864586624
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.29069041746871993,
+  "perfinished_term": 0.04213138969094196,
+  "finishing_share": 1.1695025526435885,
+  "finishing_share_alt": 1.0837039696752322,
+  "finishing_share_ci": [
+   1.000543549978321,
+   1.36675717474931
+  ]
+ },
+ "Polaris-4B-Preview cap16384 math": {
+  "base": "Qwen3-4B",
+  "rl": "Polaris-4B-Preview",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.7212082650385356,
+  "mean": {
+   "base": 0.867,
+   "rl": 0.74575,
+   "delta": -0.12124999999999997,
+   "ci": [
+    -0.14649999999999996,
+    -0.09699999999999998
+   ]
+  },
+  "finished": {
+   "base": 0.9585,
+   "rl": 0.81325,
+   "delta": -0.14525,
+   "ci": [
+    -0.17149999999999999,
+    -0.11949999999999994
+   ]
+  },
+  "sgf": {
+   "base": 0.9045383411580594,
+   "rl": 0.9169996925914541,
+   "delta": 0.012461351433394663,
+   "ci": [
+    0.0022323739512070118,
+    0.023878683924584476
+   ]
+  },
+  "any8": {
+   "base": 0.904,
+   "rl": 0.818,
+   "delta": -0.08600000000000008,
+   "ci": [
+    -0.11399999999999999,
+    -0.06000000000000005
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 385,
+   "base": 0.9105691056910569,
+   "rl": 0.9171578258022266,
+   "delta": 0.0065887201111697324,
+   "ci": [
+    0.0017362340570490353,
+    0.01234099673368505
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.1331942053489087,
+  "perfinished_term": 0.011944205348908785,
+  "finishing_share": 1.0985089100940926,
+  "finishing_share_alt": 1.0835809818821291,
+  "finishing_share_ci": [
+   1.0164621835688774,
+   1.2061657364575584
+  ]
+ },
+ "JustRL-DeepSeek-1.5B cap4096 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "JustRL-DeepSeek-1.5B",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0192828739518596,
+  "mean": {
+   "base": 0.11895833333333333,
+   "rl": 0.12543402777777776,
+   "delta": 0.00647569444444443,
+   "ci": [
+    -0.012413194444444442,
+    0.025590277777777753
+   ]
+  },
+  "finished": {
+   "base": 0.20625,
+   "rl": 0.20166666666666666,
+   "delta": -0.004583333333333328,
+   "ci": [
+    -0.027916666666666645,
+    0.01874999999999999
+   ]
+  },
+  "sgf": {
+   "base": 0.5767676767676768,
+   "rl": 0.6219869146005509,
+   "delta": 0.04521923783287407,
+   "ci": [
+    -0.015478844933632274,
+    0.10682494315956814
+   ]
+  },
+  "any8": {
+   "base": 0.23666666666666666,
+   "rl": 0.23333333333333334,
+   "delta": -0.003333333333333327,
+   "ci": [
+    -0.040000000000000036,
+    0.03333333333333338
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 14
+  },
+  "finishing_term": -0.002850773358585855,
+  "perfinished_term": 0.009326467803030277,
+  "finishing_share": -0.4402266634170124,
+  "finishing_share_alt": -0.40822162645219,
+  "finishing_share_ci": [
+   -8.487841325906777,
+   9.074868519909476
+  ]
+ },
+ "JustRL-DeepSeek-1.5B cap4096 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "JustRL-DeepSeek-1.5B",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.082004810268583,
+  "mean": {
+   "base": 0.58375,
+   "rl": 0.54775,
+   "delta": -0.03600000000000003,
+   "ci": [
+    -0.05874999999999997,
+    -0.013500000000000068
+   ]
+  },
+  "finished": {
+   "base": 0.641,
+   "rl": 0.59075,
+   "delta": -0.05025000000000002,
+   "ci": [
+    -0.0744999999999999,
+    -0.026499999999999968
+   ]
+  },
+  "sgf": {
+   "base": 0.9106864274570983,
+   "rl": 0.9272111722386797,
+   "delta": 0.01652474478158139,
+   "ci": [
+    -0.0001547090086770897,
+    0.03356511641080828
+   ]
+  },
+  "any8": {
+   "base": 0.742,
+   "rl": 0.702,
+   "delta": -0.040000000000000036,
+   "ci": [
+    -0.06800000000000006,
+    -0.01200000000000001
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 206,
+   "base": 0.9351216469120399,
+   "rl": 0.9257425742574258,
+   "delta": -0.009379072654614129,
+   "ci": [
+    -0.02522125636090322,
+    0.003021095781420291
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.04659236140499367,
+  "perfinished_term": 0.010592361404993672,
+  "finishing_share": 1.294232261249823,
+  "finishing_share_alt": 1.2711664716588655,
+  "finishing_share_ci": [
+   0.9963918523616961,
+   2.1044971025926946
+  ]
+ },
+ "DeepMath-1.5B cap4096 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "DeepMath-1.5B",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0422944343185445,
+  "mean": {
+   "base": 0.11895833333333333,
+   "rl": 0.08965277777777778,
+   "delta": -0.029305555555555557,
+   "ci": [
+    -0.04656250000000001,
+    -0.012986111111111101
+   ]
+  },
+  "finished": {
+   "base": 0.20625,
+   "rl": 0.12708333333333333,
+   "delta": -0.07916666666666666,
+   "ci": [
+    -0.09958333333333336,
+    -0.05958333333333332
+   ]
+  },
+  "sgf": {
+   "base": 0.5767676767676768,
+   "rl": 0.7054644808743169,
+   "delta": 0.12869680410664008,
+   "ci": [
+    0.06290151388190612,
+    0.19409753064487467
+   ]
+  },
+  "any8": {
+   "base": 0.23666666666666666,
+   "rl": 0.19333333333333333,
+   "delta": -0.043333333333333335,
+   "ci": [
+    -0.08000000000000002,
+    -0.006666666666666654
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 9
+  },
+  "finishing_term": -0.05584927140255008,
+  "perfinished_term": 0.026543715846994515,
+  "finishing_share": 1.905757128428249,
+  "finishing_share_alt": 1.558092776102255,
+  "finishing_share_ci": [
+   1.3205012600864714,
+   3.6372464019420896
+  ]
+ },
+ "DeepMath-1.5B cap4096 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "DeepMath-1.5B",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.0905747153002276,
+  "mean": {
+   "base": 0.58375,
+   "rl": 0.54725,
+   "delta": -0.03649999999999998,
+   "ci": [
+    -0.05225000000000002,
+    -0.02100000000000002
+   ]
+  },
+  "finished": {
+   "base": 0.641,
+   "rl": 0.58775,
+   "delta": -0.05325000000000002,
+   "ci": [
+    -0.07050000000000001,
+    -0.03649999999999998
+   ]
+  },
+  "sgf": {
+   "base": 0.9106864274570983,
+   "rl": 0.9310931518502765,
+   "delta": 0.020406724393178255,
+   "ci": [
+    0.010493774728987382,
+    0.031193642394024335
+   ]
+  },
+  "any8": {
+   "base": 0.742,
+   "rl": 0.696,
+   "delta": -0.04600000000000004,
+   "ci": [
+    -0.06999999999999995,
+    -0.02399999999999991
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 208,
+   "base": 0.9459459459459459,
+   "rl": 0.9496932515337423,
+   "delta": 0.0037473055877963457,
+   "ci": [
+    0.001225490196078427,
+    0.00680573268088791
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.04958071033602724,
+  "perfinished_term": 0.013080710336027262,
+  "finishing_share": 1.3583756256445827,
+  "finishing_share_alt": 1.3286041715641241,
+  "finishing_share_ci": [
+   1.1604414011990127,
+   1.763966706901833
+  ]
+ },
+ "RLinf-math-1.5B cap4096 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "RLinf-math-1.5B",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.8432358043518732,
+  "mean": {
+   "base": 0.11895833333333333,
+   "rl": 0.22588194444444445,
+   "delta": 0.10692361111111112,
+   "ci": [
+    0.0837291666666667,
+    0.13060416666666666
+   ]
+  },
+  "finished": {
+   "base": 0.20625,
+   "rl": 0.45375,
+   "delta": 0.2475,
+   "ci": [
+    0.21791666666666665,
+    0.27791666666666665
+   ]
+  },
+  "sgf": {
+   "base": 0.5767676767676768,
+   "rl": 0.4978114478114478,
+   "delta": -0.078956228956229,
+   "ci": [
+    -0.13793616489653393,
+    -0.020641057947732522
+   ]
+  },
+  "any8": {
+   "base": 0.23666666666666666,
+   "rl": 0.37666666666666665,
+   "delta": 0.13999999999999999,
+   "ci": [
+    0.09999999999999998,
+    0.18333333333333335
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": true,
+  "matched": {
+   "n": 23,
+   "base": 0.6775147928994083,
+   "rl": 0.7336956521739131,
+   "delta": 0.05618085927450478,
+   "ci": [
+    -0.022623862487360924,
+    0.13667352714175451
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.12320833333333334,
+  "perfinished_term": -0.01628472222222223,
+  "finishing_share": 1.1523023965707604,
+  "finishing_share_alt": 1.3350652724556733,
+  "finishing_share_ci": [
+   1.035742131111396,
+   1.3081052432931326
+  ]
+ },
+ "RLinf-math-1.5B cap4096 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "RLinf-math-1.5B",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.6223825353265315,
+  "mean": {
+   "base": 0.58375,
+   "rl": 0.769,
+   "delta": 0.18525000000000003,
+   "ci": [
+    0.16200000000000003,
+    0.20899999999999996
+   ]
+  },
+  "finished": {
+   "base": 0.641,
+   "rl": 0.853,
+   "delta": 0.21199999999999997,
+   "ci": [
+    0.18825000000000003,
+    0.23624999999999996
+   ]
+  },
+  "sgf": {
+   "base": 0.9106864274570983,
+   "rl": 0.9015240328253223,
+   "delta": -0.009162394631775928,
+   "ci": [
+    -0.022345525947139455,
+    0.0037157620461923946
+   ]
+  },
+  "any8": {
+   "base": 0.742,
+   "rl": 0.848,
+   "delta": 0.10599999999999998,
+   "ci": [
+    0.07799999999999996,
+    0.136
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 260,
+   "base": 0.929318068690891,
+   "rl": 0.9359961501443695,
+   "delta": 0.00667808145347859,
+   "ci": [
+    0.0007828985229234586,
+    0.013265107357081751
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.19112309495896831,
+  "perfinished_term": -0.00587309495896837,
+  "finishing_share": 1.0317036165126494,
+  "finishing_share_alt": 1.0421890559832916,
+  "finishing_share_ci": [
+   0.9876323099935898,
+   1.0823155926477446
+  ]
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap4096 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "AReaL-1.5B-Preview-Stage-3",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.9994720375976887,
+  "mean": {
+   "base": 0.11895833333333333,
+   "rl": 0.1262673611111111,
+   "delta": 0.007309027777777755,
+   "ci": [
+    -0.007361111111111124,
+    0.021666666666666667
+   ]
+  },
+  "finished": {
+   "base": 0.20625,
+   "rl": 0.20958333333333334,
+   "delta": 0.003333333333333355,
+   "ci": [
+    -0.013750000000000012,
+    0.020416666666666666
+   ]
+  },
+  "sgf": {
+   "base": 0.5767676767676768,
+   "rl": 0.6024685222001325,
+   "delta": 0.025700845432455655,
+   "ci": [
+    -0.02368542633465054,
+    0.07255705148065222
+   ]
+  },
+  "any8": {
+   "base": 0.23666666666666666,
+   "rl": 0.23666666666666666,
+   "delta": 0.0,
+   "ci": [
+    -0.033333333333333354,
+    0.033333333333333354
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 19,
+   "base": 0.675,
+   "rl": 0.7363013698630136,
+   "delta": 0.0613013698630136,
+   "ci": [
+    0.006046976511744129,
+    0.12379227053140096
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.0020082284073337877,
+  "perfinished_term": 0.005300799370443979,
+  "finishing_share": 0.2747599911221533,
+  "finishing_share_alt": 0.26303894047362236,
+  "finishing_share_ci": [
+   -3.680964699991582,
+   4.291921369689303
+  ]
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap4096 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "AReaL-1.5B-Preview-Stage-3",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.9546638357991803,
+  "mean": {
+   "base": 0.58375,
+   "rl": 0.62175,
+   "delta": 0.038000000000000034,
+   "ci": [
+    0.025499999999999967,
+    0.05075000000000007
+   ]
+  },
+  "finished": {
+   "base": 0.641,
+   "rl": 0.67925,
+   "delta": 0.038250000000000006,
+   "ci": [
+    0.02499999999999991,
+    0.051750000000000074
+   ]
+  },
+  "sgf": {
+   "base": 0.9106864274570983,
+   "rl": 0.9153478100846522,
+   "delta": 0.0046613826275538894,
+   "ci": [
+    -0.0038412743946913963,
+    0.013546899221003494
+   ]
+  },
+  "any8": {
+   "base": 0.742,
+   "rl": 0.768,
+   "delta": 0.026000000000000023,
+   "ci": [
+    0.0040000000000000036,
+    0.04800000000000004
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 248,
+   "base": 0.9266389177939646,
+   "rl": 0.9307692307692308,
+   "delta": 0.004130312975266226,
+   "ci": [
+    1.602591497285033e-06,
+    0.00868948157669236
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.03501205373573795,
+  "perfinished_term": 0.0029879462642620432,
+  "finishing_share": 0.9213698351509979,
+  "finishing_share_alt": 0.9166777855324733,
+  "finishing_share_ci": [
+   0.7705223157160013,
+   1.073205282162641
+  ]
+ },
+ "JustRL-DeepSeek-1.5B cap8192 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "JustRL-DeepSeek-1.5B",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.9608699313579866,
+  "mean": {
+   "base": 0.20713541666666666,
+   "rl": 0.2809895833333333,
+   "delta": 0.07385416666666664,
+   "ci": [
+    0.04947916666666671,
+    0.09947916666666676
+   ]
+  },
+  "finished": {
+   "base": 0.45416666666666666,
+   "rl": 0.6158333333333333,
+   "delta": 0.16166666666666668,
+   "ci": [
+    0.12791666666666662,
+    0.19625000000000004
+   ]
+  },
+  "sgf": {
+   "base": 0.45607798165137614,
+   "rl": 0.4562753721244925,
+   "delta": 0.0001973904731163434,
+   "ci": [
+    -0.03788460249012049,
+    0.03987957170014761
+   ]
+  },
+  "any8": {
+   "base": 0.38666666666666666,
+   "rl": 0.46,
+   "delta": 0.07333333333333336,
+   "ci": [
+    0.030000000000000027,
+    0.11666666666666664
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 63,
+   "base": 0.630359612724758,
+   "rl": 0.6462516733601071,
+   "delta": 0.015892060635349092,
+   "ci": [
+    -0.037354562155542115,
+    0.0698741146136761
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.07376451849345962,
+  "perfinished_term": 8.964817320700595e-05,
+  "finishing_share": 0.99878614603274,
+  "finishing_share_alt": 0.9983540585654953,
+  "finishing_share_ci": [
+   0.7967624098944001,
+   1.31617520882576
+  ]
+ },
+ "JustRL-DeepSeek-1.5B cap8192 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "JustRL-DeepSeek-1.5B",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.025592202656995,
+  "mean": {
+   "base": 0.7195,
+   "rl": 0.78925,
+   "delta": 0.06974999999999998,
+   "ci": [
+    0.050249999999999906,
+    0.08975
+   ]
+  },
+  "finished": {
+   "base": 0.80925,
+   "rl": 0.88625,
+   "delta": 0.07699999999999996,
+   "ci": [
+    0.05800000000000005,
+    0.09649999999999992
+   ]
+  },
+  "sgf": {
+   "base": 0.8890948409020698,
+   "rl": 0.8905500705218617,
+   "delta": 0.0014552296197919423,
+   "ci": [
+    -0.011860012310388135,
+    0.014452680477401891
+   ]
+  },
+  "any8": {
+   "base": 0.846,
+   "rl": 0.868,
+   "delta": 0.02200000000000002,
+   "ci": [
+    0.0040000000000000036,
+    0.04200000000000004
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 343,
+   "base": 0.9141058867086265,
+   "rl": 0.9120556980578967,
+   "delta": -0.0020501886507298117,
+   "ci": [
+    -0.013135585519975623,
+    0.007890563709786802
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.06857235543018332,
+  "perfinished_term": 0.0011776445698166293,
+  "finishing_share": 0.983116206884349,
+  "finishing_share_alt": 0.981509716838127,
+  "finishing_share_ci": [
+   0.8493806490936389,
+   1.1673156530314588
+  ]
+ },
+ "DeepMath-1.5B cap8192 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "DeepMath-1.5B",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0679898156824872,
+  "mean": {
+   "base": 0.20713541666666666,
+   "rl": 0.231875,
+   "delta": 0.024739583333333343,
+   "ci": [
+    0.0041493055555554825,
+    0.04583333333333339
+   ]
+  },
+  "finished": {
+   "base": 0.45416666666666666,
+   "rl": 0.43333333333333335,
+   "delta": -0.020833333333333315,
+   "ci": [
+    -0.04958333333333337,
+    0.007500000000000007
+   ]
+  },
+  "sgf": {
+   "base": 0.45607798165137614,
+   "rl": 0.5350961538461538,
+   "delta": 0.07901817219477769,
+   "ci": [
+    0.04165380470678204,
+    0.11698877209533354
+   ]
+  },
+  "any8": {
+   "base": 0.38666666666666666,
+   "rl": 0.38666666666666666,
+   "delta": 0.0,
+   "ci": [
+    -0.03666666666666668,
+    0.03666666666666668
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": false,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 53,
+   "base": 0.6568627450980392,
+   "rl": 0.6967871485943775,
+   "delta": 0.0399244034963383,
+   "ci": [
+    0.0020189130907867225,
+    0.07932327733167166
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.011147836538461528,
+  "perfinished_term": 0.03588741987179487,
+  "finishing_share": -0.45060728744939216,
+  "finishing_share_alt": -0.38406566875905307,
+  "finishing_share_ci": [
+   -3.54985946060002,
+   0.15382833659365514
+  ]
+ },
+ "DeepMath-1.5B cap8192 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "DeepMath-1.5B",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.0698722452910945,
+  "mean": {
+   "base": 0.7195,
+   "rl": 0.7675,
+   "delta": 0.04799999999999993,
+   "ci": [
+    0.034499999999999975,
+    0.06225000000000003
+   ]
+  },
+  "finished": {
+   "base": 0.80925,
+   "rl": 0.84625,
+   "delta": 0.03699999999999992,
+   "ci": [
+    0.022750000000000048,
+    0.05149999999999999
+   ]
+  },
+  "sgf": {
+   "base": 0.8890948409020698,
+   "rl": 0.9069423929098966,
+   "delta": 0.01784755200782684,
+   "ci": [
+    0.008559633186274285,
+    0.027573080649034853
+   ]
+  },
+  "any8": {
+   "base": 0.846,
+   "rl": 0.862,
+   "delta": 0.016000000000000014,
+   "ci": [
+    -0.0020000000000000018,
+    0.03400000000000003
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 343,
+   "base": 0.9182087342709104,
+   "rl": 0.9250275633958104,
+   "delta": 0.00681882912489995,
+   "ci": [
+    0.001529425146109098,
+    0.012557543021551543
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.0335568685376661,
+  "perfinished_term": 0.01444313146233387,
+  "finishing_share": 0.6991014278680449,
+  "finishing_share_alt": 0.6853439398620117,
+  "finishing_share_ci": [
+   0.5348482116020429,
+   0.8452500130601045
+  ]
+ },
+ "RLinf-math-1.5B cap8192 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "RLinf-math-1.5B",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.7526391864832288,
+  "mean": {
+   "base": 0.20713541666666666,
+   "rl": 0.29768402777777775,
+   "delta": 0.0905486111111111,
+   "ci": [
+    0.06645138888888891,
+    0.1152083333333333
+   ]
+  },
+  "finished": {
+   "base": 0.45416666666666666,
+   "rl": 0.69125,
+   "delta": 0.23708333333333337,
+   "ci": [
+    0.20708333333333329,
+    0.2679166666666667
+   ]
+  },
+  "sgf": {
+   "base": 0.45607798165137614,
+   "rl": 0.4306459714687562,
+   "delta": -0.025432010182619924,
+   "ci": [
+    -0.06441329167099441,
+    0.013377388024287562
+   ]
+  },
+  "any8": {
+   "base": 0.38666666666666666,
+   "rl": 0.4766666666666667,
+   "delta": 0.09000000000000002,
+   "ci": [
+    0.043333333333333335,
+    0.13666666666666666
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 68,
+   "base": 0.5904118404118405,
+   "rl": 0.5848880597014925,
+   "delta": -0.005523780710347981,
+   "ci": [
+    -0.05543813994503022,
+    0.04043128919976202
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.1020989824023843,
+  "perfinished_term": -0.011550371291273216,
+  "finishing_share": 1.1275598946194756,
+  "finishing_share_alt": 1.194148500159367,
+  "finishing_share_ci": [
+   0.9441159243336671,
+   1.414975358426436
+  ]
+ },
+ "RLinf-math-1.5B cap8192 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "RLinf-math-1.5B",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.5561348762205808,
+  "mean": {
+   "base": 0.7195,
+   "rl": 0.8235,
+   "delta": 0.10399999999999998,
+   "ci": [
+    0.08499999999999996,
+    0.12375000000000003
+   ]
+  },
+  "finished": {
+   "base": 0.80925,
+   "rl": 0.93775,
+   "delta": 0.12849999999999995,
+   "ci": [
+    0.10799999999999998,
+    0.15000000000000002
+   ]
+  },
+  "sgf": {
+   "base": 0.8890948409020698,
+   "rl": 0.8781658224473474,
+   "delta": -0.010929018454722383,
+   "ci": [
+    -0.024981323994309412,
+    0.00277783433870038
+   ]
+  },
+  "any8": {
+   "base": 0.846,
+   "rl": 0.884,
+   "delta": 0.038000000000000034,
+   "ci": [
+    0.020000000000000018,
+    0.05799999999999994
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 352,
+   "base": 0.9126984126984127,
+   "rl": 0.9174083303666786,
+   "delta": 0.004709917668265895,
+   "ci": [
+    -0.004010242993079172,
+    0.013895588442507267
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.1128443081844841,
+  "perfinished_term": -0.00884430818448409,
+  "finishing_share": 1.085041424850809,
+  "finishing_share_alt": 1.0985450678453457,
+  "finishing_share_ci": [
+   0.9792462426123709,
+   1.21432228229377
+  ]
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap8192 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "AReaL-1.5B-Preview-Stage-3",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.9914056702802888,
+  "mean": {
+   "base": 0.20713541666666666,
+   "rl": 0.2230381944444444,
+   "delta": 0.015902777777777738,
+   "ci": [
+    0.0014583333333333115,
+    0.030381944444444448
+   ]
+  },
+  "finished": {
+   "base": 0.45416666666666666,
+   "rl": 0.47458333333333336,
+   "delta": 0.020416666666666694,
+   "ci": [
+    -0.0004166666666666763,
+    0.04124999999999995
+   ]
+  },
+  "sgf": {
+   "base": 0.45607798165137614,
+   "rl": 0.46996634474685384,
+   "delta": 0.013888363095477696,
+   "ci": [
+    -0.01506170563462017,
+    0.04280687783623205
+   ]
+  },
+  "any8": {
+   "base": 0.38666666666666666,
+   "rl": 0.39666666666666667,
+   "delta": 0.010000000000000009,
+   "ci": [
+    -0.026666666666666672,
+    0.04666666666666669
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 59,
+   "base": 0.6130690161527167,
+   "rl": 0.6128205128205128,
+   "delta": -0.00024850333220394205,
+   "ci": [
+    -0.03478298886073283,
+    0.035324693807908814
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.009595146205248279,
+  "perfinished_term": 0.006307631572529454,
+  "finishing_share": 0.6033629054828628,
+  "finishing_share_alt": 0.5855324305917254,
+  "finishing_share_ci": [
+   -0.11827020410084892,
+   2.3285106382978484
+  ]
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap8192 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "AReaL-1.5B-Preview-Stage-3",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.9272723480903529,
+  "mean": {
+   "base": 0.7195,
+   "rl": 0.7555,
+   "delta": 0.03599999999999992,
+   "ci": [
+    0.024249999999999994,
+    0.048250000000000015
+   ]
+  },
+  "finished": {
+   "base": 0.80925,
+   "rl": 0.851,
+   "delta": 0.041749999999999954,
+   "ci": [
+    0.02949999999999997,
+    0.05449999999999999
+   ]
+  },
+  "sgf": {
+   "base": 0.8890948409020698,
+   "rl": 0.8877790834312573,
+   "delta": -0.001315757470812473,
+   "ci": [
+    -0.009507748297478691,
+    0.007013971950194597
+   ]
+  },
+  "any8": {
+   "base": 0.846,
+   "rl": 0.864,
+   "delta": 0.018000000000000016,
+   "ci": [
+    0.006000000000000005,
+    0.03200000000000003
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 350,
+   "base": 0.9121915820029027,
+   "rl": 0.9117752970831833,
+   "delta": -0.00041628491971945625,
+   "ci": [
+    -0.005460317460317388,
+    0.004719050250617807
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.03706477673325495,
+  "perfinished_term": -0.001064776733254994,
+  "finishing_share": 1.0295771314793065,
+  "finishing_share_alt": 1.0311030446572627,
+  "finishing_share_ci": [
+   0.8583370831458439,
+   1.2654320987654346
+  ]
+ },
+ "JustRL-DeepSeek-1.5B cap16384 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "JustRL-DeepSeek-1.5B",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.7987127955886945,
+  "mean": {
+   "base": 0.27052430555555557,
+   "rl": 0.3694513888888889,
+   "delta": 0.09892708333333333,
+   "ci": [
+    0.0743611111111111,
+    0.12358680555555557
+   ]
+  },
+  "finished": {
+   "base": 0.82375,
+   "rl": 0.98125,
+   "delta": 0.15749999999999997,
+   "ci": [
+    0.135,
+    0.1808333333333333
+   ]
+  },
+  "sgf": {
+   "base": 0.3284058337548474,
+   "rl": 0.37651096956829444,
+   "delta": 0.04810513581344705,
+   "ci": [
+    0.02287307711490183,
+    0.07310826615146826
+   ]
+  },
+  "any8": {
+   "base": 0.4633333333333333,
+   "rl": 0.5366666666666666,
+   "delta": 0.0733333333333333,
+   "ci": [
+    0.026666666666666672,
+    0.12
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 187,
+   "base": 0.38825995807127894,
+   "rl": 0.4456823266219239,
+   "delta": 0.057422368550644975,
+   "ci": [
+    0.02897223290497053,
+    0.08640201639489314
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.05930047770700637,
+  "perfinished_term": 0.039626605626327006,
+  "finishing_share": 0.599436228269202,
+  "finishing_share_alt": 0.5228489213828885,
+  "finishing_share_ci": [
+   0.49166059747599977,
+   0.7561772642297542
+  ]
+ },
+ "JustRL-DeepSeek-1.5B cap16384 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "JustRL-DeepSeek-1.5B",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.894977623355871,
+  "mean": {
+   "base": 0.77975,
+   "rl": 0.844,
+   "delta": 0.06424999999999992,
+   "ci": [
+    0.04774999999999996,
+    0.08125000000000004
+   ]
+  },
+  "finished": {
+   "base": 0.91775,
+   "rl": 0.98375,
+   "delta": 0.06600000000000006,
+   "ci": [
+    0.052999999999999936,
+    0.07999999999999996
+   ]
+  },
+  "sgf": {
+   "base": 0.8496322527921547,
+   "rl": 0.8579415501905973,
+   "delta": 0.00830929739844255,
+   "ci": [
+    -0.0071609051222220055,
+    0.023490690902057465
+   ]
+  },
+  "any8": {
+   "base": 0.874,
+   "rl": 0.898,
+   "delta": 0.02400000000000002,
+   "ci": [
+    0.006000000000000005,
+    0.04200000000000004
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 424,
+   "base": 0.8802395209580839,
+   "rl": 0.893585574933491,
+   "delta": 0.013346053975407113,
+   "ci": [
+    0.0007563819728964027,
+    0.02547386020282738
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.05662414231257947,
+  "perfinished_term": 0.00762585768742065,
+  "finishing_share": 0.8813096079778917,
+  "finishing_share_alt": 0.8727739873040051,
+  "finishing_share_ci": [
+   0.7117290249433101,
+   1.1264127451452466
+  ]
+ },
+ "DeepMath-1.5B cap16384 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "DeepMath-1.5B",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.9419522570439667,
+  "mean": {
+   "base": 0.27052430555555557,
+   "rl": 0.3756180555555555,
+   "delta": 0.10509374999999993,
+   "ci": [
+    0.08352777777777781,
+    0.12701388888888887
+   ]
+  },
+  "finished": {
+   "base": 0.82375,
+   "rl": 0.97,
+   "delta": 0.14625,
+   "ci": [
+    0.125,
+    0.16833333333333333
+   ]
+  },
+  "sgf": {
+   "base": 0.3284058337548474,
+   "rl": 0.3872351088201603,
+   "delta": 0.058829275065312936,
+   "ci": [
+    0.036946971766888326,
+    0.08137648877528048
+   ]
+  },
+  "any8": {
+   "base": 0.4633333333333333,
+   "rl": 0.57,
+   "delta": 0.10666666666666663,
+   "ci": [
+    0.06666666666666665,
+    0.14999999999999997
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 190,
+   "base": 0.38486932599724905,
+   "rl": 0.46224580017683464,
+   "delta": 0.0773764741795856,
+   "ci": [
+    0.05227709146426679,
+    0.10294748707348556
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.056633134664948445,
+  "perfinished_term": 0.04846061533505153,
+  "finishing_share": 0.5388820426043269,
+  "finishing_share_alt": 0.4570143627632134,
+  "finishing_share_ci": [
+   0.4493407585566318,
+   0.6515280013098115
+  ]
+ },
+ "DeepMath-1.5B cap16384 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "DeepMath-1.5B",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.9521813470829127,
+  "mean": {
+   "base": 0.77975,
+   "rl": 0.83275,
+   "delta": 0.052999999999999936,
+   "ci": [
+    0.040999999999999925,
+    0.06624999999999992
+   ]
+  },
+  "finished": {
+   "base": 0.91775,
+   "rl": 0.98325,
+   "delta": 0.0655,
+   "ci": [
+    0.05174999999999996,
+    0.08025000000000004
+   ]
+  },
+  "sgf": {
+   "base": 0.8496322527921547,
+   "rl": 0.8469361810322908,
+   "delta": -0.0026960717598638606,
+   "ci": [
+    -0.016000585213942653,
+    0.010537185500593238
+   ]
+  },
+  "any8": {
+   "base": 0.874,
+   "rl": 0.898,
+   "delta": 0.02400000000000002,
+   "ci": [
+    0.008000000000000007,
+    0.04200000000000004
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 420,
+   "base": 0.880096647538508,
+   "rl": 0.89618138424821,
+   "delta": 0.016084736709702008,
+   "ci": [
+    0.007821497362240581,
+    0.024770503284616385
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.05547431985761505,
+  "perfinished_term": -0.002474319857615058,
+  "finishing_share": 1.0466852803323607,
+  "finishing_share_alt": 1.0500172180733247,
+  "finishing_share_ci": [
+   0.8390365002683838,
+   1.3187991588715462
+  ]
+ },
+ "RLinf-math-1.5B cap16384 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "RLinf-math-1.5B",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.6895062982413913,
+  "mean": {
+   "base": 0.27052430555555557,
+   "rl": 0.3309479166666667,
+   "delta": 0.06042361111111111,
+   "ci": [
+    0.037305555555555564,
+    0.08334722222222213
+   ]
+  },
+  "finished": {
+   "base": 0.82375,
+   "rl": 0.9070833333333334,
+   "delta": 0.08333333333333337,
+   "ci": [
+    0.06125000000000003,
+    0.10583333333333333
+   ]
+  },
+  "sgf": {
+   "base": 0.3284058337548474,
+   "rl": 0.3648484152503445,
+   "delta": 0.03644258149549712,
+   "ci": [
+    0.010793989047519936,
+    0.06156273278379076
+   ]
+  },
+  "any8": {
+   "base": 0.4633333333333333,
+   "rl": 0.5233333333333333,
+   "delta": 0.06,
+   "ci": [
+    0.013333333333333308,
+    0.10999999999999999
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 180,
+   "base": 0.40060430263475955,
+   "rl": 0.43173984891406986,
+   "delta": 0.03113554627931031,
+   "ci": [
+    0.0011029642845052923,
+    0.061837121212121204
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.030404034604195388,
+  "perfinished_term": 0.030019576506915748,
+  "finishing_share": 0.5031813565112212,
+  "finishing_share_alt": 0.4529215038568177,
+  "finishing_share_ci": [
+   0.3541261722853927,
+   0.7741242488903942
+  ]
+ },
+ "RLinf-math-1.5B cap16384 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "RLinf-math-1.5B",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.5035093231278398,
+  "mean": {
+   "base": 0.77975,
+   "rl": 0.8385,
+   "delta": 0.05874999999999997,
+   "ci": [
+    0.04425000000000001,
+    0.07399999999999995
+   ]
+  },
+  "finished": {
+   "base": 0.91775,
+   "rl": 0.978,
+   "delta": 0.060250000000000026,
+   "ci": [
+    0.048249999999999904,
+    0.07325000000000004
+   ]
+  },
+  "sgf": {
+   "base": 0.8496322527921547,
+   "rl": 0.8573619631901841,
+   "delta": 0.007729710398029388,
+   "ci": [
+    -0.005433763288689608,
+    0.020885279989449557
+   ]
+  },
+  "any8": {
+   "base": 0.874,
+   "rl": 0.892,
+   "delta": 0.018000000000000016,
+   "ci": [
+    0.0020000000000000018,
+    0.03600000000000003
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 422,
+   "base": 0.8818045112781955,
+   "rl": 0.8931116389548693,
+   "delta": 0.011307127676673856,
+   "ci": [
+    0.0010683238531339345,
+    0.02190968440850538
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.051656058282208615,
+  "perfinished_term": 0.007093941717791471,
+  "finishing_share": 0.8792520558673812,
+  "finishing_share_alt": 0.871324991161317,
+  "finishing_share_ci": [
+   0.7182514857679075,
+   1.1032661757703695
+  ]
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap16384 phys": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "AReaL-1.5B-Preview-Stage-3",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.9709945439750514,
+  "mean": {
+   "base": 0.27052430555555557,
+   "rl": 0.2931388888888889,
+   "delta": 0.022614583333333327,
+   "ci": [
+    0.00498611111111108,
+    0.04010416666666672
+   ]
+  },
+  "finished": {
+   "base": 0.82375,
+   "rl": 0.8541666666666666,
+   "delta": 0.030416666666666647,
+   "ci": [
+    0.011666666666666714,
+    0.04916666666666658
+   ]
+  },
+  "sgf": {
+   "base": 0.3284058337548474,
+   "rl": 0.3431869918699187,
+   "delta": 0.014781158115071302,
+   "ci": [
+    -0.005982477071366843,
+    0.035419516524648864
+   ]
+  },
+  "any8": {
+   "base": 0.4633333333333333,
+   "rl": 0.47333333333333333,
+   "delta": 0.010000000000000009,
+   "ci": [
+    -0.033333333333333326,
+    0.053333333333333344
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 173,
+   "base": 0.40897243107769427,
+   "rl": 0.42242019302152933,
+   "delta": 0.013447761943835068,
+   "ci": [
+    -0.012053670881564116,
+    0.03755965787215776
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.010438604336043353,
+  "perfinished_term": 0.012175978997289985,
+  "finishing_share": 0.4615872944542433,
+  "finishing_share_alt": 0.4417066027471921,
+  "finishing_share_ci": [
+   0.1610497425525284,
+   1.6013305206699315
+  ]
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap16384 math": {
+  "base": "DeepSeek-R1-Distill-Qwen-1.5B",
+  "rl": "AReaL-1.5B-Preview-Stage-3",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.8893632039260064,
+  "mean": {
+   "base": 0.77975,
+   "rl": 0.80675,
+   "delta": 0.026999999999999913,
+   "ci": [
+    0.01674999999999993,
+    0.038000000000000034
+   ]
+  },
+  "finished": {
+   "base": 0.91775,
+   "rl": 0.94075,
+   "delta": 0.02300000000000002,
+   "ci": [
+    0.01375000000000004,
+    0.03249999999999997
+   ]
+  },
+  "sgf": {
+   "base": 0.8496322527921547,
+   "rl": 0.8575604570821154,
+   "delta": 0.00792820428996066,
+   "ci": [
+    -0.0010479782901912094,
+    0.017000359597591608
+   ]
+  },
+  "any8": {
+   "base": 0.874,
+   "rl": 0.892,
+   "delta": 0.018000000000000016,
+   "ci": [
+    0.0040000000000000036,
+    0.03400000000000003
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 414,
+   "base": 0.8867809057527539,
+   "rl": 0.8903441973804447,
+   "delta": 0.0035632916276907567,
+   "ci": [
+    -0.0036462725256878326,
+    0.010916896742900528
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.01972389051288867,
+  "perfinished_term": 0.007276109487111396,
+  "finishing_share": 0.7305144634403234,
+  "finishing_share_alt": 0.7237608079340607,
+  "finishing_share_ci": [
+   0.5047975019903396,
+   1.0490402313962617
+  ]
+ },
+ "JustRL-Nemotron-1.5B cap4096 phys": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "JustRL-Nemotron-1.5B",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.023779248302409,
+  "mean": {
+   "base": 0.06006944444444444,
+   "rl": 0.032916666666666664,
+   "delta": -0.027152777777777776,
+   "ci": [
+    -0.04055555555555555,
+    -0.014930555555555558
+   ]
+  },
+  "finished": {
+   "base": 0.12375,
+   "rl": 0.060833333333333336,
+   "delta": -0.06291666666666666,
+   "ci": [
+    -0.07958333333333334,
+    -0.047499999999999994
+   ]
+  },
+  "sgf": {
+   "base": 0.4854096520763187,
+   "rl": 0.541095890410959,
+   "delta": 0.05568623833464026,
+   "ci": [
+    -0.04943019943019944,
+    0.16770430800057257
+   ]
+  },
+  "any8": {
+   "base": 0.14,
+   "rl": 0.07666666666666666,
+   "delta": -0.06333333333333335,
+   "ci": [
+    -0.09333333333333334,
+    -0.03333333333333334
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 3
+  },
+  "finishing_term": -0.0340439497716895,
+  "perfinished_term": 0.006891171993911732,
+  "finishing_share": 1.2537925235609433,
+  "finishing_share_alt": 1.1247599610770966,
+  "finishing_share_ci": [
+   0.8074534161490683,
+   2.076923076923077
+  ]
+ },
+ "JustRL-Nemotron-1.5B cap4096 math": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "JustRL-Nemotron-1.5B",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.230350517316084,
+  "mean": {
+   "base": 0.6265,
+   "rl": 0.438,
+   "delta": -0.18849999999999995,
+   "ci": [
+    -0.21375,
+    -0.16375
+   ]
+  },
+  "finished": {
+   "base": 0.69525,
+   "rl": 0.48025,
+   "delta": -0.21500000000000002,
+   "ci": [
+    -0.2415,
+    -0.18949999999999995
+   ]
+  },
+  "sgf": {
+   "base": 0.9011147069399497,
+   "rl": 0.9120249869859448,
+   "delta": 0.010910280045995147,
+   "ci": [
+    -0.007282288706092932,
+    0.02895921442263938
+   ]
+  },
+  "any8": {
+   "base": 0.774,
+   "rl": 0.582,
+   "delta": -0.19200000000000006,
+   "ci": [
+    -0.22799999999999998,
+    -0.15800000000000003
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 189,
+   "base": 0.9302481556002683,
+   "rl": 0.9234417344173442,
+   "delta": -0.006806421182924072,
+   "ci": [
+    -0.01898223197842941,
+    0.0015251394272771668
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.19608537220197816,
+  "perfinished_term": 0.007585372201978126,
+  "finishing_share": 1.0402407013367545,
+  "finishing_share_alt": 1.0277966153426485,
+  "finishing_share_ci": [
+   0.9742040917918539,
+   1.1121724890829696
+  ]
+ },
+ "QuestA-Nemotron-1.5B cap4096 phys": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "QuestA-Nemotron-1.5B",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0362275452260166,
+  "mean": {
+   "base": 0.06006944444444444,
+   "rl": 0.002916666666666667,
+   "delta": -0.057152777777777775,
+   "ci": [
+    -0.07875,
+    -0.0375
+   ]
+  },
+  "finished": {
+   "base": 0.12375,
+   "rl": 0.002916666666666667,
+   "delta": -0.12083333333333333,
+   "ci": [
+    -0.14833333333333332,
+    -0.09458333333333334
+   ]
+  },
+  "sgf": {
+   "base": 0.4854096520763187,
+   "rl": 1.0,
+   "delta": 0.5145903479236813,
+   "ci": [
+    -0.5130830489192264,
+    0.6235955056179776
+   ]
+  },
+  "any8": {
+   "base": 0.14,
+   "rl": 0.006666666666666667,
+   "delta": -0.13333333333333336,
+   "ci": [
+    -0.17333333333333334,
+    -0.09666666666666666
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 0
+  },
+  "finishing_term": -0.12083333333333333,
+  "perfinished_term": 0.06368055555555556,
+  "finishing_share": 2.1142162818955046,
+  "finishing_share_alt": 1.026260989808985,
+  "finishing_share_ci": [
+   0.0,
+   2.7653061224489797
+  ]
+ },
+ "QuestA-Nemotron-1.5B cap4096 math": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "QuestA-Nemotron-1.5B",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.3422279962207204,
+  "mean": {
+   "base": 0.6265,
+   "rl": 0.242,
+   "delta": -0.38449999999999995,
+   "ci": [
+    -0.4165,
+    -0.35200000000000004
+   ]
+  },
+  "finished": {
+   "base": 0.69525,
+   "rl": 0.26575,
+   "delta": -0.42950000000000005,
+   "ci": [
+    -0.46175,
+    -0.39725000000000005
+   ]
+  },
+  "sgf": {
+   "base": 0.9011147069399497,
+   "rl": 0.9106302916274694,
+   "delta": 0.009515584687519785,
+   "ci": [
+    -0.02295072788353869,
+    0.04115678713809556
+   ]
+  },
+  "any8": {
+   "base": 0.774,
+   "rl": 0.398,
+   "delta": -0.376,
+   "ci": [
+    -0.41800000000000004,
+    -0.334
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 84,
+   "base": 0.905829596412556,
+   "rl": 0.90527950310559,
+   "delta": -0.0005500933069659819,
+   "ci": [
+    -0.006575146496464734,
+    0.005109262666470715
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.39111571025399816,
+  "perfinished_term": 0.006615710253998131,
+  "finishing_share": 1.0172060084629342,
+  "finishing_share_alt": 1.006576766269723,
+  "finishing_share_ci": [
+   0.9593628397861205,
+   1.0760839006681053
+  ]
+ },
+ "KnowRL-Nemotron-1.5B cap4096 phys": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "KnowRL-Nemotron-1.5B",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0313279765728758,
+  "mean": {
+   "base": 0.06006944444444444,
+   "rl": 0.02375,
+   "delta": -0.03631944444444444,
+   "ci": [
+    -0.05034722222222221,
+    -0.02361111111111111
+   ]
+  },
+  "finished": {
+   "base": 0.12375,
+   "rl": 0.02875,
+   "delta": -0.095,
+   "ci": [
+    -0.11624999999999999,
+    -0.07541666666666667
+   ]
+  },
+  "sgf": {
+   "base": 0.4854096520763187,
+   "rl": 0.8260869565217391,
+   "delta": 0.34067730444542044,
+   "ci": [
+    0.22001991535972115,
+    0.44669117647058826
+   ]
+  },
+  "any8": {
+   "base": 0.14,
+   "rl": 0.05,
+   "delta": -0.09000000000000001,
+   "ci": [
+    -0.12333333333333334,
+    -0.06
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 1
+  },
+  "finishing_term": -0.07847826086956522,
+  "perfinished_term": 0.04215881642512078,
+  "finishing_share": 2.160778119544435,
+  "finishing_share_alt": 1.2696757247426464,
+  "finishing_share_ci": [
+   1.6278652223352683,
+   3.0085933024321654
+  ]
+ },
+ "KnowRL-Nemotron-1.5B cap4096 math": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "KnowRL-Nemotron-1.5B",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.2039717548572852,
+  "mean": {
+   "base": 0.6265,
+   "rl": 0.44525,
+   "delta": -0.18124999999999997,
+   "ci": [
+    -0.20675,
+    -0.15650000000000003
+   ]
+  },
+  "finished": {
+   "base": 0.69525,
+   "rl": 0.48625,
+   "delta": -0.20900000000000002,
+   "ci": [
+    -0.235,
+    -0.1835
+   ]
+  },
+  "sgf": {
+   "base": 0.9011147069399497,
+   "rl": 0.9156812339331619,
+   "delta": 0.014566526993212259,
+   "ci": [
+    -0.0019346848860590793,
+    0.03169797258960627
+   ]
+  },
+  "any8": {
+   "base": 0.774,
+   "rl": 0.588,
+   "delta": -0.18600000000000005,
+   "ci": [
+    -0.2220000000000001,
+    -0.15200000000000002
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 191,
+   "base": 0.919761273209549,
+   "rl": 0.9198396793587175,
+   "delta": 7.84061491684307e-05,
+   "ci": [
+    -0.004766688963329546,
+    0.0047028522539933615
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.19137737789203085,
+  "perfinished_term": 0.010127377892030824,
+  "finishing_share": 1.0558751883698256,
+  "finishing_share_alt": 1.039078475864549,
+  "finishing_share_ci": [
+   0.9928633780709926,
+   1.1289513134528009
+  ]
+ },
+ "DeepMath-Omn-1.5B cap4096 phys": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "DeepMath-Omn-1.5B",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.022794503149391,
+  "mean": {
+   "base": 0.06006944444444444,
+   "rl": 0.03729166666666667,
+   "delta": -0.022777777777777772,
+   "ci": [
+    -0.033541666666666664,
+    -0.012638888888888887
+   ]
+  },
+  "finished": {
+   "base": 0.12375,
+   "rl": 0.05416666666666667,
+   "delta": -0.06958333333333333,
+   "ci": [
+    -0.08541666666666667,
+    -0.05499999999999999
+   ]
+  },
+  "sgf": {
+   "base": 0.4854096520763187,
+   "rl": 0.6884615384615385,
+   "delta": 0.20305188638521976,
+   "ci": [
+    0.09454152554699025,
+    0.3095238095238095
+   ]
+  },
+  "any8": {
+   "base": 0.14,
+   "rl": 0.07666666666666666,
+   "delta": -0.06333333333333335,
+   "ci": [
+    -0.09333333333333334,
+    -0.03333333333333334
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 3
+  },
+  "finishing_term": -0.04790544871794872,
+  "perfinished_term": 0.025127670940170946,
+  "finishing_share": 2.1031660412757978,
+  "finishing_share_alt": 1.48286729079412,
+  "finishing_share_ci": [
+   1.4087719298245616,
+   3.6437725928360165
+  ]
+ },
+ "DeepMath-Omn-1.5B cap4096 math": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "DeepMath-Omn-1.5B",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.1526930397553343,
+  "mean": {
+   "base": 0.6265,
+   "rl": 0.48825,
+   "delta": -0.13824999999999993,
+   "ci": [
+    -0.15875,
+    -0.11850000000000005
+   ]
+  },
+  "finished": {
+   "base": 0.69525,
+   "rl": 0.53775,
+   "delta": -0.15750000000000008,
+   "ci": [
+    -0.1785000000000001,
+    -0.13724999999999998
+   ]
+  },
+  "sgf": {
+   "base": 0.9011147069399497,
+   "rl": 0.9079497907949791,
+   "delta": 0.0068350838550294,
+   "ci": [
+    -0.004885889102209773,
+    0.019038219560234992
+   ]
+  },
+  "any8": {
+   "base": 0.774,
+   "rl": 0.654,
+   "delta": -0.12,
+   "ci": [
+    -0.15000000000000002,
+    -0.09199999999999997
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 205,
+   "base": 0.9161011721159777,
+   "rl": 0.9166148102053516,
+   "delta": 0.0005136380893738801,
+   "ci": [
+    -0.004765031803212083,
+    0.004881093660897284
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.14300209205020928,
+  "perfinished_term": 0.00475209205020919,
+  "finishing_share": 1.0343731793866862,
+  "finishing_share_alt": 1.0265863749948805,
+  "finishing_share_ci": [
+   0.9766275659824047,
+   1.10085739693619
+  ]
+ },
+ "JustRL-Nemotron-1.5B cap8192 phys": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "JustRL-Nemotron-1.5B",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0478383768269661,
+  "mean": {
+   "base": 0.13886805555555554,
+   "rl": 0.13717013888888888,
+   "delta": -0.00169791666666666,
+   "ci": [
+    -0.01809027777777779,
+    0.014621527777777768
+   ]
+  },
+  "finished": {
+   "base": 0.39916666666666667,
+   "rl": 0.35625,
+   "delta": -0.04291666666666666,
+   "ci": [
+    -0.07,
+    -0.016249999999999987
+   ]
+  },
+  "sgf": {
+   "base": 0.3478949199721642,
+   "rl": 0.3850389863547758,
+   "delta": 0.037144066382611585,
+   "ci": [
+    -0.0020645998560275824,
+    0.07828634134203544
+   ]
+  },
+  "any8": {
+   "base": 0.28,
+   "rl": 0.25,
+   "delta": -0.030000000000000027,
+   "ci": [
+    -0.06333333333333332,
+    0.0
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 39,
+   "base": 0.46290143964562575,
+   "rl": 0.4934640522875817,
+   "delta": 0.030562612641955977,
+   "ci": [
+    -0.02137320044296792,
+    0.09268668707793193
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.016524589831059124,
+  "perfinished_term": 0.014826673164392458,
+  "finishing_share": 9.732273765531792,
+  "finishing_share_alt": 8.793417609112403,
+  "finishing_share_ci": [
+   -29.431013431010513,
+   29.33244526815827
+  ]
+ },
+ "JustRL-Nemotron-1.5B cap8192 math": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "JustRL-Nemotron-1.5B",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.3327431904793638,
+  "mean": {
+   "base": 0.78075,
+   "rl": 0.72825,
+   "delta": -0.0525000000000001,
+   "ci": [
+    -0.06900000000000006,
+    -0.03600000000000003
+   ]
+  },
+  "finished": {
+   "base": 0.87925,
+   "rl": 0.81375,
+   "delta": -0.0655,
+   "ci": [
+    -0.08200000000000007,
+    -0.049250000000000016
+   ]
+  },
+  "sgf": {
+   "base": 0.8879727040090987,
+   "rl": 0.8949308755760369,
+   "delta": 0.006958171566938232,
+   "ci": [
+    -0.0040059689526880105,
+    0.017971301583247223
+   ]
+  },
+  "any8": {
+   "base": 0.876,
+   "rl": 0.834,
+   "delta": -0.04200000000000004,
+   "ci": [
+    -0.06399999999999995,
+    -0.02200000000000002
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 355,
+   "base": 0.9060283687943262,
+   "rl": 0.9020234291799787,
+   "delta": -0.004004939614347558,
+   "ci": [
+    -0.013576943204030023,
+    0.0047236950474691675
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.05861797235023042,
+  "perfinished_term": 0.00611797235023044,
+  "finishing_share": 1.1165328066710534,
+  "finishing_share_alt": 1.10785165928754,
+  "finishing_share_ci": [
+   0.9412034312966457,
+   1.3729583802024785
+  ]
+ },
+ "QuestA-Nemotron-1.5B cap8192 phys": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "QuestA-Nemotron-1.5B",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.1558955886935804,
+  "mean": {
+   "base": 0.13886805555555554,
+   "rl": 0.030833333333333334,
+   "delta": -0.1080347222222222,
+   "ci": [
+    -0.13406250000000003,
+    -0.08359027777777778
+   ]
+  },
+  "finished": {
+   "base": 0.39916666666666667,
+   "rl": 0.03875,
+   "delta": -0.36041666666666666,
+   "ci": [
+    -0.39541666666666664,
+    -0.32541666666666663
+   ]
+  },
+  "sgf": {
+   "base": 0.3478949199721642,
+   "rl": 0.7956989247311828,
+   "delta": 0.44780400475901855,
+   "ci": [
+    0.28445612358655836,
+    0.578836545324768
+   ]
+  },
+  "any8": {
+   "base": 0.28,
+   "rl": 0.07333333333333333,
+   "delta": -0.2066666666666667,
+   "ci": [
+    -0.25333333333333335,
+    -0.16000000000000003
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 2
+  },
+  "finishing_term": -0.2867831541218638,
+  "perfinished_term": 0.17874843189964157,
+  "finishing_share": 2.6545461331586035,
+  "finishing_share_alt": 1.160618779106211,
+  "finishing_share_ci": [
+   1.9874011387432298,
+   3.439762298561203
+  ]
+ },
+ "QuestA-Nemotron-1.5B cap8192 math": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "QuestA-Nemotron-1.5B",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.716832511618088,
+  "mean": {
+   "base": 0.78075,
+   "rl": 0.4935,
+   "delta": -0.28725000000000006,
+   "ci": [
+    -0.31725,
+    -0.258
+   ]
+  },
+  "finished": {
+   "base": 0.87925,
+   "rl": 0.5425,
+   "delta": -0.33675,
+   "ci": [
+    -0.36825,
+    -0.3065
+   ]
+  },
+  "sgf": {
+   "base": 0.8879727040090987,
+   "rl": 0.9096774193548387,
+   "delta": 0.021704715345740033,
+   "ci": [
+    0.0034349768696325667,
+    0.04050463615993183
+   ]
+  },
+  "any8": {
+   "base": 0.876,
+   "rl": 0.668,
+   "delta": -0.20799999999999996,
+   "ci": [
+    -0.244,
+    -0.17200000000000004
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 212,
+   "base": 0.911190053285968,
+   "rl": 0.9123554473524041,
+   "delta": 0.0011653940664361206,
+   "ci": [
+    -0.003111653447223972,
+    0.005657030003458963
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.30633387096774195,
+  "perfinished_term": 0.019083870967741924,
+  "finishing_share": 1.0664364524551502,
+  "finishing_share_alt": 1.0409914989558362,
+  "finishing_share_ci": [
+   1.0101146547179753,
+   1.1284660553742791
+  ]
+ },
+ "KnowRL-Nemotron-1.5B cap8192 phys": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "KnowRL-Nemotron-1.5B",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.1097609054460449,
+  "mean": {
+   "base": 0.13886805555555554,
+   "rl": 0.0953125,
+   "delta": -0.04355555555555554,
+   "ci": [
+    -0.06193749999999995,
+    -0.025895833333333326
+   ]
+  },
+  "finished": {
+   "base": 0.39916666666666667,
+   "rl": 0.17041666666666666,
+   "delta": -0.22875,
+   "ci": [
+    -0.25708333333333333,
+    -0.20125
+   ]
+  },
+  "sgf": {
+   "base": 0.3478949199721642,
+   "rl": 0.5592909535452323,
+   "delta": 0.21139603357306808,
+   "ci": [
+    0.14217062206125303,
+    0.27757212658202757
+   ]
+  },
+  "any8": {
+   "base": 0.28,
+   "rl": 0.17333333333333334,
+   "delta": -0.10666666666666669,
+   "ci": [
+    -0.14666666666666664,
+    -0.07
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 18,
+   "base": 0.7418981481481481,
+   "rl": 0.8723404255319149,
+   "delta": 0.1304422773837668,
+   "ci": [
+    0.03505406630406638,
+    0.24583333333333346
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.1279378056234719,
+  "perfinished_term": 0.08438225006791635,
+  "finishing_share": 2.937347578089917,
+  "finishing_share_alt": 1.8271139451344218,
+  "finishing_share_ci": [
+   2.0048425627446465,
+   4.8580181594757015
+  ]
+ },
+ "KnowRL-Nemotron-1.5B cap8192 math": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "KnowRL-Nemotron-1.5B",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.3330334418475271,
+  "mean": {
+   "base": 0.78075,
+   "rl": 0.71225,
+   "delta": -0.0685,
+   "ci": [
+    -0.08775,
+    -0.04974999999999996
+   ]
+  },
+  "finished": {
+   "base": 0.87925,
+   "rl": 0.781,
+   "delta": -0.09824999999999995,
+   "ci": [
+    -0.11825000000000008,
+    -0.07850000000000001
+   ]
+  },
+  "sgf": {
+   "base": 0.8879727040090987,
+   "rl": 0.9119718309859155,
+   "delta": 0.02399912697681683,
+   "ci": [
+    0.012332908975175028,
+    0.03689743872818618
+   ]
+  },
+  "any8": {
+   "base": 0.876,
+   "rl": 0.812,
+   "delta": -0.06399999999999995,
+   "ci": [
+    -0.08799999999999997,
+    -0.040000000000000036
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 354,
+   "base": 0.9048295454545454,
+   "rl": 0.9110396570203644,
+   "delta": 0.006210111565818965,
+   "ci": [
+    -0.0012258362951578228,
+    0.014918942243352662
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.08960123239436615,
+  "perfinished_term": 0.021101232394366197,
+  "finishing_share": 1.3080471882389217,
+  "finishing_share_alt": 1.273625082757575,
+  "finishing_share_ci": [
+   1.1396837193938654,
+   1.5658235579049349
+  ]
+ },
+ "DeepMath-Omn-1.5B cap8192 phys": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "DeepMath-Omn-1.5B",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0755956384447327,
+  "mean": {
+   "base": 0.13886805555555554,
+   "rl": 0.11854166666666667,
+   "delta": -0.020326388888888866,
+   "ci": [
+    -0.03544444444444442,
+    -0.005194444444444474
+   ]
+  },
+  "finished": {
+   "base": 0.39916666666666667,
+   "rl": 0.27125,
+   "delta": -0.12791666666666668,
+   "ci": [
+    -0.15166666666666667,
+    -0.1045833333333333
+   ]
+  },
+  "sgf": {
+   "base": 0.3478949199721642,
+   "rl": 0.43701996927803377,
+   "delta": 0.08912504930586956,
+   "ci": [
+    0.04335727052495697,
+    0.13587928612740657
+   ]
+  },
+  "any8": {
+   "base": 0.28,
+   "rl": 0.2,
+   "delta": -0.08000000000000002,
+   "ci": [
+    -0.11666666666666667,
+    -0.046666666666666634
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 31,
+   "base": 0.5628415300546449,
+   "rl": 0.6020833333333333,
+   "delta": 0.039241803278688425,
+   "ci": [
+    -0.032135627530364363,
+    0.11845219718019961
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.055902137736815155,
+  "perfinished_term": 0.03557574884792627,
+  "finishing_share": 2.750224746874408,
+  "finishing_share_alt": 2.189348966821753,
+  "finishing_share_ci": [
+   1.516341923318668,
+   9.559857604689519
+  ]
+ },
+ "DeepMath-Omn-1.5B cap8192 math": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "DeepMath-Omn-1.5B",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.2482618099474558,
+  "mean": {
+   "base": 0.78075,
+   "rl": 0.73525,
+   "delta": -0.045500000000000096,
+   "ci": [
+    -0.05974999999999997,
+    -0.031749999999999945
+   ]
+  },
+  "finished": {
+   "base": 0.87925,
+   "rl": 0.81075,
+   "delta": -0.0685,
+   "ci": [
+    -0.08400000000000007,
+    -0.053749999999999964
+   ]
+  },
+  "sgf": {
+   "base": 0.8879727040090987,
+   "rl": 0.9068763490595128,
+   "delta": 0.018903645050414086,
+   "ci": [
+    0.009871358763750782,
+    0.028788271118548203
+   ]
+  },
+  "any8": {
+   "base": 0.876,
+   "rl": 0.844,
+   "delta": -0.03200000000000003,
+   "ci": [
+    -0.052000000000000046,
+    -0.01200000000000001
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 357,
+   "base": 0.9069767441860465,
+   "rl": 0.9102156238953694,
+   "delta": 0.003238879709322906,
+   "ci": [
+    -0.001559446917486551,
+    0.008164055522872027
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.06212102991057663,
+  "perfinished_term": 0.016621029910576585,
+  "finishing_share": 1.365297360672011,
+  "finishing_share_alt": 1.3368380269147941,
+  "finishing_share_ci": [
+   1.1676165846613697,
+   1.685958120213641
+  ]
+ },
+ "JustRL-Nemotron-1.5B cap16384 phys": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "JustRL-Nemotron-1.5B",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0372188221664158,
+  "mean": {
+   "base": 0.2177916666666667,
+   "rl": 0.2594930555555555,
+   "delta": 0.04170138888888883,
+   "ci": [
+    0.020902777777777798,
+    0.06329861111111112
+   ]
+  },
+  "finished": {
+   "base": 0.9325,
+   "rl": 0.95375,
+   "delta": 0.02124999999999999,
+   "ci": [
+    0.00708333333333333,
+    0.03541666666666665
+   ]
+  },
+  "sgf": {
+   "base": 0.2335567470956211,
+   "rl": 0.2720765982233872,
+   "delta": 0.0385198511277661,
+   "ci": [
+    0.016539156271573596,
+    0.061544536061059585
+   ]
+  },
+  "any8": {
+   "base": 0.37,
+   "rl": 0.37666666666666665,
+   "delta": 0.006666666666666654,
+   "ci": [
+    -0.033333333333333326,
+    0.04666666666666669
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 246,
+   "base": 0.2547097671185263,
+   "rl": 0.29701030927835054,
+   "delta": 0.04230054215982426,
+   "ci": [
+    0.018191661477908405,
+    0.06703625922113843
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": 0.005781627712246976,
+  "perfinished_term": 0.03591976117664188,
+  "finishing_share": 0.13864352881991102,
+  "finishing_share_alt": 0.11901476205039155,
+  "finishing_share_ci": [
+   0.045238529143009604,
+   0.3083129808091234
+  ]
+ },
+ "JustRL-Nemotron-1.5B cap16384 math": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "JustRL-Nemotron-1.5B",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.3126621742122992,
+  "mean": {
+   "base": 0.83925,
+   "rl": 0.86,
+   "delta": 0.020749999999999935,
+   "ci": [
+    0.009000000000000008,
+    0.03275000000000006
+   ]
+  },
+  "finished": {
+   "base": 0.9735,
+   "rl": 0.98175,
+   "delta": 0.00824999999999998,
+   "ci": [
+    0.00275000000000003,
+    0.01375000000000004
+   ]
+  },
+  "sgf": {
+   "base": 0.862095531587057,
+   "rl": 0.8759867583396995,
+   "delta": 0.013891226752642538,
+   "ci": [
+    0.0029931410506425227,
+    0.025038703227612258
+   ]
+  },
+  "any8": {
+   "base": 0.896,
+   "rl": 0.898,
+   "delta": 0.0020000000000000018,
+   "ci": [
+    -0.010000000000000009,
+    0.014000000000000012
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": false,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 477,
+   "base": 0.8753959873284055,
+   "rl": 0.8848883048620236,
+   "delta": 0.009492317533618122,
+   "ci": [
+    -0.0008869973328169412,
+    0.01976808150520082
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.007226890756302503,
+  "perfinished_term": 0.013523109243697512,
+  "finishing_share": 0.34828389187000125,
+  "finishing_share_alt": 0.3427608740044928,
+  "finishing_share_ci": [
+   0.13933019263958693,
+   0.7227326990558197
+  ]
+ },
+ "QuestA-Nemotron-1.5B cap16384 phys": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "QuestA-Nemotron-1.5B",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.6142577588780298,
+  "mean": {
+   "base": 0.2177916666666667,
+   "rl": 0.13635416666666667,
+   "delta": -0.08143750000000002,
+   "ci": [
+    -0.10815972222222223,
+    -0.055743055555555504
+   ]
+  },
+  "finished": {
+   "base": 0.9325,
+   "rl": 0.29291666666666666,
+   "delta": -0.6395833333333334,
+   "ci": [
+    -0.6741666666666667,
+    -0.6029166666666667
+   ]
+  },
+  "sgf": {
+   "base": 0.2335567470956211,
+   "rl": 0.4655049786628734,
+   "delta": 0.23194823156725228,
+   "ci": [
+    0.17232611137838755,
+    0.290543408482243
+   ]
+  },
+  "any8": {
+   "base": 0.37,
+   "rl": 0.25333333333333335,
+   "delta": -0.11666666666666664,
+   "ci": [
+    -0.15666666666666668,
+    -0.07666666666666666
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 39,
+   "base": 0.5228494623655914,
+   "rl": 0.6304713804713805,
+   "delta": 0.10762191810578914,
+   "ci": [
+    0.04813488155659196,
+    0.17637510485549002
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.2977292259364628,
+  "perfinished_term": 0.21629172593646276,
+  "finishing_share": 3.6559229585444384,
+  "finishing_share_alt": 1.8342778551638697,
+  "finishing_share_ci": [
+   2.6391070561346415,
+   5.412851757102465
+  ]
+ },
+ "QuestA-Nemotron-1.5B cap16384 math": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "QuestA-Nemotron-1.5B",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 2.1181493357473693,
+  "mean": {
+   "base": 0.83925,
+   "rl": 0.7175,
+   "delta": -0.12175000000000002,
+   "ci": [
+    -0.14425,
+    -0.10025000000000006
+   ]
+  },
+  "finished": {
+   "base": 0.9735,
+   "rl": 0.79575,
+   "delta": -0.17775000000000007,
+   "ci": [
+    -0.20224999999999993,
+    -0.15425
+   ]
+  },
+  "sgf": {
+   "base": 0.862095531587057,
+   "rl": 0.901665095821552,
+   "delta": 0.03956956423449498,
+   "ci": [
+    0.02482360601798339,
+    0.055163829338959025
+   ]
+  },
+  "any8": {
+   "base": 0.896,
+   "rl": 0.864,
+   "delta": -0.03200000000000003,
+   "ci": [
+    -0.05400000000000005,
+    -0.01200000000000001
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 338,
+   "base": 0.8979591836734694,
+   "rl": 0.9051593323216995,
+   "delta": 0.0072001486482301535,
+   "ci": [
+    0.0013749670146802062,
+    0.013632642833984798
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.16027097078228092,
+  "perfinished_term": 0.03852097078228087,
+  "finishing_share": 1.3163940105320813,
+  "finishing_share_alt": 1.2586240717831574,
+  "finishing_share_ci": [
+   1.1841675786281982,
+   1.48574923814621
+  ]
+ },
+ "KnowRL-Nemotron-1.5B cap16384 phys": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "KnowRL-Nemotron-1.5B",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.3637079707788784,
+  "mean": {
+   "base": 0.2177916666666667,
+   "rl": 0.2217847222222222,
+   "delta": 0.003993055555555514,
+   "ci": [
+    -0.015277777777777807,
+    0.02315972222222229
+   ]
+  },
+  "finished": {
+   "base": 0.9325,
+   "rl": 0.6445833333333333,
+   "delta": -0.2879166666666667,
+   "ci": [
+    -0.32458333333333333,
+    -0.25250000000000006
+   ]
+  },
+  "sgf": {
+   "base": 0.2335567470956211,
+   "rl": 0.3440745528980823,
+   "delta": 0.1105178058024612,
+   "ci": [
+    0.08089798182653857,
+    0.14081804803758693
+   ]
+  },
+  "any8": {
+   "base": 0.37,
+   "rl": 0.35,
+   "delta": -0.020000000000000018,
+   "ci": [
+    -0.0566666666666667,
+    0.016666666666666663
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 129,
+   "base": 0.35296041871115474,
+   "rl": 0.4138276553106213,
+   "delta": 0.06086723659946658,
+   "ci": [
+    0.028494671141729933,
+    0.09357878252919188
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.09906479835523954,
+  "perfinished_term": 0.10305785391079507,
+  "finishing_share": -24.809271240268945,
+  "finishing_share_alt": -16.840456929712268,
+  "finishing_share_ci": [
+   -145.33524506660765,
+   140.1398345003244
+  ]
+ },
+ "KnowRL-Nemotron-1.5B cap16384 math": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "KnowRL-Nemotron-1.5B",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.4014742094543253,
+  "mean": {
+   "base": 0.83925,
+   "rl": 0.85,
+   "delta": 0.010749999999999926,
+   "ci": [
+    -0.0010000000000000009,
+    0.022750000000000048
+   ]
+  },
+  "finished": {
+   "base": 0.9735,
+   "rl": 0.947,
+   "delta": -0.02650000000000008,
+   "ci": [
+    -0.03775000000000006,
+    -0.016249999999999987
+   ]
+  },
+  "sgf": {
+   "base": 0.862095531587057,
+   "rl": 0.8975712777191129,
+   "delta": 0.03547574613205595,
+   "ci": [
+    0.023598140328976558,
+    0.04823087533861836
+   ]
+  },
+  "any8": {
+   "base": 0.896,
+   "rl": 0.896,
+   "delta": 0.0,
+   "ci": [
+    -0.014000000000000012,
+    0.014000000000000012
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 454,
+   "base": 0.8892580287929125,
+   "rl": 0.905618599501799,
+   "delta": 0.016360570708886524,
+   "ci": [
+    0.006825311593553929,
+    0.02653435502475765
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.023785638859556563,
+  "perfinished_term": 0.03453563885955647,
+  "finishing_share": -2.212617568330858,
+  "finishing_share_alt": -2.12516572902858,
+  "finishing_share_ci": [
+   -16.75516969218662,
+   9.111836322081567
+  ]
+ },
+ "DeepMath-Omn-1.5B cap16384 phys": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "DeepMath-Omn-1.5B",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.2022838905417537,
+  "mean": {
+   "base": 0.2177916666666667,
+   "rl": 0.2184340277777778,
+   "delta": 0.0006423611111111005,
+   "ci": [
+    -0.017361111111111133,
+    0.01873263888888882
+   ]
+  },
+  "finished": {
+   "base": 0.9325,
+   "rl": 0.8004166666666667,
+   "delta": -0.13208333333333333,
+   "ci": [
+    -0.15749999999999997,
+    -0.10791666666666666
+   ]
+  },
+  "sgf": {
+   "base": 0.2335567470956211,
+   "rl": 0.2729003990976922,
+   "delta": 0.0393436520020711,
+   "ci": [
+    0.017876153616225826,
+    0.06129109521256462
+   ]
+  },
+  "any8": {
+   "base": 0.37,
+   "rl": 0.32,
+   "delta": -0.04999999999999999,
+   "ci": [
+    -0.09000000000000002,
+    -0.010000000000000009
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 188,
+   "base": 0.2811299435028249,
+   "rl": 0.31139899336536264,
+   "delta": 0.030269049862537756,
+   "ci": [
+    0.006968529963410519,
+    0.05348929901003319
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.03604559438082018,
+  "perfinished_term": 0.0366879554919313,
+  "finishing_share": -56.11422260365613,
+  "finishing_share_alt": -48.02431707847337,
+  "finishing_share_ci": [
+   -60.55564621409578,
+   64.14172238238562
+  ]
+ },
+ "DeepMath-Omn-1.5B cap16384 math": {
+  "base": "OpenMath-Nemotron-1.5B",
+  "rl": "DeepMath-Omn-1.5B",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.2754905107900834,
+  "mean": {
+   "base": 0.83925,
+   "rl": 0.8525,
+   "delta": 0.013249999999999984,
+   "ci": [
+    0.004999999999999893,
+    0.02199999999999991
+   ]
+  },
+  "finished": {
+   "base": 0.9735,
+   "rl": 0.966,
+   "delta": -0.007500000000000062,
+   "ci": [
+    -0.013999999999999901,
+    -0.0017500000000000293
+   ]
+  },
+  "sgf": {
+   "base": 0.862095531587057,
+   "rl": 0.8825051759834368,
+   "delta": 0.020409644396379822,
+   "ci": [
+    0.011748947752835193,
+    0.029671263955993954
+   ]
+  },
+  "any8": {
+   "base": 0.896,
+   "rl": 0.902,
+   "delta": 0.006000000000000005,
+   "ci": [
+    -0.008000000000000007,
+    0.020000000000000018
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": false,
+  "finishing_loss": false,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 466,
+   "base": 0.8842105263157894,
+   "rl": 0.8959568733153639,
+   "delta": 0.011746346999574442,
+   "ci": [
+    0.0043106319058755505,
+    0.019502913024656565
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.006618788819875831,
+  "perfinished_term": 0.01986878881987576,
+  "finishing_share": -0.4995312316887425,
+  "finishing_share_alt": -0.4879786027851313,
+  "finishing_share_ci": [
+   -1.8508018623900535,
+   -0.09190663622067208
+  ]
+ },
+ "e3-1.7B cap4096 phys": {
+  "base": "Qwen3-1.7B",
+  "rl": "e3-1.7B",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.9920226530275568,
+  "mean": {
+   "base": 0.10425347222222221,
+   "rl": 0.1236111111111111,
+   "delta": 0.01935763888888889,
+   "ci": [
+    0.007274305555555569,
+    0.032343750000000004
+   ]
+  },
+  "finished": {
+   "base": 0.14625,
+   "rl": 0.17291666666666666,
+   "delta": 0.026666666666666672,
+   "ci": [
+    0.011666666666666672,
+    0.042083333333333334
+   ]
+  },
+  "sgf": {
+   "base": 0.7128442545109211,
+   "rl": 0.7148594377510039,
+   "delta": 0.002015183240082763,
+   "ci": [
+    -0.04274035504685658,
+    0.04714990601503766
+   ]
+  },
+  "any8": {
+   "base": 0.15333333333333332,
+   "rl": 0.18333333333333332,
+   "delta": 0.03,
+   "ci": [
+    0.006666666666666682,
+    0.053333333333333344
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 23,
+   "base": 0.825,
+   "rl": 0.8055555555555556,
+   "delta": -0.019444444444444375,
+   "ci": [
+    -0.06050061050061051,
+    0.01180727480479904
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.019062918340026776,
+  "perfinished_term": 0.00029472054886210404,
+  "finishing_share": 0.9847749743368092,
+  "finishing_share_alt": 0.9819989012814127,
+  "finishing_share_ci": [
+   0.6767989977292306,
+   1.5713584214990413
+  ]
+ },
+ "e3-1.7B cap4096 math": {
+  "base": "Qwen3-1.7B",
+  "rl": "e3-1.7B",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.9148723925621932,
+  "mean": {
+   "base": 0.5165,
+   "rl": 0.5935,
+   "delta": 0.07700000000000007,
+   "ci": [
+    0.06225000000000003,
+    0.09225000000000005
+   ]
+  },
+  "finished": {
+   "base": 0.56325,
+   "rl": 0.6465,
+   "delta": 0.08324999999999994,
+   "ci": [
+    0.06799999999999995,
+    0.09925000000000006
+   ]
+  },
+  "sgf": {
+   "base": 0.9169995561473591,
+   "rl": 0.9180201082753287,
+   "delta": 0.0010205521279695873,
+   "ci": [
+    -0.007903097405514092,
+    0.009091441938101297
+   ]
+  },
+  "any8": {
+   "base": 0.644,
+   "rl": 0.702,
+   "delta": 0.05799999999999994,
+   "ci": [
+    0.03399999999999992,
+    0.08399999999999996
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 244,
+   "base": 0.9245283018867925,
+   "rl": 0.925887802367473,
+   "delta": 0.0013595004806805644,
+   "ci": [
+    -0.0007940626890464708,
+    0.004095294317350007
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.07642517401392106,
+  "perfinished_term": 0.0005748259860788701,
+  "finishing_share": 0.9925347274535193,
+  "finishing_share_alt": 0.9914313383021754,
+  "finishing_share_ci": [
+   0.935513536108583,
+   1.061230209118686
+  ]
+ },
+ "Polaris-1.7B-Preview cap4096 phys": {
+  "base": "Qwen3-1.7B",
+  "rl": "Polaris-1.7B-Preview",
+  "cap": 4096,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.0428145080621807,
+  "mean": {
+   "base": 0.10425347222222221,
+   "rl": 0.024583333333333332,
+   "delta": -0.07967013888888888,
+   "ci": [
+    -0.10342013888888892,
+    -0.05729166666666667
+   ]
+  },
+  "finished": {
+   "base": 0.14625,
+   "rl": 0.029166666666666667,
+   "delta": -0.11708333333333332,
+   "ci": [
+    -0.145,
+    -0.09041666666666667
+   ]
+  },
+  "sgf": {
+   "base": 0.7128442545109211,
+   "rl": 0.8428571428571429,
+   "delta": 0.1300128883462217,
+   "ci": [
+    -0.04667751367666484,
+    0.27776872964169375
+   ]
+  },
+  "any8": {
+   "base": 0.15333333333333332,
+   "rl": 0.056666666666666664,
+   "delta": -0.09666666666666665,
+   "ci": [
+    -0.13,
+    -0.06333333333333334
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 3
+  },
+  "finishing_term": -0.09868452380952379,
+  "perfinished_term": 0.019014384920634925,
+  "finishing_share": 1.2386638856893812,
+  "finishing_share_alt": 1.0475967863198197,
+  "finishing_share_ci": [
+   0.9192720346423419,
+   1.5695192796006594
+  ]
+ },
+ "Polaris-1.7B-Preview cap4096 math": {
+  "base": "Qwen3-1.7B",
+  "rl": "Polaris-1.7B-Preview",
+  "cap": 4096,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.218729206999531,
+  "mean": {
+   "base": 0.5165,
+   "rl": 0.189,
+   "delta": -0.32749999999999996,
+   "ci": [
+    -0.361,
+    -0.29425
+   ]
+  },
+  "finished": {
+   "base": 0.56325,
+   "rl": 0.20575,
+   "delta": -0.35750000000000004,
+   "ci": [
+    -0.391,
+    -0.3235
+   ]
+  },
+  "sgf": {
+   "base": 0.9169995561473591,
+   "rl": 0.9185905224787363,
+   "delta": 0.0015909663313772304,
+   "ci": [
+    -0.038356408147072085,
+    0.03880599960528919
+   ]
+  },
+  "any8": {
+   "base": 0.644,
+   "rl": 0.296,
+   "delta": -0.34800000000000003,
+   "ci": [
+    -0.39,
+    -0.306
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 72,
+   "base": 0.9022687609075044,
+   "rl": 0.8985507246376812,
+   "delta": -0.003718036269823255,
+   "ci": [
+    -0.006665656718679025,
+    -0.001292256797270741
+   ],
+   "gain": false,
+   "loss": true
+  },
+  "finishing_term": -0.32839611178614825,
+  "perfinished_term": 0.0008961117861482251,
+  "finishing_share": 1.0027362191943459,
+  "finishing_share_alt": 1.000999515489102,
+  "finishing_share_ci": [
+   0.934888614830475,
+   1.0679088625666078
+  ]
+ },
+ "e3-1.7B cap8192 phys": {
+  "base": "Qwen3-1.7B",
+  "rl": "e3-1.7B",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.971873558999611,
+  "mean": {
+   "base": 0.24593750000000006,
+   "rl": 0.2798611111111111,
+   "delta": 0.03392361111111106,
+   "ci": [
+    0.016215277777777815,
+    0.05208333333333326
+   ]
+  },
+  "finished": {
+   "base": 0.41208333333333336,
+   "rl": 0.48625,
+   "delta": 0.07416666666666666,
+   "ci": [
+    0.05249999999999999,
+    0.09666666666666668
+   ]
+  },
+  "sgf": {
+   "base": 0.596814964610718,
+   "rl": 0.575549842902028,
+   "delta": -0.021265121708689994,
+   "ci": [
+    -0.05370186139097455,
+    0.010908925255203705
+   ]
+  },
+  "any8": {
+   "base": 0.38,
+   "rl": 0.4266666666666667,
+   "delta": 0.04666666666666669,
+   "ci": [
+    0.006666666666666654,
+    0.08999999999999997
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 80,
+   "base": 0.6913580246913581,
+   "rl": 0.6719242902208202,
+   "delta": -0.019433734470537867,
+   "ci": [
+    -0.045849018601527125,
+    0.0033585115875846006
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.042686613348567076,
+  "perfinished_term": -0.008763002237456002,
+  "finishing_share": 1.2583157261399527,
+  "finishing_share_alt": 1.3048073330690846,
+  "finishing_share_ci": [
+   0.9027389630611902,
+   2.199953852132519
+  ]
+ },
+ "e3-1.7B cap8192 math": {
+  "base": "Qwen3-1.7B",
+  "rl": "e3-1.7B",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.8730185953261481,
+  "mean": {
+   "base": 0.7245,
+   "rl": 0.76775,
+   "delta": 0.04325000000000001,
+   "ci": [
+    0.030749999999999944,
+    0.056499999999999995
+   ]
+  },
+  "finished": {
+   "base": 0.79875,
+   "rl": 0.8545,
+   "delta": 0.05575000000000008,
+   "ci": [
+    0.04249999999999998,
+    0.07000000000000006
+   ]
+  },
+  "sgf": {
+   "base": 0.9070422535211268,
+   "rl": 0.8984786424809831,
+   "delta": -0.008563611040143693,
+   "ci": [
+    -0.016453308544218115,
+    -0.0013410232763907404
+   ]
+  },
+  "any8": {
+   "base": 0.82,
+   "rl": 0.86,
+   "delta": 0.040000000000000036,
+   "ci": [
+    0.02200000000000002,
+    0.05999999999999994
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": true,
+  "matched": {
+   "n": 350,
+   "base": 0.9180801154817755,
+   "rl": 0.9164575116529222,
+   "delta": -0.001622603828853264,
+   "ci": [
+    -0.00551101100361473,
+    0.002028669809690742
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.05009018431831488,
+  "perfinished_term": -0.006840184318314774,
+  "finishing_share": 1.1581545507124824,
+  "finishing_share_alt": 1.1691931938451532,
+  "finishing_share_ci": [
+   1.0222288438617373,
+   1.361411820699202
+  ]
+ },
+ "Polaris-1.7B-Preview cap8192 phys": {
+  "base": "Qwen3-1.7B",
+  "rl": "Polaris-1.7B-Preview",
+  "cap": 8192,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.1533536310577701,
+  "mean": {
+   "base": 0.24593750000000006,
+   "rl": 0.08479166666666667,
+   "delta": -0.16114583333333338,
+   "ci": [
+    -0.19298611111111114,
+    -0.1306944444444445
+   ]
+  },
+  "finished": {
+   "base": 0.41208333333333336,
+   "rl": 0.11291666666666667,
+   "delta": -0.2991666666666667,
+   "ci": [
+    -0.3383333333333333,
+    -0.26166666666666666
+   ]
+  },
+  "sgf": {
+   "base": 0.596814964610718,
+   "rl": 0.7509225092250923,
+   "delta": 0.15410754461437426,
+   "ci": [
+    0.05377159866414982,
+    0.24823680063041764
+   ]
+  },
+  "any8": {
+   "base": 0.38,
+   "rl": 0.14666666666666667,
+   "delta": -0.23333333333333334,
+   "ci": [
+    -0.2833333333333333,
+    -0.18666666666666665
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 22,
+   "base": 0.8011363636363636,
+   "rl": 0.8165680473372781,
+   "delta": 0.015431683700914411,
+   "ci": [
+    -0.04206539074960125,
+    0.06791125541125542
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.22465098400984013,
+  "perfinished_term": 0.06350515067650674,
+  "finishing_share": 1.39408496864542,
+  "finishing_share_alt": 1.1079848599624964,
+  "finishing_share_ci": [
+   1.1283914091606397,
+   1.691709765670702
+  ]
+ },
+ "Polaris-1.7B-Preview cap8192 math": {
+  "base": "Qwen3-1.7B",
+  "rl": "Polaris-1.7B-Preview",
+  "cap": 8192,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.4617868558537008,
+  "mean": {
+   "base": 0.7245,
+   "rl": 0.48775,
+   "delta": -0.23675000000000002,
+   "ci": [
+    -0.26725000000000004,
+    -0.20699999999999996
+   ]
+  },
+  "finished": {
+   "base": 0.79875,
+   "rl": 0.53025,
+   "delta": -0.26849999999999996,
+   "ci": [
+    -0.2995,
+    -0.23824999999999996
+   ]
+  },
+  "sgf": {
+   "base": 0.9070422535211268,
+   "rl": 0.9198491277699199,
+   "delta": 0.01280687424879312,
+   "ci": [
+    -0.0032361934000914028,
+    0.029276025094380875
+   ]
+  },
+  "any8": {
+   "base": 0.82,
+   "rl": 0.604,
+   "delta": -0.21599999999999997,
+   "ci": [
+    -0.254,
+    -0.17999999999999994
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 229,
+   "base": 0.9249726177437021,
+   "rl": 0.9279379157427938,
+   "delta": 0.0029652979990917316,
+   "ci": [
+    -0.0001220389984423198,
+    0.006546847013773172
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.24697949080622345,
+  "perfinished_term": 0.010229490806223505,
+  "finishing_share": 1.0432079865099195,
+  "finishing_share_alt": 1.02868361170189,
+  "finishing_share_ci": [
+   0.9894682339462171,
+   1.102493603369647
+  ]
+ },
+ "e3-1.7B cap16384 phys": {
+  "base": "Qwen3-1.7B",
+  "rl": "e3-1.7B",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 0.9013490000473743,
+  "mean": {
+   "base": 0.3921006944444444,
+   "rl": 0.42866666666666664,
+   "delta": 0.03656597222222224,
+   "ci": [
+    0.01461805555555551,
+    0.058503472222222186
+   ]
+  },
+  "finished": {
+   "base": 0.8429166666666666,
+   "rl": 0.92375,
+   "delta": 0.08083333333333331,
+   "ci": [
+    0.06208333333333327,
+    0.10000000000000009
+   ]
+  },
+  "sgf": {
+   "base": 0.4651713626627121,
+   "rl": 0.4640505187189896,
+   "delta": -0.0011208439437224715,
+   "ci": [
+    -0.023646875518734733,
+    0.021879789775027247
+   ]
+  },
+  "any8": {
+   "base": 0.5766666666666667,
+   "rl": 0.58,
+   "delta": 0.0033333333333332993,
+   "ci": [
+    -0.036666666666666625,
+    0.040000000000000036
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 213,
+   "base": 0.5007739165168764,
+   "rl": 0.5056014150943398,
+   "delta": 0.0048274985774633405,
+   "ci": [
+    -0.019327658259568725,
+    0.02894950508423394
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.037510750263118314,
+  "perfinished_term": -0.0009447780408960667,
+  "finishing_share": 1.0258376294538096,
+  "finishing_share_alt": 1.0283153853183866,
+  "finishing_share_ci": [
+   0.6659115745378373,
+   2.25462522079718
+  ]
+ },
+ "e3-1.7B cap16384 math": {
+  "base": "Qwen3-1.7B",
+  "rl": "e3-1.7B",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 0.8276727054293629,
+  "mean": {
+   "base": 0.82575,
+   "rl": 0.84125,
+   "delta": 0.01550000000000007,
+   "ci": [
+    0.006749999999999923,
+    0.02474999999999994
+   ]
+  },
+  "finished": {
+   "base": 0.93275,
+   "rl": 0.96875,
+   "delta": 0.03600000000000003,
+   "ci": [
+    0.026499999999999968,
+    0.04625000000000001
+   ]
+  },
+  "sgf": {
+   "base": 0.885285446261056,
+   "rl": 0.8683870967741936,
+   "delta": -0.01689834948686242,
+   "ci": [
+    -0.02567628191238036,
+    -0.008483649100138102
+   ]
+  },
+  "any8": {
+   "base": 0.886,
+   "rl": 0.898,
+   "delta": 0.01200000000000001,
+   "ci": [
+    -0.0020000000000000018,
+    0.026000000000000023
+   ]
+  },
+  "capped_gain": true,
+  "capped_loss": false,
+  "finishing_gain": true,
+  "finishing_loss": false,
+  "perfinished_gain": false,
+  "perfinished_loss": true,
+  "matched": {
+   "n": 440,
+   "base": 0.8978540772532189,
+   "rl": 0.8937927107061503,
+   "delta": -0.004061366547068568,
+   "ci": [
+    -0.01055008943449498,
+    0.0021249610536635544
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": 0.031261935483870996,
+  "perfinished_term": -0.01576193548387092,
+  "finishing_share": 2.016899063475539,
+  "finishing_share_alt": 2.056146842928897,
+  "finishing_share_ci": [
+   1.3738243626062303,
+   4.13520791947533
+  ]
+ },
+ "Polaris-1.7B-Preview cap16384 phys": {
+  "base": "Qwen3-1.7B",
+  "rl": "Polaris-1.7B-Preview",
+  "cap": 16384,
+  "set": "phys",
+  "n_problems": 300,
+  "len_ratio": 1.4831593719152194,
+  "mean": {
+   "base": 0.3921006944444444,
+   "rl": 0.20171875,
+   "delta": -0.1903819444444444,
+   "ci": [
+    -0.22239583333333324,
+    -0.15984027777777776
+   ]
+  },
+  "finished": {
+   "base": 0.8429166666666666,
+   "rl": 0.30333333333333334,
+   "delta": -0.5395833333333333,
+   "ci": [
+    -0.5800000000000001,
+    -0.4983333333333334
+   ]
+  },
+  "sgf": {
+   "base": 0.4651713626627121,
+   "rl": 0.6650068681318682,
+   "delta": 0.19983550546915607,
+   "ci": [
+    0.14240103605222176,
+    0.257527038684081
+   ]
+  },
+  "any8": {
+   "base": 0.5766666666666667,
+   "rl": 0.30666666666666664,
+   "delta": -0.27,
+   "ci": [
+    -0.32333333333333336,
+    -0.21999999999999997
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 63,
+   "base": 0.7507485029940119,
+   "rl": 0.746676891615542,
+   "delta": -0.004071611378469897,
+   "ci": [
+    -0.03704682635577905,
+    0.026547763385464163
+   ],
+   "gain": false,
+   "loss": false
+  },
+  "finishing_term": -0.35882662259615383,
+  "perfinished_term": 0.16844467815170946,
+  "finishing_share": 1.884772338276351,
+  "finishing_share_alt": 1.3183955819402784,
+  "finishing_share_ci": [
+   1.5786652300285602,
+   2.257803684236189
+  ]
+ },
+ "Polaris-1.7B-Preview cap16384 math": {
+  "base": "Qwen3-1.7B",
+  "rl": "Polaris-1.7B-Preview",
+  "cap": 16384,
+  "set": "math",
+  "n_problems": 500,
+  "len_ratio": 1.6724903972893392,
+  "mean": {
+   "base": 0.82575,
+   "rl": 0.728,
+   "delta": -0.09775,
+   "ci": [
+    -0.11924999999999997,
+    -0.07725000000000004
+   ]
+  },
+  "finished": {
+   "base": 0.93275,
+   "rl": 0.7975,
+   "delta": -0.13524999999999998,
+   "ci": [
+    -0.16000000000000003,
+    -0.11124999999999996
+   ]
+  },
+  "sgf": {
+   "base": 0.885285446261056,
+   "rl": 0.9128526645768025,
+   "delta": 0.02756721831574649,
+   "ci": [
+    0.015334768483825423,
+    0.04091828186808777
+   ]
+  },
+  "any8": {
+   "base": 0.886,
+   "rl": 0.806,
+   "delta": -0.07999999999999996,
+   "ci": [
+    -0.10599999999999998,
+    -0.05400000000000005
+   ]
+  },
+  "capped_gain": false,
+  "capped_loss": true,
+  "finishing_gain": false,
+  "finishing_loss": true,
+  "perfinished_gain": true,
+  "perfinished_loss": false,
+  "matched": {
+   "n": 368,
+   "base": 0.9135171944160708,
+   "rl": 0.9203296703296703,
+   "delta": 0.006812475913599458,
+   "ci": [
+    0.0024593554357503766,
+    0.011695220048908328
+   ],
+   "gain": true,
+   "loss": false
+  },
+  "finishing_term": -0.12346332288401252,
+  "perfinished_term": 0.025713322884012537,
+  "finishing_share": 1.2630518965116369,
+  "finishing_share_alt": 1.224909018995476,
+  "finishing_share_ci": [
+   1.1382068452380962,
+   1.4296578239007462
+  ]
+ }
+}

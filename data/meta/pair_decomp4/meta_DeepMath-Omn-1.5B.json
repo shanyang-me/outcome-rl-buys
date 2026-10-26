@@ -1,0 +1,29 @@
+{
+ "model": "zwhe99/DeepMath-Omn-1.5B",
+ "path": "/root/hf/hub/models--zwhe99--DeepMath-Omn-1.5B/snapshots/8b8da79f9c2a83483144b1c8a3fbc317502e80b7",
+ "revision": "8b8da79f9c2a83483144b1c8a3fbc317502e80b7",
+ "host": "e12ed469ed6a",
+ "gpu": "NVIDIA H100 80GB HBM3",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "gen_cap": 16384,
+ "derived_caps": [
+  4096,
+  8192
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  522,
+  26865,
+  29
+ ],
+ "seconds": {
+  "load": 129,
+  "generate": 5468,
+  "score": 227
+ },
+ "trace_rows": 1200
+}

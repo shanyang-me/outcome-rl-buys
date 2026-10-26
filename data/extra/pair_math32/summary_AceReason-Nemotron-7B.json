@@ -1,0 +1,15 @@
+{
+ "model": "nvidia/AceReason-Nemotron-7B",
+ "path": "/workspace/.cache/huggingface/hub/models--nvidia--AceReason-Nemotron-7B/snapshots/7d385d309648ef2fc78eaab944d41dfa204da8d8",
+ "cap": 32768,
+ "n_problems": 18,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 13,
+ "finished": 0.9976851851851852,
+ "seconds": {
+  "load": 73,
+  "generate": 1251
+ },
+ "host": "f030079c0c71"
+}

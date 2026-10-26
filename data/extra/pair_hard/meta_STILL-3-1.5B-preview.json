@@ -1,0 +1,31 @@
+{
+ "model": "RUC-AIBOX/STILL-3-1.5B-preview",
+ "path": "/root/hf/hub/models--RUC-AIBOX--STILL-3-1.5B-preview/snapshots/88d330baa0f8ea60bde6519141125ddf308e9fc2",
+ "revision": "88d330baa0f8ea60bde6519141125ddf308e9fc2",
+ "host": "cef3300086e7",
+ "gpu": "NVIDIA H100 80GB HBM3",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "yarn": null,
+ "hf_overrides": null,
+ "gen_cap": 28672,
+ "derived_caps": [
+  4096,
+  8192,
+  16384,
+  24576
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  151649
+ ],
+ "seconds": {
+  "load": 49,
+  "generate": 8150,
+  "score": 393
+ },
+ "trace_rows": 0
+}

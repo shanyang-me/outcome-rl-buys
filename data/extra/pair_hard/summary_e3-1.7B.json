@@ -1,0 +1,50 @@
+{
+ "e3-1.7B cap4096 hard": {
+  "mean": 0.035385704175513094,
+  "finished": 0.08014861995753715,
+  "score_given_finished": 0.44150110375275936,
+  "any_solve8": 0.06369426751592357,
+  "mean_len": 3989.9729299363057,
+  "n_items": 471
+ },
+ "e3-1.7B cap4096 refill": {
+  "mean": 0.051666666666666666,
+  "finished": 0.09375,
+  "score_given_finished": 0.5511111111111111,
+  "any_solve8": 0.075,
+  "mean_len": 3987.775625,
+  "n_items": 200
+ },
+ "e3-1.7B cap8192 hard": {
+  "mean": 0.10828910120311394,
+  "finished": 0.3030785562632696,
+  "score_given_finished": 0.35729713952130765,
+  "any_solve8": 0.1762208067940552,
+  "mean_len": 7346.122346072187,
+  "n_items": 471
+ },
+ "e3-1.7B cap8192 refill": {
+  "mean": 0.12916666666666668,
+  "finished": 0.396875,
+  "score_given_finished": 0.32545931758530183,
+  "any_solve8": 0.225,
+  "mean_len": 7085.3625,
+  "n_items": 200
+ },
+ "e3-1.7B cap16384 hard": {
+  "mean": 0.16273948539075928,
+  "finished": 0.8649150743099787,
+  "score_given_finished": 0.1881566066131884,
+  "any_solve8": 0.23779193205944799,
+  "mean_len": 10657.946656050955,
+  "n_items": 471
+ },
+ "e3-1.7B cap16384 refill": {
+  "mean": 0.20993055555555556,
+  "finished": 0.883125,
+  "score_given_finished": 0.23771329716128017,
+  "any_solve8": 0.315,
+  "mean_len": 9804.090625,
+  "n_items": 200
+ }
+}

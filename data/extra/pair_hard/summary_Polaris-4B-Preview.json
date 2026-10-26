@@ -1,0 +1,146 @@
+{
+ "Polaris-4B-Preview cap4096 hard": {
+  "mean": 0.016587048832271762,
+  "finished": 0.021496815286624203,
+  "score_given_finished": 0.7716049382716049,
+  "any_solve8": 0.03184713375796178,
+  "mean_len": 4072.9641719745223,
+  "n_items": 471
+ },
+ "Polaris-4B-Preview cap4096 refill": {
+  "mean": 0.01125,
+  "finished": 0.013125,
+  "score_given_finished": 0.8571428571428571,
+  "any_solve8": 0.02,
+  "mean_len": 4076.005625,
+  "n_items": 200
+ },
+ "Polaris-4B-Preview cap8192 hard": {
+  "mean": 0.0517515923566879,
+  "finished": 0.07855626326963906,
+  "score_given_finished": 0.6587837837837838,
+  "any_solve8": 0.09341825902335456,
+  "mean_len": 7973.426486199575,
+  "n_items": 471
+ },
+ "Polaris-4B-Preview cap8192 refill": {
+  "mean": 0.040625,
+  "finished": 0.07,
+  "score_given_finished": 0.5803571428571429,
+  "any_solve8": 0.085,
+  "mean_len": 8006.89625,
+  "n_items": 200
+ },
+ "Polaris-4B-Preview cap16384 hard": {
+  "mean": 0.14006104033970276,
+  "finished": 0.2351380042462845,
+  "score_given_finished": 0.5956546275395034,
+  "any_solve8": 0.2059447983014862,
+  "mean_len": 14887.065021231423,
+  "n_items": 471
+ },
+ "Polaris-4B-Preview cap16384 refill": {
+  "mean": 0.12979166666666667,
+  "finished": 0.309375,
+  "score_given_finished": 0.41952861952861953,
+  "any_solve8": 0.195,
+  "mean_len": 14618.151875,
+  "n_items": 200
+ },
+ "Polaris-4B-Preview cap24576 hard": {
+  "mean": 0.2189888535031847,
+  "finished": 0.4304670912951168,
+  "score_given_finished": 0.5087237977805179,
+  "any_solve8": 0.30148619957537154,
+  "mean_len": 20390.595806794056,
+  "n_items": 471
+ },
+ "Polaris-4B-Preview cap24576 refill": {
+  "mean": 0.20944444444444443,
+  "finished": 0.569375,
+  "score_given_finished": 0.36784973777289914,
+  "any_solve8": 0.28,
+  "mean_len": 19162.54125,
+  "n_items": 200
+ },
+ "Polaris-4B-Preview cap28672 hard": {
+  "mean": 0.24456450308361136,
+  "finished": 0.5432590233545648,
+  "score_given_finished": 0.45018028706353086,
+  "any_solve8": 0.32908704883227174,
+  "mean_len": 22481.93312101911,
+  "n_items": 471
+ },
+ "Polaris-4B-Preview cap28672 refill": {
+  "mean": 0.23027777777777778,
+  "finished": 0.66625,
+  "score_given_finished": 0.34563268709610173,
+  "any_solve8": 0.33,
+  "mean_len": 20713.195,
+  "n_items": 200
+ },
+ "Polaris-4B-Preview cap32768 hard": {
+  "mean": 0.27061596400768373,
+  "finished": 0.6557855626326964,
+  "score_given_finished": 0.4126592279971479,
+  "any_solve8": 0.35456475583864117,
+  "mean_len": 24109.29219745223,
+  "n_items": 471
+ },
+ "Polaris-4B-Preview cap32768 refill": {
+  "mean": 0.24864583333333334,
+  "finished": 0.76125,
+  "score_given_finished": 0.32662835249042144,
+  "any_solve8": 0.335,
+  "mean_len": 21879.764375,
+  "n_items": 200
+ },
+ "Polaris-4B-Preview cap36864 hard": {
+  "mean": 0.28308563340410475,
+  "finished": 0.7330148619957537,
+  "score_given_finished": 0.38619357953174027,
+  "any_solve8": 0.37579617834394907,
+  "mean_len": 25353.330148619956,
+  "n_items": 471
+ },
+ "Polaris-4B-Preview cap36864 refill": {
+  "mean": 0.26458333333333334,
+  "finished": 0.825,
+  "score_given_finished": 0.3207070707070707,
+  "any_solve8": 0.345,
+  "mean_len": 22721.270625,
+  "n_items": 200
+ },
+ "Polaris-4B-Preview cap49152 hard": {
+  "mean": 0.30153548680618747,
+  "finished": 0.8577494692144374,
+  "score_given_finished": 0.3515426096181047,
+  "any_solve8": 0.3970276008492569,
+  "mean_len": 27696.39304670913,
+  "n_items": 471
+ },
+ "Polaris-4B-Preview cap49152 refill": {
+  "mean": 0.27989583333333334,
+  "finished": 0.9075,
+  "score_given_finished": 0.30842516069788795,
+  "any_solve8": 0.355,
+  "mean_len": 24245.00625,
+  "n_items": 200
+ },
+ "Polaris-4B-Preview cap53248 hard": {
+  "mean": 0.30405671822869274,
+  "finished": 0.8736730360934183,
+  "score_given_finished": 0.34802117687901407,
+  "any_solve8": 0.4012738853503185,
+  "mean_len": 28243.4033970276,
+  "n_items": 471
+ },
+ "Polaris-4B-Preview cap53248 refill": {
+  "mean": 0.28177083333333336,
+  "finished": 0.915625,
+  "score_given_finished": 0.30773606370875994,
+  "any_solve8": 0.36,
+  "mean_len": 24604.27125,
+  "n_items": 200
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "Skywork-OR1-Math-7B cap4096 post": {
+  "mean": 0.05952380952380952,
+  "finished": 0.05952380952380952,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.09523809523809523,
+  "mean_len": 4050.7559523809523,
+  "n_items": 63
+ },
+ "Skywork-OR1-Math-7B cap4096 pre": {
+  "mean": 0.04870892018779343,
+  "finished": 0.04988262910798122,
+  "score_given_finished": 0.9764705882352941,
+  "any_solve8": 0.11267605633802817,
+  "mean_len": 4054.6349765258215,
+  "n_items": 213
+ },
+ "Skywork-OR1-Math-7B cap8192 post": {
+  "mean": 0.21031746031746032,
+  "finished": 0.2123015873015873,
+  "score_given_finished": 0.9906542056074766,
+  "any_solve8": 0.30158730158730157,
+  "mean_len": 7549.019841269841,
+  "n_items": 63
+ },
+ "Skywork-OR1-Math-7B cap8192 pre": {
+  "mean": 0.22359154929577466,
+  "finished": 0.23943661971830985,
+  "score_given_finished": 0.9338235294117647,
+  "any_solve8": 0.3474178403755869,
+  "mean_len": 7595.134976525822,
+  "n_items": 213
+ },
+ "Skywork-OR1-Math-7B cap16384 post": {
+  "mean": 0.4027777777777778,
+  "finished": 0.5496031746031746,
+  "score_given_finished": 0.7328519855595668,
+  "any_solve8": 0.5873015873015873,
+  "mean_len": 12568.621031746032,
+  "n_items": 63
+ },
+ "Skywork-OR1-Math-7B cap16384 pre": {
+  "mean": 0.3955399061032864,
+  "finished": 0.5181924882629108,
+  "score_given_finished": 0.7633069082672707,
+  "any_solve8": 0.5305164319248826,
+  "mean_len": 12612.465962441314,
+  "n_items": 213
+ },
+ "Skywork-OR1-Math-7B cap24576 post": {
+  "mean": 0.4642857142857143,
+  "finished": 0.7996031746031746,
+  "score_given_finished": 0.5806451612903226,
+  "any_solve8": 0.6507936507936508,
+  "mean_len": 15157.486111111111,
+  "n_items": 63
+ },
+ "Skywork-OR1-Math-7B cap24576 pre": {
+  "mean": 0.4471830985915493,
+  "finished": 0.7599765258215962,
+  "score_given_finished": 0.5884169884169884,
+  "any_solve8": 0.6150234741784038,
+  "mean_len": 15477.420187793427,
+  "n_items": 213
+ },
+ "Skywork-OR1-Math-7B cap28672 post": {
+  "mean": 0.4781746031746032,
+  "finished": 0.873015873015873,
+  "score_given_finished": 0.5477272727272727,
+  "any_solve8": 0.6825396825396826,
+  "mean_len": 15831.14880952381,
+  "n_items": 63
+ },
+ "Skywork-OR1-Math-7B cap28672 pre": {
+  "mean": 0.4624413145539906,
+  "finished": 0.8427230046948356,
+  "score_given_finished": 0.5487465181058496,
+  "any_solve8": 0.6291079812206573,
+  "mean_len": 16271.62147887324,
+  "n_items": 213
+ },
+ "Skywork-OR1-Math-7B cap32768 post": {
+  "mean": 0.48214285714285715,
+  "finished": 0.9246031746031746,
+  "score_given_finished": 0.5214592274678111,
+  "any_solve8": 0.6984126984126984,
+  "mean_len": 16225.753968253968,
+  "n_items": 63
+ },
+ "Skywork-OR1-Math-7B cap32768 pre": {
+  "mean": 0.47124413145539906,
+  "finished": 0.9055164319248826,
+  "score_given_finished": 0.5204147764095917,
+  "any_solve8": 0.647887323943662,
+  "mean_len": 16776.665492957745,
+  "n_items": 213
+ }
+}

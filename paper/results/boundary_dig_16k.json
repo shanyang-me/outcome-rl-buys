@@ -1,0 +1,491 @@
+{
+ "per_recipe": {
+  "DeepScaleR": {
+   "net_share": 0.06333333333333334,
+   "rl_only": 34,
+   "base_only": 15,
+   "d_finished": 0.15041666666666664,
+   "d_len": -2837.274166666667,
+   "residue": 8,
+   "residue_ge4": 0,
+   "residue_solves": {
+    "physcorp_3348": 1,
+    "physcorp_2424": 2,
+    "tbr_351598": 1,
+    "physcorp_3913": 1,
+    "tbr_495459": 1,
+    "tbr_609067": 1,
+    "physcorp_3043": 1,
+    "tbr_353756": 3
+   },
+   "final_cap_k": 24
+  },
+  "ProRL v2": {
+   "net_share": 0.08,
+   "rl_only": 39,
+   "base_only": 15,
+   "d_finished": 0.17625000000000002,
+   "d_len": -3734.8254166666675,
+   "residue": 8,
+   "residue_ge4": 4,
+   "residue_solves": {
+    "physcorp_3348": 3,
+    "physcorp_3913": 2,
+    "tbr_646306": 1,
+    "physcorp_1719": 4,
+    "tbr_172668": 5,
+    "tbr_500712": 5,
+    "tbr_245633": 8,
+    "tbr_353756": 1
+   },
+   "final_cap_k": 8
+  },
+  "Open-RS3": {
+   "net_share": -0.01,
+   "rl_only": 15,
+   "base_only": 18,
+   "d_finished": -0.009166666666666656,
+   "d_len": 13.924999999999272,
+   "residue": 7,
+   "residue_ge4": 0,
+   "residue_solves": {
+    "physcorp_3348": 1,
+    "tbr_81921": 1,
+    "tbr_495459": 1,
+    "physcorp_1719": 2,
+    "physcorp_3043": 1,
+    "tbr_353756": 3,
+    "tbr_79501": 2
+   },
+   "final_cap_k": 3.5
+  },
+  "STILL-3": {
+   "net_share": 0.056666666666666664,
+   "rl_only": 29,
+   "base_only": 12,
+   "d_finished": 0.07708333333333339,
+   "d_len": -1679.9366666666674,
+   "residue": 7,
+   "residue_ge4": 0,
+   "residue_solves": {
+    "physcorp_3348": 1,
+    "tbr_479532": 1,
+    "physcorp_3913": 1,
+    "tbr_495459": 2,
+    "physcorp_1719": 1,
+    "physcorp_3043": 1,
+    "tbr_353756": 2
+   },
+   "final_cap_k": 29
+  },
+  "JustRL-D": {
+   "net_share": 0.07333333333333333,
+   "rl_only": 36,
+   "base_only": 14,
+   "d_finished": 0.15749999999999997,
+   "d_len": -1876.3754166666668,
+   "residue": 7,
+   "residue_ge4": 0,
+   "residue_solves": {
+    "physcorp_3348": 1,
+    "physcorp_2424": 1,
+    "physcorp_3913": 1,
+    "physcorp_2442": 1,
+    "tbr_245633": 1,
+    "physcorp_2013": 1,
+    "tbr_353756": 3
+   },
+   "final_cap_k": 15
+  },
+  "DeepMath": {
+   "net_share": 0.10666666666666667,
+   "rl_only": 38,
+   "base_only": 6,
+   "d_finished": 0.14625,
+   "d_len": -541.1141666666663,
+   "residue": 7,
+   "residue_ge4": 0,
+   "residue_solves": {
+    "tbr_81921": 1,
+    "physcorp_3913": 2,
+    "tbr_495459": 1,
+    "tbr_609067": 1,
+    "physcorp_6029": 2,
+    "physcorp_3043": 1,
+    "tbr_353756": 2
+   },
+   "final_cap_k": 24
+  },
+  "RLinf": {
+   "net_share": 0.06,
+   "rl_only": 37,
+   "base_only": 19,
+   "d_finished": 0.08333333333333337,
+   "d_len": -2894.385416666667,
+   "residue": 9,
+   "residue_ge4": 0,
+   "residue_solves": {
+    "physcorp_3776": 1,
+    "physcorp_3348": 1,
+    "physcorp_2424": 2,
+    "physcorp_1719": 1,
+    "tbr_609067": 1,
+    "physcorp_6029": 1,
+    "tbr_321204": 1,
+    "tbr_245633": 2,
+    "tbr_353756": 3
+   },
+   "final_cap_k": 27.6
+  },
+  "AReaL": {
+   "net_share": 0.01,
+   "rl_only": 24,
+   "base_only": 21,
+   "d_finished": 0.030416666666666647,
+   "d_len": -270.3854166666679,
+   "residue": 4,
+   "residue_ge4": 0,
+   "residue_solves": {
+    "physcorp_2424": 1,
+    "tbr_495459": 1,
+    "physcorp_1719": 1,
+    "tbr_353756": 2
+   },
+   "final_cap_k": 24
+  },
+  "Skywork-7B": {
+   "net_share": 0.0033333333333333335,
+   "rl_only": 20,
+   "base_only": 19,
+   "d_finished": -0.11083333333333334,
+   "d_len": 2934.467083333333,
+   "residue": 11,
+   "residue_ge4": 4,
+   "residue_solves": {
+    "physcorp_3348": 1,
+    "physcorp_3717": 1,
+    "tbr_106015": 6,
+    "cal_problem_01040": 1,
+    "physcorp_3132": 3,
+    "tbr_479532": 1,
+    "tbr_22163": 5,
+    "physcorp_397": 1,
+    "physicsb_2258": 7,
+    "tbr_500712": 3,
+    "tbr_462584": 4
+   },
+   "final_cap_k": 32
+  },
+  "AceReason": {
+   "net_share": 0.02,
+   "rl_only": 23,
+   "base_only": 17,
+   "d_finished": 0.05541666666666667,
+   "d_len": 639.7974999999997,
+   "residue": 9,
+   "residue_ge4": 3,
+   "residue_solves": {
+    "tbr_539290": 2,
+    "tbr_106015": 4,
+    "physcorp_3132": 2,
+    "tbr_479532": 1,
+    "tbr_646306": 2,
+    "physcorp_397": 5,
+    "physicsb_2258": 6,
+    "physcorp_5247": 1,
+    "tbr_462584": 3
+   },
+   "final_cap_k": 32
+  },
+  "Skywork-Math": {
+   "net_share": 0.01,
+   "rl_only": 22,
+   "base_only": 19,
+   "d_finished": -0.040416666666666656,
+   "d_len": 1695.7600000000002,
+   "residue": 10,
+   "residue_ge4": 5,
+   "residue_solves": {
+    "tbr_539290": 1,
+    "physcorp_4878": 1,
+    "tbr_106015": 5,
+    "cal_problem_01040": 1,
+    "tbr_22163": 8,
+    "physcorp_397": 3,
+    "physicsb_2258": 6,
+    "tbr_500712": 8,
+    "tbr_245633": 2,
+    "tbr_462584": 5
+   },
+   "final_cap_k": 32
+  },
+  "Polaris-4B": {
+   "net_share": -0.24333333333333335,
+   "rl_only": 4,
+   "base_only": 77,
+   "d_finished": -0.44375000000000003,
+   "d_len": 4402.261666666667,
+   "residue": 4,
+   "residue_ge4": 1,
+   "residue_solves": {
+    "tbr_136169": 2,
+    "tbr_429265": 4,
+    "tbr_192876": 1,
+    "physcorp_5247": 2
+   },
+   "final_cap_k": 52
+  },
+  "JustRL-N": {
+   "net_share": 0.006666666666666667,
+   "rl_only": 20,
+   "base_only": 18,
+   "d_finished": 0.02124999999999999,
+   "d_len": 349.3641666666681,
+   "residue": 13,
+   "residue_ge4": 1,
+   "residue_solves": {
+    "tbr_136169": 5,
+    "cal_problem_00335": 1,
+    "physcorp_2424": 1,
+    "cal_problem_01082": 2,
+    "cal_problem_01093": 1,
+    "physicsb_1808": 2,
+    "physicsb_3952": 2,
+    "physcorp_1714": 1,
+    "tbr_81921": 1,
+    "tbr_323328": 2,
+    "physcorp_6029": 1,
+    "physcorp_3616": 1,
+    "physcorp_610": 1
+   },
+   "final_cap_k": 15
+  },
+  "QuestA": {
+   "net_share": -0.11666666666666667,
+   "rl_only": 4,
+   "base_only": 39,
+   "d_finished": -0.6395833333333334,
+   "d_len": 5765.890416666667,
+   "residue": 2,
+   "residue_ge4": 0,
+   "residue_solves": {
+    "physcorp_2424": 1,
+    "cal_problem_01082": 1
+   },
+   "final_cap_k": 24
+  },
+  "KnowRL": {
+   "net_share": -0.02,
+   "rl_only": 14,
+   "base_only": 20,
+   "d_finished": -0.2879166666666667,
+   "d_len": 3414.039583333333,
+   "residue": 7,
+   "residue_ge4": 0,
+   "residue_solves": {
+    "tbr_274639": 1,
+    "tbr_136169": 3,
+    "physcorp_4043": 1,
+    "physcorp_3344": 1,
+    "physicsb_3952": 1,
+    "physcorp_1714": 1,
+    "tbr_178377": 1
+   },
+   "final_cap_k": 24
+  },
+  "DeepMath-Omn": {
+   "net_share": -0.05,
+   "rl_only": 12,
+   "base_only": 27,
+   "d_finished": -0.13208333333333333,
+   "d_len": 1898.7904166666667,
+   "residue": 6,
+   "residue_ge4": 1,
+   "residue_solves": {
+    "tbr_274639": 1,
+    "tbr_136169": 1,
+    "cal_problem_01082": 4,
+    "tbr_81921": 1,
+    "tbr_323328": 1,
+    "physcorp_5518": 1
+   },
+   "final_cap_k": 24
+  },
+  "e3": {
+   "net_share": 0.0033333333333333335,
+   "rl_only": 18,
+   "base_only": 17,
+   "d_finished": 0.08083333333333331,
+   "d_len": -957.0237500000003,
+   "residue": 6,
+   "residue_ge4": 0,
+   "residue_solves": {
+    "physcorp_1076": 2,
+    "physcorp_2983": 1,
+    "physcorp_6368": 1,
+    "tbr_333529": 1,
+    "tbr_78665": 1,
+    "tbr_462584": 1
+   },
+   "final_cap_k": 16
+  },
+  "Polaris-1.7B": {
+   "net_share": -0.27,
+   "rl_only": 3,
+   "base_only": 84,
+   "d_finished": -0.5395833333333333,
+   "d_len": 4687.18,
+   "residue": 3,
+   "residue_ge4": 0,
+   "residue_solves": {
+    "physcorp_1719": 1,
+    "physcorp_1076": 3,
+    "tbr_585100": 1
+   },
+   "final_cap_k": 48
+  }
+ },
+ "corr_net_vs_d_finished": 0.8879477829485799,
+ "corr_net_vs_d_len": -0.8045580167873796,
+ "corr_net_vs_final_cap": -0.667159856785685,
+ "recurrence": {
+  "DeepSeek-R1-Distill-Qwen-1.5B": {
+   "recipes": 8,
+   "residue_cells": 57,
+   "distinct_problems": 21,
+   "in_ge2_recipes": 11,
+   "independent_mean": 16.218,
+   "independent_95": [
+    13,
+    20
+   ],
+   "pool_all_finished_wrong": 48,
+   "most_shared": [
+    [
+     "tbr_353756",
+     8
+    ],
+    [
+     "physcorp_3348",
+     6
+    ],
+    [
+     "physcorp_3913",
+     5
+    ],
+    [
+     "tbr_495459",
+     5
+    ],
+    [
+     "physcorp_1719",
+     5
+    ],
+    [
+     "physcorp_2424",
+     4
+    ],
+    [
+     "physcorp_3043",
+     4
+    ],
+    [
+     "tbr_609067",
+     3
+    ]
+   ]
+  },
+  "DeepSeek-R1-Distill-Qwen-7B": {
+   "recipes": 3,
+   "residue_cells": 30,
+   "distinct_problems": 16,
+   "in_ge2_recipes": 10,
+   "independent_mean": 5.1115,
+   "independent_95": [
+    2,
+    8
+   ],
+   "pool_all_finished_wrong": 51,
+   "most_shared": [
+    [
+     "tbr_106015",
+     3
+    ],
+    [
+     "physcorp_397",
+     3
+    ],
+    [
+     "physicsb_2258",
+     3
+    ],
+    [
+     "tbr_462584",
+     3
+    ],
+    [
+     "cal_problem_01040",
+     2
+    ],
+    [
+     "physcorp_3132",
+     2
+    ],
+    [
+     "tbr_479532",
+     2
+    ],
+    [
+     "tbr_22163",
+     2
+    ]
+   ]
+  },
+  "OpenMath-Nemotron-1.5B": {
+   "recipes": 4,
+   "residue_cells": 28,
+   "distinct_problems": 18,
+   "in_ge2_recipes": 8,
+   "independent_mean": 2.086,
+   "independent_95": [
+    0,
+    5
+   ],
+   "pool_all_finished_wrong": 118,
+   "most_shared": [
+    [
+     "tbr_136169",
+     3
+    ],
+    [
+     "cal_problem_01082",
+     3
+    ],
+    [
+     "physcorp_2424",
+     2
+    ],
+    [
+     "physicsb_3952",
+     2
+    ],
+    [
+     "physcorp_1714",
+     2
+    ],
+    [
+     "tbr_81921",
+     2
+    ],
+    [
+     "tbr_323328",
+     2
+    ],
+    [
+     "tbr_274639",
+     2
+    ]
+   ]
+  }
+ }
+}

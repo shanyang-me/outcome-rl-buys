@@ -1,0 +1,402 @@
+{
+ "pairs": {
+  "ProRL v2": {
+   "cap": 8192,
+   "U": 11,
+   "Uprime": 408,
+   "rl_wins": {
+    "n": 3,
+    "read": 3,
+    "winner_ge1": 3,
+    "winner_ge4": 3,
+    "loser_ge1": 1,
+    "winner_only": 2,
+    "neither": 0
+   },
+   "base_wins": {
+    "n": 17,
+    "read": 17,
+    "winner_ge1": 15,
+    "winner_ge4": 9,
+    "loser_ge1": 6,
+    "winner_only": 10,
+    "neither": 1
+   },
+   "scored": "judge"
+  },
+  "JustRL-D": {
+   "cap": 16384,
+   "U": 105,
+   "Uprime": 348,
+   "rl_wins": {
+    "n": 7,
+    "read": 7,
+    "winner_ge1": 7,
+    "winner_ge4": 2,
+    "loser_ge1": 5,
+    "winner_only": 2,
+    "neither": 0
+   },
+   "base_wins": {
+    "n": 29,
+    "read": 29,
+    "winner_ge1": 22,
+    "winner_ge4": 11,
+    "loser_ge1": 20,
+    "winner_only": 5,
+    "neither": 4
+   },
+   "scored": "judge"
+  },
+  "DeepScaleR": {
+   "cap": 24576,
+   "U": 256,
+   "Uprime": 368,
+   "rl_wins": {
+    "n": 14,
+    "read": 14,
+    "winner_ge1": 14,
+    "winner_ge4": 4,
+    "loser_ge1": 6,
+    "winner_only": 8,
+    "neither": 0
+   },
+   "base_wins": {
+    "n": 20,
+    "read": 20,
+    "winner_ge1": 16,
+    "winner_ge4": 4,
+    "loser_ge1": 12,
+    "winner_only": 6,
+    "neither": 2
+   },
+   "scored": "judge"
+  },
+  "DeepMath": {
+   "cap": 24576,
+   "U": 256,
+   "Uprime": 382,
+   "rl_wins": {
+    "n": 22,
+    "read": 22,
+    "winner_ge1": 20,
+    "winner_ge4": 7,
+    "loser_ge1": 9,
+    "winner_only": 11,
+    "neither": 2
+   },
+   "base_wins": {
+    "n": 22,
+    "read": 22,
+    "winner_ge1": 16,
+    "winner_ge4": 3,
+    "loser_ge1": 15,
+    "winner_only": 4,
+    "neither": 3
+   },
+   "scored": "judge"
+  },
+  "RLinf": {
+   "cap": 28672,
+   "U": 284,
+   "Uprime": 378,
+   "rl_wins": {
+    "n": 37,
+    "read": 37,
+    "winner_ge1": 35,
+    "winner_ge4": 15,
+    "loser_ge1": 15,
+    "winner_only": 21,
+    "neither": 1
+   },
+   "base_wins": {
+    "n": 21,
+    "read": 21,
+    "winner_ge1": 15,
+    "winner_ge4": 8,
+    "loser_ge1": 12,
+    "winner_only": 6,
+    "neither": 3
+   },
+   "scored": "judge"
+  },
+  "STILL-3": {
+   "cap": 28672,
+   "U": 284,
+   "Uprime": 314,
+   "rl_wins": {
+    "n": 17,
+    "read": 17,
+    "winner_ge1": 17,
+    "winner_ge4": 6,
+    "loser_ge1": 9,
+    "winner_only": 8,
+    "neither": 0
+   },
+   "base_wins": {
+    "n": 21,
+    "read": 21,
+    "winner_ge1": 14,
+    "winner_ge4": 4,
+    "loser_ge1": 16,
+    "winner_only": 3,
+    "neither": 2
+   },
+   "scored": "judge"
+  },
+  "AReaL": {
+   "cap": 24576,
+   "U": 256,
+   "Uprime": 322,
+   "rl_wins": {
+    "n": 20,
+    "read": 20,
+    "winner_ge1": 13,
+    "winner_ge4": 1,
+    "loser_ge1": 8,
+    "winner_only": 5,
+    "neither": 7
+   },
+   "base_wins": {
+    "n": 18,
+    "read": 18,
+    "winner_ge1": 14,
+    "winner_ge4": 4,
+    "loser_ge1": 13,
+    "winner_only": 3,
+    "neither": 2
+   },
+   "scored": "judge"
+  },
+  "JustRL-N": {
+   "cap": 16384,
+   "U": 286,
+   "Uprime": 402,
+   "rl_wins": {
+    "n": 27,
+    "read": 27,
+    "winner_ge1": 25,
+    "winner_ge4": 8,
+    "loser_ge1": 10,
+    "winner_only": 16,
+    "neither": 1
+   },
+   "base_wins": {
+    "n": 12,
+    "read": 12,
+    "winner_ge1": 11,
+    "winner_ge4": 3,
+    "loser_ge1": 6,
+    "winner_only": 5,
+    "neither": 1
+   },
+   "scored": "judge"
+  },
+  "QuestA": {
+   "cap": 24576,
+   "U": 414,
+   "Uprime": 148,
+   "rl_wins": {
+    "n": 43,
+    "read": 27,
+    "winner_ge1": 26,
+    "winner_ge4": 18,
+    "loser_ge1": 16,
+    "winner_only": 10,
+    "neither": 1
+   },
+   "base_wins": {
+    "n": 3,
+    "read": 2,
+    "winner_ge1": 2,
+    "winner_ge4": 0,
+    "loser_ge1": 1,
+    "winner_only": 1,
+    "neither": 0
+   },
+   "scored": "judge"
+  },
+  "KnowRL": {
+   "cap": 24576,
+   "U": 414,
+   "Uprime": 421,
+   "rl_wins": {
+    "n": 45,
+    "read": 45,
+    "winner_ge1": 41,
+    "winner_ge4": 22,
+    "loser_ge1": 22,
+    "winner_only": 19,
+    "neither": 4
+   },
+   "base_wins": {
+    "n": 13,
+    "read": 13,
+    "winner_ge1": 11,
+    "winner_ge4": 1,
+    "loser_ge1": 9,
+    "winner_only": 4,
+    "neither": 0
+   },
+   "scored": "judge"
+  },
+  "DeepMath-Omn": {
+   "cap": 24576,
+   "U": 414,
+   "Uprime": 462,
+   "rl_wins": {
+    "n": 30,
+    "read": 30,
+    "winner_ge1": 22,
+    "winner_ge4": 7,
+    "loser_ge1": 15,
+    "winner_only": 10,
+    "neither": 5
+   },
+   "base_wins": {
+    "n": 18,
+    "read": 18,
+    "winner_ge1": 14,
+    "winner_ge4": 2,
+    "loser_ge1": 12,
+    "winner_only": 3,
+    "neither": 3
+   },
+   "scored": "judge"
+  },
+  "e3": {
+   "cap": 16384,
+   "U": 181,
+   "Uprime": 271,
+   "rl_wins": {
+    "n": 14,
+    "read": 7,
+    "winner_ge1": 5,
+    "winner_ge4": 4,
+    "loser_ge1": 4,
+    "winner_only": 2,
+    "neither": 1
+   },
+   "base_wins": {
+    "n": 24,
+    "read": 4,
+    "winner_ge1": 3,
+    "winner_ge4": 2,
+    "loser_ge1": 4,
+    "winner_only": 0,
+    "neither": 0
+   },
+   "scored": "judge"
+  },
+  "Polaris-1.7B": {
+   "cap": 49152,
+   "U": 167,
+   "Uprime": 97,
+   "rl_wins": {
+    "n": 14,
+    "read": 4,
+    "winner_ge1": 4,
+    "winner_ge4": 3,
+    "loser_ge1": 2,
+    "winner_only": 2,
+    "neither": 0
+   },
+   "base_wins": {
+    "n": 4,
+    "read": 1,
+    "winner_ge1": 1,
+    "winner_ge4": 1,
+    "loser_ge1": 1,
+    "winner_only": 0,
+    "neither": 0
+   },
+   "scored": "judge"
+  },
+  "Skywork-7B": {
+   "cap": 32768,
+   "U": 310,
+   "Uprime": 237,
+   "rl_wins": {
+    "n": 44,
+    "read": 44,
+    "winner_ge1": 38,
+    "winner_ge4": 19,
+    "loser_ge1": 30,
+    "winner_only": 9,
+    "neither": 5
+   },
+   "base_wins": {
+    "n": 23,
+    "read": 23,
+    "winner_ge1": 21,
+    "winner_ge4": 9,
+    "loser_ge1": 16,
+    "winner_only": 6,
+    "neither": 1
+   },
+   "scored": "judge"
+  },
+  "Skywork-Math": {
+   "cap": 32768,
+   "U": 310,
+   "Uprime": 294,
+   "rl_wins": {
+    "n": 38,
+    "read": 29,
+    "winner_ge1": 24,
+    "winner_ge4": 12,
+    "loser_ge1": 19,
+    "winner_only": 7,
+    "neither": 3
+   },
+   "base_wins": {
+    "n": 22,
+    "read": 12,
+    "winner_ge1": 10,
+    "winner_ge4": 3,
+    "loser_ge1": 6,
+    "winner_only": 5,
+    "neither": 1
+   },
+   "scored": "judge"
+  },
+  "AceReason": {
+   "cap": 32768,
+   "U": 310,
+   "Uprime": 342,
+   "rl_wins": {
+    "n": 43,
+    "read": 43,
+    "winner_ge1": 35,
+    "winner_ge4": 17,
+    "loser_ge1": 30,
+    "winner_only": 10,
+    "neither": 3
+   },
+   "base_wins": {
+    "n": 28,
+    "read": 28,
+    "winner_ge1": 22,
+    "winner_ge4": 9,
+    "loser_ge1": 20,
+    "winner_only": 4,
+    "neither": 4
+   },
+   "scored": "judge"
+  }
+ },
+ "pooled": {
+  "rl_wins_read": 376,
+  "rl_wins_winner_ge1": 329,
+  "rl_wins_winner_ge4": 148,
+  "rl_wins_loser_ge1": 201,
+  "rl_wins_winner_only": 142,
+  "rl_wins_neither": 33,
+  "base_wins_read": 261,
+  "base_wins_winner_ge1": 207,
+  "base_wins_winner_ge4": 73,
+  "base_wins_loser_ge1": 169,
+  "base_wins_winner_only": 65,
+  "base_wins_neither": 27
+ }
+}

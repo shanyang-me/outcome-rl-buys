@@ -1,0 +1,9 @@
+# One endpoint, three protocols. $^\dagger$at 16k. Under forcing every system answers every part. The base is within $+0.2$ [$-1.8$, $+2.0$] of outcome RL. That interval also covers their registered gap of $+1.6$. So this read cannot separate that gap from finishing. The corpus~v2 arms keep about $+2$ over the base ($+2.1$ [$0.0$, $+4.3$] and $+2.2$ [$+0.2$, $+4.3$]). The same arms keep about the same lead over outcome RL ($+1.9$ [$+0.1$, $+4.0$] and $+2.0$ [$+0.1$, $+4.1$]). The hint adds nothing on its own corpus ($+0.1$ [$-1.6$, $+1.8$]). Under forcing the control keeps about six of its ten reward points over the base. One seed per system. Forced answers from unfinished derivations are guesses, so read gaps between systems, not levels. Intervals: paired bootstrap over the $136$ wide parts.
+"","wide per-part accuracy (answered)","paired vs.\ the hint arm"
+"system","registered 12k","16k","forced 12k","registered","forced"
+"base model","2.5 (42%)","3.7 (59%)","6.0 (100%)","-4.0 [-6.5, -1.9]","-2.2"
+"outcome RL, seed 202 (old corpus)","4.1 (60%)","6.3 (77%)","6.2 (100%)","-2.4 [-4.1, -0.8]","-0.7 [-2.4, +0.9]+"
+"corpus v2 control (no hint)","5.1 (73%)","7.3 (94%)","8.1 (100%)","-1.5 [-2.9, 0.0]",""
+"hint on corpus v2","5.1 (78%)","8.0 (94%)","8.2 (100%)","",""
+"hint arm (old corpus)","6.5 (82%)","7.1 (95%)","---","",""
+"held-out reward under forcing: base 0.267, outcome RL (seed 202) 0.295, corpus v2 control 0.327, hint on corpus v2 0.326"

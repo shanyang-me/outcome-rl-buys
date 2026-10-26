@@ -1,0 +1,82 @@
+{
+ "QuestA-Nemotron-1.5B cap4096 phys": {
+  "mean": 0.0025,
+  "finished": 0.002916666666666667,
+  "score_given_finished": 0.8571428571428571,
+  "any_solve8": 0.0033333333333333335,
+  "mean_len": 4092.72625,
+  "n_items": 300
+ },
+ "QuestA-Nemotron-1.5B cap8192 phys": {
+  "mean": 0.027291666666666665,
+  "finished": 0.03833333333333333,
+  "score_given_finished": 0.7119565217391305,
+  "any_solve8": 0.06333333333333334,
+  "mean_len": 8124.868333333333,
+  "n_items": 300
+ },
+ "QuestA-Nemotron-1.5B cap16384 phys": {
+  "mean": 0.15618055555555554,
+  "finished": 0.33791666666666664,
+  "score_given_finished": 0.46218660090423347,
+  "any_solve8": 0.2733333333333333,
+  "mean_len": 15049.60375,
+  "n_items": 300
+ },
+ "QuestA-Nemotron-1.5B cap24576 phys": {
+  "mean": 0.26036805555555553,
+  "finished": 0.8975,
+  "score_given_finished": 0.2901036830702569,
+  "any_solve8": 0.38,
+  "mean_len": 18000.899166666666,
+  "n_items": 300
+ },
+ "QuestA-Nemotron-1.5B cap28672 phys": {
+  "mean": 0.2687083333333333,
+  "finished": 0.97625,
+  "score_given_finished": 0.2752454118651302,
+  "any_solve8": 0.38333333333333336,
+  "mean_len": 18212.255,
+  "n_items": 300
+ },
+ "QuestA-Nemotron-1.5B cap32768 phys": {
+  "mean": 0.27079166666666665,
+  "finished": 0.9870833333333333,
+  "score_given_finished": 0.27433516251582946,
+  "any_solve8": 0.38666666666666666,
+  "mean_len": 18276.084166666667,
+  "n_items": 300
+ },
+ "QuestA-Nemotron-1.5B cap36864 phys": {
+  "mean": 0.27141666666666664,
+  "finished": 0.9891666666666666,
+  "score_given_finished": 0.27438921651221565,
+  "any_solve8": 0.38666666666666666,
+  "mean_len": 18324.16125,
+  "n_items": 300
+ },
+ "QuestA-Nemotron-1.5B cap49152 phys": {
+  "mean": 0.2718333333333333,
+  "finished": 0.9925,
+  "score_given_finished": 0.27388748950461794,
+  "any_solve8": 0.38666666666666666,
+  "mean_len": 18426.3575,
+  "n_items": 300
+ },
+ "QuestA-Nemotron-1.5B cap53248 phys": {
+  "mean": 0.27225,
+  "finished": 0.9945833333333334,
+  "score_given_finished": 0.27373271889400924,
+  "any_solve8": 0.38666666666666666,
+  "mean_len": 18453.293333333335,
+  "n_items": 300
+ },
+ "QuestA-Nemotron-1.5B cap65536 phys": {
+  "mean": 0.27225,
+  "finished": 0.9979166666666667,
+  "score_given_finished": 0.27281837160751565,
+  "any_solve8": 0.38666666666666666,
+  "mean_len": 18495.445416666666,
+  "n_items": 300
+ }
+}

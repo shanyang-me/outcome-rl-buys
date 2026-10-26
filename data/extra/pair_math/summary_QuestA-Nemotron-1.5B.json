@@ -1,0 +1,66 @@
+{
+ "QuestA-Nemotron-1.5B cap4096 post": {
+  "mean": 0.0,
+  "finished": 0.0,
+  "score_given_finished": 0.0,
+  "any_solve8": 0,
+  "mean_len": 4096,
+  "n_items": 63
+ },
+ "QuestA-Nemotron-1.5B cap4096 pre": {
+  "mean": 0.002347417840375587,
+  "finished": 0.002347417840375587,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.009389671361502348,
+  "mean_len": 4095.5340375586857,
+  "n_items": 213
+ },
+ "QuestA-Nemotron-1.5B cap8192 post": {
+  "mean": 0.0496031746031746,
+  "finished": 0.0496031746031746,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.1111111111111111,
+  "mean_len": 8132.748015873016,
+  "n_items": 63
+ },
+ "QuestA-Nemotron-1.5B cap8192 pre": {
+  "mean": 0.051056338028169015,
+  "finished": 0.051056338028169015,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.1267605633802817,
+  "mean_len": 8103.015258215963,
+  "n_items": 213
+ },
+ "QuestA-Nemotron-1.5B cap16384 post": {
+  "mean": 0.24404761904761904,
+  "finished": 0.25992063492063494,
+  "score_given_finished": 0.9389312977099237,
+  "any_solve8": 0.38095238095238093,
+  "mean_len": 15155.813492063493,
+  "n_items": 63
+ },
+ "QuestA-Nemotron-1.5B cap16384 pre": {
+  "mean": 0.2494131455399061,
+  "finished": 0.272887323943662,
+  "score_given_finished": 0.9139784946236559,
+  "any_solve8": 0.38497652582159625,
+  "mean_len": 15016.397887323943,
+  "n_items": 213
+ },
+ "QuestA-Nemotron-1.5B cap24576 post": {
+  "mean": 0.43253968253968256,
+  "finished": 0.6587301587301587,
+  "score_given_finished": 0.6566265060240963,
+  "any_solve8": 0.6031746031746031,
+  "mean_len": 19497.775793650795,
+  "n_items": 63
+ },
+ "QuestA-Nemotron-1.5B cap24576 pre": {
+  "mean": 0.42370892018779344,
+  "finished": 0.6279342723004695,
+  "score_given_finished": 0.6747663551401869,
+  "any_solve8": 0.6525821596244131,
+  "mean_len": 19657.447183098593,
+  "n_items": 213
+ }
+}

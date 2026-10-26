@@ -1,0 +1,98 @@
+{
+ "AceReason-Nemotron-14B cap4096 post": {
+  "mean": 0.06944444444444445,
+  "finished": 0.06944444444444445,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.14285714285714285,
+  "mean_len": 4031.0813492063494,
+  "n_items": 63
+ },
+ "AceReason-Nemotron-14B cap4096 pre": {
+  "mean": 0.05868544600938967,
+  "finished": 0.05868544600938967,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.1267605633802817,
+  "mean_len": 4051.3462441314555,
+  "n_items": 213
+ },
+ "AceReason-Nemotron-14B cap8192 post": {
+  "mean": 0.24206349206349206,
+  "finished": 0.24404761904761904,
+  "score_given_finished": 0.991869918699187,
+  "any_solve8": 0.3333333333333333,
+  "mean_len": 7489.293650793651,
+  "n_items": 63
+ },
+ "AceReason-Nemotron-14B cap8192 pre": {
+  "mean": 0.23591549295774647,
+  "finished": 0.24530516431924881,
+  "score_given_finished": 0.9617224880382775,
+  "any_solve8": 0.3474178403755869,
+  "mean_len": 7545.342136150235,
+  "n_items": 213
+ },
+ "AceReason-Nemotron-14B cap16384 post": {
+  "mean": 0.45634920634920634,
+  "finished": 0.5515873015873016,
+  "score_given_finished": 0.8273381294964028,
+  "any_solve8": 0.6507936507936508,
+  "mean_len": 12420.63492063492,
+  "n_items": 63
+ },
+ "AceReason-Nemotron-14B cap16384 pre": {
+  "mean": 0.4665492957746479,
+  "finished": 0.5240610328638498,
+  "score_given_finished": 0.8902575587905935,
+  "any_solve8": 0.6338028169014085,
+  "mean_len": 12534.75938967136,
+  "n_items": 213
+ },
+ "AceReason-Nemotron-14B cap24576 post": {
+  "mean": 0.5357142857142857,
+  "finished": 0.7400793650793651,
+  "score_given_finished": 0.7238605898123325,
+  "any_solve8": 0.7142857142857143,
+  "mean_len": 15313.367063492064,
+  "n_items": 63
+ },
+ "AceReason-Nemotron-14B cap24576 pre": {
+  "mean": 0.5692488262910798,
+  "finished": 0.7546948356807511,
+  "score_given_finished": 0.7542768273716952,
+  "any_solve8": 0.7605633802816901,
+  "mean_len": 15460.047535211268,
+  "n_items": 213
+ },
+ "AceReason-Nemotron-14B cap28672 post": {
+  "mean": 0.5575396825396826,
+  "finished": 0.8174603174603174,
+  "score_given_finished": 0.6820388349514563,
+  "any_solve8": 0.746031746031746,
+  "mean_len": 16226.992063492064,
+  "n_items": 63
+ },
+ "AceReason-Nemotron-14B cap28672 pre": {
+  "mean": 0.5950704225352113,
+  "finished": 0.8427230046948356,
+  "score_given_finished": 0.7061281337047354,
+  "any_solve8": 0.784037558685446,
+  "mean_len": 16269.94190140845,
+  "n_items": 213
+ },
+ "AceReason-Nemotron-14B cap32768 post": {
+  "mean": 0.5694444444444444,
+  "finished": 0.8948412698412699,
+  "score_given_finished": 0.6363636363636364,
+  "any_solve8": 0.7619047619047619,
+  "mean_len": 16792.335317460318,
+  "n_items": 63
+ },
+ "AceReason-Nemotron-14B cap32768 pre": {
+  "mean": 0.6085680751173709,
+  "finished": 0.9166666666666666,
+  "score_given_finished": 0.6638924455825864,
+  "any_solve8": 0.8028169014084507,
+  "mean_len": 16749.275821596246,
+  "n_items": 213
+ }
+}

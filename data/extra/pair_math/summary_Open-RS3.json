@@ -1,0 +1,50 @@
+{
+ "Open-RS3 cap4096 post": {
+  "mean": 0.05952380952380952,
+  "finished": 0.06349206349206349,
+  "score_given_finished": 0.9375,
+  "any_solve8": 0.09523809523809523,
+  "mean_len": 4045.5555555555557,
+  "n_items": 63
+ },
+ "Open-RS3 cap4096 pre": {
+  "mean": 0.046948356807511735,
+  "finished": 0.056338028169014086,
+  "score_given_finished": 0.8333333333333334,
+  "any_solve8": 0.13145539906103287,
+  "mean_len": 4041.9413145539907,
+  "n_items": 213
+ },
+ "Open-RS3 cap8192 post": {
+  "mean": 0.12301587301587301,
+  "finished": 0.17857142857142858,
+  "score_given_finished": 0.6888888888888889,
+  "any_solve8": 0.30158730158730157,
+  "mean_len": 7647.980158730159,
+  "n_items": 63
+ },
+ "Open-RS3 cap8192 pre": {
+  "mean": 0.13380281690140844,
+  "finished": 0.20129107981220656,
+  "score_given_finished": 0.6647230320699709,
+  "any_solve8": 0.3051643192488263,
+  "mean_len": 7619.1026995305165,
+  "n_items": 213
+ },
+ "Open-RS3 cap16384 post": {
+  "mean": 0.17063492063492064,
+  "finished": 0.45634920634920634,
+  "score_given_finished": 0.3739130434782609,
+  "any_solve8": 0.38095238095238093,
+  "mean_len": 13264.470238095239,
+  "n_items": 63
+ },
+ "Open-RS3 cap16384 pre": {
+  "mean": 0.19292840375586853,
+  "finished": 0.482981220657277,
+  "score_given_finished": 0.399453219927096,
+  "any_solve8": 0.38967136150234744,
+  "mean_len": 13044.674295774648,
+  "n_items": 213
+ }
+}

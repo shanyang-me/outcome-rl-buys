@@ -1,0 +1,130 @@
+{
+ "Polaris-1.7B-Preview cap4096 hard": {
+  "mean": 0.004739336492890996,
+  "finished": 0.011255924170616114,
+  "score_given_finished": 0.42105263157894735,
+  "any_solve8": 0.009478672985781991,
+  "mean_len": 4079.9152843601896,
+  "n_items": 211
+ },
+ "Polaris-1.7B-Preview cap4096 refill": {
+  "mean": 0.011111111111111112,
+  "finished": 0.011111111111111112,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.011111111111111112,
+  "mean_len": 4078.7180555555556,
+  "n_items": 90
+ },
+ "Polaris-1.7B-Preview cap8192 hard": {
+  "mean": 0.020734597156398103,
+  "finished": 0.04206161137440758,
+  "score_given_finished": 0.49295774647887325,
+  "any_solve8": 0.03317535545023697,
+  "mean_len": 8071.417654028436,
+  "n_items": 211
+ },
+ "Polaris-1.7B-Preview cap8192 refill": {
+  "mean": 0.025,
+  "finished": 0.0375,
+  "score_given_finished": 0.6666666666666666,
+  "any_solve8": 0.05555555555555555,
+  "mean_len": 8103.5680555555555,
+  "n_items": 90
+ },
+ "Polaris-1.7B-Preview cap16384 hard": {
+  "mean": 0.054561611374407584,
+  "finished": 0.14632701421800948,
+  "score_given_finished": 0.3728744939271255,
+  "any_solve8": 0.11848341232227488,
+  "mean_len": 15504.333530805687,
+  "n_items": 211
+ },
+ "Polaris-1.7B-Preview cap16384 refill": {
+  "mean": 0.059722222222222225,
+  "finished": 0.18194444444444444,
+  "score_given_finished": 0.3282442748091603,
+  "any_solve8": 0.1111111111111111,
+  "mean_len": 15478.377777777778,
+  "n_items": 90
+ },
+ "Polaris-1.7B-Preview cap24576 hard": {
+  "mean": 0.10536137440758293,
+  "finished": 0.31516587677725116,
+  "score_given_finished": 0.3343045112781955,
+  "any_solve8": 0.1990521327014218,
+  "mean_len": 21875.484004739337,
+  "n_items": 211
+ },
+ "Polaris-1.7B-Preview cap24576 refill": {
+  "mean": 0.09861111111111111,
+  "finished": 0.375,
+  "score_given_finished": 0.26296296296296295,
+  "any_solve8": 0.16666666666666666,
+  "mean_len": 21440.625,
+  "n_items": 90
+ },
+ "Polaris-1.7B-Preview cap28672 hard": {
+  "mean": 0.12697190250507787,
+  "finished": 0.4354265402843602,
+  "score_given_finished": 0.2916034985422741,
+  "any_solve8": 0.22274881516587677,
+  "mean_len": 24451.744668246447,
+  "n_items": 211
+ },
+ "Polaris-1.7B-Preview cap28672 refill": {
+  "mean": 0.13819444444444445,
+  "finished": 0.5097222222222222,
+  "score_given_finished": 0.27111716621253407,
+  "any_solve8": 0.25555555555555554,
+  "mean_len": 23725.220833333333,
+  "n_items": 90
+ },
+ "Polaris-1.7B-Preview cap32768 hard": {
+  "mean": 0.143593432633717,
+  "finished": 0.5545023696682464,
+  "score_given_finished": 0.2589590964590965,
+  "any_solve8": 0.24170616113744076,
+  "mean_len": 26533.846563981042,
+  "n_items": 211
+ },
+ "Polaris-1.7B-Preview cap32768 refill": {
+  "mean": 0.17160493827160495,
+  "finished": 0.6125,
+  "score_given_finished": 0.2801713277903754,
+  "any_solve8": 0.28888888888888886,
+  "mean_len": 25540.654166666667,
+  "n_items": 90
+ },
+ "Polaris-1.7B-Preview cap36864 hard": {
+  "mean": 0.15625,
+  "finished": 0.6718009478672986,
+  "score_given_finished": 0.2325837742504409,
+  "any_solve8": 0.2559241706161137,
+  "mean_len": 28103.343009478675,
+  "n_items": 211
+ },
+ "Polaris-1.7B-Preview cap36864 refill": {
+  "mean": 0.19251543209876543,
+  "finished": 0.6986111111111111,
+  "score_given_finished": 0.27556880936602607,
+  "any_solve8": 0.28888888888888886,
+  "mean_len": 26927.491666666665,
+  "n_items": 90
+ },
+ "Polaris-1.7B-Preview cap49152 hard": {
+  "mean": 0.1733496953283683,
+  "finished": 0.8672985781990521,
+  "score_given_finished": 0.19987314597970335,
+  "any_solve8": 0.2796208530805687,
+  "mean_len": 30747.973341232228,
+  "n_items": 211
+ },
+ "Polaris-1.7B-Preview cap49152 refill": {
+  "mean": 0.22453703703703703,
+  "finished": 0.8694444444444445,
+  "score_given_finished": 0.2582534611288605,
+  "any_solve8": 0.3111111111111111,
+  "mean_len": 29406.62777777778,
+  "n_items": 90
+ }
+}

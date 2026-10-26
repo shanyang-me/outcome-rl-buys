@@ -1,0 +1,170 @@
+{
+ "cap": 16384,
+ "set": "phys",
+ "per_recipe": {
+  "DeepScaleR": {
+   "net_reach_share": 0.06333333333333332,
+   "F_16k": 0.052356859198270114,
+   "P_16k": 0.016205640801729867,
+   "d_16k": 0.06856249999999997,
+   "rl_only_cells": 34,
+   "residue_base_all_finished": 8,
+   "rl_ge4_on_base0": 2
+  },
+  "ProRL v2": {
+   "net_reach_share": 0.08,
+   "F_16k": 0.0718243229166667,
+   "P_16k": 0.06516526041666679,
+   "d_16k": 0.13698958333333344,
+   "rl_only_cells": 39,
+   "residue_base_all_finished": 8,
+   "rl_ge4_on_base0": 15
+  },
+  "Open-RS3": {
+   "net_reach_share": -0.009999999999999995,
+   "F_16k": -0.0030317206592782,
+   "P_16k": 0.0019171373259448496,
+   "d_16k": -0.0011145833333333632,
+   "rl_only_cells": 15,
+   "residue_base_all_finished": 7,
+   "rl_ge4_on_base0": 1
+  },
+  "STILL-3": {
+   "net_reach_share": 0.056666666666666664,
+   "F_16k": 0.026418809101654867,
+   "P_16k": 0.011799940898345159,
+   "d_16k": 0.03821874999999997,
+   "rl_only_cells": 29,
+   "residue_base_all_finished": 7,
+   "rl_ge4_on_base0": 0
+  },
+  "JustRL-D": {
+   "net_reach_share": 0.07333333333333333,
+   "F_16k": 0.05930047770700637,
+   "P_16k": 0.039626605626327006,
+   "d_16k": 0.09892708333333333,
+   "rl_only_cells": 36,
+   "residue_base_all_finished": 7,
+   "rl_ge4_on_base0": 5
+  },
+  "DeepMath": {
+   "net_reach_share": 0.10666666666666667,
+   "F_16k": 0.056633134664948445,
+   "P_16k": 0.04846061533505153,
+   "d_16k": 0.10509374999999993,
+   "rl_only_cells": 38,
+   "residue_base_all_finished": 7,
+   "rl_ge4_on_base0": 2
+  },
+  "RLinf": {
+   "net_reach_share": 0.06,
+   "F_16k": 0.030404034604195388,
+   "P_16k": 0.030019576506915748,
+   "d_16k": 0.06042361111111111,
+   "rl_only_cells": 37,
+   "residue_base_all_finished": 9,
+   "rl_ge4_on_base0": 5
+  },
+  "AReaL": {
+   "net_reach_share": 0.009999999999999995,
+   "F_16k": 0.010438604336043353,
+   "P_16k": 0.012175978997289985,
+   "d_16k": 0.022614583333333327,
+   "rl_only_cells": 24,
+   "residue_base_all_finished": 4,
+   "rl_ge4_on_base0": 2
+  },
+  "Skywork-7B": {
+   "net_reach_share": 0.003333333333333327,
+   "F_16k": -0.06480404636920385,
+   "P_16k": 0.06524154636920375,
+   "d_16k": 0.00043749999999992406,
+   "rl_only_cells": 20,
+   "residue_base_all_finished": 11,
+   "rl_ge4_on_base0": 8
+  },
+  "AceReason": {
+   "net_reach_share": 0.019999999999999997,
+   "F_16k": 0.02994801010320216,
+   "P_16k": 0.025183934341242154,
+   "d_16k": 0.0551319444444443,
+   "rl_only_cells": 23,
+   "residue_base_all_finished": 9,
+   "rl_ge4_on_base0": 6
+  },
+  "Skywork-Math": {
+   "net_reach_share": 0.009999999999999995,
+   "F_16k": -0.022893034126218785,
+   "P_16k": 0.04871247857066311,
+   "d_16k": 0.025819444444444395,
+   "rl_only_cells": 22,
+   "residue_base_all_finished": 10,
+   "rl_ge4_on_base0": 7
+  },
+  "Polaris-4B": {
+   "net_reach_share": -0.24333333333333332,
+   "F_16k": -0.29069041746871993,
+   "P_16k": 0.04213138969094196,
+   "d_16k": -0.24855902777777794,
+   "rl_only_cells": 4,
+   "residue_base_all_finished": 4,
+   "rl_ge4_on_base0": 1
+  },
+  "JustRL-N": {
+   "net_reach_share": 0.006666666666666668,
+   "F_16k": 0.005781627712246976,
+   "P_16k": 0.03591976117664188,
+   "d_16k": 0.04170138888888883,
+   "rl_only_cells": 20,
+   "residue_base_all_finished": 13,
+   "rl_ge4_on_base0": 2
+  },
+  "QuestA": {
+   "net_reach_share": -0.11666666666666667,
+   "F_16k": -0.2977292259364628,
+   "P_16k": 0.21629172593646276,
+   "d_16k": -0.08143750000000002,
+   "rl_only_cells": 4,
+   "residue_base_all_finished": 2,
+   "rl_ge4_on_base0": 0
+  },
+  "KnowRL": {
+   "net_reach_share": -0.019999999999999997,
+   "F_16k": -0.09906479835523954,
+   "P_16k": 0.10305785391079507,
+   "d_16k": 0.003993055555555514,
+   "rl_only_cells": 14,
+   "residue_base_all_finished": 7,
+   "rl_ge4_on_base0": 1
+  },
+  "DeepMath-Omn": {
+   "net_reach_share": -0.049999999999999996,
+   "F_16k": -0.03604559438082018,
+   "P_16k": 0.0366879554919313,
+   "d_16k": 0.0006423611111111005,
+   "rl_only_cells": 12,
+   "residue_base_all_finished": 6,
+   "rl_ge4_on_base0": 1
+  },
+  "e3": {
+   "net_reach_share": 0.003333333333333334,
+   "F_16k": 0.037510750263118314,
+   "P_16k": -0.0009447780408960667,
+   "d_16k": 0.03656597222222224,
+   "rl_only_cells": 18,
+   "residue_base_all_finished": 6,
+   "rl_ge4_on_base0": 1
+  },
+  "Polaris-1.7B": {
+   "net_reach_share": -0.27,
+   "F_16k": -0.35882662259615383,
+   "P_16k": 0.16844467815170946,
+   "d_16k": -0.1903819444444444,
+   "rl_only_cells": 3,
+   "residue_base_all_finished": 3,
+   "rl_ge4_on_base0": 0
+  }
+ },
+ "corr_net_vs_F": 0.9415503884715469,
+ "corr_net_vs_P": -0.5495179640216478
+}

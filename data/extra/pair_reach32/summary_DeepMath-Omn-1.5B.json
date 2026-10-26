@@ -1,0 +1,15 @@
+{
+ "model": "zwhe99/DeepMath-Omn-1.5B",
+ "path": "/root/hf/hub/models--zwhe99--DeepMath-Omn-1.5B/snapshots/8b8da79f9c2a83483144b1c8a3fbc317502e80b7",
+ "cap": 24576,
+ "n_problems": 158,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 23,
+ "finished": 0.9810126582278481,
+ "seconds": {
+  "load": 45,
+  "generate": 6758
+ },
+ "host": "0c06e1711dba"
+}

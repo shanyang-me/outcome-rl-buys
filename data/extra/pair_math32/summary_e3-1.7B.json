@@ -1,0 +1,15 @@
+{
+ "model": "CMU-AIRe/e3-1.7B",
+ "path": "/root/hf/hub/models--CMU-AIRe--e3-1.7B/snapshots/6db1b2fed3cd8d6cd2cd6270807a45f1e22925df",
+ "cap": 16384,
+ "n_problems": 1,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 1,
+ "finished": 1.0,
+ "seconds": {
+  "load": 125,
+  "generate": 74
+ },
+ "host": "3ad07f0f0d62"
+}

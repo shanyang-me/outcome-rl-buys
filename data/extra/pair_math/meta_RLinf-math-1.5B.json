@@ -1,0 +1,31 @@
+{
+ "model": "RLinf/RLinf-math-1.5B",
+ "path": "/root/hf/hub/models--RLinf--RLinf-math-1.5B/snapshots/82ccc1ca3a8012f2274c15a7844b75ed62910349",
+ "revision": "82ccc1ca3a8012f2274c15a7844b75ed62910349",
+ "host": "47f6cf1ebbc6",
+ "gpu": "NVIDIA H100 80GB HBM3",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "yarn": null,
+ "hf_overrides": null,
+ "gen_cap": 28672,
+ "derived_caps": [
+  4096,
+  8192,
+  16384,
+  24576
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  151649
+ ],
+ "seconds": {
+  "load": 45,
+  "generate": 3356,
+  "score": 7
+ },
+ "trace_rows": 0
+}

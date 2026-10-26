@@ -1,0 +1,14 @@
+{
+ "files": {
+  "DeepSeek-R1-Distill-Qwen-14B": {
+   "solved_matcher": 1272,
+   "solved_judged": 1671,
+   "rejected": 3990,
+   "raised": 426,
+   "now_full": 399
+  }
+ },
+ "deferred_last_run": 3632,
+ "distinct_prompts_last_run": 3031,
+ "unparsed_last_run": 5
+}

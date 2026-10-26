@@ -1,0 +1,146 @@
+{
+ "Polaris-4B-Preview cap4096 post": {
+  "mean": 0.0,
+  "finished": 0.0,
+  "score_given_finished": 0.0,
+  "any_solve8": 0,
+  "mean_len": 4096,
+  "n_items": 63
+ },
+ "Polaris-4B-Preview cap4096 pre": {
+  "mean": 0.0005868544600938967,
+  "finished": 0.0005868544600938967,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.004694835680751174,
+  "mean_len": 4095.9225352112676,
+  "n_items": 213
+ },
+ "Polaris-4B-Preview cap8192 post": {
+  "mean": 0.023809523809523808,
+  "finished": 0.023809523809523808,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.031746031746031744,
+  "mean_len": 8156.601190476191,
+  "n_items": 63
+ },
+ "Polaris-4B-Preview cap8192 pre": {
+  "mean": 0.02992957746478873,
+  "finished": 0.02992957746478873,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.06103286384976526,
+  "mean_len": 8151.737676056338,
+  "n_items": 213
+ },
+ "Polaris-4B-Preview cap16384 post": {
+  "mean": 0.16468253968253968,
+  "finished": 0.16468253968253968,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.25396825396825395,
+  "mean_len": 15785.843253968254,
+  "n_items": 63
+ },
+ "Polaris-4B-Preview cap16384 pre": {
+  "mean": 0.15669014084507044,
+  "finished": 0.1613849765258216,
+  "score_given_finished": 0.9709090909090909,
+  "any_solve8": 0.24413145539906103,
+  "mean_len": 15638.068075117371,
+  "n_items": 213
+ },
+ "Polaris-4B-Preview cap24576 post": {
+  "mean": 0.31746031746031744,
+  "finished": 0.3273809523809524,
+  "score_given_finished": 0.9696969696969697,
+  "any_solve8": 0.4444444444444444,
+  "mean_len": 21935.33134920635,
+  "n_items": 63
+ },
+ "Polaris-4B-Preview cap24576 pre": {
+  "mean": 0.3386150234741784,
+  "finished": 0.3562206572769953,
+  "score_given_finished": 0.9505766062602965,
+  "any_solve8": 0.4460093896713615,
+  "mean_len": 21655.298122065728,
+  "n_items": 213
+ },
+ "Polaris-4B-Preview cap28672 post": {
+  "mean": 0.40674603174603174,
+  "finished": 0.4384920634920635,
+  "score_given_finished": 0.9276018099547512,
+  "any_solve8": 0.5238095238095238,
+  "mean_len": 24459.242063492064,
+  "n_items": 63
+ },
+ "Polaris-4B-Preview cap28672 pre": {
+  "mean": 0.4078638497652582,
+  "finished": 0.4395539906103286,
+  "score_given_finished": 0.9279038718291055,
+  "any_solve8": 0.5305164319248826,
+  "mean_len": 24113.599765258215,
+  "n_items": 213
+ },
+ "Polaris-4B-Preview cap32768 post": {
+  "mean": 0.44246031746031744,
+  "finished": 0.5059523809523809,
+  "score_given_finished": 0.8745098039215686,
+  "any_solve8": 0.5396825396825397,
+  "mean_len": 26622.585317460318,
+  "n_items": 63
+ },
+ "Polaris-4B-Preview cap32768 pre": {
+  "mean": 0.4565727699530516,
+  "finished": 0.5070422535211268,
+  "score_given_finished": 0.9004629629629629,
+  "any_solve8": 0.6103286384976526,
+  "mean_len": 26272.005868544602,
+  "n_items": 213
+ },
+ "Polaris-4B-Preview cap36864 post": {
+  "mean": 0.4722222222222222,
+  "finished": 0.5753968253968254,
+  "score_given_finished": 0.8206896551724138,
+  "any_solve8": 0.6031746031746031,
+  "mean_len": 28509.916666666668,
+  "n_items": 63
+ },
+ "Polaris-4B-Preview cap36864 pre": {
+  "mean": 0.4994131455399061,
+  "finished": 0.5692488262910798,
+  "score_given_finished": 0.877319587628866,
+  "any_solve8": 0.6525821596244131,
+  "mean_len": 28156.153755868545,
+  "n_items": 213
+ },
+ "Polaris-4B-Preview cap49152 post": {
+  "mean": 0.5416666666666666,
+  "finished": 0.7281746031746031,
+  "score_given_finished": 0.7438692098092643,
+  "any_solve8": 0.6984126984126984,
+  "mean_len": 32826.58928571428,
+  "n_items": 63
+ },
+ "Polaris-4B-Preview cap49152 pre": {
+  "mean": 0.5903755868544601,
+  "finished": 0.7294600938967136,
+  "score_given_finished": 0.8093322606596943,
+  "any_solve8": 0.7793427230046949,
+  "mean_len": 32431.184859154928,
+  "n_items": 213
+ },
+ "Polaris-4B-Preview cap53248 post": {
+  "mean": 0.5714285714285714,
+  "finished": 0.7757936507936508,
+  "score_given_finished": 0.7365728900255755,
+  "any_solve8": 0.7142857142857143,
+  "mean_len": 33824.107142857145,
+  "n_items": 63
+ },
+ "Polaris-4B-Preview cap53248 pre": {
+  "mean": 0.6056338028169014,
+  "finished": 0.7652582159624414,
+  "score_given_finished": 0.7914110429447853,
+  "any_solve8": 0.784037558685446,
+  "mean_len": 33463.63849765258,
+  "n_items": 213
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "files": {
+  "Qwen3-4B": {
+   "solved_matcher": 1462,
+   "solved_judged": 1858,
+   "rejected": 3846,
+   "raised": 422,
+   "now_full": 396
+  },
+  "Skywork-OR1-32B": {
+   "solved_matcher": 1620,
+   "solved_judged": 2168,
+   "rejected": 3260,
+   "raised": 572,
+   "now_full": 548
+  },
+  "Polaris-1.7B-Preview": {
+   "rejected": 3644,
+   "raised": 294,
+   "now_full": 274,
+   "solved_matcher": 952,
+   "solved_judged": 1226
+  },
+  "Polaris-4B-Preview": {
+   "rejected": 3267,
+   "raised": 503,
+   "now_full": 474,
+   "solved_matcher": 1490,
+   "solved_judged": 1964
+  }
+ },
+ "deferred_last_run": 3004,
+ "distinct_prompts_last_run": 2388,
+ "unparsed_last_run": 10
+}

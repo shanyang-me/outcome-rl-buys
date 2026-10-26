@@ -1,0 +1,82 @@
+{
+ "DeepSeek-R1-Distill-Qwen-1.5B cap4096 post": {
+  "mean": 0.0496031746031746,
+  "finished": 0.05952380952380952,
+  "score_given_finished": 0.8333333333333334,
+  "any_solve8": 0.1111111111111111,
+  "mean_len": 4041.3551587301586,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap4096 pre": {
+  "mean": 0.04753521126760563,
+  "finished": 0.057511737089201875,
+  "score_given_finished": 0.826530612244898,
+  "any_solve8": 0.13615023474178403,
+  "mean_len": 4042.4213615023473,
+  "n_items": 213
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap8192 post": {
+  "mean": 0.10714285714285714,
+  "finished": 0.17261904761904762,
+  "score_given_finished": 0.6206896551724138,
+  "any_solve8": 0.23809523809523808,
+  "mean_len": 7678.962301587301,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap8192 pre": {
+  "mean": 0.1273474178403756,
+  "finished": 0.21009389671361503,
+  "score_given_finished": 0.6061452513966481,
+  "any_solve8": 0.2863849765258216,
+  "mean_len": 7582.802230046948,
+  "n_items": 213
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap16384 post": {
+  "mean": 0.15674603174603174,
+  "finished": 0.46825396825396826,
+  "score_given_finished": 0.3347457627118644,
+  "any_solve8": 0.3333333333333333,
+  "mean_len": 13380.279761904761,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap16384 pre": {
+  "mean": 0.17693661971830985,
+  "finished": 0.49061032863849763,
+  "score_given_finished": 0.36064593301435405,
+  "any_solve8": 0.3615023474178404,
+  "mean_len": 12971.295774647888,
+  "n_items": 213
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap24576 post": {
+  "mean": 0.17261904761904762,
+  "finished": 0.7321428571428571,
+  "score_given_finished": 0.23577235772357724,
+  "any_solve8": 0.38095238095238093,
+  "mean_len": 16616.146825396827,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap24576 pre": {
+  "mean": 0.18779342723004694,
+  "finished": 0.7423708920187794,
+  "score_given_finished": 0.25296442687747034,
+  "any_solve8": 0.38967136150234744,
+  "mean_len": 16003.954812206573,
+  "n_items": 213
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap28672 post": {
+  "mean": 0.1746031746031746,
+  "finished": 0.7936507936507936,
+  "score_given_finished": 0.22,
+  "any_solve8": 0.38095238095238093,
+  "mean_len": 17589.053571428572,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-1.5B cap28672 pre": {
+  "mean": 0.19014084507042253,
+  "finished": 0.8034037558685446,
+  "score_given_finished": 0.2366691015339664,
+  "any_solve8": 0.39906103286384975,
+  "mean_len": 16928.56220657277,
+  "n_items": 213
+ }
+}

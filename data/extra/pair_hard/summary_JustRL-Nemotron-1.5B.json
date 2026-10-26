@@ -1,0 +1,50 @@
+{
+ "JustRL-Nemotron-1.5B cap4096 hard": {
+  "mean": 0.00809447983014862,
+  "finished": 0.04113588110403397,
+  "score_given_finished": 0.1967741935483871,
+  "any_solve8": 0.021231422505307854,
+  "mean_len": 4026.802813163482,
+  "n_items": 471
+ },
+ "JustRL-Nemotron-1.5B cap4096 refill": {
+  "mean": 0.011875,
+  "finished": 0.04625,
+  "score_given_finished": 0.25675675675675674,
+  "any_solve8": 0.035,
+  "mean_len": 4059.025,
+  "n_items": 200
+ },
+ "JustRL-Nemotron-1.5B cap8192 hard": {
+  "mean": 0.03911889596602972,
+  "finished": 0.2818471337579618,
+  "score_given_finished": 0.13879472693032016,
+  "any_solve8": 0.08280254777070063,
+  "mean_len": 7567.340498938429,
+  "n_items": 471
+ },
+ "JustRL-Nemotron-1.5B cap8192 refill": {
+  "mean": 0.06416666666666666,
+  "finished": 0.341875,
+  "score_given_finished": 0.18769043266301036,
+  "any_solve8": 0.135,
+  "mean_len": 7444.9075,
+  "n_items": 200
+ },
+ "JustRL-Nemotron-1.5B cap16384 hard": {
+  "mean": 0.06832410777474472,
+  "finished": 0.9408174097664543,
+  "score_given_finished": 0.07262206998455235,
+  "any_solve8": 0.12738853503184713,
+  "mean_len": 10231.726645435245,
+  "n_items": 471
+ },
+ "JustRL-Nemotron-1.5B cap16384 refill": {
+  "mean": 0.12399305555555555,
+  "finished": 0.96125,
+  "score_given_finished": 0.12899147522034388,
+  "any_solve8": 0.22,
+  "mean_len": 9758.02125,
+  "n_items": 200
+ }
+}

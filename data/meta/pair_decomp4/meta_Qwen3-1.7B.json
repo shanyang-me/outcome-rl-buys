@@ -1,0 +1,27 @@
+{
+ "model": "Qwen/Qwen3-1.7B",
+ "path": "/root/hf/hub/models--Qwen--Qwen3-1.7B/snapshots/70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+ "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+ "host": "febebc2c063b",
+ "gpu": "NVIDIA H100 80GB HBM3",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "gen_cap": 16384,
+ "derived_caps": [
+  4096,
+  8192
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  151668
+ ],
+ "seconds": {
+  "load": 65,
+  "generate": 12214,
+  "score": 98
+ },
+ "trace_rows": 1200
+}

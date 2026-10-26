@@ -1,0 +1,15 @@
+{
+ "model": "inclusionAI/AReaL-1.5B-Preview-Stage-3",
+ "path": "/root/hf/hub/models--inclusionAI--AReaL-1.5B-Preview-Stage-3/snapshots/b0fbd9f4f6659a3f2c8d809b17912f9b5e548954",
+ "cap": 24576,
+ "n_problems": 10,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 9,
+ "finished": 0.9166666666666666,
+ "seconds": {
+  "load": 59,
+  "generate": 376
+ },
+ "host": "f030079c0c71"
+}

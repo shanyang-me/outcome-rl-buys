@@ -1,0 +1,82 @@
+{
+ "STILL-3-1.5B-preview cap4096 phys": {
+  "mean": 0.16649305555555555,
+  "finished": 0.30791666666666667,
+  "score_given_finished": 0.5407081641858367,
+  "any_solve8": 0.31333333333333335,
+  "mean_len": 3585.7508333333335,
+  "n_items": 300
+ },
+ "STILL-3-1.5B-preview cap8192 phys": {
+  "mean": 0.26153472222222224,
+  "finished": 0.5979166666666667,
+  "score_given_finished": 0.43740998838559814,
+  "any_solve8": 0.4533333333333333,
+  "mean_len": 5803.841666666666,
+  "n_items": 300
+ },
+ "STILL-3-1.5B-preview cap16384 phys": {
+  "mean": 0.3080277777777778,
+  "finished": 0.8970833333333333,
+  "score_given_finished": 0.3433658461062084,
+  "any_solve8": 0.5133333333333333,
+  "mean_len": 7645.35,
+  "n_items": 300
+ },
+ "STILL-3-1.5B-preview cap24576 phys": {
+  "mean": 0.31406944444444446,
+  "finished": 0.9616666666666667,
+  "score_given_finished": 0.32658867706528016,
+  "any_solve8": 0.5266666666666666,
+  "mean_len": 8108.24375,
+  "n_items": 300
+ },
+ "STILL-3-1.5B-preview cap28672 phys": {
+  "mean": 0.3142083333333333,
+  "finished": 0.9670833333333333,
+  "score_given_finished": 0.32490305902628175,
+  "any_solve8": 0.5266666666666666,
+  "mean_len": 8252.313333333334,
+  "n_items": 300
+ },
+ "STILL-3-1.5B-preview cap32768 phys": {
+  "mean": 0.3147361111111111,
+  "finished": 0.9725,
+  "score_given_finished": 0.3236361039702942,
+  "any_solve8": 0.5266666666666666,
+  "mean_len": 8377.470833333333,
+  "n_items": 300
+ },
+ "STILL-3-1.5B-preview cap36864 phys": {
+  "mean": 0.3151527777777778,
+  "finished": 0.9775,
+  "score_given_finished": 0.32240693378800794,
+  "any_solve8": 0.53,
+  "mean_len": 8477.009583333333,
+  "n_items": 300
+ },
+ "STILL-3-1.5B-preview cap49152 phys": {
+  "mean": 0.3151527777777778,
+  "finished": 0.9804166666666667,
+  "score_given_finished": 0.3214477971384049,
+  "any_solve8": 0.53,
+  "mean_len": 8734.657916666667,
+  "n_items": 300
+ },
+ "STILL-3-1.5B-preview cap53248 phys": {
+  "mean": 0.3151527777777778,
+  "finished": 0.9804166666666667,
+  "score_given_finished": 0.3214477971384049,
+  "any_solve8": 0.53,
+  "mean_len": 8814.87125,
+  "n_items": 300
+ },
+ "STILL-3-1.5B-preview cap65536 phys": {
+  "mean": 0.3151527777777778,
+  "finished": 0.9808333333333333,
+  "score_given_finished": 0.32131124327386007,
+  "any_solve8": 0.53,
+  "mean_len": 9052.401666666667,
+  "n_items": 300
+ }
+}

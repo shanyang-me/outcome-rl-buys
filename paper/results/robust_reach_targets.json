@@ -1,0 +1,1051 @@
+{
+"targets": [
+"math:test/counting_and_probability/525.json",
+"math:test/counting_and_probability/765.json",
+"math:test/counting_and_probability/894.json",
+"math:test/geometry/172.json",
+"math:test/geometry/711.json",
+"math:test/intermediate_algebra/1279.json",
+"math:test/intermediate_algebra/1544.json",
+"math:test/intermediate_algebra/582.json",
+"math:test/number_theory/368.json",
+"math:test/number_theory/516.json",
+"math:test/number_theory/847.json",
+"math:test/prealgebra/105.json",
+"math:test/prealgebra/1128.json",
+"math:test/prealgebra/1646.json",
+"math:test/prealgebra/1865.json",
+"math:test/precalculus/768.json",
+"phys:cal_problem_01082",
+"phys:physcorp_1059",
+"phys:physcorp_1330",
+"phys:physcorp_1719",
+"phys:physcorp_2687",
+"phys:physcorp_2961",
+"phys:physcorp_3132",
+"phys:physcorp_318",
+"phys:physcorp_3717",
+"phys:physcorp_397",
+"phys:physcorp_417",
+"phys:physcorp_4337",
+"phys:physcorp_4414",
+"phys:physcorp_6368",
+"phys:physicsb_1985",
+"phys:physicsb_2258",
+"phys:physicsb_7699",
+"phys:tbr_106015",
+"phys:tbr_136169",
+"phys:tbr_172668",
+"phys:tbr_178377",
+"phys:tbr_22163",
+"phys:tbr_245633",
+"phys:tbr_272924",
+"phys:tbr_421768",
+"phys:tbr_462584",
+"phys:tbr_500712",
+"phys:tbr_558505",
+"phys:tbr_572530",
+"phys:tbr_585100",
+"phys:tbr_642894"
+],
+"cells": [
+[
+"16k",
+"ProRL v2",
+"R1-1.5B",
+"phys:physcorp_1719"
+],
+[
+"16k",
+"ProRL v2",
+"R1-1.5B",
+"phys:tbr_172668"
+],
+[
+"16k",
+"ProRL v2",
+"R1-1.5B",
+"phys:tbr_500712"
+],
+[
+"16k",
+"ProRL v2",
+"R1-1.5B",
+"phys:tbr_245633"
+],
+[
+"16k",
+"ProRL v2",
+"R1-1.5B",
+"math:test/prealgebra/105.json"
+],
+[
+"16k",
+"ProRL v2",
+"R1-1.5B",
+"math:test/prealgebra/1128.json"
+],
+[
+"at 8k",
+"ProRL v2",
+"R1-1.5B",
+"phys:tbr_500712"
+],
+[
+"at 8k",
+"ProRL v2",
+"R1-1.5B",
+"phys:tbr_245633"
+],
+[
+"at 8k",
+"ProRL v2",
+"R1-1.5B",
+"math:test/prealgebra/105.json"
+],
+[
+"beyond 16k",
+"ProRL v2",
+"R1-1.5B",
+"phys:physcorp_3717"
+],
+[
+"beyond 16k",
+"ProRL v2",
+"R1-1.5B",
+"phys:tbr_22163"
+],
+[
+"beyond 16k",
+"ProRL v2",
+"R1-1.5B",
+"phys:tbr_500712"
+],
+[
+"beyond 16k",
+"ProRL v2",
+"R1-1.5B",
+"phys:physcorp_3104"
+],
+[
+"beyond 16k",
+"ProRL v2",
+"R1-1.5B",
+"phys:tbr_245633"
+],
+[
+"beyond 16k",
+"ProRL v2",
+"R1-1.5B",
+"math:test/prealgebra/105.json"
+],
+[
+"at 16k",
+"JustRL-D",
+"R1-1.5B",
+"math:test/precalculus/768.json"
+],
+[
+"beyond 24k",
+"JustRL-D",
+"R1-1.5B",
+"phys:tbr_558505"
+],
+[
+"beyond 24k",
+"JustRL-D",
+"R1-1.5B",
+"math:test/counting_and_probability/525.json"
+],
+[
+"beyond 24k",
+"JustRL-D",
+"R1-1.5B",
+"math:test/precalculus/768.json"
+],
+[
+"at 24k",
+"DeepScaleR",
+"R1-1.5B",
+"phys:tbr_558505"
+],
+[
+"at 24k",
+"DeepScaleR",
+"R1-1.5B",
+"phys:physcorp_318"
+],
+[
+"beyond 28k",
+"DeepScaleR",
+"R1-1.5B",
+"phys:tbr_558505"
+],
+[
+"beyond 28k",
+"DeepScaleR",
+"R1-1.5B",
+"phys:physcorp_318"
+],
+[
+"at 24k",
+"DeepMath",
+"R1-1.5B",
+"phys:tbr_558505"
+],
+[
+"beyond 28k",
+"DeepMath",
+"R1-1.5B",
+"phys:tbr_558505"
+],
+[
+"beyond 28k",
+"DeepMath",
+"R1-1.5B",
+"math:test/intermediate_algebra/582.json"
+],
+[
+"16k",
+"RLinf",
+"R1-1.5B",
+"math:test/prealgebra/105.json"
+],
+[
+"16k",
+"RLinf",
+"R1-1.5B",
+"math:test/prealgebra/1128.json"
+],
+[
+"at 28k",
+"RLinf",
+"R1-1.5B",
+"phys:tbr_558505"
+],
+[
+"at 28k",
+"RLinf",
+"R1-1.5B",
+"math:test/counting_and_probability/525.json"
+],
+[
+"at 28k",
+"RLinf",
+"R1-1.5B",
+"math:test/prealgebra/105.json"
+],
+[
+"at 28k",
+"RLinf",
+"R1-1.5B",
+"math:test/intermediate_algebra/582.json"
+],
+[
+"at 28k",
+"RLinf",
+"R1-1.5B",
+"math:test/counting_and_probability/765.json"
+],
+[
+"beyond 32k",
+"RLinf",
+"R1-1.5B",
+"phys:tbr_558505"
+],
+[
+"beyond 32k",
+"RLinf",
+"R1-1.5B",
+"phys:tbr_78665"
+],
+[
+"beyond 32k",
+"RLinf",
+"R1-1.5B",
+"math:test/counting_and_probability/525.json"
+],
+[
+"beyond 32k",
+"RLinf",
+"R1-1.5B",
+"math:test/prealgebra/105.json"
+],
+[
+"beyond 32k",
+"RLinf",
+"R1-1.5B",
+"math:test/intermediate_algebra/582.json"
+],
+[
+"beyond 32k",
+"RLinf",
+"R1-1.5B",
+"math:test/counting_and_probability/765.json"
+],
+[
+"at 28k",
+"STILL-3",
+"R1-1.5B",
+"phys:tbr_558505"
+],
+[
+"beyond 32k",
+"STILL-3",
+"R1-1.5B",
+"phys:tbr_558505"
+],
+[
+"at 24k",
+"AReaL",
+"R1-1.5B",
+"math:test/prealgebra/1646.json"
+],
+[
+"beyond 28k",
+"AReaL",
+"R1-1.5B",
+"math:test/prealgebra/1646.json"
+],
+[
+"16k",
+"JustRL-N",
+"OMN-1.5B",
+"phys:tbr_136169"
+],
+[
+"at 16k",
+"JustRL-N",
+"OMN-1.5B",
+"phys:tbr_136169"
+],
+[
+"at 16k",
+"JustRL-N",
+"OMN-1.5B",
+"phys:physcorp_1330"
+],
+[
+"beyond 24k",
+"JustRL-N",
+"OMN-1.5B",
+"phys:tbr_136169"
+],
+[
+"beyond 24k",
+"JustRL-N",
+"OMN-1.5B",
+"phys:physcorp_1330"
+],
+[
+"16k",
+"QuestA",
+"OMN-1.5B",
+"math:test/geometry/172.json"
+],
+[
+"at 24k",
+"QuestA",
+"OMN-1.5B",
+"math:test/geometry/172.json"
+],
+[
+"beyond 28k",
+"QuestA",
+"OMN-1.5B",
+"math:test/geometry/172.json"
+],
+[
+"16k",
+"KnowRL",
+"OMN-1.5B",
+"math:test/geometry/172.json"
+],
+[
+"16k",
+"KnowRL",
+"OMN-1.5B",
+"math:test/counting_and_probability/894.json"
+],
+[
+"at 24k",
+"KnowRL",
+"OMN-1.5B",
+"phys:tbr_272924"
+],
+[
+"at 24k",
+"KnowRL",
+"OMN-1.5B",
+"math:test/geometry/172.json"
+],
+[
+"at 24k",
+"KnowRL",
+"OMN-1.5B",
+"math:test/counting_and_probability/894.json"
+],
+[
+"beyond 28k",
+"KnowRL",
+"OMN-1.5B",
+"phys:tbr_272924"
+],
+[
+"beyond 28k",
+"KnowRL",
+"OMN-1.5B",
+"math:test/geometry/172.json"
+],
+[
+"beyond 28k",
+"KnowRL",
+"OMN-1.5B",
+"math:test/counting_and_probability/894.json"
+],
+[
+"16k",
+"DeepMath-Omn",
+"OMN-1.5B",
+"phys:cal_problem_01082"
+],
+[
+"beyond 24k",
+"e3",
+"Q3-1.7B",
+"phys:physcorp_3393"
+],
+[
+"beyond 24k",
+"e3",
+"Q3-1.7B",
+"phys:physcorp_2013"
+],
+[
+"16k",
+"Skywork-7B",
+"R1-7B",
+"phys:tbr_106015"
+],
+[
+"16k",
+"Skywork-7B",
+"R1-7B",
+"phys:tbr_22163"
+],
+[
+"16k",
+"Skywork-7B",
+"R1-7B",
+"phys:physicsb_2258"
+],
+[
+"16k",
+"Skywork-7B",
+"R1-7B",
+"phys:tbr_462584"
+],
+[
+"at 32k",
+"Skywork-7B",
+"R1-7B",
+"phys:physcorp_3132"
+],
+[
+"at 32k",
+"Skywork-7B",
+"R1-7B",
+"phys:tbr_22163"
+],
+[
+"at 32k",
+"Skywork-7B",
+"R1-7B",
+"phys:physicsb_2258"
+],
+[
+"at 32k",
+"Skywork-7B",
+"R1-7B",
+"math:test/number_theory/516.json"
+],
+[
+"at 32k",
+"Skywork-7B",
+"R1-7B",
+"math:test/intermediate_algebra/1544.json"
+],
+[
+"beyond 48k",
+"Skywork-7B",
+"R1-7B",
+"phys:physcorp_3132"
+],
+[
+"beyond 48k",
+"Skywork-7B",
+"R1-7B",
+"phys:tbr_22163"
+],
+[
+"beyond 48k",
+"Skywork-7B",
+"R1-7B",
+"phys:physicsb_2258"
+],
+[
+"beyond 48k",
+"Skywork-7B",
+"R1-7B",
+"math:test/number_theory/516.json"
+],
+[
+"beyond 48k",
+"Skywork-7B",
+"R1-7B",
+"math:test/intermediate_algebra/1544.json"
+],
+[
+"beyond 48k",
+"Skywork-7B",
+"R1-7B",
+"math:test/geometry/465.json"
+],
+[
+"at 32k",
+"AceReason-14B",
+"R1-14B",
+"phys:physicsb_1985"
+],
+[
+"at 32k",
+"AceReason-14B",
+"R1-14B",
+"phys:physcorp_1059"
+],
+[
+"at 32k",
+"AceReason-14B",
+"R1-14B",
+"phys:physcorp_6368"
+],
+[
+"beyond 48k",
+"AceReason-14B",
+"R1-14B",
+"phys:physicsb_1985"
+],
+[
+"beyond 48k",
+"AceReason-14B",
+"R1-14B",
+"phys:physcorp_1059"
+],
+[
+"beyond 48k",
+"AceReason-14B",
+"R1-14B",
+"phys:physcorp_6368"
+],
+[
+"16k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_106015"
+],
+[
+"16k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_22163"
+],
+[
+"16k",
+"Skywork-Math",
+"R1-7B",
+"phys:physicsb_2258"
+],
+[
+"16k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_500712"
+],
+[
+"16k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_462584"
+],
+[
+"at 32k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_421768"
+],
+[
+"at 32k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_642894"
+],
+[
+"at 32k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_22163"
+],
+[
+"at 32k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_585100"
+],
+[
+"at 32k",
+"Skywork-Math",
+"R1-7B",
+"phys:physicsb_2258"
+],
+[
+"at 32k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_500712"
+],
+[
+"at 32k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_245633"
+],
+[
+"at 32k",
+"Skywork-Math",
+"R1-7B",
+"math:test/number_theory/516.json"
+],
+[
+"at 32k",
+"Skywork-Math",
+"R1-7B",
+"math:test/intermediate_algebra/1544.json"
+],
+[
+"beyond 48k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_421768"
+],
+[
+"beyond 48k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_642894"
+],
+[
+"beyond 48k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_22163"
+],
+[
+"beyond 48k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_585100"
+],
+[
+"beyond 48k",
+"Skywork-Math",
+"R1-7B",
+"phys:physicsb_2258"
+],
+[
+"beyond 48k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_172668"
+],
+[
+"beyond 48k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_500712"
+],
+[
+"beyond 48k",
+"Skywork-Math",
+"R1-7B",
+"phys:tbr_245633"
+],
+[
+"beyond 48k",
+"Skywork-Math",
+"R1-7B",
+"math:test/number_theory/516.json"
+],
+[
+"beyond 48k",
+"Skywork-Math",
+"R1-7B",
+"math:test/intermediate_algebra/1544.json"
+],
+[
+"16k",
+"AceReason",
+"R1-7B",
+"phys:tbr_106015"
+],
+[
+"16k",
+"AceReason",
+"R1-7B",
+"phys:physcorp_397"
+],
+[
+"16k",
+"AceReason",
+"R1-7B",
+"phys:physicsb_2258"
+],
+[
+"at 32k",
+"AceReason",
+"R1-7B",
+"phys:physcorp_4337"
+],
+[
+"at 32k",
+"AceReason",
+"R1-7B",
+"phys:physcorp_2687"
+],
+[
+"at 32k",
+"AceReason",
+"R1-7B",
+"phys:physicsb_2258"
+],
+[
+"at 32k",
+"AceReason",
+"R1-7B",
+"math:test/number_theory/516.json"
+],
+[
+"at 32k",
+"AceReason",
+"R1-7B",
+"math:test/intermediate_algebra/1544.json"
+],
+[
+"beyond 48k",
+"AceReason",
+"R1-7B",
+"phys:physcorp_4337"
+],
+[
+"beyond 48k",
+"AceReason",
+"R1-7B",
+"phys:physcorp_2687"
+],
+[
+"beyond 48k",
+"AceReason",
+"R1-7B",
+"phys:physicsb_2258"
+],
+[
+"beyond 48k",
+"AceReason",
+"R1-7B",
+"math:test/number_theory/516.json"
+],
+[
+"beyond 48k",
+"AceReason",
+"R1-7B",
+"math:test/intermediate_algebra/1544.json"
+]
+],
+"mirror": [
+[
+"16k",
+"JustRL-D",
+"R1-1.5B",
+"math:test/number_theory/847.json"
+],
+[
+"16k",
+"JustRL-D",
+"R1-1.5B",
+"math:test/number_theory/368.json"
+],
+[
+"at 16k",
+"JustRL-D",
+"R1-1.5B",
+"math:test/number_theory/847.json"
+],
+[
+"at 16k",
+"JustRL-D",
+"R1-1.5B",
+"math:test/number_theory/368.json"
+],
+[
+"beyond 24k",
+"JustRL-D",
+"R1-1.5B",
+"math:test/number_theory/847.json"
+],
+[
+"beyond 24k",
+"JustRL-D",
+"R1-1.5B",
+"math:test/number_theory/368.json"
+],
+[
+"at 24k",
+"DeepMath",
+"R1-1.5B",
+"math:test/intermediate_algebra/1279.json"
+],
+[
+"beyond 28k",
+"DeepMath",
+"R1-1.5B",
+"math:test/intermediate_algebra/1279.json"
+],
+[
+"16k",
+"RLinf",
+"R1-1.5B",
+"phys:physicsb_7699"
+],
+[
+"16k",
+"RLinf",
+"R1-1.5B",
+"math:test/prealgebra/1865.json"
+],
+[
+"at 28k",
+"RLinf",
+"R1-1.5B",
+"phys:physicsb_7699"
+],
+[
+"beyond 32k",
+"RLinf",
+"R1-1.5B",
+"phys:physicsb_7699"
+],
+[
+"16k",
+"AReaL",
+"R1-1.5B",
+"phys:physcorp_417"
+],
+[
+"beyond 28k",
+"AReaL",
+"R1-1.5B",
+"phys:tbr_178377"
+],
+[
+"16k",
+"JustRL-N",
+"OMN-1.5B",
+"math:test/number_theory/516.json"
+],
+[
+"at 16k",
+"JustRL-N",
+"OMN-1.5B",
+"math:test/number_theory/516.json"
+],
+[
+"beyond 24k",
+"JustRL-N",
+"OMN-1.5B",
+"math:test/number_theory/516.json"
+],
+[
+"beyond 28k",
+"QuestA",
+"OMN-1.5B",
+"phys:tbr_22163"
+],
+[
+"16k",
+"KnowRL",
+"OMN-1.5B",
+"phys:tbr_500712"
+],
+[
+"at 24k",
+"KnowRL",
+"OMN-1.5B",
+"phys:tbr_421768"
+],
+[
+"at 24k",
+"KnowRL",
+"OMN-1.5B",
+"phys:tbr_22163"
+],
+[
+"at 24k",
+"KnowRL",
+"OMN-1.5B",
+"phys:tbr_500712"
+],
+[
+"at 24k",
+"KnowRL",
+"OMN-1.5B",
+"math:test/number_theory/516.json"
+],
+[
+"beyond 28k",
+"KnowRL",
+"OMN-1.5B",
+"phys:tbr_421768"
+],
+[
+"beyond 28k",
+"KnowRL",
+"OMN-1.5B",
+"phys:tbr_22163"
+],
+[
+"beyond 28k",
+"KnowRL",
+"OMN-1.5B",
+"phys:tbr_500712"
+],
+[
+"beyond 28k",
+"KnowRL",
+"OMN-1.5B",
+"math:test/number_theory/516.json"
+],
+[
+"at 24k",
+"DeepMath-Omn",
+"OMN-1.5B",
+"phys:tbr_500712"
+],
+[
+"at 24k",
+"DeepMath-Omn",
+"OMN-1.5B",
+"math:test/number_theory/516.json"
+],
+[
+"beyond 28k",
+"DeepMath-Omn",
+"OMN-1.5B",
+"phys:tbr_500712"
+],
+[
+"beyond 28k",
+"DeepMath-Omn",
+"OMN-1.5B",
+"math:test/number_theory/516.json"
+],
+[
+"16k",
+"e3",
+"Q3-1.7B",
+"phys:physcorp_3717"
+],
+[
+"at 16k",
+"e3",
+"Q3-1.7B",
+"phys:physcorp_417"
+],
+[
+"beyond 24k",
+"e3",
+"Q3-1.7B",
+"phys:physcorp_417"
+],
+[
+"beyond 24k",
+"e3",
+"Q3-1.7B",
+"phys:tbr_572530"
+],
+[
+"16k",
+"Skywork-7B",
+"R1-7B",
+"phys:physcorp_2961"
+],
+[
+"beyond 48k",
+"Skywork-7B",
+"R1-7B",
+"math:test/prealgebra/1128.json"
+],
+[
+"at 32k",
+"Skywork-Math",
+"R1-7B",
+"phys:physcorp_6368"
+],
+[
+"at 32k",
+"Skywork-Math",
+"R1-7B",
+"phys:physcorp_4414"
+],
+[
+"beyond 48k",
+"Skywork-Math",
+"R1-7B",
+"phys:physcorp_6368"
+],
+[
+"beyond 48k",
+"Skywork-Math",
+"R1-7B",
+"phys:physcorp_4414"
+],
+[
+"16k",
+"AceReason",
+"R1-7B",
+"phys:physcorp_2961"
+],
+[
+"at 32k",
+"AceReason",
+"R1-7B",
+"phys:tbr_572530"
+],
+[
+"at 32k",
+"AceReason",
+"R1-7B",
+"math:test/geometry/711.json"
+],
+[
+"beyond 48k",
+"AceReason",
+"R1-7B",
+"phys:tbr_572530"
+],
+[
+"beyond 48k",
+"AceReason",
+"R1-7B",
+"math:test/geometry/711.json"
+]
+]
+}

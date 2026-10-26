@@ -1,0 +1,42 @@
+{
+ "files": {
+  "DeepMath-1.5B": {
+   "solved_matcher": 754,
+   "solved_judged": 933,
+   "rejected": 4497,
+   "raised": 218,
+   "now_full": 179
+  },
+  "DeepMath-Omn-1.5B": {
+   "rejected": 4865,
+   "raised": 105,
+   "now_full": 72,
+   "solved_matcher": 370,
+   "solved_judged": 442
+  },
+  "JustRL-Nemotron-1.5B": {
+   "rejected": 4675,
+   "raised": 105,
+   "now_full": 80,
+   "solved_matcher": 408,
+   "solved_judged": 488
+  },
+  "KnowRL-Nemotron-1.5B": {
+   "rejected": 4680,
+   "raised": 110,
+   "now_full": 90,
+   "solved_matcher": 465,
+   "solved_judged": 555
+  },
+  "Qwen3-1.7B": {
+   "solved_matcher": 860,
+   "solved_judged": 1084,
+   "rejected": 4228,
+   "raised": 252,
+   "now_full": 224
+  }
+ },
+ "deferred_last_run": 3907,
+ "distinct_prompts_last_run": 3323,
+ "unparsed_last_run": 2
+}

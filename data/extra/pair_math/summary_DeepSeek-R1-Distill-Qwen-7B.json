@@ -1,0 +1,98 @@
+{
+ "DeepSeek-R1-Distill-Qwen-7B cap4096 post": {
+  "mean": 0.08531746031746032,
+  "finished": 0.0873015873015873,
+  "score_given_finished": 0.9772727272727273,
+  "any_solve8": 0.1746031746031746,
+  "mean_len": 4013.089285714286,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap4096 pre": {
+  "mean": 0.10357981220657277,
+  "finished": 0.11267605633802817,
+  "score_given_finished": 0.9192708333333334,
+  "any_solve8": 0.215962441314554,
+  "mean_len": 3982.0798122065726,
+  "n_items": 213
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap8192 post": {
+  "mean": 0.23809523809523808,
+  "finished": 0.28174603174603174,
+  "score_given_finished": 0.8450704225352113,
+  "any_solve8": 0.3968253968253968,
+  "mean_len": 7314.974206349207,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap8192 pre": {
+  "mean": 0.25616197183098594,
+  "finished": 0.31103286384976525,
+  "score_given_finished": 0.8235849056603773,
+  "any_solve8": 0.41784037558685444,
+  "mean_len": 7171.774647887324,
+  "n_items": 213
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap16384 post": {
+  "mean": 0.35912698412698413,
+  "finished": 0.5873015873015873,
+  "score_given_finished": 0.6114864864864865,
+  "any_solve8": 0.5714285714285714,
+  "mean_len": 11782.694444444445,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap16384 pre": {
+  "mean": 0.3506455399061033,
+  "finished": 0.6068075117370892,
+  "score_given_finished": 0.5778529980657641,
+  "any_solve8": 0.568075117370892,
+  "mean_len": 11614.076877934272,
+  "n_items": 213
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap24576 post": {
+  "mean": 0.376984126984127,
+  "finished": 0.8055555555555556,
+  "score_given_finished": 0.46798029556650245,
+  "any_solve8": 0.5873015873015873,
+  "mean_len": 14190.53373015873,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap24576 pre": {
+  "mean": 0.3700117370892019,
+  "finished": 0.8198356807511737,
+  "score_given_finished": 0.4513242662848962,
+  "any_solve8": 0.6150234741784038,
+  "mean_len": 13921.836854460094,
+  "n_items": 213
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap28672 post": {
+  "mean": 0.37896825396825395,
+  "finished": 0.8650793650793651,
+  "score_given_finished": 0.4380733944954128,
+  "any_solve8": 0.5873015873015873,
+  "mean_len": 14851.166666666666,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap28672 pre": {
+  "mean": 0.37411971830985913,
+  "finished": 0.8826291079812206,
+  "score_given_finished": 0.42386968085106386,
+  "any_solve8": 0.6244131455399061,
+  "mean_len": 14521.078638497653,
+  "n_items": 213
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap32768 post": {
+  "mean": 0.37896825396825395,
+  "finished": 0.9087301587301587,
+  "score_given_finished": 0.4170305676855895,
+  "any_solve8": 0.5873015873015873,
+  "mean_len": 15315.912698412698,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap32768 pre": {
+  "mean": 0.37588028169014087,
+  "finished": 0.9160798122065728,
+  "score_given_finished": 0.4103139013452915,
+  "any_solve8": 0.6244131455399061,
+  "mean_len": 14932.519953051644,
+  "n_items": 213
+ }
+}

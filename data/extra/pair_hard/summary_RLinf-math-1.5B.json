@@ -1,0 +1,82 @@
+{
+ "RLinf-math-1.5B cap4096 hard": {
+  "mean": 0.0906758669497523,
+  "finished": 0.3227176220806794,
+  "score_given_finished": 0.28097587719298245,
+  "any_solve8": 0.1762208067940552,
+  "mean_len": 3507.7396496815286,
+  "n_items": 471
+ },
+ "RLinf-math-1.5B cap4096 refill": {
+  "mean": 0.11583333333333333,
+  "finished": 0.363125,
+  "score_given_finished": 0.31899024670109005,
+  "any_solve8": 0.205,
+  "mean_len": 3427.989375,
+  "n_items": 200
+ },
+ "RLinf-math-1.5B cap8192 hard": {
+  "mean": 0.11726759175007583,
+  "finished": 0.554140127388535,
+  "score_given_finished": 0.21162082649151615,
+  "any_solve8": 0.21019108280254778,
+  "mean_len": 5768.821390658174,
+  "n_items": 471
+ },
+ "RLinf-math-1.5B cap8192 refill": {
+  "mean": 0.15486111111111112,
+  "finished": 0.625625,
+  "score_given_finished": 0.24753024753024752,
+  "any_solve8": 0.275,
+  "mean_len": 5415.264375,
+  "n_items": 200
+ },
+ "RLinf-math-1.5B cap16384 hard": {
+  "mean": 0.13052648872712566,
+  "finished": 0.8312101910828026,
+  "score_given_finished": 0.15703186766405158,
+  "any_solve8": 0.2229299363057325,
+  "mean_len": 8191.445063694267,
+  "n_items": 471
+ },
+ "RLinf-math-1.5B cap16384 refill": {
+  "mean": 0.17243055555555556,
+  "finished": 0.8675,
+  "score_given_finished": 0.19876721101504963,
+  "any_solve8": 0.31,
+  "mean_len": 7329.9575,
+  "n_items": 200
+ },
+ "RLinf-math-1.5B cap24576 hard": {
+  "mean": 0.13368908603781215,
+  "finished": 0.9623142250530785,
+  "score_given_finished": 0.1389245659653823,
+  "any_solve8": 0.22717622080679406,
+  "mean_len": 8924.20143312102,
+  "n_items": 471
+ },
+ "RLinf-math-1.5B cap24576 refill": {
+  "mean": 0.17993055555555557,
+  "finished": 0.975625,
+  "score_given_finished": 0.1844259377891665,
+  "any_solve8": 0.31,
+  "mean_len": 7835.8325,
+  "n_items": 200
+ },
+ "RLinf-math-1.5B cap28672 hard": {
+  "mean": 0.13368908603781215,
+  "finished": 0.9777070063694268,
+  "score_given_finished": 0.1367373713872085,
+  "any_solve8": 0.22717622080679406,
+  "mean_len": 9044.828290870488,
+  "n_items": 471
+ },
+ "RLinf-math-1.5B cap28672 refill": {
+  "mean": 0.17993055555555557,
+  "finished": 0.9875,
+  "score_given_finished": 0.18220815752461322,
+  "any_solve8": 0.31,
+  "mean_len": 7909.0425,
+  "n_items": 200
+ }
+}

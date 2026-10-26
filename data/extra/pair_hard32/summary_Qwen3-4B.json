@@ -1,0 +1,15 @@
+{
+ "model": "Qwen/Qwen3-4B",
+ "path": "/root/hf/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+ "cap": 53248,
+ "n_problems": 46,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 15,
+ "finished": 0.990036231884058,
+ "seconds": {
+  "load": 83,
+  "generate": 6753
+ },
+ "host": "f030079c0c71"
+}

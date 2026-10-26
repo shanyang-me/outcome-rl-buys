@@ -1,0 +1,30 @@
+{
+ "model": "Skywork/Skywork-OR1-32B",
+ "path": "/root/hf/hub/models--Skywork--Skywork-OR1-32B/snapshots/8545e72b0bcb20bd08193400bc75b4ff6ccb300a",
+ "revision": "8545e72b0bcb20bd08193400bc75b4ff6ccb300a",
+ "host": "f030079c0c71",
+ "gpu": "NVIDIA H200",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "yarn": null,
+ "hf_overrides": null,
+ "gen_cap": 24576,
+ "derived_caps": [
+  4096,
+  8192,
+  16384
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  151649
+ ],
+ "seconds": {
+  "load": 73,
+  "generate": 41586,
+  "score": 178
+ },
+ "trace_rows": 0
+}

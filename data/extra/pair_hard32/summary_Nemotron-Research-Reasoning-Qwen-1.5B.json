@@ -1,0 +1,15 @@
+{
+ "model": "nvidia/Nemotron-Research-Reasoning-Qwen-1.5B",
+ "path": "/root/hf/hub/models--nvidia--Nemotron-Research-Reasoning-Qwen-1.5B/snapshots/c62ac5e70bd578a9235aa9d8e11fff2f1f63d4a0",
+ "cap": 16384,
+ "n_problems": 20,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 7,
+ "finished": 1.0,
+ "seconds": {
+  "load": 144,
+  "generate": 219
+ },
+ "host": "44124840e389"
+}

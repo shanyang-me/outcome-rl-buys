@@ -1,0 +1,82 @@
+{
+ "STILL-3-1.5B-preview cap4096 hard": {
+  "mean": 0.05701963906581741,
+  "finished": 0.173036093418259,
+  "score_given_finished": 0.3295245398773006,
+  "any_solve8": 0.14012738853503184,
+  "mean_len": 3841.5098195329088,
+  "n_items": 471
+ },
+ "STILL-3-1.5B-preview cap4096 refill": {
+  "mean": 0.08333333333333333,
+  "finished": 0.24125,
+  "score_given_finished": 0.3454231433506045,
+  "any_solve8": 0.17,
+  "mean_len": 3717.79125,
+  "n_items": 200
+ },
+ "STILL-3-1.5B-preview cap8192 hard": {
+  "mean": 0.08779888282276817,
+  "finished": 0.4177282377919321,
+  "score_given_finished": 0.210181823682459,
+  "any_solve8": 0.1762208067940552,
+  "mean_len": 6721.825371549894,
+  "n_items": 471
+ },
+ "STILL-3-1.5B-preview cap8192 refill": {
+  "mean": 0.12958333333333333,
+  "finished": 0.531875,
+  "score_given_finished": 0.2436349392871132,
+  "any_solve8": 0.25,
+  "mean_len": 6194.645,
+  "n_items": 200
+ },
+ "STILL-3-1.5B-preview cap16384 hard": {
+  "mean": 0.10094404003639672,
+  "finished": 0.8410297239915074,
+  "score_given_finished": 0.12002434296533382,
+  "any_solve8": 0.1932059447983015,
+  "mean_len": 9557.878450106156,
+  "n_items": 471
+ },
+ "STILL-3-1.5B-preview cap16384 refill": {
+  "mean": 0.1540277777777778,
+  "finished": 0.885,
+  "score_given_finished": 0.17404268675455117,
+  "any_solve8": 0.28,
+  "mean_len": 8326.603125,
+  "n_items": 200
+ },
+ "STILL-3-1.5B-preview cap24576 hard": {
+  "mean": 0.10322199474269537,
+  "finished": 0.9336518046709129,
+  "score_given_finished": 0.11055727009393866,
+  "any_solve8": 0.19532908704883228,
+  "mean_len": 10326.38083864119,
+  "n_items": 471
+ },
+ "STILL-3-1.5B-preview cap24576 refill": {
+  "mean": 0.16027777777777777,
+  "finished": 0.954375,
+  "score_given_finished": 0.1679400422033035,
+  "any_solve8": 0.28,
+  "mean_len": 8876.986875,
+  "n_items": 200
+ },
+ "STILL-3-1.5B-preview cap28672 hard": {
+  "mean": 0.10322199474269537,
+  "finished": 0.9400212314225053,
+  "score_given_finished": 0.10980815251001587,
+  "any_solve8": 0.19532908704883228,
+  "mean_len": 10583.164543524415,
+  "n_items": 471
+ },
+ "STILL-3-1.5B-preview cap28672 refill": {
+  "mean": 0.16027777777777777,
+  "finished": 0.95875,
+  "score_given_finished": 0.1671736925974214,
+  "any_solve8": 0.28,
+  "mean_len": 9055.095625,
+  "n_items": 200
+ }
+}

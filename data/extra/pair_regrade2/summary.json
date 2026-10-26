@@ -1,0 +1,176 @@
+{
+ "files": {
+  "pair_regen64/AReaL-1.5B-Preview-Stage-3": {
+   "rejected": 1718,
+   "raised": 94,
+   "now_full": 81
+  },
+  "pair_regen64/AceReason-Nemotron-14B": {
+   "rejected": 1156,
+   "raised": 146,
+   "now_full": 140
+  },
+  "pair_regen64/AceReason-Nemotron-7B": {
+   "rejected": 1270,
+   "raised": 164,
+   "now_full": 151
+  },
+  "pair_regen64/DeepMath-1.5B": {
+   "rejected": 1591,
+   "raised": 90,
+   "now_full": 80
+  },
+  "pair_regen64/DeepMath-Omn-1.5B": {
+   "rejected": 1875,
+   "raised": 59,
+   "now_full": 52
+  },
+  "pair_regen64/DeepScaleR-1.5B-Preview": {
+   "rejected": 1668,
+   "raised": 89,
+   "now_full": 83
+  },
+  "pair_regen64/DeepSeek-R1-Distill-Qwen-1.5B": {
+   "rejected": 1721,
+   "raised": 90,
+   "now_full": 77
+  },
+  "pair_regen64/DeepSeek-R1-Distill-Qwen-14B": {
+   "rejected": 1297,
+   "raised": 168,
+   "now_full": 157
+  },
+  "pair_regen64/DeepSeek-R1-Distill-Qwen-7B": {
+   "rejected": 1333,
+   "raised": 130,
+   "now_full": 122
+  },
+  "pair_regen64/JustRL-DeepSeek-1.5B": {
+   "rejected": 1594,
+   "raised": 90,
+   "now_full": 80
+  },
+  "pair_regen64/JustRL-Nemotron-1.5B": {
+   "rejected": 1833,
+   "raised": 64,
+   "now_full": 60
+  },
+  "pair_regen64/KnowRL-Nemotron-1.5B": {
+   "rejected": 1833,
+   "raised": 60,
+   "now_full": 54
+  },
+  "pair_regen64/Nemotron-Research-Reasoning-Qwen-1.5B": {
+   "rejected": 1508,
+   "raised": 125,
+   "now_full": 102
+  },
+  "pair_regen64/Open-RS3": {
+   "rejected": 1733,
+   "raised": 81,
+   "now_full": 68
+  },
+  "pair_regen64/OpenMath-Nemotron-1.5B": {
+   "rejected": 1891,
+   "raised": 91,
+   "now_full": 77
+  },
+  "pair_regen64/QuestA-Nemotron-1.5B": {
+   "rejected": 1673,
+   "raised": 66,
+   "now_full": 61
+  },
+  "pair_regen64/RLinf-math-1.5B": {
+   "rejected": 1664,
+   "raised": 93,
+   "now_full": 83
+  },
+  "pair_regen64/STILL-3-1.5B-preview": {
+   "rejected": 1688,
+   "raised": 84,
+   "now_full": 78
+  },
+  "pair_regen64/Skywork-OR1-7B": {
+   "rejected": 1193,
+   "raised": 145,
+   "now_full": 133
+  },
+  "pair_regen64/Skywork-OR1-Math-7B": {
+   "rejected": 1231,
+   "raised": 133,
+   "now_full": 126
+  },
+  "pair_temp/DeepSeek-R1-Distill-Qwen-1.5B": {
+   "rejected": 1772,
+   "raised": 102,
+   "now_full": 87
+  },
+  "pair_temp/DeepSeek-R1-Distill-Qwen-32B": {
+   "rejected": 1125,
+   "raised": 146,
+   "now_full": 133
+  },
+  "pair_temp/DeepSeek-R1-Distill-Qwen-7B": {
+   "rejected": 1406,
+   "raised": 146,
+   "now_full": 121
+  },
+  "pair_temp/JustRL-DeepSeek-1.5B": {
+   "rejected": 1577,
+   "raised": 90,
+   "now_full": 76
+  },
+  "pair_temp/JustRL-Nemotron-1.5B": {
+   "rejected": 1823,
+   "raised": 62,
+   "now_full": 53
+  },
+  "pair_temp/OpenMath-Nemotron-1.5B": {
+   "rejected": 1913,
+   "raised": 96,
+   "now_full": 76
+  },
+  "pair_temp/Polaris-1.7B-Preview": {
+   "rejected": 1389,
+   "raised": 123,
+   "now_full": 103
+  },
+  "pair_temp/Polaris-4B-Preview": {
+   "rejected": 1106,
+   "raised": 159,
+   "now_full": 138
+  },
+  "pair_temp/QuestA-Nemotron-1.5B": {
+   "rejected": 1819,
+   "raised": 62,
+   "now_full": 59
+  },
+  "pair_temp/Qwen3-1.7B": {
+   "rejected": 1454,
+   "raised": 102,
+   "now_full": 85
+  },
+  "pair_temp/Qwen3-4B": {
+   "rejected": 1148,
+   "raised": 125,
+   "now_full": 103
+  },
+  "pair_temp/Skywork-OR1-32B": {
+   "rejected": 1005,
+   "raised": 184,
+   "now_full": 179
+  },
+  "pair_temp/Skywork-OR1-7B": {
+   "rejected": 1225,
+   "raised": 159,
+   "now_full": 150
+  },
+  "pair_temp/Skywork-OR1-Math-7B": {
+   "rejected": 1246,
+   "raised": 126,
+   "now_full": 116
+  }
+ },
+ "deferred": 45748,
+ "unparsed": 31
+}

@@ -1,0 +1,98 @@
+{
+ "AceReason-Nemotron-14B cap4096 hard": {
+  "mean": 0.03967622080679405,
+  "finished": 0.06050955414012739,
+  "score_given_finished": 0.6557017543859649,
+  "any_solve8": 0.08280254777070063,
+  "mean_len": 4001.7757430997876,
+  "n_items": 471
+ },
+ "AceReason-Nemotron-14B cap4096 refill": {
+  "mean": 0.043333333333333335,
+  "finished": 0.069375,
+  "score_given_finished": 0.6246246246246246,
+  "any_solve8": 0.065,
+  "mean_len": 3992.303125,
+  "n_items": 200
+ },
+ "AceReason-Nemotron-14B cap8192 hard": {
+  "mean": 0.12227972399150742,
+  "finished": 0.20833333333333334,
+  "score_given_finished": 0.5869426751592357,
+  "any_solve8": 0.1910828025477707,
+  "mean_len": 7563.0676751592355,
+  "n_items": 471
+ },
+ "AceReason-Nemotron-14B cap8192 refill": {
+  "mean": 0.11177083333333333,
+  "finished": 0.2625,
+  "score_given_finished": 0.4257936507936508,
+  "any_solve8": 0.2,
+  "mean_len": 7455.986875,
+  "n_items": 200
+ },
+ "AceReason-Nemotron-14B cap16384 hard": {
+  "mean": 0.23572755535335152,
+  "finished": 0.5421974522292994,
+  "score_given_finished": 0.4347633032655059,
+  "any_solve8": 0.34182590233545646,
+  "mean_len": 12682.655520169852,
+  "n_items": 471
+ },
+ "AceReason-Nemotron-14B cap16384 refill": {
+  "mean": 0.216875,
+  "finished": 0.665,
+  "score_given_finished": 0.32612781954887216,
+  "any_solve8": 0.325,
+  "mean_len": 11793.13375,
+  "n_items": 200
+ },
+ "AceReason-Nemotron-14B cap24576 hard": {
+  "mean": 0.2792342786371449,
+  "finished": 0.8240445859872612,
+  "score_given_finished": 0.3388582163944483,
+  "any_solve8": 0.3970276008492569,
+  "mean_len": 15171.588375796178,
+  "n_items": 471
+ },
+ "AceReason-Nemotron-14B cap24576 refill": {
+  "mean": 0.2567013888888889,
+  "finished": 0.906875,
+  "score_given_finished": 0.2830614901600429,
+  "any_solve8": 0.335,
+  "mean_len": 13423.475,
+  "n_items": 200
+ },
+ "AceReason-Nemotron-14B cap28672 hard": {
+  "mean": 0.28484291274896373,
+  "finished": 0.9190552016985138,
+  "score_given_finished": 0.3099301458960714,
+  "any_solve8": 0.4012738853503185,
+  "mean_len": 15682.269904458599,
+  "n_items": 471
+ },
+ "AceReason-Nemotron-14B cap28672 refill": {
+  "mean": 0.2632638888888889,
+  "finished": 0.969375,
+  "score_given_finished": 0.27158105881510136,
+  "any_solve8": 0.335,
+  "mean_len": 13666.8125,
+  "n_items": 200
+ },
+ "AceReason-Nemotron-14B cap32768 hard": {
+  "mean": 0.2863025730462036,
+  "finished": 0.9716029723991507,
+  "score_given_finished": 0.2946703346730662,
+  "any_solve8": 0.40552016985138006,
+  "mean_len": 15894.113588110404,
+  "n_items": 471
+ },
+ "AceReason-Nemotron-14B cap32768 refill": {
+  "mean": 0.26430555555555557,
+  "finished": 0.99125,
+  "score_given_finished": 0.26663864368782403,
+  "any_solve8": 0.335,
+  "mean_len": 13733.760625,
+  "n_items": 200
+ }
+}

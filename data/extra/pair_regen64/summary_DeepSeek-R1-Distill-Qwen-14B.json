@@ -1,0 +1,66 @@
+{
+ "DeepSeek-R1-Distill-Qwen-14B cap4096 phys": {
+  "mean": 0.20819444444444443,
+  "finished": 0.3129166666666667,
+  "score_given_finished": 0.665335108743897,
+  "any_solve8": 0.38,
+  "mean_len": 3598.733333333333,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-14B cap8192 phys": {
+  "mean": 0.39428819444444446,
+  "finished": 0.6704166666666667,
+  "score_given_finished": 0.588124093639942,
+  "any_solve8": 0.6033333333333334,
+  "mean_len": 5620.546666666667,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-14B cap16384 phys": {
+  "mean": 0.4900729166666667,
+  "finished": 0.9320833333333334,
+  "score_given_finished": 0.5257822977201609,
+  "any_solve8": 0.6633333333333333,
+  "mean_len": 7012.202083333334,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-14B cap24576 phys": {
+  "mean": 0.5032326388888889,
+  "finished": 0.98375,
+  "score_given_finished": 0.5115452491881971,
+  "any_solve8": 0.6733333333333333,
+  "mean_len": 7282.759166666667,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-14B cap28672 phys": {
+  "mean": 0.5036493055555555,
+  "finished": 0.98875,
+  "score_given_finished": 0.5093798286276162,
+  "any_solve8": 0.6733333333333333,
+  "mean_len": 7336.1329166666665,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-14B cap32768 phys": {
+  "mean": 0.5040659722222223,
+  "finished": 0.99,
+  "score_given_finished": 0.5091575476992144,
+  "any_solve8": 0.6733333333333333,
+  "mean_len": 7379.666666666667,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-14B cap36864 phys": {
+  "mean": 0.5040659722222223,
+  "finished": 0.99,
+  "score_given_finished": 0.5091575476992144,
+  "any_solve8": 0.6733333333333333,
+  "mean_len": 7420.626666666667,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-14B cap49152 phys": {
+  "mean": 0.5046909722222223,
+  "finished": 0.99125,
+  "score_given_finished": 0.5091459997197703,
+  "any_solve8": 0.6733333333333333,
+  "mean_len": 7531.595,
+  "n_items": 300
+ }
+}

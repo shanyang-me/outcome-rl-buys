@@ -1,0 +1,14 @@
+{
+ "files": {
+  "Polaris-4B-Preview": {
+   "rejected": 1476,
+   "raised": 224,
+   "now_full": 211,
+   "solved_matcher": 657,
+   "solved_judged": 868
+  }
+ },
+ "deferred_last_run": 1303,
+ "distinct_prompts_last_run": 1062,
+ "unparsed_last_run": 4
+}

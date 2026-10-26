@@ -1,0 +1,66 @@
+{
+ "OpenMath-Nemotron-1.5B cap4096 post": {
+  "mean": 0.05555555555555555,
+  "finished": 0.05952380952380952,
+  "score_given_finished": 0.9333333333333333,
+  "any_solve8": 0.12698412698412698,
+  "mean_len": 4042.4503968253966,
+  "n_items": 63
+ },
+ "OpenMath-Nemotron-1.5B cap4096 pre": {
+  "mean": 0.07511737089201878,
+  "finished": 0.08626760563380281,
+  "score_given_finished": 0.8707482993197279,
+  "any_solve8": 0.16901408450704225,
+  "mean_len": 4024.1009389671362,
+  "n_items": 213
+ },
+ "OpenMath-Nemotron-1.5B cap8192 post": {
+  "mean": 0.2261904761904762,
+  "finished": 0.2698412698412698,
+  "score_given_finished": 0.8382352941176471,
+  "any_solve8": 0.4126984126984127,
+  "mean_len": 7437.795634920635,
+  "n_items": 63
+ },
+ "OpenMath-Nemotron-1.5B cap8192 pre": {
+  "mean": 0.22183098591549297,
+  "finished": 0.26936619718309857,
+  "score_given_finished": 0.8235294117647058,
+  "any_solve8": 0.3615023474178404,
+  "mean_len": 7369.191901408451,
+  "n_items": 213
+ },
+ "OpenMath-Nemotron-1.5B cap16384 post": {
+  "mean": 0.3611111111111111,
+  "finished": 0.6547619047619048,
+  "score_given_finished": 0.5515151515151515,
+  "any_solve8": 0.5396825396825397,
+  "mean_len": 11913.482142857143,
+  "n_items": 63
+ },
+ "OpenMath-Nemotron-1.5B cap16384 pre": {
+  "mean": 0.3597417840375587,
+  "finished": 0.6572769953051644,
+  "score_given_finished": 0.5473214285714286,
+  "any_solve8": 0.5868544600938967,
+  "mean_len": 11809.68485915493,
+  "n_items": 213
+ },
+ "OpenMath-Nemotron-1.5B cap24576 post": {
+  "mean": 0.38293650793650796,
+  "finished": 0.9384920634920635,
+  "score_given_finished": 0.4080338266384778,
+  "any_solve8": 0.5555555555555556,
+  "mean_len": 13323.942460317461,
+  "n_items": 63
+ },
+ "OpenMath-Nemotron-1.5B cap24576 pre": {
+  "mean": 0.4043427230046948,
+  "finished": 0.9301643192488263,
+  "score_given_finished": 0.4347003154574132,
+  "any_solve8": 0.6431924882629108,
+  "mean_len": 13252.920187793427,
+  "n_items": 213
+ }
+}

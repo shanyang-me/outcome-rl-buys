@@ -1,0 +1,66 @@
+{
+ "Skywork-OR1-32B cap4096 post": {
+  "mean": 0.013888888888888888,
+  "finished": 0.013888888888888888,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.06349206349206349,
+  "mean_len": 4090.2023809523807,
+  "n_items": 63
+ },
+ "Skywork-OR1-32B cap4096 pre": {
+  "mean": 0.018779342723004695,
+  "finished": 0.018779342723004695,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.051643192488262914,
+  "mean_len": 4083.2599765258215,
+  "n_items": 213
+ },
+ "Skywork-OR1-32B cap8192 post": {
+  "mean": 0.18253968253968253,
+  "finished": 0.18253968253968253,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.2698412698412698,
+  "mean_len": 7797.089285714285,
+  "n_items": 63
+ },
+ "Skywork-OR1-32B cap8192 pre": {
+  "mean": 0.15786384976525822,
+  "finished": 0.1619718309859155,
+  "score_given_finished": 0.9746376811594203,
+  "any_solve8": 0.29577464788732394,
+  "mean_len": 7839.738262910798,
+  "n_items": 213
+ },
+ "Skywork-OR1-32B cap16384 post": {
+  "mean": 0.44047619047619047,
+  "finished": 0.5376984126984127,
+  "score_given_finished": 0.8191881918819188,
+  "any_solve8": 0.6507936507936508,
+  "mean_len": 13040.186507936507,
+  "n_items": 63
+ },
+ "Skywork-OR1-32B cap16384 pre": {
+  "mean": 0.477112676056338,
+  "finished": 0.5481220657276995,
+  "score_given_finished": 0.8704496788008566,
+  "any_solve8": 0.6338028169014085,
+  "mean_len": 13029.774061032864,
+  "n_items": 213
+ },
+ "Skywork-OR1-32B cap24576 post": {
+  "mean": 0.5793650793650794,
+  "finished": 0.8373015873015873,
+  "score_given_finished": 0.6919431279620853,
+  "any_solve8": 0.7777777777777778,
+  "mean_len": 15539.192460317461,
+  "n_items": 63
+ },
+ "Skywork-OR1-32B cap24576 pre": {
+  "mean": 0.6150234741784038,
+  "finished": 0.8339201877934272,
+  "score_given_finished": 0.7375087966220971,
+  "any_solve8": 0.7934272300469484,
+  "mean_len": 15516.470657276996,
+  "n_items": 213
+ }
+}

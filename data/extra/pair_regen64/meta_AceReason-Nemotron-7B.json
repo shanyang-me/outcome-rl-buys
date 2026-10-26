@@ -1,0 +1,36 @@
+{
+ "model": "nvidia/AceReason-Nemotron-7B",
+ "path": "/workspace/.cache/huggingface/hub/models--nvidia--AceReason-Nemotron-7B/snapshots/7d385d309648ef2fc78eaab944d41dfa204da8d8",
+ "revision": "7d385d309648ef2fc78eaab944d41dfa204da8d8",
+ "host": "c65260f8b176",
+ "gpu": "NVIDIA H100 80GB HBM3",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "yarn": null,
+ "hf_overrides": null,
+ "gen_cap": 65536,
+ "derived_caps": [
+  4096,
+  8192,
+  16384,
+  24576,
+  28672,
+  32768,
+  36864,
+  49152,
+  53248
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  151649
+ ],
+ "seconds": {
+  "load": 134,
+  "generate": 3964,
+  "score": 93
+ },
+ "trace_rows": 600
+}

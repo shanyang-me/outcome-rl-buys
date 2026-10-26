@@ -1,0 +1,56 @@
+{
+ "4096": {
+  "phys": {
+   "both": 771,
+   "base_only": 472,
+   "rl_only": 184,
+   "neither": 3973,
+   "n": 5400,
+   "recipes": 18
+  },
+  "math": {
+   "both": 5647,
+   "base_only": 1032,
+   "rl_only": 260,
+   "neither": 2061,
+   "n": 9000,
+   "recipes": 18
+  }
+ },
+ "8192": {
+  "phys": {
+   "both": 1625,
+   "base_only": 546,
+   "rl_only": 334,
+   "neither": 2895,
+   "n": 5400,
+   "recipes": 18
+  },
+  "math": {
+   "both": 7240,
+   "base_only": 476,
+   "rl_only": 180,
+   "neither": 1104,
+   "n": 9000,
+   "recipes": 18
+  }
+ },
+ "16384": {
+  "phys": {
+   "both": 2257,
+   "base_only": 457,
+   "rl_only": 392,
+   "neither": 2294,
+   "n": 5400,
+   "recipes": 18
+  },
+  "math": {
+   "both": 7822,
+   "base_only": 175,
+   "rl_only": 155,
+   "neither": 848,
+   "n": 9000,
+   "recipes": 18
+  }
+ }
+}

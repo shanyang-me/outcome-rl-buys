@@ -1,0 +1,98 @@
+{
+ "Skywork-OR1-7B cap4096 hard": {
+  "mean": 0.0404723991507431,
+  "finished": 0.062367303609341826,
+  "score_given_finished": 0.648936170212766,
+  "any_solve8": 0.08917197452229299,
+  "mean_len": 4005.6815286624205,
+  "n_items": 471
+ },
+ "Skywork-OR1-7B cap4096 refill": {
+  "mean": 0.051875,
+  "finished": 0.08375,
+  "score_given_finished": 0.6194029850746269,
+  "any_solve8": 0.095,
+  "mean_len": 3987.74625,
+  "n_items": 200
+ },
+ "Skywork-OR1-7B cap8192 hard": {
+  "mean": 0.11033704883227176,
+  "finished": 0.19798301486199577,
+  "score_given_finished": 0.5573056300268097,
+  "any_solve8": 0.19957537154989385,
+  "mean_len": 7586.984341825902,
+  "n_items": 471
+ },
+ "Skywork-OR1-7B cap8192 refill": {
+  "mean": 0.1259375,
+  "finished": 0.275625,
+  "score_given_finished": 0.45691609977324266,
+  "any_solve8": 0.21,
+  "mean_len": 7369.4925,
+  "n_items": 200
+ },
+ "Skywork-OR1-7B cap16384 hard": {
+  "mean": 0.19675904863006774,
+  "finished": 0.5727176220806794,
+  "score_given_finished": 0.34355333421598483,
+  "any_solve8": 0.3184713375796178,
+  "mean_len": 12650.118099787685,
+  "n_items": 471
+ },
+ "Skywork-OR1-7B cap16384 refill": {
+  "mean": 0.22159722222222222,
+  "finished": 0.6825,
+  "score_given_finished": 0.3246845746845747,
+  "any_solve8": 0.325,
+  "mean_len": 11521.7125,
+  "n_items": 200
+ },
+ "Skywork-OR1-7B cap24576 hard": {
+  "mean": 0.22272520473157414,
+  "finished": 0.8484607218683652,
+  "score_given_finished": 0.2625050270342732,
+  "any_solve8": 0.35881104033970274,
+  "mean_len": 14823.621549893844,
+  "n_items": 471
+ },
+ "Skywork-OR1-7B cap24576 refill": {
+  "mean": 0.24680555555555556,
+  "finished": 0.88,
+  "score_given_finished": 0.28046085858585856,
+  "any_solve8": 0.355,
+  "mean_len": 13200.518125,
+  "n_items": 200
+ },
+ "Skywork-OR1-7B cap28672 hard": {
+  "mean": 0.22703783742796482,
+  "finished": 0.8954352441613588,
+  "score_given_finished": 0.2535502582775849,
+  "any_solve8": 0.3609341825902335,
+  "mean_len": 15336.686040339702,
+  "n_items": 471
+ },
+ "Skywork-OR1-7B cap28672 refill": {
+  "mean": 0.25055555555555553,
+  "finished": 0.93,
+  "score_given_finished": 0.2694145758661888,
+  "any_solve8": 0.36,
+  "mean_len": 13582.700625,
+  "n_items": 200
+ },
+ "Skywork-OR1-7B cap32768 hard": {
+  "mean": 0.22956222828834294,
+  "finished": 0.9309978768577495,
+  "score_given_finished": 0.24657653255144704,
+  "any_solve8": 0.3630573248407643,
+  "mean_len": 15681.435774946922,
+  "n_items": 471
+ },
+ "Skywork-OR1-7B cap32768 refill": {
+  "mean": 0.2536805555555556,
+  "finished": 0.95375,
+  "score_given_finished": 0.26598223387214215,
+  "any_solve8": 0.36,
+  "mean_len": 13821.684375,
+  "n_items": 200
+ }
+}

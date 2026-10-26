@@ -1,0 +1,66 @@
+{
+ "Skywork-OR1-32B cap4096 hard": {
+  "mean": 0.026008492569002124,
+  "finished": 0.03768577494692144,
+  "score_given_finished": 0.6901408450704225,
+  "any_solve8": 0.06794055201698514,
+  "mean_len": 4046.469214437367,
+  "n_items": 471
+ },
+ "Skywork-OR1-32B cap4096 refill": {
+  "mean": 0.029375,
+  "finished": 0.045,
+  "score_given_finished": 0.6527777777777778,
+  "any_solve8": 0.05,
+  "mean_len": 4026.66375,
+  "n_items": 200
+ },
+ "Skywork-OR1-32B cap8192 hard": {
+  "mean": 0.10823918208472348,
+  "finished": 0.1751592356687898,
+  "score_given_finished": 0.6179473304473304,
+  "any_solve8": 0.17834394904458598,
+  "mean_len": 7729.067940552017,
+  "n_items": 471
+ },
+ "Skywork-OR1-32B cap8192 refill": {
+  "mean": 0.10041666666666667,
+  "finished": 0.2175,
+  "score_given_finished": 0.4616858237547893,
+  "any_solve8": 0.205,
+  "mean_len": 7653.810625,
+  "n_items": 200
+ },
+ "Skywork-OR1-32B cap16384 hard": {
+  "mean": 0.27286295622282886,
+  "finished": 0.5809447983014862,
+  "score_given_finished": 0.4696882681807305,
+  "any_solve8": 0.3821656050955414,
+  "mean_len": 12895.420382165605,
+  "n_items": 471
+ },
+ "Skywork-OR1-32B cap16384 refill": {
+  "mean": 0.26319444444444445,
+  "finished": 0.691875,
+  "score_given_finished": 0.3804075077787815,
+  "any_solve8": 0.355,
+  "mean_len": 11998.7575,
+  "n_items": 200
+ },
+ "Skywork-OR1-32B cap24576 hard": {
+  "mean": 0.33554620361945203,
+  "finished": 0.9004777070063694,
+  "score_given_finished": 0.3726313278037416,
+  "any_solve8": 0.445859872611465,
+  "mean_len": 14886.266985138005,
+  "n_items": 471
+ },
+ "Skywork-OR1-32B cap24576 refill": {
+  "mean": 0.3005555555555556,
+  "finished": 0.929375,
+  "score_given_finished": 0.32339535231263544,
+  "any_solve8": 0.365,
+  "mean_len": 13406.015625,
+  "n_items": 200
+ }
+}

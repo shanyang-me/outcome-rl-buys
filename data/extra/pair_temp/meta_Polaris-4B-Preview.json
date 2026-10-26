@@ -1,0 +1,36 @@
+{
+ "model": "POLARIS-Project/Polaris-4B-Preview",
+ "path": "/root/hf/hub/models--POLARIS-Project--Polaris-4B-Preview/snapshots/dcab747284e6f4818d8a871315f63dc1223ee394",
+ "revision": "dcab747284e6f4818d8a871315f63dc1223ee394",
+ "host": "581f84ff14e9",
+ "gpu": "NVIDIA H100 80GB HBM3",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "yarn": null,
+ "hf_overrides": null,
+ "gen_cap": 65536,
+ "derived_caps": [
+  4096,
+  8192,
+  16384,
+  24576,
+  28672,
+  32768,
+  36864,
+  49152,
+  53248
+ ],
+ "n": 8,
+ "temperature": 1.4,
+ "top_p": 1.0,
+ "seed": 0,
+ "close_ids": [
+  151668
+ ],
+ "seconds": {
+  "load": 146,
+  "generate": 41332,
+  "score": 156
+ },
+ "trace_rows": 600
+}

@@ -1,0 +1,32 @@
+{
+ "model": "Skywork/Skywork-OR1-7B",
+ "path": "/root/hf/hub/models--Skywork--Skywork-OR1-7B/snapshots/5bd323a9cdea40b9412cb2a200ee284201e930ae",
+ "revision": "5bd323a9cdea40b9412cb2a200ee284201e930ae",
+ "host": "0c06e1711dba",
+ "gpu": "NVIDIA H100 80GB HBM3",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "yarn": null,
+ "hf_overrides": null,
+ "gen_cap": 32768,
+ "derived_caps": [
+  4096,
+  8192,
+  16384,
+  24576,
+  28672
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  151649
+ ],
+ "seconds": {
+  "load": 104,
+  "generate": 30259,
+  "score": 585
+ },
+ "trace_rows": 0
+}

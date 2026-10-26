@@ -1,0 +1,1753 @@
+{
+ "pair_decomp": {
+  "nested": false,
+  "models": {
+   "orz_7b_rl": {
+    "generation_cap": 8192,
+    "caps": [
+     2048,
+     8192
+    ]
+   },
+   "qwen25_7b_base": {
+    "generation_cap": 8192,
+    "caps": [
+     2048,
+     8192
+    ]
+   }
+  },
+  "files": "one file per model per cap (separate generations)"
+ },
+ "pair_decomp10_native": {
+  "nested": true,
+  "models": {
+   "Polaris-1.7B-Preview": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "Polaris-4B-Preview": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "Qwen3-1.7B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "Qwen3-4B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   }
+  },
+  "files": "one file per model at generation_cap; tighter caps are derived"
+ },
+ "pair_decomp2": {
+  "nested": false,
+  "models": {
+   "AceReason-Nemotron-7B": {
+    "generation_cap": 16384,
+    "caps": [
+     8192,
+     16384
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-7B": {
+    "generation_cap": 16384,
+    "caps": [
+     8192,
+     16384
+    ]
+   },
+   "Skywork-OR1-7B": {
+    "generation_cap": 16384,
+    "caps": [
+     8192,
+     16384
+    ]
+   }
+  },
+  "files": "one file per model per cap (separate generations)"
+ },
+ "pair_decomp3_a": {
+  "nested": false,
+  "models": {
+   "DeepScaleR-1.5B-Preview": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "Nemotron-Research-Reasoning-Qwen-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "Open-RS3": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "STILL-3-1.5B-preview": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   }
+  },
+  "files": "one file per model per cap (separate generations)"
+ },
+ "pair_decomp3_b": {
+  "nested": false,
+  "models": {
+   "Polaris-4B-Preview": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "Qwen3-4B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   }
+  },
+  "files": "one file per model per cap (separate generations)"
+ },
+ "pair_decomp3_e": {
+  "nested": false,
+  "models": {
+   "Skywork-OR1-Math-7B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   }
+  },
+  "files": "one file per model per cap (separate generations)"
+ },
+ "pair_decomp3_f": {
+  "nested": false,
+  "models": {
+   "AceReason-Nemotron-7B": {
+    "generation_cap": 4096,
+    "caps": [
+     4096
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-7B": {
+    "generation_cap": 4096,
+    "caps": [
+     4096
+    ]
+   },
+   "Skywork-OR1-7B": {
+    "generation_cap": 4096,
+    "caps": [
+     4096
+    ]
+   }
+  },
+  "files": "one file per model per cap (separate generations)"
+ },
+ "pair_decomp4": {
+  "nested": true,
+  "models": {
+   "AReaL-1.5B-Preview-Stage-3": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "DeepMath-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "DeepMath-Omn-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "JustRL-DeepSeek-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "JustRL-Nemotron-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "KnowRL-Nemotron-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "OpenMath-Nemotron-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "Polaris-1.7B-Preview": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "QuestA-Nemotron-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "Qwen3-1.7B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "RLinf-math-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "e3-1.7B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   }
+  },
+  "files": "one file per model at generation_cap; tighter caps are derived"
+ },
+ "pair_decomp5_big": {
+  "nested": true,
+  "models": {
+   "AceReason-Nemotron-14B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-14B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-32B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "Skywork-OR1-32B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   }
+  },
+  "files": "one file per model at generation_cap; tighter caps are derived"
+ },
+ "pair_decomp5c_cap48": {
+  "nested": true,
+  "models": {
+   "AceReason-Nemotron-14B": {
+    "generation_cap": 49152,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-14B": {
+    "generation_cap": 49152,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152
+    ]
+   }
+  },
+  "files": "one file per model at generation_cap; tighter caps are derived"
+ },
+ "pair_decomp6_cap64": {
+  "nested": true,
+  "models": {
+   "AReaL-1.5B-Preview-Stage-3": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "AceReason-Nemotron-7B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "DeepMath-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "DeepMath-Omn-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "DeepScaleR-1.5B-Preview": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-7B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "JustRL-DeepSeek-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "JustRL-Nemotron-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "KnowRL-Nemotron-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "Nemotron-Research-Reasoning-Qwen-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "Open-RS3": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "OpenMath-Nemotron-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "QuestA-Nemotron-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "Qwen3-1.7B": {
+    "generation_cap": 36864,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864
+    ]
+   },
+   "RLinf-math-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "STILL-3-1.5B-preview": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "Skywork-OR1-7B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "Skywork-OR1-Math-7B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152,
+     65536
+    ]
+   },
+   "e3-1.7B": {
+    "generation_cap": 36864,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864
+    ]
+   }
+  },
+  "files": "one file per model at generation_cap; tighter caps are derived"
+ },
+ "pair_decomp9_32b": {
+  "nested": true,
+  "models": {
+   "DeepSeek-R1-Distill-Qwen-32B": {
+    "generation_cap": 49152,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152
+    ]
+   },
+   "Skywork-OR1-32B": {
+    "generation_cap": 49152,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     49152
+    ]
+   }
+  },
+  "files": "one file per model at generation_cap; tighter caps are derived"
+ },
+ "pair_temp": {
+  "nested": false,
+  "models": {
+   "DeepSeek-R1-Distill-Qwen-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-32B": {
+    "generation_cap": 49152,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-7B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "JustRL-DeepSeek-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "JustRL-Nemotron-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "OpenMath-Nemotron-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "Polaris-1.7B-Preview": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "Polaris-4B-Preview": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "QuestA-Nemotron-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "Qwen3-1.7B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "Qwen3-4B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "Skywork-OR1-32B": {
+    "generation_cap": 49152,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152
+    ]
+   },
+   "Skywork-OR1-7B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "Skywork-OR1-Math-7B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   }
+  },
+  "files": "one file per model per cap"
+ },
+ "pair_hard": {
+  "nested": false,
+  "models": {
+   "AReaL-1.5B-Preview-Stage-3": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "AceReason-Nemotron-14B": {
+    "generation_cap": 32768,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768
+    ]
+   },
+   "AceReason-Nemotron-7B": {
+    "generation_cap": 32768,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768
+    ]
+   },
+   "DeepMath-1.5B": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "DeepMath-Omn-1.5B": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "DeepScaleR-1.5B-Preview": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-1.5B": {
+    "generation_cap": 28672,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-14B": {
+    "generation_cap": 32768,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-32B": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-7B": {
+    "generation_cap": 32768,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768
+    ]
+   },
+   "JustRL-DeepSeek-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "JustRL-Nemotron-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "KnowRL-Nemotron-1.5B": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "Nemotron-Research-Reasoning-Qwen-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "Open-RS3": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "OpenMath-Nemotron-1.5B": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "Polaris-1.7B-Preview": {
+    "generation_cap": 49152,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152
+    ]
+   },
+   "Polaris-4B-Preview": {
+    "generation_cap": 53248,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248
+    ]
+   },
+   "QuestA-Nemotron-1.5B": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "Qwen3-1.7B": {
+    "generation_cap": 49152,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152
+    ]
+   },
+   "Qwen3-4B": {
+    "generation_cap": 53248,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248
+    ]
+   },
+   "RLinf-math-1.5B": {
+    "generation_cap": 28672,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672
+    ]
+   },
+   "STILL-3-1.5B-preview": {
+    "generation_cap": 28672,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672
+    ]
+   },
+   "Skywork-OR1-32B": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "Skywork-OR1-7B": {
+    "generation_cap": 32768,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768
+    ]
+   },
+   "Skywork-OR1-Math-7B": {
+    "generation_cap": 32768,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768
+    ]
+   },
+   "e3-1.7B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   }
+  },
+  "files": "one file per model per cap"
+ },
+ "pair_math": {
+  "nested": false,
+  "models": {
+   "AReaL-1.5B-Preview-Stage-3": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "AceReason-Nemotron-14B": {
+    "generation_cap": 32768,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768
+    ]
+   },
+   "AceReason-Nemotron-7B": {
+    "generation_cap": 32768,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768
+    ]
+   },
+   "DeepMath-1.5B": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "DeepMath-Omn-1.5B": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "DeepScaleR-1.5B-Preview": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-1.5B": {
+    "generation_cap": 28672,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-14B": {
+    "generation_cap": 32768,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-32B": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-7B": {
+    "generation_cap": 32768,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768
+    ]
+   },
+   "JustRL-DeepSeek-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "JustRL-Nemotron-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "KnowRL-Nemotron-1.5B": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "Nemotron-Research-Reasoning-Qwen-1.5B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "Open-RS3": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   },
+   "OpenMath-Nemotron-1.5B": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "Polaris-1.7B-Preview": {
+    "generation_cap": 49152,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152
+    ]
+   },
+   "Polaris-4B-Preview": {
+    "generation_cap": 53248,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248
+    ]
+   },
+   "QuestA-Nemotron-1.5B": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "Qwen3-1.7B": {
+    "generation_cap": 49152,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152
+    ]
+   },
+   "Qwen3-4B": {
+    "generation_cap": 53248,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248
+    ]
+   },
+   "RLinf-math-1.5B": {
+    "generation_cap": 28672,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672
+    ]
+   },
+   "STILL-3-1.5B-preview": {
+    "generation_cap": 28672,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672
+    ]
+   },
+   "Skywork-OR1-32B": {
+    "generation_cap": 24576,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576
+    ]
+   },
+   "Skywork-OR1-7B": {
+    "generation_cap": 32768,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768
+    ]
+   },
+   "Skywork-OR1-Math-7B": {
+    "generation_cap": 32768,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768
+    ]
+   },
+   "e3-1.7B": {
+    "generation_cap": 16384,
+    "caps": [
+     4096,
+     8192,
+     16384
+    ]
+   }
+  },
+  "files": "one file per model per cap"
+ },
+ "pair_regen64": {
+  "nested": false,
+  "models": {
+   "AReaL-1.5B-Preview-Stage-3": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "AceReason-Nemotron-14B": {
+    "generation_cap": 49152,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152
+    ]
+   },
+   "AceReason-Nemotron-7B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "DeepMath-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "DeepMath-Omn-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "DeepScaleR-1.5B-Preview": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-14B": {
+    "generation_cap": 49152,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152
+    ]
+   },
+   "DeepSeek-R1-Distill-Qwen-7B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "JustRL-DeepSeek-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "JustRL-Nemotron-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "KnowRL-Nemotron-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "Nemotron-Research-Reasoning-Qwen-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "Open-RS3": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "OpenMath-Nemotron-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "QuestA-Nemotron-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "RLinf-math-1.5B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "STILL-3-1.5B-preview": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "Skywork-OR1-7B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   },
+   "Skywork-OR1-Math-7B": {
+    "generation_cap": 65536,
+    "caps": [
+     4096,
+     8192,
+     16384,
+     24576,
+     28672,
+     32768,
+     36864,
+     49152,
+     53248,
+     65536
+    ]
+   }
+  },
+  "files": "second generation: one 64k read per model at T=0.6, top-p 0.95, every budget re-read; one file per model per cap"
+ }
+}

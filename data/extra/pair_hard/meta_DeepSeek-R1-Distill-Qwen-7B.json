@@ -1,0 +1,32 @@
+{
+ "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+ "path": "/root/hf/hub/models--deepseek-ai--DeepSeek-R1-Distill-Qwen-7B/snapshots/916b56a44061fd5cd7d6a8fb632557ed4f724f60",
+ "revision": "916b56a44061fd5cd7d6a8fb632557ed4f724f60",
+ "host": "b963ecdfcb6a",
+ "gpu": "NVIDIA H100 80GB HBM3",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "yarn": null,
+ "hf_overrides": null,
+ "gen_cap": 32768,
+ "derived_caps": [
+  4096,
+  8192,
+  16384,
+  24576,
+  28672
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  151649
+ ],
+ "seconds": {
+  "load": 96,
+  "generate": 16843,
+  "score": 540
+ },
+ "trace_rows": 0
+}

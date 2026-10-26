@@ -1,0 +1,66 @@
+{
+ "DeepMath-Omn-1.5B cap4096 hard": {
+  "mean": 0.0029856687898089174,
+  "finished": 0.03768577494692144,
+  "score_given_finished": 0.07922535211267606,
+  "any_solve8": 0.012738853503184714,
+  "mean_len": 4018.8163481953293,
+  "n_items": 471
+ },
+ "DeepMath-Omn-1.5B cap4096 refill": {
+  "mean": 0.0035416666666666665,
+  "finished": 0.01625,
+  "score_given_finished": 0.21794871794871795,
+  "any_solve8": 0.02,
+  "mean_len": 4083.616875,
+  "n_items": 200
+ },
+ "DeepMath-Omn-1.5B cap8192 hard": {
+  "mean": 0.02576521585279547,
+  "finished": 0.1449044585987261,
+  "score_given_finished": 0.17780830280830281,
+  "any_solve8": 0.06157112526539278,
+  "mean_len": 7797.299893842887,
+  "n_items": 471
+ },
+ "DeepMath-Omn-1.5B cap8192 refill": {
+  "mean": 0.031875,
+  "finished": 0.20125,
+  "score_given_finished": 0.15838509316770186,
+  "any_solve8": 0.095,
+  "mean_len": 7830.41375,
+  "n_items": 200
+ },
+ "DeepMath-Omn-1.5B cap16384 hard": {
+  "mean": 0.05716181377009402,
+  "finished": 0.7505307855626328,
+  "score_given_finished": 0.07616185087896545,
+  "any_solve8": 0.11889596602972399,
+  "mean_len": 12454.973991507431,
+  "n_items": 471
+ },
+ "DeepMath-Omn-1.5B cap16384 refill": {
+  "mean": 0.09739583333333333,
+  "finished": 0.818125,
+  "score_given_finished": 0.11904761904761904,
+  "any_solve8": 0.18,
+  "mean_len": 11714.865625,
+  "n_items": 200
+ },
+ "DeepMath-Omn-1.5B cap24576 hard": {
+  "mean": 0.06527777777777778,
+  "finished": 0.9747876857749469,
+  "score_given_finished": 0.0669661493783465,
+  "any_solve8": 0.13588110403397027,
+  "mean_len": 13218.572452229299,
+  "n_items": 471
+ },
+ "DeepMath-Omn-1.5B cap24576 refill": {
+  "mean": 0.10536458333333333,
+  "finished": 0.97625,
+  "score_given_finished": 0.10792787025181391,
+  "any_solve8": 0.185,
+  "mean_len": 12272.406875,
+  "n_items": 200
+ }
+}

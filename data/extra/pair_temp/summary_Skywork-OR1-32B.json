@@ -1,0 +1,66 @@
+{
+ "Skywork-OR1-32B cap4096 phys": {
+  "mean": 0.052375,
+  "finished": 0.07,
+  "score_given_finished": 0.7482142857142857,
+  "any_solve8": 0.13,
+  "mean_len": 4012.5575,
+  "n_items": 300
+ },
+ "Skywork-OR1-32B cap8192 phys": {
+  "mean": 0.22803472222222224,
+  "finished": 0.31125,
+  "score_given_finished": 0.7326416778224007,
+  "any_solve8": 0.39666666666666667,
+  "mean_len": 7369.4070833333335,
+  "n_items": 300
+ },
+ "Skywork-OR1-32B cap16384 phys": {
+  "mean": 0.5695625,
+  "finished": 0.8495833333333334,
+  "score_given_finished": 0.6704021579205492,
+  "any_solve8": 0.73,
+  "mean_len": 10634.222083333334,
+  "n_items": 300
+ },
+ "Skywork-OR1-32B cap24576 phys": {
+  "mean": 0.639125,
+  "finished": 0.9816666666666667,
+  "score_given_finished": 0.6510611205432937,
+  "any_solve8": 0.7766666666666666,
+  "mean_len": 11177.501666666667,
+  "n_items": 300
+ },
+ "Skywork-OR1-32B cap28672 phys": {
+  "mean": 0.6446111111111111,
+  "finished": 0.9929166666666667,
+  "score_given_finished": 0.649209679675479,
+  "any_solve8": 0.7766666666666666,
+  "mean_len": 11225.975833333334,
+  "n_items": 300
+ },
+ "Skywork-OR1-32B cap32768 phys": {
+  "mean": 0.6462777777777777,
+  "finished": 0.9979166666666667,
+  "score_given_finished": 0.6476270006958942,
+  "any_solve8": 0.7766666666666666,
+  "mean_len": 11242.112916666667,
+  "n_items": 300
+ },
+ "Skywork-OR1-32B cap36864 phys": {
+  "mean": 0.6462777777777777,
+  "finished": 0.9995833333333334,
+  "score_given_finished": 0.6465471724329582,
+  "any_solve8": 0.7766666666666666,
+  "mean_len": 11246.210833333333,
+  "n_items": 300
+ },
+ "Skywork-OR1-32B cap49152 phys": {
+  "mean": 0.6462777777777777,
+  "finished": 1.0,
+  "score_given_finished": 0.6462777777777777,
+  "any_solve8": 0.7766666666666666,
+  "mean_len": 11248.297916666666,
+  "n_items": 300
+ }
+}

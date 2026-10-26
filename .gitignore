@@ -1,0 +1,12 @@
+# third-party problem texts (rebuilt by sets/build_sets.py; phys300.jsonl ships its texts on purpose)
+sets/_texts_local/
+sets/build/
+
+# local environment and outputs
+.venv/
+build/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.DS_Store

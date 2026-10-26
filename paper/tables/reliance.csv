@@ -1,0 +1,10 @@
+# Hint reliance $\rho$ in nats, under the base policy unless stated. Problems are text-only. Each cell has $150$ correct rollouts unless another count is given. Intervals resample rollouts, not problems.
+"correct rollouts","block h","early (steps 1--10)","late (51--60)"
+"setup-hinted (hint on v2)","mined setup","+487 [+450, +526]","+399 [+367, +434]"
+"same, under the trained policy","mined setup","+581 [+538, +627]","+516 [+476, +556]"
+"generic-hinted","content-free block","+168 [+145, +193]","+80 [+64, +96]"
+"teacher arm, teacher rows (spliced)","setup + teacher note","+526 [+487, +567]","+604 [+569, +641]"
+"unhinted correct, counterfactual (47 rollouts, late)","mined setup","---","-240 [-293, -195]"
+"training hard set, base","gold setup (120 rollouts)","+644 [+615, +673]"
+"training hard set, base","answer-free questions (80 rollouts)","+491 [+463, +520]"
+"training hard set, base","the policy's own questions (27 rollouts)","+474 [+413, +535]"

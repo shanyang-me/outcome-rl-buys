@@ -1,0 +1,130 @@
+{
+ "Polaris-1.7B-Preview cap4096 hard": {
+  "mean": 0.006634819532908705,
+  "finished": 0.01167728237791932,
+  "score_given_finished": 0.5681818181818182,
+  "any_solve8": 0.01910828025477707,
+  "mean_len": 4080.650212314225,
+  "n_items": 471
+ },
+ "Polaris-1.7B-Preview cap4096 refill": {
+  "mean": 0.009375,
+  "finished": 0.009375,
+  "score_given_finished": 1.0,
+  "any_solve8": 0.01,
+  "mean_len": 4084.5175,
+  "n_items": 200
+ },
+ "Polaris-1.7B-Preview cap8192 hard": {
+  "mean": 0.024681528662420384,
+  "finished": 0.04511677282377919,
+  "score_given_finished": 0.5470588235294118,
+  "any_solve8": 0.04246284501061571,
+  "mean_len": 8056.180467091295,
+  "n_items": 471
+ },
+ "Polaris-1.7B-Preview cap8192 refill": {
+  "mean": 0.026875,
+  "finished": 0.03875,
+  "score_given_finished": 0.6935483870967742,
+  "any_solve8": 0.055,
+  "mean_len": 8103.38125,
+  "n_items": 200
+ },
+ "Polaris-1.7B-Preview cap16384 hard": {
+  "mean": 0.0688517338995046,
+  "finished": 0.1480891719745223,
+  "score_given_finished": 0.4649342891278375,
+  "any_solve8": 0.12314225053078556,
+  "mean_len": 15481.502919320594,
+  "n_items": 471
+ },
+ "Polaris-1.7B-Preview cap16384 refill": {
+  "mean": 0.075,
+  "finished": 0.201875,
+  "score_given_finished": 0.3715170278637771,
+  "any_solve8": 0.125,
+  "mean_len": 15315.43,
+  "n_items": 200
+ },
+ "Polaris-1.7B-Preview cap24576 hard": {
+  "mean": 0.11690994338287332,
+  "finished": 0.3070594479830149,
+  "score_given_finished": 0.38074042062806107,
+  "any_solve8": 0.1932059447983015,
+  "mean_len": 21855.322186836518,
+  "n_items": 471
+ },
+ "Polaris-1.7B-Preview cap24576 refill": {
+  "mean": 0.11041666666666666,
+  "finished": 0.390625,
+  "score_given_finished": 0.2826666666666667,
+  "any_solve8": 0.18,
+  "mean_len": 21103.375,
+  "n_items": 200
+ },
+ "Polaris-1.7B-Preview cap28672 hard": {
+  "mean": 0.1376048933373774,
+  "finished": 0.4174628450106157,
+  "score_given_finished": 0.3296218932582569,
+  "any_solve8": 0.21656050955414013,
+  "mean_len": 24471.20753715499,
+  "n_items": 471
+ },
+ "Polaris-1.7B-Preview cap28672 refill": {
+  "mean": 0.14510416666666667,
+  "finished": 0.508125,
+  "score_given_finished": 0.2855678556785568,
+  "any_solve8": 0.26,
+  "mean_len": 23358.446875,
+  "n_items": 200
+ },
+ "Polaris-1.7B-Preview cap32768 hard": {
+  "mean": 0.15241570619755332,
+  "finished": 0.541135881104034,
+  "score_given_finished": 0.2816588430369696,
+  "any_solve8": 0.23991507430997877,
+  "mean_len": 26603.73195329087,
+  "n_items": 471
+ },
+ "Polaris-1.7B-Preview cap32768 refill": {
+  "mean": 0.1701388888888889,
+  "finished": 0.61,
+  "score_given_finished": 0.2789162112932605,
+  "any_solve8": 0.285,
+  "mean_len": 25173.581875,
+  "n_items": 200
+ },
+ "Polaris-1.7B-Preview cap36864 hard": {
+  "mean": 0.16474256900212314,
+  "finished": 0.6555201698513801,
+  "score_given_finished": 0.2513157894736842,
+  "any_solve8": 0.2526539278131635,
+  "mean_len": 28235.90897027601,
+  "n_items": 471
+ },
+ "Polaris-1.7B-Preview cap36864 refill": {
+  "mean": 0.18704861111111112,
+  "finished": 0.695625,
+  "score_given_finished": 0.2688928821004293,
+  "any_solve8": 0.3,
+  "mean_len": 26574.04375,
+  "n_items": 200
+ },
+ "Polaris-1.7B-Preview cap49152 hard": {
+  "mean": 0.18374848346982106,
+  "finished": 0.8577494692144374,
+  "score_given_finished": 0.21422162305516265,
+  "any_solve8": 0.2760084925690021,
+  "mean_len": 31018.83280254777,
+  "n_items": 471
+ },
+ "Polaris-1.7B-Preview cap49152 refill": {
+  "mean": 0.21583333333333332,
+  "finished": 0.8525,
+  "score_given_finished": 0.25317693059628543,
+  "any_solve8": 0.31,
+  "mean_len": 29234.505625,
+  "n_items": 200
+ }
+}

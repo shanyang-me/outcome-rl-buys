@@ -1,0 +1,32 @@
+{
+ "model": "RUC-AIBOX/STILL-3-1.5B-preview",
+ "path": "/root/hf/hub/models--RUC-AIBOX--STILL-3-1.5B-preview/snapshots/88d330baa0f8ea60bde6519141125ddf308e9fc2",
+ "revision": "88d330baa0f8ea60bde6519141125ddf308e9fc2",
+ "host": "c5cf9a736a92",
+ "gpu": "NVIDIA H200",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "gen_cap": 65536,
+ "derived_caps": [
+  4096,
+  8192,
+  16384,
+  24576,
+  28672,
+  32768,
+  49152
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  151649
+ ],
+ "seconds": {
+  "load": 138,
+  "generate": 5646,
+  "score": 134
+ },
+ "trace_rows": 1200
+}

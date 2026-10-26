@@ -1,0 +1,9 @@
+# The control on the $87$ held-out problems over training. Reward is the mean score. The $0/8$ and $8/8$ columns count problems on which none or all of eight derivations finish. Hesitation counts backtracking words (``wait'', ``actually'') per finished derivation. Agreement is how often finished answers agree with their majority. Unmatched \relB{} dips slightly only because harder problems now finish. The bottom rows are the base and the arm trained at $16$k, both read at $16$k. The step rows are the in-training validation reads. The registered endpoint read of the step-$60$ checkpoint gives $0.265$.
+"held-out, 8 samples per problem","reward","fin@1(B)","0/8 finished","8/8 finished","hesitation / deriv.","agreement","pass@1(B|fin)"
+"base, 12,288","0.163","0.39","38","15","78","0.35","0.404"
+"control, step 15","0.196","0.51","23","27","60","0.35","0.381"
+"control, step 30","0.238","0.62","12","35","44","0.43","0.379"
+"control, step 60","0.261","0.69","5","43","37","0.42","0.372"
+"base, 16,384","0.209","0.57","18","30","96","0.35","0.366"
+"16k-cap arm, step 15","0.254","0.68","7","40","80","0.31","0.370"
+"16k-cap arm, step 30","0.252","0.66","---","---","98","---","0.374"

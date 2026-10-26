@@ -1,0 +1,11 @@
+# The pooled shares of the cap rows, on physics and MATH-500, under three exact splits of the same cells. The shares come from the same $2{,}000$ crossed-bootstrap replicates over recipes and problems. The paper's split counts the cross term in finishing and takes \relB{} over each model's own finished derivations. The symmetric split shares the cross term. The matched split takes the accuracy change only on problems both models finish in at least seven of eight samples, and gives the remainder to the finishing term. The last row of each block resamples the seven bases, each with all its recipes, instead of the recipes. All rows are computed on the samples behind Table~\ref{tab:capcells}'s cells, before twelve recipes' samples were lost. The Polaris pairs have no MATH-500 read at their caps, so $38$ cells are pooled.
+"","","size shares (%)","signed shares of the net change (%)"
+"budget","split","finishing","reliability","reach","finishing","reliability","reach"
+"at the cap","the paper's","53 [34, 68]","42 [29, 58]","5 [1, 11]","44 [-8, 73]","49 [23, 96]","7 [1, 16]"
+"","symmetric","52 [34, 67]","43 [30, 59]","5 [1, 11]","45 [-7, 75]","48 [21, 94]","7 [1, 16]"
+"","matched","46 [29, 62]","48 [34, 64]","6 [1, 12]","34 [-9, 58]","59 [37, 97]","7 [1, 16]"
+"","the paper's, bases resampled","53 [23, 67]","42 [30, 66]","5 [0, 14]","44 [-55, 74]","49 [22, 139]","7 [0, 26]"
+"one beyond","the paper's","38 [25, 50]","54 [44, 66]","8 [2, 14]","25 [-7, 44]","66 [48, 95]","10 [3, 18]"
+"","symmetric","37 [25, 49]","55 [45, 66]","8 [2, 14]","24 [-6, 43]","66 [49, 96]","10 [3, 18]"
+"","matched","32 [21, 43]","60 [51, 70]","8 [2, 15]","18 [-11, 35]","72 [57, 99]","10 [3, 18]"
+"","the paper's, bases resampled","38 [14, 50]","54 [44, 72]","8 [2, 17]","25 [-36, 46]","66 [46, 123]","10 [3, 27]"

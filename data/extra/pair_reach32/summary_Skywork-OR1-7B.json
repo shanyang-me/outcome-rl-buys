@@ -1,0 +1,15 @@
+{
+ "model": "Skywork/Skywork-OR1-7B",
+ "path": "/root/hf/hub/models--Skywork--Skywork-OR1-7B/snapshots/5bd323a9cdea40b9412cb2a200ee284201e930ae",
+ "cap": 32768,
+ "n_problems": 82,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 30,
+ "finished": 0.967479674796748,
+ "seconds": {
+  "load": 38,
+  "generate": 7531
+ },
+ "host": "0c06e1711dba"
+}

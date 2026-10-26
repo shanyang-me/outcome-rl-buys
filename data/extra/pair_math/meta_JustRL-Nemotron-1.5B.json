@@ -1,0 +1,31 @@
+{
+ "model": "hbx/JustRL-Nemotron-1.5B",
+ "path": "/root/hf/hub/models--hbx--JustRL-Nemotron-1.5B/snapshots/9c904d05e6aac281a5e57f2357acd94662f66cad",
+ "revision": "9c904d05e6aac281a5e57f2357acd94662f66cad",
+ "host": "3ad07f0f0d62",
+ "gpu": "NVIDIA H100 80GB HBM3",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "yarn": null,
+ "hf_overrides": null,
+ "gen_cap": 16384,
+ "derived_caps": [
+  4096,
+  8192
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  522,
+  26865,
+  29
+ ],
+ "seconds": {
+  "load": 139,
+  "generate": 3732,
+  "score": 9
+ },
+ "trace_rows": 0
+}

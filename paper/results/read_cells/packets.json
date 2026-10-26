@@ -1,0 +1,1308 @@
+[
+ {
+  "cell": "ProRL v2|physcorp_3104",
+  "budget": 16384,
+  "q": "A spaceship is flying in a circular orbit around a planet, with the radius of the orbit being \\( R \\) and the flight speed being \\( v_0 \\). The objective is to change the orbit to an elliptical orbit passing through point \\( B \\), which lies on a circle centered at \\( O \\) with a radius of \\( 3R \\).  \n(3) How much time is required for the journey from point \\( A \\) to point \\( B \\)?",
+  "gold": [
+   "2 \\sqrt{2} \\pi \\frac{R}{v_{0}}"
+  ],
+  "rl": "ProRL v2",
+  "rl_solved": "7/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "2\\sqrt{2} \\frac{\\pi R}{v_0} ; 2\\sqrt{2} \\frac{\\pi R}{v_0} ; 2\\sqrt{2} \\frac{\\pi R}{v_0} ; 2\\sqrt{2} \\frac{\\pi R}{v_0} [RIGHT]": 2,
+   "2\\sqrt{2} \\frac{\\pi R}{v_0} ; 2\\sqrt{2} \\frac{\\pi R}{v_0} ; 2\\sqrt{2} \\frac{\\pi R}{v_0} [RIGHT]": 2,
+   "\\frac{2\\pi R}{v_0} ; \\frac{2\\pi R}{v_0} ; \\frac{2\\pi R}{v_0}": 1,
+   "2\\sqrt{2} \\frac{\\pi R}{v_0} ; 2\\sqrt{2} \\frac{ \\pi R}{v_0} ; \\frac{2 \\sqrt{2} \\pi R}{v_0} ; 2\\sqrt{2} \\frac{\\pi R}{v_0} ; \\frac{2 \\sqrt{2} \\pi R}{v_0} ; \\frac{2 [RIGHT]": 1
+  },
+  "base_answers": {
+   "\\dfrac{2\\pi R}{v_0} ; \\dfrac{2\\pi R}{v_0}": 1,
+   "\\dfrac{2\\pi R}{v_0}": 1,
+   "\\dfrac{4R}{v_0} ; \\dfrac{4R}{v_0}": 1,
+   "\\frac{\\pi}{\\sqrt{2}} \\sqrt{\\frac{R^3}{\\mu}} ; \\frac{\\pi}{\\sqrt{2}} \\sqrt{\\frac{R^3}{\\mu}} ; \\frac{\\pi}{\\sqrt{2}} \\sqrt{\\frac{R^3}{\\mu}}": 1,
+   "2\\pi \\sqrt{\\frac{R^3}{\\mu}} ; 2\\pi \\sqrt{\\frac{R^3}{\\mu}}": 1
+  }
+ },
+ {
+  "cell": "ProRL v2|physcorp_3348",
+  "budget": 16384,
+  "q": "A solid sphere with a mass of $m$ and a radius of $r$ rolls inside the surface of a fixed spherical shell of radius $R$. Based on the given expression for $\\dot{\\varphi}$, derive the expressions for the kinetic energy $T$ and the potential energy $V$ of the sphere during small oscillations.",
+  "gold": [
+   "\\frac{7}{10} m (R - r)^{2} \\dot{\\theta}^{2}, \\frac{1}{2} m g (R - r) \\theta^{2}"
+  ],
+  "rl": "ProRL v2",
+  "rl_solved": "3/8 (8 finished)",
+  "base_solved": "0/8 (6 finished)",
+  "rl_answers": {
+   "\\frac{7}{10} m (R - r)^2 \\dot{\\theta}^2 ; \\frac{1}{2} m g (R - r) \\theta^2 ; \\frac{7}{10} m (R - r)^2 \\dot{\\theta}^2 ; \\frac{1}{2} m g (R - r) \\theta^2 [RIGHT]": 2,
+   "T = \\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; V = \\frac{1}{2} m g (R - r) \\varphi^2 ; \\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\frac{1}{2} m g (R - r) \\varph": 1,
+   "\\frac{7}{10} m (R - r)^2 \\dot{\\theta}^2 ; \\frac{1}{2} m g (R - r) \\theta^2 ; \\frac{7}{10} m (R - r)^2 \\dot{\\theta}^2 ; \\frac{1}{2} m g (R - r) \\theta^2 ; \\frac{ [RIGHT]": 1,
+   "T = \\frac{7}{10} m r^2 \\dot{\\varphi}^2 ; V = \\frac{1}{2} m g (R - r) \\varphi^2 ; \\frac{7}{10} m r^2 \\dot{\\varphi}^2 ; \\frac{1}{2} m g (R - r) \\varphi^2 ; \\frac{": 1
+  },
+  "base_answers": {
+   "\\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos\\varphi ; \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos\\varphi": 1,
+   "T = \\frac{7}{10} m r^2 \\left( \\frac{d\\varphi}{dt} \\right)^2 ; V = -\\frac{1}{2} m g (R - r) \\varphi^2 ; T = \\frac{7}{10} m r^2 \\left( \\frac{d\\varphi}{dt} \\right)": 1,
+   "T = m \\dot{\\varphi}^2 \\left[ \\frac{1}{2} (R - r)^2 + \\frac{1}{5} r^2 - (R - r)^2 \\sin^2\\varphi \\cos\\varphi \\right] ; V = m g (R - r)(1 - \\cos\\varphi) ; T = m \\d": 1,
+   "\\frac{1}{2} m R^2 \\varphi^2 + \\frac{m r^2 R^2}{5(R - r)^2} \\varphi^2 ; \\frac{1}{2} mg(R - r)\\varphi^2 ; \\frac{1}{2} m R^2 \\varphi^2 + \\frac{m r^2 R^2}{5(R - r)^": 1,
+   "\\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos \\varphi ; \\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos \\varphi": 1
+  }
+ },
+ {
+  "cell": "ProRL v2|tbr_172668",
+  "budget": 16384,
+  "q": "A shell with a diameter of 100 mm and a height of 100 mm, with a corner radius of 0.4 mm, is to be produced by cup drawing. What is the required blank diameter? The options are:  \n(a) 118 mm  \n(b) 161 mm  \n(c) 224 mm  \n(d) 312 mm",
+  "gold": [
+   "224"
+  ],
+  "rl": "ProRL v2",
+  "rl_solved": "6/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "224 ; 224 ; 224 [RIGHT]": 2,
+   "224 \\text{ mm} ; 224 \\text{ mm} ; 224 \\text{ mm} ; 224 \\text{ mm} [RIGHT]": 1,
+   "224 ; 224 ; 224 ; 224 [RIGHT]": 1,
+   "224 ; 224 [RIGHT]": 1
+  },
+  "base_answers": {
+   "C ; C": 2,
+   "D ; D": 2,
+   "A ; A": 2,
+   "C": 1,
+   "<none>": 1
+  }
+ },
+ {
+  "cell": "ProRL v2|tbr_22163",
+  "budget": 16384,
+  "q": "A ray of light strikes a plane mirror at an angle of 30\u00b0 as shown in the figure. After reflection, the ray passes through a prism of refractive index 1.5 whose apex angle is 4\u00b0. The total angle through which the ray deviates is:\n(a) 90\u00b0  \n(b) 270\u00b0  \n(c) 145\u00b0  \n(d) 122\u00b0",
+  "gold": [
+   "122"
+  ],
+  "rl": "ProRL v2",
+  "rl_solved": "6/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "122^\\circ ; 122^\\circ ; 122^\\circ ; 122^\\circ [RIGHT]": 3,
+   "122^\\circ ; 122^\\circ ; 122^\\circ [RIGHT]": 3,
+   "145^\\circ ; 145^\\circ ; 145^\\circ": 1,
+   "145^\\circ ; 145^\\circ ; 145^\\circ ; 145^\\circ": 1
+  },
+  "base_answers": {
+   "<none>": 4,
+   "D ; D": 3,
+   "D ; D ; D": 1
+  }
+ },
+ {
+  "cell": "ProRL v2|tbr_245633",
+  "budget": 16384,
+  "q": "In a Young's double-slit experiment, the fringe width is given by \\(\\beta = \\frac{\\lambda D}{d}\\), where \\(D\\) is the distance from the slits to the screen and \\(d\\) is the separation between the slits. If the slit separation \\(d\\) is halved and the screen distance \\(D\\) is tripled, the bandwidth (inverse of fringe width) becomes:\n\n(a) tripled  \n(b) halved  \n(c) one-sixth  \n(d) six times",
+  "gold": [
+   "(c)"
+  ],
+  "rl": "ProRL v2",
+  "rl_solved": "8/8 (8 finished)",
+  "base_solved": "0/8 (7 finished)",
+  "rl_answers": {
+   "\\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{ [RIGHT]": 3,
+   "c ; c ; c [RIGHT]": 2,
+   "c ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\frac{1}{6} ; \\f [RIGHT]": 2,
+   "c ; c [RIGHT]": 1
+  },
+  "base_answers": {
+   "C ; C": 7
+  }
+ },
+ {
+  "cell": "ProRL v2|tbr_500712",
+  "budget": 16384,
+  "q": "The average energy in one time period in simple harmonic motion is  \n(a) \\( \\frac{1}{2} m \\omega^2 A^2 \\)  \n(b) \\( \\frac{1}{4} m \\omega^2 A^2 \\)  \n(c) \\( m \\omega^2 A^2 \\)  \n(d) zero.",
+  "gold": [
+   "\\(\\frac{1}{2} m \\omega^2 A^2\\)"
+  ],
+  "rl": "ProRL v2",
+  "rl_solved": "8/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "a ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 [RIGHT]": 2,
+   "a ; a ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1 [RIGHT]": 2,
+   "a ; a ; \\frac{1}{2} m \\omega^2 A^2 [RIGHT]": 1,
+   "a ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 [RIGHT]": 1
+  },
+  "base_answers": {
+   "A ; A": 5,
+   "a ; a": 2,
+   "B ; B": 1
+  }
+ },
+ {
+  "cell": "ProRL v2|tbr_646306",
+  "budget": 16384,
+  "q": "For a system described by a Lagrangian \\( L(q, \\dot{q}) \\) that has no explicit time dependence, what is the conserved energy of the system?",
+  "gold": [
+   "E = \\sum_i \\dot{q}_i \\frac{\\partial L}{\\partial \\dot{q}_i} - L"
+  ],
+  "rl": "ProRL v2",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "H = \\frac{\\partial L}{\\partial \\dot{q}} \\dot{q} - L ; H = \\frac{\\partial L}{\\partial \\dot{q}} \\dot{q} - L ; H = \\frac{\\partial L}{\\partial \\dot{q}} \\dot{q} - L ": 3,
+   "H = \\frac{\\partial L}{\\partial \\dot{q}} \\dot{q} - L ; H = \\frac{\\partial L}{\\partial \\dot{q}} \\dot{q} - L ; H ; H ; \\frac{\\partial L}{\\partial \\dot{q}} \\dot{q} ": 1,
+   "H = \\frac{\\partial L}{\\partial \\dot{q}} \\dot{q} - L ; H = \\frac{\\partial L}{\\partial \\dot{q}} \\dot{q} - L ; H ; H = \\frac{\\partial L}{\\partial \\dot{q}} \\dot{q} ": 1,
+   "\\frac{\\partial L}{\\partial \\dot{q}} \\dot{q} - L ; \\frac{\\partial L}{\\partial \\dot{q}} \\dot{q} - L ; \\frac{1}{2} m \\dot{q}^2 + V(q) ; \\frac{\\partial L}{\\partial ": 1
+  },
+  "base_answers": {
+   "H ; H": 6,
+   "H ; H ; H ; H ; H ; H ; H": 1,
+   "H ; H ; H ; H": 1
+  }
+ },
+ {
+  "cell": "Skywork-Math|cal_problem_01040",
+  "budget": 16384,
+  "q": "(context) There is a type of hydrogen fuel vehicle that, during the combustion process in the engine, only emits water vapor without any other exhaust gases, thus producing no pollution and making it an environmentally friendly car. If the mass of the hydrogen fuel vehicle is $6\\times 10^{3}kg$, the resistance is 0.05 times the weight of the vehicle, and the maximum output power is $60\\mathrm{kW}$.\n\n(sub_question_1) How long can the car maintain this acceleration process, starting from rest with an acceleration of $a{=}0.5\\mathrm{m}/\\mathrm{s}^{2}$?\n\n(sub_question_2) What is the maximum driving speed?\n\n(sub_question_3) If this car travels at its maximum speed for $300\\mathrm{km}$ with an eng",
+  "gold": [
+   "20s",
+   "20m/s",
+   "12.6kg"
+  ],
+  "rl": "Skywork-Math",
+  "rl_solved": "1/8 (8 finished)",
+  "base_solved": "1/8 (8 finished)",
+  "rl_answers": {
+   "20.2 ; 20.4 ; 12.3 ; 20.2 ; 20.4 ; 12.3": 2,
+   "20.2 \\text{ seconds} ; 10.2 \\text{ m/s} ; 24.8 \\text{ kg} ; 20.2 \\text{ seconds} ; 10.2 \\text{ m/s} ; 24.8 \\text{ kg}": 1,
+   "20.2 ; 20.41 \\mathrm{~m/s} ; 73.46 \\mathrm{~km/h} ; 12.33 \\mathrm{~kg} ; 20.2 ; 20.41 \\, \\mathrm{m/s} ; 73.46 \\, \\mathrm{km/h} ; 12.33 \\, \\mathrm{kg}": 1,
+   "20.2 ; 20.4 ; 12.4 ; 20.2 ; 20.4 ; 12.4": 1
+  },
+  "base_answers": {
+   "20.2 ; 73.4 \\text{ km/h} ; 12.3 \\text{ kg} ; 20.2 ; 73.4 \\text{ km/h} ; 12.3 \\text{ kg}": 1,
+   "20.2 ; 20.4 ; 12.3 ; 20.2 ; 20.4 ; 12.3": 1,
+   "2105 ; 20 ; 12.6 ; 2105 ; 20 ; 12.6 [RIGHT]": 1,
+   "1.41 \\text{ s} ; 20.41 \\text{ m/s} ; 12.33 \\text{ kg} ; 1.41 \\text{ s} ; 20.41 \\text{ m/s} ; 12.33 \\text{ kg}": 1,
+   "20.19 \\text{ seconds} ; 20.36 \\text{ m/s} ; 12.37 \\text{ kg} ; 20.19 \\text{ seconds} ; 20.36 \\text{ m/s} ; 12.37 \\text{ kg}": 1
+  }
+ },
+ {
+  "cell": "Skywork-Math|physicsb_2258",
+  "budget": 16384,
+  "q": "The wavelength of a certain ultraviolet laser is $\\lambda$, and the energy of a single photon is $\\qquad$. If this laser is used in a photoelectric effect experiment, and the cutoff frequency of the photoelectric material is $v_{0}$, then the maximum initial kinetic energy of the emitted photoelectrons is $\\qquad$. (Planck's constant is $h$, and the speed of light in a vacuum is $c$.)",
+  "gold": [
+   "h \\frac{c}{\\lambda}",
+   "h \\frac{c}{\\lambda}-h v_{0}"
+  ],
+  "rl": "Skywork-Math",
+  "rl_solved": "3/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "\\dfrac{hc}{\\lambda} - hv_0 ; \\dfrac{hc}{\\lambda} - hv_0": 3,
+   "\\dfrac{hc}{\\lambda} ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right) ; \\dfrac{hc}{\\lambda} ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right) [RIGHT]": 2,
+   "\\dfrac{hc}{\\lambda} ; \\dfrac{hc}{\\lambda} - hv_0 ; \\dfrac{hc}{\\lambda} ; \\dfrac{hc}{\\lambda} - hv_0 [RIGHT]": 1,
+   "h\\left(\\frac{c}{\\lambda} - v_0\\right) ; h\\left(\\frac{c}{\\lambda} - v_0\\right)": 1
+  },
+  "base_answers": {
+   "h\\left(\\frac{c}{\\lambda} - v_0\\right) ; h\\left(\\frac{c}{\\lambda} - v_0\\right)": 3,
+   "h\\left(\\dfrac{c}{\\lambda} - v_0\\right) ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right)": 2,
+   "h\\left(\\dfrac{c}{\\lambda} - v_0\\right) ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right) ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right)": 1,
+   "\\frac{hc}{\\lambda} - h v_0 ; \\dfrac{hc}{\\lambda} - h v_0 ; \\dfrac{hc}{\\lambda} - h v_0": 1,
+   "h\\left(\\frac{c}{\\lambda} - \\nu_0\\right) ; h\\left(\\frac{c}{\\lambda} - \\nu_0\\right)": 1
+  }
+ },
+ {
+  "cell": "Skywork-Math|tbr_106015",
+  "budget": 16384,
+  "q": "A transmission-line inductor is made from coaxial cable with a velocity factor of 0.66 and operates at 450 MHz. Using the formula for the length of a quarter-wavelength transmission line in centimeters, \\( s = \\frac{7500v}{f} \\), where \\( v \\) is the velocity factor and \\( f \\) is the frequency in MHz, the length of the transmission line would be shorter than:",
+  "gold": [
+   "11"
+  ],
+  "rl": "Skywork-Math",
+  "rl_solved": "4/8 (8 finished)",
+  "base_solved": "1/8 (8 finished)",
+  "rl_answers": {
+   "16.67 ; 16.67": 3,
+   "25 ; 25 ; 25 ; 25 ; 25 ; 25": 1,
+   "11 ; 16.67 ; 11 ; 16.67 ; 16.67 ; 16.67 ; 16.67 ; 16.67 [RIGHT]": 1,
+   "11 ; 15 ; 15 [RIGHT]": 1
+  },
+  "base_answers": {
+   "16.67 ; 16.67": 4,
+   "16.67 ; 16.67 ; 16.67": 1,
+   "16.67 ; \\dfrac{50}{3} ; 16.67 ; 16.67 ; \\dfrac{50}{3} ; 16.\\overline{6} ; \\dfrac{50}{3} ; \\dfrac{50}{3} ; 16.67 ; \\dfrac{50}{3} ; 16.\\overline{6} ; \\dfrac{50}{3": 1,
+   "16.666 ; 16.666 ; 16.666": 1,
+   "11 ; 16.67 ; 16.67 ; 16.67 ; 16.67 ; 11 ; 16.67 ; 16.67 ; 16.67 [RIGHT]": 1
+  }
+ },
+ {
+  "cell": "Skywork-Math|tbr_22163",
+  "budget": 16384,
+  "q": "A ray of light strikes a plane mirror at an angle of 30\u00b0 as shown in the figure. After reflection, the ray passes through a prism of refractive index 1.5 whose apex angle is 4\u00b0. The total angle through which the ray deviates is:\n(a) 90\u00b0  \n(b) 270\u00b0  \n(c) 145\u00b0  \n(d) 122\u00b0",
+  "gold": [
+   "122"
+  ],
+  "rl": "Skywork-Math",
+  "rl_solved": "6/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "122^\\circ ; 122^\\circ [RIGHT]": 5,
+   "145^\\circ ; 145^\\circ": 2,
+   "122 ; 122 [RIGHT]": 1
+  },
+  "base_answers": {
+   "D ; D": 4,
+   "A ; A": 2,
+   "A ; A ; A": 1,
+   "C ; C": 1
+  }
+ },
+ {
+  "cell": "Skywork-Math|tbr_245633",
+  "budget": 16384,
+  "q": "In a Young's double-slit experiment, the fringe width is given by \\(\\beta = \\frac{\\lambda D}{d}\\), where \\(D\\) is the distance from the slits to the screen and \\(d\\) is the separation between the slits. If the slit separation \\(d\\) is halved and the screen distance \\(D\\) is tripled, the bandwidth (inverse of fringe width) becomes:\n\n(a) tripled  \n(b) halved  \n(c) one-sixth  \n(d) six times",
+  "gold": [
+   "(c)"
+  ],
+  "rl": "Skywork-Math",
+  "rl_solved": "4/8 (7 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "\\text{one-sixth} ; \\text{one-sixth}": 1,
+   "6 ; \\dfrac{1}{6} ; \\text{(c)} ; \\dfrac{1}{6} ; C ; C ; c ; C ; C ; C ; C ; C ; C ; C ; C ; C ; C [RIGHT]": 1,
+   "\\dfrac{1}{6} ; \\dfrac{1}{6} ; \\dfrac{1}{6} ; \\dfrac{1}{6} ; \\dfrac{1}{6} ; \\dfrac{1}{6}": 1,
+   "\\dfrac{1}{6} ; \\dfrac{1}{6} ; \\dfrac{1}{6} ; \\dfrac{1}{6} ; C ; C ; \\dfrac{1}{6} ; \\dfrac{1}{6} ; \\dfrac{1}{6} ; \\dfrac{1}{6} ; \\dfrac{1}{6} ; \\dfrac{1}{6}": 1
+  },
+  "base_answers": {
+   "C ; C": 7,
+   "D ; D": 1
+  }
+ },
+ {
+  "cell": "Skywork-Math|tbr_421768",
+  "budget": 16384,
+  "q": "The work done in adiabatic compression of 2 moles of an ideal monoatomic gas against a constant external pressure of 2 atm is to be calculated. The gas starts at an initial pressure of 1 atm and an initial temperature of 300 K. Given \\( R = 2 \\, \\text{cal/mol-K} \\), what is the work done in calories?  \n(a) 360 cal  \n(b) 720 cal  \n(c) 800 cal  \n(d) 1000 cal",
+  "gold": [
+   "720"
+  ],
+  "rl": "Skywork-Math",
+  "rl_solved": "7/8 (7 finished)",
+  "base_solved": "0/8 (2 finished)",
+  "rl_answers": {
+   "720 ; 720 [RIGHT]": 7
+  },
+  "base_answers": {
+   "C ; C": 2
+  }
+ },
+ {
+  "cell": "Skywork-Math|tbr_462584",
+  "budget": 16384,
+  "q": "What is the energy of a photon with a wavelength of 121.2 nm?",
+  "gold": [
+   "10.2 \\text{ eV}"
+  ],
+  "rl": "Skywork-Math",
+  "rl_solved": "5/8 (8 finished)",
+  "base_solved": "2/8 (8 finished)",
+  "rl_answers": {
+   "1.64 \\times 10^{-18} \\text{ J} ; 1.64 \\times 10^{-18} \\text{ J}": 3,
+   "10.2 \\text{ eV} ; 10.2 \\text{ eV} [RIGHT]": 2,
+   "10.2 \\text{ eV} ; 10.2 \\text{ eV} ; 10.2 \\text{ eV} [RIGHT]": 1,
+   "10.24 \\text{ eV} ; 10.24 \\text{ eV} [RIGHT]": 1
+  },
+  "base_answers": {
+   "1.64 \\times 10^{-18} \\text{ J} ; 1.64 \\times 10^{-18} \\text{ J}": 3,
+   "10.23 \\text{ eV} ; 10.23 \\text{ eV} [RIGHT]": 2,
+   "1.64 \\times 10^{-18}\\ \\text{J} ; 1.64 \\times 10^{-18}\\ \\text{J}": 2,
+   "1.64 \\times 10^{-18} \\text{ J} ; 1.64 \\times 10^{-18} \\, \\text{J}": 1
+  }
+ },
+ {
+  "cell": "Skywork-Math|tbr_500712",
+  "budget": 16384,
+  "q": "The average energy in one time period in simple harmonic motion is  \n(a) \\( \\frac{1}{2} m \\omega^2 A^2 \\)  \n(b) \\( \\frac{1}{4} m \\omega^2 A^2 \\)  \n(c) \\( m \\omega^2 A^2 \\)  \n(d) zero.",
+  "gold": [
+   "\\(\\frac{1}{2} m \\omega^2 A^2\\)"
+  ],
+  "rl": "Skywork-Math",
+  "rl_solved": "6/8 (6 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "\\dfrac{1}{2} m \\omega^2 A^2 ; \\dfrac{1}{2} m \\omega^2 A^2 [RIGHT]": 5,
+   "\\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 [RIGHT]": 1
+  },
+  "base_answers": {
+   "A ; A": 6,
+   "a ; a": 2
+  }
+ },
+ {
+  "cell": "Skywork-Math|tbr_585100",
+  "budget": 16384,
+  "q": "The average velocity of an ideal gas molecule at 27\u00b0C is 0.3 m/s. What will be the average velocity at 927\u00b0C?  \n   a. 0.6 m/s  \n   b. 0.3 m/s  \n   c. 0.9 m/s  \n   d. 3.0 m/s",
+  "gold": [
+   "0.6"
+  ],
+  "rl": "Skywork-Math",
+  "rl_solved": "8/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "0.6 ; 0.6 [RIGHT]": 8
+  },
+  "base_answers": {
+   "a ; a": 8
+  }
+ },
+ {
+  "cell": "Skywork-Math|tbr_642894",
+  "budget": 16384,
+  "q": "A series RC circuit, with \\( R = 10 \\, \\Omega \\) and \\( C = 4 \\, \\mu\\text{F} \\), has an initial charge \\( Q_0 = 800 \\, \\mu\\text{C} \\) on the capacitor at the time the switch is closed, applying a constant-voltage source \\( V = 100 \\, \\text{V} \\). Find the resulting current transient if the charge is (a) of the same polarity as that deposited by the source, and (b) of the opposite polarity.",
+  "gold": [
+   "I(t) = -10 e^{-25,000 t} \\, \\text{A}, I(t) = 30 e^{-25,000 t} \\, \\text{A}"
+  ],
+  "rl": "Skywork-Math",
+  "rl_solved": "3/8 (8 finished)",
+  "base_solved": "3/8 (8 finished)",
+  "rl_answers": {
+   "-10 e^{-25000 t} ; 30 e^{-25000 t} ; -10 e^{-25000 t} ; 30 e^{-25000 t} [RIGHT]": 2,
+   "10 e^{-t/(40 \\times 10^{-6})} \\text{ A} ; -30 e^{-t/(40 \\times 10^{-6})} \\text{ A} ; 10 e^{-t/(40 \\times 10^{-6})} \\text{ A} ; -30 e^{-t/(40 \\times 10^{-6})} \\t [RIGHT]": 1,
+   "-10 e^{-t / 40 \\mu s} ; 30 e^{-t / 40 \\mu s} ; -10 e^{-t / 40 \\mu s} ; 30 e^{-t / 40 \\mu s}": 1,
+   "8 e^{-t/40 \\mu s} ; 12 e^{-t/40 \\mu s} ; 8 e^{-t/40 \\mu s} ; 12 e^{-t/40 \\mu s}": 1
+  },
+  "base_answers": {
+   "-10 e^{-t/(40 \\mu s)} ; 30 e^{-t/(40 \\mu s)} ; -10 e^{-t/(40 \\mu s)} ; 30 e^{-t/(40 \\mu s)}": 1,
+   "-10 e^{-t/(40 \\times 10^{-6})} \\text{ A} ; 30 e^{-t/(40 \\times 10^{-6})} \\text{ A} ; -10 e^{-t/(40 \\times 10^{-6})} \\text{ A} ; 30 e^{-t/(40 \\times 10^{-6})} \\t [RIGHT]": 1,
+   "-10 \\, \\text{mA} \\, e^{-t/(40 \\, \\mu\\text{s})} ; 30 \\, \\text{mA} \\, e^{-t/(40 \\, \\mu\\text{s})} ; -10 \\, \\text{mA} \\, e^{-t/(40 \\, \\mu\\text{s})} ; 30 \\, \\text{mA": 1,
+   "-10 e^{-t/(40 \\mu s)} \\text{ A} ; 30 e^{-t/(40 \\mu s)} \\text{ A} ; -10 e^{-t/(40 \\mu s)} \\text{ A} ; 30 e^{-t/(40 \\mu s)} \\text{ A}": 1,
+   "-10 e^{-25000 t} ; 30 e^{-25000 t} ; -10 e^{-25000 t} ; 30 e^{-25000 t} [RIGHT]": 1
+  }
+ },
+ {
+  "cell": "Skywork-7B|cal_problem_01040",
+  "budget": 16384,
+  "q": "(context) There is a type of hydrogen fuel vehicle that, during the combustion process in the engine, only emits water vapor without any other exhaust gases, thus producing no pollution and making it an environmentally friendly car. If the mass of the hydrogen fuel vehicle is $6\\times 10^{3}kg$, the resistance is 0.05 times the weight of the vehicle, and the maximum output power is $60\\mathrm{kW}$.\n\n(sub_question_1) How long can the car maintain this acceleration process, starting from rest with an acceleration of $a{=}0.5\\mathrm{m}/\\mathrm{s}^{2}$?\n\n(sub_question_2) What is the maximum driving speed?\n\n(sub_question_3) If this car travels at its maximum speed for $300\\mathrm{km}$ with an eng",
+  "gold": [
+   "20s",
+   "20m/s",
+   "12.6kg"
+  ],
+  "rl": "Skywork-7B",
+  "rl_solved": "1/8 (8 finished)",
+  "base_solved": "1/8 (8 finished)",
+  "rl_answers": {
+   "20.2 ; 20.4 ; 12.4 ; 20.2 ; 20.4 ; 12.4 ; 20.2 ; 20.4 ; 12.4 ; 20.2 ; 20.4 ; 12.4 ; 20.2 ; 20.4 ; 12.4": 1,
+   "20.2 \\text{ s} ; 20.4 \\text{ m/s} ; 12.4 \\text{ kg} ; 20.2 \\text{ s} ; 20.4 \\text{ m/s} ; 12.4 \\text{ kg}": 1,
+   "20.19\\ \\text{s} ; 20.19\\ \\text{s} ; 10.10\\ \\text{m/s} ; 12.34\\ \\text{kg} ; 20.19\\ \\text{s} ; 10.10\\ \\text{m/s} ; 12.34\\ \\text{kg}": 1,
+   "20.2 \\text{ s} ; 20.4 \\text{ m/s} ; 12.35 \\text{ kg} ; 20.2 \\text{ s} ; 20.4 \\text{ m/s} ; 12.35 \\text{ kg}": 1
+  },
+  "base_answers": {
+   "20.2 ; 73.4 \\text{ km/h} ; 12.3 \\text{ kg} ; 20.2 ; 73.4 \\text{ km/h} ; 12.3 \\text{ kg}": 1,
+   "20.2 ; 20.4 ; 12.3 ; 20.2 ; 20.4 ; 12.3": 1,
+   "2105 ; 20 ; 12.6 ; 2105 ; 20 ; 12.6 [RIGHT]": 1,
+   "1.41 \\text{ s} ; 20.41 \\text{ m/s} ; 12.33 \\text{ kg} ; 1.41 \\text{ s} ; 20.41 \\text{ m/s} ; 12.33 \\text{ kg}": 1,
+   "20.19 \\text{ seconds} ; 20.36 \\text{ m/s} ; 12.37 \\text{ kg} ; 20.19 \\text{ seconds} ; 20.36 \\text{ m/s} ; 12.37 \\text{ kg}": 1
+  }
+ },
+ {
+  "cell": "Skywork-7B|physcorp_3132",
+  "budget": 16384,
+  "q": "In an optical system with spherical refraction, the radius of the sphere is \\( r \\), and the refractive indices on either side of the sphere are \\( n_1 \\) and \\( n_2 \\) \\((n_1 < n_2)\\). There is a point light source at point \\( Q \\) on the optical axis, at a distance \\( s \\) from the vertex \\( O \\) of the spherical surface. There is another arbitrary point \\( Q' \\), at a distance \\( s' \\) from point \\( O \\). Under paraxial conditions, which rays emanating from \\( Q \\) can reach \\( Q' \\)? If \\( Q' \\) is the image point of \\( Q \\), which optical paths satisfy the extremum condition?",
+  "gold": [
+   "\\frac{n_1}{s} + \\frac{n_2}{s'} = \\frac{n_2 - n_1}{r}"
+  ],
+  "rl": "Skywork-7B",
+  "rl_solved": "1/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "\\text{The paraxial ray from } Q \\text{ to } Q' ; \\text{The paraxial path satisfying the extremum condition} ; \\text{The paraxial ray} ; \\text{The paraxial ray}": 1,
+   "\\text{Only the paraxial ray along the optical axis can reach } Q' \\text{ if } Q' \\text{ is on the optical axis.} ; \\text{When } Q' \\text{ is the image, all para": 1,
+   "\\text{The rays are the paraxial rays, and the principal ray satisfies the extremum condition.} ; \\text{The rays are the paraxial rays, and the principal ray sat": 1,
+   "\\frac{n_1}{s} + \\frac{n_2}{s'} = \\frac{n_2 - n_1}{r} ; \\frac{n_1}{s} + \\frac{n_2}{s'} = \\frac{n_2 - n_1}{r} [RIGHT]": 1
+  },
+  "base_answers": {
+   "\\text{The paraxial ray} ; \\text{The paraxial ray}": 2,
+   "\\text{Paraxial rays} ; \\text{Paraxial path} ; \\text{Paraxial rays} ; \\text{Paraxial path}": 1,
+   "\\text{All paraxial rays} ; \\text{Only the principal ray} ; \\text{All paraxial rays} ; \\text{Only the principal ray} ; \\text{All paraxial rays} ; \\text{Only the ": 1,
+   "Q' ; Q' ; Q' ; \\text{Principal ray} ; \\text{Principal ray} ; \\text{Principal ray} ; \\text{Principal ray}": 1,
+   "\\text{only the paraxial ray} ; \\text{the paraxial ray} ; \\text{Only the paraxial ray} ; \\text{only the paraxial ray} ; \\text{the paraxial ray} ; \\text{the parax": 1
+  }
+ },
+ {
+  "cell": "Skywork-7B|physcorp_3348",
+  "budget": 16384,
+  "q": "A solid sphere with a mass of $m$ and a radius of $r$ rolls inside the surface of a fixed spherical shell of radius $R$. Based on the given expression for $\\dot{\\varphi}$, derive the expressions for the kinetic energy $T$ and the potential energy $V$ of the sphere during small oscillations.",
+  "gold": [
+   "\\frac{7}{10} m (R - r)^{2} \\dot{\\theta}^{2}, \\frac{1}{2} m g (R - r) \\theta^{2}"
+  ],
+  "rl": "Skywork-7B",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "T = \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; V = \\dfrac{1}{2} m g (R - r) \\varphi^2 ; T = \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; V = \\dfrac{1}{2} m g (R": 4,
+   "T = \\dfrac{7}{10} m (R - r)^2 \\left( \\dfrac{d\\varphi}{dt} \\right)^2 ; V = \\dfrac{1}{2} m g (R - r) \\varphi^2 ; T = \\dfrac{7}{10} m (R - r)^2 \\left( \\dfrac{d\\var": 1,
+   "T = \\dfrac{7}{10} m (R - r)^2 \\left(\\dfrac{d\\varphi}{dt}\\right)^2 ; V = \\dfrac{1}{2} m g (R - r) \\varphi^2 ; T = \\dfrac{7}{10} m (R - r)^2 \\left(\\dfrac{d\\varphi": 1,
+   "T = \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; V = \\dfrac{1}{2} m g (R - r) \\varphi^2 ; \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\dfrac{1}{2} m g (R - r) \\v": 1
+  },
+  "base_answers": {
+   "\\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\frac{1}{2} m g (R - r) \\varphi^2 ; \\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\frac{1}{2} m g (R - r) \\varphi^2": 2,
+   "\\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\frac{1}{2} mg(R - r)\\varphi^2 ; \\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\frac{1}{2} mg(R - r)\\varphi^2": 1,
+   "\\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\dfrac{1}{2} m g (R - r) \\varphi^2 ; \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\dfrac{1}{2} m g (R - r) \\varphi^2": 1,
+   "T = \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; V = \\dfrac{1}{2} m g (R - r) \\varphi^2 ; T = \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; V = \\dfrac{1}{2} m g (R": 1,
+   "\\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; -\\frac{1}{2} m g (R - r) \\varphi^2 ; \\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; -\\frac{1}{2} m g (R - r) \\varphi^2": 1
+  }
+ },
+ {
+  "cell": "Skywork-7B|physicsb_2258",
+  "budget": 16384,
+  "q": "The wavelength of a certain ultraviolet laser is $\\lambda$, and the energy of a single photon is $\\qquad$. If this laser is used in a photoelectric effect experiment, and the cutoff frequency of the photoelectric material is $v_{0}$, then the maximum initial kinetic energy of the emitted photoelectrons is $\\qquad$. (Planck's constant is $h$, and the speed of light in a vacuum is $c$.)",
+  "gold": [
+   "h \\frac{c}{\\lambda}",
+   "h \\frac{c}{\\lambda}-h v_{0}"
+  ],
+  "rl": "Skywork-7B",
+  "rl_solved": "4/8 (7 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "\\dfrac{hc}{\\lambda} ; h\\left( \\dfrac{c}{\\lambda} - v_0 \\right) ; \\dfrac{hc}{\\lambda} ; h\\left( \\dfrac{c}{\\lambda} - v_0 \\right) ; h\\left( \\dfrac{c}{\\lambda} - v [RIGHT]": 1,
+   "\\dfrac{hc}{\\lambda} ; \\dfrac{hc}{\\lambda} - hv_0 ; \\dfrac{hc}{\\lambda} - hv_0 ; \\dfrac{hc}{\\lambda} ; \\dfrac{hc}{\\lambda} - hv_0 ; \\dfrac{hc}{\\lambda} ; \\dfrac{ [RIGHT]": 1,
+   "\\dfrac{hc}{\\lambda} - hv_0 ; \\dfrac{hc}{\\lambda} - hv_0": 1,
+   "\\dfrac{hc}{\\lambda} ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right) ; \\dfrac{hc}{\\lambda} ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right) ; \\dfrac{hc}{\\lambda} ; h\\left(\\dfra [RIGHT]": 1
+  },
+  "base_answers": {
+   "h\\left(\\frac{c}{\\lambda} - v_0\\right) ; h\\left(\\frac{c}{\\lambda} - v_0\\right)": 3,
+   "h\\left(\\dfrac{c}{\\lambda} - v_0\\right) ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right)": 2,
+   "h\\left(\\dfrac{c}{\\lambda} - v_0\\right) ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right) ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right)": 1,
+   "\\frac{hc}{\\lambda} - h v_0 ; \\dfrac{hc}{\\lambda} - h v_0 ; \\dfrac{hc}{\\lambda} - h v_0": 1,
+   "h\\left(\\frac{c}{\\lambda} - \\nu_0\\right) ; h\\left(\\frac{c}{\\lambda} - \\nu_0\\right)": 1
+  }
+ },
+ {
+  "cell": "Skywork-7B|tbr_106015",
+  "budget": 16384,
+  "q": "A transmission-line inductor is made from coaxial cable with a velocity factor of 0.66 and operates at 450 MHz. Using the formula for the length of a quarter-wavelength transmission line in centimeters, \\( s = \\frac{7500v}{f} \\), where \\( v \\) is the velocity factor and \\( f \\) is the frequency in MHz, the length of the transmission line would be shorter than:",
+  "gold": [
+   "11"
+  ],
+  "rl": "Skywork-7B",
+  "rl_solved": "6/8 (7 finished)",
+  "base_solved": "1/8 (8 finished)",
+  "rl_answers": {
+   "11 ; 11 [RIGHT]": 5,
+   "16.67 ; 16.67 ; \\dfrac{50}{3} ; 16.\\overline{6} ; \\dfrac{50}{3} ; 16.67 ; 16.67 ; \\dfrac{50}{3} ; 16.67 ; \\dfrac{50}{3} ; 16.67 ; \\dfrac{50}{3} ; 16.67 ; 16.67 ": 1,
+   "11 ; 16.67 ; 16.67 ; 16.67 ; 11 ; 11 ; 11 ; 11 ; 16.67 ; 11 ; 16.67 ; 11 ; 16.67 ; 16.67 ; 16.67 ; 11 ; 16.67 ; 11 ; 16.67 ; 16.67 ; 16.67 ; 16.67 ; 16.67 ; 16. [RIGHT]": 1
+  },
+  "base_answers": {
+   "16.67 ; 16.67": 4,
+   "16.67 ; 16.67 ; 16.67": 1,
+   "16.67 ; \\dfrac{50}{3} ; 16.67 ; 16.67 ; \\dfrac{50}{3} ; 16.\\overline{6} ; \\dfrac{50}{3} ; \\dfrac{50}{3} ; 16.67 ; \\dfrac{50}{3} ; 16.\\overline{6} ; \\dfrac{50}{3": 1,
+   "16.666 ; 16.666 ; 16.666": 1,
+   "11 ; 16.67 ; 16.67 ; 16.67 ; 16.67 ; 11 ; 16.67 ; 16.67 ; 16.67 [RIGHT]": 1
+  }
+ },
+ {
+  "cell": "Skywork-7B|tbr_22163",
+  "budget": 16384,
+  "q": "A ray of light strikes a plane mirror at an angle of 30\u00b0 as shown in the figure. After reflection, the ray passes through a prism of refractive index 1.5 whose apex angle is 4\u00b0. The total angle through which the ray deviates is:\n(a) 90\u00b0  \n(b) 270\u00b0  \n(c) 145\u00b0  \n(d) 122\u00b0",
+  "gold": [
+   "122"
+  ],
+  "rl": "Skywork-7B",
+  "rl_solved": "4/8 (4 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "122^\\circ ; 122^\\circ [RIGHT]": 3,
+   "122^\\circ ; 122^\\circ ; 122^\\circ ; 122^\\circ ; 122^\\circ [RIGHT]": 1
+  },
+  "base_answers": {
+   "D ; D": 4,
+   "A ; A": 2,
+   "A ; A ; A": 1,
+   "C ; C": 1
+  }
+ },
+ {
+  "cell": "Skywork-7B|tbr_462584",
+  "budget": 16384,
+  "q": "What is the energy of a photon with a wavelength of 121.2 nm?",
+  "gold": [
+   "10.2 \\text{ eV}"
+  ],
+  "rl": "Skywork-7B",
+  "rl_solved": "4/8 (7 finished)",
+  "base_solved": "2/8 (8 finished)",
+  "rl_answers": {
+   "10.24 \\text{ eV} ; 10.24 \\text{ eV} [RIGHT]": 2,
+   "1.64 \\times 10^{-18} \\text{ J} ; 1.64 \\times 10^{-18} \\text{ J}": 2,
+   "10.23 \\text{ eV} ; 10.23 \\text{ eV} [RIGHT]": 1,
+   "1.64 \\times 10^{-18} \\text{ J} ; 1.638 \\times 10^{-18} \\text{ J} ; 1.638 \\times 10^{-18} \\text{ J} ; 1.638 \\times 10^{-18} \\text{ J}": 1
+  },
+  "base_answers": {
+   "1.64 \\times 10^{-18} \\text{ J} ; 1.64 \\times 10^{-18} \\text{ J}": 3,
+   "10.23 \\text{ eV} ; 10.23 \\text{ eV} [RIGHT]": 2,
+   "1.64 \\times 10^{-18}\\ \\text{J} ; 1.64 \\times 10^{-18}\\ \\text{J}": 2,
+   "1.64 \\times 10^{-18} \\text{ J} ; 1.64 \\times 10^{-18} \\, \\text{J}": 1
+  }
+ },
+ {
+  "cell": "Skywork-7B|tbr_500712",
+  "budget": 16384,
+  "q": "The average energy in one time period in simple harmonic motion is  \n(a) \\( \\frac{1}{2} m \\omega^2 A^2 \\)  \n(b) \\( \\frac{1}{4} m \\omega^2 A^2 \\)  \n(c) \\( m \\omega^2 A^2 \\)  \n(d) zero.",
+  "gold": [
+   "\\(\\frac{1}{2} m \\omega^2 A^2\\)"
+  ],
+  "rl": "Skywork-7B",
+  "rl_solved": "2/8 (7 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "a ; a": 5,
+   "a ; a ; a ; a ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\omega^2 A^2 ; [RIGHT]": 1,
+   "A ; A ; a ; a ; A ; a ; a ; A ; a ; a ; \\frac{1}{2} m \\omega^2 A^2 ; a ; a ; a ; \\frac{1}{2} m \\omega^2 A^2 ; a ; \\frac{1}{2} m \\omega^2 A^2 ; \\frac{1}{2} m \\om [RIGHT]": 1
+  },
+  "base_answers": {
+   "A ; A": 6,
+   "a ; a": 2
+  }
+ },
+ {
+  "cell": "JustRL-D|physcorp_3348",
+  "budget": 16384,
+  "q": "A solid sphere with a mass of $m$ and a radius of $r$ rolls inside the surface of a fixed spherical shell of radius $R$. Based on the given expression for $\\dot{\\varphi}$, derive the expressions for the kinetic energy $T$ and the potential energy $V$ of the sphere during small oscillations.",
+  "gold": [
+   "\\frac{7}{10} m (R - r)^{2} \\dot{\\theta}^{2}, \\frac{1}{2} m g (R - r) \\theta^{2}"
+  ],
+  "rl": "JustRL-D",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (6 finished)",
+  "rl_answers": {
+   "\\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\dfrac{1}{2} m g (R - r) \\varphi^2 ; \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\dfrac{1}{2} m g (R - r) \\varphi^2": 4,
+   "\\dfrac{7}{10} m (R - r)^2 \\dot{\\theta}^2 ; m g (R - r) (1 - \\cos \\theta) ; \\dfrac{7}{10} m (R - r)^2 \\dot{\\theta}^2 ; m g (R - r) (1 - \\cos \\theta)": 1,
+   "T = \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; V = \\dfrac{1}{2} m g (R - r) \\varphi^2 ; T = \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; V = \\dfrac{1}{2} m g (R": 1,
+   "T = \\dfrac{1}{5} m g r^2 (R - r) \\varphi^2 ; V = \\dfrac{1}{2} m g (R - r) \\varphi^2 ; T = \\dfrac{1}{5} m g r^2 (R - r) \\varphi^2 ; V = \\dfrac{1}{2} m g (R - r) ": 1
+  },
+  "base_answers": {
+   "\\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos\\varphi ; \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos\\varphi": 1,
+   "T = \\frac{7}{10} m r^2 \\left( \\frac{d\\varphi}{dt} \\right)^2 ; V = -\\frac{1}{2} m g (R - r) \\varphi^2 ; T = \\frac{7}{10} m r^2 \\left( \\frac{d\\varphi}{dt} \\right)": 1,
+   "T = m \\dot{\\varphi}^2 \\left[ \\frac{1}{2} (R - r)^2 + \\frac{1}{5} r^2 - (R - r)^2 \\sin^2\\varphi \\cos\\varphi \\right] ; V = m g (R - r)(1 - \\cos\\varphi) ; T = m \\d": 1,
+   "\\frac{1}{2} m R^2 \\varphi^2 + \\frac{m r^2 R^2}{5(R - r)^2} \\varphi^2 ; \\frac{1}{2} mg(R - r)\\varphi^2 ; \\frac{1}{2} m R^2 \\varphi^2 + \\frac{m r^2 R^2}{5(R - r)^": 1,
+   "\\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos \\varphi ; \\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos \\varphi": 1
+  }
+ },
+ {
+  "cell": "JustRL-D|tbr_245633",
+  "budget": 16384,
+  "q": "In a Young's double-slit experiment, the fringe width is given by \\(\\beta = \\frac{\\lambda D}{d}\\), where \\(D\\) is the distance from the slits to the screen and \\(d\\) is the separation between the slits. If the slit separation \\(d\\) is halved and the screen distance \\(D\\) is tripled, the bandwidth (inverse of fringe width) becomes:\n\n(a) tripled  \n(b) halved  \n(c) one-sixth  \n(d) six times",
+  "gold": [
+   "(c)"
+  ],
+  "rl": "JustRL-D",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (7 finished)",
+  "rl_answers": {
+   "C ; C": 8
+  },
+  "base_answers": {
+   "C ; C": 7
+  }
+ },
+ {
+  "cell": "AceReason-14B|physcorp_1059",
+  "budget": 16384,
+  "q": "A particle with a rest mass of \\( m \\) transitions to an excited state with an excitation energy \\(\\Delta E\\) by absorbing a \\(\\gamma\\) photon. Assume that \\(\\Delta E\\) is comparable to \\( mc^{2} \\). If a \\(\\gamma\\) photon is used to excite this resting particle to the excited state, what is the resonance energy of the \\(\\gamma\\) photon required?",
+  "gold": [
+   "\\Delta E + \\frac{\\Delta E^{2}}{2 m c^{2}}"
+  ],
+  "rl": "AceReason-14B",
+  "rl_solved": "0/8 (4 finished)",
+  "base_solved": "0/8 (7 finished)",
+  "rl_answers": {
+   "\\sqrt{2 m c^2 \\Delta E + (\\Delta E)^2} ; \\sqrt{2 m c^2 \\Delta E + (\\Delta E)^2}": 1,
+   "\\Delta E + \\dfrac{(\\Delta E)^2}{2mc^2} ; \\Delta E + \\dfrac{(\\Delta E)^2}{2mc^2}": 1,
+   "\\sqrt{2 m c^2 \\Delta E + \\Delta E^2} ; \\sqrt{2 m c^2 \\Delta E + \\Delta E^2}": 1,
+   "\\sqrt{\\Delta E^2 + 2 mc^2 \\Delta E} ; \\sqrt{\\Delta E^2 + 2 mc^2 \\Delta E}": 1
+  },
+  "base_answers": {
+   "\\Delta E ; \\Delta E": 4,
+   "\\sqrt{2 m c^2 \\Delta E + (\\Delta E)^2} ; \\sqrt{2 m c^2 \\Delta E + (\\Delta E)^2}": 1,
+   "\\sqrt{\\Delta E^2 + 2 mc^2 \\Delta E} ; \\sqrt{\\Delta E^2 + 2 mc^2 \\Delta E}": 1,
+   "\\sqrt{2 m c^2 \\Delta E + \\Delta E^2} ; \\sqrt{2 m c^2 \\Delta E + \\Delta E^2}": 1
+  }
+ },
+ {
+  "cell": "AceReason-14B|physcorp_6368",
+  "budget": 16384,
+  "q": "Two point charges, each with charge $e$, are located at the ends of a line segment of length $2l$. The segment rotates with a constant angular velocity $\\omega$ around an axis passing through its center and perpendicular to the line. Find the electric dipole moment.",
+  "gold": [
+   "0"
+  ],
+  "rl": "AceReason-14B",
+  "rl_solved": "3/8 (8 finished)",
+  "base_solved": "1/8 (8 finished)",
+  "rl_answers": {
+   "0 ; 0 [RIGHT]": 3,
+   "2el ; 2el": 3,
+   "\\vec{p} = 2 e l \\left( \\cos(\\omega t) \\hat{x} + \\sin(\\omega t) \\hat{y} \\right) ; 2 e l ; \\vec{p} = 2 e l \\left( \\cos(\\omega t) \\hat{i} + \\sin(\\omega t) \\hat{j} ": 1,
+   "2el ; 2el (\\cos(\\omega t) \\hat{i} + \\sin(\\omega t) \\hat{j}) ; 2el ; 2el ; 2el ; 2el ; 2el": 1
+  },
+  "base_answers": {
+   "2el ; 2el": 4,
+   "e l ; 0 ; 0 ; 0 ; 0 [RIGHT]": 1,
+   "2el(\\cos \\omega t \\, \\mathbf{i} + \\sin \\omega t \\, \\mathbf{j}) ; 2el(\\cos \\omega t \\, \\mathbf{i} + \\sin \\omega t \\, \\mathbf{j})": 1,
+   "2 e l ; 2 e l ; 2 e l": 1,
+   "2el ; 2el ; 2el ; 2el": 1
+  }
+ },
+ {
+  "cell": "AceReason-14B|physicsb_1985",
+  "budget": 16384,
+  "q": "Given that the average Sun-Earth distance is $d_{1}=1.5 \\times 10^{8} \\mathrm{~km}$, the average Sun-Neptune distance is $d_{2}=4.5 \\times 10^{9} \\mathrm{~km}$, and the solar radiation flux to Earth is $w=1.35 \\times 10^{3} \\mathrm{~W} \\cdot \\mathrm{~m}^{-2} \\cdot \\mathrm{~s}^{-1}$, make reasonable assumptions to estimate the surface temperature of Neptune.",
+  "gold": [
+   "50.7 \\, \\text{K}"
+  ],
+  "rl": "AceReason-14B",
+  "rl_solved": "3/8 (6 finished)",
+  "base_solved": "6/8 (8 finished)",
+  "rl_answers": {
+   "51 \\text{ K} ; 51 \\text{ K} [RIGHT]": 2,
+   "50 ; 50": 2,
+   "51 ; 51 [RIGHT]": 1,
+   "72 ; 72 ; 72": 1
+  },
+  "base_answers": {
+   "51 \\text{ K} ; 51 \\text{ K} [RIGHT]": 3,
+   "51 \\text{ K} [RIGHT]": 2,
+   "50 \\text{ K} ; 50 \\text{ K}": 1,
+   "51 \\, \\text{K} ; 51 \\, \\text{K} [RIGHT]": 1,
+   "50 \\mathrm{~K} ; 50 \\mathrm{~K}": 1
+  }
+ },
+ {
+  "cell": "JustRL-N|cal_problem_00335",
+  "budget": 16384,
+  "q": "(context) In an electric field, a charged particle with a charge of $-2\\!\\times\\!10^{-9}\\mathrm{C}$ is moved from point A to point B, with the work done by the electrostatic force being $-2\\times 10^{-7}\\mathbf{J}$. Subsequently, the same particle is moved from point B to point C, and the work done by the electrostatic force is $6\\times 10^{-7}\\mathbf{J}$.\n\n(sub_question_1) Determine the electric potential difference between points A and B, between points B and C, and between points A and C.\n\n(sub_question_2) If the electric potential at point A is defined to be zero, calculate the electric potential energy of the particle at point C.",
+  "gold": [
+   "100V, -300V, -200V",
+   "$-4\\times 10^{-7}\\mathbf{J}$"
+  ],
+  "rl": "JustRL-N",
+  "rl_solved": "0/8 (7 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "-4 \\times 10^{-7}\\text{J} ; -100 ; 300 ; 200 ; -100 ; 300 ; 200 ; -4 \\times 10^{-7}\\text{J} ; -100 ; 300 ; 200 ; -4 \\times 10^{-7}\\text{J} ; -100 ; 300 ; 200 ; ": 1,
+   "4 \\times 10^{-7}\\text{J} ; -100 ; -100 ; 300 ; 200 ; 4 \\times 10^{-7}\\text{J} ; 4 \\times 10^{-7}\\text{J} ; -100 ; 300 ; 200 ; 4 \\times 10^{-7}\\text{J} ; -100 ; ": 1,
+   "-4 \\times 10^{-7}\\, \\text{J} ; 2 \\times 10^{-7}\\, \\text{J} ; -6 \\times 10^{-7}\\, \\text{J} ; -4 \\times 10^{-7}\\, \\text{J} ; -4 \\times 10^{-7}\\, \\text{J} ; -4 \\ti": 1,
+   "-4 \\times 10^{-7}\\text{J} ; -100 ; 300 ; 200 ; -4 \\times 10^{-7} ; -4 \\times 10^{-7} ; -100 ; 300 ; 200 ; -4 \\times 10^{-7} ; -100 ; 300 ; 200 ; -4 \\times 10^{-": 1
+  },
+  "base_answers": {
+   "4 \\times 10^{-7} \\, \\text{J}": 1,
+   "-4 \\times 10^{-7}\\text{J} ; 2 \\times 10^{-7}\\text{J} ; -6 \\times 10^{-7}\\text{J} ; -4 \\times 10^{-7}\\text{J} ; -4 \\times 10^{-7}\\text{J} ; 2 \\times 10^{-7}\\text": 1,
+   "2 \\times 10^{-7}\\ \\text{J} ; -6 \\times 10^{-7}\\ \\text{J} ; -4 \\times 10^{-7}\\ \\text{J} ; -4 \\times 10^{-7}\\ \\text{J} ; 2 \\times 10^{-7}\\ \\text{J} ; -6 \\times 10": 1,
+   "-8 \\times 10^{-16} \\text{ J} ; -8 \\times 10^{-16} \\text{ J} ; 2 \\times 10^{-7} \\text{ J} ; -6 \\times 10^{-7} \\text{ J} ; -4 \\times 10^{-7} \\text{ J} ; -8 \\times": 1,
+   "-4 \\times 10^{-7}\\text{J} ; 2 \\times 10^{-7}\\text{J} ; -6 \\times 10^{-7}\\text{J} ; -4 \\times 10^{-7}\\text{J} ; -4 \\times 10^{-7}\\text{J} ; 2 \\times 10^{-7}\\, \\t": 1
+  }
+ },
+ {
+  "cell": "JustRL-N|physcorp_1714",
+  "budget": 16384,
+  "q": "What is the degeneracy of the lowest rotational energy level of the HD (Hydrogen-Deuterium) molecule?",
+  "gold": [
+   "6"
+  ],
+  "rl": "JustRL-N",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "3 ; 3": 2,
+   "2 ; 2 ; 2": 1,
+   "3 ; 3 ; 3 ; 3": 1,
+   "3 ; 3 ; 3": 1
+  },
+  "base_answers": {
+   "2": 2,
+   "1 ; 1": 2,
+   "3": 2,
+   "2 ; 2": 1,
+   "3 ; 3 ; 3": 1
+  }
+ },
+ {
+  "cell": "JustRL-N|physcorp_610",
+  "budget": 16384,
+  "q": "1 mol of a certain gas obeys the Van der Waals equation of state $\\left(p+\\frac{a}{V^{2}}\\right)(V-b)=RT$. Please calculate the pressure $p_{\\mathrm{c}}$, volume $V_{\\mathrm{c}}$, and temperature $T_{\\mathrm{c}}$ of this gas at the critical point.",
+  "gold": [
+   "p_{\\mathrm{c}}=\\frac{a}{27b^{2}}, V_{\\mathrm{c}}=3b, T_{\\mathrm{c}}=\\frac{8a}{27bR}"
+  ],
+  "rl": "JustRL-N",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "83139.75 ; 2 ; 1000 ; 1000 ; 1000 ; 100 ; 1000 ; 840 ; 100 ; 1000 ; 840 ; 100 ; 1000 ; 840 ; 100 ; 1000": 1,
+   "p_c = 46.3 ; V_c = 100 ; T_c = 100 ; 46.3 ; 46.3 ; 46.3 ; p_c = 46.3 ; V_c = 100 ; T_c = 100 ; 46.3 ; 46.3 ; 46.3 ; 100 ; 100 ; 46.3 ; 46.3 ; p_c = 46.3,\\ V_c =": 1,
+   "p_c = -\\dfrac{a}{b^2} ; V_c = b ; T_c = 0 ; p_c = -\\dfrac{a}{b^2} ; V_c = b ; T_c = 0 ; p_c = -\\dfrac{a}{b^2}, V_c = b, T_c = 0 ; p_c = -\\dfrac{a}{b^2}, V_c = b": 1,
+   "300 ; 200 ; 50 ; 79 ; 50 ; 300 ; p_c = 79 ; V_c = 50 ; T_c = 300 ; p_c=79,\\ V_c=50,\\ T_c=300 ; 79 ; 50 ; 300 ; (79, 50, 300) ; (79, 50, 300) ; (79, 50, 300)": 1
+  },
+  "base_answers": {
+   "p_c = -\\frac{a\\left(1 - \\frac{b}{V}\\right)}{V^2 - bV - R}, \\quad V_c = V, \\quad T_c = \\frac{p_c}{V}": 1,
+   "p_{c} ; p_{c} ; V_{c} ; V_{c} ; T_{c} ; T_{c} ; p_{c} = \\frac{RT_c}{V_c - b} - \\frac{a}{V_c^2} ; V_c ; T_c ; \\text{The problem cannot be solved with the given i": 1,
+   "\\text{Insufficient\u4fe1\u606f\uff0c\u65e0\u6cd5\u8ba1\u7b97}": 1,
+   "p_{c} = \\frac{a(V_{c} - 2b)}{V_{c}^{3}} ; T_{c} = \\frac{2a(V_{c} - b)^{2}}{R V_{c}^{3}} ; p_{c} = \\frac{a(V_{c} - 2b)}{V_{c}^{3}} ; T_{c} = \\frac{2a(V_{c} - b)^": 1,
+   "p_c = V_c(V_c - b)\\left(1 + \\frac{a}{V_c^2}\\right), \\quad T_c = 100^\\circ \\text{C}, \\quad V_c \\text{ is determined by solving } \\left(V_c(V_c - b)(1 + \\frac{a}{": 1
+  }
+ },
+ {
+  "cell": "JustRL-N|physicsb_3952",
+  "budget": 16384,
+  "q": "In an infinitesimally small quasi-static process, the work done by the external environment on the magnetic medium can be expressed as  \n$$\n\\mathrm{d}W=\\mu_{0}H\\mathrm{d}M\n$$  \nwhere $H$ is the external magnetic field, $M$ is the total magnetic moment of the medium, $M = mV$, $m$ is the magnetization of the medium, and $\\mu_{0}$ is the permeability of free space. The total magnetic moment $M$ and the internal energy $U$ of the magnetic medium are given by  \n$$\n\\begin{aligned}\nM &= \\frac{aH}{T}, \\\\\nU &= C_{M}T,\n\\end{aligned}\n$$  \nwhere $a$ and $C_{M}$ are constants, and $T$ is the absolute temperature. Find the heat capacity $C_{H}$ at constant magnetic field, expressed in terms of $C_{M}$, $",
+  "gold": [
+   "C_{H} = C_{M} + \\frac{\\mu_{0}aH^{2}}{T^{2}}"
+  ],
+  "rl": "JustRL-N",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "C_{M} - \\dfrac{\\mu_{0} a H^{2}}{T^{2}} ; C_{M} - \\dfrac{\\mu_{0} a H^{2}}{T^{2}}": 1,
+   "\\dfrac{\\mu_0 a H^2}{T^2} ; \\dfrac{\\mu_0 a H^2}{T^2}": 1,
+   "C_M \\dfrac{a H}{T} ; C_M \\dfrac{a H}{T} ; C_M \\dfrac{a H}{T}": 1,
+   "C_M ; C_M ; C_M ; C_M ; C_M ; C_M ; C_M": 1
+  },
+  "base_answers": {
+   "C_H = C_M": 2,
+   "C_H = C_M ; C_H = C_M ; C_H = C_M": 1,
+   "C_H = C_M ; C_H = \\frac{\\mu_0 a H^2}{T^2} ; C_H = \\mu_0 a H^2 / T^2 ; C_H = C_M ; \\frac{\\mu_0 a H^2}{T^2} ; \\frac{\\mu_0 a H^2}{T^2} ; \\frac{\\mu_0 a H^2}{T^2}": 1,
+   "\\dfrac{\\mu_0 a H^2}{T^2} ; \\dfrac{\\mu_0 a H^2}{T^2} ; \\frac{\\mu_0 a H^2}{T^2}": 1,
+   "C_H = \\frac{\\mu_0 a H}{T}": 1
+  }
+ },
+ {
+  "cell": "JustRL-N|tbr_81921",
+  "budget": 16384,
+  "q": "Estimate the number of atoms in a human, assuming an atom has a radius of 1 angstrom (\\(10^{-8} \\, \\text{cm}\\)), and compare this with the approximate number of stars in the Milky Way Galaxy (about \\(10^{11}\\)).",
+  "gold": [
+   "10^{17}"
+  ],
+  "rl": "JustRL-N",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "2.4 \\times 10^{26} ; 10^{11} ; 1.7 \\times 10^{30} ; 10^{11} ; 1.7 \\times 10^{30} ; 1.7 \\times 10^{30} ; 1.7 \\times 10^{30}": 1,
+   "2.4 \\times 10^{29} ; 2.4 \\times 10^{29} ; 2.4 \\times 10^{29} ; 2.4 \\times 10^{29}": 1,
+   "10^{30} ; 2 \\times 10^{29} ; 10^{29} ; 2 \\times 10^{29} ; 2 \\times 10^{29} ; 2 \\times 10^{29} ; 2 \\times 10^{29}": 1,
+   "1.4 \\times 10^{27} ; 10^{27} \\gg 10^{11} ; 10^{27} ; 10^{27} ; 10^{11} ; 1.4 \\times 10^{27} ; 10^{27} ; 10^{27} ; 10^{27} ; 1.4 \\times 10^{27}": 1
+  },
+  "base_answers": {
+   "10^{30} ; 10^{30} \\text{ atoms} \\approx 10^{11} \\text{ stars} \\text{ ( vastly more)} ; 10^{30} ; 10^{30} \\text{ atoms} \\gg 10^{11} \\text{ stars} ; 10^{30} \\text": 1,
+   "4.66 \\times 10^{25}": 1,
+   "2.39 \\times 10^{29}": 1,
+   "2.39 \\times 10^{32}": 1,
+   "8 \\times 10^{28} ; 8 \\times 10^{28} ; 8 \\times 10^{28} ; 8 \\times 10^{28} ; 8 \\times 10^{28}": 1
+  }
+ },
+ {
+  "cell": "DeepScaleR|physcorp_3348",
+  "budget": 16384,
+  "q": "A solid sphere with a mass of $m$ and a radius of $r$ rolls inside the surface of a fixed spherical shell of radius $R$. Based on the given expression for $\\dot{\\varphi}$, derive the expressions for the kinetic energy $T$ and the potential energy $V$ of the sphere during small oscillations.",
+  "gold": [
+   "\\frac{7}{10} m (R - r)^{2} \\dot{\\theta}^{2}, \\frac{1}{2} m g (R - r) \\theta^{2}"
+  ],
+  "rl": "DeepScaleR",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (6 finished)",
+  "rl_answers": {
+   "T = \\frac{1}{2} m (R - r)^2 \\left(\\frac{d\\theta}{dt}\\right)^2 ; V = \\frac{1}{2} m g (R - r) \\theta^2 ; \\frac{1}{2} m (R - r)^2 \\left(\\frac{d\\theta}{dt}\\right)^2": 1,
+   "\\dfrac{1}{5} m (R - r)^2 \\left(\\dfrac{d\\varphi}{dt}\\right)^2 ; m g (R - r) \\cos \\varphi ; \\dfrac{1}{5} m (R - r)^2 \\left(\\dfrac{d\\varphi}{dt}\\right)^2 ; m g (R ": 1,
+   "T = \\frac{1}{2} m (R - r)^2 \\omega^2 + \\frac{1}{2} m r^2 \\omega^2 ; V = m g (R - r) \\cos(\\phi) ; T = \\frac{1}{2} m (R - r)^2 \\omega^2 + \\frac{1}{2} m r^2 \\omega": 1,
+   "\\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\dfrac{1}{2} m g (R - r) \\varphi^2 ; \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\dfrac{1}{2} m g (R - r) \\varphi^2": 1
+  },
+  "base_answers": {
+   "\\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos\\varphi ; \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos\\varphi": 1,
+   "T = \\frac{7}{10} m r^2 \\left( \\frac{d\\varphi}{dt} \\right)^2 ; V = -\\frac{1}{2} m g (R - r) \\varphi^2 ; T = \\frac{7}{10} m r^2 \\left( \\frac{d\\varphi}{dt} \\right)": 1,
+   "T = m \\dot{\\varphi}^2 \\left[ \\frac{1}{2} (R - r)^2 + \\frac{1}{5} r^2 - (R - r)^2 \\sin^2\\varphi \\cos\\varphi \\right] ; V = m g (R - r)(1 - \\cos\\varphi) ; T = m \\d": 1,
+   "\\frac{1}{2} m R^2 \\varphi^2 + \\frac{m r^2 R^2}{5(R - r)^2} \\varphi^2 ; \\frac{1}{2} mg(R - r)\\varphi^2 ; \\frac{1}{2} m R^2 \\varphi^2 + \\frac{m r^2 R^2}{5(R - r)^": 1,
+   "\\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos \\varphi ; \\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos \\varphi": 1
+  }
+ },
+ {
+  "cell": "DeepScaleR|tbr_351598",
+  "budget": 16384,
+  "q": "In quantum transport, what is the relationship between conductance and transmission, and what formula describes this relationship?",
+  "gold": [
+   "G = \\frac{2e^2}{h} T"
+  ],
+  "rl": "DeepScaleR",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "G = T ; G = T": 2,
+   "G = \\frac{T^2}{1 + T^2} ; G = \\frac{T^2}{1 + T^2}": 1,
+   "G = \\frac{e^2}{h} \\ln\\left(\\frac{1}{T}\\right) ; G = \\frac{e^2}{h} \\ln\\left(\\frac{1}{T}\\right)": 1,
+   "G = \\frac{e^2}{h} \\cdot \\frac{L}{\\pi W d} ; G = \\frac{e^2}{h} \\cdot \\frac{L}{\\pi W d}": 1
+  },
+  "base_answers": {
+   "G = \\frac{2}{\\pi} \\Im(T) ; G = \\frac{2}{\\pi} \\Im(T)": 1,
+   "G = \\frac{4\\pi}{\\hbar^2} \\cdot \\frac{T^2}{\\tau} ; G = \\frac{4\\pi}{\\hbar^2} \\cdot \\frac{T^2}{\\tau}": 1,
+   "G = \\frac{4\\pi}{\\hbar^2} \\text{Im}(T) ; G = \\frac{4\\pi}{\\hbar^2} \\text{Im}(T)": 1,
+   "G = T G_0 ; G = T G_0": 1,
+   "G = \\frac{1}{4\\pi} \\sqrt{\\ln\\left(\\frac{1}{T}\\right)} ; G = \\frac{1}{4\\pi} \\sqrt{\\ln\\left(\\frac{1}{T}\\right)}": 1
+  }
+ },
+ {
+  "cell": "DeepScaleR|tbr_558505",
+  "budget": 16384,
+  "q": "When a magnetic material obeys Curie\u2019s law \\( M = CH/T \\) (where \\( M \\) is the magnetization, \\( H \\) is the field, \\( T \\) is the absolute temperature, and \\( C \\) is a constant), show that for an adiabatic change,\n\n\\[\ndT = \\left(\\frac{CH}{C_H T}\\right) dH,\n\\]\n\nwhere \\( C_H \\) is the heat capacity per unit volume at constant magnetic field.",
+  "gold": [
+   "dT = \\left(\\frac{CH}{C_H T}\\right) dH"
+  ],
+  "rl": "DeepScaleR",
+  "rl_solved": "7/8 (8 finished)",
+  "base_solved": "2/8 (3 finished)",
+  "rl_answers": {
+   "dT = \\left( \\frac{CH}{C_H T} \\right) dH ; dT = \\left( \\frac{CH}{C_H T} \\right) dH [RIGHT]": 5,
+   "dT = \\frac{C}{C_H} dH ; dT = \\frac{C}{C_H} dH": 1,
+   "dT = \\left( \\dfrac{CH}{C_H T} \\right) dH ; dT = \\left( \\dfrac{CH}{C_H T} \\right) dH [RIGHT]": 1,
+   "dT = \\left(\\frac{CH}{C_H T}\\right) dH ; dT = \\left(\\frac{CH}{C_H T}\\right) dH [RIGHT]": 1
+  },
+  "base_answers": {
+   "dT = \\left( \\frac{CH}{C_H T} \\right) dH ; dT = \\left( \\frac{CH}{C_H T} \\right) dH [RIGHT]": 1,
+   "<none>": 1,
+   "dT = \\left(\\frac{CH}{C_H T}\\right) dH ; dT = \\left(\\frac{CH}{C_H T}\\right) dH [RIGHT]": 1
+  }
+ },
+ {
+  "cell": "e3|physcorp_2013",
+  "budget": 16384,
+  "q": "A fast neutron strikes a 10 cm thick chromium target, with the sample containing $10^{21}$ atoms/cm$^3$ of ${ }_{24}^{53} \\mathrm{Cr}$. One-thousandth of the neutrons are captured, forming an excited state of ${ }_{24}^{54} \\mathrm{Cr}$ with $I^{x}=0^{+}$. Find the neutron capture cross-section.",
+  "gold": [
+   "0.1"
+  ],
+  "rl": "e3",
+  "rl_solved": "1/8 (8 finished)",
+  "base_solved": "1/8 (7 finished)",
+  "rl_answers": {
+   "10 ; 10": 1,
+   "100 ; 100": 1,
+   "1 \\times 10^{-25} ; 1 \\times 10^{-25} ; 1 \\times 10^{-25}": 1,
+   "1 \\times 10^{-29} ; 1 \\times 10^{-29}": 1
+  },
+  "base_answers": {
+   "0.1 ; 0.1 [RIGHT]": 1,
+   "1 ; 1": 1,
+   "1000 ; 1000 ; 1000": 1,
+   "10^{-25} ; 10^{-25} ; 10^{-25}": 1,
+   "10^{-3} ; 10^{-3} ; 10^{-3}": 1
+  }
+ },
+ {
+  "cell": "e3|physcorp_3393",
+  "budget": 16384,
+  "q": "In a Robertson-Walker spacetime with \\( k=1 \\), the metric is given by \\(\\mathrm{d}s^{2} = -\\mathrm{d}t^{2} + R^{2}(t)\\mathrm{d}x^{2} + \\sin^{2} x (\\mathrm{d}\\theta^{2} + \\sin^{2}\\theta \\mathrm{d}\\phi^{2})\\). At the current epoch of the universe, \\( R(t) = R_{0} t^{2/3} \\). An observer at time \\( t = t_{1} \\) sees a distant galaxy with an intrinsic diameter (perpendicular to the line of sight at time \\( t = t_{0} \\)) of \\( D \\). Express the observed redshift in terms of \\( R_{0} \\), \\( t_{0} \\), and \\( t_{1} \\).",
+  "gold": [
+   "\\left(\\frac{t_{1}}{t_{0}}\\right)^{2/3} - 1"
+  ],
+  "rl": "e3",
+  "rl_solved": "7/8 (8 finished)",
+  "base_solved": "3/8 (8 finished)",
+  "rl_answers": {
+   "\\left( \\dfrac{t_1}{t_0} \\right)^{2/3} - 1 ; \\left( \\dfrac{t_1}{t_0} \\right)^{2/3} - 1 ; \\left( \\dfrac{t_1}{t_0} \\right)^{2/3} - 1 [RIGHT]": 4,
+   "\\left(\\dfrac{t_1}{t_0}\\right)^{2/3} - 1 ; \\left(\\dfrac{t_1}{t_0}\\right)^{2/3} - 1 ; \\left( \\dfrac{t_1}{t_0} \\right)^{2/3} - 1 [RIGHT]": 1,
+   "\\left( \\dfrac{t_1}{t_0} \\right)^{2/3} - 1 ; \\left( \\dfrac{t_1}{t_0} \\right)^{2/3} - 1 [RIGHT]": 1,
+   "\\left( \\dfrac{t_0}{t_1} \\right)^{2/3} - 1 ; \\left( \\dfrac{t_0}{t_1} \\right)^{2/3} - 1 ; \\left( \\dfrac{t_0}{t_1} \\right)^{2/3} - 1": 1
+  },
+  "base_answers": {
+   "\\left( \\frac{t_0}{t_1} \\right)^{2/3} - 1 ; \\left( \\frac{t_0}{t_1} \\right)^{2/3} - 1 ; \\left( \\frac{t_0}{t_1} \\right)^{2/3} - 1": 2,
+   "\\left( \\frac{t_1}{t_0} \\right)^{2/3} - 1 ; \\left( \\frac{t_1}{t_0} \\right)^{2/3} - 1 ; \\left( \\frac{t_1}{t_0} \\right)^{2/3} - 1 [RIGHT]": 2,
+   "\\dfrac{2}{3} \\ln\\left(\\dfrac{t_1}{t_0}\\right) ; \\dfrac{2}{3} \\ln\\left(\\dfrac{t_1}{t_0}\\right) ; \\dfrac{2}{3} \\ln\\left(\\dfrac{t_1}{t_0}\\right)": 1,
+   "\\frac{1}{R_0} \\left( \\frac{1}{t_0^{2/3}} - \\frac{1}{t_1^{2/3}} \\right) ; \\frac{1}{R_0} \\left( \\frac{1}{t_0^{2/3}} - \\frac{1}{t_1^{2/3}} \\right)": 1,
+   "\\frac{2}{3} \\ln\\left(\\frac{t_1}{t_0}\\right) ; \\frac{2}{3} \\ln\\left(\\frac{t_1}{t_0}\\right) ; \\frac{2}{3} \\ln\\left(\\frac{t_1}{t_0}\\right)": 1
+  }
+ },
+ {
+  "cell": "e3|tbr_333529",
+  "budget": 16384,
+  "q": "During a free expansion, 2 kg of air expands from 1 m\u00b3 to 10 m\u00b3 volume in an insulated vessel. Determine the entropy change of (a) the air, (b) the surroundings, and (c) the universe.",
+  "gold": [
+   "1.32"
+  ],
+  "rl": "e3",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "1/8 (8 finished)",
+  "rl_answers": {
+   "1321 ; 0 ; 1321 ; 1321 ; 0 ; 1321": 2,
+   "1321 ; 0 ; 1321 ; 1320 ; 0 ; 1320 ; 1320 ; 0 ; 1320": 1,
+   "1320 ; 0 ; 1320 ; 1320 ; 0 ; 1320 ; 1320 ; 0 ; 1320 ; 1320 ; 0 ; 1320": 1,
+   "1321 ; 0 ; 1321 ; 1321 ; 0 ; 1321 ; 1321 ; 0 ; 1321": 1
+  },
+  "base_answers": {
+   "1322 ; 0 ; 1322 ; 1322 ; 0 ; 1322 ; 1322 ; 0 ; 1322": 2,
+   "1321\\ \\text{J/K} ; 0\\ \\text{J/K} ; 1321\\ \\text{J/K} ; 1321\\ \\text{J/K} ; 0\\ \\text{J/K} ; 1321\\ \\text{J/K} ; 1321\\ \\text{J/K} ; 0\\ \\text{J/K} ; 1321\\ \\text{J/K}": 1,
+   "1320\\ \\text{J/K} ; 0\\ \\text{J/K} ; 1320\\ \\text{J/K} ; 1320\\ \\text{J/K} ; 0\\ \\text{J/K} ; 1320\\ \\text{J/K} ; 1320\\ \\text{J/K} ; 0\\ \\text{J/K} ; 1320\\ \\text{J/K}": 1,
+   "1321.6 ; 0 ; 1321.6 ; 1321.6 ; 0 ; 1321.6": 1,
+   "1321 ; 0 ; 1321 ; 1321 ; 0 ; 1321 ; 1321 ; 0 ; 1321": 1
+  }
+ },
+ {
+  "cell": "KnowRL|physcorp_1714",
+  "budget": 16384,
+  "q": "What is the degeneracy of the lowest rotational energy level of the HD (Hydrogen-Deuterium) molecule?",
+  "gold": [
+   "6"
+  ],
+  "rl": "KnowRL",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "3 ; 3 ; 3": 1,
+   "3 ; 3 ; 3 ; 3 ; 3 ; 3 ; 3": 1,
+   "1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1": 1,
+   "2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 3 ; 2 ; 2 ; 3 ; 2 ; 2": 1
+  },
+  "base_answers": {
+   "2": 2,
+   "1 ; 1": 2,
+   "3": 2,
+   "2 ; 2": 1,
+   "3 ; 3 ; 3": 1
+  }
+ },
+ {
+  "cell": "KnowRL|physicsb_3952",
+  "budget": 16384,
+  "q": "In an infinitesimally small quasi-static process, the work done by the external environment on the magnetic medium can be expressed as  \n$$\n\\mathrm{d}W=\\mu_{0}H\\mathrm{d}M\n$$  \nwhere $H$ is the external magnetic field, $M$ is the total magnetic moment of the medium, $M = mV$, $m$ is the magnetization of the medium, and $\\mu_{0}$ is the permeability of free space. The total magnetic moment $M$ and the internal energy $U$ of the magnetic medium are given by  \n$$\n\\begin{aligned}\nM &= \\frac{aH}{T}, \\\\\nU &= C_{M}T,\n\\end{aligned}\n$$  \nwhere $a$ and $C_{M}$ are constants, and $T$ is the absolute temperature. Find the heat capacity $C_{H}$ at constant magnetic field, expressed in terms of $C_{M}$, $",
+  "gold": [
+   "C_{H} = C_{M} + \\frac{\\mu_{0}aH^{2}}{T^{2}}"
+  ],
+  "rl": "KnowRL",
+  "rl_solved": "0/8 (7 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "C_M ; C_M ; \\dfrac{\\mu_0 a H^2}{T^2} ; C_M ; C_M ; C_M ; C_M": 1,
+   "\\dfrac{ \\mu_0 a H^2 }{ C_M T } ; \\dfrac{ \\mu_0 a H^2 }{ C_M T } ; \\dfrac{ \\mu_0 a H^2 }{ C_M T }": 1,
+   "\\dfrac{\\mu_0 a H^2}{T^2} ; \\dfrac{\\mu_0 a H^2}{T^2} ; \\dfrac{\\mu_0 a H^2}{T^2}": 1,
+   "C_M ; C_M ; C_M ; C_M ; C_M ; C_M ; C_M ; C_M ; C_M ; C_M": 1
+  },
+  "base_answers": {
+   "C_H = C_M": 2,
+   "C_H = C_M ; C_H = C_M ; C_H = C_M": 1,
+   "C_H = C_M ; C_H = \\frac{\\mu_0 a H^2}{T^2} ; C_H = \\mu_0 a H^2 / T^2 ; C_H = C_M ; \\frac{\\mu_0 a H^2}{T^2} ; \\frac{\\mu_0 a H^2}{T^2} ; \\frac{\\mu_0 a H^2}{T^2}": 1,
+   "\\dfrac{\\mu_0 a H^2}{T^2} ; \\dfrac{\\mu_0 a H^2}{T^2} ; \\frac{\\mu_0 a H^2}{T^2}": 1,
+   "C_H = \\frac{\\mu_0 a H}{T}": 1
+  }
+ },
+ {
+  "cell": "KnowRL|tbr_178377",
+  "budget": 16384,
+  "q": "A uniform wheel of radius \\( R \\) is set into rotation about its axis at an angular speed \\( \\omega \\). The wheel is then placed on a rough horizontal surface with its axis horizontal. Due to friction, the wheel accelerates forward while its rotation decelerates until it starts pure rolling. What is the linear speed of the wheel once pure rolling begins?",
+  "gold": [
+   "\\dfrac{\\omega R}{3}"
+  ],
+  "rl": "KnowRL",
+  "rl_solved": "1/8 (2 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "\\dfrac{R \\omega}{3} ; \\dfrac{R \\omega}{3} ; \\dfrac{R \\omega}{3} ; \\dfrac{R \\omega}{3} ; \\dfrac{R \\omega}{3} [RIGHT]": 1,
+   "R \\omega ; R \\omega ; R\\omega ; R\\omega": 1
+  },
+  "base_answers": {
+   "\\omega R ; \\omega R": 5,
+   "\\omega R ; \\omega R ; \\omega R": 2,
+   "\\omega R ; \\omega R ; \\omega R ; \\omega R": 1
+  }
+ },
+ {
+  "cell": "AceReason|physcorp_397",
+  "budget": 16384,
+  "q": "What is the threshold energy for the reaction $\\gamma + \\mathrm{p} \\rightarrow \\pi^{+} + \\mathrm{n}$? How does $\\sigma_{\\mathrm{II}}(W)$ change with $W$ when $W$ just exceeds the threshold energy?",
+  "gold": [
+   "150"
+  ],
+  "rl": "AceReason",
+  "rl_solved": "6/8 (8 finished)",
+  "base_solved": "1/8 (8 finished)",
+  "rl_answers": {
+   "151.4 \\text{ MeV} ; 151.4 \\text{ MeV} [RIGHT]": 3,
+   "151 \\text{ MeV} ; 151 \\text{ MeV} [RIGHT]": 2,
+   "152 \\text{ MeV} ; 152 \\text{ MeV}": 2,
+   "151.5 \\text{ MeV} ; 151.5 \\text{ MeV} ; 151.5 \\text{ MeV} [RIGHT]": 1
+  },
+  "base_answers": {
+   "152 \\text{ MeV} ; 152 \\text{ MeV}": 6,
+   "151.6 \\text{ MeV} ; 151.6 \\text{ MeV}": 1,
+   "149.5 \\text{ MeV} ; 149.5 \\text{ MeV} [RIGHT]": 1
+  }
+ },
+ {
+  "cell": "AceReason|physicsb_2258",
+  "budget": 16384,
+  "q": "The wavelength of a certain ultraviolet laser is $\\lambda$, and the energy of a single photon is $\\qquad$. If this laser is used in a photoelectric effect experiment, and the cutoff frequency of the photoelectric material is $v_{0}$, then the maximum initial kinetic energy of the emitted photoelectrons is $\\qquad$. (Planck's constant is $h$, and the speed of light in a vacuum is $c$.)",
+  "gold": [
+   "h \\frac{c}{\\lambda}",
+   "h \\frac{c}{\\lambda}-h v_{0}"
+  ],
+  "rl": "AceReason",
+  "rl_solved": "7/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "\\dfrac{hc}{\\lambda} ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right) ; \\dfrac{hc}{\\lambda} ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right) [RIGHT]": 6,
+   "\\dfrac{hc}{\\lambda} ; \\dfrac{hc}{\\lambda} - hv_0 ; \\dfrac{hc}{\\lambda} ; \\dfrac{hc}{\\lambda} - hv_0 [RIGHT]": 1,
+   "\\dfrac{hc}{\\lambda} ; h\\left(\\dfrac{c}{\\lambda} - \\nu_0\\right) ; \\dfrac{hc}{\\lambda} ; h\\left(\\dfrac{c}{\\lambda} - \\nu_0\\right)": 1
+  },
+  "base_answers": {
+   "h\\left(\\frac{c}{\\lambda} - v_0\\right) ; h\\left(\\frac{c}{\\lambda} - v_0\\right)": 3,
+   "h\\left(\\dfrac{c}{\\lambda} - v_0\\right) ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right)": 2,
+   "h\\left(\\dfrac{c}{\\lambda} - v_0\\right) ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right) ; h\\left(\\dfrac{c}{\\lambda} - v_0\\right)": 1,
+   "\\frac{hc}{\\lambda} - h v_0 ; \\dfrac{hc}{\\lambda} - h v_0 ; \\dfrac{hc}{\\lambda} - h v_0": 1,
+   "h\\left(\\frac{c}{\\lambda} - \\nu_0\\right) ; h\\left(\\frac{c}{\\lambda} - \\nu_0\\right)": 1
+  }
+ },
+ {
+  "cell": "AceReason|tbr_106015",
+  "budget": 16384,
+  "q": "A transmission-line inductor is made from coaxial cable with a velocity factor of 0.66 and operates at 450 MHz. Using the formula for the length of a quarter-wavelength transmission line in centimeters, \\( s = \\frac{7500v}{f} \\), where \\( v \\) is the velocity factor and \\( f \\) is the frequency in MHz, the length of the transmission line would be shorter than:",
+  "gold": [
+   "11"
+  ],
+  "rl": "AceReason",
+  "rl_solved": "2/8 (8 finished)",
+  "base_solved": "1/8 (8 finished)",
+  "rl_answers": {
+   "16.67 ; 16.67": 2,
+   "16.67 ; 16.67 ; \\dfrac{50}{3} ; 16.67 ; 16.67 ; 16.67": 1,
+   "16.67 \\text{ cm} ; 16.67 \\text{ cm} ; 16.67 \\text{ cm} ; 16.67 \\text{ cm} ; 16.67 \\text{ cm}": 1,
+   "11 ; 11 [RIGHT]": 1
+  },
+  "base_answers": {
+   "16.67 ; 16.67": 4,
+   "16.67 ; 16.67 ; 16.67": 1,
+   "16.67 ; \\dfrac{50}{3} ; 16.67 ; 16.67 ; \\dfrac{50}{3} ; 16.\\overline{6} ; \\dfrac{50}{3} ; \\dfrac{50}{3} ; 16.67 ; \\dfrac{50}{3} ; 16.\\overline{6} ; \\dfrac{50}{3": 1,
+   "16.666 ; 16.666 ; 16.666": 1,
+   "11 ; 16.67 ; 16.67 ; 16.67 ; 16.67 ; 11 ; 16.67 ; 16.67 ; 16.67 [RIGHT]": 1
+  }
+ },
+ {
+  "cell": "Open-RS3|physcorp_3348",
+  "budget": 16384,
+  "q": "A solid sphere with a mass of $m$ and a radius of $r$ rolls inside the surface of a fixed spherical shell of radius $R$. Based on the given expression for $\\dot{\\varphi}$, derive the expressions for the kinetic energy $T$ and the potential energy $V$ of the sphere during small oscillations.",
+  "gold": [
+   "\\frac{7}{10} m (R - r)^{2} \\dot{\\theta}^{2}, \\frac{1}{2} m g (R - r) \\theta^{2}"
+  ],
+  "rl": "Open-RS3",
+  "rl_solved": "0/8 (6 finished)",
+  "base_solved": "0/8 (6 finished)",
+  "rl_answers": {
+   "\\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\dfrac{1}{2} m g (R - r) \\varphi^2 ; \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\dfrac{1}{2} m g (R - r) \\varphi^2": 1,
+   "<none>": 1,
+   "\\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; -\\frac{1}{2} m \\dot{\\varphi}^2 ; \\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; -\\frac{1}{2} m \\dot{\\varphi}^2": 1,
+   "\\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\frac{1}{2} m g (R - r) \\varphi^2 ; \\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\frac{1}{2} m g (R - r) \\varphi^2": 1
+  },
+  "base_answers": {
+   "\\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos\\varphi ; \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos\\varphi": 1,
+   "T = \\frac{7}{10} m r^2 \\left( \\frac{d\\varphi}{dt} \\right)^2 ; V = -\\frac{1}{2} m g (R - r) \\varphi^2 ; T = \\frac{7}{10} m r^2 \\left( \\frac{d\\varphi}{dt} \\right)": 1,
+   "T = m \\dot{\\varphi}^2 \\left[ \\frac{1}{2} (R - r)^2 + \\frac{1}{5} r^2 - (R - r)^2 \\sin^2\\varphi \\cos\\varphi \\right] ; V = m g (R - r)(1 - \\cos\\varphi) ; T = m \\d": 1,
+   "\\frac{1}{2} m R^2 \\varphi^2 + \\frac{m r^2 R^2}{5(R - r)^2} \\varphi^2 ; \\frac{1}{2} mg(R - r)\\varphi^2 ; \\frac{1}{2} m R^2 \\varphi^2 + \\frac{m r^2 R^2}{5(R - r)^": 1,
+   "\\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos \\varphi ; \\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos \\varphi": 1
+  }
+ },
+ {
+  "cell": "Open-RS3|tbr_79501",
+  "budget": 16384,
+  "q": "A railroad car of mass \\(M\\) is at rest on frictionless rails when a man of mass \\(m\\) starts moving on the car towards the engine. If the car recoils with a speed \\(v\\) backward on the rails, with what velocity is the man approaching the engine?",
+  "gold": [
+   "\\left(1 + \\frac{M}{m}\\right)v"
+  ],
+  "rl": "Open-RS3",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "\\dfrac{M}{m} v ; \\dfrac{M}{m} v": 5,
+   "\\dfrac{M}{m} v ; \\dfrac{M}{m} v ; \\dfrac{M}{m} v": 1,
+   "\\dfrac{M}{m} v ; \\dfrac{M}{m} v ; \\dfrac{M}{m} v ; \\dfrac{M}{m} v": 1,
+   "\\dfrac{M}{m}v ; \\dfrac{M}{m}v": 1
+  },
+  "base_answers": {
+   "\\dfrac{M}{m}v ; \\dfrac{M}{m}v": 3,
+   "\\dfrac{M}{m}v ; \\dfrac{M}{m}v ; \\dfrac{M}{m}v": 2,
+   "\\dfrac{M}{m} v ; \\dfrac{M}{m} v": 2,
+   "\\dfrac{M}{m} v ; \\dfrac{M}{m} v ; \\dfrac{M}{m} v ; \\dfrac{M}{m} v ; \\dfrac{M}{m} v": 1
+  }
+ },
+ {
+  "cell": "DeepMath-Omn|tbr_81921",
+  "budget": 16384,
+  "q": "Estimate the number of atoms in a human, assuming an atom has a radius of 1 angstrom (\\(10^{-8} \\, \\text{cm}\\)), and compare this with the approximate number of stars in the Milky Way Galaxy (about \\(10^{11}\\)).",
+  "gold": [
+   "10^{17}"
+  ],
+  "rl": "DeepMath-Omn",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "2.4 \\times 10^{29} ; 2.4 \\times 10^{29} ; 2.4 \\times 10^{29}": 1,
+   "1 \\times 10^{29} ; 1e29 ; 1 \\times 10^{29} ; 1 \\times 10^{29} ; 1 \\times 10^{29}": 1,
+   "2.39 \\times 10^{29} ; 2.39 \\times 10^{29} ; 2.39 \\times 10^{29}": 1,
+   "10^{30} ; 10^{30} ; 10^{30} ; 10^{30} ; 10^{11} ; 10^{30} ; 10^{30} ; 10^{30}": 1
+  },
+  "base_answers": {
+   "10^{30} ; 10^{30} \\text{ atoms} \\approx 10^{11} \\text{ stars} \\text{ ( vastly more)} ; 10^{30} ; 10^{30} \\text{ atoms} \\gg 10^{11} \\text{ stars} ; 10^{30} \\text": 1,
+   "4.66 \\times 10^{25}": 1,
+   "2.39 \\times 10^{29}": 1,
+   "2.39 \\times 10^{32}": 1,
+   "8 \\times 10^{28} ; 8 \\times 10^{28} ; 8 \\times 10^{28} ; 8 \\times 10^{28} ; 8 \\times 10^{28}": 1
+  }
+ },
+ {
+  "cell": "STILL-3|physcorp_3348",
+  "budget": 16384,
+  "q": "A solid sphere with a mass of $m$ and a radius of $r$ rolls inside the surface of a fixed spherical shell of radius $R$. Based on the given expression for $\\dot{\\varphi}$, derive the expressions for the kinetic energy $T$ and the potential energy $V$ of the sphere during small oscillations.",
+  "gold": [
+   "\\frac{7}{10} m (R - r)^{2} \\dot{\\theta}^{2}, \\frac{1}{2} m g (R - r) \\theta^{2}"
+  ],
+  "rl": "STILL-3",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (6 finished)",
+  "rl_answers": {
+   "\\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\dfrac{1}{2} m g (R - r) \\varphi^2 ; \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; \\dfrac{1}{2} m g (R - r) \\varphi^2": 1,
+   "\\frac{7}{10} m (R - r)^2 \\theta^2 ; \\frac{1}{2} m g R \\theta^2 ; \\frac{7}{10} m (R - r)^2 \\theta^2 ; \\frac{1}{2} m g R \\theta^2": 1,
+   "\\frac{1}{2} m \\left( R^2 + \\frac{2 r^2}{5} \\right) \\dot{\\varphi}^2 ; \\frac{1}{2} mg(R - r) \\varphi^2 ; \\frac{1}{2} m \\left( R^2 + \\frac{2 r^2}{5} \\right) \\dot{\\": 1,
+   "\\frac{7}{10} m r^2 \\dot{\\varphi}^2 ; -\\frac{1}{2} mg(R - r) \\varphi^2 ; \\frac{7}{10} m r^2 \\dot{\\varphi}^2 ; -\\frac{1}{2} mg(R - r) \\varphi^2": 1
+  },
+  "base_answers": {
+   "\\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos\\varphi ; \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos\\varphi": 1,
+   "T = \\frac{7}{10} m r^2 \\left( \\frac{d\\varphi}{dt} \\right)^2 ; V = -\\frac{1}{2} m g (R - r) \\varphi^2 ; T = \\frac{7}{10} m r^2 \\left( \\frac{d\\varphi}{dt} \\right)": 1,
+   "T = m \\dot{\\varphi}^2 \\left[ \\frac{1}{2} (R - r)^2 + \\frac{1}{5} r^2 - (R - r)^2 \\sin^2\\varphi \\cos\\varphi \\right] ; V = m g (R - r)(1 - \\cos\\varphi) ; T = m \\d": 1,
+   "\\frac{1}{2} m R^2 \\varphi^2 + \\frac{m r^2 R^2}{5(R - r)^2} \\varphi^2 ; \\frac{1}{2} mg(R - r)\\varphi^2 ; \\frac{1}{2} m R^2 \\varphi^2 + \\frac{m r^2 R^2}{5(R - r)^": 1,
+   "\\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos \\varphi ; \\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos \\varphi": 1
+  }
+ },
+ {
+  "cell": "STILL-3|tbr_479532",
+  "budget": 16384,
+  "q": "In a 5 kg mixture of gases at 1.013 bar and 300 K, the constituent gases are 80% \\( N_2 \\), 18% \\( O_2 \\), and 2% \\( CO_2 \\) by mass. Given the specific heat ratios \\( \\gamma = 1.4 \\) for \\( N_2 \\) and \\( O_2 \\), and \\( \\gamma = 1.3 \\) for \\( CO_2 \\), determine:\n1. The gas constant (\\( R \\)) for each constituent gas and the mixture.\n2. The specific heat at constant pressure (\\( C_p \\)) for each constituent gas and the mixture.\n3. The molar mass of the mixture.",
+  "gold": [
+   "0.28806"
+  ],
+  "rl": "STILL-3",
+  "rl_solved": "0/8 (8 finished)",
+  "base_solved": "0/8 (7 finished)",
+  "rl_answers": {
+   "8.314 \\ \\text{J/(mol\u00b7K)} ; 11.64 \\ \\text{J/(mol\u00b7K)} ; 11.64 \\ \\text{J/(mol\u00b7K)} ; 10.81 \\ \\text{J/(mol\u00b7K)} ; 11.63 \\ \\text{J/(mol\u00b7K)} ; 29.04 \\ \\text{g/mol} ; 8.": 1,
+   "8.314 \\, \\text{J/(mol\u00b7K)} ; 0.326 \\, \\text{J/(kg\u00b7K)} ; 0.346 \\, \\text{J/(kg\u00b7K)} ; 0.432 \\, \\text{J/(kg\u00b7K)} ; 0.330 \\, \\text{J/(kg\u00b7K)} ; 8.314 \\, \\text{J/(mol\u00b7K)": 1,
+   "0.2968 \\, \\text{J/(g\u00b7K)} ; 0.2598 \\, \\text{J/(g\u00b7K)} ; 0.1889 \\, \\text{J/(g\u00b7K)} ; 29.0562 \\, \\text{g/mol} ; 0.4155 \\, \\text{J/(g\u00b7K)} ; 0.3637 \\, \\text{J/(g\u00b7K)} ;": 1,
+   "80\\% \\text{ N}_2 ; 18\\% \\text{ O}_2 ; 2\\% \\text{ CO}_2 ; 1.398 \\, R ; 0.6146 \\, R ; 1.4 \\, R ; 0.6 \\, R ; 5 ; 6.666 ; 80\\% \\text{ N}_2 ; 18\\% \\text{ O}_2 ; 2\\% ": 1
+  },
+  "base_answers": {
+   "8.314 \\, \\text{J/(mol\u00b7K)} ; 29.10 \\, \\text{J/(kg\u00b7K)} ; 29.04 \\, \\text{g/mol} ; 8.314 \\, \\text{J/(mol\u00b7K)} ; 29.10 \\, \\text{J/(kg\u00b7K)} ; 29.04 \\, \\text{g/mol}": 1,
+   "297 ; 259.8 ; 188.95 ; 415.8 ; 363.72 ; 245.635 ; 400 ; 29.04 ; 297 ; 259.8 ; 188.95 ; 415.8 ; 363.72 ; 245.635 ; 400 ; 29.04": 1,
+   "29.04 \\, \\text{g/mol} ; 29.04 \\, \\text{g/mol} ; 29.04 \\, \\text{g/mol}": 1,
+   "296.93 \\, \\text{J/(mol\u00b7K)} ; 259.81 \\, \\text{J/(mol\u00b7K)} ; 188.95 \\, \\text{J/(mol\u00b7K)} ; 288.14 \\, \\text{J/(kg\u00b7K)} ; 415.7 \\, \\text{J/(mol\u00b7K)} ; 363.7 \\, \\text{J/": 1,
+   "0.297 \\, \\text{J/(mol\u00b7K)} ; 0.2598 \\, \\text{J/(mol\u00b7K)} ; 0.189 \\, \\text{J/(mol\u00b7K)} ; 0.4158 \\, \\text{J/(mol\u00b7K)} ; 0.3637 \\, \\text{J/(mol\u00b7K)} ; 0.2457 \\, \\text{J": 1
+  }
+ },
+ {
+  "cell": "STILL-3|tbr_558505",
+  "budget": 16384,
+  "q": "When a magnetic material obeys Curie\u2019s law \\( M = CH/T \\) (where \\( M \\) is the magnetization, \\( H \\) is the field, \\( T \\) is the absolute temperature, and \\( C \\) is a constant), show that for an adiabatic change,\n\n\\[\ndT = \\left(\\frac{CH}{C_H T}\\right) dH,\n\\]\n\nwhere \\( C_H \\) is the heat capacity per unit volume at constant magnetic field.",
+  "gold": [
+   "dT = \\left(\\frac{CH}{C_H T}\\right) dH"
+  ],
+  "rl": "STILL-3",
+  "rl_solved": "3/8 (5 finished)",
+  "base_solved": "2/8 (3 finished)",
+  "rl_answers": {
+   "dT = \\left( \\frac{CH}{C_H T} \\right) dH ; dT = \\left( \\frac{CH}{C_H T} \\right) dH [RIGHT]": 2,
+   "<none>": 1,
+   "dT = \\left( \\frac{CH}{C_H T} \\right ) dH ; dT = \\left( \\frac{CH}{C_H T} \\right) dH [RIGHT]": 1,
+   "dT = \\frac{C_H}{C_V T} dH ; dT = \\frac{C_H}{C_V T} dH": 1
+  },
+  "base_answers": {
+   "dT = \\left( \\frac{CH}{C_H T} \\right) dH ; dT = \\left( \\frac{CH}{C_H T} \\right) dH [RIGHT]": 1,
+   "<none>": 1,
+   "dT = \\left(\\frac{CH}{C_H T}\\right) dH ; dT = \\left(\\frac{CH}{C_H T}\\right) dH [RIGHT]": 1
+  }
+ },
+ {
+  "cell": "RLinf|physcorp_3348",
+  "budget": 16384,
+  "q": "A solid sphere with a mass of $m$ and a radius of $r$ rolls inside the surface of a fixed spherical shell of radius $R$. Based on the given expression for $\\dot{\\varphi}$, derive the expressions for the kinetic energy $T$ and the potential energy $V$ of the sphere during small oscillations.",
+  "gold": [
+   "\\frac{7}{10} m (R - r)^{2} \\dot{\\theta}^{2}, \\frac{1}{2} m g (R - r) \\theta^{2}"
+  ],
+  "rl": "RLinf",
+  "rl_solved": "0/8 (7 finished)",
+  "base_solved": "0/8 (6 finished)",
+  "rl_answers": {
+   "V = \\frac{1}{2} m g (R - r) \\phi^2 ; T = \\frac{7}{10} m (R - r) \\omega^2 \\phi^2 ; V = \\frac{1}{2} m g (R - r) \\phi^2 ; T = \\frac{7}{10} m (R - r) \\omega^2 \\phi^": 1,
+   "T = \\frac{7}{10} m \\left( \\frac{R - r}{R} \\right)^2 \\left( \\frac{R - r}{r} \\frac{d\\theta}{dt} \\right)^2 ; V = \\frac{1}{2} m g (R - r) \\theta^2 ; \\frac{7}{10} m ": 1,
+   "m \\left( \\frac{(R - r)^2}{2} + \\frac{r^2}{5} \\right) \\left( \\frac{d\\phi}{dt} \\right)^2 ; -\\frac{1}{2} m g (R - r) \\phi^2 ; m \\left( \\frac{(R - r)^2}{2} + \\frac{": 1,
+   "T = \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; V = \\dfrac{1}{2} m g (R - r) \\varphi^2 ; T = \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; V = \\dfrac{1}{2} m g (R": 1
+  },
+  "base_answers": {
+   "\\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos\\varphi ; \\dfrac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos\\varphi": 1,
+   "T = \\frac{7}{10} m r^2 \\left( \\frac{d\\varphi}{dt} \\right)^2 ; V = -\\frac{1}{2} m g (R - r) \\varphi^2 ; T = \\frac{7}{10} m r^2 \\left( \\frac{d\\varphi}{dt} \\right)": 1,
+   "T = m \\dot{\\varphi}^2 \\left[ \\frac{1}{2} (R - r)^2 + \\frac{1}{5} r^2 - (R - r)^2 \\sin^2\\varphi \\cos\\varphi \\right] ; V = m g (R - r)(1 - \\cos\\varphi) ; T = m \\d": 1,
+   "\\frac{1}{2} m R^2 \\varphi^2 + \\frac{m r^2 R^2}{5(R - r)^2} \\varphi^2 ; \\frac{1}{2} mg(R - r)\\varphi^2 ; \\frac{1}{2} m R^2 \\varphi^2 + \\frac{m r^2 R^2}{5(R - r)^": 1,
+   "\\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos \\varphi ; \\frac{7}{10} m (R - r)^2 \\dot{\\varphi}^2 ; m g (R - r) \\cos \\varphi": 1
+  }
+ },
+ {
+  "cell": "RLinf|physcorp_3776",
+  "budget": 16384,
+  "q": "In the theory of the Big Bang, the radiative energy initially confined to a small region expands adiabatically in a spherically symmetric manner, describing the total entropy of a photon gas. Express the total entropy of the photon gas in terms of the temperature $T$, volume $V$, and constants $k, \\hbar, c$.",
+  "gold": [
+   "\\frac{4 \\pi^{2}}{45} \\frac{k^{4}}{(\\hbar c)^{3}} T^{3} V"
+  ],
+  "rl": "RLinf",
+  "rl_solved": "1/8 (6 finished)",
+  "base_solved": "0/8 (8 finished)",
+  "rl_answers": {
+   "\\frac{4\\pi^2 k^4 T^3 V}{45 \\hbar^3 c^3} ; \\frac{4\\pi^2 k^4 T^3 V}{45 \\hbar^3 c^3} [RIGHT]": 1,
+   "S = \\frac{8\\pi k^2 T^3 V}{3 \\hbar^3 c^2} ; S = \\frac{8\\pi k^2 T^3 V}{3 \\hbar^3 c^2}": 1,
+   "\\dfrac{\\pi^2 k^3 V T^3}{6 \\hbar^3 c^3} ; \\dfrac{\\pi^2 k^3 V T^3}{6 \\hbar^3 c^3}": 1,
+   "\\frac{4}{3} \\pi k T^3 V ; \\frac{4}{3} \\pi k T^3 V": 1
+  },
+  "base_answers": {
+   "\\dfrac{k}{4 \\hbar c} V T^3 ; \\dfrac{k}{4 \\hbar c} V T^3": 1,
+   "\\dfrac{\\pi^2}{15} \\hbar c V T^3 ; \\dfrac{\\pi^2}{15} \\hbar c V T^3": 1,
+   "\\frac{\\pi^2}{30} \\hbar c^2 T^3 V ; \\frac{\\pi^2}{30} \\hbar c^2 T^3 V": 1,
+   "\\frac{4}{3} \\pi (\\hbar c)^4 T^3 V ; \\frac{4}{3} \\pi (\\hbar c)^4 T^3 V": 1,
+   "\\frac{\\pi^2}{30} \\frac{k_B V T}{c^3 \\hbar}": 1
+  }
+ },
+ {
+  "cell": "RLinf|tbr_245633",
+  "budget": 16384,
+  "q": "In a Young's double-slit experiment, the fringe width is given by \\(\\beta = \\frac{\\lambda D}{d}\\), where \\(D\\) is the distance from the slits to the screen and \\(d\\) is the separation between the slits. If the slit separation \\(d\\) is halved and the screen distance \\(D\\) is tripled, the bandwidth (inverse of fringe width) becomes:\n\n(a) tripled  \n(b) halved  \n(c) one-sixth  \n(d) six times",
+  "gold": [
+   "(c)"
+  ],
+  "rl": "RLinf",
+  "rl_solved": "4/8 (8 finished)",
+  "base_solved": "0/8 (7 finished)",
+  "rl_answers": {
+   "c ; c [RIGHT]": 4,
+   "C ; C": 4
+  },
+  "base_answers": {
+   "C ; C": 7
+  }
+ },
+ {
+  "cell": "RLinf|tbr_78665",
+  "budget": 16384,
+  "q": "A cantilever beam of length \\( L \\) with a doubly symmetric cross-section and flexural rigidity \\( EI \\) is loaded by a point load \\( W \\) at its free end. Determine the deflection curve \\( v(z) \\) and the deflection at the free end.",
+  "gold": [
+   "-\\frac{WL^3}{3EI}"
+  ],
+  "rl": "RLinf",
+  "rl_solved": "2/8 (6 finished)",
+  "base_solved": "2/8 (5 finished)",
+  "rl_answers": {
+   "-\\frac{W L^3}{3EI} ; -\\frac{W L^3}{3EI} [RIGHT]": 2,
+   "\\dfrac{W L^3}{3 EI} ; \\dfrac{W L^3}{3 EI}": 1,
+   "v(z) = -\\frac{W z^2}{2 EI} ; -\\frac{W L^2}{2 EI} ; v(z) = -\\frac{W z^2}{2 EI} ; -\\frac{W L^2}{2 EI}": 1,
+   "\\dfrac{W L^3}{3EI} ; \\dfrac{W L^3}{3EI}": 1
+  },
+  "base_answers": {
+   "0 ; \\dfrac{W L^2}{6 EI} ; 0 ; 0 ; 0 ; \\dfrac{W z^2 (L - z)}{6 EI} ; 0 ; v(z) = \\dfrac{W z^2 (L - z)}{6 EI} ; 0 ; v(z) = \\dfrac{W z^2 (L - z)}{6 EI} ; 0": 1,
+   "v(z) = -\\dfrac{W}{6EI} \\left(3Lz^2 - z^3\\right) ; -\\dfrac{W L^3}{3EI} ; v(z) = -\\dfrac{W}{6EI} \\left(3Lz^2 - z^3\\right) ; -\\dfrac{W L^3}{3EI} [RIGHT]": 1,
+   "\\dfrac{W z^3}{6EI} ; \\dfrac{W L^3}{3EI} ; \\dfrac{W z^3}{6EI} ; \\dfrac{W L^3}{3EI}": 1,
+   "\\dfrac{W z^2}{2 EI} ; \\dfrac{W L^2}{2 EI} ; \\dfrac{W z^2}{2 EI} ; \\dfrac{W L^2}{2 EI}": 1,
+   "-\\frac{W L^3}{3 EI} ; -\\frac{W L^3}{3 EI} [RIGHT]": 1
+  }
+ }
+]

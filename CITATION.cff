@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this framework or its data, please cite the paper."
+title: "What Outcome RL Buys: code, metrics, test sets and rows"
+authors:
+  - family-names: Yang
+    given-names: Shan
+license: Apache-2.0
+repository-code: "https://github.com/shanyang-me/outcome-rl-buys"
+preferred-citation:
+  type: article
+  title: "What Outcome RL Buys: Finishing, Reliability, Rarely Reach"
+  authors:
+    - family-names: Yang
+      given-names: Shan
+  year: 2026
+  journal: "arXiv preprint"
+  notes: "TODO(shan): add the arXiv identifier once the paper is up"

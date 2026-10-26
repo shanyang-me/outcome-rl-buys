@@ -1,0 +1,82 @@
+{
+ "AReaL-1.5B-Preview-Stage-3 cap4096 phys": {
+  "mean": 0.12480902777777778,
+  "finished": 0.20791666666666667,
+  "score_given_finished": 0.6002839011356046,
+  "any_solve8": 0.24,
+  "mean_len": 3793.2775,
+  "n_items": 300
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap8192 phys": {
+  "mean": 0.21991319444444443,
+  "finished": 0.4725,
+  "score_given_finished": 0.4654247501469724,
+  "any_solve8": 0.3933333333333333,
+  "mean_len": 6468.345416666667,
+  "n_items": 300
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap16384 phys": {
+  "mean": 0.2963645833333333,
+  "finished": 0.8545833333333334,
+  "score_given_finished": 0.34679424670892245,
+  "any_solve8": 0.4666666666666667,
+  "mean_len": 9024.732083333334,
+  "n_items": 300
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap24576 phys": {
+  "mean": 0.30653819444444447,
+  "finished": 0.9658333333333333,
+  "score_given_finished": 0.31738208225481734,
+  "any_solve8": 0.47333333333333333,
+  "mean_len": 9652.365,
+  "n_items": 300
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap28672 phys": {
+  "mean": 0.3086215277777778,
+  "finished": 0.9758333333333333,
+  "score_given_finished": 0.3162645886706519,
+  "any_solve8": 0.47333333333333333,
+  "mean_len": 9769.717083333333,
+  "n_items": 300
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap32768 phys": {
+  "mean": 0.30903819444444447,
+  "finished": 0.98375,
+  "score_given_finished": 0.314143018494988,
+  "any_solve8": 0.47333333333333333,
+  "mean_len": 9849.229166666666,
+  "n_items": 300
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap36864 phys": {
+  "mean": 0.30903819444444447,
+  "finished": 0.9866666666666667,
+  "score_given_finished": 0.31321438626126125,
+  "any_solve8": 0.47333333333333333,
+  "mean_len": 9906.590833333334,
+  "n_items": 300
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap49152 phys": {
+  "mean": 0.30903819444444447,
+  "finished": 0.9870833333333333,
+  "score_given_finished": 0.31308217250598,
+  "any_solve8": 0.47333333333333333,
+  "mean_len": 10069.567916666667,
+  "n_items": 300
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap53248 phys": {
+  "mean": 0.30903819444444447,
+  "finished": 0.9870833333333333,
+  "score_given_finished": 0.31308217250598,
+  "any_solve8": 0.47333333333333333,
+  "mean_len": 10122.474583333333,
+  "n_items": 300
+ },
+ "AReaL-1.5B-Preview-Stage-3 cap65536 phys": {
+  "mean": 0.30903819444444447,
+  "finished": 0.9875,
+  "score_given_finished": 0.31295007032348804,
+  "any_solve8": 0.47333333333333333,
+  "mean_len": 10277.800833333333,
+  "n_items": 300
+ }
+}

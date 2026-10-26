@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "outcome-rl-buys"
+version = "0.1.0"
+description = "Code, metrics and test sets for \"What Outcome RL Buys: Finishing, Reliability, Rarely Reach\""
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+authors = [{ name = "Shan Yang" }]
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "sympy>=1.12,<2",
+]
+
+[project.optional-dependencies]
+generate = ["vllm>=0.11", "torch", "huggingface_hub", "transformers>=4.57,<5"]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+pairaudit = "pairaudit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["pairaudit*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["slow: reproduction runs that resample 20,000 times"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+extend-exclude = ["pairaudit/scoring/answer_equiv.py", "pairaudit/scoring/answer_norm.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501", "E731", "E741", "B905", "B023"]

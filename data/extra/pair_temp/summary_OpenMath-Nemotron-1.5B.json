@@ -1,0 +1,82 @@
+{
+ "OpenMath-Nemotron-1.5B cap4096 phys": {
+  "mean": 0.05576388888888889,
+  "finished": 0.11083333333333334,
+  "score_given_finished": 0.5031328320802005,
+  "any_solve8": 0.12666666666666668,
+  "mean_len": 3971.3820833333334,
+  "n_items": 300
+ },
+ "OpenMath-Nemotron-1.5B cap8192 phys": {
+  "mean": 0.14472222222222222,
+  "finished": 0.415,
+  "score_given_finished": 0.34872824631860777,
+  "any_solve8": 0.2833333333333333,
+  "mean_len": 7065.9695833333335,
+  "n_items": 300
+ },
+ "OpenMath-Nemotron-1.5B cap16384 phys": {
+  "mean": 0.22165277777777778,
+  "finished": 0.94625,
+  "score_given_finished": 0.23424335828563042,
+  "any_solve8": 0.37,
+  "mean_len": 9209.741666666667,
+  "n_items": 300
+ },
+ "OpenMath-Nemotron-1.5B cap24576 phys": {
+  "mean": 0.22651388888888888,
+  "finished": 0.9970833333333333,
+  "score_given_finished": 0.22717648697590193,
+  "any_solve8": 0.37666666666666665,
+  "mean_len": 9324.374583333334,
+  "n_items": 300
+ },
+ "OpenMath-Nemotron-1.5B cap28672 phys": {
+  "mean": 0.22651388888888888,
+  "finished": 0.9970833333333333,
+  "score_given_finished": 0.22717648697590193,
+  "any_solve8": 0.37666666666666665,
+  "mean_len": 9336.32125,
+  "n_items": 300
+ },
+ "OpenMath-Nemotron-1.5B cap32768 phys": {
+  "mean": 0.2266527777777778,
+  "finished": 0.9979166666666667,
+  "score_given_finished": 0.2271259568545581,
+  "any_solve8": 0.37666666666666665,
+  "mean_len": 9347.31375,
+  "n_items": 300
+ },
+ "OpenMath-Nemotron-1.5B cap36864 phys": {
+  "mean": 0.2266527777777778,
+  "finished": 0.99875,
+  "score_given_finished": 0.22693644833820054,
+  "any_solve8": 0.37666666666666665,
+  "mean_len": 9353.87125,
+  "n_items": 300
+ },
+ "OpenMath-Nemotron-1.5B cap49152 phys": {
+  "mean": 0.2266527777777778,
+  "finished": 0.99875,
+  "score_given_finished": 0.22693644833820054,
+  "any_solve8": 0.37666666666666665,
+  "mean_len": 9369.23125,
+  "n_items": 300
+ },
+ "OpenMath-Nemotron-1.5B cap53248 phys": {
+  "mean": 0.2266527777777778,
+  "finished": 0.99875,
+  "score_given_finished": 0.22693644833820054,
+  "any_solve8": 0.37666666666666665,
+  "mean_len": 9374.35125,
+  "n_items": 300
+ },
+ "OpenMath-Nemotron-1.5B cap65536 phys": {
+  "mean": 0.2266527777777778,
+  "finished": 0.99875,
+  "score_given_finished": 0.22693644833820054,
+  "any_solve8": 0.37666666666666665,
+  "mean_len": 9389.71125,
+  "n_items": 300
+ }
+}

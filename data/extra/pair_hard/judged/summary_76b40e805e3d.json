@@ -1,0 +1,14 @@
+{
+ "files": {
+  "AceReason-Nemotron-14B": {
+   "rejected": 3849,
+   "raised": 476,
+   "now_full": 434,
+   "solved_matcher": 1398,
+   "solved_judged": 1832
+  }
+ },
+ "deferred_last_run": 3561,
+ "distinct_prompts_last_run": 2807,
+ "unparsed_last_run": 5
+}

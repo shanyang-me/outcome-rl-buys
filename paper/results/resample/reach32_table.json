@@ -1,0 +1,377 @@
+{
+ "recipes": {
+  "ProRL v2": {
+   "cap": 8192,
+   "base": "R1-1.5B",
+   "n": 9,
+   "read": 9,
+   "ge1": 4,
+   "ge4": 2,
+   "ge12": 2,
+   "samples": 216,
+   "solved": 45,
+   "status": "done"
+  },
+  "JustRL-D": {
+   "cap": 16384,
+   "base": "R1-1.5B",
+   "n": 51,
+   "read": 51,
+   "ge1": 14,
+   "ge4": 4,
+   "ge12": 0,
+   "samples": 1224,
+   "solved": 47,
+   "status": "done"
+  },
+  "DeepScaleR": {
+   "cap": 24576,
+   "base": "R1-1.5B",
+   "n": 95,
+   "read": 95,
+   "ge1": 24,
+   "ge4": 6,
+   "ge12": 1,
+   "samples": 2280,
+   "solved": 88,
+   "status": "done"
+  },
+  "DeepMath": {
+   "cap": 24576,
+   "base": "R1-1.5B",
+   "n": 95,
+   "read": 95,
+   "ge1": 32,
+   "ge4": 11,
+   "ge12": 1,
+   "samples": 2280,
+   "solved": 114,
+   "status": "done"
+  },
+  "RLinf": {
+   "cap": 28672,
+   "base": "R1-1.5B",
+   "n": 104,
+   "read": 104,
+   "ge1": 29,
+   "ge4": 9,
+   "ge12": 2,
+   "samples": 2496,
+   "solved": 114,
+   "status": "done"
+  },
+  "STILL-3": {
+   "cap": 28672,
+   "base": "R1-1.5B",
+   "n": 104,
+   "read": 104,
+   "ge1": 22,
+   "ge4": 5,
+   "ge12": 1,
+   "samples": 2496,
+   "solved": 70,
+   "status": "done"
+  },
+  "AReaL": {
+   "cap": 24576,
+   "base": "R1-1.5B",
+   "n": 95,
+   "read": 95,
+   "ge1": 18,
+   "ge4": 5,
+   "ge12": 0,
+   "samples": 2280,
+   "solved": 47,
+   "status": "done"
+  },
+  "Open-RS3": {
+   "cap": 4096,
+   "base": "R1-1.5B",
+   "n": 1,
+   "read": 1,
+   "ge1": 0,
+   "ge4": 0,
+   "ge12": 0,
+   "samples": 24,
+   "solved": 0,
+   "status": "done"
+  },
+  "JustRL-N": {
+   "cap": 16384,
+   "base": "OpenMath-1.5B",
+   "n": 118,
+   "read": 118,
+   "ge1": 16,
+   "ge4": 6,
+   "ge12": 1,
+   "samples": 2832,
+   "solved": 58,
+   "status": "done"
+  },
+  "QuestA": {
+   "cap": 24576,
+   "base": "OpenMath-1.5B",
+   "n": 158,
+   "read": 158,
+   "ge1": 24,
+   "ge4": 7,
+   "ge12": 0,
+   "samples": 3792,
+   "solved": 70,
+   "status": "done"
+  },
+  "KnowRL": {
+   "cap": 24576,
+   "base": "OpenMath-1.5B",
+   "n": 158,
+   "read": 158,
+   "ge1": 24,
+   "ge4": 10,
+   "ge12": 1,
+   "samples": 3792,
+   "solved": 90,
+   "status": "done"
+  },
+  "DeepMath-Omn": {
+   "cap": 24576,
+   "base": "OpenMath-1.5B",
+   "n": 158,
+   "read": 158,
+   "ge1": 23,
+   "ge4": 12,
+   "ge12": 0,
+   "samples": 3792,
+   "solved": 82,
+   "status": "done"
+  },
+  "e3": {
+   "cap": 16384,
+   "base": "Qwen3-1.7B",
+   "n": 58,
+   "read": 58,
+   "ge1": 6,
+   "ge4": 3,
+   "ge12": 0,
+   "samples": 1392,
+   "solved": 23,
+   "status": "done"
+  },
+  "Polaris-1.7B": {
+   "cap": 49152,
+   "base": "Qwen3-1.7B",
+   "n": 114,
+   "read": 114,
+   "ge1": 28,
+   "ge4": 5,
+   "ge12": 0,
+   "samples": 2736,
+   "solved": 62,
+   "status": "done"
+  },
+  "Polaris-4B": {
+   "cap": 53248,
+   "base": "Qwen3-4B",
+   "n": 86,
+   "read": 86,
+   "ge1": 15,
+   "ge4": 7,
+   "ge12": 2,
+   "samples": 2064,
+   "solved": 75,
+   "status": "done"
+  },
+  "Skywork-7B": {
+   "cap": 32768,
+   "base": "R1-7B",
+   "n": 82,
+   "read": 82,
+   "ge1": 30,
+   "ge4": 15,
+   "ge12": 4,
+   "samples": 1968,
+   "solved": 142,
+   "status": "done"
+  },
+  "AceReason-14B": {
+   "cap": 32768,
+   "base": "R1-14B",
+   "n": 88,
+   "read": 88,
+   "ge1": 37,
+   "ge4": 15,
+   "ge12": 2,
+   "samples": 2112,
+   "solved": 151,
+   "status": "done"
+  },
+  "Skywork-32B": {
+   "cap": 24576,
+   "base": "R1-32B",
+   "n": 68,
+   "read": 68,
+   "ge1": 24,
+   "ge4": 12,
+   "ge12": 6,
+   "samples": 1632,
+   "solved": 177,
+   "status": "done"
+  },
+  "Skywork-Math": {
+   "cap": 32768,
+   "base": "R1-7B",
+   "n": 82,
+   "read": 82,
+   "ge1": 30,
+   "ge4": 12,
+   "ge12": 7,
+   "samples": 1968,
+   "solved": 193,
+   "status": "done"
+  },
+  "AceReason": {
+   "cap": 32768,
+   "base": "R1-7B",
+   "n": 82,
+   "read": 82,
+   "ge1": 24,
+   "ge4": 9,
+   "ge12": 2,
+   "samples": 1968,
+   "solved": 115,
+   "status": "done"
+  }
+ },
+ "bases": {
+  "R1-1.5B": {
+   "cap": 28672,
+   "recipes": [
+    "ProRL v2",
+    "JustRL-D",
+    "DeepScaleR",
+    "DeepMath",
+    "RLinf",
+    "STILL-3",
+    "AReaL",
+    "Open-RS3"
+   ],
+   "n": 193,
+   "read": 193,
+   "ge1": 66,
+   "ge4": 20,
+   "ge12": 1,
+   "samples": 4632,
+   "solved": 215,
+   "status": "done"
+  },
+  "OpenMath-1.5B": {
+   "cap": 24576,
+   "recipes": [
+    "JustRL-N",
+    "QuestA",
+    "KnowRL",
+    "DeepMath-Omn"
+   ],
+   "n": 200,
+   "read": 200,
+   "ge1": 38,
+   "ge4": 11,
+   "ge12": 2,
+   "samples": 4800,
+   "solved": 124,
+   "status": "done"
+  },
+  "Qwen3-1.7B": {
+   "cap": 49152,
+   "recipes": [
+    "e3",
+    "Polaris-1.7B"
+   ],
+   "n": 101,
+   "read": 101,
+   "ge1": 21,
+   "ge4": 6,
+   "ge12": 0,
+   "samples": 2424,
+   "solved": 56,
+   "status": "done"
+  },
+  "Qwen3-4B": {
+   "cap": 53248,
+   "recipes": [
+    "Polaris-4B"
+   ],
+   "n": 77,
+   "read": 77,
+   "ge1": 19,
+   "ge4": 5,
+   "ge12": 0,
+   "samples": 1848,
+   "solved": 50,
+   "status": "done"
+  },
+  "R1-7B": {
+   "cap": 32768,
+   "recipes": [
+    "Skywork-7B",
+    "Skywork-Math",
+    "AceReason"
+   ],
+   "n": 113,
+   "read": 113,
+   "ge1": 45,
+   "ge4": 19,
+   "ge12": 0,
+   "samples": 2712,
+   "solved": 169,
+   "status": "done"
+  },
+  "R1-14B": {
+   "cap": 32768,
+   "recipes": [
+    "AceReason-14B"
+   ],
+   "n": 80,
+   "read": 80,
+   "ge1": 24,
+   "ge4": 7,
+   "ge12": 0,
+   "samples": 1920,
+   "solved": 64,
+   "status": "done"
+  },
+  "R1-32B": {
+   "cap": 24576,
+   "recipes": [
+    "Skywork-32B"
+   ],
+   "n": 62,
+   "read": 62,
+   "ge1": 12,
+   "ge4": 6,
+   "ge12": 0,
+   "samples": 1488,
+   "solved": 62,
+   "status": "done"
+  }
+ },
+ "pooled": {
+  "rl": {
+   "n": 1806,
+   "read": 1806,
+   "ge1": 424,
+   "ge4": 155,
+   "ge12": 32,
+   "samples": 43344,
+   "solved": 1763
+  },
+  "base": {
+   "n": 826,
+   "read": 826,
+   "ge1": 225,
+   "ge4": 74,
+   "ge12": 3,
+   "samples": 19824,
+   "solved": 740
+  }
+ }
+}

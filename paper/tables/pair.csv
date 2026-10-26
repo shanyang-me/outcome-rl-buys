@@ -1,0 +1,8 @@
+# A short-answer base, Qwen2.5-7B, against its outcome-RL descendant Open-Reasoner-Zero-7B, split the same way. The base at $8$k equals the base at $2$k to three decimals. The RL model's \relB{} at $2$k is inflated by selection: only its short answers finish.
+"model, cap","domain","fin@1(B)","pass@1(B|fin)","mean","pass@8","tokens"
+"base, 2k","physics","0.98","0.239","0.235","0.447","706"
+"RL, 2k","physics","0.65","0.428","0.277","0.443","1,504"
+"RL, 8k","physics","0.99","0.356","0.354","0.530","2,000"
+"base, 2k","MATH-500","0.98","0.565","0.554","0.792","536"
+"RL, 2k","MATH-500","0.83","0.864","0.714","0.810","1,071"
+"RL, 8k","MATH-500","0.99","0.778","0.771","0.862","1,351"

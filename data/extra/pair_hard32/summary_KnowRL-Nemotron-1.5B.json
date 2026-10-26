@@ -1,0 +1,15 @@
+{
+ "model": "HasuerYu/KnowRL-Nemotron-1.5B",
+ "path": "/root/hf/hub/models--HasuerYu--KnowRL-Nemotron-1.5B/snapshots/afdef67bce8969081d655b7eda65a459edbe2526",
+ "cap": 24576,
+ "n_problems": 58,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 40,
+ "finished": 0.985632183908046,
+ "seconds": {
+  "load": 84,
+  "generate": 3062
+ },
+ "host": "b06266d5b593"
+}

@@ -1,0 +1,336 @@
+{
+ "n_cells": 36,
+ "n_recipes": 6,
+ "pooled_dominance": 0.7668066281946495,
+ "pooled_dominance_ci_crossed": [
+  0.7056601340531263,
+  0.8204847205782838
+ ],
+ "pooled_dominance_p_le_half": 0.0,
+ "r2_dmean_on_F": 0.7664303910949698,
+ "r2_ci_crossed": [
+  0.5859082074942448,
+  0.9005171944362098
+ ],
+ "pooled_matched_change": 0.016674988646042405,
+ "pooled_matched_ci_crossed": [
+  0.0009954716992268769,
+  0.0367356935131993
+ ],
+ "per_recipe": {
+  "DeepMath-Omn-1.5B": {
+   "dominance": 0.7172067298151181,
+   "dominance_ci_problems": [
+    0.6615805990015118,
+    0.7819044147500905
+   ],
+   "matched_mean": 0.01700194358789948,
+   "matched_ci_problems": [
+    -0.0004966881431463256,
+    0.035901253961360416
+   ]
+  },
+  "JustRL-Nemotron-1.5B": {
+   "dominance": 0.7894946651355572,
+   "dominance_ci_problems": [
+    0.7079938143307096,
+    0.8669326717701334
+   ],
+   "matched_mean": 0.014308822307625358,
+   "matched_ci_problems": [
+    0.00031927054564050465,
+    0.02996290296806247
+   ]
+  },
+  "KnowRL-Nemotron-1.5B": {
+   "dominance": 0.6738510734531836,
+   "dominance_ci_problems": [
+    0.6396881560339389,
+    0.7129190476915447
+   ],
+   "matched_mean": 0.04279172048142145,
+   "matched_ci_problems": [
+    0.01962680401348426,
+    0.07066588801940513
+   ]
+  },
+  "Polaris-1.7B-Preview": {
+   "dominance": 0.827539300256233,
+   "dominance_ci_problems": [
+    0.7920408848977325,
+    0.8617958575024328
+   ],
+   "matched_mean": 0.0034839619930624676,
+   "matched_ci_problems": [
+    -0.01330517237272682,
+    0.018682583895191722
+   ]
+  },
+  "QuestA-Nemotron-1.5B": {
+   "dominance": 0.7493099820223112,
+   "dominance_ci_problems": [
+    0.7212193213640388,
+    0.776076657963856
+   ],
+   "matched_mean": 0.028859341878372358,
+   "matched_ci_problems": [
+    0.013497141892224337,
+    0.046326891124638454
+   ]
+  },
+  "e3-1.7B": {
+   "dominance": 0.885673671575137,
+   "dominance_ci_problems": [
+    0.7865865092527323,
+    0.911641338995298
+   ],
+   "matched_mean": -0.006395858372126677,
+   "matched_ci_problems": [
+    -0.01775799236391583,
+    0.0036698884951405363
+   ]
+  }
+ },
+ "sign_test_point": {
+  "k": 6,
+  "n": 6,
+  "p_one_sided": 0.015625
+ },
+ "recipes_dominance_ci_above_half": 6,
+ "re_meta_matched": {
+  "mu": 0.014857639268213554,
+  "ci": [
+   0.0011227736974070736,
+   0.028592504839020035
+  ],
+  "tau2": 0.0002198628670142681,
+  "Q": 21.87405119202574,
+  "k": 6,
+  "I2": 0.7714186569233793,
+  "hksj_ci": [
+   -0.003063420451103048,
+   0.03277869898753016
+  ],
+  "hksj_p_two_sided": 0.08627651355010788
+ },
+ "dominance_by_capset": {
+  "4k": {
+   "pooled": 0.901878648877186,
+   "ci_crossed": [
+    0.8486828721540528,
+    0.9399511457708598
+   ],
+   "per_recipe": {
+    "DeepMath-Omn-1.5B": 0.8646672046728835,
+    "JustRL-Nemotron-1.5B": 0.9408168560199005,
+    "KnowRL-Nemotron-1.5B": 0.8376920072210237,
+    "Polaris-1.7B-Preview": 0.955456618111809,
+    "QuestA-Nemotron-1.5B": 0.8792669263710006,
+    "e3-1.7B": 0.9909758422376489
+   },
+   "per_recipe_ci_problems": {
+    "DeepMath-Omn-1.5B": [
+     0.8088588399737473,
+     0.9220615911257684
+    ],
+    "JustRL-Nemotron-1.5B": [
+     0.877339729474994,
+     0.9850669371209777
+    ],
+    "KnowRL-Nemotron-1.5B": [
+     0.794953135877736,
+     0.8872987653242678
+    ],
+    "Polaris-1.7B-Preview": [
+     0.888655668065835,
+     0.9845858084173549
+    ],
+    "QuestA-Nemotron-1.5B": [
+     0.8305189750823045,
+     0.9037255790722134
+    ],
+    "e3-1.7B": [
+     0.8985046162291357,
+     0.991359829086342
+    ]
+   },
+   "k_above_half_changing": 6,
+   "n_changing": 6,
+   "sign_p_changing": 0.015625
+  },
+  "8k": {
+   "pooled": 0.7709982704037459,
+   "ci_crossed": [
+    0.693984106328397,
+    0.8552362085609304
+   ],
+   "per_recipe": {
+    "DeepMath-Omn-1.5B": 0.693356860575916,
+    "JustRL-Nemotron-1.5B": 0.782024620999431,
+    "KnowRL-Nemotron-1.5B": 0.6734485189902597,
+    "Polaris-1.7B-Preview": 0.8647976570574554,
+    "QuestA-Nemotron-1.5B": 0.7498799279868136,
+    "e3-1.7B": 0.8560325814062125
+   },
+   "per_recipe_ci_problems": {
+    "DeepMath-Omn-1.5B": [
+     0.6265328534056264,
+     0.7777206133741689
+    ],
+    "JustRL-Nemotron-1.5B": [
+     0.6497076928888946,
+     0.9257349038289627
+    ],
+    "KnowRL-Nemotron-1.5B": [
+     0.6282246751422248,
+     0.7290084568843044
+    ],
+    "Polaris-1.7B-Preview": [
+     0.8129516082640268,
+     0.9346027455698248
+    ],
+    "QuestA-Nemotron-1.5B": [
+     0.715738325409206,
+     0.8047908958881136
+    ],
+    "e3-1.7B": [
+     0.7512930302324731,
+     0.9496246633722677
+    ]
+   },
+   "k_above_half_changing": 6,
+   "n_changing": 6,
+   "sign_p_changing": 0.015625
+  },
+  "16k": {
+   "pooled": 0.6260811245457824,
+   "ci_crossed": [
+    0.4499035688744691,
+    0.6977684937744665
+   ],
+   "per_recipe": {
+    "DeepMath-Omn-1.5B": 0.429992928626212,
+    "JustRL-Nemotron-1.5B": 0.20829830528979487,
+    "KnowRL-Nemotron-1.5B": 0.47169629648040523,
+    "Polaris-1.7B-Preview": 0.7129742176973826,
+    "QuestA-Nemotron-1.5B": 0.6425251295751283,
+    "e3-1.7B": 0.8045527499362389
+   },
+   "per_recipe_ci_problems": {
+    "DeepMath-Omn-1.5B": [
+     0.3516586119112112,
+     0.5376387092136747
+    ],
+    "JustRL-Nemotron-1.5B": [
+     0.11020352794990561,
+     0.34581074047154764
+    ],
+    "KnowRL-Nemotron-1.5B": [
+     0.43141974758964236,
+     0.5174536363451537
+    ],
+    "Polaris-1.7B-Preview": [
+     0.6770352973392678,
+     0.7566386642403098
+    ],
+    "QuestA-Nemotron-1.5B": [
+     0.6130248415486654,
+     0.6811594195963392
+    ],
+    "e3-1.7B": [
+     0.6311217378072754,
+     0.8520822363544654
+    ]
+   },
+   "k_above_half_changing": 3,
+   "n_changing": 5,
+   "sign_p_changing": 0.5
+  },
+  "4k+8k": {
+   "pooled": 0.8344341308046019,
+   "ci_crossed": [
+    0.7764234771926458,
+    0.8943769841408886
+   ],
+   "per_recipe": {
+    "DeepMath-Omn-1.5B": 0.7900894632660473,
+    "JustRL-Nemotron-1.5B": 0.896031964170485,
+    "KnowRL-Nemotron-1.5B": 0.7554581620804963,
+    "Polaris-1.7B-Preview": 0.9056335481118716,
+    "QuestA-Nemotron-1.5B": 0.8047410313270542,
+    "e3-1.7B": 0.9195422275575733
+   },
+   "per_recipe_ci_problems": {
+    "DeepMath-Omn-1.5B": [
+     0.7367689346634663,
+     0.8496719862755565
+    ],
+    "JustRL-Nemotron-1.5B": [
+     0.8248545276254322,
+     0.9516592915873202
+    ],
+    "KnowRL-Nemotron-1.5B": [
+     0.7187765993989107,
+     0.7993559658707042
+    ],
+    "Polaris-1.7B-Preview": [
+     0.8581925976768623,
+     0.9458480497501748
+    ],
+    "QuestA-Nemotron-1.5B": [
+     0.7711713571624723,
+     0.8354640504064272
+    ],
+    "e3-1.7B": [
+     0.8397173588797482,
+     0.9549712463535367
+    ]
+   },
+   "k_above_half_changing": 6,
+   "n_changing": 6,
+   "sign_p_changing": 0.015625
+  }
+ },
+ "length_vs_finishing": {
+  "x_median_log_len_ratio": {
+   "DeepMath-Omn-1.5B": 0.16316198421909278,
+   "JustRL-Nemotron-1.5B": 0.12701422781774963,
+   "KnowRL-Nemotron-1.5B": 0.23654150786501732,
+   "Polaris-1.7B-Preview": 0.2887341217652203,
+   "QuestA-Nemotron-1.5B": 0.38660308799255827,
+   "e3-1.7B": -0.09641671702102528
+  },
+  "y_mean_dfinished_4k8k": {
+   "DeepMath-Omn-1.5B": -0.10587500000000002,
+   "JustRL-Nemotron-1.5B": -0.09658333333333334,
+   "KnowRL-Nemotron-1.5B": -0.15775,
+   "Polaris-1.7B-Preview": -0.26056250000000003,
+   "QuestA-Nemotron-1.5B": -0.311875,
+   "e3-1.7B": 0.059958333333333336
+  },
+  "spearman": -1.0,
+  "p_exact_two_sided": 0.002777777777777778,
+  "p_method": "exact"
+ },
+ "length_vs_finishing_matched": {
+  "x_median_matched_finished_len_ratio": {
+   "DeepMath-Omn-1.5B": 1.2731436576770878,
+   "JustRL-Nemotron-1.5B": 1.3995442819398833,
+   "KnowRL-Nemotron-1.5B": 1.4418232435280722,
+   "Polaris-1.7B-Preview": 1.9396667698544936,
+   "QuestA-Nemotron-1.5B": 1.8662866560329667,
+   "e3-1.7B": 0.8807955475226654
+  },
+  "y_mean_dfinished_4k8k": {
+   "DeepMath-Omn-1.5B": -0.10587500000000002,
+   "JustRL-Nemotron-1.5B": -0.09658333333333334,
+   "KnowRL-Nemotron-1.5B": -0.15775,
+   "Polaris-1.7B-Preview": -0.26056250000000003,
+   "QuestA-Nemotron-1.5B": -0.311875,
+   "e3-1.7B": 0.059958333333333336
+  },
+  "spearman": -0.8857142857142858,
+  "p_exact_two_sided": 0.03333333333333333,
+  "p_method": "exact"
+ }
+}

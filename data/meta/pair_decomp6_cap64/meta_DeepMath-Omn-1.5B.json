@@ -1,0 +1,34 @@
+{
+ "model": "zwhe99/DeepMath-Omn-1.5B",
+ "path": "/root/hf/hub/models--zwhe99--DeepMath-Omn-1.5B/snapshots/8b8da79f9c2a83483144b1c8a3fbc317502e80b7",
+ "revision": "8b8da79f9c2a83483144b1c8a3fbc317502e80b7",
+ "host": "71c40707bd9d",
+ "gpu": "NVIDIA H200",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "gen_cap": 65536,
+ "derived_caps": [
+  4096,
+  8192,
+  16384,
+  24576,
+  28672,
+  32768,
+  49152
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  522,
+  26865,
+  29
+ ],
+ "seconds": {
+  "load": 139,
+  "generate": 6376,
+  "score": 380
+ },
+ "trace_rows": 1200
+}

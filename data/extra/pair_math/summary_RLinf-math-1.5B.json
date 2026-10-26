@@ -1,0 +1,82 @@
+{
+ "RLinf-math-1.5B cap4096 post": {
+  "mean": 0.15476190476190477,
+  "finished": 0.21626984126984128,
+  "score_given_finished": 0.7155963302752294,
+  "any_solve8": 0.25396825396825395,
+  "mean_len": 3821.0873015873017,
+  "n_items": 63
+ },
+ "RLinf-math-1.5B cap4096 pre": {
+  "mean": 0.15023474178403756,
+  "finished": 0.22241784037558684,
+  "score_given_finished": 0.6754617414248021,
+  "any_solve8": 0.2676056338028169,
+  "mean_len": 3783.25,
+  "n_items": 213
+ },
+ "RLinf-math-1.5B cap8192 post": {
+  "mean": 0.2400793650793651,
+  "finished": 0.4742063492063492,
+  "score_given_finished": 0.5062761506276151,
+  "any_solve8": 0.38095238095238093,
+  "mean_len": 6538.125,
+  "n_items": 63
+ },
+ "RLinf-math-1.5B cap8192 pre": {
+  "mean": 0.24295774647887325,
+  "finished": 0.48532863849765256,
+  "score_given_finished": 0.5006045949214026,
+  "any_solve8": 0.4084507042253521,
+  "mean_len": 6400.020539906103,
+  "n_items": 213
+ },
+ "RLinf-math-1.5B cap16384 post": {
+  "mean": 0.27976190476190477,
+  "finished": 0.8015873015873016,
+  "score_given_finished": 0.349009900990099,
+  "any_solve8": 0.4603174603174603,
+  "mean_len": 9380.128968253968,
+  "n_items": 63
+ },
+ "RLinf-math-1.5B cap16384 pre": {
+  "mean": 0.2869718309859155,
+  "finished": 0.7723004694835681,
+  "score_given_finished": 0.371580547112462,
+  "any_solve8": 0.4647887323943662,
+  "mean_len": 9309.758802816901,
+  "n_items": 213
+ },
+ "RLinf-math-1.5B cap24576 post": {
+  "mean": 0.28174603174603174,
+  "finished": 0.9206349206349206,
+  "score_given_finished": 0.30603448275862066,
+  "any_solve8": 0.4603174603174603,
+  "mean_len": 10462.900793650793,
+  "n_items": 63
+ },
+ "RLinf-math-1.5B cap24576 pre": {
+  "mean": 0.29694835680751175,
+  "finished": 0.9330985915492958,
+  "score_given_finished": 0.3182389937106918,
+  "any_solve8": 0.49765258215962443,
+  "mean_len": 10402.150234741785,
+  "n_items": 213
+ },
+ "RLinf-math-1.5B cap28672 post": {
+  "mean": 0.28174603174603174,
+  "finished": 0.9543650793650794,
+  "score_given_finished": 0.29521829521829523,
+  "any_solve8": 0.4603174603174603,
+  "mean_len": 10702.36507936508,
+  "n_items": 63
+ },
+ "RLinf-math-1.5B cap28672 pre": {
+  "mean": 0.2992957746478873,
+  "finished": 0.9636150234741784,
+  "score_given_finished": 0.3105968331303289,
+  "any_solve8": 0.5023474178403756,
+  "mean_len": 10597.74941314554,
+  "n_items": 213
+ }
+}

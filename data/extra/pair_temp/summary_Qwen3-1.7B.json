@@ -1,0 +1,82 @@
+{
+ "Qwen3-1.7B cap4096 phys": {
+  "mean": 0.099375,
+  "finished": 0.13583333333333333,
+  "score_given_finished": 0.7315950920245399,
+  "any_solve8": 0.18333333333333332,
+  "mean_len": 3925.5583333333334,
+  "n_items": 300
+ },
+ "Qwen3-1.7B cap8192 phys": {
+  "mean": 0.2425,
+  "finished": 0.3975,
+  "score_given_finished": 0.610062893081761,
+  "any_solve8": 0.35,
+  "mean_len": 6935.885416666667,
+  "n_items": 300
+ },
+ "Qwen3-1.7B cap16384 phys": {
+  "mean": 0.4109305555555556,
+  "finished": 0.8679166666666667,
+  "score_given_finished": 0.4734677548407745,
+  "any_solve8": 0.58,
+  "mean_len": 9735.813333333334,
+  "n_items": 300
+ },
+ "Qwen3-1.7B cap24576 phys": {
+  "mean": 0.4401388888888889,
+  "finished": 0.99125,
+  "score_given_finished": 0.4440240997618047,
+  "any_solve8": 0.5966666666666667,
+  "mean_len": 10124.020416666666,
+  "n_items": 300
+ },
+ "Qwen3-1.7B cap28672 phys": {
+  "mean": 0.44232638888888887,
+  "finished": 0.9979166666666667,
+  "score_given_finished": 0.44324982602644397,
+  "any_solve8": 0.6033333333333334,
+  "mean_len": 10144.481666666667,
+  "n_items": 300
+ },
+ "Qwen3-1.7B cap32768 phys": {
+  "mean": 0.4431597222222222,
+  "finished": 1.0,
+  "score_given_finished": 0.4431597222222222,
+  "any_solve8": 0.6033333333333334,
+  "mean_len": 10145.152916666666,
+  "n_items": 300
+ },
+ "Qwen3-1.7B cap36864 phys": {
+  "mean": 0.4431597222222222,
+  "finished": 1.0,
+  "score_given_finished": 0.4431597222222222,
+  "any_solve8": 0.6033333333333334,
+  "mean_len": 10145.152916666666,
+  "n_items": 300
+ },
+ "Qwen3-1.7B cap49152 phys": {
+  "mean": 0.4431597222222222,
+  "finished": 1.0,
+  "score_given_finished": 0.4431597222222222,
+  "any_solve8": 0.6033333333333334,
+  "mean_len": 10145.152916666666,
+  "n_items": 300
+ },
+ "Qwen3-1.7B cap53248 phys": {
+  "mean": 0.4431597222222222,
+  "finished": 1.0,
+  "score_given_finished": 0.4431597222222222,
+  "any_solve8": 0.6033333333333334,
+  "mean_len": 10145.152916666666,
+  "n_items": 300
+ },
+ "Qwen3-1.7B cap65536 phys": {
+  "mean": 0.4431597222222222,
+  "finished": 1.0,
+  "score_given_finished": 0.4431597222222222,
+  "any_solve8": 0.6033333333333334,
+  "mean_len": 10145.152916666666,
+  "n_items": 300
+ }
+}

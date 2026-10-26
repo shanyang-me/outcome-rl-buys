@@ -1,0 +1,82 @@
+{
+ "RLinf-math-1.5B cap4096 phys": {
+  "mean": 0.22643749999999999,
+  "finished": 0.4533333333333333,
+  "score_given_finished": 0.49949448529411766,
+  "any_solve8": 0.38,
+  "mean_len": 3199.2566666666667,
+  "n_items": 300
+ },
+ "RLinf-math-1.5B cap8192 phys": {
+  "mean": 0.29705902777777776,
+  "finished": 0.6883333333333334,
+  "score_given_finished": 0.4315627522195319,
+  "any_solve8": 0.47333333333333333,
+  "mean_len": 4912.764583333334,
+  "n_items": 300
+ },
+ "RLinf-math-1.5B cap16384 phys": {
+  "mean": 0.33001041666666664,
+  "finished": 0.8954166666666666,
+  "score_given_finished": 0.3685551419264774,
+  "any_solve8": 0.5166666666666667,
+  "mean_len": 6489.1170833333335,
+  "n_items": 300
+ },
+ "RLinf-math-1.5B cap24576 phys": {
+  "mean": 0.3362604166666667,
+  "finished": 0.9729166666666667,
+  "score_given_finished": 0.34562098501070665,
+  "any_solve8": 0.52,
+  "mean_len": 6988.6075,
+  "n_items": 300
+ },
+ "RLinf-math-1.5B cap28672 phys": {
+  "mean": 0.33667708333333335,
+  "finished": 0.985,
+  "score_given_finished": 0.34180414551607446,
+  "any_solve8": 0.52,
+  "mean_len": 7071.276666666667,
+  "n_items": 300
+ },
+ "RLinf-math-1.5B cap32768 phys": {
+  "mean": 0.33751041666666665,
+  "finished": 0.9945833333333334,
+  "score_given_finished": 0.33934855467113534,
+  "any_solve8": 0.52,
+  "mean_len": 7112.5408333333335,
+  "n_items": 300
+ },
+ "RLinf-math-1.5B cap36864 phys": {
+  "mean": 0.33751041666666665,
+  "finished": 0.995,
+  "score_given_finished": 0.33920644891122276,
+  "any_solve8": 0.52,
+  "mean_len": 7133.124583333333,
+  "n_items": 300
+ },
+ "RLinf-math-1.5B cap49152 phys": {
+  "mean": 0.33751041666666665,
+  "finished": 0.99625,
+  "score_given_finished": 0.33878084483479715,
+  "any_solve8": 0.52,
+  "mean_len": 7185.334583333333,
+  "n_items": 300
+ },
+ "RLinf-math-1.5B cap53248 phys": {
+  "mean": 0.33751041666666665,
+  "finished": 0.99625,
+  "score_given_finished": 0.33878084483479715,
+  "any_solve8": 0.52,
+  "mean_len": 7200.694583333333,
+  "n_items": 300
+ },
+ "RLinf-math-1.5B cap65536 phys": {
+  "mean": 0.33751041666666665,
+  "finished": 0.99625,
+  "score_given_finished": 0.33878084483479715,
+  "any_solve8": 0.52,
+  "mean_len": 7246.774583333333,
+  "n_items": 300
+ }
+}

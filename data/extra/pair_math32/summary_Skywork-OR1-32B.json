@@ -1,0 +1,15 @@
+{
+ "model": "Skywork/Skywork-OR1-32B",
+ "path": "/root/hf/hub/models--Skywork--Skywork-OR1-32B/snapshots/8545e72b0bcb20bd08193400bc75b4ff6ccb300a",
+ "cap": 24576,
+ "n_problems": 10,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 10,
+ "finished": 0.6958333333333333,
+ "seconds": {
+  "load": 123,
+  "generate": 8634
+ },
+ "host": "f030079c0c71"
+}

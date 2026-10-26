@@ -1,0 +1,101 @@
+{
+ "files": {
+  "pair_decomp4/AReaL-1.5B-Preview-Stage-3": {
+   "rejected": 1420,
+   "raised": 95,
+   "now_full": 80
+  },
+  "pair_decomp4/DeepMath-1.5B": {
+   "rejected": 1522,
+   "raised": 93,
+   "now_full": 88
+  },
+  "pair_decomp4/DeepMath-Omn-1.5B": {
+   "rejected": 1456,
+   "raised": 52,
+   "now_full": 44
+  },
+  "pair_decomp4/JustRL-DeepSeek-1.5B": {
+   "rejected": 1561,
+   "raised": 88,
+   "now_full": 76
+  },
+  "pair_decomp4/JustRL-Nemotron-1.5B": {
+   "rejected": 1737,
+   "raised": 56,
+   "now_full": 54
+  },
+  "pair_decomp4/KnowRL-Nemotron-1.5B": {
+   "rejected": 1066,
+   "raised": 44,
+   "now_full": 44
+  },
+  "pair_decomp4/OpenMath-Nemotron-1.5B": {
+   "rejected": 1779,
+   "raised": 87,
+   "now_full": 75
+  },
+  "pair_decomp4/Polaris-1.7B-Preview": {
+   "rejected": 272,
+   "raised": 49,
+   "now_full": 46
+  },
+  "pair_decomp4/QuestA-Nemotron-1.5B": {
+   "rejected": 401,
+   "raised": 23,
+   "now_full": 23
+  },
+  "pair_decomp4/Qwen3-1.7B": {
+   "rejected": 1180,
+   "raised": 88,
+   "now_full": 71
+  },
+  "pair_decomp4/RLinf-math-1.5B": {
+   "rejected": 1465,
+   "raised": 98,
+   "now_full": 87
+  },
+  "pair_decomp4/e3-1.7B": {
+   "rejected": 1292,
+   "raised": 95,
+   "now_full": 80
+  },
+  "pair_decomp10_native/Polaris-1.7B-Preview": {
+   "rejected": 1289,
+   "raised": 109,
+   "now_full": 94
+  },
+  "pair_decomp10_native/Polaris-4B-Preview": {
+   "rejected": 1032,
+   "raised": 159,
+   "now_full": 133
+  },
+  "pair_decomp10_native/Qwen3-1.7B": {
+   "rejected": 1442,
+   "raised": 104,
+   "now_full": 83
+  },
+  "pair_decomp10_native/Qwen3-4B": {
+   "rejected": 1132,
+   "raised": 135,
+   "now_full": 112
+  },
+  "pair_decomp9_32b/DeepSeek-R1-Distill-Qwen-32B": {
+   "rejected": 1122,
+   "raised": 177,
+   "now_full": 165
+  },
+  "pair_decomp9_32b/Skywork-OR1-32B": {
+   "rejected": 986,
+   "raised": 180,
+   "now_full": 172
+  },
+  "pair_decomp5_big/DeepSeek-R1-Distill-Qwen-14B": {
+   "rejected": 1152,
+   "raised": 127,
+   "now_full": 121
+  }
+ },
+ "deferred": 22205,
+ "unparsed": 21
+}

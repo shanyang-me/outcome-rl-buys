@@ -1,0 +1,32 @@
+{
+ "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+ "path": "/workspace/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-R1-Distill-Qwen-7B/snapshots/916b56a44061fd5cd7d6a8fb632557ed4f724f60",
+ "revision": "916b56a44061fd5cd7d6a8fb632557ed4f724f60",
+ "host": "71c40707bd9d",
+ "gpu": "NVIDIA H200",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "gen_cap": 65536,
+ "derived_caps": [
+  4096,
+  8192,
+  16384,
+  24576,
+  28672,
+  32768,
+  49152
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  151649
+ ],
+ "seconds": {
+  "load": 163,
+  "generate": 7399,
+  "score": 138
+ },
+ "trace_rows": 1200
+}

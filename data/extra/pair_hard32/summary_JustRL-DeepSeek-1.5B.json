@@ -1,0 +1,15 @@
+{
+ "model": "hbx/JustRL-DeepSeek-1.5B",
+ "path": "/root/hf/hub/models--hbx--JustRL-DeepSeek-1.5B/snapshots/0637e4096c789c67f9eecbe8355e0bdeddede1c2",
+ "cap": 16384,
+ "n_problems": 36,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 15,
+ "finished": 0.9872685185185185,
+ "seconds": {
+  "load": 74,
+  "generate": 623
+ },
+ "host": "44124840e389"
+}

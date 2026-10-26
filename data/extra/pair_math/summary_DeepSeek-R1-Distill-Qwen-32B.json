@@ -1,0 +1,66 @@
+{
+ "DeepSeek-R1-Distill-Qwen-32B cap4096 post": {
+  "mean": 0.11507936507936507,
+  "finished": 0.11706349206349206,
+  "score_given_finished": 0.9830508474576272,
+  "any_solve8": 0.2222222222222222,
+  "mean_len": 3981.5218253968255,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-32B cap4096 pre": {
+  "mean": 0.11678403755868545,
+  "finished": 0.12206572769953052,
+  "score_given_finished": 0.9567307692307693,
+  "any_solve8": 0.2300469483568075,
+  "mean_len": 3968.7899061032863,
+  "n_items": 213
+ },
+ "DeepSeek-R1-Distill-Qwen-32B cap8192 post": {
+  "mean": 0.2916666666666667,
+  "finished": 0.3373015873015873,
+  "score_given_finished": 0.8647058823529412,
+  "any_solve8": 0.42857142857142855,
+  "mean_len": 7096.960317460317,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-32B cap8192 pre": {
+  "mean": 0.3022300469483568,
+  "finished": 0.3573943661971831,
+  "score_given_finished": 0.8456486042692939,
+  "any_solve8": 0.4788732394366197,
+  "mean_len": 7068.577464788732,
+  "n_items": 213
+ },
+ "DeepSeek-R1-Distill-Qwen-32B cap16384 post": {
+  "mean": 0.4146825396825397,
+  "finished": 0.6567460317460317,
+  "score_given_finished": 0.6314199395770392,
+  "any_solve8": 0.6190476190476191,
+  "mean_len": 11242.113095238095,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-32B cap16384 pre": {
+  "mean": 0.4618544600938967,
+  "finished": 0.681924882629108,
+  "score_given_finished": 0.6772805507745266,
+  "any_solve8": 0.6901408450704225,
+  "mean_len": 10978.282863849765,
+  "n_items": 213
+ },
+ "DeepSeek-R1-Distill-Qwen-32B cap24576 post": {
+  "mean": 0.4623015873015873,
+  "finished": 0.8571428571428571,
+  "score_given_finished": 0.5393518518518519,
+  "any_solve8": 0.6984126984126984,
+  "mean_len": 13060.763888888889,
+  "n_items": 63
+ },
+ "DeepSeek-R1-Distill-Qwen-32B cap24576 pre": {
+  "mean": 0.5046948356807511,
+  "finished": 0.8814553990610329,
+  "score_given_finished": 0.5725699067909454,
+  "any_solve8": 0.7230046948356808,
+  "mean_len": 12652.970070422536,
+  "n_items": 213
+ }
+}

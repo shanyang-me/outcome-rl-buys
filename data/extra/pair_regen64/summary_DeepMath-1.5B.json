@@ -1,0 +1,82 @@
+{
+ "DeepMath-1.5B cap4096 phys": {
+  "mean": 0.08965277777777778,
+  "finished": 0.12708333333333333,
+  "score_given_finished": 0.7054644808743169,
+  "any_solve8": 0.19333333333333333,
+  "mean_len": 3954.16875,
+  "n_items": 300
+ },
+ "DeepMath-1.5B cap8192 phys": {
+  "mean": 0.23201388888888888,
+  "finished": 0.4345833333333333,
+  "score_given_finished": 0.5338766379034835,
+  "any_solve8": 0.39,
+  "mean_len": 6952.307916666667,
+  "n_items": 300
+ },
+ "DeepMath-1.5B cap16384 phys": {
+  "mean": 0.37402083333333336,
+  "finished": 0.9704166666666667,
+  "score_given_finished": 0.38542292829540575,
+  "any_solve8": 0.5633333333333334,
+  "mean_len": 8783.425,
+  "n_items": 300
+ },
+ "DeepMath-1.5B cap24576 phys": {
+  "mean": 0.37464583333333334,
+  "finished": 0.9883333333333333,
+  "score_given_finished": 0.3790682967959528,
+  "any_solve8": 0.5633333333333334,
+  "mean_len": 8913.9775,
+  "n_items": 300
+ },
+ "DeepMath-1.5B cap28672 phys": {
+  "mean": 0.3747152777777778,
+  "finished": 0.9916666666666667,
+  "score_given_finished": 0.3778641456582633,
+  "any_solve8": 0.5633333333333334,
+  "mean_len": 8954.953333333333,
+  "n_items": 300
+ },
+ "DeepMath-1.5B cap32768 phys": {
+  "mean": 0.3749236111111111,
+  "finished": 0.99375,
+  "score_given_finished": 0.37728162124388537,
+  "any_solve8": 0.5633333333333334,
+  "mean_len": 8985.52375,
+  "n_items": 300
+ },
+ "DeepMath-1.5B cap36864 phys": {
+  "mean": 0.3749236111111111,
+  "finished": 0.9941666666666666,
+  "score_given_finished": 0.3771234981838502,
+  "any_solve8": 0.5633333333333334,
+  "mean_len": 9010.404583333333,
+  "n_items": 300
+ },
+ "DeepMath-1.5B cap49152 phys": {
+  "mean": 0.3753402777777778,
+  "finished": 0.9975,
+  "score_given_finished": 0.37628098022834866,
+  "any_solve8": 0.5633333333333334,
+  "mean_len": 9058.715416666666,
+  "n_items": 300
+ },
+ "DeepMath-1.5B cap53248 phys": {
+  "mean": 0.3753402777777778,
+  "finished": 0.9975,
+  "score_given_finished": 0.37628098022834866,
+  "any_solve8": 0.5633333333333334,
+  "mean_len": 9068.955416666666,
+  "n_items": 300
+ },
+ "DeepMath-1.5B cap65536 phys": {
+  "mean": 0.3753402777777778,
+  "finished": 0.9979166666666667,
+  "score_given_finished": 0.3761238691718859,
+  "any_solve8": 0.5633333333333334,
+  "mean_len": 9097.252083333333,
+  "n_items": 300
+ }
+}

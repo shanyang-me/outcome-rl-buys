@@ -1,0 +1,32 @@
+{
+ "model": "knoveleng/Open-RS3",
+ "path": "/root/hf/hub/models--knoveleng--Open-RS3/snapshots/b9ea78ba17ad87b7f180de59a676fd6b7dd56484",
+ "revision": "b9ea78ba17ad87b7f180de59a676fd6b7dd56484",
+ "host": "c5cf9a736a92",
+ "gpu": "NVIDIA H200",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "gen_cap": 65536,
+ "derived_caps": [
+  4096,
+  8192,
+  16384,
+  24576,
+  28672,
+  32768,
+  49152
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  151649
+ ],
+ "seconds": {
+  "load": 154,
+  "generate": 7761,
+  "score": 139
+ },
+ "trace_rows": 1200
+}

@@ -1,0 +1,21 @@
+{
+ "files": {
+  "DeepSeek-R1-Distill-Qwen-1.5B": {
+   "rejected": 4503,
+   "raised": 192,
+   "now_full": 158,
+   "solved_matcher": 527,
+   "solved_judged": 685
+  },
+  "Skywork-OR1-32B": {
+   "rejected": 1471,
+   "raised": 241,
+   "now_full": 238,
+   "solved_matcher": 733,
+   "solved_judged": 971
+  }
+ },
+ "deferred_last_run": 4954,
+ "distinct_prompts_last_run": 4264,
+ "unparsed_last_run": 12
+}

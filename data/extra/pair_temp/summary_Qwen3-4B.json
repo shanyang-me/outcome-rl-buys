@@ -1,0 +1,82 @@
+{
+ "Qwen3-4B cap4096 phys": {
+  "mean": 0.1028125,
+  "finished": 0.13958333333333334,
+  "score_given_finished": 0.7365671641791045,
+  "any_solve8": 0.18333333333333332,
+  "mean_len": 3943.5616666666665,
+  "n_items": 300
+ },
+ "Qwen3-4B cap8192 phys": {
+  "mean": 0.26609375,
+  "finished": 0.42,
+  "score_given_finished": 0.6335565476190477,
+  "any_solve8": 0.43,
+  "mean_len": 6882.479166666667,
+  "n_items": 300
+ },
+ "Qwen3-4B cap16384 phys": {
+  "mean": 0.5126944444444445,
+  "finished": 0.8533333333333334,
+  "score_given_finished": 0.6008138020833333,
+  "any_solve8": 0.6866666666666666,
+  "mean_len": 9648.082083333333,
+  "n_items": 300
+ },
+ "Qwen3-4B cap24576 phys": {
+  "mean": 0.5643263888888889,
+  "finished": 0.9741666666666666,
+  "score_given_finished": 0.5792914171656687,
+  "any_solve8": 0.72,
+  "mean_len": 10225.509583333333,
+  "n_items": 300
+ },
+ "Qwen3-4B cap28672 phys": {
+  "mean": 0.5691180555555555,
+  "finished": 0.9875,
+  "score_given_finished": 0.5763220815752461,
+  "any_solve8": 0.72,
+  "mean_len": 10298.38625,
+  "n_items": 300
+ },
+ "Qwen3-4B cap32768 phys": {
+  "mean": 0.5703680555555556,
+  "finished": 0.9920833333333333,
+  "score_given_finished": 0.5749195016099679,
+  "any_solve8": 0.72,
+  "mean_len": 10338.339166666667,
+  "n_items": 300
+ },
+ "Qwen3-4B cap36864 phys": {
+  "mean": 0.5713402777777777,
+  "finished": 0.99375,
+  "score_given_finished": 0.5749336128581412,
+  "any_solve8": 0.72,
+  "mean_len": 10366.364583333334,
+  "n_items": 300
+ },
+ "Qwen3-4B cap49152 phys": {
+  "mean": 0.5728680555555555,
+  "finished": 0.9975,
+  "score_given_finished": 0.5743038150932888,
+  "any_solve8": 0.72,
+  "mean_len": 10408.504166666668,
+  "n_items": 300
+ },
+ "Qwen3-4B cap53248 phys": {
+  "mean": 0.5728680555555555,
+  "finished": 0.9975,
+  "score_given_finished": 0.5743038150932888,
+  "any_solve8": 0.72,
+  "mean_len": 10418.744166666667,
+  "n_items": 300
+ },
+ "Qwen3-4B cap65536 phys": {
+  "mean": 0.5728680555555555,
+  "finished": 0.9979166666666667,
+  "score_given_finished": 0.5740640222686152,
+  "any_solve8": 0.72,
+  "mean_len": 10445.559166666666,
+  "n_items": 300
+ }
+}

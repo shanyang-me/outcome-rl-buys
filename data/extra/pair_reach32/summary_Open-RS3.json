@@ -1,0 +1,15 @@
+{
+ "model": "knoveleng/Open-RS3",
+ "path": "/root/hf/hub/models--knoveleng--Open-RS3/snapshots/b9ea78ba17ad87b7f180de59a676fd6b7dd56484",
+ "cap": 4096,
+ "n_problems": 1,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 0,
+ "finished": 1.0,
+ "seconds": {
+  "load": 97,
+  "generate": 10
+ },
+ "host": "b06266d5b593"
+}

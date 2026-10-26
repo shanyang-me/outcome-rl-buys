@@ -1,0 +1,130 @@
+{
+ "Qwen3-1.7B cap4096 hard": {
+  "mean": 0.03304140127388535,
+  "finished": 0.07696390658174097,
+  "score_given_finished": 0.42931034482758623,
+  "any_solve8": 0.059447983014861996,
+  "mean_len": 3994.953025477707,
+  "n_items": 471
+ },
+ "Qwen3-1.7B cap4096 refill": {
+  "mean": 0.043958333333333335,
+  "finished": 0.083125,
+  "score_given_finished": 0.5288220551378446,
+  "any_solve8": 0.08,
+  "mean_len": 4000.50875,
+  "n_items": 200
+ },
+ "Qwen3-1.7B cap8192 hard": {
+  "mean": 0.09019373673036093,
+  "finished": 0.261411889596603,
+  "score_given_finished": 0.3450253807106599,
+  "any_solve8": 0.16985138004246284,
+  "mean_len": 7424.254246284501,
+  "n_items": 471
+ },
+ "Qwen3-1.7B cap8192 refill": {
+  "mean": 0.11208333333333333,
+  "finished": 0.35125,
+  "score_given_finished": 0.3190984578884935,
+  "any_solve8": 0.195,
+  "mean_len": 7225.56625,
+  "n_items": 200
+ },
+ "Qwen3-1.7B cap16384 hard": {
+  "mean": 0.15245235567687798,
+  "finished": 0.7444267515923567,
+  "score_given_finished": 0.20479161361514303,
+  "any_solve8": 0.23779193205944799,
+  "mean_len": 11443.401008492569,
+  "n_items": 471
+ },
+ "Qwen3-1.7B cap16384 refill": {
+  "mean": 0.18659722222222222,
+  "finished": 0.80875,
+  "score_given_finished": 0.23072299501974927,
+  "any_solve8": 0.3,
+  "mean_len": 10503.80375,
+  "n_items": 200
+ },
+ "Qwen3-1.7B cap24576 hard": {
+  "mean": 0.16322287938529978,
+  "finished": 0.9233014861995754,
+  "score_given_finished": 0.17678177911003434,
+  "any_solve8": 0.24628450106157113,
+  "mean_len": 12509.807059447983,
+  "n_items": 471
+ },
+ "Qwen3-1.7B cap24576 refill": {
+  "mean": 0.20708333333333334,
+  "finished": 0.9825,
+  "score_given_finished": 0.2107718405428329,
+  "any_solve8": 0.3,
+  "mean_len": 11153.879375,
+  "n_items": 200
+ },
+ "Qwen3-1.7B cap28672 hard": {
+  "mean": 0.16331134364573854,
+  "finished": 0.9294055201698513,
+  "score_given_finished": 0.17571591743493514,
+  "any_solve8": 0.24628450106157113,
+  "mean_len": 12808.193736730362,
+  "n_items": 471
+ },
+ "Qwen3-1.7B cap28672 refill": {
+  "mean": 0.20708333333333334,
+  "finished": 0.98875,
+  "score_given_finished": 0.20943952802359883,
+  "any_solve8": 0.3,
+  "mean_len": 11205.526875,
+  "n_items": 200
+ },
+ "Qwen3-1.7B cap32768 hard": {
+  "mean": 0.16331134364573854,
+  "finished": 0.9304670912951167,
+  "score_given_finished": 0.1755154429141879,
+  "any_solve8": 0.24628450106157113,
+  "mean_len": 13094.97001061571,
+  "n_items": 471
+ },
+ "Qwen3-1.7B cap32768 refill": {
+  "mean": 0.20708333333333334,
+  "finished": 0.98875,
+  "score_given_finished": 0.20943952802359883,
+  "any_solve8": 0.3,
+  "mean_len": 11251.606875,
+  "n_items": 200
+ },
+ "Qwen3-1.7B cap36864 hard": {
+  "mean": 0.16331134364573854,
+  "finished": 0.9304670912951167,
+  "score_given_finished": 0.1755154429141879,
+  "any_solve8": 0.24628450106157113,
+  "mean_len": 13379.776804670913,
+  "n_items": 471
+ },
+ "Qwen3-1.7B cap36864 refill": {
+  "mean": 0.20708333333333334,
+  "finished": 0.98875,
+  "score_given_finished": 0.20943952802359883,
+  "any_solve8": 0.3,
+  "mean_len": 11297.686875,
+  "n_items": 200
+ },
+ "Qwen3-1.7B cap49152 hard": {
+  "mean": 0.16331134364573854,
+  "finished": 0.9304670912951167,
+  "score_given_finished": 0.1755154429141879,
+  "any_solve8": 0.24628450106157113,
+  "mean_len": 14234.197186836518,
+  "n_items": 471
+ },
+ "Qwen3-1.7B cap49152 refill": {
+  "mean": 0.20708333333333334,
+  "finished": 0.98875,
+  "score_given_finished": 0.20943952802359883,
+  "any_solve8": 0.3,
+  "mean_len": 11435.926875,
+  "n_items": 200
+ }
+}

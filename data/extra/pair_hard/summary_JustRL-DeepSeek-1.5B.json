@@ -1,0 +1,50 @@
+{
+ "JustRL-DeepSeek-1.5B cap4096 hard": {
+  "mean": 0.04492215145081387,
+  "finished": 0.12632696390658174,
+  "score_given_finished": 0.35560224089635856,
+  "any_solve8": 0.08492569002123142,
+  "mean_len": 3957.144373673036,
+  "n_items": 471
+ },
+ "JustRL-DeepSeek-1.5B cap4096 refill": {
+  "mean": 0.05979166666666667,
+  "finished": 0.16125,
+  "score_given_finished": 0.3708010335917313,
+  "any_solve8": 0.105,
+  "mean_len": 3903.095625,
+  "n_items": 200
+ },
+ "JustRL-DeepSeek-1.5B cap8192 hard": {
+  "mean": 0.11078379334748761,
+  "finished": 0.5570594479830149,
+  "score_given_finished": 0.19887247895823407,
+  "any_solve8": 0.1932059447983015,
+  "mean_len": 6662.0692675159235,
+  "n_items": 471
+ },
+ "JustRL-DeepSeek-1.5B cap8192 refill": {
+  "mean": 0.13260416666666666,
+  "finished": 0.588125,
+  "score_given_finished": 0.22546935883811547,
+  "any_solve8": 0.235,
+  "mean_len": 6473.24625,
+  "n_items": 200
+ },
+ "JustRL-DeepSeek-1.5B cap16384 hard": {
+  "mean": 0.13780583358608836,
+  "finished": 0.9469214437367304,
+  "score_given_finished": 0.14553037582746103,
+  "any_solve8": 0.2208067940552017,
+  "mean_len": 8137.224787685775,
+  "n_items": 471
+ },
+ "JustRL-DeepSeek-1.5B cap16384 refill": {
+  "mean": 0.17399305555555555,
+  "finished": 0.9675,
+  "score_given_finished": 0.17983778351995405,
+  "any_solve8": 0.285,
+  "mean_len": 7781.68875,
+  "n_items": 200
+ }
+}

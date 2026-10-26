@@ -1,0 +1,15 @@
+{
+ "model": "agentica-org/DeepScaleR-1.5B-Preview",
+ "path": "/root/hf/hub/models--agentica-org--DeepScaleR-1.5B-Preview/snapshots/e3f524ce413a296b4d388e7560dd5c82c1c56725",
+ "cap": 24576,
+ "n_problems": 17,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 11,
+ "finished": 0.9975490196078431,
+ "seconds": {
+  "load": 78,
+  "generate": 327
+ },
+ "host": "f030079c0c71"
+}

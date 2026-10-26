@@ -1,0 +1,35 @@
+\begin{table*}[!tp]
+\centering\scriptsize\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{0.84}
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.9cm}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{2.1cm}>{\raggedright\arraybackslash}p{3.8cm}>{\raggedright\arraybackslash}p{2.0cm}>{\raggedright\arraybackslash}p{2.6cm}}
+\toprule
+claim & instrument & where & number & grade & to do \\
+\midrule
+\multicolumn{6}{l}{\textit{Finishing}} \\
+Where the budget binds, finishing is the larger part of the change & finishing decomposition on $18$ released pairs & Fig.~\ref{fig:overview}, Table~\ref{tab:pairsmain} & $17$ of $17$ changing recipes at $4$k and $8$k; pooled $85\%$ [$79$, $88$]; $16$ of $17$ on physics; the sign follows the training cap & $18$ recipes, ten registered; all $20$, with the $14$B and $32$B pairs, read at their cap (Fig.~\ref{fig:recipes}) & --- \\
+At $16$k about half & same & Fig.~\ref{fig:overview}, Fig.~\ref{fig:pairs} & $66\%$ [$56$, $74$] pooled, $62\%$ on physics & same; $53\%$ at the cap, $38\%$ beyond it ($20$ recipes, Fig.~\ref{fig:overview}); signed share vs base headroom $\rho{=}0.83$; Polaris finishes less than its base even at its cap & --- \\
+The control's held-out gain is finishing & matched decomposition; forced termination & Tables~\ref{tab:trajectory}, \ref{tab:protocols} & finished $0.39\to0.69$; matched accuracy within about $\pm0.03$; forced read keeps $+2.1$ [$0.0$, $+4.3$] of $+2.6$ & one run, two control seeds & --- \\
+Finishing is half the credit's signal early & within-group variance split & \S\ref{sec:mechanism}, Table~\ref{tab:visitgain} & $48\%$ in steps $1$--$10$, $21\%$ in the last ten & one run & --- \\
+\midrule
+\multicolumn{6}{l}{\textit{Reliability}} \\
+rel@$B$ rises on problems both finish & matched conditional, random effects & Table~\ref{tab:pairsmain} & physics $+0.028$ [$+0.013$, $+0.043$]; MATH-500 $+0.004$ & $18$ recipes & --- \\
+Rich get richer, the $p(1-p)$ prediction & change by base success, net of the reverse direction & Tables~\ref{tab:hump}, \ref{tab:visitgain} & released pairs $-0.01$, $+0.01$, $+0.09$, $+0.11$, $+0.08$, $+0.01$ by base-success bin; control next visit $+0.05$ to $+0.18$ & both datasets, regression controls & --- \\
+\midrule
+\multicolumn{6}{l}{\textit{Rarely reach}} \\
+Wins sit where the base already samples a solution & reach split with a symmetric control & Table~\ref{tab:reach} & base solves $85\%$ (physics), $98\%$ (MATH-500) of RL's wins; within budget, wins alone: $128$ RL-only vs $153$ base-only cells; robust reach $\leq9$ per recipe, mostly answer form; Skywork-OR1-32B $9$ vs $1$, of which $6$ answer form and $3$ physics & $64$ base samples solve $87$ of $121$ RL-only cells; of $57$ regenerated cells $37$ do not reproduce, $15$ are answer form, $5$ physics & --- \\
+No channel installs the setup at up to the control's dose & five channels, held-out reads against two seeds & Tables~\ref{tab:channels}, \ref{tab:power} & hint $+0.019$ [$-0.001$, $+0.039$]; teacher $-0.041$ [$-0.068$, $-0.018$]; detection limit near $0.03$; released QuestA and KnowRL: reliability, net reach $12$ and $2$ problems on physics & one seed per arm; two visits or fewer; two released recipes agree & --- \\
+Credit installs a sampled success on that problem only & dense revisits with and without success replay, matched duration & Table~\ref{tab:replay} & fresh successes $7.0\to15.4$ per $64$ by visit $11$ without replay, $7.3\to17.7$ with; endpoint solve rate $0.10\to0.28$ and $0.31$; held-out $0.329$ and $0.325$ against $0.324$ & two arms, one seed & --- \\
+\midrule
+\multicolumn{6}{l}{\textit{What moves reach}} \\
+The missing knowledge is latent and elicitable from outside & answer-free questions on the dead set & Table~\ref{tab:latent} & a question from outside $24\%$, the gold setup $38\%$; own questions at the checklist's level & single eight-sample runs & --- \\
+A stronger selector moves held-out more than training & ask, sample, select ladder & Tables~\ref{tab:pipeline}, \ref{tab:ladder} & $0.16\to0.26$ by training; $0.35$ majority; $0.37$ selector over base samples, $0.46$ over the policy's; self-judge $0.30$ & one endpoint, $87$ problems & --- \\
+\midrule
+\multicolumn{6}{l}{\textit{Scope}} \\
+Which recipes push the boundary, and why & Figure~\ref{fig:recipes} order against the finishing term, training cap and dose & Fig.~\ref{fig:recipes}, \S\ref{sec:reach}, Table~\ref{tab:recipes} & net share vs finishing change $r{=}0.89$, vs final cap $-0.67$; residue $2$--$13$ per recipe, recurring beyond chance on the 7B and OMN bases; $4$ traced: $3$ matcher-form, $1$ recalled convention & eight samples a side; all robust cells read; dose weak, Spearman $0.47$ over $13$ recipes ($p=0.11$) & --- \\
+The claims are about thinking bases & five released thinking bases, one thinking control & \S\ref{sec:setup}, \S\ref{sec:discussion} & $18$ pairs, $0$ instruct bases & untested beyond thinking bases & --- (stated as scope: an instruct model finishes within these budgets, so fin@$B\approx1$ and its gain is reliability) \\
+The claims are about bases of $8$B or less & largest released base $7$B, control $8$B; one $14$B and one $32$B pair read at $4$k--$16$k and at their $32$k cap & \S\ref{sec:setup}, Fig.~\ref{fig:recipes} & $12$ recipes at $1.5$B, $3$ at $7$B; AceReason-14B: same split, $11$ vs $6$ wins alone at $16$k; Skywork-OR1-32B: $+0.005$ at $16$k, $10$ vs $7$; $+0.064$ at its cap, all reliability & one pair at each size & --- \\
+Absolute scores are conservative; the comparisons hold under a lenient grader & judge re-reading $200$ matcher-rejected physics answers per model & \S\ref{sec:discussion}, App.~\ref{sec:power} & right share $0.07$--$0.15$ ($1.5$B, $1.7$B) to $0.40$--$0.47$ ($4$B, $32$B); rel@$B$ $+0.04$ to $+0.18$; finishing share moves $\leq0.09$ & $14$ model--budget sets; judge lenient (about $3$ in $4$ ``right'' verdicts clear) & --- \\
+\bottomrule
+\end{tabular}
+\caption{Evidence map: each claim of the title, the instrument that tests it, where the number lives, and the grade of the evidence behind it. The to-do column is a working tracker of what would raise each grade and comes out before submission.}
+\label{tab:evidence}
+\end{table*}

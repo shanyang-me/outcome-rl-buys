@@ -1,0 +1,82 @@
+{
+ "DeepSeek-R1-Distill-Qwen-7B cap4096 phys": {
+  "mean": 0.19171527777777778,
+  "finished": 0.29625,
+  "score_given_finished": 0.6471401781528364,
+  "any_solve8": 0.36666666666666664,
+  "mean_len": 3652.8529166666667,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap8192 phys": {
+  "mean": 0.37265625,
+  "finished": 0.6491666666666667,
+  "score_given_finished": 0.5740532734274711,
+  "any_solve8": 0.6266666666666667,
+  "mean_len": 5739.23875,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap16384 phys": {
+  "mean": 0.4690416666666667,
+  "finished": 0.90625,
+  "score_given_finished": 0.5175632183908045,
+  "any_solve8": 0.7066666666666667,
+  "mean_len": 7332.0216666666665,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap24576 phys": {
+  "mean": 0.48577777777777775,
+  "finished": 0.9716666666666667,
+  "score_given_finished": 0.49994282447112637,
+  "any_solve8": 0.7133333333333334,
+  "mean_len": 7742.4141666666665,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap28672 phys": {
+  "mean": 0.4870277777777778,
+  "finished": 0.9808333333333333,
+  "score_given_finished": 0.4965448881336732,
+  "any_solve8": 0.7133333333333334,
+  "mean_len": 7839.389166666667,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap32768 phys": {
+  "mean": 0.48744444444444446,
+  "finished": 0.9866666666666667,
+  "score_given_finished": 0.4940315315315315,
+  "any_solve8": 0.7133333333333334,
+  "mean_len": 7903.1725,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap36864 phys": {
+  "mean": 0.48827777777777776,
+  "finished": 0.99,
+  "score_given_finished": 0.49320987654320986,
+  "any_solve8": 0.7133333333333334,
+  "mean_len": 7953.700833333333,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap49152 phys": {
+  "mean": 0.4893194444444444,
+  "finished": 0.9970833333333333,
+  "score_given_finished": 0.49075080094720713,
+  "any_solve8": 0.7133333333333334,
+  "mean_len": 8016.984583333333,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap53248 phys": {
+  "mean": 0.4893194444444444,
+  "finished": 0.9970833333333333,
+  "score_given_finished": 0.49075080094720713,
+  "any_solve8": 0.7133333333333334,
+  "mean_len": 8028.93125,
+  "n_items": 300
+ },
+ "DeepSeek-R1-Distill-Qwen-7B cap65536 phys": {
+  "mean": 0.4893194444444444,
+  "finished": 0.9970833333333333,
+  "score_given_finished": 0.49075080094720713,
+  "any_solve8": 0.7133333333333334,
+  "mean_len": 8064.77125,
+  "n_items": 300
+ }
+}

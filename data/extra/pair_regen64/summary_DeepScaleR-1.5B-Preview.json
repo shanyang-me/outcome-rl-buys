@@ -1,0 +1,82 @@
+{
+ "DeepScaleR-1.5B-Preview cap4096 phys": {
+  "mean": 0.15640625,
+  "finished": 0.28041666666666665,
+  "score_given_finished": 0.5577637444279346,
+  "any_solve8": 0.2833333333333333,
+  "mean_len": 3726.8929166666667,
+  "n_items": 300
+ },
+ "DeepScaleR-1.5B-Preview cap8192 phys": {
+  "mean": 0.2934201388888889,
+  "finished": 0.72875,
+  "score_given_finished": 0.40263483895559365,
+  "any_solve8": 0.49333333333333335,
+  "mean_len": 5703.229166666667,
+  "n_items": 300
+ },
+ "DeepScaleR-1.5B-Preview cap16384 phys": {
+  "mean": 0.34051041666666665,
+  "finished": 0.975,
+  "score_given_finished": 0.349241452991453,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 6486.623333333333,
+  "n_items": 300
+ },
+ "DeepScaleR-1.5B-Preview cap24576 phys": {
+  "mean": 0.3409270833333333,
+  "finished": 0.9816666666666667,
+  "score_given_finished": 0.347294142614601,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 6651.989583333333,
+  "n_items": 300
+ },
+ "DeepScaleR-1.5B-Preview cap28672 phys": {
+  "mean": 0.3409270833333333,
+  "finished": 0.9845833333333334,
+  "score_given_finished": 0.34626534066864156,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 6724.161666666667,
+  "n_items": 300
+ },
+ "DeepScaleR-1.5B-Preview cap32768 phys": {
+  "mean": 0.3411354166666667,
+  "finished": 0.9895833333333334,
+  "score_given_finished": 0.34472631578947366,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 6776.862916666667,
+  "n_items": 300
+ },
+ "DeepScaleR-1.5B-Preview cap36864 phys": {
+  "mean": 0.3411354166666667,
+  "finished": 0.9916666666666667,
+  "score_given_finished": 0.3440021008403361,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 6815.28,
+  "n_items": 300
+ },
+ "DeepScaleR-1.5B-Preview cap49152 phys": {
+  "mean": 0.34127430555555555,
+  "finished": 0.9941666666666666,
+  "score_given_finished": 0.34327675328303997,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 6898.69875,
+  "n_items": 300
+ },
+ "DeepScaleR-1.5B-Preview cap53248 phys": {
+  "mean": 0.34127430555555555,
+  "finished": 0.9941666666666666,
+  "score_given_finished": 0.34327675328303997,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 6922.592083333333,
+  "n_items": 300
+ },
+ "DeepScaleR-1.5B-Preview cap65536 phys": {
+  "mean": 0.34127430555555555,
+  "finished": 0.9941666666666666,
+  "score_given_finished": 0.34327675328303997,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 6994.272083333333,
+  "n_items": 300
+ }
+}

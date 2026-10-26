@@ -1,0 +1,72 @@
+{
+ "JustRL-Nemotron-1.5B": [
+  0.7,
+  1.0,
+  65536
+ ],
+ "OpenMath-Nemotron-1.5B": [
+  0.7,
+  1.0,
+  65536
+ ],
+ "QuestA-Nemotron-1.5B": [
+  0.7,
+  1.0,
+  65536
+ ],
+ "KnowRL-Nemotron-1.5B": [
+  0.7,
+  1.0,
+  65536
+ ],
+ "DeepMath-Omn-1.5B": [
+  0.7,
+  1.0,
+  65536
+ ],
+ "Polaris-1.7B-Preview": [
+  1.4,
+  1.0,
+  65536
+ ],
+ "Qwen3-1.7B": [
+  1.4,
+  1.0,
+  65536
+ ],
+ "Polaris-4B-Preview": [
+  1.4,
+  1.0,
+  65536
+ ],
+ "Qwen3-4B": [
+  1.4,
+  1.0,
+  65536
+ ],
+ "Skywork-OR1-7B": [
+  1.0,
+  1.0,
+  65536
+ ],
+ "DeepSeek-R1-Distill-Qwen-7B": [
+  1.0,
+  1.0,
+  65536
+ ],
+ "Skywork-OR1-32B": [
+  1.0,
+  1.0,
+  49152
+ ],
+ "DeepSeek-R1-Distill-Qwen-32B": [
+  1.0,
+  1.0,
+  49152
+ ],
+ "Skywork-OR1-Math-7B": [
+  1.0,
+  1.0,
+  65536
+ ]
+}

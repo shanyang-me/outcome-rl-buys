@@ -1,0 +1,50 @@
+{
+ "Open-RS3 cap4096 hard": {
+  "mean": 0.04116684359518755,
+  "finished": 0.10748407643312102,
+  "score_given_finished": 0.3830041152263374,
+  "any_solve8": 0.10828025477707007,
+  "mean_len": 3944.5530785562632,
+  "n_items": 471
+ },
+ "Open-RS3 cap4096 refill": {
+  "mean": 0.06208333333333333,
+  "finished": 0.145625,
+  "score_given_finished": 0.4263233190271817,
+  "any_solve8": 0.145,
+  "mean_len": 3879.57375,
+  "n_items": 200
+ },
+ "Open-RS3 cap8192 hard": {
+  "mean": 0.07180201698513801,
+  "finished": 0.2916666666666667,
+  "score_given_finished": 0.2461783439490446,
+  "any_solve8": 0.16772823779193205,
+  "mean_len": 7238.908704883227,
+  "n_items": 471
+ },
+ "Open-RS3 cap8192 refill": {
+  "mean": 0.10979166666666666,
+  "finished": 0.395625,
+  "score_given_finished": 0.2775144813059505,
+  "any_solve8": 0.235,
+  "mean_len": 6884.87625,
+  "n_items": 200
+ },
+ "Open-RS3 cap16384 hard": {
+  "mean": 0.096469644120918,
+  "finished": 0.7425690021231423,
+  "score_given_finished": 0.12991337349807686,
+  "any_solve8": 0.2059447983014862,
+  "mean_len": 11171.067409766454,
+  "n_items": 471
+ },
+ "Open-RS3 cap16384 refill": {
+  "mean": 0.13885416666666667,
+  "finished": 0.78125,
+  "score_given_finished": 0.17773333333333333,
+  "any_solve8": 0.265,
+  "mean_len": 10031.285625,
+  "n_items": 200
+ }
+}

@@ -1,0 +1,733 @@
+{
+ "targets": {
+  "Nemotron-Research-Reasoning-Qwen-1.5B": {
+   "mid": "nvidia/Nemotron-Research-Reasoning-Qwen-1.5B",
+   "cap": 16384,
+   "ids": [
+    "cmimc_2025|11",
+    "cmimc_2025|23"
+   ],
+   "n": 2
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B": {
+   "mid": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+   "cap": 28672,
+   "ids": [
+    "aime_2025|12",
+    "aime_2025|24",
+    "aime_2025|25",
+    "aime_2025|5",
+    "aime_2026|2",
+    "aime_2026|26",
+    "aime_2026|7",
+    "aime_2026|9",
+    "brumo_2025|13",
+    "brumo_2025|17",
+    "brumo_2025|21",
+    "brumo_2025|22",
+    "cmimc_2025|1",
+    "cmimc_2025|11",
+    "cmimc_2025|23",
+    "cmimc_2025|34",
+    "cmimc_2025|37",
+    "hmmt_feb_2025|15",
+    "hmmt_feb_2025|24",
+    "hmmt_feb_2025|27",
+    "hmmt_feb_2026|12",
+    "hmmt_feb_2026|25",
+    "hmmt_feb_2026|30",
+    "hmmt_feb_2026|31",
+    "hmmt_nov_2025|11",
+    "hmmt_nov_2025|13",
+    "hmmt_nov_2025|9",
+    "smt_2025|1",
+    "smt_2025|28",
+    "smt_2025|49",
+    "smt_2025|50",
+    "smt_2025|6"
+   ],
+   "n": 32
+  },
+  "JustRL-DeepSeek-1.5B": {
+   "mid": "hbx/JustRL-DeepSeek-1.5B",
+   "cap": 16384,
+   "ids": [
+    "aime_2025|25",
+    "aime_2025|5",
+    "aime_2026|9",
+    "cmimc_2025|1",
+    "cmimc_2025|23",
+    "cmimc_2025|37",
+    "hmmt_feb_2025|15",
+    "hmmt_feb_2026|25",
+    "smt_2025|1",
+    "smt_2025|50"
+   ],
+   "n": 10
+  },
+  "DeepScaleR-1.5B-Preview": {
+   "mid": "agentica-org/DeepScaleR-1.5B-Preview",
+   "cap": 24576,
+   "ids": [
+    "aime_2025|24",
+    "aime_2025|5",
+    "aime_2026|9",
+    "brumo_2025|13",
+    "brumo_2025|21",
+    "brumo_2025|22",
+    "cmimc_2025|37",
+    "hmmt_feb_2025|15",
+    "hmmt_feb_2025|27",
+    "hmmt_feb_2026|12",
+    "hmmt_feb_2026|30",
+    "hmmt_feb_2026|31",
+    "hmmt_nov_2025|11",
+    "hmmt_nov_2025|13",
+    "smt_2025|1",
+    "smt_2025|28",
+    "smt_2025|6"
+   ],
+   "n": 17
+  },
+  "DeepMath-1.5B": {
+   "mid": "zwhe99/DeepMath-1.5B",
+   "cap": 24576,
+   "ids": [
+    "aime_2025|5",
+    "aime_2026|2",
+    "aime_2026|26",
+    "aime_2026|9",
+    "brumo_2025|21",
+    "brumo_2025|22",
+    "cmimc_2025|1",
+    "cmimc_2025|37",
+    "hmmt_feb_2025|15",
+    "hmmt_feb_2026|12",
+    "hmmt_feb_2026|25",
+    "hmmt_feb_2026|31",
+    "hmmt_nov_2025|11",
+    "smt_2025|6"
+   ],
+   "n": 14
+  },
+  "RLinf-math-1.5B": {
+   "mid": "RLinf/RLinf-math-1.5B",
+   "cap": 28672,
+   "ids": [
+    "aime_2025|5",
+    "aime_2026|2",
+    "aime_2026|7",
+    "aime_2026|9",
+    "brumo_2025|21",
+    "brumo_2025|22",
+    "cmimc_2025|34",
+    "cmimc_2025|37",
+    "hmmt_feb_2026|12",
+    "hmmt_feb_2026|30",
+    "hmmt_feb_2026|31",
+    "hmmt_nov_2025|11",
+    "hmmt_nov_2025|9",
+    "smt_2025|49",
+    "smt_2025|6"
+   ],
+   "n": 15
+  },
+  "STILL-3-1.5B-preview": {
+   "mid": "RUC-AIBOX/STILL-3-1.5B-preview",
+   "cap": 28672,
+   "ids": [
+    "aime_2025|12",
+    "aime_2025|5",
+    "aime_2026|2",
+    "aime_2026|9",
+    "brumo_2025|13",
+    "brumo_2025|22",
+    "hmmt_feb_2025|15",
+    "hmmt_feb_2025|24",
+    "hmmt_feb_2025|27",
+    "hmmt_nov_2025|11",
+    "smt_2025|49",
+    "smt_2025|6"
+   ],
+   "n": 12
+  },
+  "AReaL-1.5B-Preview-Stage-3": {
+   "mid": "inclusionAI/AReaL-1.5B-Preview-Stage-3",
+   "cap": 24576,
+   "ids": [
+    "aime_2025|24",
+    "aime_2025|5",
+    "aime_2026|2",
+    "brumo_2025|13",
+    "brumo_2025|17",
+    "brumo_2025|22",
+    "cmimc_2025|1",
+    "hmmt_feb_2026|31",
+    "smt_2025|1",
+    "smt_2025|6"
+   ],
+   "n": 10
+  },
+  "JustRL-Nemotron-1.5B": {
+   "mid": "hbx/JustRL-Nemotron-1.5B",
+   "cap": 16384,
+   "ids": [
+    "hmmt_nov_2025|15",
+    "smt_2025|45"
+   ],
+   "n": 2
+  },
+  "OpenMath-Nemotron-1.5B": {
+   "mid": "nvidia/OpenMath-Nemotron-1.5B",
+   "cap": 24576,
+   "ids": [
+    "aime_2025|18",
+    "aime_2025|23",
+    "aime_2025|7",
+    "aime_2026|11",
+    "aime_2026|18",
+    "cmimc_2025|20",
+    "cmimc_2025|28",
+    "cmimc_2025|32",
+    "cmimc_2025|35",
+    "cmimc_2025|6",
+    "hmmt_feb_2025|15",
+    "hmmt_feb_2025|24",
+    "hmmt_feb_2026|10",
+    "hmmt_feb_2026|27",
+    "hmmt_feb_2026|30",
+    "hmmt_nov_2025|13",
+    "hmmt_nov_2025|15",
+    "hmmt_nov_2025|16",
+    "smt_2025|1",
+    "smt_2025|18",
+    "smt_2025|45",
+    "smt_2025|50",
+    "smt_2025|51",
+    "smt_2025|53"
+   ],
+   "n": 24
+  },
+  "QuestA-Nemotron-1.5B": {
+   "mid": "foreverlasting1202/QuestA-Nemotron-1.5B",
+   "cap": 24576,
+   "ids": [
+    "aime_2025|7",
+    "aime_2026|11",
+    "aime_2026|18",
+    "cmimc_2025|35",
+    "hmmt_feb_2025|24",
+    "hmmt_feb_2026|10",
+    "hmmt_feb_2026|27",
+    "smt_2025|18",
+    "smt_2025|45"
+   ],
+   "n": 9
+  },
+  "KnowRL-Nemotron-1.5B": {
+   "mid": "HasuerYu/KnowRL-Nemotron-1.5B",
+   "cap": 24576,
+   "ids": [
+    "aime_2025|18",
+    "aime_2025|7",
+    "aime_2026|11",
+    "aime_2026|18",
+    "cmimc_2025|28",
+    "cmimc_2025|32",
+    "cmimc_2025|35",
+    "hmmt_feb_2025|15",
+    "hmmt_feb_2026|27",
+    "hmmt_nov_2025|13",
+    "hmmt_nov_2025|15",
+    "smt_2025|18",
+    "smt_2025|45",
+    "smt_2025|50"
+   ],
+   "n": 14
+  },
+  "DeepMath-Omn-1.5B": {
+   "mid": "zwhe99/DeepMath-Omn-1.5B",
+   "cap": 24576,
+   "ids": [
+    "aime_2025|23",
+    "aime_2026|11",
+    "aime_2026|18",
+    "cmimc_2025|20",
+    "cmimc_2025|6",
+    "hmmt_feb_2026|30",
+    "hmmt_nov_2025|16",
+    "smt_2025|1",
+    "smt_2025|51",
+    "smt_2025|53"
+   ],
+   "n": 10
+  },
+  "Skywork-OR1-7B": {
+   "mid": "Skywork/Skywork-OR1-7B",
+   "cap": 32768,
+   "ids": [
+    "aime_2025|18",
+    "aime_2025|20",
+    "aime_2025|23",
+    "aime_2025|26",
+    "brumo_2025|15",
+    "cmimc_2025|20",
+    "cmimc_2025|35",
+    "hmmt_nov_2025|16",
+    "smt_2025|51"
+   ],
+   "n": 9
+  },
+  "DeepSeek-R1-Distill-Qwen-7B": {
+   "mid": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+   "cap": 32768,
+   "ids": [
+    "aime_2025|18",
+    "aime_2025|20",
+    "aime_2025|23",
+    "aime_2025|26",
+    "aime_2026|17",
+    "aime_2026|9",
+    "brumo_2025|13",
+    "brumo_2025|15",
+    "cmimc_2025|19",
+    "cmimc_2025|20",
+    "cmimc_2025|21",
+    "cmimc_2025|35",
+    "hmmt_feb_2025|13",
+    "hmmt_feb_2025|15",
+    "hmmt_feb_2025|25",
+    "hmmt_feb_2025|6",
+    "hmmt_feb_2026|13",
+    "hmmt_feb_2026|19",
+    "hmmt_feb_2026|27",
+    "hmmt_feb_2026|31",
+    "hmmt_nov_2025|15",
+    "hmmt_nov_2025|16",
+    "smt_2025|17",
+    "smt_2025|24",
+    "smt_2025|51"
+   ],
+   "n": 25
+  },
+  "Skywork-OR1-32B": {
+   "mid": "Skywork/Skywork-OR1-32B",
+   "cap": 24576,
+   "ids": [
+    "aime_2026|9",
+    "brumo_2025|15",
+    "brumo_2025|28",
+    "cmimc_2025|27",
+    "cmimc_2025|28",
+    "cmimc_2025|35",
+    "hmmt_feb_2025|16",
+    "hmmt_feb_2025|18",
+    "smt_2025|37",
+    "smt_2025|38"
+   ],
+   "n": 10
+  },
+  "DeepSeek-R1-Distill-Qwen-32B": {
+   "mid": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+   "cap": 24576,
+   "ids": [
+    "aime_2026|9",
+    "brumo_2025|15",
+    "brumo_2025|28",
+    "cmimc_2025|27",
+    "cmimc_2025|28",
+    "cmimc_2025|35",
+    "hmmt_feb_2025|16",
+    "hmmt_feb_2025|18",
+    "smt_2025|37",
+    "smt_2025|38"
+   ],
+   "n": 10
+  },
+  "Skywork-OR1-Math-7B": {
+   "mid": "Skywork/Skywork-OR1-Math-7B",
+   "cap": 32768,
+   "ids": [
+    "aime_2025|18",
+    "aime_2025|20",
+    "aime_2026|17",
+    "aime_2026|9",
+    "hmmt_feb_2025|25",
+    "hmmt_feb_2026|13",
+    "hmmt_feb_2026|19",
+    "hmmt_feb_2026|27",
+    "hmmt_feb_2026|31",
+    "smt_2025|17",
+    "smt_2025|51"
+   ],
+   "n": 11
+  },
+  "AceReason-Nemotron-7B": {
+   "mid": "nvidia/AceReason-Nemotron-7B",
+   "cap": 32768,
+   "ids": [
+    "aime_2025|20",
+    "aime_2025|23",
+    "aime_2025|26",
+    "aime_2026|17",
+    "brumo_2025|13",
+    "cmimc_2025|19",
+    "cmimc_2025|21",
+    "cmimc_2025|35",
+    "hmmt_feb_2025|13",
+    "hmmt_feb_2025|15",
+    "hmmt_feb_2025|6",
+    "hmmt_feb_2026|13",
+    "hmmt_feb_2026|19",
+    "hmmt_feb_2026|27",
+    "hmmt_feb_2026|31",
+    "hmmt_nov_2025|15",
+    "smt_2025|17",
+    "smt_2025|24"
+   ],
+   "n": 18
+  },
+  "e3-1.7B": {
+   "mid": "CMU-AIRe/e3-1.7B",
+   "cap": 16384,
+   "ids": [
+    "hmmt_feb_2025|15"
+   ],
+   "n": 1
+  },
+  "Qwen3-1.7B": {
+   "mid": "Qwen/Qwen3-1.7B",
+   "cap": 49152,
+   "ids": [
+    "aime_2025|12",
+    "aime_2025|22",
+    "aime_2025|23",
+    "aime_2025|27",
+    "aime_2025|7",
+    "aime_2026|11",
+    "brumo_2025|24",
+    "cmimc_2025|28",
+    "cmimc_2025|29",
+    "cmimc_2025|39",
+    "cmimc_2025|6",
+    "hmmt_feb_2025|11",
+    "hmmt_feb_2025|12",
+    "hmmt_feb_2025|15",
+    "hmmt_feb_2025|29",
+    "hmmt_feb_2025|9",
+    "hmmt_nov_2025|21",
+    "smt_2025|37",
+    "smt_2025|51"
+   ],
+   "n": 19
+  },
+  "Polaris-1.7B-Preview": {
+   "mid": "POLARIS-Project/Polaris-1.7B-Preview",
+   "cap": 49152,
+   "ids": [
+    "aime_2025|12",
+    "aime_2025|22",
+    "aime_2025|23",
+    "aime_2025|27",
+    "aime_2025|7",
+    "aime_2026|11",
+    "brumo_2025|24",
+    "cmimc_2025|28",
+    "cmimc_2025|29",
+    "cmimc_2025|39",
+    "cmimc_2025|6",
+    "hmmt_feb_2025|11",
+    "hmmt_feb_2025|12",
+    "hmmt_feb_2025|15",
+    "hmmt_feb_2025|29",
+    "hmmt_feb_2025|9",
+    "hmmt_nov_2025|21",
+    "smt_2025|37",
+    "smt_2025|51"
+   ],
+   "n": 19
+  },
+  "AceReason-Nemotron-14B": {
+   "mid": "nvidia/AceReason-Nemotron-14B",
+   "cap": 32768,
+   "ids": [
+    "aime_2025|10",
+    "aime_2025|23",
+    "aime_2025|26",
+    "aime_2026|10",
+    "aime_2026|18",
+    "aime_2026|9",
+    "brumo_2025|27",
+    "cmimc_2025|14",
+    "cmimc_2025|27",
+    "cmimc_2025|37",
+    "cmimc_2025|40",
+    "hmmt_feb_2026|13",
+    "hmmt_feb_2026|19",
+    "hmmt_feb_2026|31",
+    "hmmt_feb_2026|6",
+    "hmmt_nov_2025|15",
+    "hmmt_nov_2025|19",
+    "hmmt_nov_2025|26",
+    "hmmt_nov_2025|30",
+    "hmmt_nov_2025|7",
+    "smt_2025|30"
+   ],
+   "n": 21
+  },
+  "DeepSeek-R1-Distill-Qwen-14B": {
+   "mid": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+   "cap": 32768,
+   "ids": [
+    "aime_2025|10",
+    "aime_2025|23",
+    "aime_2025|26",
+    "aime_2026|10",
+    "aime_2026|18",
+    "aime_2026|9",
+    "brumo_2025|27",
+    "cmimc_2025|14",
+    "cmimc_2025|27",
+    "cmimc_2025|37",
+    "cmimc_2025|40",
+    "hmmt_feb_2026|13",
+    "hmmt_feb_2026|19",
+    "hmmt_feb_2026|31",
+    "hmmt_feb_2026|6",
+    "hmmt_nov_2025|15",
+    "hmmt_nov_2025|19",
+    "hmmt_nov_2025|26",
+    "hmmt_nov_2025|30",
+    "hmmt_nov_2025|7",
+    "smt_2025|30"
+   ],
+   "n": 21
+  },
+  "Polaris-4B-Preview": {
+   "mid": "POLARIS-Project/Polaris-4B-Preview",
+   "cap": 53248,
+   "ids": [
+    "aime_2026|9",
+    "brumo_2025|15",
+    "brumo_2025|27",
+    "cmimc_2025|16",
+    "cmimc_2025|20",
+    "cmimc_2025|21",
+    "hmmt_feb_2025|10",
+    "hmmt_feb_2025|12",
+    "hmmt_feb_2025|25",
+    "hmmt_feb_2025|29",
+    "hmmt_nov_2025|27",
+    "smt_2025|10",
+    "smt_2025|19",
+    "smt_2025|30",
+    "smt_2025|34"
+   ],
+   "n": 15
+  },
+  "Qwen3-4B": {
+   "mid": "Qwen/Qwen3-4B",
+   "cap": 53248,
+   "ids": [
+    "aime_2026|9",
+    "brumo_2025|15",
+    "brumo_2025|27",
+    "cmimc_2025|16",
+    "cmimc_2025|20",
+    "cmimc_2025|21",
+    "hmmt_feb_2025|10",
+    "hmmt_feb_2025|12",
+    "hmmt_feb_2025|25",
+    "hmmt_feb_2025|29",
+    "hmmt_nov_2025|27",
+    "smt_2025|10",
+    "smt_2025|19",
+    "smt_2025|30",
+    "smt_2025|34"
+   ],
+   "n": 15
+  }
+ },
+ "pairs": {
+  "ProRL v2": {
+   "at_cap": 8192,
+   "n": 276,
+   "U": 0,
+   "rl_wins_on_U": 0,
+   "Up": 91,
+   "base_wins_on_Up": 2,
+   "judged": true
+  },
+  "JustRL-D": {
+   "at_cap": 16384,
+   "n": 276,
+   "U": 8,
+   "rl_wins_on_U": 4,
+   "Up": 87,
+   "base_wins_on_Up": 6,
+   "judged": true
+  },
+  "DeepScaleR": {
+   "at_cap": 24576,
+   "n": 276,
+   "U": 31,
+   "rl_wins_on_U": 7,
+   "Up": 117,
+   "base_wins_on_Up": 10,
+   "judged": true
+  },
+  "DeepMath": {
+   "at_cap": 24576,
+   "n": 276,
+   "U": 31,
+   "rl_wins_on_U": 8,
+   "Up": 117,
+   "base_wins_on_Up": 6,
+   "judged": true
+  },
+  "RLinf": {
+   "at_cap": 28672,
+   "n": 276,
+   "U": 44,
+   "rl_wins_on_U": 8,
+   "Up": 113,
+   "base_wins_on_Up": 7,
+   "judged": true
+  },
+  "STILL-3": {
+   "at_cap": 28672,
+   "n": 276,
+   "U": 44,
+   "rl_wins_on_U": 10,
+   "Up": 65,
+   "base_wins_on_Up": 2,
+   "judged": true
+  },
+  "AReaL": {
+   "at_cap": 24576,
+   "n": 276,
+   "U": 31,
+   "rl_wins_on_U": 6,
+   "Up": 44,
+   "base_wins_on_Up": 4,
+   "judged": true
+  },
+  "Open-RS3": {
+   "at_cap": 4096,
+   "n": 276,
+   "U": 0,
+   "rl_wins_on_U": 0,
+   "Up": 0,
+   "base_wins_on_Up": 0,
+   "judged": true
+  },
+  "JustRL-N": {
+   "at_cap": 16384,
+   "n": 276,
+   "U": 15,
+   "rl_wins_on_U": 2,
+   "Up": 12,
+   "base_wins_on_Up": 0,
+   "judged": true
+  },
+  "QuestA": {
+   "at_cap": 24576,
+   "n": 276,
+   "U": 56,
+   "rl_wins_on_U": 9,
+   "Up": 8,
+   "base_wins_on_Up": 0,
+   "judged": true
+  },
+  "KnowRL": {
+   "at_cap": 24576,
+   "n": 276,
+   "U": 56,
+   "rl_wins_on_U": 12,
+   "Up": 29,
+   "base_wins_on_Up": 2,
+   "judged": true
+  },
+  "DeepMath-Omn": {
+   "at_cap": 24576,
+   "n": 276,
+   "U": 56,
+   "rl_wins_on_U": 3,
+   "Up": 60,
+   "base_wins_on_Up": 7,
+   "judged": true
+  },
+  "Skywork-7B": {
+   "at_cap": 32768,
+   "n": 276,
+   "U": 54,
+   "rl_wins_on_U": 9,
+   "Up": 19,
+   "base_wins_on_Up": 0,
+   "judged": true
+  },
+  "Skywork-32B": {
+   "at_cap": 24576,
+   "n": 276,
+   "U": 25,
+   "rl_wins_on_U": 8,
+   "Up": 18,
+   "base_wins_on_Up": 2,
+   "judged": true
+  },
+  "Skywork-Math": {
+   "at_cap": 32768,
+   "n": 276,
+   "U": 54,
+   "rl_wins_on_U": 10,
+   "Up": 44,
+   "base_wins_on_Up": 1,
+   "judged": true
+  },
+  "AceReason": {
+   "at_cap": 32768,
+   "n": 276,
+   "U": 54,
+   "rl_wins_on_U": 12,
+   "Up": 79,
+   "base_wins_on_Up": 6,
+   "judged": true
+  },
+  "e3": {
+   "at_cap": 16384,
+   "n": 276,
+   "U": 5,
+   "rl_wins_on_U": 0,
+   "Up": 20,
+   "base_wins_on_Up": 1,
+   "judged": true
+  },
+  "Polaris-1.7B": {
+   "at_cap": 49152,
+   "n": 276,
+   "U": 99,
+   "rl_wins_on_U": 18,
+   "Up": 12,
+   "base_wins_on_Up": 1,
+   "judged": true
+  },
+  "AceReason-14B": {
+   "at_cap": 32768,
+   "n": 276,
+   "U": 49,
+   "rl_wins_on_U": 18,
+   "Up": 21,
+   "base_wins_on_Up": 3,
+   "judged": true
+  },
+  "Polaris-4B": {
+   "at_cap": 53248,
+   "n": 276,
+   "U": 64,
+   "rl_wins_on_U": 15,
+   "Up": 14,
+   "base_wins_on_Up": 0,
+   "judged": true
+  }
+ }
+}

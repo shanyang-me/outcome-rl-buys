@@ -1,0 +1,5 @@
+# Judged setup claims, $203$ per condition ($165$ for the third). The policy uses the setup with the hint in the prompt and does not learn it.
+"rollout (59 hint-revivable problems)","established","contradicted","absent"
+"unhinted, wrong, earliest visit","55.2%","33.5%","11.3%"
+"hinted, correct","91.6%","3.0%","5.4%"
+"unhinted, latest visit after the hinted one","58.8%","30.3%","10.9%"

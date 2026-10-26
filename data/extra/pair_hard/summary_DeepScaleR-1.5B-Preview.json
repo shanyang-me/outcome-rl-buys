@@ -1,0 +1,66 @@
+{
+ "DeepScaleR-1.5B-Preview cap4096 hard": {
+  "mean": 0.05249911535739561,
+  "finished": 0.15127388535031847,
+  "score_given_finished": 0.347046783625731,
+  "any_solve8": 0.1337579617834395,
+  "mean_len": 3903.2388535031846,
+  "n_items": 471
+ },
+ "DeepScaleR-1.5B-Preview cap4096 refill": {
+  "mean": 0.08739583333333334,
+  "finished": 0.228125,
+  "score_given_finished": 0.38310502283105025,
+  "any_solve8": 0.14,
+  "mean_len": 3818.48375,
+  "n_items": 200
+ },
+ "DeepScaleR-1.5B-Preview cap8192 hard": {
+  "mean": 0.10543423314123951,
+  "finished": 0.6085456475583864,
+  "score_given_finished": 0.17325607957967312,
+  "any_solve8": 0.19532908704883228,
+  "mean_len": 6476.031316348195,
+  "n_items": 471
+ },
+ "DeepScaleR-1.5B-Preview cap8192 refill": {
+  "mean": 0.14677083333333332,
+  "finished": 0.70875,
+  "score_given_finished": 0.2070840681951793,
+  "any_solve8": 0.265,
+  "mean_len": 5943.3325,
+  "n_items": 200
+ },
+ "DeepScaleR-1.5B-Preview cap16384 hard": {
+  "mean": 0.11762650389242746,
+  "finished": 0.9543524416135881,
+  "score_given_finished": 0.123252688172043,
+  "any_solve8": 0.20382165605095542,
+  "mean_len": 7676.26220806794,
+  "n_items": 471
+ },
+ "DeepScaleR-1.5B-Preview cap16384 refill": {
+  "mean": 0.168125,
+  "finished": 0.9675,
+  "score_given_finished": 0.17377260981912146,
+  "any_solve8": 0.28,
+  "mean_len": 6742.98,
+  "n_items": 200
+ },
+ "DeepScaleR-1.5B-Preview cap24576 hard": {
+  "mean": 0.11775920028308563,
+  "finished": 0.9657643312101911,
+  "score_given_finished": 0.12193368141430797,
+  "any_solve8": 0.20382165605095542,
+  "mean_len": 7983.944002123142,
+  "n_items": 471
+ },
+ "DeepScaleR-1.5B-Preview cap24576 refill": {
+  "mean": 0.168125,
+  "finished": 0.97375,
+  "score_given_finished": 0.17265725288831835,
+  "any_solve8": 0.28,
+  "mean_len": 6969.8475,
+  "n_items": 200
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "JustRL-DeepSeek-1.5B cap4096 phys": {
+  "mean": 0.12736111111111112,
+  "finished": 0.20166666666666666,
+  "score_given_finished": 0.6315426997245179,
+  "any_solve8": 0.21333333333333335,
+  "mean_len": 3872.9016666666666,
+  "n_items": 300
+ },
+ "JustRL-DeepSeek-1.5B cap8192 phys": {
+  "mean": 0.29385416666666664,
+  "finished": 0.6266666666666667,
+  "score_given_finished": 0.4689162234042553,
+  "any_solve8": 0.4666666666666667,
+  "mean_len": 6279.742916666667,
+  "n_items": 300
+ },
+ "JustRL-DeepSeek-1.5B cap16384 phys": {
+  "mean": 0.38036805555555553,
+  "finished": 0.9875,
+  "score_given_finished": 0.38518284106891704,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 7337.206666666667,
+  "n_items": 300
+ },
+ "JustRL-DeepSeek-1.5B cap24576 phys": {
+  "mean": 0.3810625,
+  "finished": 0.9995833333333334,
+  "score_given_finished": 0.38122134222592746,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 7358.519166666667,
+  "n_items": 300
+ },
+ "JustRL-DeepSeek-1.5B cap28672 phys": {
+  "mean": 0.3810625,
+  "finished": 0.9995833333333334,
+  "score_given_finished": 0.38122134222592746,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 7360.225833333333,
+  "n_items": 300
+ },
+ "JustRL-DeepSeek-1.5B cap32768 phys": {
+  "mean": 0.3810625,
+  "finished": 0.9995833333333334,
+  "score_given_finished": 0.38122134222592746,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 7361.9325,
+  "n_items": 300
+ },
+ "JustRL-DeepSeek-1.5B cap36864 phys": {
+  "mean": 0.3810625,
+  "finished": 0.9995833333333334,
+  "score_given_finished": 0.38122134222592746,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 7363.639166666667,
+  "n_items": 300
+ },
+ "JustRL-DeepSeek-1.5B cap49152 phys": {
+  "mean": 0.3810625,
+  "finished": 0.9995833333333334,
+  "score_given_finished": 0.38122134222592746,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 7368.759166666667,
+  "n_items": 300
+ },
+ "JustRL-DeepSeek-1.5B cap53248 phys": {
+  "mean": 0.3810625,
+  "finished": 0.9995833333333334,
+  "score_given_finished": 0.38122134222592746,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 7370.465833333334,
+  "n_items": 300
+ },
+ "JustRL-DeepSeek-1.5B cap65536 phys": {
+  "mean": 0.3810625,
+  "finished": 0.9995833333333334,
+  "score_given_finished": 0.38122134222592746,
+  "any_solve8": 0.5333333333333333,
+  "mean_len": 7375.5858333333335,
+  "n_items": 300
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "model": "foreverlasting1202/QuestA-Nemotron-1.5B",
+ "path": "/root/hf/hub/models--foreverlasting1202--QuestA-Nemotron-1.5B/snapshots/5c0f7ec8aec547b31af6e125ea57e30622612a15",
+ "revision": "5c0f7ec8aec547b31af6e125ea57e30622612a15",
+ "host": "be6e03e66e9d",
+ "gpu": "NVIDIA H100 80GB HBM3",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "yarn": null,
+ "hf_overrides": null,
+ "gen_cap": 65536,
+ "derived_caps": [
+  4096,
+  8192,
+  16384,
+  24576,
+  28672,
+  32768,
+  36864,
+  49152,
+  53248
+ ],
+ "n": 8,
+ "temperature": 0.7,
+ "top_p": 1.0,
+ "seed": 0,
+ "close_ids": [
+  522,
+  26865,
+  29
+ ],
+ "seconds": {
+  "load": 42,
+  "generate": 6682,
+  "score": 315
+ },
+ "trace_rows": 600
+}

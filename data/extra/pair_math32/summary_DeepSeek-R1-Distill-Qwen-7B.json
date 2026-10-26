@@ -1,0 +1,15 @@
+{
+ "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+ "path": "/workspace/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-R1-Distill-Qwen-7B/snapshots/916b56a44061fd5cd7d6a8fb632557ed4f724f60",
+ "cap": 32768,
+ "n_problems": 25,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 15,
+ "finished": 0.9533333333333334,
+ "seconds": {
+  "load": 76,
+  "generate": 2613
+ },
+ "host": "f030079c0c71"
+}

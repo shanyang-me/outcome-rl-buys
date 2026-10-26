@@ -1,0 +1,32 @@
+{
+ "model": "nvidia/OpenMath-Nemotron-1.5B",
+ "path": "/root/hf/hub/models--nvidia--OpenMath-Nemotron-1.5B/snapshots/59280da0e5508b98f4ae90e8886442f28ed561cb",
+ "revision": "59280da0e5508b98f4ae90e8886442f28ed561cb",
+ "host": "be6e03e66e9d",
+ "gpu": "NVIDIA H100 80GB HBM3",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "yarn": null,
+ "hf_overrides": null,
+ "gen_cap": 24576,
+ "derived_caps": [
+  4096,
+  8192,
+  16384
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  522,
+  26865,
+  29
+ ],
+ "seconds": {
+  "load": 37,
+  "generate": 7714,
+  "score": 522
+ },
+ "trace_rows": 0
+}

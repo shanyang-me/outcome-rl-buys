@@ -1,0 +1,82 @@
+{
+ "AceReason-Nemotron-7B cap4096 phys": {
+  "mean": 0.10413194444444444,
+  "finished": 0.14625,
+  "score_given_finished": 0.7120132953466287,
+  "any_solve8": 0.21333333333333335,
+  "mean_len": 3942.1695833333333,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-7B cap8192 phys": {
+  "mean": 0.3557430555555556,
+  "finished": 0.5733333333333334,
+  "score_given_finished": 0.6204820736434109,
+  "any_solve8": 0.5566666666666666,
+  "mean_len": 6591.434583333334,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-7B cap16384 phys": {
+  "mean": 0.5156631944444444,
+  "finished": 0.9633333333333334,
+  "score_given_finished": 0.5352905132641291,
+  "any_solve8": 0.6966666666666667,
+  "mean_len": 7965.136666666666,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-7B cap24576 phys": {
+  "mean": 0.5233993055555556,
+  "finished": 0.9970833333333333,
+  "score_given_finished": 0.5249303524167711,
+  "any_solve8": 0.6966666666666667,
+  "mean_len": 8055.76125,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-7B cap28672 phys": {
+  "mean": 0.5238159722222222,
+  "finished": 0.99875,
+  "score_given_finished": 0.5244715616743151,
+  "any_solve8": 0.6966666666666667,
+  "mean_len": 8063.3775,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-7B cap32768 phys": {
+  "mean": 0.5238159722222222,
+  "finished": 0.9995833333333334,
+  "score_given_finished": 0.5240343198554953,
+  "any_solve8": 0.6966666666666667,
+  "mean_len": 8066.501666666667,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-7B cap36864 phys": {
+  "mean": 0.5238159722222222,
+  "finished": 0.9995833333333334,
+  "score_given_finished": 0.5240343198554953,
+  "any_solve8": 0.6966666666666667,
+  "mean_len": 8068.208333333333,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-7B cap49152 phys": {
+  "mean": 0.5238159722222222,
+  "finished": 1.0,
+  "score_given_finished": 0.5238159722222222,
+  "any_solve8": 0.6966666666666667,
+  "mean_len": 8070.684583333334,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-7B cap53248 phys": {
+  "mean": 0.5238159722222222,
+  "finished": 1.0,
+  "score_given_finished": 0.5238159722222222,
+  "any_solve8": 0.6966666666666667,
+  "mean_len": 8070.684583333334,
+  "n_items": 300
+ },
+ "AceReason-Nemotron-7B cap65536 phys": {
+  "mean": 0.5238159722222222,
+  "finished": 1.0,
+  "score_given_finished": 0.5238159722222222,
+  "any_solve8": 0.6966666666666667,
+  "mean_len": 8070.684583333334,
+  "n_items": 300
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "model": "Skywork/Skywork-OR1-7B",
+ "path": "/workspace/.cache/huggingface/hub/models--Skywork--Skywork-OR1-7B/snapshots/5bd323a9cdea40b9412cb2a200ee284201e930ae",
+ "cap": 32768,
+ "n_problems": 9,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 6,
+ "finished": 0.7638888888888888,
+ "seconds": {
+  "load": 75,
+  "generate": 1482
+ },
+ "host": "f030079c0c71"
+}

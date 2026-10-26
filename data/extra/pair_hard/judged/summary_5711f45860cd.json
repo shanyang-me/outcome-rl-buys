@@ -1,0 +1,112 @@
+{
+ "files": {
+  "AReaL-1.5B-Preview-Stage-3": {
+   "rejected": 4533,
+   "raised": 198,
+   "now_full": 170,
+   "solved_matcher": 597,
+   "solved_judged": 767
+  },
+  "AceReason-Nemotron-7B": {
+   "rejected": 4125,
+   "raised": 431,
+   "now_full": 394,
+   "solved_matcher": 1236,
+   "solved_judged": 1630
+  },
+  "DeepScaleR-1.5B-Preview": {
+   "rejected": 4556,
+   "raised": 230,
+   "now_full": 194,
+   "solved_matcher": 641,
+   "solved_judged": 835
+  },
+  "DeepSeek-R1-Distill-Qwen-32B": {
+   "solved_matcher": 1457,
+   "solved_judged": 1927,
+   "rejected": 3743,
+   "raised": 492,
+   "now_full": 470
+  },
+  "DeepSeek-R1-Distill-Qwen-7B": {
+   "rejected": 4213,
+   "raised": 373,
+   "now_full": 340,
+   "solved_matcher": 1064,
+   "solved_judged": 1404
+  },
+  "JustRL-DeepSeek-1.5B": {
+   "rejected": 4396,
+   "raised": 235,
+   "now_full": 206,
+   "solved_matcher": 720,
+   "solved_judged": 926
+  },
+  "Open-RS3": {
+   "rejected": 3517,
+   "raised": 199,
+   "now_full": 172,
+   "solved_matcher": 531,
+   "solved_judged": 703
+  },
+  "OpenMath-Nemotron-1.5B": {
+   "rejected": 4858,
+   "raised": 102,
+   "now_full": 81,
+   "solved_matcher": 289,
+   "solved_judged": 370
+  },
+  "Qwen3-1.7B": {
+   "rejected": 1866,
+   "raised": 124,
+   "now_full": 112,
+   "solved_matcher": 386,
+   "solved_judged": 498
+  },
+  "RLinf-math-1.5B": {
+   "solved_matcher": 708,
+   "solved_judged": 927,
+   "rejected": 4556,
+   "raised": 243,
+   "now_full": 219
+  },
+  "STILL-3-1.5B-preview": {
+   "solved_matcher": 582,
+   "solved_judged": 748,
+   "rejected": 4494,
+   "raised": 190,
+   "now_full": 166
+  },
+  "Skywork-OR1-7B": {
+   "solved_matcher": 1180,
+   "solved_judged": 1548,
+   "rejected": 3854,
+   "raised": 396,
+   "now_full": 368
+  },
+  "e3-1.7B": {
+   "rejected": 3816,
+   "raised": 253,
+   "now_full": 238,
+   "solved_matcher": 856,
+   "solved_judged": 1094
+  },
+  "Nemotron-Research-Reasoning-Qwen-1.5B": {
+   "rejected": 4534,
+   "raised": 295,
+   "now_full": 253,
+   "solved_matcher": 834,
+   "solved_judged": 1087
+  },
+  "Skywork-OR1-Math-7B": {
+   "rejected": 4049,
+   "raised": 420,
+   "now_full": 387,
+   "solved_matcher": 1210,
+   "solved_judged": 1597
+  }
+ },
+ "deferred_last_run": 3494,
+ "distinct_prompts_last_run": 2841,
+ "unparsed_last_run": 6
+}

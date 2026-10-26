@@ -1,0 +1,2318 @@
+{"uid": "u0200", "verdict": "wrong", "why": "Claims T equal/0; gold is (V1/(V1+V2))^(1/4) T1"}
+{"uid": "u0201", "verdict": "wrong", "why": "H, B values wrong; M=1 wrong"}
+{"uid": "u0202", "verdict": "wrong", "why": "Amplitudes A/3 and 3A, gold A/2 and 3A/2"}
+{"uid": "u0203", "verdict": "wrong", "why": "Nonsense 0.75 / 75%, not the Compton results"}
+{"uid": "u0204", "verdict": "wrong", "why": "Gives +-10, gold -10 and 30 times exp decay"}
+{"uid": "u0205", "verdict": "wrong", "why": "Uses G, no Bohr quantization form"}
+{"uid": "u0206", "verdict": "wrong", "why": "-10 versus alpha=1.46e6"}
+{"uid": "u0207", "verdict": "wrong", "why": "138 MeV versus 286.1 MeV"}
+{"uid": "u0208", "verdict": "wrong", "why": "1e-4 versus 100"}
+{"uid": "u0209", "verdict": "wrong", "why": "500000 versus 2.14e-3"}
+{"uid": "u0210", "verdict": "wrong", "why": "All three parts differ from gold"}
+{"uid": "u0211", "verdict": "wrong", "why": "c^3 versus 2.264e-12 m"}
+{"uid": "u0212", "verdict": "wrong", "why": "Gives l, missing relativistic factor"}
+{"uid": "u0213", "verdict": "wrong", "why": "8.64e8 versus 66.5 kg/s"}
+{"uid": "u0214", "verdict": "wrong", "why": "9 versus 5.68e-15 s"}
+{"uid": "u0215", "verdict": "wrong", "why": "8.66e7 versus 66.5"}
+{"uid": "u0216", "verdict": "partial", "why": "L=Iw right; equation of motion wrong"}
+{"uid": "u0217", "verdict": "wrong", "why": "Gives lambda, 1-lambda; gold 1, 1/2, lambda-1/2, ..."}
+{"uid": "u0218", "verdict": "right", "why": "Option a is 0.6 m/s"}
+{"uid": "u0219", "verdict": "wrong", "why": "n_e w^2 versus i n e^2 E/(m w)"}
+{"uid": "u0220", "verdict": "wrong", "why": "Sign of numerator term wrong, and denominator mismatched"}
+{"uid": "u0221", "verdict": "wrong", "why": "720 kPa versus 1.02 MPa"}
+{"uid": "u0222", "verdict": "wrong", "why": "1/(T1-T2) versus T2/(T1-T2)"}
+{"uid": "u0223", "verdict": "wrong", "why": "wR versus wR/3"}
+{"uid": "u0224", "verdict": "wrong", "why": "1.23 versus 0.00108"}
+{"uid": "u0225", "verdict": "wrong", "why": "0 versus 1.7 eV"}
+{"uid": "u0226", "verdict": "wrong", "why": "Constant versus 3Nk and T^3 law"}
+{"uid": "u0227", "verdict": "right", "why": "70R is about 582 J, matches 5.8e2"}
+{"uid": "u0228", "verdict": "wrong", "why": "Wrong expression, not (t1/t0)^(2/3)-1"}
+{"uid": "u0229", "verdict": "wrong", "why": "50 versus 4"}
+{"uid": "u0230", "verdict": "wrong", "why": "312 versus 224"}
+{"uid": "u0231", "verdict": "wrong", "why": "Reflection formula, not refraction equation"}
+{"uid": "u0232", "verdict": "wrong", "why": "39000 versus 1.53e6 J"}
+{"uid": "u0233", "verdict": "wrong", "why": "epsilon/r^2 versus sigma Q/(4 pi eps r^2)"}
+{"uid": "u0234", "verdict": "right", "why": "70R is about 582 J, matches 5.8e2"}
+{"uid": "u0235", "verdict": "wrong", "why": "Expression does not match gold"}
+{"uid": "u0236", "verdict": "wrong", "why": "Unrelated expression, not gold dL/dT"}
+{"uid": "u0237", "verdict": "wrong", "why": "2 versus 1305"}
+{"uid": "u0238", "verdict": "wrong", "why": "E versus -q^2E^2/(2m w^2)"}
+{"uid": "u0239", "verdict": "wrong", "why": "3e14 versus 1e12"}
+{"uid": "u0280", "verdict": "wrong", "why": "gives decay constant, not 270 years"}
+{"uid": "u0281", "verdict": "wrong", "why": "frequencies twice the gold values"}
+{"uid": "u0282", "verdict": "wrong", "why": "2500 vs 171.4"}
+{"uid": "u0283", "verdict": "wrong", "why": "64 vs 286.1 MeV"}
+{"uid": "u0284", "verdict": "wrong", "why": "720 vs 5"}
+{"uid": "u0285", "verdict": "wrong", "why": "4452 vs 756"}
+{"uid": "u0286", "verdict": "wrong", "why": "missing T2 numerator"}
+{"uid": "u0287", "verdict": "wrong", "why": "both B and H wrong"}
+{"uid": "u0288", "verdict": "wrong", "why": "different expression from gold"}
+{"uid": "u0289", "verdict": "wrong", "why": "formula does not match gold"}
+{"uid": "u0290", "verdict": "wrong", "why": "probabilities and values differ from gold"}
+{"uid": "u0291", "verdict": "wrong", "why": "1/sqrt(pi) vs 1/(2a)"}
+{"uid": "u0292", "verdict": "wrong", "why": "1391 vs 21.55"}
+{"uid": "u0293", "verdict": "wrong", "why": "6.9 vs 0.00108"}
+{"uid": "u0294", "verdict": "wrong", "why": "different expression from gold"}
+{"uid": "u0295", "verdict": "wrong", "why": "no cos theta dependence, wrong form"}
+{"uid": "u0296", "verdict": "wrong", "why": "gives a(2/5)^(1/3), not b/2"}
+{"uid": "u0297", "verdict": "partial", "why": "only rms formula equivalent; others wrong"}
+{"uid": "u0298", "verdict": "wrong", "why": "6.6e-7 vs 5.0e-9"}
+{"uid": "u0299", "verdict": "wrong", "why": "24 vs 3.07"}
+{"uid": "u0300", "verdict": "wrong", "why": "580 vs 1.6e-17"}
+{"uid": "u0301", "verdict": "wrong", "why": "-8.65 vs 1305"}
+{"uid": "u0302", "verdict": "wrong", "why": "about 45 vs 16.16"}
+{"uid": "u0303", "verdict": "right", "why": "1/x^3 matches gold"}
+{"uid": "u0304", "verdict": "wrong", "why": "5292 vs 756"}
+{"uid": "u0305", "verdict": "wrong", "why": "not a frequency; gold 1.27 THz"}
+{"uid": "u0306", "verdict": "wrong", "why": "2M vs 3M"}
+{"uid": "u0307", "verdict": "wrong", "why": "critical values all wrong"}
+{"uid": "u0308", "verdict": "wrong", "why": "50000 vs 1.27 THz"}
+{"uid": "u0309", "verdict": "wrong", "why": "2 vs 8.32e-8, 8.32e-13"}
+{"uid": "u0310", "verdict": "wrong", "why": "wrong form vs -q^2E^2/(2m w^2)"}
+{"uid": "u0311", "verdict": "wrong", "why": "RNT vs 3Nk"}
+{"uid": "u0312", "verdict": "right", "why": "time right; speed v0/sqrt2, negative means downward"}
+{"uid": "u0313", "verdict": "wrong", "why": "1000 vs 100"}
+{"uid": "u0314", "verdict": "wrong", "why": "all parts wrong"}
+{"uid": "u0315", "verdict": "wrong", "why": "wrong ring radius expression"}
+{"uid": "u0316", "verdict": "wrong", "why": "parity and time-reversal signs wrong"}
+{"uid": "u0317", "verdict": "wrong", "why": "chose d, gold is c"}
+{"uid": "u0318", "verdict": "wrong", "why": "0.277 vs 0.159"}
+{"uid": "u0319", "verdict": "wrong", "why": "g/(4R) vs gold expression"}
+{"uid": "u0160", "verdict": "wrong", "why": "Gives time in ms, not 1.27 THz"}
+{"uid": "u0161", "verdict": "wrong", "why": "Wrong expression; gold is E1 + ba/2"}
+{"uid": "u0162", "verdict": "wrong", "why": "Gives 1/2, gold is 2"}
+{"uid": "u0163", "verdict": "wrong", "why": "Answers c, not the relativistic formula"}
+{"uid": "u0164", "verdict": "wrong", "why": "G=1/R, not G=(2e^2/h)T"}
+{"uid": "u0165", "verdict": "partial", "why": "Matrix right; symmetric/antisymmetric parts garbled, stray 42"}
+{"uid": "u0166", "verdict": "wrong", "why": "No numeric value, just restates formula"}
+{"uid": "u0167", "verdict": "wrong", "why": "Mass-conservation nonsense, not the gold expression"}
+{"uid": "u0168", "verdict": "wrong", "why": "1.36 km vs 5.89 km"}
+{"uid": "u0169", "verdict": "wrong", "why": "Wrong expression, no log term"}
+{"uid": "u0170", "verdict": "wrong", "why": "Cos(phi-60) form differs from sin(phi) gold"}
+{"uid": "u0171", "verdict": "wrong", "why": "Values and units wildly off"}
+{"uid": "u0172", "verdict": "wrong", "why": "10^19 vs 0.1"}
+{"uid": "u0173", "verdict": "wrong", "why": "144 vs 66.5 kg/s"}
+{"uid": "u0174", "verdict": "wrong", "why": "v, gold is (1+M/m)v"}
+{"uid": "u0175", "verdict": "wrong", "why": "0 vs 81/169"}
+{"uid": "u0176", "verdict": "wrong", "why": "No numeric value, restates formula"}
+{"uid": "u0177", "verdict": "wrong", "why": "0 vs nonzero gold"}
+{"uid": "u0178", "verdict": "wrong", "why": "581 is inverse of gold ratio"}
+{"uid": "u0179", "verdict": "wrong", "why": "0 J vs -81.6 J"}
+{"uid": "u0180", "verdict": "wrong", "why": "E/2k is wrong, no E^2 shift"}
+{"uid": "u0181", "verdict": "wrong", "why": "Nonsense units and values"}
+{"uid": "u0182", "verdict": "wrong", "why": "mc^2+dE, gold dE+dE^2/2mc^2"}
+{"uid": "u0183", "verdict": "wrong", "why": "N T kB vs 3Nk"}
+{"uid": "u0184", "verdict": "wrong", "why": "Nonsense expression, not Fresnel coefficient"}
+{"uid": "u0185", "verdict": "wrong", "why": "Wrong quantities and values"}
+{"uid": "u0186", "verdict": "right", "why": "-E^2/2k equals gold with k=m omega^2, q absorbed"}
+{"uid": "u0187", "verdict": "wrong", "why": "0,0,2 vs 2, \u00b1sqrt2"}
+{"uid": "u0188", "verdict": "wrong", "why": "No valid answers to any part"}
+{"uid": "u0189", "verdict": "right", "why": "Matches high-energy limit maV0/(hbar^2 k)"}
+{"uid": "u0190", "verdict": "wrong", "why": "62.5 vs 171.4"}
+{"uid": "u0191", "verdict": "wrong", "why": "0.018 J vs 2.14e-3 eV"}
+{"uid": "u0192", "verdict": "wrong", "why": "omega R vs omega R/3"}
+{"uid": "u0193", "verdict": "right", "why": "Matrix and S+A decomposition correct"}
+{"uid": "u0194", "verdict": "wrong", "why": "L omega vs omega sqrt(L^2-a^2)"}
+{"uid": "u0195", "verdict": "wrong", "why": "All parts wrong"}
+{"uid": "u0196", "verdict": "wrong", "why": "Earth orbit radius, not solar radius"}
+{"uid": "u0197", "verdict": "wrong", "why": "Wrong expression, gold 2.5e-15"}
+{"uid": "u0198", "verdict": "right", "why": "1/6 is option (c)"}
+{"uid": "u0199", "verdict": "wrong", "why": "Wrong form, no 2/3 power"}
+{"uid": "u0040", "verdict": "wrong", "why": "Differs from 2rV/(b^2-a^2)"}
+{"uid": "u0041", "verdict": "wrong", "why": "3 versus 6"}
+{"uid": "u0042", "verdict": "wrong", "why": "1/T instead of T^3 law"}
+{"uid": "u0043", "verdict": "wrong", "why": "T instead of T^-3/2"}
+{"uid": "u0044", "verdict": "wrong", "why": "3.0 versus 0.6"}
+{"uid": "u0045", "verdict": "wrong", "why": "Linear sum, gold is quadrature sum"}
+{"uid": "u0046", "verdict": "wrong", "why": "313 kPa versus 1.02 MPa"}
+{"uid": "u0047", "verdict": "wrong", "why": "Missing hbar and sqrt(2m) factors"}
+{"uid": "u0048", "verdict": "wrong", "why": "Earth radius, not solar"}
+{"uid": "u0049", "verdict": "wrong", "why": "Gives entropy, Z and E wrong"}
+{"uid": "u0050", "verdict": "right", "why": "Expression matches gold; only subscript differs"}
+{"uid": "u0051", "verdict": "wrong", "why": "E0 versus 3e0/(e+2e0) E0"}
+{"uid": "u0052", "verdict": "wrong", "why": "h_i instead of 1/h_i"}
+{"uid": "u0053", "verdict": "wrong", "why": "Not the exponential capstan result"}
+{"uid": "u0054", "verdict": "wrong", "why": "m0/3 versus m0/e"}
+{"uid": "u0055", "verdict": "wrong", "why": "k=pi/a only, energy lacks hbar and (2n+1)^2"}
+{"uid": "u0056", "verdict": "partial", "why": "a=0, d=0 right; e=0 wrong, extras wrong"}
+{"uid": "u0057", "verdict": "partial", "why": "Part a right; b, c, d wrong"}
+{"uid": "u0058", "verdict": "wrong", "why": "Gold is wavefunction vanishing at surface"}
+{"uid": "u0059", "verdict": "wrong", "why": "Wrong equation of motion"}
+{"uid": "u0060", "verdict": "wrong", "why": "70 W/m^2 versus 3.7e-8 Pa"}
+{"uid": "u0061", "verdict": "wrong", "why": "Wrong deflection, tip deflection given as 0"}
+{"uid": "u0062", "verdict": "wrong", "why": "Chose v=f lambda, gold lambda=v/f"}
+{"uid": "u0063", "verdict": "wrong", "why": "1/2 versus 2"}
+{"uid": "u0064", "verdict": "wrong", "why": "14/5 versus 1/2 coefficient"}
+{"uid": "u0065", "verdict": "wrong", "why": "Not reduced form, no 3/V^2, 8/3 T"}
+{"uid": "u0066", "verdict": "wrong", "why": "0 versus 3.7e-8"}
+{"uid": "u0067", "verdict": "wrong", "why": "No numeric radius given"}
+{"uid": "u0068", "verdict": "wrong", "why": "Wrong expression for time"}
+{"uid": "u0069", "verdict": "wrong", "why": "Missing kinetic term, ba/2 expected"}
+{"uid": "u0070", "verdict": "wrong", "why": "Inverted and wrong COP expression"}
+{"uid": "u0071", "verdict": "wrong", "why": "Parametric pathline, not streamline equation"}
+{"uid": "u0072", "verdict": "wrong", "why": "Parity result for s and p wrong"}
+{"uid": "u0073", "verdict": "wrong", "why": "E0 versus 3e0/(e+2e0) E0"}
+{"uid": "u0074", "verdict": "wrong", "why": "0.0236 Hz versus 1.27 THz"}
+{"uid": "u0075", "verdict": "wrong", "why": "Missing 1+I/Is denominator"}
+{"uid": "u0076", "verdict": "wrong", "why": "1.5% versus 5.4e-4"}
+{"uid": "u0077", "verdict": "wrong", "why": "Missing energies; flow rate far off"}
+{"uid": "u0078", "verdict": "right", "why": "1/h_i e_i matches gold"}
+{"uid": "u0079", "verdict": "wrong", "why": "0 versus 0.417c"}
+{"uid": "u0000", "verdict": "wrong", "why": "Claims insufficient data; gives no critical values"}
+{"uid": "u0001", "verdict": "wrong", "why": "pi/80=0.039 vs gold 0.0153"}
+{"uid": "u0002", "verdict": "wrong", "why": "6piR/v0 differs from 2sqrt2 piR/v0"}
+{"uid": "u0003", "verdict": "wrong", "why": "Coefficient multiplies by sinh instead of dividing"}
+{"uid": "u0004", "verdict": "wrong", "why": "Spurious factor a inside root"}
+{"uid": "u0005", "verdict": "wrong", "why": "Gives joules, not volts; values wrong"}
+{"uid": "u0006", "verdict": "wrong", "why": "Only equilibrium V, no kinetic or quadratic terms"}
+{"uid": "u0007", "verdict": "partial", "why": "Rate correct; fringe shift expression missing"}
+{"uid": "u0008", "verdict": "wrong", "why": "0.25 vs -1.28e-5"}
+{"uid": "u0009", "verdict": "wrong", "why": "1e19 cm^2 vs 0.1"}
+{"uid": "u0010", "verdict": "wrong", "why": "7.5 V vs 5.36 V"}
+{"uid": "u0011", "verdict": "wrong", "why": "8316 vs 756"}
+{"uid": "u0012", "verdict": "wrong", "why": "3.4e-4 m vs 2.817e-13 cm"}
+{"uid": "u0013", "verdict": "wrong", "why": "Missing mass; wrong J and E(J)"}
+{"uid": "u0014", "verdict": "wrong", "why": "Wrong expression, extra Q/R^2 factor, no sigma"}
+{"uid": "u0015", "verdict": "wrong", "why": "0.1 vs 13.9"}
+{"uid": "u0016", "verdict": "wrong", "why": "Just says H; no explicit expression"}
+{"uid": "u0017", "verdict": "wrong", "why": "800 vs 720"}
+{"uid": "u0018", "verdict": "wrong", "why": "Unit vector only; magnitude 41 km/h missing"}
+{"uid": "u0019", "verdict": "wrong", "why": "800 vs 720"}
+{"uid": "u0020", "verdict": "wrong", "why": "107.8 W vs 24,600 W"}
+{"uid": "u0021", "verdict": "wrong", "why": "Not sqrt(m lambda R)"}
+{"uid": "u0022", "verdict": "wrong", "why": "Velocities all differ from gold"}
+{"uid": "u0023", "verdict": "right", "why": "States SHM with angular frequency omega0"}
+{"uid": "u0024", "verdict": "wrong", "why": "E0/2 vs m_p c^2"}
+{"uid": "u0025", "verdict": "wrong", "why": "Amplitudes, phase and wavenumber wrong"}
+{"uid": "u0026", "verdict": "wrong", "why": "Component forms wrong for P and T"}
+{"uid": "u0027", "verdict": "wrong", "why": "Misses k=omega/c and k.A0=0"}
+{"uid": "u0028", "verdict": "wrong", "why": "mc^2 vs DeltaE + DeltaE^2/2mc^2"}
+{"uid": "u0029", "verdict": "wrong", "why": "144000 vs 66.5 kg/s"}
+{"uid": "u0030", "verdict": "right", "why": "2pi/d equals 2pi f; phase -pi/3 matches"}
+{"uid": "u0031", "verdict": "wrong", "why": "1.25e-8 vs 5.0e-9 s"}
+{"uid": "u0032", "verdict": "wrong", "why": "Gave Carnot engine efficiency, not T2/(T1-T2)"}
+{"uid": "u0033", "verdict": "wrong", "why": "Expression differs from 4pi^2 k^4 T^3 V/45(hbar c)^3"}
+{"uid": "u0034", "verdict": "right", "why": "Matches s0 exp(-x/Ls)"}
+{"uid": "u0035", "verdict": "wrong", "why": "1.58 days vs 4.28 days"}
+{"uid": "u0036", "verdict": "wrong", "why": "100 vs 1305 J/K"}
+{"uid": "u0037", "verdict": "wrong", "why": "alpha=1, tau=t vs gold log relation"}
+{"uid": "u0038", "verdict": "right", "why": "0.000225 g equals 0.225 mg"}
+{"uid": "u0039", "verdict": "wrong", "why": "Garbled expression, not 1, 1/2, lambda-1/2"}
+{"uid": "u0080", "verdict": "wrong", "why": "Used wrong wavelength; gold is 10.2 eV"}
+{"uid": "u0081", "verdict": "right", "why": "1445 m equals 1.44 km"}
+{"uid": "u0082", "verdict": "wrong", "why": "Different expression from gold"}
+{"uid": "u0083", "verdict": "partial", "why": "k correct, energy spectrum wrong"}
+{"uid": "u0084", "verdict": "wrong", "why": "33 vs 4"}
+{"uid": "u0085", "verdict": "wrong", "why": "n v0 lacks Maxwell exponential flux form"}
+{"uid": "u0086", "verdict": "wrong", "why": "No numerical answers given"}
+{"uid": "u0087", "verdict": "wrong", "why": "Nonsense; not Clausius-Clapeyron form"}
+{"uid": "u0088", "verdict": "right", "why": "Electrostatic and kinetic energies match gold"}
+{"uid": "u0089", "verdict": "wrong", "why": "8316 kJ vs 756 kJ"}
+{"uid": "u0090", "verdict": "wrong", "why": "2760 Pa vs 1.02 MPa"}
+{"uid": "u0091", "verdict": "partial", "why": "Acceleration right; speed and displacement wrong"}
+{"uid": "u0092", "verdict": "wrong", "why": "312 vs 224"}
+{"uid": "u0093", "verdict": "wrong", "why": "Gave energies in J, not voltages; wrong values"}
+{"uid": "u0094", "verdict": "wrong", "why": "mg vs mg e^(-5/2 mu pi)"}
+{"uid": "u0095", "verdict": "wrong", "why": "Free-fall expression, not orbit transfer time"}
+{"uid": "u0096", "verdict": "wrong", "why": "3 vs 43"}
+{"uid": "u0097", "verdict": "wrong", "why": "Wrong equation of motion"}
+{"uid": "u0098", "verdict": "wrong", "why": "mc^2 vs DeltaE + DeltaE^2/2mc^2"}
+{"uid": "u0099", "verdict": "wrong", "why": "0.659 vs 0.33 m/s"}
+{"uid": "u0100", "verdict": "wrong", "why": "440 vs 7.91 W/K"}
+{"uid": "u0101", "verdict": "wrong", "why": "80 s, 200 m/s vs 20 s, 20 m/s"}
+{"uid": "u0102", "verdict": "wrong", "why": "Nonsense units; gold l is 14"}
+{"uid": "u0103", "verdict": "partial", "why": "k correct, energy spectrum wrong"}
+{"uid": "u0104", "verdict": "wrong", "why": "0.07 cm vs 16.16"}
+{"uid": "u0105", "verdict": "partial", "why": "Part 1 right, part 2 arithmetic mean wrong"}
+{"uid": "u0106", "verdict": "wrong", "why": "No 3Nk or T^3 behavior"}
+{"uid": "u0107", "verdict": "wrong", "why": "7.4e-21 J vs -81.6 J"}
+{"uid": "u0108", "verdict": "wrong", "why": "0 vs pi^2hbar^2/2ma^2 + ba/2"}
+{"uid": "u0109", "verdict": "wrong", "why": "100 s vs 5.68e-15 s"}
+{"uid": "u0110", "verdict": "wrong", "why": "3 GeV vs 8.43 GeV"}
+{"uid": "u0111", "verdict": "wrong", "why": "Eigenvalues 0,0,2 vs 2, \u00b1sqrt2"}
+{"uid": "u0112", "verdict": "wrong", "why": "Wrong formula; lacks i e^2/(m omega)"}
+{"uid": "u0113", "verdict": "wrong", "why": "All three parts differ from gold"}
+{"uid": "u0114", "verdict": "wrong", "why": "1600 kJ/kg vs 2670"}
+{"uid": "u0115", "verdict": "wrong", "why": "1/T vs T^(-3/2)"}
+{"uid": "u0116", "verdict": "partial", "why": "(a) right, (b) wrong sign, (c) missing"}
+{"uid": "u0117", "verdict": "wrong", "why": "Gave joules, wrong values; gold in volts"}
+{"uid": "u0118", "verdict": "wrong", "why": "1.04e-8 cm vs 2.817e-13 cm"}
+{"uid": "u0119", "verdict": "wrong", "why": "E and J both differ from gold"}
+{"uid": "u0120", "verdict": "wrong", "why": "Gave 600 J/m, gold 0.00167 kW/K"}
+{"uid": "u0121", "verdict": "wrong", "why": "Answered q, not hc/\u03bb expressions"}
+{"uid": "u0122", "verdict": "wrong", "why": "2\u03c0R/v0 differs from 2\u221a2\u03c0R/v0"}
+{"uid": "u0123", "verdict": "wrong", "why": "3.33e-11, 3.33e-12 vs gold 6.67e-12, 6.67e-7"}
+{"uid": "u0124", "verdict": "wrong", "why": "No boxed answer; tail says 100 J, not 770"}
+{"uid": "u0125", "verdict": "wrong", "why": "Unevaluated integral, not \u03c0/a\u221a(2m/(E+V0))"}
+{"uid": "u0126", "verdict": "wrong", "why": "Made-up numeric values, not a/27b\u00b2 etc."}
+{"uid": "u0127", "verdict": "wrong", "why": "0.25, 0.1 MeV vs gold 0.801, 0.822"}
+{"uid": "u0128", "verdict": "wrong", "why": "7.5 V vs gold 5.36 V"}
+{"uid": "u0129", "verdict": "wrong", "why": "Wrong equation, lacks \u03c9\u00b2 term"}
+{"uid": "u0130", "verdict": "wrong", "why": "Gave 4NkT\u00b3/3, gold 3Nk"}
+{"uid": "u0131", "verdict": "wrong", "why": "2.81 cm vs gold 7.196 cm"}
+{"uid": "u0132", "verdict": "wrong", "why": "Nonsense rad values; probabilities not matched"}
+{"uid": "u0133", "verdict": "wrong", "why": "Answered l, missing relativistic factor"}
+{"uid": "u0134", "verdict": "wrong", "why": "Quadratic-in-v\u00b2 result, not v0 exp(-bx/m)"}
+{"uid": "u0135", "verdict": "wrong", "why": "Boxed entropy; Z and E not properly given"}
+{"uid": "u0136", "verdict": "wrong", "why": "Wrong constraints, not k=\u03c9/c and k\u00b7A0=0"}
+{"uid": "u0137", "verdict": "partial", "why": "h1, v right; t=12 s vs 10 s"}
+{"uid": "u0138", "verdict": "right", "why": "a, b, c matches gold"}
+{"uid": "u0139", "verdict": "wrong", "why": "0.1 vs gold 13.9 kg\u00b7m\u00b2"}
+{"uid": "u0140", "verdict": "wrong", "why": "Answered q, not hc/\u03bb - hv0"}
+{"uid": "u0141", "verdict": "wrong", "why": "Degeneracies 1,1,2,1 vs gold 1, 4"}
+{"uid": "u0142", "verdict": "wrong", "why": "Gave J/m\u00b2 intensity, not 3.7e-8 Pa"}
+{"uid": "u0143", "verdict": "wrong", "why": "Uses sin not sinh; incorrect solution"}
+{"uid": "u0144", "verdict": "wrong", "why": "0.001293 vs gold 5.3e19"}
+{"uid": "u0145", "verdict": "wrong", "why": "Different expression from gold capacitance"}
+{"uid": "u0146", "verdict": "wrong", "why": "300mg symbolic, no numeric 1.53e6 J"}
+{"uid": "u0147", "verdict": "wrong", "why": "136, 89 m/s vs 4314, 2821 m/s"}
+{"uid": "u0148", "verdict": "wrong", "why": "Chose 3.0 m/s, gold 0.6 m/s"}
+{"uid": "u0149", "verdict": "wrong", "why": "1.436, 2.262 MeV vs 0.801, 0.822"}
+{"uid": "u0150", "verdict": "wrong", "why": "140 m vs gold 5.89 km"}
+{"uid": "u0151", "verdict": "wrong", "why": "E=\u221a(FJ) differs from J^(2/3) scaling"}
+{"uid": "u0152", "verdict": "wrong", "why": "1666 vs gold 4"}
+{"uid": "u0153", "verdict": "wrong", "why": "Trajectory equations, not streamline y-y0 relation"}
+{"uid": "u0154", "verdict": "right", "why": "Gives symmetric plus antisymmetric decomposition"}
+{"uid": "u0155", "verdict": "right", "why": "4L\u00b2\u03a9/(c\u03bb) with A=L\u00b2, and \u03a9L/\u03bb"}
+{"uid": "u0156", "verdict": "wrong", "why": "2200 vs gold 7.91 W/K"}
+{"uid": "u0157", "verdict": "wrong", "why": "0.0213 s vs gold 0.48 s"}
+{"uid": "u0158", "verdict": "wrong", "why": "Wrong expression, not 72\u03c60/\u03c3"}
+{"uid": "u0159", "verdict": "wrong", "why": "Incorrect expressions, not a/27b\u00b2, 3b, 8a/27bR"}
+{"uid": "u0240", "verdict": "wrong", "why": "1640 vs 21.55; nonsense derivation"}
+{"uid": "u0241", "verdict": "wrong", "why": "0.77 J vs -81.6 J"}
+{"uid": "u0242", "verdict": "wrong", "why": "-d/dr vs i(2/r + d/dr)"}
+{"uid": "u0243", "verdict": "wrong", "why": "Wrong equation; omega term and signs differ"}
+{"uid": "u0244", "verdict": "wrong", "why": "Not G = 2e^2/h T"}
+{"uid": "u0245", "verdict": "partial", "why": "E=0 right; J has m in wrong place"}
+{"uid": "u0246", "verdict": "wrong", "why": "70 vs 3.7e-8 Pa"}
+{"uid": "u0247", "verdict": "wrong", "why": "540 vs 5 fringes per cm"}
+{"uid": "u0248", "verdict": "wrong", "why": "69.6 W vs 60.34 W"}
+{"uid": "u0249", "verdict": "wrong", "why": "Eigenvalues lambda,1-lambda vs gold set"}
+{"uid": "u0250", "verdict": "wrong", "why": "Nonsense units; gold 1.022 MeV, 0.012 A"}
+{"uid": "u0251", "verdict": "wrong", "why": "Different expression from I(e2 rho2 - e1 rho1)"}
+{"uid": "u0252", "verdict": "wrong", "why": "dp/dr = p/r vs rho v^2/r"}
+{"uid": "u0253", "verdict": "wrong", "why": "Nonrelativistic eEt/m, not relativistic result"}
+{"uid": "u0254", "verdict": "right", "why": "a, b, c matches"}
+{"uid": "u0255", "verdict": "wrong", "why": "R ignores the van der Waals correction"}
+{"uid": "u0256", "verdict": "partial", "why": "Part 1 right; parts 2 and 3 wrong"}
+{"uid": "u0257", "verdict": "wrong", "why": "1/2 vs -16/25"}
+{"uid": "u0258", "verdict": "wrong", "why": "Factor 2 too large"}
+{"uid": "u0259", "verdict": "wrong", "why": "E vs -q^2E^2/(2m omega^2)"}
+{"uid": "u0260", "verdict": "wrong", "why": "No T and V expansion in displacements"}
+{"uid": "u0261", "verdict": "right", "why": "a, b, c matches"}
+{"uid": "u0262", "verdict": "wrong", "why": "Wrong formula, no N or mu_r"}
+{"uid": "u0263", "verdict": "wrong", "why": "3.09e-4 vs 2.3e-4"}
+{"uid": "u0264", "verdict": "wrong", "why": "Wrong expression vs (t1/t0)^{2/3} - 1"}
+{"uid": "u0265", "verdict": "wrong", "why": "sigma^2 in denominator vs sigma"}
+{"uid": "u0266", "verdict": "right", "why": "Proof shows combination exists; Yes acceptable"}
+{"uid": "u0267", "verdict": "wrong", "why": "E=k/2a^2, J=0 vs E=0"}
+{"uid": "u0268", "verdict": "wrong", "why": "5/3 vs 1/2"}
+{"uid": "u0269", "verdict": "wrong", "why": "200 K vs 300 K"}
+{"uid": "u0270", "verdict": "wrong", "why": "Missing sqrt(3) factor"}
+{"uid": "u0271", "verdict": "wrong", "why": "E0 vs m_p c^2"}
+{"uid": "u0272", "verdict": "wrong", "why": "35/(2pi) vs 3.7e-8"}
+{"uid": "u0273", "verdict": "wrong", "why": "100 vs 770"}
+{"uid": "u0274", "verdict": "wrong", "why": "70/pi vs 3.7e-8"}
+{"uid": "u0275", "verdict": "wrong", "why": "Wrong formula vs sqrt(c(T1+T2-2T))"}
+{"uid": "u0276", "verdict": "wrong", "why": "1.6e9 vs 2.1e6"}
+{"uid": "u0277", "verdict": "wrong", "why": "2.5e-8 vs 5.0e-9 s"}
+{"uid": "u0278", "verdict": "wrong", "why": "600 vs 0.00167 W/K"}
+{"uid": "u0279", "verdict": "wrong", "why": "Wrong time expression"}
+{"uid": "u0360", "verdict": "wrong", "why": "5814 vs 1.6e-17"}
+{"uid": "u0361", "verdict": "wrong", "why": "2.46 vs 1.72"}
+{"uid": "u0362", "verdict": "wrong", "why": "1/90 vs l=14"}
+{"uid": "u0363", "verdict": "wrong", "why": "no matching probabilities"}
+{"uid": "u0364", "verdict": "wrong", "why": "gravitational formula, not Coulomb"}
+{"uid": "u0365", "verdict": "wrong", "why": "nonsense vs 1.7 eV"}
+{"uid": "u0366", "verdict": "wrong", "why": "2el^2 vs 0"}
+{"uid": "u0367", "verdict": "wrong", "why": "c is not a wavelength"}
+{"uid": "u0368", "verdict": "wrong", "why": "wrong pressure expression"}
+{"uid": "u0369", "verdict": "wrong", "why": "1/2 values do not match gold"}
+{"uid": "u0370", "verdict": "wrong", "why": "N0 vs 4X N0"}
+{"uid": "u0371", "verdict": "partial", "why": "(a),(c) right; (b) wrong sign"}
+{"uid": "u0372", "verdict": "right", "why": "1020 kPa = 1.02 MPa"}
+{"uid": "u0373", "verdict": "wrong", "why": "2.25 vs 0.00108"}
+{"uid": "u0374", "verdict": "partial", "why": "P s sign wrong, other three right"}
+{"uid": "u0375", "verdict": "wrong", "why": "1640 vs 2670"}
+{"uid": "u0376", "verdict": "wrong", "why": "B and H both wrong"}
+{"uid": "u0377", "verdict": "wrong", "why": "units off by factor; 0.136 vs 4314"}
+{"uid": "u0378", "verdict": "wrong", "why": "r=2Mc vs 3M"}
+{"uid": "u0379", "verdict": "wrong", "why": "1/4 vs 2"}
+{"uid": "u0380", "verdict": "wrong", "why": "24.4 vs 1.46e6"}
+{"uid": "u0381", "verdict": "wrong", "why": "missing (1+m/M) factor"}
+{"uid": "u0382", "verdict": "wrong", "why": "0.5 vs 0.0153"}
+{"uid": "u0383", "verdict": "wrong", "why": "mv/M vs (1+M/m)v"}
+{"uid": "u0384", "verdict": "partial", "why": "lab time right, moving-frame time missing"}
+{"uid": "u0385", "verdict": "wrong", "why": "0 vs nonzero expression"}
+{"uid": "u0386", "verdict": "wrong", "why": "1/2 vs 2"}
+{"uid": "u0387", "verdict": "wrong", "why": "3.04 vs 0.815"}
+{"uid": "u0388", "verdict": "wrong", "why": "2^(N-1) vs N^2"}
+{"uid": "u0389", "verdict": "wrong", "why": "5 vs 1.27 THz"}
+{"uid": "u0390", "verdict": "wrong", "why": "no numeric 1.022 MeV or 0.012 A"}
+{"uid": "u0391", "verdict": "wrong", "why": "B and H both wrong"}
+{"uid": "u0392", "verdict": "wrong", "why": "0.136 vs 4314 m/s"}
+{"uid": "u0393", "verdict": "partial", "why": "a=0 right; d, e relations wrong"}
+{"uid": "u0394", "verdict": "wrong", "why": "103 vs 4"}
+{"uid": "u0395", "verdict": "wrong", "why": "-i d/dr vs i(2/r + d/dr)"}
+{"uid": "u0396", "verdict": "wrong", "why": "v vs (1+M/m)v"}
+{"uid": "u0397", "verdict": "wrong", "why": "wrong expression"}
+{"uid": "u0398", "verdict": "wrong", "why": "RNT vs 3Nk"}
+{"uid": "u0399", "verdict": "wrong", "why": "165 vs 0.33 m/s"}
+{"uid": "u0320", "verdict": "right", "why": "Same equation of state, V = bT/p - a/T + const"}
+{"uid": "u0321", "verdict": "wrong", "why": "Extra factor of V; gold is alpha V T^4/4"}
+{"uid": "u0322", "verdict": "wrong", "why": "2.44 is not 1.46e6 and no dp/dT expression"}
+{"uid": "u0323", "verdict": "wrong", "why": "Not sqrt(c(T1+T2-2T))"}
+{"uid": "u0324", "verdict": "wrong", "why": "0.625 differs from -1.28e-5"}
+{"uid": "u0325", "verdict": "wrong", "why": "Wrong expression for the extraneous charge"}
+{"uid": "u0326", "verdict": "wrong", "why": "220 versus 0.33 m/s"}
+{"uid": "u0327", "verdict": "wrong", "why": "All three parts differ from 20 s, 20 m/s, 12.6 kg"}
+{"uid": "u0328", "verdict": "wrong", "why": "Standard pendulum equation, omits the omega^2 term"}
+{"uid": "u0329", "verdict": "wrong", "why": "R*omega versus omega*R/3"}
+{"uid": "u0330", "verdict": "wrong", "why": "E0 versus m_p c^2"}
+{"uid": "u0331", "verdict": "wrong", "why": "0.297 versus 29.93"}
+{"uid": "u0332", "verdict": "wrong", "why": "Parity of s and time reversal of p are wrong"}
+{"uid": "u0333", "verdict": "wrong", "why": "Wrong form, no cos(theta) dependence"}
+{"uid": "u0334", "verdict": "right", "why": "a, b, c agree"}
+{"uid": "u0335", "verdict": "right", "why": "Same three-point one-sided formula"}
+{"uid": "u0336", "verdict": "wrong", "why": "Extra factor 1/(2 pi)"}
+{"uid": "u0337", "verdict": "wrong", "why": "2.5 versus 2.1e6"}
+{"uid": "u0338", "verdict": "wrong", "why": "Gives only the constant, no kinetic or quadratic terms"}
+{"uid": "u0339", "verdict": "wrong", "why": "1.6 versus 4.28 days"}
+{"uid": "u0340", "verdict": "wrong", "why": "3e14 versus 1e12"}
+{"uid": "u0341", "verdict": "wrong", "why": "300000 versus 0"}
+{"uid": "u0342", "verdict": "wrong", "why": "No numerical wavelength or frequency"}
+{"uid": "u0343", "verdict": "wrong", "why": "Zero versus a nonzero temperature"}
+{"uid": "u0344", "verdict": "wrong", "why": "Energy lacks hbar^2 and uses m instead of 1/m"}
+{"uid": "u0345", "verdict": "wrong", "why": "Not 72 phi0/sigma"}
+{"uid": "u0346", "verdict": "partial", "why": "Potential energy right, potential differences have wrong signs"}
+{"uid": "u0347", "verdict": "wrong", "why": "0.42% repeated, none of the gold values"}
+{"uid": "u0348", "verdict": "wrong", "why": "Wrong sign and no cos(theta)"}
+{"uid": "u0349", "verdict": "wrong", "why": "8.5 versus 216 MeV"}
+{"uid": "u0350", "verdict": "wrong", "why": "Wrong expression"}
+{"uid": "u0351", "verdict": "wrong", "why": "6961 km versus 6.957e5 km"}
+{"uid": "u0352", "verdict": "wrong", "why": "2/3 versus 1/2"}
+{"uid": "u0353", "verdict": "wrong", "why": "pi/2 versus 2.3e-4"}
+{"uid": "u0354", "verdict": "wrong", "why": "Wrong reflection coefficient"}
+{"uid": "u0355", "verdict": "wrong", "why": "Currents and powers far from 24,600"}
+{"uid": "u0356", "verdict": "wrong", "why": "Amplitude 1/sqrt5 given, probability is 1/5"}
+{"uid": "u0357", "verdict": "wrong", "why": "2e-10 versus 6.67e-12 and 6.67e-7"}
+{"uid": "u0358", "verdict": "wrong", "why": "Off by factor 2"}
+{"uid": "u0359", "verdict": "partial", "why": "Part a right, part b 1169 versus 1249"}
+{"uid": "u0440", "verdict": "wrong", "why": "Gives 5.57 W/m^2 intensity, not pressure 3.7e-8 Pa"}
+{"uid": "u0441", "verdict": "wrong", "why": "Gives 5e-6, not 1.27 THz"}
+{"uid": "u0442", "verdict": "wrong", "why": "Amplitudes 9/10 and 1/10 differ from 1/2 and 3/2"}
+{"uid": "u0443", "verdict": "wrong", "why": "Gives entropy; no correct Z or E"}
+{"uid": "u0444", "verdict": "wrong", "why": "1/3 versus 5.4e-4"}
+{"uid": "u0445", "verdict": "right", "why": "sigma Q/(4 pi eps r^2) matches"}
+{"uid": "u0446", "verdict": "wrong", "why": "V/(2 pi r) differs from 2rV/(b^2-a^2)"}
+{"uid": "u0447", "verdict": "wrong", "why": "0.03 m versus 3.5e-32 m"}
+{"uid": "u0448", "verdict": "right", "why": "Option a is the gold value"}
+{"uid": "u0449", "verdict": "wrong", "why": "22.756 versus 23.756 torr"}
+{"uid": "u0450", "verdict": "wrong", "why": "1/2 versus 1/(2a)"}
+{"uid": "u0451", "verdict": "wrong", "why": "2 versus 6"}
+{"uid": "u0452", "verdict": "wrong", "why": "0.03 m versus 3.5e-32 m"}
+{"uid": "u0453", "verdict": "wrong", "why": "Says constant; gold is T^3 law"}
+{"uid": "u0454", "verdict": "wrong", "why": "418.6 versus 1305"}
+{"uid": "u0455", "verdict": "wrong", "why": "n v0/m is not the Maxwellian flux"}
+{"uid": "u0456", "verdict": "wrong", "why": "E0 versus 3 eps0 E0/(eps+2 eps0)"}
+{"uid": "u0457", "verdict": "wrong", "why": "1000 versus 2.1e6"}
+{"uid": "u0458", "verdict": "wrong", "why": "h_i e_i versus e_i/h_i"}
+{"uid": "u0459", "verdict": "wrong", "why": "10 versus 171.4"}
+{"uid": "u0460", "verdict": "wrong", "why": "6/7 versus 0.159"}
+{"uid": "u0461", "verdict": "partial", "why": "Total time 10 s correct; h1 and v missing"}
+{"uid": "u0462", "verdict": "wrong", "why": "GT=1 versus G=(2e^2/h)T"}
+{"uid": "u0463", "verdict": "wrong", "why": "6.1 versus 3.4 angstrom; other parts wrong"}
+{"uid": "u0464", "verdict": "wrong", "why": "No numeric threshold; gold 150"}
+{"uid": "u0465", "verdict": "wrong", "why": "Not the reduced van der Waals equation"}
+{"uid": "u0466", "verdict": "wrong", "why": "dp/dr=0 versus dp/dr=rho v^2/r"}
+{"uid": "u0467", "verdict": "partial", "why": "Part a 9.6 cm correct; part b 1169 not 1249"}
+{"uid": "u0468", "verdict": "wrong", "why": "Wrong relations; e=6b not b=e"}
+{"uid": "u0469", "verdict": "wrong", "why": "Not the 3/V^2, 1/3, 8/3 form"}
+{"uid": "u0470", "verdict": "wrong", "why": "563 versus 24,600"}
+{"uid": "u0471", "verdict": "wrong", "why": "3 versus 5.36"}
+{"uid": "u0472", "verdict": "wrong", "why": "1152 versus 3.07 kW"}
+{"uid": "u0473", "verdict": "wrong", "why": "100 versus 770"}
+{"uid": "u0474", "verdict": "wrong", "why": "Wrong expression versus R_p tau2/(1+I/Is)"}
+{"uid": "u0475", "verdict": "wrong", "why": "N versus N^2"}
+{"uid": "u0476", "verdict": "wrong", "why": "Wrong expression, missing i n e^2 E/(m w)"}
+{"uid": "u0477", "verdict": "wrong", "why": "1941 versus 7.91"}
+{"uid": "u0478", "verdict": "wrong", "why": "5000 versus 1305"}
+{"uid": "u0479", "verdict": "wrong", "why": "1600 versus 2670"}
+{"uid": "u0480", "verdict": "wrong", "why": "Wrong relation; gold is (1/L\u03c1_l)(1-\u03c1_l/\u03c1_s)"}
+{"uid": "u0481", "verdict": "wrong", "why": "Linear signed sum, gold is quadrature sum"}
+{"uid": "u0482", "verdict": "wrong", "why": "Symbolic sum, gold is 208"}
+{"uid": "u0483", "verdict": "right", "why": "Option a is 0.6 m/s"}
+{"uid": "u0484", "verdict": "wrong", "why": "5292 vs 756"}
+{"uid": "u0485", "verdict": "wrong", "why": "3e6 vs 0"}
+{"uid": "u0486", "verdict": "right", "why": "Time matches; speed v0/\u221a2, sign is direction"}
+{"uid": "u0487", "verdict": "wrong", "why": "150 vs 208"}
+{"uid": "u0488", "verdict": "wrong", "why": "600 vs 0.00167"}
+{"uid": "u0489", "verdict": "wrong", "why": "No correct final temperature"}
+{"uid": "u0490", "verdict": "wrong", "why": "1/3 vs 5.4e-4"}
+{"uid": "u0491", "verdict": "wrong", "why": "n v0 lacks Maxwell exponential flux"}
+{"uid": "u0492", "verdict": "wrong", "why": "Linear sum with wrong sign, not quadrature"}
+{"uid": "u0493", "verdict": "wrong", "why": "N vs N^2"}
+{"uid": "u0494", "verdict": "partial", "why": "E=0 right; J has spurious a^2 factor"}
+{"uid": "u0495", "verdict": "wrong", "why": "Off by factor 2"}
+{"uid": "u0496", "verdict": "wrong", "why": "Wrong relation; gold is refraction formula"}
+{"uid": "u0497", "verdict": "wrong", "why": "T proportional, gold 3Nk and T^3"}
+{"uid": "u0498", "verdict": "wrong", "why": "1/3 vs 5.4e-4"}
+{"uid": "u0499", "verdict": "wrong", "why": "Not Coulomb-derived expression"}
+{"uid": "u0500", "verdict": "wrong", "why": "Wrong expression"}
+{"uid": "u0501", "verdict": "wrong", "why": "70 vs 580 J"}
+{"uid": "u0502", "verdict": "wrong", "why": "g/R is wrong"}
+{"uid": "u0503", "verdict": "wrong", "why": "3e6 vs 0"}
+{"uid": "u0504", "verdict": "wrong", "why": "Beta decay only; gold alpha, gamma, beta"}
+{"uid": "u0505", "verdict": "wrong", "why": "40 vs 171.4"}
+{"uid": "u0506", "verdict": "wrong", "why": "Q vs 208"}
+{"uid": "u0507", "verdict": "partial", "why": "Potential energy right; potential differences wrong"}
+{"uid": "u0508", "verdict": "wrong", "why": "Wrong amplitudes and wavenumbers"}
+{"uid": "u0509", "verdict": "wrong", "why": "Wrong expression"}
+{"uid": "u0510", "verdict": "wrong", "why": "A^2 vs A, no coefficient"}
+{"uid": "u0511", "verdict": "wrong", "why": "138 vs 286.1"}
+{"uid": "u0512", "verdict": "right", "why": "abc matches (a),(b),(c)"}
+{"uid": "u0513", "verdict": "wrong", "why": "a\u0394V vs a"}
+{"uid": "u0514", "verdict": "wrong", "why": "34 vs 4"}
+{"uid": "u0515", "verdict": "wrong", "why": "Wrong expression"}
+{"uid": "u0516", "verdict": "wrong", "why": "Wrong velocities"}
+{"uid": "u0517", "verdict": "wrong", "why": "7700 m vs 5.89 km"}
+{"uid": "u0518", "verdict": "wrong", "why": "5292 vs 756"}
+{"uid": "u0519", "verdict": "wrong", "why": "Eigenvalues wrong"}
+{"uid": "u0400", "verdict": "wrong", "why": "No x', y', phi' velocities given"}
+{"uid": "u0401", "verdict": "wrong", "why": "6.875 vs 7.196; wrong formula"}
+{"uid": "u0402", "verdict": "right", "why": "abc matches (a),(b),(c)"}
+{"uid": "u0403", "verdict": "wrong", "why": "Omits ground-state energy term"}
+{"uid": "u0404", "verdict": "partial", "why": "Fundamental right; 2nd and 3rd harmonics wrong"}
+{"uid": "u0405", "verdict": "wrong", "why": "Omits ground-state energy term"}
+{"uid": "u0406", "verdict": "wrong", "why": "Not 3/(2 n eps_F)"}
+{"uid": "u0407", "verdict": "wrong", "why": "Expression unrelated to gold"}
+{"uid": "u0408", "verdict": "wrong", "why": "Not G = 2e^2 T/h"}
+{"uid": "u0409", "verdict": "right", "why": "1020 kPa equals 1.02 MPa"}
+{"uid": "u0410", "verdict": "wrong", "why": "2.29 vs 1.72"}
+{"uid": "u0411", "verdict": "wrong", "why": "2000 s nonsense vs 6.67e-12 s"}
+{"uid": "u0412", "verdict": "wrong", "why": "2 vs 5.3e19"}
+{"uid": "u0413", "verdict": "partial", "why": "Boxed only 10^6; reasoning invalid"}
+{"uid": "u0414", "verdict": "wrong", "why": "Not alpha, gamma, beta"}
+{"uid": "u0415", "verdict": "wrong", "why": "sqrt(T) vs T^(-3/2)"}
+{"uid": "u0416", "verdict": "wrong", "why": "A^2 instead of A; no coefficient"}
+{"uid": "u0417", "verdict": "right", "why": "0.02 ohm; 0.000225 g = 0.225 mg"}
+{"uid": "u0418", "verdict": "wrong", "why": "Differs from 2rV/(b^2-a^2)"}
+{"uid": "u0419", "verdict": "wrong", "why": "2 vs 1"}
+{"uid": "u0420", "verdict": "wrong", "why": "4200 vs 2.1e6"}
+{"uid": "u0421", "verdict": "right", "why": "70R is about 582 J"}
+{"uid": "u0422", "verdict": "wrong", "why": "518 vs 0.815"}
+{"uid": "u0423", "verdict": "wrong", "why": "3eps_F/(4n) is not 3/(2 n eps_F)"}
+{"uid": "u0424", "verdict": "wrong", "why": "Wrong relation; no pi hbar/(4 eps) or number"}
+{"uid": "u0425", "verdict": "wrong", "why": "Missing factor a and 1/2"}
+{"uid": "u0426", "verdict": "wrong", "why": "7.5 vs 5.36"}
+{"uid": "u0427", "verdict": "right", "why": "Matches sigma Q/(4 pi eps r^2)"}
+{"uid": "u0428", "verdict": "wrong", "why": "1 vs 6"}
+{"uid": "u0429", "verdict": "wrong", "why": "Wrong saturation form"}
+{"uid": "u0430", "verdict": "partial", "why": "Electrostatic right; kinetic not given as required"}
+{"uid": "u0431", "verdict": "wrong", "why": "432.6 vs 1305"}
+{"uid": "u0432", "verdict": "wrong", "why": "No numerical 208"}
+{"uid": "u0433", "verdict": "wrong", "why": "Not proportional to sin phi"}
+{"uid": "u0434", "verdict": "partial", "why": "V_CA and V_C wrong; energies right"}
+{"uid": "u0435", "verdict": "right", "why": "Option a is 1/2 m w^2 A^2"}
+{"uid": "u0436", "verdict": "wrong", "why": "22.756 vs 23.756"}
+{"uid": "u0437", "verdict": "wrong", "why": "0.316c vs 0.417c"}
+{"uid": "u0438", "verdict": "wrong", "why": "Not sqrt(c(T1+T2-2T))"}
+{"uid": "u0439", "verdict": "wrong", "why": "2.44e7 vs 1.46e6"}
+{"uid": "u0560", "verdict": "wrong", "why": "Gives M_e, ignores (R/R_e)^3 factor"}
+{"uid": "u0561", "verdict": "wrong", "why": "Unit vector, missing 41 km/h magnitude"}
+{"uid": "u0562", "verdict": "wrong", "why": "Chose b (average KE); gold is a"}
+{"uid": "u0563", "verdict": "wrong", "why": "n_e*omega nonsense; gold i n e^2 E/(m \u03c9)"}
+{"uid": "u0564", "verdict": "wrong", "why": "Factor 1/4 versus gold 1/2"}
+{"uid": "u0565", "verdict": "wrong", "why": "7.5 versus 5.36 V"}
+{"uid": "u0566", "verdict": "wrong", "why": "Wrong expression, no 1+I/Is denominator"}
+{"uid": "u0567", "verdict": "wrong", "why": "Not a flow volume per minute; 0.186 expected"}
+{"uid": "u0568", "verdict": "wrong", "why": "Only k=pi/a; energy lacks hbar, wrong form"}
+{"uid": "u0569", "verdict": "partial", "why": "P on s wrong; claims same for P and T"}
+{"uid": "u0570", "verdict": "wrong", "why": "n v0 versus Maxwellian flux expression"}
+{"uid": "u0571", "verdict": "wrong", "why": "3 J versus 770 J"}
+{"uid": "u0572", "verdict": "partial", "why": "Total time 10 s right; part 1 missing"}
+{"uid": "u0573", "verdict": "wrong", "why": "1760 versus 2670 kJ/kg"}
+{"uid": "u0574", "verdict": "wrong", "why": "Nonsense; gold hc/\u03bb and hc/\u03bb - h v0"}
+{"uid": "u0575", "verdict": "wrong", "why": "cos instead of sin"}
+{"uid": "u0576", "verdict": "wrong", "why": "2/3 m0 versus m0/e"}
+{"uid": "u0577", "verdict": "wrong", "why": "0.5 m versus 0.0153 m"}
+{"uid": "u0578", "verdict": "wrong", "why": "1600 versus 2670"}
+{"uid": "u0579", "verdict": "wrong", "why": "Degeneracy-weighted; gold 2N/3 and N/3"}
+{"uid": "u0580", "verdict": "wrong", "why": "18.87 versus 1305"}
+{"uid": "u0581", "verdict": "wrong", "why": "Linear sum, not quadrature gold expression"}
+{"uid": "u0582", "verdict": "wrong", "why": "Unrelated expression, lacks mu0 and gap formula"}
+{"uid": "u0583", "verdict": "wrong", "why": "0.937 versus 1.42"}
+{"uid": "u0584", "verdict": "right", "why": "p qdot - L equals gold for one coordinate"}
+{"uid": "u0585", "verdict": "wrong", "why": "Linear T; gold 3Nk and T^3"}
+{"uid": "u0586", "verdict": "wrong", "why": "No alpha, gamma, beta identified"}
+{"uid": "u0587", "verdict": "right", "why": "p qdot - L equals gold for one coordinate"}
+{"uid": "u0588", "verdict": "right", "why": "abc matches (a), (b), (c)"}
+{"uid": "u0589", "verdict": "wrong", "why": "Gives l, ignores relativistic formula"}
+{"uid": "u0590", "verdict": "wrong", "why": "600 versus 0.00167 kW/K"}
+{"uid": "u0591", "verdict": "wrong", "why": "1/T versus 3Nk and T^3"}
+{"uid": "u0592", "verdict": "wrong", "why": "T^4 versus T^-3/2"}
+{"uid": "u0593", "verdict": "wrong", "why": "29.3 versus 7.91 W/K"}
+{"uid": "u0594", "verdict": "wrong", "why": "Percentage versus 3.5e-32 m"}
+{"uid": "u0595", "verdict": "wrong", "why": "Symbolic Q, no value 208"}
+{"uid": "u0596", "verdict": "wrong", "why": "29.3 versus 7.91 W/K"}
+{"uid": "u0597", "verdict": "wrong", "why": "Garbled, not the Clapeyron-derived dL/dT"}
+{"uid": "u0598", "verdict": "wrong", "why": "f=v/lambda chosen; gold lambda=v/f"}
+{"uid": "u0599", "verdict": "wrong", "why": "a/2 versus b/2, flawed derivation"}
+{"uid": "u0520", "verdict": "wrong", "why": "Gives mu0 K t/n, not mu0 n K t"}
+{"uid": "u0521", "verdict": "partial", "why": "Time 72.7 s wrong; speed and fuel near gold"}
+{"uid": "u0522", "verdict": "wrong", "why": "Gives X, gold is 4 X N0"}
+{"uid": "u0523", "verdict": "wrong", "why": "Linear signed sum, gold is quadrature sum"}
+{"uid": "u0524", "verdict": "wrong", "why": "Gives 2, gold is 1"}
+{"uid": "u0525", "verdict": "wrong", "why": "Formula differs from the gold"}
+{"uid": "u0526", "verdict": "wrong", "why": "30400 vs 0.815"}
+{"uid": "u0527", "verdict": "wrong", "why": "410 m vs 5.89 km"}
+{"uid": "u0528", "verdict": "wrong", "why": "K given as 2, gold sqrt2; others unclear"}
+{"uid": "u0529", "verdict": "wrong", "why": "2440 vs 1.46e6"}
+{"uid": "u0530", "verdict": "right", "why": "1021 kPa equals 1.02 MPa"}
+{"uid": "u0531", "verdict": "wrong", "why": "3e14 vs 1e12"}
+{"uid": "u0532", "verdict": "wrong", "why": "Wrong sign in the exponent"}
+{"uid": "u0533", "verdict": "wrong", "why": "3.04 vs 0.815"}
+{"uid": "u0534", "verdict": "wrong", "why": "5.8 vs 2.0"}
+{"uid": "u0535", "verdict": "wrong", "why": "Chose c, gold is 720 (b)"}
+{"uid": "u0536", "verdict": "wrong", "why": "82500 vs 7.91"}
+{"uid": "u0537", "verdict": "wrong", "why": "300 vs 0.00167"}
+{"uid": "u0538", "verdict": "right", "why": "Boxed expression matches the gold energy function"}
+{"uid": "u0539", "verdict": "wrong", "why": "Does not match any gold part"}
+{"uid": "u0540", "verdict": "wrong", "why": "Wrong resonance frequency formula"}
+{"uid": "u0541", "verdict": "wrong", "why": "Misses k=omega/c and k.A0=0"}
+{"uid": "u0542", "verdict": "wrong", "why": "T^{4/3} vs T^{-3/2}"}
+{"uid": "u0543", "verdict": "wrong", "why": "2.7 cm vs 0.00108"}
+{"uid": "u0544", "verdict": "partial", "why": "Only total time 10 s given"}
+{"uid": "u0545", "verdict": "wrong", "why": "3e14 vs 1e12"}
+{"uid": "u0546", "verdict": "wrong", "why": "Same transformation given for P and T, wrong"}
+{"uid": "u0547", "verdict": "wrong", "why": "7.5 vs 66.5"}
+{"uid": "u0548", "verdict": "wrong", "why": "Includes g factors; gold 2N/3, N/3"}
+{"uid": "u0549", "verdict": "wrong", "why": "6.27 vs 1305"}
+{"uid": "u0550", "verdict": "right", "why": "Matches the gold magnitude"}
+{"uid": "u0551", "verdict": "wrong", "why": "Missing mu0 factor"}
+{"uid": "u0552", "verdict": "wrong", "why": "Wrong resonance frequency"}
+{"uid": "u0553", "verdict": "wrong", "why": "Not psi=0 inside conductor"}
+{"uid": "u0554", "verdict": "wrong", "why": "Force expression differs from the gold"}
+{"uid": "u0555", "verdict": "wrong", "why": "hc/2 is wrong; gold hc/lambda"}
+{"uid": "u0556", "verdict": "wrong", "why": "g/2a vs 3g/4a"}
+{"uid": "u0557", "verdict": "wrong", "why": "k wrong and negative energy"}
+{"uid": "u0558", "verdict": "partial", "why": "Acceleration right; speed and displacement wrong"}
+{"uid": "u0559", "verdict": "right", "why": "Option a is the gold value"}
+{"uid": "u0600", "verdict": "wrong", "why": "Power formula missing; v0<<c and E=v0 B sin\u03b1 not given"}
+{"uid": "u0601", "verdict": "partial", "why": "v=60 and t=10 right; h1 not given as 180"}
+{"uid": "u0602", "verdict": "wrong", "why": "Mass-conservation nonsense; gold is a different expression"}
+{"uid": "u0603", "verdict": "right", "why": "abc matches (a),(b),(c)"}
+{"uid": "u0604", "verdict": "wrong", "why": "sqrt2/3 vs gold 1/2"}
+{"uid": "u0605", "verdict": "wrong", "why": "Gold a=0,d=0,e=6b; answer differs"}
+{"uid": "u0606", "verdict": "wrong", "why": "Constant answer; gold 3Nk at high T, T^3 at low"}
+{"uid": "u0607", "verdict": "wrong", "why": "8.5 vs 216 MeV"}
+{"uid": "u0608", "verdict": "wrong", "why": "h_i e_i instead of e_i/h_i"}
+{"uid": "u0609", "verdict": "wrong", "why": "NR vs 3Nk"}
+{"uid": "u0610", "verdict": "partial", "why": "t=10 right; h1 and v not given"}
+{"uid": "u0611", "verdict": "wrong", "why": "Not psi=0 boundary condition"}
+{"uid": "u0612", "verdict": "wrong", "why": "9/4 vs 1/2"}
+{"uid": "u0613", "verdict": "wrong", "why": "Gave intensity 5.6 W/m2, not 3.7e-8 Pa"}
+{"uid": "u0614", "verdict": "wrong", "why": "0.277 vs 0.159"}
+{"uid": "u0615", "verdict": "wrong", "why": "1e-3 vs 0.1 barn"}
+{"uid": "u0616", "verdict": "wrong", "why": "3 vs 6"}
+{"uid": "u0617", "verdict": "wrong", "why": "Wrong expression, not Rp tau2/(1+I/Is)"}
+{"uid": "u0618", "verdict": "wrong", "why": "3e14 W/mm2 vs 1e12 pressure"}
+{"uid": "u0619", "verdict": "wrong", "why": "3/5 vs 1/2"}
+{"uid": "u0620", "verdict": "wrong", "why": "Different capacitance expression from gold"}
+{"uid": "u0621", "verdict": "wrong", "why": "mu mg vs mg e^{-5 mu pi/2}"}
+{"uid": "u0622", "verdict": "right", "why": "Equivalent sinh series with explicit Fourier coefficients"}
+{"uid": "u0623", "verdict": "wrong", "why": "P on s and T on s/p wrong signs"}
+{"uid": "u0624", "verdict": "wrong", "why": "c instead of relativistic formula"}
+{"uid": "u0625", "verdict": "wrong", "why": "Missing mu0 factor"}
+{"uid": "u0626", "verdict": "wrong", "why": "0.136 m/s vs 4314 m/s"}
+{"uid": "u0627", "verdict": "wrong", "why": "sqrt(M/m) v vs (1+M/m)v"}
+{"uid": "u0628", "verdict": "right", "why": "0.02 ohm, 0.000225 g = 0.225 mg"}
+{"uid": "u0629", "verdict": "wrong", "why": "0 vs -16/25"}
+{"uid": "u0630", "verdict": "wrong", "why": "Wrong flux expression"}
+{"uid": "u0631", "verdict": "wrong", "why": "40 vs 171.4"}
+{"uid": "u0632", "verdict": "partial", "why": "(a) right; (b),(c) wrong"}
+{"uid": "u0633", "verdict": "wrong", "why": "1/2 vs 2"}
+{"uid": "u0634", "verdict": "wrong", "why": "108 vs 8.43 GeV"}
+{"uid": "u0635", "verdict": "partial", "why": "Exact V given; T and expanded V missing"}
+{"uid": "u0636", "verdict": "wrong", "why": "525 W vs 24,600 W"}
+{"uid": "u0637", "verdict": "wrong", "why": "3e6 vs 0"}
+{"uid": "u0638", "verdict": "wrong", "why": "Wrong occupations; gold 2N/3, N/3"}
+{"uid": "u0639", "verdict": "wrong", "why": "d is 312; gold 224 is option c"}
+{"uid": "u0720", "verdict": "wrong", "why": "Gives c, not the relativistic formula"}
+{"uid": "u0721", "verdict": "wrong", "why": "Gold is 0, answer 3e6 J"}
+{"uid": "u0722", "verdict": "wrong", "why": "Linear signed sum, not quadrature sum"}
+{"uid": "u0723", "verdict": "wrong", "why": "Chose v=f\u03bb, gold \u03bb=v/f"}
+{"uid": "u0724", "verdict": "wrong", "why": "Probabilities 1/4, 3/4, not 2/3, 1/3"}
+{"uid": "u0725", "verdict": "wrong", "why": "2e30 vs gold 1e17"}
+{"uid": "u0726", "verdict": "wrong", "why": "Boxed 3, no valid answer"}
+{"uid": "u0727", "verdict": "wrong", "why": "Wrong form, T^4/V instead of T^3 V"}
+{"uid": "u0728", "verdict": "wrong", "why": "304 vs 0.815"}
+{"uid": "u0729", "verdict": "wrong", "why": "2/5 vs 1/2"}
+{"uid": "u0730", "verdict": "wrong", "why": "29.3 vs 7.91"}
+{"uid": "u0731", "verdict": "right", "why": "Same equation of state, constant is V0"}
+{"uid": "u0732", "verdict": "wrong", "why": "Extra factor V; gold F=a"}
+{"uid": "u0733", "verdict": "right", "why": "abc matches (a), (b), (c)"}
+{"uid": "u0734", "verdict": "wrong", "why": "8.5 vs 216 MeV"}
+{"uid": "u0735", "verdict": "wrong", "why": "Chose b, gold is a"}
+{"uid": "u0736", "verdict": "wrong", "why": "N instead of N^2"}
+{"uid": "u0737", "verdict": "wrong", "why": "5e28 vs 1e17"}
+{"uid": "u0738", "verdict": "wrong", "why": "a/\u0394V, gold is a"}
+{"uid": "u0739", "verdict": "wrong", "why": "Geometric nonsense, not the atmosphere formula"}
+{"uid": "u0740", "verdict": "wrong", "why": "Wrong expression for inversion"}
+{"uid": "u0741", "verdict": "right", "why": "Same second-order one-sided stencil"}
+{"uid": "u0742", "verdict": "wrong", "why": "8 vs 2"}
+{"uid": "u0743", "verdict": "wrong", "why": "Missing \u03bc0 and gap form"}
+{"uid": "u0744", "verdict": "partial", "why": "Acceleration right; speed and displacement wrong"}
+{"uid": "u0745", "verdict": "wrong", "why": "Wrong expression, not sqrt(m\u03bbR)"}
+{"uid": "u0746", "verdict": "wrong", "why": "Galilean l, not relativistic result"}
+{"uid": "u0747", "verdict": "wrong", "why": "Wrong constraint, no \u03c0\u0127/4\u03b5"}
+{"uid": "u0748", "verdict": "wrong", "why": "Geometric nonsense, not the atmosphere formula"}
+{"uid": "u0749", "verdict": "wrong", "why": "Linear signed sum, not quadrature sum"}
+{"uid": "u0750", "verdict": "wrong", "why": "mc^2 vs \u0394E+\u0394E^2/2mc^2"}
+{"uid": "u0751", "verdict": "right", "why": "Equivalent to sinh(n\u03c0(x-L)/H) series"}
+{"uid": "u0752", "verdict": "wrong", "why": "Gives a power, gold is energies"}
+{"uid": "u0753", "verdict": "wrong", "why": "G\u00b7T=1 vs G=2e\u00b2T/h"}
+{"uid": "u0754", "verdict": "wrong", "why": "Gave Earth orbit distance"}
+{"uid": "u0755", "verdict": "wrong", "why": "T^2 vs T^-3/2"}
+{"uid": "u0756", "verdict": "wrong", "why": "h_i factor inverted"}
+{"uid": "u0757", "verdict": "wrong", "why": "Ground-state answers, not 2/3,1/3,\u0127,0"}
+{"uid": "u0758", "verdict": "right", "why": "f=1/d, same shifted cosine"}
+{"uid": "u0759", "verdict": "wrong", "why": "3.04 vs 0.815"}
+{"uid": "u0800", "verdict": "wrong", "why": "Nonrelativistic eEt/m, not the relativistic form"}
+{"uid": "u0801", "verdict": "wrong", "why": "0.1 nm vs gold 5e-4 nm"}
+{"uid": "u0802", "verdict": "wrong", "why": "27.69 vs 74.1; wrong method"}
+{"uid": "u0803", "verdict": "right", "why": "Gives gradient matrix and symmetric/antisymmetric split"}
+{"uid": "u0804", "verdict": "wrong", "why": "k=pi/a only; energy negative and wrong"}
+{"uid": "u0805", "verdict": "wrong", "why": "Unrelated n-hbar answers, no 2/3, 1/3"}
+{"uid": "u0806", "verdict": "wrong", "why": "Not psi=0 for y<=0"}
+{"uid": "u0807", "verdict": "wrong", "why": "2200 vs 7.91 W/K"}
+{"uid": "u0808", "verdict": "wrong", "why": "NkT vs 3Nk"}
+{"uid": "u0809", "verdict": "wrong", "why": "10 vs 171.4"}
+{"uid": "u0810", "verdict": "wrong", "why": "2 vs 6"}
+{"uid": "u0811", "verdict": "wrong", "why": "185.7 vs gamma 1.42"}
+{"uid": "u0812", "verdict": "partial", "why": "b ~1247 matches 1249; a 0.96 vs 0.096"}
+{"uid": "u0813", "verdict": "right", "why": "117.6 N matches"}
+{"uid": "u0814", "verdict": "wrong", "why": "Not L=I omega nor I domega/dt=N"}
+{"uid": "u0815", "verdict": "wrong", "why": "Missing ground energy term, only ba/2"}
+{"uid": "u0816", "verdict": "wrong", "why": "ln2/eps vs pi hbar/(4 eps)"}
+{"uid": "u0817", "verdict": "wrong", "why": "Not mg e^{-5 mu pi/2}"}
+{"uid": "u0818", "verdict": "right", "why": "Option a is 0.6 m/s"}
+{"uid": "u0819", "verdict": "right", "why": "Shift d/6 equals phase pi/3 with f=1/d"}
+{"uid": "u0820", "verdict": "wrong", "why": "Wrong distance, specific heat, no gap"}
+{"uid": "u0821", "verdict": "wrong", "why": "No numeric threshold of 150 MeV"}
+{"uid": "u0822", "verdict": "wrong", "why": "394.4 vs 60.34 W"}
+{"uid": "u0823", "verdict": "wrong", "why": "Kinetic energy 0 and wrong sign potential"}
+{"uid": "u0824", "verdict": "partial", "why": "200 right; second 100 vs 400"}
+{"uid": "u0825", "verdict": "wrong", "why": "Gave 1 AU, not solar radius"}
+{"uid": "u0826", "verdict": "wrong", "why": "Wrong formula, not i n e^2 E/(m omega)"}
+{"uid": "u0827", "verdict": "wrong", "why": "132 W vs 24,600"}
+{"uid": "u0828", "verdict": "wrong", "why": "Factor 2 off: 1/4 vs 1/2"}
+{"uid": "u0829", "verdict": "wrong", "why": "2 vs 1"}
+{"uid": "u0830", "verdict": "wrong", "why": "Missing (Ke-1) and cos theta"}
+{"uid": "u0831", "verdict": "wrong", "why": "Not 2.5e-15"}
+{"uid": "u0832", "verdict": "partial", "why": "Speed 20 right; time 40 wrong; no fuel"}
+{"uid": "u0833", "verdict": "wrong", "why": "Symbolic sum, no 208 value"}
+{"uid": "u0834", "verdict": "right", "why": "Matches gold with V0 constant"}
+{"uid": "u0835", "verdict": "wrong", "why": "Wrong distance and other parts"}
+{"uid": "u0836", "verdict": "wrong", "why": "5e11 m vs 2.264e-12 m"}
+{"uid": "u0837", "verdict": "wrong", "why": "37.7 vs 1.92"}
+{"uid": "u0838", "verdict": "wrong", "why": "H, B, M all wrong"}
+{"uid": "u0839", "verdict": "wrong", "why": "Kt/(2 pi n) vs mu0 n K t"}
+{"uid": "u0760", "verdict": "wrong", "why": "Gives Q symbolically, not 208"}
+{"uid": "u0761", "verdict": "wrong", "why": "Wrong form; lacks 1/(1+I/Is)"}
+{"uid": "u0762", "verdict": "wrong", "why": "Different expression from gold"}
+{"uid": "u0763", "verdict": "wrong", "why": "Unit vector only, omits 41 km/h magnitude"}
+{"uid": "u0764", "verdict": "wrong", "why": "8.5 vs 216 MeV"}
+{"uid": "u0765", "verdict": "wrong", "why": "Missing factor c under root"}
+{"uid": "u0766", "verdict": "wrong", "why": "No G = 2e^2/h T relation"}
+{"uid": "u0767", "verdict": "wrong", "why": "10^29 vs 10^17"}
+{"uid": "u0768", "verdict": "wrong", "why": "16 vs 150 MeV"}
+{"uid": "u0769", "verdict": "wrong", "why": "27.7 vs 74.1"}
+{"uid": "u0770", "verdict": "wrong", "why": "1 vs 14"}
+{"uid": "u0771", "verdict": "wrong", "why": "4 vs 6"}
+{"uid": "u0772", "verdict": "wrong", "why": "27 vs 1/2"}
+{"uid": "u0773", "verdict": "right", "why": "p q-dot minus L is the energy function"}
+{"uid": "u0774", "verdict": "wrong", "why": "Not the adiabatic hydrostatic formula"}
+{"uid": "u0775", "verdict": "wrong", "why": "Values are double gold; used wrong harmonic formula"}
+{"uid": "u0776", "verdict": "partial", "why": "Circumference right; area 6250 not sqrt(6250)"}
+{"uid": "u0777", "verdict": "wrong", "why": "Not alpha, gamma, beta"}
+{"uid": "u0778", "verdict": "right", "why": "a, b, c matches"}
+{"uid": "u0779", "verdict": "wrong", "why": "n v0 not Maxwellian flux expression"}
+{"uid": "u0780", "verdict": "partial", "why": "Only the time of part 1 correct"}
+{"uid": "u0781", "verdict": "wrong", "why": "Missing N, k; E wrong"}
+{"uid": "u0782", "verdict": "wrong", "why": "T, not (V1/(V1+V2))^(1/4) T1"}
+{"uid": "u0783", "verdict": "right", "why": "Same shifted cosine with phase -pi/3"}
+{"uid": "u0784", "verdict": "wrong", "why": "0.021 s vs 0.48 s"}
+{"uid": "u0785", "verdict": "wrong", "why": "mc^2 vs Delta E + Delta E^2/2mc^2"}
+{"uid": "u0786", "verdict": "right", "why": "Option d is 122"}
+{"uid": "u0787", "verdict": "wrong", "why": "Nonsense value vs 2.14e-3 eV"}
+{"uid": "u0788", "verdict": "wrong", "why": "X N0 vs 4 X N0"}
+{"uid": "u0789", "verdict": "wrong", "why": "Wrong coefficients"}
+{"uid": "u0790", "verdict": "wrong", "why": "4 pi cm^2 vs 2.7e-25"}
+{"uid": "u0791", "verdict": "wrong", "why": "0.019 vs 0.248"}
+{"uid": "u0792", "verdict": "wrong", "why": "2.25 vs 0.00108"}
+{"uid": "u0793", "verdict": "wrong", "why": "0 vs 3/(2 n eF)"}
+{"uid": "u0794", "verdict": "wrong", "why": "Tangents, not the refraction equation"}
+{"uid": "u0795", "verdict": "wrong", "why": "Restates definition, not 3/(2 n eF)"}
+{"uid": "u0796", "verdict": "right", "why": "Both energies match with k=1/4pi eps0"}
+{"uid": "u0797", "verdict": "right", "why": "F/A correct, only symbol differs"}
+{"uid": "u0798", "verdict": "wrong", "why": "15.2 vs 216"}
+{"uid": "u0799", "verdict": "right", "why": "Equivalent, C is V0"}
+{"uid": "u0680", "verdict": "right", "why": "1.64e-18 J equals 10.2 eV"}
+{"uid": "u0681", "verdict": "wrong", "why": "28.3 W/K vs 7.91"}
+{"uid": "u0682", "verdict": "wrong", "why": "Missing the (1+m/M) recoil factor"}
+{"uid": "u0683", "verdict": "wrong", "why": "18 or 108 vs 8.43"}
+{"uid": "u0684", "verdict": "wrong", "why": "1/12 vs 5.4e-4"}
+{"uid": "u0685", "verdict": "wrong", "why": "99 vs 4"}
+{"uid": "u0686", "verdict": "partial", "why": "Proportional to A correct, coefficient missing"}
+{"uid": "u0687", "verdict": "wrong", "why": "3e6 J vs 0"}
+{"uid": "u0688", "verdict": "right", "why": "Rounded values within 2% of gold"}
+{"uid": "u0689", "verdict": "wrong", "why": "8.5 vs 216 MeV"}
+{"uid": "u0690", "verdict": "wrong", "why": "Wrong expression, not the gold formula"}
+{"uid": "u0691", "verdict": "wrong", "why": "0 vs -16/25"}
+{"uid": "u0692", "verdict": "right", "why": "Same shifted cosine with f=1/d"}
+{"uid": "u0693", "verdict": "partial", "why": "Acceleration right, speed and displacement wrong"}
+{"uid": "u0694", "verdict": "wrong", "why": "Wrong B expression"}
+{"uid": "u0695", "verdict": "wrong", "why": "0.2 ohm vs 0.02 ohm"}
+{"uid": "u0696", "verdict": "wrong", "why": "1e19 vs 0.1 cross-section"}
+{"uid": "u0697", "verdict": "wrong", "why": "Wrong dL/dT expression"}
+{"uid": "u0698", "verdict": "wrong", "why": "Exponential decay vs alpha, gamma, beta"}
+{"uid": "u0699", "verdict": "wrong", "why": "6piR/v0 vs 2sqrt2 piR/v0"}
+{"uid": "u0700", "verdict": "wrong", "why": "Linear sum, not quadrature error formula"}
+{"uid": "u0701", "verdict": "wrong", "why": "3N0X vs 4N0X"}
+{"uid": "u0702", "verdict": "wrong", "why": "3 vs 6"}
+{"uid": "u0703", "verdict": "wrong", "why": "a/Volume vs a"}
+{"uid": "u0704", "verdict": "wrong", "why": "All three parts disagree with gold"}
+{"uid": "u0705", "verdict": "wrong", "why": "Gave power ratio, not amplitude coefficient"}
+{"uid": "u0706", "verdict": "wrong", "why": "r^2/s vs the refraction equation"}
+{"uid": "u0707", "verdict": "wrong", "why": "Unit error: 0.136 vs 4314 m/s"}
+{"uid": "u0708", "verdict": "wrong", "why": "5292 vs 756"}
+{"uid": "u0709", "verdict": "wrong", "why": "-i d/dr vs i(2/r + d/dr)"}
+{"uid": "u0710", "verdict": "partial", "why": "Time right, velocity wrong"}
+{"uid": "u0711", "verdict": "wrong", "why": "3e6 J vs 0"}
+{"uid": "u0712", "verdict": "wrong", "why": "90 years vs 270 years"}
+{"uid": "u0713", "verdict": "right", "why": "10^5 lies within 10^4 to 10^6"}
+{"uid": "u0714", "verdict": "wrong", "why": "581 vs 1.6e-17"}
+{"uid": "u0715", "verdict": "partial", "why": "Only 10 s given, h1 and v missing"}
+{"uid": "u0716", "verdict": "wrong", "why": "8.5 vs 216 MeV"}
+{"uid": "u0717", "verdict": "partial", "why": "k right in some, energy wrong"}
+{"uid": "u0718", "verdict": "wrong", "why": "35 W/m^2 vs 3.7e-8 Pa"}
+{"uid": "u0719", "verdict": "wrong", "why": "g sin(l/R) vs gold expression"}
+{"uid": "u0840", "verdict": "wrong", "why": "Gives T_0; gold has a nonzero correction term"}
+{"uid": "u0841", "verdict": "wrong", "why": "3e14 W/m^2 vs gold 1e12 Pa"}
+{"uid": "u0842", "verdict": "partial", "why": "Resistance 0.02 right; mass 0.000225 g vs 0.225"}
+{"uid": "u0843", "verdict": "wrong", "why": "Not sqrt(m lambda R)"}
+{"uid": "u0844", "verdict": "wrong", "why": "2.81 vs 7.196; used linear attenuation"}
+{"uid": "u0845", "verdict": "wrong", "why": "1/2 vs gold 2"}
+{"uid": "u0846", "verdict": "wrong", "why": "All three parts wrong"}
+{"uid": "u0847", "verdict": "wrong", "why": "Nonsense expression, not (1+m/M)\u0394E"}
+{"uid": "u0848", "verdict": "wrong", "why": "Gave mobilities, not 1.33e16 concentration"}
+{"uid": "u0849", "verdict": "wrong", "why": "c/n lacks the Fresnel drag term"}
+{"uid": "u0850", "verdict": "right", "why": "Same equation of state, constant is V0"}
+{"uid": "u0851", "verdict": "wrong", "why": "No numeric threshold near 150 MeV"}
+{"uid": "u0852", "verdict": "wrong", "why": "H/(c nu0) vs 2.5e-15"}
+{"uid": "u0853", "verdict": "wrong", "why": "0.136 m/s vs 4314 m/s"}
+{"uid": "u0854", "verdict": "wrong", "why": "Classical eEt/m, not relativistic result"}
+{"uid": "u0855", "verdict": "wrong", "why": "Symbolic placeholder, no 150 MeV"}
+{"uid": "u0856", "verdict": "wrong", "why": "2el^2 vs gold 0"}
+{"uid": "u0857", "verdict": "wrong", "why": "Wrong expression, lacks mu0 N I and denominator"}
+{"uid": "u0858", "verdict": "right", "why": "1020 kPa equals 1.02 MPa"}
+{"uid": "u0859", "verdict": "right", "why": "70R is about 582 J"}
+{"uid": "u0860", "verdict": "right", "why": "Basis spanning argument concludes the statement"}
+{"uid": "u0861", "verdict": "partial", "why": "Part a 9.6 cm right; part b wrong"}
+{"uid": "u0862", "verdict": "wrong", "why": "0.216, 0.610 vs 0.801, 0.822"}
+{"uid": "u0863", "verdict": "wrong", "why": "80, 10, 4.19 vs 20 s, 20 m/s, 12.6 kg"}
+{"uid": "u0864", "verdict": "wrong", "why": "c - V is not the gold result"}
+{"uid": "u0865", "verdict": "wrong", "why": "No numeric 5.4e-4 value"}
+{"uid": "u0866", "verdict": "wrong", "why": "172000 vs 29.93"}
+{"uid": "u0867", "verdict": "wrong", "why": "Answer 1/0 vs 5.4e-4"}
+{"uid": "u0868", "verdict": "wrong", "why": "1.1e5 s vs 8.32e-8 and 8.32e-13"}
+{"uid": "u0869", "verdict": "wrong", "why": "2 vs gold 1"}
+{"uid": "u0870", "verdict": "wrong", "why": "Absurd 1e30 J vs 10.2 eV"}
+{"uid": "u0871", "verdict": "right", "why": "Shift d/6 equals phase -pi/3"}
+{"uid": "u0872", "verdict": "partial", "why": "Gives only 4; gold is 1, 4"}
+{"uid": "u0873", "verdict": "wrong", "why": "Wrong T and V"}
+{"uid": "u0874", "verdict": "wrong", "why": "50 g vs 54.85 g"}
+{"uid": "u0875", "verdict": "wrong", "why": "1/9 vs 0.159; used wrong formula"}
+{"uid": "u0876", "verdict": "wrong", "why": "2.38 vs 1.72"}
+{"uid": "u0877", "verdict": "wrong", "why": "g is not the gold expression"}
+{"uid": "u0878", "verdict": "wrong", "why": "v vs (1+M/m)v"}
+{"uid": "u0879", "verdict": "wrong", "why": "0.136 m/s vs 4314 m/s"}
+{"uid": "u0640", "verdict": "wrong", "why": "Gives mc^2, not \u0394E + \u0394E\u00b2/2mc\u00b2"}
+{"uid": "u0641", "verdict": "wrong", "why": "4 vs gold 6"}
+{"uid": "u0642", "verdict": "wrong", "why": "138 vs 286.1 MeV; ignored threshold kinematics"}
+{"uid": "u0643", "verdict": "partial", "why": "sin\u03c6 form right, prefactor missing/wrong"}
+{"uid": "u0644", "verdict": "wrong", "why": "40 vs 171.4"}
+{"uid": "u0645", "verdict": "wrong", "why": "Gave unit vector, not -20.5i+35.5j km/h"}
+{"uid": "u0646", "verdict": "wrong", "why": "3e14 vs 1e12"}
+{"uid": "u0647", "verdict": "wrong", "why": "3276 vs 756"}
+{"uid": "u0648", "verdict": "right", "why": "Same expression, 2\u03c0x/d equals 2\u03c0fx"}
+{"uid": "u0649", "verdict": "partial", "why": "Total time 10 s right; part 1 missing"}
+{"uid": "u0650", "verdict": "wrong", "why": "0.2 ohm and 0.00225 g wrong, off by 10"}
+{"uid": "u0651", "verdict": "wrong", "why": "18 vs 8.43"}
+{"uid": "u0652", "verdict": "wrong", "why": "Not alpha, gamma, beta sequence"}
+{"uid": "u0653", "verdict": "wrong", "why": "Uses sin not sinh, wrong coefficient"}
+{"uid": "u0654", "verdict": "wrong", "why": "T^3 vs T^-3/2"}
+{"uid": "u0655", "verdict": "wrong", "why": "Gives mc^2, not \u0394E + \u0394E\u00b2/2mc\u00b2"}
+{"uid": "u0656", "verdict": "wrong", "why": "N vs N^2"}
+{"uid": "u0657", "verdict": "wrong", "why": "Symbolic answer, no value 208"}
+{"uid": "u0658", "verdict": "wrong", "why": "R\u03c9 vs \u03c9R/3"}
+{"uid": "u0659", "verdict": "wrong", "why": "Q0 only, not 208"}
+{"uid": "u0660", "verdict": "wrong", "why": "9 vs 21.55"}
+{"uid": "u0661", "verdict": "right", "why": "10^6 lies within 10^4~10^6"}
+{"uid": "u0662", "verdict": "wrong", "why": "10^19 vs 0.1"}
+{"uid": "u0663", "verdict": "wrong", "why": "v_i instead of (r1/r2)v_i"}
+{"uid": "u0664", "verdict": "wrong", "why": "7.5 vs 5.36"}
+{"uid": "u0665", "verdict": "wrong", "why": "3e6 J vs 0"}
+{"uid": "u0666", "verdict": "wrong", "why": "Wrong relation, no \u03c0\u0127/4\u03b5 or value"}
+{"uid": "u0667", "verdict": "wrong", "why": "0.25 vs 0.0153"}
+{"uid": "u0668", "verdict": "right", "why": "0.02 \u03a9; 0.000225 g equals 0.225 mg"}
+{"uid": "u0669", "verdict": "wrong", "why": "Chose P, gold is S"}
+{"uid": "u0670", "verdict": "wrong", "why": "Wrong energies, not hc/\u03bb and hc/\u03bb-hv0"}
+{"uid": "u0671", "verdict": "wrong", "why": "Not 6.957e5 km"}
+{"uid": "u0672", "verdict": "right", "why": "Equivalent series with explicit B_n sign/normalization"}
+{"uid": "u0673", "verdict": "wrong", "why": "Chose v=f\u03bb, gold \u03bb=v/f"}
+{"uid": "u0674", "verdict": "right", "why": "Same shifted cosine with phase -\u03c0/3"}
+{"uid": "u0675", "verdict": "wrong", "why": "2.6 vs 7.196"}
+{"uid": "u0676", "verdict": "wrong", "why": "G=1/R, not (2e\u00b2/h)T"}
+{"uid": "u0677", "verdict": "wrong", "why": "GT=1, not G=(2e\u00b2/h)T"}
+{"uid": "u0678", "verdict": "wrong", "why": "Wrong relation, missing 2e\u00b2/h"}
+{"uid": "u0679", "verdict": "wrong", "why": "Wrong form, not adiabatic atmosphere formula"}
+{"uid": "u0880", "verdict": "wrong", "why": "gives 1/2 and r*omega; gold 2/3, 1/3, hbar, 0"}
+{"uid": "u0881", "verdict": "wrong", "why": "garbled log expression, not the gold formula"}
+{"uid": "u0882", "verdict": "wrong", "why": "gold -16/25; answer is a mass-ratio symbol"}
+{"uid": "u0883", "verdict": "wrong", "why": "410 vs 1305"}
+{"uid": "u0884", "verdict": "wrong", "why": "chose d (3.0); gold is 0.6"}
+{"uid": "u0885", "verdict": "wrong", "why": "unit vector only; gold is (-20.5, 35.5) km/h"}
+{"uid": "u0886", "verdict": "wrong", "why": "wrong potential differences and signs; potentials differ from gold"}
+{"uid": "u0887", "verdict": "wrong", "why": "missing factor 1/4 from integration"}
+{"uid": "u0888", "verdict": "wrong", "why": "single-spin Z and E; gold needs N spins, tanh"}
+{"uid": "u0889", "verdict": "partial", "why": "P on s wrong; p and T parts correct"}
+{"uid": "u0890", "verdict": "wrong", "why": "100 vs 1305"}
+{"uid": "u0891", "verdict": "partial", "why": "resistance 0.02 right; mass 0.000225 g vs 0.225"}
+{"uid": "u0892", "verdict": "wrong", "why": "missing (Ke-1) and cos theta"}
+{"uid": "u0893", "verdict": "wrong", "why": "nonsense expression, not e^2/(4 pi eps0 n hbar)"}
+{"uid": "u0894", "verdict": "wrong", "why": "1 vs 0.1"}
+{"uid": "u0895", "verdict": "wrong", "why": "v vs (1+M/m)v"}
+{"uid": "u0896", "verdict": "wrong", "why": "1.0e-8 s vs 5.0e-9 s"}
+{"uid": "u0897", "verdict": "wrong", "why": "symbolic sum, no value 208"}
+{"uid": "u0898", "verdict": "wrong", "why": "all three parts wrong"}
+{"uid": "u0899", "verdict": "wrong", "why": "12.5 vs -1.28e-5"}
+{"uid": "u0900", "verdict": "right", "why": "1 s, 10 m, 10 sqrt2 = 14.1 m/s"}
+{"uid": "u0901", "verdict": "wrong", "why": "1, 40, 9e9 vs 20 s, 20 m/s, 12.6 kg"}
+{"uid": "u0902", "verdict": "wrong", "why": "uses eps not sqrt(eps)"}
+{"uid": "u0903", "verdict": "wrong", "why": "parametric, not the streamline equation"}
+{"uid": "u0904", "verdict": "wrong", "why": "1.7e-27 vs 0.248"}
+{"uid": "u0905", "verdict": "wrong", "why": "2.4e29 vs 1e17"}
+{"uid": "u0906", "verdict": "wrong", "why": "N vs N^2"}
+{"uid": "u0907", "verdict": "wrong", "why": "gives decay constant, gold is 270 years"}
+{"uid": "u0908", "verdict": "wrong", "why": "0.1 nm vs 5e-4 nm"}
+{"uid": "u0909", "verdict": "wrong", "why": "1672 vs alpha 1.46e6"}
+{"uid": "u0910", "verdict": "wrong", "why": "2.5 keV nonsense vs 0.248"}
+{"uid": "u0911", "verdict": "wrong", "why": "spherical-cap volume nonsense, not adiabatic atmosphere"}
+{"uid": "u0912", "verdict": "wrong", "why": "25000, 4000 vs 0.801, 0.822"}
+{"uid": "u0913", "verdict": "wrong", "why": "4.2 eV vs 2.0 eV"}
+{"uid": "u0914", "verdict": "right", "why": "v1 r1/r2 same as v_i r1/r2"}
+{"uid": "u0915", "verdict": "wrong", "why": "non-relativistic eEt/m, not relativistic form"}
+{"uid": "u0916", "verdict": "wrong", "why": "omega L vs omega sqrt(L^2-a^2)"}
+{"uid": "u0917", "verdict": "wrong", "why": "100 vs 770"}
+{"uid": "u0918", "verdict": "wrong", "why": "4.2e-19 J vs 2.0 eV"}
+{"uid": "u0919", "verdict": "wrong", "why": "5e5 J vs 29.93"}
+{"uid": "u0920", "verdict": "wrong", "why": "Says A^2; gold is A with coefficient 15.6"}
+{"uid": "u0921", "verdict": "wrong", "why": "Gives 0.61, 1.436; gold 0.801, 0.822"}
+{"uid": "u0922", "verdict": "wrong", "why": "3.0e5 kg/s versus gold 66.5"}
+{"uid": "u0923", "verdict": "wrong", "why": "1e27 versus gold 1e17"}
+{"uid": "u0924", "verdict": "wrong", "why": "g versus gold gR(1-cos(l/R))/l"}
+{"uid": "u0925", "verdict": "partial", "why": "Correct A, but coefficient 15.6 missing"}
+{"uid": "u0926", "verdict": "wrong", "why": "3.04 versus gold 0.815"}
+{"uid": "u0927", "verdict": "wrong", "why": "Missing the sqrt(3) factor"}
+{"uid": "u0928", "verdict": "wrong", "why": "M/m versus gold 5.4e-4"}
+{"uid": "u0929", "verdict": "wrong", "why": "100 J versus gold 770"}
+{"uid": "u0930", "verdict": "wrong", "why": "X versus gold 4X N0"}
+{"uid": "u0931", "verdict": "wrong", "why": "Concludes 1/x^2, not 1/x^3"}
+{"uid": "u0932", "verdict": "wrong", "why": "Wrong distance, no energy gap, wrong specific heat"}
+{"uid": "u0933", "verdict": "wrong", "why": "1760 versus gold 2670"}
+{"uid": "u0934", "verdict": "wrong", "why": "Gives intensity, not pressure 1e12"}
+{"uid": "u0935", "verdict": "wrong", "why": "Gives lambda 0.0077, not 270 years"}
+{"uid": "u0936", "verdict": "wrong", "why": "Wrong expression for redshift"}
+{"uid": "u0937", "verdict": "wrong", "why": "10 versus gold 171.4"}
+{"uid": "u0938", "verdict": "wrong", "why": "0 or 600 versus gold 0.00167"}
+{"uid": "u0939", "verdict": "wrong", "why": "All three values wrong"}
+{"uid": "u0940", "verdict": "wrong", "why": "600 versus gold 0.00167"}
+{"uid": "u0941", "verdict": "wrong", "why": "F=aVr versus gold F=a if x_s in V"}
+{"uid": "u0942", "verdict": "wrong", "why": "Gives mobilities, not 1.33e16 concentrations"}
+{"uid": "u0943", "verdict": "wrong", "why": "R/(2 pi L) versus 1/(2 pi sqrt(LC))"}
+{"uid": "u0944", "verdict": "wrong", "why": "Wrong equation of motion"}
+{"uid": "u0945", "verdict": "wrong", "why": "9 versus gold 21.55"}
+{"uid": "u0946", "verdict": "wrong", "why": "Wrong form, no x and y velocities"}
+{"uid": "u0947", "verdict": "wrong", "why": "Gives air density, not 5.3e19"}
+{"uid": "u0948", "verdict": "wrong", "why": "0 versus gold nonzero expression"}
+{"uid": "u0949", "verdict": "partial", "why": "Earthquake energy right; other parts missing"}
+{"uid": "u0950", "verdict": "wrong", "why": "Multiplies by dx instead of dividing"}
+{"uid": "u0951", "verdict": "wrong", "why": "Wrong expression, sigma/epsilon lost"}
+{"uid": "u0952", "verdict": "partial", "why": "1 and sqrt2 right; 0.15 m given as 0.05"}
+{"uid": "u0953", "verdict": "wrong", "why": "Energy-density form, not entropy T^3 V"}
+{"uid": "u0954", "verdict": "wrong", "why": "All three parts wrong"}
+{"uid": "u0955", "verdict": "wrong", "why": "500 seconds versus gold 1.27 THz"}
+{"uid": "u0956", "verdict": "wrong", "why": "dp/dt=0 versus gold dp/dr=rho v^2/r"}
+{"uid": "u0957", "verdict": "partial", "why": "Bottom mass 2 right; top -2/3 missing"}
+{"uid": "u0958", "verdict": "wrong", "why": "360 versus gold 720"}
+{"uid": "u0959", "verdict": "wrong", "why": "1 versus gold T2/(T1-T2)"}
+{"uid": "u1080", "verdict": "wrong", "why": "sin(l/R) instead of R(1-cos(l/R))/l"}
+{"uid": "u1081", "verdict": "partial", "why": "T^3 right; high-T should be constant 3Nk"}
+{"uid": "u1082", "verdict": "wrong", "why": "different expression and wrong derivation"}
+{"uid": "u1083", "verdict": "wrong", "why": "N instead of N^2"}
+{"uid": "u1084", "verdict": "right", "why": "option a is (1/2)mw^2A^2"}
+{"uid": "u1085", "verdict": "partial", "why": "energy density right; total energy 0 and radius b wrong"}
+{"uid": "u1086", "verdict": "right", "why": "same scaling with Re substituted"}
+{"uid": "u1087", "verdict": "wrong", "why": "missing 2x^5/15 term"}
+{"uid": "u1088", "verdict": "wrong", "why": "136.27 MeV differs from 150 MeV"}
+{"uid": "u1089", "verdict": "wrong", "why": "differs from gold expression"}
+{"uid": "u1090", "verdict": "partial", "why": "voltages right; U_C sign opposite gold"}
+{"uid": "u1091", "verdict": "wrong", "why": "gives overlap expression, gold is 1"}
+{"uid": "u1092", "verdict": "wrong", "why": "mixture R 8.314, gold 0.288"}
+{"uid": "u1093", "verdict": "wrong", "why": "gold is 1/(2a)"}
+{"uid": "u1094", "verdict": "wrong", "why": "3Nk/2 instead of 3Nk"}
+{"uid": "u1095", "verdict": "wrong", "why": "b instead of b/2"}
+{"uid": "u1096", "verdict": "right", "why": "C is one-sixth, matches (c)"}
+{"uid": "u1097", "verdict": "partial", "why": "A right; coefficient 8 not 15.6"}
+{"uid": "u1098", "verdict": "partial", "why": "distance wrong; gap and T^3 right"}
+{"uid": "u1099", "verdict": "wrong", "why": "wrong time expression"}
+{"uid": "u1100", "verdict": "wrong", "why": "missing 1/(1+I/Is) form"}
+{"uid": "u1101", "verdict": "wrong", "why": "includes nuclear mass; not 1.022 MeV"}
+{"uid": "u1102", "verdict": "wrong", "why": "M v/m instead of (1+M/m)v"}
+{"uid": "u1103", "verdict": "right", "why": "components match gold"}
+{"uid": "u1104", "verdict": "wrong", "why": "eigenvalues differ from gold"}
+{"uid": "u1105", "verdict": "partial", "why": "H and B right; M off by 100"}
+{"uid": "u1106", "verdict": "wrong", "why": "missing factor 2 (spin)"}
+{"uid": "u1107", "verdict": "wrong", "why": "depends on r, not e^2/(4 pi eps0 n hbar)"}
+{"uid": "u1108", "verdict": "wrong", "why": "2.83e13 Hz vs 1.27 THz"}
+{"uid": "u1109", "verdict": "wrong", "why": "growing exponentials, not gold solution"}
+{"uid": "u1110", "verdict": "wrong", "why": "1.1e11 s vs 5.68e-15 s"}
+{"uid": "u1111", "verdict": "wrong", "why": "not sqrt(e1)-sqrt(e2) over sum"}
+{"uid": "u1112", "verdict": "wrong", "why": "includes nuclear mass; not 1.022 MeV"}
+{"uid": "u1113", "verdict": "wrong", "why": "M v/m instead of (1+M/m)v"}
+{"uid": "u1114", "verdict": "right", "why": "H equals sum qdot dL/dqdot minus L"}
+{"uid": "u1115", "verdict": "wrong", "why": "T^{3/2} instead of T^{-3/2}"}
+{"uid": "u1116", "verdict": "wrong", "why": "no 11 cm value given"}
+{"uid": "u1117", "verdict": "right", "why": "a, b, c matches gold"}
+{"uid": "u1118", "verdict": "wrong", "why": "not the gold reflection coefficient"}
+{"uid": "u1119", "verdict": "wrong", "why": "2el instead of 0"}
+{"uid": "u1160", "verdict": "wrong", "why": "Uses a, b not a-3b; x coefficient 1/2 not 1/4"}
+{"uid": "u1161", "verdict": "wrong", "why": "Gives 3.91e3, not alpha=1.46e6"}
+{"uid": "u1162", "verdict": "right", "why": "1.33e10 cm^-3 equals 1.33e16 m^-3"}
+{"uid": "u1163", "verdict": "wrong", "why": "All three values differ from gold"}
+{"uid": "u1164", "verdict": "wrong", "why": "18.75 vs 5.36"}
+{"uid": "u1165", "verdict": "wrong", "why": "22.1 differs from 21.55 by over 2%"}
+{"uid": "u1166", "verdict": "wrong", "why": "Expression lacks gold's terms"}
+{"uid": "u1167", "verdict": "wrong", "why": "72 K vs 50.7 K"}
+{"uid": "u1168", "verdict": "right", "why": "Matrix and symmetric plus antisymmetric split correct"}
+{"uid": "u1169", "verdict": "wrong", "why": "Gives alpha=1, tau=t; gold is log scale"}
+{"uid": "u1170", "verdict": "wrong", "why": "a*dx*n instead of a or 0"}
+{"uid": "u1171", "verdict": "partial", "why": "Area right, volume wrong"}
+{"uid": "u1172", "verdict": "partial", "why": "X-ray energy loss 1.95% vs 2.35%; others fine"}
+{"uid": "u1173", "verdict": "wrong", "why": "Velocity components wrong, omega not explicit"}
+{"uid": "u1174", "verdict": "wrong", "why": "1.6e28 atoms vs gold 1e17"}
+{"uid": "u1175", "verdict": "partial", "why": "Vc, Tc right; pc has extra 1/R"}
+{"uid": "u1176", "verdict": "wrong", "why": "0 vs 756"}
+{"uid": "u1177", "verdict": "wrong", "why": "Unit error; 1e26 barns vs 0.1"}
+{"uid": "u1178", "verdict": "wrong", "why": "0.28 s vs 0.48 s"}
+{"uid": "u1179", "verdict": "wrong", "why": "2 vs 1"}
+{"uid": "u1180", "verdict": "wrong", "why": "133 vs 74.1"}
+{"uid": "u1181", "verdict": "wrong", "why": "Has m+1/2 factor, gold sqrt(m lambda R)"}
+{"uid": "u1182", "verdict": "right", "why": "(c) one-sixth matches"}
+{"uid": "u1183", "verdict": "wrong", "why": "Different expression from gold's R"}
+{"uid": "u1184", "verdict": "wrong", "why": "500 vs 5"}
+{"uid": "u1185", "verdict": "wrong", "why": "0 vs I(e2 rho2 - e1 rho1)"}
+{"uid": "u1186", "verdict": "partial", "why": "Missing k*pi general solution"}
+{"uid": "u1187", "verdict": "right", "why": "Mixture R 286.3 J/kgK matches 0.288 kJ/kgK"}
+{"uid": "u1188", "verdict": "wrong", "why": "Misses the V(1-1/n^2) drag term"}
+{"uid": "u1189", "verdict": "wrong", "why": "2.4e7 vs 2.1e6"}
+{"uid": "u1190", "verdict": "wrong", "why": "Has m+1/2 factor, gold sqrt(m lambda R)"}
+{"uid": "u1191", "verdict": "right", "why": "Components match gold"}
+{"uid": "u1192", "verdict": "right", "why": "10^5 within 10^4 to 10^6"}
+{"uid": "u1193", "verdict": "wrong", "why": "n v0/2pi vs Boltzmann-exponential expression"}
+{"uid": "u1194", "verdict": "partial", "why": "a, c, d right; b and e wrong"}
+{"uid": "u1195", "verdict": "partial", "why": "Charge right, field wrong"}
+{"uid": "u1196", "verdict": "right", "why": "1320 J/K equals 1.32 kJ/K"}
+{"uid": "u1197", "verdict": "right", "why": "k=m omega^2, equivalent shift"}
+{"uid": "u1198", "verdict": "wrong", "why": "Chose C (800) but gold is 720"}
+{"uid": "u1199", "verdict": "partial", "why": "Potential differences sign-flipped; energy right"}
+{"uid": "u0960", "verdict": "wrong", "why": "mu mg vs mg e^{-5 mu pi/2}"}
+{"uid": "u0961", "verdict": "wrong", "why": "581 vs 1.6e-17"}
+{"uid": "u0962", "verdict": "wrong", "why": "linear signed sum, not quadrature form"}
+{"uid": "u0963", "verdict": "wrong", "why": "0 vs epsilon0(Ke-1)E0 cos theta"}
+{"uid": "u0964", "verdict": "partial", "why": "(a) matches; (b) sign differs, (c) wrong"}
+{"uid": "u0965", "verdict": "partial", "why": "T^3 low-T ok; distance and gap wrong"}
+{"uid": "u0966", "verdict": "wrong", "why": "dp/dr=0 vs rho v^2/r"}
+{"uid": "u0967", "verdict": "wrong", "why": "delta function, not F=a if source in cell"}
+{"uid": "u0968", "verdict": "wrong", "why": "2pi vs 2sqrt2 pi R/v0"}
+{"uid": "u0969", "verdict": "wrong", "why": "missing -aT(L-L0)^2 term; wrong length term"}
+{"uid": "u0970", "verdict": "wrong", "why": "different expression, extra T^2 and sign"}
+{"uid": "u0971", "verdict": "wrong", "why": "5 vs 1"}
+{"uid": "u0972", "verdict": "wrong", "why": "missing 1/(1+I/Is) saturation factor"}
+{"uid": "u0973", "verdict": "wrong", "why": "wrong prefactor with spurious pi"}
+{"uid": "u0974", "verdict": "right", "why": "1e-25 cm^2 equals 0.1 barn"}
+{"uid": "u0975", "verdict": "partial", "why": "energies match; flow rate 2.3e3 vs 1e6"}
+{"uid": "u0976", "verdict": "wrong", "why": "1.6e28 vs 1e17"}
+{"uid": "u0977", "verdict": "partial", "why": "energies match; flow rate wrong"}
+{"uid": "u0978", "verdict": "wrong", "why": "0.0578 vs 0.159"}
+{"uid": "u0979", "verdict": "wrong", "why": "-7.8e4 vs -1.28e-5"}
+{"uid": "u0980", "verdict": "partial", "why": "omega=ck given; k.A0=0 missing"}
+{"uid": "u0981", "verdict": "wrong", "why": "2.3e-6 vs 2.3e-4"}
+{"uid": "u0982", "verdict": "partial", "why": "200 right; 600 vs 400"}
+{"uid": "u0983", "verdict": "right", "why": "23.756 torr unchanged"}
+{"uid": "u0984", "verdict": "wrong", "why": "3.3e-12 only; lab-frame value mismatched, no 6.67e-7"}
+{"uid": "u0985", "verdict": "partial", "why": "transmitted right; reflected sign opposite"}
+{"uid": "u0986", "verdict": "right", "why": "2mc^2 and h/(2mc) match"}
+{"uid": "u0987", "verdict": "right", "why": "a, b, c"}
+{"uid": "u0988", "verdict": "wrong", "why": "wrong expression, no log term"}
+{"uid": "u0989", "verdict": "wrong", "why": "0 vs sqrt(c(T1+T2-2T))"}
+{"uid": "u0990", "verdict": "wrong", "why": "3/2 Nk vs 3Nk"}
+{"uid": "u0991", "verdict": "partial", "why": "X-ray values ok; gamma percent and energy wrong"}
+{"uid": "u0992", "verdict": "wrong", "why": "no imaging equation given"}
+{"uid": "u0993", "verdict": "wrong", "why": "no probabilities given"}
+{"uid": "u0994", "verdict": "wrong", "why": "wrong g term, undetermined C"}
+{"uid": "u0995", "verdict": "right", "why": "1.64e-18 J equals 10.2 eV"}
+{"uid": "u0996", "verdict": "wrong", "why": "dp/dr=0 vs rho v^2/r"}
+{"uid": "u0997", "verdict": "right", "why": "symmetric plus antisymmetric decomposition"}
+{"uid": "u0998", "verdict": "wrong", "why": "2a/v vs 2a/(3v)"}
+{"uid": "u0999", "verdict": "wrong", "why": "2860 vs 2670"}
+{"uid": "u1040", "verdict": "wrong", "why": "Chose 5P1/2; gold is 5S1/2"}
+{"uid": "u1041", "verdict": "partial", "why": "Potential differences right; U_C sign wrong"}
+{"uid": "u1042", "verdict": "wrong", "why": "240 vs 66.5 kg/s"}
+{"uid": "u1043", "verdict": "wrong", "why": "9 vs 21.55 kJ/kg"}
+{"uid": "u1044", "verdict": "partial", "why": "Boxed AB/BC differences have the wrong sign; U_C sign also wrong"}
+{"uid": "u1045", "verdict": "partial", "why": "T^3 and diamagnetism right; distance and gap wrong"}
+{"uid": "u1046", "verdict": "wrong", "why": "Wrong expression, no i n e^2 E/(m w)"}
+{"uid": "u1047", "verdict": "wrong", "why": "Gives positions and wrong omega, not velocities"}
+{"uid": "u1048", "verdict": "wrong", "why": "1/h^2 instead of 1/h"}
+{"uid": "u1049", "verdict": "wrong", "why": "hbar squared, dimensionally wrong"}
+{"uid": "u1050", "verdict": "partial", "why": "Part a right; weight 1169 vs 1249"}
+{"uid": "u1051", "verdict": "wrong", "why": "Missing Fresnel drag factor (1-1/n^2)"}
+{"uid": "u1052", "verdict": "wrong", "why": "696 vs 216 MeV"}
+{"uid": "u1053", "verdict": "wrong", "why": "hbar squared, differs from gold"}
+{"uid": "u1054", "verdict": "wrong", "why": "Chose (d) 312; gold is 224"}
+{"uid": "u1055", "verdict": "right", "why": "8.33 cm = 0.083 m; 774 N matches"}
+{"uid": "u1056", "verdict": "wrong", "why": "Missing T dependence"}
+{"uid": "u1057", "verdict": "wrong", "why": "Single-spin, no N power, E sign wrong"}
+{"uid": "u1058", "verdict": "wrong", "why": "Not 1.27 THz"}
+{"uid": "u1059", "verdict": "wrong", "why": "2piR/v0 vs 2sqrt2 pi R/v0"}
+{"uid": "u1060", "verdict": "wrong", "why": "0.66 vs 0.33 m/s"}
+{"uid": "u1061", "verdict": "right", "why": "f d=1 so shift equals pi/3 phase"}
+{"uid": "u1062", "verdict": "wrong", "why": "Gold is psi=0 in conductor"}
+{"uid": "u1063", "verdict": "wrong", "why": "1 vs 6"}
+{"uid": "u1064", "verdict": "wrong", "why": "100 kHz vs 1.27 THz"}
+{"uid": "u1065", "verdict": "wrong", "why": "Not 1"}
+{"uid": "u1066", "verdict": "wrong", "why": "N0 X vs 4 X N0"}
+{"uid": "u1067", "verdict": "partial", "why": "Time 40 vs 20 s wrong; others roughly close"}
+{"uid": "u1068", "verdict": "wrong", "why": "Boxed E/x^3 = const, not E \u221d 1/x^3"}
+{"uid": "u1069", "verdict": "wrong", "why": "Gave 0, gold is nonzero"}
+{"uid": "u1070", "verdict": "wrong", "why": "5 vs 4"}
+{"uid": "u1071", "verdict": "wrong", "why": "0 vs I(e2 r2 - e1 r1)"}
+{"uid": "u1072", "verdict": "partial", "why": "Wavelength ok; frequency 5.26 vs 5.8 GHz"}
+{"uid": "u1073", "verdict": "wrong", "why": "Gives T, not (V1/(V1+V2))^(1/4) T1"}
+{"uid": "u1074", "verdict": "wrong", "why": "N vs N^2"}
+{"uid": "u1075", "verdict": "wrong", "why": "Ideal gas law, not gold equation"}
+{"uid": "u1076", "verdict": "wrong", "why": "1 vs 1/2"}
+{"uid": "u1077", "verdict": "wrong", "why": "1,3,1,3 vs gold 1,4"}
+{"uid": "u1078", "verdict": "wrong", "why": "318 kHz vs 1.27 THz"}
+{"uid": "u1079", "verdict": "wrong", "why": "Wrong expression, constants differ"}
+{"uid": "u1120", "verdict": "wrong", "why": "Chose C (800); gold is 720 (b)"}
+{"uid": "u1121", "verdict": "wrong", "why": "0.66 m/s vs gold 0.33"}
+{"uid": "u1122", "verdict": "partial", "why": "T correct; V has wrong sign and no small-angle form"}
+{"uid": "u1123", "verdict": "wrong", "why": "Wrong dL/dT expression, no Clapeyron-based terms"}
+{"uid": "u1124", "verdict": "wrong", "why": "6\u03c0 lacks the \u221a3 GM/c^3 factor"}
+{"uid": "u1125", "verdict": "wrong", "why": "No numeric value given, gold is 208"}
+{"uid": "u1126", "verdict": "wrong", "why": "Wrong redshift expression"}
+{"uid": "u1127", "verdict": "wrong", "why": "Gives (1+e^{-1/a})/2, gold is 1/(2a)"}
+{"uid": "u1128", "verdict": "wrong", "why": "Expression differs from Rp \u03c42/(1+I/Is)"}
+{"uid": "u1129", "verdict": "wrong", "why": "1.4 vs gold 13.9"}
+{"uid": "u1130", "verdict": "wrong", "why": "Claims independence of T, gold T^-3/2"}
+{"uid": "u1131", "verdict": "wrong", "why": "0 vs gold -16/25"}
+{"uid": "u1132", "verdict": "right", "why": "\u221a21/11 c = 0.417c"}
+{"uid": "u1133", "verdict": "right", "why": "\u03c0/2 matches; general k\u03c0 shown in derivation"}
+{"uid": "u1134", "verdict": "wrong", "why": "0 vs -2A/(3\u03c0)"}
+{"uid": "u1135", "verdict": "wrong", "why": "Wrong equation of motion"}
+{"uid": "u1136", "verdict": "right", "why": "Time correct; speed v0/\u221a2 with down sign"}
+{"uid": "u1137", "verdict": "wrong", "why": "Claims no temperature change"}
+{"uid": "u1138", "verdict": "wrong", "why": "Misses recoil term \u0394E\u00b2/2mc\u00b2"}
+{"uid": "u1139", "verdict": "wrong", "why": "E0/\u03b5 vs 3\u03b50E0/(\u03b5+2\u03b50)"}
+{"uid": "u1140", "verdict": "wrong", "why": "0 vs -q\u00b2E\u00b2/(2m\u03c9\u00b2)"}
+{"uid": "u1141", "verdict": "partial", "why": "Bottom 2m right; top mass sign should be negative"}
+{"uid": "u1142", "verdict": "right", "why": "Exact match"}
+{"uid": "u1143", "verdict": "partial", "why": "H and B right; M wrong"}
+{"uid": "u1144", "verdict": "wrong", "why": "Depends on r, not Bohr quantization form"}
+{"uid": "u1145", "verdict": "partial", "why": "Resistance right; mass 0.000225 vs 0.225"}
+{"uid": "u1146", "verdict": "wrong", "why": "Misses recoil term"}
+{"uid": "u1147", "verdict": "wrong", "why": "E should be 0; J wrong"}
+{"uid": "u1148", "verdict": "partial", "why": "20 s right; 60 m vs 120 m"}
+{"uid": "u1149", "verdict": "wrong", "why": "Coefficient 8 vs 15.6"}
+{"uid": "u1150", "verdict": "partial", "why": "First two right; K=2 vs \u221a2"}
+{"uid": "u1151", "verdict": "wrong", "why": "3.95e20 vs 5.3e19"}
+{"uid": "u1152", "verdict": "wrong", "why": "Gave second-derivative formula, not one-sided first derivative"}
+{"uid": "u1153", "verdict": "wrong", "why": "ln2/\u03c4 unrelated to \u03c0\u0127/4\u03b5 or 1.65e-28"}
+{"uid": "u1154", "verdict": "partial", "why": "Per-spin forms only; missing N dependence"}
+{"uid": "u1155", "verdict": "partial", "why": "Dispersion right; missing k\u00b7A0=0"}
+{"uid": "u1156", "verdict": "partial", "why": "T^3 given; high-T 3Nk missing"}
+{"uid": "u1157", "verdict": "wrong", "why": "3e6 J vs gold 0"}
+{"uid": "u1158", "verdict": "wrong", "why": "Linear sum vs quadrature form"}
+{"uid": "u1159", "verdict": "wrong", "why": "1.28e-6 vs 1.28e-5"}
+{"uid": "u1200", "verdict": "wrong", "why": "Gold is i(2/r + d/dr); answer is -i d/dr"}
+{"uid": "u1201", "verdict": "wrong", "why": "Gold is relativistic eEct/sqrt(...); answer is c"}
+{"uid": "u1202", "verdict": "wrong", "why": "0.0576 is not 0.159 amplitude reflectance"}
+{"uid": "u1203", "verdict": "wrong", "why": "Gave second-derivative stencil, not one-sided first derivative"}
+{"uid": "u1204", "verdict": "wrong", "why": "Wrong equation; gold is dp/dr = rho v^2/r"}
+{"uid": "u1205", "verdict": "wrong", "why": "3 GeV versus gold 8.43 GeV"}
+{"uid": "u1206", "verdict": "right", "why": "Mixture R 286.3 J/kgK matches 0.288 within 1%"}
+{"uid": "u1207", "verdict": "right", "why": "1320 J/K equals gold 1.32 kJ/K"}
+{"uid": "u1208", "verdict": "right", "why": "L=Iw and torque = I alpha match gold"}
+{"uid": "u1209", "verdict": "partial", "why": "Wavelength 5.9 cm fine; frequency 5.06 vs 5.8 GHz"}
+{"uid": "u1210", "verdict": "wrong", "why": "Sign wrong: gives dp/dr = -rho v^2/r"}
+{"uid": "u1211", "verdict": "wrong", "why": "0.09 s versus gold 0.48 s"}
+{"uid": "u1212", "verdict": "wrong", "why": "Chose 800/C; gold is 720"}
+{"uid": "u1213", "verdict": "wrong", "why": "Wrong formula; gold i n e^2 E/(m w)"}
+{"uid": "u1214", "verdict": "wrong", "why": "1.7e28 versus gold 1e17"}
+{"uid": "u1215", "verdict": "wrong", "why": "Not the quantized form e^2/(4 pi eps0 n hbar)"}
+{"uid": "u1216", "verdict": "wrong", "why": "c/n lacks Fresnel drag term"}
+{"uid": "u1217", "verdict": "wrong", "why": "Bernoulli-like relation, not dp/dr = rho v^2/r"}
+{"uid": "u1218", "verdict": "wrong", "why": "Missing factor 2 for spin: gold 2e^2/h T"}
+{"uid": "u1219", "verdict": "wrong", "why": "P0 h^-gamma is not the adiabatic atmosphere"}
+{"uid": "u1220", "verdict": "right", "why": "(a),(b),(c) match gold"}
+{"uid": "u1221", "verdict": "wrong", "why": "0.156 versus gold 74.1"}
+{"uid": "u1222", "verdict": "wrong", "why": "Wrong expression; gold pi hbar/(4 eps)"}
+{"uid": "u1223", "verdict": "right", "why": "Both energies match with k=1/(4 pi eps0)"}
+{"uid": "u1224", "verdict": "wrong", "why": "Gave (M+m)/m instead of (1+m/M)"}
+{"uid": "u1225", "verdict": "wrong", "why": "8e8 Hz versus gold 1.27 THz"}
+{"uid": "u1226", "verdict": "wrong", "why": "Missing GM/c^2 factor; wrong dimension and value"}
+{"uid": "u1227", "verdict": "wrong", "why": "Wrong; gold 3 eps0/(eps+2 eps0) E0"}
+{"uid": "u1228", "verdict": "right", "why": "1320 J/K equals gold 1.32 kJ/K"}
+{"uid": "u1229", "verdict": "right", "why": "Option a matches gold"}
+{"uid": "u1230", "verdict": "wrong", "why": "-6.9e-10 versus gold 2.5e-15"}
+{"uid": "u1231", "verdict": "wrong", "why": "5 versus gold 1"}
+{"uid": "u1232", "verdict": "wrong", "why": "Wrong expression versus gold formula"}
+{"uid": "u1233", "verdict": "wrong", "why": "-A/(3 pi) is half of gold -2A/(3 pi)"}
+{"uid": "u1234", "verdict": "wrong", "why": "580 versus gold 1.6e-17"}
+{"uid": "u1235", "verdict": "wrong", "why": "Expression not equivalent to gold"}
+{"uid": "u1236", "verdict": "wrong", "why": "-3.95e-4 versus gold 2.5e-15"}
+{"uid": "u1237", "verdict": "wrong", "why": "bT; gold has -aT(L-L0)^2 + b(T-T0) + S0"}
+{"uid": "u1238", "verdict": "wrong", "why": "No kinetic term or quadratic expansion"}
+{"uid": "u1239", "verdict": "partial", "why": "Only thermal velocity 1.2e5 matches; others wrong"}
+{"uid": "u1000", "verdict": "wrong", "why": "0.0578 vs 0.159"}
+{"uid": "u1001", "verdict": "wrong", "why": "0.24 s vs 0.48 s"}
+{"uid": "u1002", "verdict": "right", "why": "General solution pi/2 + k pi derived in tail"}
+{"uid": "u1003", "verdict": "right", "why": "1322 J/K equals 1.32 kJ/K"}
+{"uid": "u1004", "verdict": "wrong", "why": "Wrong equation of motion"}
+{"uid": "u1005", "verdict": "wrong", "why": "Not psi=0 boundary condition"}
+{"uid": "u1006", "verdict": "wrong", "why": "Single spin, wrong sign, missing N"}
+{"uid": "u1007", "verdict": "right", "why": "Matrix and symmetric plus antisymmetric split correct"}
+{"uid": "u1008", "verdict": "wrong", "why": "Extra 1/omega factor"}
+{"uid": "u1009", "verdict": "wrong", "why": "Missing the 1 + term"}
+{"uid": "u1010", "verdict": "wrong", "why": "Zero vs nonzero temperature"}
+{"uid": "u1011", "verdict": "wrong", "why": "Symbolic sum, no value 208"}
+{"uid": "u1012", "verdict": "right", "why": "E0 + ba/2 given"}
+{"uid": "u1013", "verdict": "wrong", "why": "Wrong expression, no e^2/m"}
+{"uid": "u1014", "verdict": "partial", "why": "Parity of spin wrong, rest right"}
+{"uid": "u1015", "verdict": "wrong", "why": "3234 vs 770"}
+{"uid": "u1016", "verdict": "right", "why": "sqrt21/11 = 0.417"}
+{"uid": "u1017", "verdict": "wrong", "why": "No kinetic term or quadratic expansion"}
+{"uid": "u1018", "verdict": "wrong", "why": "Sign opposite to gold"}
+{"uid": "u1019", "verdict": "wrong", "why": "All three parts differ"}
+{"uid": "u1020", "verdict": "wrong", "why": "Alpha,alpha,beta vs alpha,gamma,beta"}
+{"uid": "u1021", "verdict": "partial", "why": "Only rate given, not delta N"}
+{"uid": "u1022", "verdict": "wrong", "why": "Probabilities do not match"}
+{"uid": "u1023", "verdict": "wrong", "why": "27.2 kW vs 2.1e6"}
+{"uid": "u1024", "verdict": "right", "why": "Both values match"}
+{"uid": "u1025", "verdict": "wrong", "why": "Missing i/omega, wrong form"}
+{"uid": "u1026", "verdict": "wrong", "why": "Extra N-1, sigma^-2"}
+{"uid": "u1027", "verdict": "wrong", "why": "18.75 vs 5.36"}
+{"uid": "u1028", "verdict": "wrong", "why": "Not the 2/r adjoint"}
+{"uid": "u1029", "verdict": "partial", "why": "Parity of spin wrong, rest right"}
+{"uid": "u1030", "verdict": "wrong", "why": "1010 vs 770"}
+{"uid": "u1031", "verdict": "partial", "why": "Only 371 keV matches"}
+{"uid": "u1032", "verdict": "wrong", "why": "Wrong equation of state"}
+{"uid": "u1033", "verdict": "wrong", "why": "Not psi=0 boundary condition"}
+{"uid": "u1034", "verdict": "partial", "why": "Parts 2 and 3 right, 1 and 4 wrong"}
+{"uid": "u1035", "verdict": "wrong", "why": "Different critical velocity formula"}
+{"uid": "u1036", "verdict": "wrong", "why": "Phase sign +pi/3 vs -pi/3"}
+{"uid": "u1037", "verdict": "right", "why": "Matches gold with f=1/d"}
+{"uid": "u1038", "verdict": "wrong", "why": "E0/(eps+1) vs 3E0/(eps+2)"}
+{"uid": "u1039", "verdict": "wrong", "why": "Missing dp/dr = rho v^2/r"}
+{"uid": "u1240", "verdict": "wrong", "why": "1/P, not 3/(2n\u03b5_F)"}
+{"uid": "u1241", "verdict": "wrong", "why": "81/2197 vs 81/169"}
+{"uid": "u1242", "verdict": "wrong", "why": "6.07 cm and 5.14 GHz differ from gold"}
+{"uid": "u1243", "verdict": "right", "why": "Equivalent to gold with V0 = 0"}
+{"uid": "u1244", "verdict": "partial", "why": "Only the fringe rate given; \u0394N missing"}
+{"uid": "u1245", "verdict": "wrong", "why": "2857 vs 2670"}
+{"uid": "u1246", "verdict": "wrong", "why": "Different expression, wrong dependence"}
+{"uid": "u1247", "verdict": "wrong", "why": "Wrong flux expression"}
+{"uid": "u1248", "verdict": "wrong", "why": "Wrong equation of motion"}
+{"uid": "u1249", "verdict": "wrong", "why": "Gold is 11 cm; answer gives free-space wavelength"}
+{"uid": "u1250", "verdict": "wrong", "why": "K_e E0 vs \u03b50(K_e-1)E0 cos\u03b8"}
+{"uid": "u1251", "verdict": "wrong", "why": "22.2 is 3% off 21.55"}
+{"uid": "u1252", "verdict": "wrong", "why": "Linear in T, gold is T^3"}
+{"uid": "u1253", "verdict": "partial", "why": "Gap and T^3 right; distance wrong"}
+{"uid": "u1254", "verdict": "wrong", "why": "1/h^2 vs 1/h"}
+{"uid": "u1255", "verdict": "wrong", "why": "All three values differ from gold"}
+{"uid": "u1256", "verdict": "wrong", "why": "5.3e-8 vs 8.32e-8"}
+{"uid": "u1257", "verdict": "partial", "why": "Middle decay alpha, gold gamma"}
+{"uid": "u1258", "verdict": "right", "why": "Matches exponential solution"}
+{"uid": "u1259", "verdict": "wrong", "why": "Probabilities do not match gold"}
+{"uid": "u1260", "verdict": "wrong", "why": "Different expression, not Bohr-quantized form"}
+{"uid": "u1261", "verdict": "wrong", "why": "0.05 vs 5e-4 nm"}
+{"uid": "u1262", "verdict": "wrong", "why": "Wrong equation of motion"}
+{"uid": "u1263", "verdict": "wrong", "why": "5/(3n\u03b5_F) vs 3/(2n\u03b5_F)"}
+{"uid": "u1264", "verdict": "wrong", "why": "Wrong field, not uniform 3\u03b50/(\u03b5+2\u03b50)E0"}
+{"uid": "u1265", "verdict": "wrong", "why": "Values differ from gold"}
+{"uid": "u1266", "verdict": "wrong", "why": "Different period expression"}
+{"uid": "u1267", "verdict": "partial", "why": "20.2 ok; 20.4 and 12.3 slightly off"}
+{"uid": "u1268", "verdict": "partial", "why": "Middle decay alpha, gold gamma"}
+{"uid": "u1269", "verdict": "wrong", "why": "Phase sign opposite gold"}
+{"uid": "u1270", "verdict": "wrong", "why": "Extra (2m+1)/2 factor, gold sqrt(m\u03bbR)"}
+{"uid": "u1271", "verdict": "wrong", "why": "Different period expression"}
+{"uid": "u1272", "verdict": "right", "why": "L=I\u03c9 and I\u03c9\u0307=torque"}
+{"uid": "u1273", "verdict": "wrong", "why": "0 vs \u03b50(K_e-1)E0 cos\u03b8"}
+{"uid": "u1274", "verdict": "partial", "why": "Area right, volume wrong"}
+{"uid": "u1275", "verdict": "right", "why": "Both energies match gold"}
+{"uid": "u1276", "verdict": "wrong", "why": "Wrong expression, no exponential"}
+{"uid": "u1277", "verdict": "wrong", "why": "1 vs 6"}
+{"uid": "u1278", "verdict": "right", "why": "Option D is 122"}
+{"uid": "u1279", "verdict": "partial", "why": "Angular velocity right; \u1e8b, \u1e8f wrong"}
+{"uid": "u1280", "verdict": "wrong", "why": "Gold 0; answer 3e6 J"}
+{"uid": "u1281", "verdict": "partial", "why": "(a) correct; (b) and (c) wrong"}
+{"uid": "u1282", "verdict": "wrong", "why": "Field not uniform 3\u03b50/(\u03b5+2\u03b50)E0"}
+{"uid": "u1283", "verdict": "partial", "why": "Acceleration right; speed and displacement wrong"}
+{"uid": "u1284", "verdict": "wrong", "why": "Single-spin result, missing N factors"}
+{"uid": "u1285", "verdict": "wrong", "why": "Gives CM mass sum, not 150 MeV photon threshold"}
+{"uid": "u1286", "verdict": "wrong", "why": "No numeric length 11 cm given"}
+{"uid": "u1287", "verdict": "partial", "why": "Energy right; k only \u03c0/a, not (2n+1)\u03c0/a"}
+{"uid": "u1288", "verdict": "wrong", "why": "Did not eliminate D; different form"}
+{"uid": "u1289", "verdict": "wrong", "why": "Gold m_p c^2; answer depends on E0"}
+{"uid": "u1290", "verdict": "wrong", "why": "No reduced equation given"}
+{"uid": "u1291", "verdict": "wrong", "why": "Heat 165000 W vs gold 24600"}
+{"uid": "u1292", "verdict": "wrong", "why": "Wrong temperature drop expression"}
+{"uid": "u1293", "verdict": "wrong", "why": "Missing x^5 term 2x^5/15"}
+{"uid": "u1294", "verdict": "wrong", "why": "8 versus gold 2"}
+{"uid": "u1295", "verdict": "wrong", "why": "Sign wrong: 75 vs -75"}
+{"uid": "u1296", "verdict": "wrong", "why": "45 W vs 60.34 W"}
+{"uid": "u1297", "verdict": "wrong", "why": "Degeneracies 1 and 4 expected, got 3"}
+{"uid": "u1298", "verdict": "wrong", "why": "Answer \u03c0/\u03c90, not \u03c9=\u03c90"}
+{"uid": "u1299", "verdict": "wrong", "why": "Expression differs from gold"}
+{"uid": "u1300", "verdict": "partial", "why": "Energy right; flow rate 2.3e3 vs 1e6"}
+{"uid": "u1301", "verdict": "wrong", "why": "Vector flux, not a or 0"}
+{"uid": "u1302", "verdict": "wrong", "why": "11.5 W vs 60.34 W"}
+{"uid": "u1303", "verdict": "wrong", "why": "0 vs -16/25"}
+{"uid": "u1304", "verdict": "partial", "why": "Potential differences sign-wrong; energy right"}
+{"uid": "u1305", "verdict": "partial", "why": "Distance wrong; gap and T^3 right"}
+{"uid": "u1306", "verdict": "wrong", "why": "Hall coefficient wrong magnitude"}
+{"uid": "u1307", "verdict": "partial", "why": "(a)-(d) right; (e) b instead of b/2"}
+{"uid": "u1308", "verdict": "wrong", "why": "3/2 Nk vs 3Nk"}
+{"uid": "u1309", "verdict": "partial", "why": "X-ray parts right; gamma-ray parts missing"}
+{"uid": "u1310", "verdict": "partial", "why": "(a) right; (b)-(d) wrong"}
+{"uid": "u1311", "verdict": "wrong", "why": "Single-spin result, missing N factors"}
+{"uid": "u1312", "verdict": "wrong", "why": "Ignored A21; lifetime 5.0 ns expected"}
+{"uid": "u1313", "verdict": "wrong", "why": "Probabilities 2/3, 1/3 not given"}
+{"uid": "u1314", "verdict": "right", "why": "1.64e-18 J equals 10.2 eV"}
+{"uid": "u1315", "verdict": "right", "why": "1020 kPa equals 1.02 MPa"}
+{"uid": "u1316", "verdict": "wrong", "why": "Answer \u03c0/\u03c90, not \u03c9=\u03c90"}
+{"uid": "u1317", "verdict": "wrong", "why": "No numeric value given"}
+{"uid": "u1318", "verdict": "wrong", "why": "Probabilities and values do not match gold"}
+{"uid": "u1319", "verdict": "right", "why": "Components match gold"}
+{"uid": "u1320", "verdict": "right", "why": "Same expression as gold"}
+{"uid": "u1321", "verdict": "wrong", "why": "Probabilities 1 and 0 differ from 2/3, 1/3"}
+{"uid": "u1322", "verdict": "partial", "why": "U_C sign and V_CA sign differ from gold"}
+{"uid": "u1323", "verdict": "right", "why": "1.64e-18 J equals 10.2 eV"}
+{"uid": "u1324", "verdict": "wrong", "why": "1.1 is 3.8% off 8/7"}
+{"uid": "u1325", "verdict": "right", "why": "a, b, c matches gold"}
+{"uid": "u1326", "verdict": "partial", "why": "Acceleration right; speed 5 and 75 m wrong"}
+{"uid": "u1327", "verdict": "wrong", "why": "Gave m+1/2 instead of m"}
+{"uid": "u1328", "verdict": "wrong", "why": "Missing recoil correction term"}
+{"uid": "u1329", "verdict": "partial", "why": "Acceleration right; speed and displacement wrong"}
+{"uid": "u1330", "verdict": "wrong", "why": "Does not give c = 0"}
+{"uid": "u1331", "verdict": "right", "why": "Single-coordinate form of gold expression"}
+{"uid": "u1332", "verdict": "right", "why": "a, b, c matches gold"}
+{"uid": "u1333", "verdict": "right", "why": "2pi x/d equals 2 pi f x"}
+{"uid": "u1334", "verdict": "right", "why": "a, b, c matches gold"}
+{"uid": "u1335", "verdict": "partial", "why": "Acceleration right; speed and displacement wrong"}
+{"uid": "u1336", "verdict": "right", "why": "1020 kPa equals 1.02 MPa"}
+{"uid": "u1337", "verdict": "right", "why": "0.000225 g equals 0.225 mg"}
+{"uid": "u1338", "verdict": "wrong", "why": "No numeric 11 cm given"}
+{"uid": "u1339", "verdict": "wrong", "why": "Only symbol H, no expression"}
+{"uid": "u1340", "verdict": "wrong", "why": "Sign positive; gold negative"}
+{"uid": "u1341", "verdict": "wrong", "why": "No value 208 given"}
+{"uid": "u1342", "verdict": "wrong", "why": "4e28 differs from 1e17"}
+{"uid": "u1343", "verdict": "partial", "why": "T right; V not expanded to quadratic"}
+{"uid": "u1344", "verdict": "wrong", "why": "Only symbol H, no expression"}
+{"uid": "u1345", "verdict": "wrong", "why": "0 versus -16/25"}
+{"uid": "u1346", "verdict": "wrong", "why": "Classical result, not relativistic"}
+{"uid": "u1347", "verdict": "wrong", "why": "3/2 Nk versus 3Nk"}
+{"uid": "u1348", "verdict": "wrong", "why": "Missing recoil correction term"}
+{"uid": "u1349", "verdict": "wrong", "why": "1 versus 6"}
+{"uid": "u1350", "verdict": "partial", "why": "Acceleration right; speed and displacement wrong"}
+{"uid": "u1351", "verdict": "wrong", "why": "Missing spin factor 2"}
+{"uid": "u1352", "verdict": "partial", "why": "Acceleration right; speed and displacement wrong"}
+{"uid": "u1353", "verdict": "right", "why": "1.64e-18 J equals 10.2 eV"}
+{"uid": "u1354", "verdict": "partial", "why": "Only n=0 value, not general family"}
+{"uid": "u1355", "verdict": "wrong", "why": "No numeric probabilities given"}
+{"uid": "u1356", "verdict": "right", "why": "Single-coordinate form of gold expression"}
+{"uid": "u1357", "verdict": "wrong", "why": "+75 versus -75"}
+{"uid": "u1358", "verdict": "wrong", "why": "No numeric value 208"}
+{"uid": "u1359", "verdict": "wrong", "why": "M/m v lacks the 1 + term"}
+{"uid": "u1480", "verdict": "wrong", "why": "52 g vs 54.85 g, about 5% off"}
+{"uid": "u1481", "verdict": "wrong", "why": "0.24 s vs 0.48 s"}
+{"uid": "u1482", "verdict": "partial", "why": "Power and E right; part (b) v0<<c missing"}
+{"uid": "u1483", "verdict": "wrong", "why": "Different expression from the gold"}
+{"uid": "u1484", "verdict": "wrong", "why": "1.58 vs 4.28 days"}
+{"uid": "u1485", "verdict": "wrong", "why": "Spurious pi factor; wrong E(J)"}
+{"uid": "u1486", "verdict": "wrong", "why": "3232 vs 770"}
+{"uid": "u1487", "verdict": "wrong", "why": "3/2 Nk vs 3Nk"}
+{"uid": "u1488", "verdict": "wrong", "why": "E0 vs m_p c^2"}
+{"uid": "u1489", "verdict": "wrong", "why": "1647 W vs 24,600 W"}
+{"uid": "u1490", "verdict": "right", "why": "Proportional to A; 15.7 within 2% of 15.6"}
+{"uid": "u1491", "verdict": "wrong", "why": "Does not give 2rV/(b^2-a^2)"}
+{"uid": "u1492", "verdict": "right", "why": "1020 kPa equals 1.02 MPa"}
+{"uid": "u1493", "verdict": "wrong", "why": "Neither wavelength nor energy matches gold"}
+{"uid": "u1494", "verdict": "wrong", "why": "2le vs 0"}
+{"uid": "u1495", "verdict": "wrong", "why": "Wrong coefficient in E(J)"}
+{"uid": "u1496", "verdict": "wrong", "why": "1.38 vs 13.9"}
+{"uid": "u1497", "verdict": "wrong", "why": "9.13 MeV vs 29.93 MeV"}
+{"uid": "u1498", "verdict": "wrong", "why": "0 vs 5.4e-4"}
+{"uid": "u1499", "verdict": "wrong", "why": "g sin(l/R) vs gR(1-cos(l/R))/l"}
+{"uid": "u1500", "verdict": "right", "why": "Vibrating length 41.67 cm consistent; tension 774"}
+{"uid": "u1501", "verdict": "wrong", "why": "Z=1 vs 43"}
+{"uid": "u1502", "verdict": "right", "why": "T^3 low T, 3Nk high T"}
+{"uid": "u1503", "verdict": "partial", "why": "T right; V not small-oscillation form, wrong sign"}
+{"uid": "u1504", "verdict": "wrong", "why": "18.52 vs 171.4"}
+{"uid": "u1505", "verdict": "wrong", "why": "No probabilities or values given"}
+{"uid": "u1506", "verdict": "wrong", "why": "0.058 vs 0.159"}
+{"uid": "u1507", "verdict": "wrong", "why": "Decay types differ from alpha, gamma, beta"}
+{"uid": "u1508", "verdict": "wrong", "why": "V1/V2 instead of V1/(V1+V2)"}
+{"uid": "u1509", "verdict": "wrong", "why": "ln2/tau vs pi hbar/(4 epsilon)"}
+{"uid": "u1510", "verdict": "partial", "why": "Only V_c correct"}
+{"uid": "u1511", "verdict": "partial", "why": "Parts 1-2 right; rest wrong"}
+{"uid": "u1512", "verdict": "wrong", "why": "-7/8 vs -16/25"}
+{"uid": "u1513", "verdict": "wrong", "why": "Missing the refraction formula"}
+{"uid": "u1514", "verdict": "partial", "why": "H and B right; M wrong"}
+{"uid": "u1515", "verdict": "partial", "why": "Only part (a) right"}
+{"uid": "u1516", "verdict": "wrong", "why": "Includes m_N; not 1.022 MeV"}
+{"uid": "u1517", "verdict": "right", "why": "States required linear combination"}
+{"uid": "u1518", "verdict": "wrong", "why": "Extra factors vs 72 phi0/sigma"}
+{"uid": "u1519", "verdict": "right", "why": "0.02 ohm; 0.000225 g equals 0.225 mg"}
+{"uid": "u1360", "verdict": "partial", "why": "a=2.5 right; speed 5 and 75 m wrong"}
+{"uid": "u1361", "verdict": "partial", "why": "Potential differences have wrong signs; energy right"}
+{"uid": "u1362", "verdict": "partial", "why": "40 s and 20.41 wrong; 12.34 kg about 2% off"}
+{"uid": "u1363", "verdict": "right", "why": "Components -20.5 and 35.5 match"}
+{"uid": "u1364", "verdict": "partial", "why": "1 and 0.15 right; K=2 not sqrt2"}
+{"uid": "u1365", "verdict": "partial", "why": "Potential differences have wrong signs; energy right"}
+{"uid": "u1366", "verdict": "right", "why": "L=I\u03c9 and \u03c4=I\u03b1 equivalent to gold"}
+{"uid": "u1367", "verdict": "right", "why": "H defined as sum q\u0307\u2202L/\u2202q\u0307 - L"}
+{"uid": "u1368", "verdict": "right", "why": "a, b, c matches gold"}
+{"uid": "u1369", "verdict": "wrong", "why": "0.66 m/s ignores echo doubling; gold 0.33"}
+{"uid": "u1370", "verdict": "partial", "why": "L right; equation of motion wrong"}
+{"uid": "u1371", "verdict": "wrong", "why": "0.66 versus gold 0.33"}
+{"uid": "u1372", "verdict": "wrong", "why": "Missed Fresnel drag correction; gave c/n"}
+{"uid": "u1373", "verdict": "wrong", "why": "Single-spin result, missing N dependence"}
+{"uid": "u1374", "verdict": "partial", "why": "AB and BC signs wrong; CA, potentials, U_A right"}
+{"uid": "u1375", "verdict": "wrong", "why": "Classical eEt/m instead of relativistic result"}
+{"uid": "u1376", "verdict": "wrong", "why": "b=N0X, missing factor 4"}
+{"uid": "u1377", "verdict": "wrong", "why": "Gave -3 MJ; gold 0"}
+{"uid": "u1378", "verdict": "right", "why": "1322 J/K equals 1.32 kJ/K"}
+{"uid": "u1379", "verdict": "wrong", "why": "Did not obtain c=0 result"}
+{"uid": "u1380", "verdict": "partial", "why": "Energy right; k only \u03c0/a, not (2n+1)\u03c0/a"}
+{"uid": "u1381", "verdict": "right", "why": "23.756 torr matches"}
+{"uid": "u1382", "verdict": "wrong", "why": "Gave 5; gold 4"}
+{"uid": "u1383", "verdict": "wrong", "why": "Left delta function, not a or 0"}
+{"uid": "u1384", "verdict": "partial", "why": "20 s right; distance 60 not 120 m"}
+{"uid": "u1385", "verdict": "right", "why": "(Vl-Vs)/L equivalent to density form"}
+{"uid": "u1386", "verdict": "right", "why": "1322 J/K equals 1.32 kJ/K"}
+{"uid": "u1387", "verdict": "wrong", "why": "Missing spin factor 2"}
+{"uid": "u1388", "verdict": "wrong", "why": "Sign wrong: +75 versus -75"}
+{"uid": "u1389", "verdict": "wrong", "why": "0.5 versus 0.0153"}
+{"uid": "u1390", "verdict": "wrong", "why": "No numeric value given"}
+{"uid": "u1391", "verdict": "right", "why": "Shift d/6 with f=1/d gives \u03c0/3"}
+{"uid": "u1392", "verdict": "wrong", "why": "2el versus gold 0"}
+{"uid": "u1393", "verdict": "partial", "why": "Potential differences wrong signs; energy right"}
+{"uid": "u1394", "verdict": "wrong", "why": "Missed the \u03bc0aH\u00b2/T\u00b2 term"}
+{"uid": "u1395", "verdict": "wrong", "why": "Classical result, not relativistic"}
+{"uid": "u1396", "verdict": "wrong", "why": "N0X, missing factor 4"}
+{"uid": "u1397", "verdict": "wrong", "why": "2el versus gold 0"}
+{"uid": "u1398", "verdict": "wrong", "why": "t1 versus 2t1"}
+{"uid": "u1399", "verdict": "wrong", "why": "3/2 Nk versus 3Nk"}
+{"uid": "u1400", "verdict": "wrong", "why": "Low-T linear instead of T^3"}
+{"uid": "u1401", "verdict": "partial", "why": "V_A, V_C, U_A match; AB, BC, U_C differ"}
+{"uid": "u1402", "verdict": "partial", "why": "200 correct; 600 vs 400"}
+{"uid": "u1403", "verdict": "wrong", "why": "5 vs 4"}
+{"uid": "u1404", "verdict": "wrong", "why": "Omits recoil term"}
+{"uid": "u1405", "verdict": "right", "why": "Same magnitude; sign is convention"}
+{"uid": "u1406", "verdict": "wrong", "why": "N0 X vs 4 N0 X"}
+{"uid": "u1407", "verdict": "right", "why": "a, b, c"}
+{"uid": "u1408", "verdict": "right", "why": "8.33 cm and 774 N"}
+{"uid": "u1409", "verdict": "wrong", "why": "Probabilities 1 and 0, not 2/3, 1/3"}
+{"uid": "u1410", "verdict": "wrong", "why": "Wrong boundary condition"}
+{"uid": "u1411", "verdict": "right", "why": "States the linear combination result"}
+{"uid": "u1412", "verdict": "wrong", "why": "No 11 cm value given"}
+{"uid": "u1413", "verdict": "partial", "why": "T right; V not small-oscillation form"}
+{"uid": "u1414", "verdict": "wrong", "why": "0.5 vs 0.0153"}
+{"uid": "u1415", "verdict": "wrong", "why": "Single-spin, missing N factors"}
+{"uid": "u1416", "verdict": "wrong", "why": "Omits recoil term"}
+{"uid": "u1417", "verdict": "right", "why": "Equivalent energy function"}
+{"uid": "u1418", "verdict": "wrong", "why": "N0 X vs 4 N0 X"}
+{"uid": "u1419", "verdict": "partial", "why": "Potential differences sign-flipped; U_C matches"}
+{"uid": "u1420", "verdict": "wrong", "why": "2e12 vs 1e12"}
+{"uid": "u1421", "verdict": "right", "why": "F/A, notation only"}
+{"uid": "u1422", "verdict": "wrong", "why": "Missing Fresnel drag factor"}
+{"uid": "u1423", "verdict": "right", "why": "Both values match"}
+{"uid": "u1424", "verdict": "wrong", "why": "0.66 vs 0.33"}
+{"uid": "u1425", "verdict": "right", "why": "1020 kPa = 1.02 MPa"}
+{"uid": "u1426", "verdict": "right", "why": "F = a when source in cell"}
+{"uid": "u1427", "verdict": "wrong", "why": "Wrong boundary condition"}
+{"uid": "u1428", "verdict": "partial", "why": "V_A, V_C, U_A match; AB, BC, U_C differ"}
+{"uid": "u1429", "verdict": "wrong", "why": "Wrong boundary condition"}
+{"uid": "u1430", "verdict": "wrong", "why": "Wrong alpha and tau relation"}
+{"uid": "u1431", "verdict": "wrong", "why": "Missing N; E sign wrong"}
+{"uid": "u1432", "verdict": "wrong", "why": "Missing T0; dimensionally wrong"}
+{"uid": "u1433", "verdict": "wrong", "why": "High-T should be constant 3Nk"}
+{"uid": "u1434", "verdict": "wrong", "why": "Wrong shift expression"}
+{"uid": "u1435", "verdict": "right", "why": "H is the conserved energy function"}
+{"uid": "u1436", "verdict": "wrong", "why": "Momentum, different expression from gold"}
+{"uid": "u1437", "verdict": "wrong", "why": "Missing pi factor"}
+{"uid": "u1438", "verdict": "wrong", "why": "Nonrelativistic result"}
+{"uid": "u1439", "verdict": "right", "why": "Time right; speed v0/sqrt2, sign is direction"}
+{"uid": "u1440", "verdict": "wrong", "why": "Off by factor 1000; 1.08 cm vs 0.00108"}
+{"uid": "u1441", "verdict": "wrong", "why": "Missing log term; wrong expression and sign"}
+{"uid": "u1442", "verdict": "partial", "why": "Parts a-d fine; (e) a instead of b/2"}
+{"uid": "u1443", "verdict": "wrong", "why": "Differs from gold expression"}
+{"uid": "u1444", "verdict": "right", "why": "L=I\u03c9 and \u03c4=I\u03b1 match gold"}
+{"uid": "u1445", "verdict": "wrong", "why": "Phase sign +\u03c0/3 versus -\u03c0/3"}
+{"uid": "u1446", "verdict": "partial", "why": "(a) correct; (b),(c) wrong"}
+{"uid": "u1447", "verdict": "wrong", "why": "Gold 24,600; model 164700"}
+{"uid": "u1448", "verdict": "wrong", "why": "Wrong decay types; gold alpha, gamma, beta"}
+{"uid": "u1449", "verdict": "wrong", "why": "Gives 6.67e-13; gold 6.67e-12 and 6.67e-7"}
+{"uid": "u1450", "verdict": "wrong", "why": "k=\u03c0/a only; energies miss (2n+1) form"}
+{"uid": "u1451", "verdict": "partial", "why": "pc, Vc right; Tc lacks R"}
+{"uid": "u1452", "verdict": "wrong", "why": "Off by factor 10"}
+{"uid": "u1453", "verdict": "wrong", "why": "Gives 1,3,1,3; gold 1,4"}
+{"uid": "u1454", "verdict": "wrong", "why": "Gave second derivative, not one-sided first derivative"}
+{"uid": "u1455", "verdict": "wrong", "why": "Wrong equation of motion"}
+{"uid": "u1456", "verdict": "wrong", "why": "Both parts differ from gold"}
+{"uid": "u1457", "verdict": "right", "why": "8.33 cm equals 0.083 m; tension matches"}
+{"uid": "u1458", "verdict": "wrong", "why": "2.32e-6 vs 2.3e-4"}
+{"uid": "u1459", "verdict": "partial", "why": "First two right; K=2 not \u221a2"}
+{"uid": "u1460", "verdict": "wrong", "why": "Not exponential capstan formula"}
+{"uid": "u1461", "verdict": "partial", "why": "T^3 low-T given; no 3Nk limit"}
+{"uid": "u1462", "verdict": "partial", "why": "Gap and T^3 ok; distance wrong"}
+{"uid": "u1463", "verdict": "wrong", "why": "Wrong solution; fails y1(0)=0"}
+{"uid": "u1464", "verdict": "partial", "why": "Wavelength matches; Fermi energy wrong"}
+{"uid": "u1465", "verdict": "wrong", "why": "Sign opposite to gold"}
+{"uid": "u1466", "verdict": "right", "why": "1e-25 cm\u00b2 equals 0.1 barn"}
+{"uid": "u1467", "verdict": "wrong", "why": "Factor 2 off from gold"}
+{"uid": "u1468", "verdict": "right", "why": "8.33 cm = 0.083 m; 774 N"}
+{"uid": "u1469", "verdict": "wrong", "why": "1/(4\u03c0r) versus 1/r"}
+{"uid": "u1470", "verdict": "wrong", "why": "Zero versus 756"}
+{"uid": "u1471", "verdict": "wrong", "why": "Wrong magnitude; gold 2.5e-15"}
+{"uid": "u1472", "verdict": "wrong", "why": "Nonsensical equation of state"}
+{"uid": "u1473", "verdict": "partial", "why": "Low-T T^3 and diamagnetism; others wrong"}
+{"uid": "u1474", "verdict": "partial", "why": "Energies match; flow rate differs"}
+{"uid": "u1475", "verdict": "wrong", "why": "No correct equation of motion"}
+{"uid": "u1476", "verdict": "wrong", "why": "a instead of b/2"}
+{"uid": "u1477", "verdict": "wrong", "why": "Differs from gold expression"}
+{"uid": "u1478", "verdict": "wrong", "why": "Wrong; gold \u03c0\u0127/(4\u03b5) and numeric"}
+{"uid": "u1479", "verdict": "right", "why": "12.6 \u00c5 and 0.51 meV match"}
+{"uid": "u1520", "verdict": "wrong", "why": "missing cos(theta) dependence"}
+{"uid": "u1521", "verdict": "partial", "why": "wavelength matches; frequency 5.15 vs gold 5.8"}
+{"uid": "u1522", "verdict": "wrong", "why": "hbar dependence missing; wrong form"}
+{"uid": "u1523", "verdict": "right", "why": "same expressions for like charges"}
+{"uid": "u1524", "verdict": "right", "why": "proportional to A; 15.7 within 2% of 15.6"}
+{"uid": "u1525", "verdict": "right", "why": "same magnitude, sign convention only"}
+{"uid": "u1526", "verdict": "wrong", "why": "sign of correction term opposite"}
+{"uid": "u1527", "verdict": "wrong", "why": "factor 3 smaller than gold"}
+{"uid": "u1528", "verdict": "wrong", "why": "16800 vs 756"}
+{"uid": "u1529", "verdict": "wrong", "why": "y1 has wrong extra term and coefficients"}
+{"uid": "u1530", "verdict": "wrong", "why": "free-fall approximation, not Kepler half-orbit"}
+{"uid": "u1531", "verdict": "partial", "why": "area right, volume wrong"}
+{"uid": "u1532", "verdict": "wrong", "why": "10^28 vs 10^17"}
+{"uid": "u1533", "verdict": "wrong", "why": "missing 1/(1-uv/c^2) factor"}
+{"uid": "u1534", "verdict": "wrong", "why": "alpha,alpha,beta vs alpha,gamma,beta"}
+{"uid": "u1535", "verdict": "wrong", "why": "image location, charge, force all wrong"}
+{"uid": "u1536", "verdict": "wrong", "why": "gold is 0, answer 2le"}
+{"uid": "u1537", "verdict": "wrong", "why": "no 150 MeV threshold given"}
+{"uid": "u1538", "verdict": "wrong", "why": "165000 W vs 24600"}
+{"uid": "u1539", "verdict": "partial", "why": "only part (a) correct"}
+{"uid": "u1540", "verdict": "wrong", "why": "missing 1/a, wrong prefactor"}
+{"uid": "u1541", "verdict": "wrong", "why": "3234 vs 770"}
+{"uid": "u1542", "verdict": "wrong", "why": "delta function, not integrated value a"}
+{"uid": "u1543", "verdict": "wrong", "why": "9.14 vs 29.93"}
+{"uid": "u1544", "verdict": "wrong", "why": "wrong transfer time"}
+{"uid": "u1545", "verdict": "wrong", "why": "10^28 vs 10^17"}
+{"uid": "u1546", "verdict": "wrong", "why": "250 K vs 50.7 K"}
+{"uid": "u1547", "verdict": "wrong", "why": "V1/V2 instead of V1/(V1+V2)"}
+{"uid": "u1548", "verdict": "wrong", "why": "wrong transfer time"}
+{"uid": "u1549", "verdict": "wrong", "why": "2563.5 vs 2670"}
+{"uid": "u1550", "verdict": "wrong", "why": "alpha instead of ba/2"}
+{"uid": "u1551", "verdict": "wrong", "why": "26 vs 16.16"}
+{"uid": "u1552", "verdict": "wrong", "why": "167 vs 11"}
+{"uid": "u1553", "verdict": "partial", "why": "T^3 right; distance and gap wrong"}
+{"uid": "u1554", "verdict": "wrong", "why": "a^2-L^2 instead of L^2-a^2"}
+{"uid": "u1555", "verdict": "wrong", "why": "wrong tau-epsilon relation, no number"}
+{"uid": "u1556", "verdict": "wrong", "why": "gamma*l instead of gold expression"}
+{"uid": "u1557", "verdict": "right", "why": "L=I omega and torque equation match"}
+{"uid": "u1558", "verdict": "wrong", "why": "missing (1+m/M) factor"}
+{"uid": "u1559", "verdict": "partial", "why": "T right; V not small-oscillation form"}
+{"uid": "u1560", "verdict": "right", "why": "5/3 W/K equals 0.00167 kW/K"}
+{"uid": "u1561", "verdict": "wrong", "why": "Gives a momentum expression, not the gold energy"}
+{"uid": "u1562", "verdict": "wrong", "why": "Entropy generation 0.014, not irreversibility 21.55 kJ/kg"}
+{"uid": "u1563", "verdict": "right", "why": "1.08e-5 m equals 0.00108 cm"}
+{"uid": "u1564", "verdict": "wrong", "why": "Sign wrong, should be -81.6"}
+{"uid": "u1565", "verdict": "right", "why": "gamma=7/5 substitution matches gold form"}
+{"uid": "u1566", "verdict": "wrong", "why": "Does not match gold J and E expressions"}
+{"uid": "u1567", "verdict": "wrong", "why": "l=1 versus gold 14"}
+{"uid": "u1568", "verdict": "wrong", "why": "Gave mass density, not number density"}
+{"uid": "u1569", "verdict": "wrong", "why": "d=2/3 versus gold a=0, d=0, e=6b"}
+{"uid": "u1570", "verdict": "wrong", "why": "N instead of N^2"}
+{"uid": "u1571", "verdict": "wrong", "why": "Wrong prefactor and missing k dependence"}
+{"uid": "u1572", "verdict": "wrong", "why": "No specific probabilities or values given"}
+{"uid": "u1573", "verdict": "wrong", "why": "4.5 MHz versus 1.27 THz"}
+{"uid": "u1574", "verdict": "wrong", "why": "20 GHz versus 1.27 THz"}
+{"uid": "u1575", "verdict": "wrong", "why": "Wrong x-dependence, does not vanish at x=L"}
+{"uid": "u1576", "verdict": "right", "why": "v1 is v_i; same result"}
+{"uid": "u1577", "verdict": "partial", "why": "Area right, volume formula wrong"}
+{"uid": "u1578", "verdict": "wrong", "why": "1.72e-3 versus 1.6e-17"}
+{"uid": "u1579", "verdict": "partial", "why": "Charge right, field omits nucleus and is wrong"}
+{"uid": "u1580", "verdict": "wrong", "why": "1,3,1,3 versus gold 1,4"}
+{"uid": "u1581", "verdict": "partial", "why": "Only part (a) correct"}
+{"uid": "u1582", "verdict": "right", "why": "Same CM velocity and angular velocity, axes swapped"}
+{"uid": "u1583", "verdict": "wrong", "why": "Image location and charge wrong"}
+{"uid": "u1584", "verdict": "wrong", "why": "Symbolic sum, no value 208"}
+{"uid": "u1585", "verdict": "right", "why": "8.33 cm equals 0.083 m; 774 N"}
+{"uid": "u1586", "verdict": "wrong", "why": "Gave c, not the relativistic formula"}
+{"uid": "u1587", "verdict": "wrong", "why": "4e28 versus 1e17"}
+{"uid": "u1588", "verdict": "wrong", "why": "Sign of sin term opposite to gold"}
+{"uid": "u1589", "verdict": "wrong", "why": "gamma*l versus l*sqrt(1-v\u00b2/c\u00b2)/(1-uv/c\u00b2)"}
+{"uid": "u1590", "verdict": "right", "why": "a, b, c match"}
+{"uid": "u1591", "verdict": "wrong", "why": "Wrong expression, dimensionally inconsistent"}
+{"uid": "u1592", "verdict": "wrong", "why": "Differs from gold 24,600"}
+{"uid": "u1593", "verdict": "wrong", "why": "Linear sum, not quadrature"}
+{"uid": "u1594", "verdict": "wrong", "why": "Not the sinh series; incorrect"}
+{"uid": "u1595", "verdict": "wrong", "why": "Wrong combination of error terms"}
+{"uid": "u1596", "verdict": "partial", "why": "Time right; distance 60 vs 120"}
+{"uid": "u1597", "verdict": "wrong", "why": "Delta function, not a or 0"}
+{"uid": "u1598", "verdict": "wrong", "why": "0.8 versus 13.9"}
+{"uid": "u1599", "verdict": "partial", "why": "Parts 2,3 right; part 1 off, part 4 3% off"}
+{"uid": "u1640", "verdict": "right", "why": "Same components -20.5 i, 35.5 j"}
+{"uid": "u1641", "verdict": "wrong", "why": "V1/V2 instead of V1/(V1+V2)"}
+{"uid": "u1642", "verdict": "wrong", "why": "No numeric value; gold is 208"}
+{"uid": "u1643", "verdict": "wrong", "why": "Boxed answer has stray m/M factor"}
+{"uid": "u1644", "verdict": "right", "why": "k equals 1/(4 pi eps0); both energies match"}
+{"uid": "u1645", "verdict": "wrong", "why": "Different expression from (1+m/M)\u0394E"}
+{"uid": "u1646", "verdict": "wrong", "why": "1 GHz versus 1.27 THz"}
+{"uid": "u1647", "verdict": "right", "why": "5.46e-4 within 2% of 5.4e-4"}
+{"uid": "u1648", "verdict": "wrong", "why": "Image charge position, value and force all wrong"}
+{"uid": "u1649", "verdict": "right", "why": "10^4 to 10^6 matches"}
+{"uid": "u1650", "verdict": "wrong", "why": "50 versus 5"}
+{"uid": "u1651", "verdict": "wrong", "why": "Missing mu0 a H^2/T^2 term"}
+{"uid": "u1652", "verdict": "partial", "why": "Parts a-d right, (e) b instead of b/2"}
+{"uid": "u1653", "verdict": "partial", "why": "High-T limit right, low-T T not T^3"}
+{"uid": "u1654", "verdict": "wrong", "why": "M v/m versus (1+M/m)v"}
+{"uid": "u1655", "verdict": "partial", "why": "Axes swapped relative to gold; omega magnitude matches"}
+{"uid": "u1656", "verdict": "wrong", "why": "Missing mu0 a H^2/T^2 term"}
+{"uid": "u1657", "verdict": "right", "why": "Proportional to A, 15.7 close to 15.6"}
+{"uid": "u1658", "verdict": "wrong", "why": "gamma*l, not gold's expression"}
+{"uid": "u1659", "verdict": "partial", "why": "Parts 1-2 right, parts 3-5 wrong"}
+{"uid": "u1660", "verdict": "wrong", "why": "Missing bracket term; wrong dependence on a,b"}
+{"uid": "u1661", "verdict": "wrong", "why": "Non-relativistic eEt/m, not relativistic form"}
+{"uid": "u1662", "verdict": "right", "why": "dp/dT = alpha/T and alpha 1.46e6"}
+{"uid": "u1663", "verdict": "wrong", "why": "Wrong reduced equation"}
+{"uid": "u1664", "verdict": "wrong", "why": "Three-media expression, not (\u221a\u03b51-\u221a\u03b52)/(\u221a\u03b51+\u221a\u03b52)"}
+{"uid": "u1665", "verdict": "wrong", "why": "1/(4 pi r) differs from 1/r"}
+{"uid": "u1666", "verdict": "wrong", "why": "20 nm versus 5e-4 scaling"}
+{"uid": "u1667", "verdict": "wrong", "why": "Wrong expression for transfer time"}
+{"uid": "u1668", "verdict": "wrong", "why": "mg/(1+mu) versus mg e^{-5 mu pi/2}"}
+{"uid": "u1669", "verdict": "wrong", "why": "0.317 versus 0.248"}
+{"uid": "u1670", "verdict": "wrong", "why": "Cubic expression, not parabola streamline"}
+{"uid": "u1671", "verdict": "wrong", "why": "E should be 0; J wrong"}
+{"uid": "u1672", "verdict": "wrong", "why": "Probabilities 1 versus 2/3, 1/3"}
+{"uid": "u1673", "verdict": "wrong", "why": "Not a or 0 by source location"}
+{"uid": "u1674", "verdict": "wrong", "why": "5.3e-8 versus 8.32e-8"}
+{"uid": "u1675", "verdict": "wrong", "why": "No specific values given"}
+{"uid": "u1676", "verdict": "wrong", "why": "Decay types differ from alpha, gamma, beta"}
+{"uid": "u1677", "verdict": "wrong", "why": "Missing bracket term; sigma in wrong place"}
+{"uid": "u1678", "verdict": "wrong", "why": "Missing molar mass M in expression"}
+{"uid": "u1679", "verdict": "wrong", "why": "omega L versus omega sqrt(L^2-a^2)"}
+{"uid": "u1720", "verdict": "wrong", "why": "gamma*l instead of l*sqrt(1-v^2/c^2)/(1-uv/c^2)"}
+{"uid": "u1721", "verdict": "right", "why": "r=3M matches gold"}
+{"uid": "u1722", "verdict": "wrong", "why": "Wrong form; gold is R_p tau2/(1+I/Is)"}
+{"uid": "u1723", "verdict": "wrong", "why": "Missing cos(theta) dependence"}
+{"uid": "u1724", "verdict": "wrong", "why": "Factor 1/4 versus gold 1/2"}
+{"uid": "u1725", "verdict": "partial", "why": "Time wrong; speed right; fuel 12.34 vs 12.6"}
+{"uid": "u1726", "verdict": "right", "why": "Equivalent reduced equation"}
+{"uid": "u1727", "verdict": "wrong", "why": "Different expression; not the gold J and E"}
+{"uid": "u1728", "verdict": "wrong", "why": "Lacks the Fresnel drag term"}
+{"uid": "u1729", "verdict": "wrong", "why": "Missing i/omega factor"}
+{"uid": "u1730", "verdict": "wrong", "why": "g sin(l/R) differs from gold"}
+{"uid": "u1731", "verdict": "wrong", "why": "Missing cos(theta) dependence"}
+{"uid": "u1732", "verdict": "wrong", "why": "Chose v=f lambda, gold lambda=v/f"}
+{"uid": "u1733", "verdict": "partial", "why": "Specific heat right; distance and gap wrong"}
+{"uid": "u1734", "verdict": "wrong", "why": "Sign wrong; gold is negative"}
+{"uid": "u1735", "verdict": "wrong", "why": "Missing -aT(L-L0)^2 term"}
+{"uid": "u1736", "verdict": "partial", "why": "First two parts right, rest wrong"}
+{"uid": "u1737", "verdict": "partial", "why": "Tension right; finger position 41.67 cm vs 8.3 cm"}
+{"uid": "u1738", "verdict": "right", "why": "Matches gold high-energy phase shift"}
+{"uid": "u1739", "verdict": "wrong", "why": "Neglected the gap term in denominator"}
+{"uid": "u1740", "verdict": "wrong", "why": "h_i e_i instead of e_i/h_i"}
+{"uid": "u1741", "verdict": "partial", "why": "Charge right; field sign wrong"}
+{"uid": "u1742", "verdict": "wrong", "why": "Missing alpha and volume terms"}
+{"uid": "u1743", "verdict": "right", "why": "Charge and field match gold"}
+{"uid": "u1744", "verdict": "partial", "why": "Only part (a) right"}
+{"uid": "u1745", "verdict": "right", "why": "m_e/m_p ~ 5.44e-4"}
+{"uid": "u1746", "verdict": "wrong", "why": "0.24 versus 0.159"}
+{"uid": "u1747", "verdict": "wrong", "why": "Unexpanded V only, no kinetic energy"}
+{"uid": "u1748", "verdict": "right", "why": "429 eV, 2.3e5, 1.2e3 km all match"}
+{"uid": "u1749", "verdict": "wrong", "why": "1-1/(2a) versus 1/(2a)"}
+{"uid": "u1750", "verdict": "partial", "why": "Parity of spin wrong; other three right"}
+{"uid": "u1751", "verdict": "right", "why": "Equivalent reduced equation"}
+{"uid": "u1752", "verdict": "right", "why": "0.27 b equals 2.7e-25 cm^2"}
+{"uid": "u1753", "verdict": "wrong", "why": "Arithmetic error; 5.9 mm vs 5.8 cm"}
+{"uid": "u1754", "verdict": "wrong", "why": "Sign of the correction term wrong"}
+{"uid": "u1755", "verdict": "wrong", "why": "50 g versus 54.85 g"}
+{"uid": "u1756", "verdict": "wrong", "why": "Wrong charge expression"}
+{"uid": "u1757", "verdict": "wrong", "why": "Gave inertial speed, gold is rotating-frame"}
+{"uid": "u1758", "verdict": "right", "why": "Same cell-indicator result"}
+{"uid": "u1759", "verdict": "wrong", "why": "Different formula; expected kinetic energy form differs"}
+{"uid": "u1600", "verdict": "wrong", "why": "72 K vs gold 50.7 K"}
+{"uid": "u1601", "verdict": "partial", "why": "Only rate given; fringe shift not in final answer"}
+{"uid": "u1602", "verdict": "wrong", "why": "Chose B (161) but gold is 224 (c)"}
+{"uid": "u1603", "verdict": "partial", "why": "Wavelength matches; frequency 5.26 vs 5.8 off"}
+{"uid": "u1604", "verdict": "wrong", "why": "3704 W vs gold 2.1e6"}
+{"uid": "u1605", "verdict": "wrong", "why": "Different expression, wrong form"}
+{"uid": "u1606", "verdict": "partial", "why": "(a),(c) right; (b) has wrong sign"}
+{"uid": "u1607", "verdict": "right", "why": "L=I\u03c9 and torque equation match"}
+{"uid": "u1608", "verdict": "wrong", "why": "Symbolic expression, not 208"}
+{"uid": "u1609", "verdict": "partial", "why": "Energy right; k given as \u03c0/a only"}
+{"uid": "u1610", "verdict": "wrong", "why": "1/h^2 instead of 1/h"}
+{"uid": "u1611", "verdict": "wrong", "why": "29.4 W vs gold 60.34"}
+{"uid": "u1612", "verdict": "right", "why": "sqrt21/11 = 0.417"}
+{"uid": "u1613", "verdict": "wrong", "why": "8 vs gold 1, 4"}
+{"uid": "u1614", "verdict": "right", "why": "\u03c0/2 principal; general k\u03c0 stated in derivation"}
+{"uid": "u1615", "verdict": "right", "why": "1.022 MeV; 0.01214 \u00c5 matches 0.012"}
+{"uid": "u1616", "verdict": "wrong", "why": "Sign opposite to gold"}
+{"uid": "u1617", "verdict": "wrong", "why": "Gave overlap, gold probability is 1"}
+{"uid": "u1618", "verdict": "partial", "why": "First three right; later parts wrong"}
+{"uid": "u1619", "verdict": "partial", "why": "Energy right; k given as \u03c0/a only"}
+{"uid": "u1620", "verdict": "right", "why": "Components match gold"}
+{"uid": "u1621", "verdict": "wrong", "why": "Wrong form, missing i e\u00b2/(m\u03c9)"}
+{"uid": "u1622", "verdict": "wrong", "why": "Free-fall time, not elliptical half-period"}
+{"uid": "u1623", "verdict": "wrong", "why": "Missing Fresnel drag factor (1-1/n\u00b2)"}
+{"uid": "u1624", "verdict": "right", "why": "Charge and field expression equivalent"}
+{"uid": "u1625", "verdict": "wrong", "why": "Threshold omits proton mass; gold 150 MeV"}
+{"uid": "u1626", "verdict": "partial", "why": "Potential differences sign flipped; energy right"}
+{"uid": "u1627", "verdict": "wrong", "why": "Wrong alpha and no log relation"}
+{"uid": "u1628", "verdict": "wrong", "why": "All three parts differ from gold"}
+{"uid": "u1629", "verdict": "wrong", "why": "Expression unrelated to gold"}
+{"uid": "u1630", "verdict": "right", "why": "e\u00b2/(2\u03b50 n h) equals e\u00b2/(4\u03c0\u03b50 n\u0127)"}
+{"uid": "u1631", "verdict": "wrong", "why": "0 vs gold 8.43"}
+{"uid": "u1632", "verdict": "wrong", "why": "Sign opposite to gold"}
+{"uid": "u1633", "verdict": "partial", "why": "Gave 10^4 only, not the range"}
+{"uid": "u1634", "verdict": "wrong", "why": "84 vs gold 756"}
+{"uid": "u1635", "verdict": "partial", "why": "(a),(c) right; (b) sign differs from gold"}
+{"uid": "u1636", "verdict": "right", "why": "V = bT/p - a/T matches gold"}
+{"uid": "u1637", "verdict": "wrong", "why": "10.72 vs gold 2.1e6"}
+{"uid": "u1638", "verdict": "wrong", "why": "Probabilities and values do not match gold"}
+{"uid": "u1639", "verdict": "wrong", "why": "E=FJ, gold E\u221dJ^(2/3)"}
+{"uid": "u1800", "verdict": "right", "why": "Same statement as gold"}
+{"uid": "u1801", "verdict": "right", "why": "Same magnitude, downward-positive convention stated"}
+{"uid": "u1802", "verdict": "wrong", "why": "Sign opposite; gold is -81.6"}
+{"uid": "u1803", "verdict": "partial", "why": "Potential differences have opposite signs; energy right"}
+{"uid": "u1804", "verdict": "partial", "why": "First three match; electron energies off by 10x"}
+{"uid": "u1805", "verdict": "wrong", "why": "18 vs 8.43"}
+{"uid": "u1806", "verdict": "wrong", "why": "Missing u dependence; wrong formula"}
+{"uid": "u1807", "verdict": "wrong", "why": "Car stops; speed 0, displacement 80 m"}
+{"uid": "u1808", "verdict": "wrong", "why": "Gives kinetic energy, differs from gold by m_K"}
+{"uid": "u1809", "verdict": "wrong", "why": "Should be omega*sqrt(L^2-a^2)"}
+{"uid": "u1810", "verdict": "right", "why": "Matches gold"}
+{"uid": "u1811", "verdict": "wrong", "why": "18 vs 8.43"}
+{"uid": "u1812", "verdict": "right", "why": "All parts equivalent to gold"}
+{"uid": "u1813", "verdict": "wrong", "why": "Missing factor 4"}
+{"uid": "u1814", "verdict": "partial", "why": "H and B right; M differs from gold by 100x"}
+{"uid": "u1815", "verdict": "partial", "why": "Symbolic form ok with hbar=1; numeric value missing"}
+{"uid": "u1816", "verdict": "right", "why": "m_e/M equals 5.4e-4"}
+{"uid": "u1817", "verdict": "wrong", "why": "Dropped gap term in denominator"}
+{"uid": "u1818", "verdict": "partial", "why": "a,b,c right; d lacks beta correction"}
+{"uid": "u1819", "verdict": "wrong", "why": "V1/V2 instead of V1/(V1+V2)"}
+{"uid": "u1820", "verdict": "partial", "why": "Field right; U_AB and energy signs wrong"}
+{"uid": "u1821", "verdict": "wrong", "why": "2.06 vs 8.43"}
+{"uid": "u1822", "verdict": "partial", "why": "E right; J missing factor m"}
+{"uid": "u1823", "verdict": "wrong", "why": "Not the gold expression"}
+{"uid": "u1824", "verdict": "wrong", "why": "894 vs 756"}
+{"uid": "u1825", "verdict": "right", "why": "Matches gold"}
+{"uid": "u1826", "verdict": "right", "why": "1.27 THz"}
+{"uid": "u1827", "verdict": "right", "why": "1322 J/K equals 1.32 kJ/K"}
+{"uid": "u1828", "verdict": "wrong", "why": "Used circular half period, not transfer orbit"}
+{"uid": "u1829", "verdict": "wrong", "why": "Eigenvalues differ from gold"}
+{"uid": "u1830", "verdict": "wrong", "why": "Not the gold expression"}
+{"uid": "u1831", "verdict": "partial", "why": "Symbolic form ok with hbar=1; numeric value missing"}
+{"uid": "u1832", "verdict": "right", "why": "23.756 torr"}
+{"uid": "u1833", "verdict": "right", "why": "All parts equivalent to gold"}
+{"uid": "u1834", "verdict": "right", "why": "alpha and tau match gold"}
+{"uid": "u1835", "verdict": "partial", "why": "Time reversal right; parity of spin wrong"}
+{"uid": "u1836", "verdict": "right", "why": "1.64e-18 J equals 10.2 eV"}
+{"uid": "u1837", "verdict": "wrong", "why": "Ratio inverted"}
+{"uid": "u1838", "verdict": "partial", "why": "Specific heat right; distance off 8%, gap wrong"}
+{"uid": "u1839", "verdict": "right", "why": "All three match; 1.2e6 m equals 1.2e3 km"}
+{"uid": "u1680", "verdict": "wrong", "why": "20 s and 20 m/s expected; got 40 and 20.41"}
+{"uid": "u1681", "verdict": "partial", "why": "a=0, d=0 match; e=-3b should be 6b"}
+{"uid": "u1682", "verdict": "right", "why": "5/3 W/K equals 0.00167 kW/K"}
+{"uid": "u1683", "verdict": "wrong", "why": "Missing sqrt(L^2-a^2) factor; gave wL"}
+{"uid": "u1684", "verdict": "wrong", "why": "Gave one-way delay 0.24 s, gold 0.48 s"}
+{"uid": "u1685", "verdict": "wrong", "why": "240 kg/s versus 66.5"}
+{"uid": "u1686", "verdict": "right", "why": "Same expressions with k=1/4pi\u03b50"}
+{"uid": "u1687", "verdict": "wrong", "why": "Wrong model; not the half-ellipse transfer time"}
+{"uid": "u1688", "verdict": "right", "why": "Matrix and symmetric/antisymmetric decomposition correct"}
+{"uid": "u1689", "verdict": "wrong", "why": "Formula unrelated to gold dL/dT"}
+{"uid": "u1690", "verdict": "wrong", "why": "No T or quadratic expansion; wrong V"}
+{"uid": "u1691", "verdict": "wrong", "why": "Arbitrary constant C, no initial condition applied"}
+{"uid": "u1692", "verdict": "wrong", "why": "Image location and charge and force all wrong"}
+{"uid": "u1693", "verdict": "wrong", "why": "gamma*l instead of l*sqrt(1-v^2/c^2)/(1-uv/c^2)"}
+{"uid": "u1694", "verdict": "wrong", "why": "Gave a phrase, not the 11 cm value"}
+{"uid": "u1695", "verdict": "partial", "why": "T correct; V not the small-oscillation form"}
+{"uid": "u1696", "verdict": "wrong", "why": "D not eliminated; expressions differ from gold"}
+{"uid": "u1697", "verdict": "wrong", "why": "2.32e-5 versus 2.3e-4, off by 10x"}
+{"uid": "u1698", "verdict": "wrong", "why": "Chose c (145) not d (122)"}
+{"uid": "u1699", "verdict": "right", "why": "Same magnitude WL^3/3EI; only sign convention differs"}
+{"uid": "u1700", "verdict": "wrong", "why": "0.1 nm versus 5e-4 nm"}
+{"uid": "u1701", "verdict": "wrong", "why": "Wrong equation of state"}
+{"uid": "u1702", "verdict": "partial", "why": "Bottom 2m correct; top should be -2m/3"}
+{"uid": "u1703", "verdict": "wrong", "why": "H, B, M off by orders of magnitude"}
+{"uid": "u1704", "verdict": "wrong", "why": "29.4 W versus 60.34 W"}
+{"uid": "u1705", "verdict": "partial", "why": "(a) matches; (b) vague; (c) E wrong"}
+{"uid": "u1706", "verdict": "wrong", "why": "0.833 V versus 5.36 V"}
+{"uid": "u1707", "verdict": "wrong", "why": "All parts differ beyond 2%"}
+{"uid": "u1708", "verdict": "partial", "why": "First three right; 9.4e7 vs 9.7e7"}
+{"uid": "u1709", "verdict": "wrong", "why": "Missing 1/(1+I/Is) saturation form"}
+{"uid": "u1710", "verdict": "partial", "why": "Energy right; flow rate 2.29e3 versus 1e6"}
+{"uid": "u1711", "verdict": "partial", "why": "Wavelength right; frequency 5.10 GHz versus 5.8"}
+{"uid": "u1712", "verdict": "wrong", "why": "45 W versus 60.34 W"}
+{"uid": "u1713", "verdict": "right", "why": "1.26 nm = 12.5 \u00c5; 0.514 meV matches"}
+{"uid": "u1714", "verdict": "wrong", "why": "Not the universal reduced van der Waals equation"}
+{"uid": "u1715", "verdict": "partial", "why": "E=0 right; J has spurious a^2 factor"}
+{"uid": "u1716", "verdict": "wrong", "why": "Not the sinh/sin Fourier series"}
+{"uid": "u1717", "verdict": "wrong", "why": "Ratio 1 versus 1/2"}
+{"uid": "u1718", "verdict": "wrong", "why": "Field 1/r form, gold 2rV/(b^2-a^2)"}
+{"uid": "u1719", "verdict": "partial", "why": "Single-spin Z and E; missing N factors"}
+{"uid": "u1840", "verdict": "wrong", "why": "Extra factor 2 under the root"}
+{"uid": "u1841", "verdict": "right", "why": "1/x^3 dependence matches"}
+{"uid": "u1842", "verdict": "partial", "why": "CA sign and U_C sign differ from gold"}
+{"uid": "u1843", "verdict": "right", "why": "Both values match"}
+{"uid": "u1844", "verdict": "wrong", "why": "No specific probabilities or values given"}
+{"uid": "u1845", "verdict": "wrong", "why": "Answered 0, gold 8.43"}
+{"uid": "u1846", "verdict": "right", "why": "Time matches; speed v0/sqrt2, sign is just direction"}
+{"uid": "u1847", "verdict": "wrong", "why": "Used free space instead of epsilon2"}
+{"uid": "u1848", "verdict": "partial", "why": "Parts 1 and 2 right, distance wrong"}
+{"uid": "u1849", "verdict": "wrong", "why": "T^{5/2} vs T^{-3/2}"}
+{"uid": "u1850", "verdict": "right", "why": "J and E equivalent after eliminating D"}
+{"uid": "u1851", "verdict": "wrong", "why": "Depends on g, gold is 2N/3 and N/3"}
+{"uid": "u1852", "verdict": "right", "why": "1.022 MeV and 1.21e-12 m match"}
+{"uid": "u1853", "verdict": "partial", "why": "Wavelength matches; energy used electron mass"}
+{"uid": "u1854", "verdict": "right", "why": "Same T and V with phi for theta"}
+{"uid": "u1855", "verdict": "wrong", "why": "Missing alpha and volume terms"}
+{"uid": "u1856", "verdict": "right", "why": "3.43e-22 J equals 2.14e-3 eV"}
+{"uid": "u1857", "verdict": "right", "why": "L=I omega and torque=I alpha equivalent"}
+{"uid": "u1858", "verdict": "partial", "why": "Circumference right, area 6250 not sqrt6250"}
+{"uid": "u1859", "verdict": "wrong", "why": "T^{-1/2} vs T^{-3/2}"}
+{"uid": "u1860", "verdict": "partial", "why": "Potential differences have wrong signs; energy matches"}
+{"uid": "u1861", "verdict": "partial", "why": "Boxed pi/2 omits k pi"}
+{"uid": "u1862", "verdict": "right", "why": "tau = F/A"}
+{"uid": "u1863", "verdict": "partial", "why": "Part 1 right; potentials and energies wrong"}
+{"uid": "u1864", "verdict": "right", "why": "3.44e-22 J equals 2.15e-3 eV"}
+{"uid": "u1865", "verdict": "right", "why": "All six parts match"}
+{"uid": "u1866", "verdict": "right", "why": "Same formula, R specific gas constant"}
+{"uid": "u1867", "verdict": "right", "why": "-q^2E^2/(2k) equals -q^2E^2/(2m omega^2)"}
+{"uid": "u1868", "verdict": "right", "why": "Same T and V with phi for theta"}
+{"uid": "u1869", "verdict": "wrong", "why": "Gave 16.67, gold 11"}
+{"uid": "u1870", "verdict": "wrong", "why": "Gold a=0,d=0,e=6b; model b=0,e=0"}
+{"uid": "u1871", "verdict": "wrong", "why": "50 g ignores lead volume; gold 54.85"}
+{"uid": "u1872", "verdict": "right", "why": "Rest energy of the proton"}
+{"uid": "u1873", "verdict": "right", "why": "a if source in cell else 0"}
+{"uid": "u1874", "verdict": "right", "why": "All values within about 1%"}
+{"uid": "u1875", "verdict": "right", "why": "(1/rho_l-1/rho_s)/L matches gold"}
+{"uid": "u1876", "verdict": "right", "why": "5/3 W/K equals 0.00167 kW/K"}
+{"uid": "u1877", "verdict": "partial", "why": "Only the Crank-Nicolson part matches"}
+{"uid": "u1878", "verdict": "partial", "why": "Photon energy missing; kinetic energy right"}
+{"uid": "u1879", "verdict": "right", "why": "All three parts match"}
+{"uid": "u1880", "verdict": "right", "why": "Matches gold with specific gas constant R"}
+{"uid": "u1881", "verdict": "wrong", "why": "Gives kinetic-only E relation; gold J and E differ"}
+{"uid": "u1882", "verdict": "right", "why": "All four parts equivalent to gold"}
+{"uid": "u1883", "verdict": "wrong", "why": "Missing Fresnel drag term; gives c/n"}
+{"uid": "u1884", "verdict": "partial", "why": "Parity of spin wrong; others right"}
+{"uid": "u1885", "verdict": "wrong", "why": "Missing factor 2 for spin degeneracy"}
+{"uid": "u1886", "verdict": "right", "why": "a, b, c agree"}
+{"uid": "u1887", "verdict": "right", "why": "Same potential expression"}
+{"uid": "u1888", "verdict": "right", "why": "f=1/d gives phase pi/3 shift"}
+{"uid": "u1889", "verdict": "right", "why": "F=a if source in cell, else 0"}
+{"uid": "u1890", "verdict": "right", "why": "1.64e-18 J equals 10.2 eV"}
+{"uid": "u1891", "verdict": "wrong", "why": "10^28 versus gold 10^17"}
+{"uid": "u1892", "verdict": "partial", "why": "Potential differences have wrong signs; energy right"}
+{"uid": "u1893", "verdict": "right", "why": "Threshold formula gives about 151 MeV"}
+{"uid": "u1894", "verdict": "partial", "why": "k only pi/a, not all odd multiples; energy right"}
+{"uid": "u1895", "verdict": "wrong", "why": "Equation of motion incorrect"}
+{"uid": "u1896", "verdict": "partial", "why": "a=0, d=0 right; e=-3b not 6b"}
+{"uid": "u1897", "verdict": "partial", "why": "Flow rate wrong; energy values only in tail"}
+{"uid": "u1898", "verdict": "right", "why": "Equals 1/320.55 and log relation"}
+{"uid": "u1899", "verdict": "right", "why": "Same velocities, axes labeled differently"}
+{"uid": "u1900", "verdict": "right", "why": "15.75 MeV within 1% of 15.6"}
+{"uid": "u1901", "verdict": "wrong", "why": "Amplitudes 2A, 3A versus A/2, 3A/2"}
+{"uid": "u1902", "verdict": "right", "why": "5.8 km within 2% of 5.89"}
+{"uid": "u1903", "verdict": "wrong", "why": "Times differ from gold"}
+{"uid": "u1904", "verdict": "wrong", "why": "5 versus 4"}
+{"uid": "u1905", "verdict": "right", "why": "5.8 km within 2% of 5.89"}
+{"uid": "u1906", "verdict": "partial", "why": "Tension right; finger position 41.7 cm not 8.3"}
+{"uid": "u1907", "verdict": "right", "why": "Identical expression"}
+{"uid": "u1908", "verdict": "partial", "why": "Acceleration right; speed and displacement wrong"}
+{"uid": "u1909", "verdict": "right", "why": "Same series with B_n explicit"}
+{"uid": "u1910", "verdict": "right", "why": "Hamiltonian expression equals gold energy function"}
+{"uid": "u1911", "verdict": "wrong", "why": "Extra factor 2 and half-integer for dark rings"}
+{"uid": "u1912", "verdict": "right", "why": "f=1/d gives phase pi/3 shift"}
+{"uid": "u1913", "verdict": "right", "why": "Probabilities one half each"}
+{"uid": "u1914", "verdict": "right", "why": "Components match"}
+{"uid": "u1915", "verdict": "wrong", "why": "1-I/Is instead of 1/(1+I/Is)"}
+{"uid": "u1916", "verdict": "wrong", "why": "h_i factor inverted"}
+{"uid": "u1917", "verdict": "partial", "why": "Field right; U_AB sign and max energy wrong"}
+{"uid": "u1918", "verdict": "right", "why": "R mixture 288.08 J/kgK equals 0.28806 kJ/kgK"}
+{"uid": "u1919", "verdict": "right", "why": "L=Iw and torque=I alpha equivalent"}
+{"uid": "u1760", "verdict": "wrong", "why": "Shift off by 10x (0.002426 vs 0.0241 \u00c5)"}
+{"uid": "u1761", "verdict": "partial", "why": "Acceleration right; stopping at 8 s missed, gives 5 and 75"}
+{"uid": "u1762", "verdict": "right", "why": "All parts match gold"}
+{"uid": "u1763", "verdict": "right", "why": "3.43e-22 J equals 2.14e-3 eV"}
+{"uid": "u1764", "verdict": "right", "why": "21.9 within 2% of 21.55"}
+{"uid": "u1765", "verdict": "right", "why": "alpha 1.46e6 matches"}
+{"uid": "u1766", "verdict": "wrong", "why": "Gold 0, answer 3,000,000 J"}
+{"uid": "u1767", "verdict": "right", "why": "B is 720 cal"}
+{"uid": "u1768", "verdict": "partial", "why": "Potential difference signs flipped; potential energy right"}
+{"uid": "u1769", "verdict": "right", "why": "Same expression, labelled H"}
+{"uid": "u1770", "verdict": "wrong", "why": "Gives sqrt(ke^2/mr), not e^2/(4 pi eps0 n hbar)"}
+{"uid": "u1771", "verdict": "right", "why": "1e-25 cm^2 equals 0.1 barn"}
+{"uid": "u1772", "verdict": "wrong", "why": "Magnitude matches but sign opposite to gold"}
+{"uid": "u1773", "verdict": "wrong", "why": "Wrong alpha and tau relation"}
+{"uid": "u1774", "verdict": "right", "why": "Matches with V0 taken as zero"}
+{"uid": "u1775", "verdict": "partial", "why": "Part 4 is 9.4e7 vs 9.7e7, 3% off"}
+{"uid": "u1776", "verdict": "right", "why": "1.27 THz matches"}
+{"uid": "u1777", "verdict": "wrong", "why": "Different expression from I(e2 r2 - e1 r1)"}
+{"uid": "u1778", "verdict": "wrong", "why": "3.91e3 Pa/K, not alpha 1.46e6"}
+{"uid": "u1779", "verdict": "right", "why": "T^3 at low T, constant at high T"}
+{"uid": "u1780", "verdict": "wrong", "why": "Ignored the 2/r term"}
+{"uid": "u1781", "verdict": "wrong", "why": "e = -3b, not 6b; extra c = 0"}
+{"uid": "u1782", "verdict": "right", "why": "Hamiltonian is the gold expression"}
+{"uid": "u1783", "verdict": "wrong", "why": "Differs from gold by m_K"}
+{"uid": "u1784", "verdict": "right", "why": "Components match"}
+{"uid": "u1785", "verdict": "right", "why": "g=9.8 vs 10 rounding differences"}
+{"uid": "u1786", "verdict": "right", "why": "g=9.8 vs 10 rounding differences"}
+{"uid": "u1787", "verdict": "right", "why": "Image charge and force match"}
+{"uid": "u1788", "verdict": "wrong", "why": "Sign of the correction term is opposite"}
+{"uid": "u1789", "verdict": "partial", "why": "Tension right; finger position given as 41.7 cm, not 8.3 cm"}
+{"uid": "u1790", "verdict": "right", "why": "Both energies match"}
+{"uid": "u1791", "verdict": "wrong", "why": "Gives 3:1 instead of 1:2"}
+{"uid": "u1792", "verdict": "partial", "why": "Earthquake energy right; flow rate 2.3e3 vs 1e6"}
+{"uid": "u1793", "verdict": "partial", "why": "Only T^3 right; distance and gap wrong"}
+{"uid": "u1794", "verdict": "right", "why": "alpha 1.46e6 matches"}
+{"uid": "u1795", "verdict": "right", "why": "Same results, axis labels swapped by convention"}
+{"uid": "u1796", "verdict": "right", "why": "Same current density, e^{i wt} convention"}
+{"uid": "u1797", "verdict": "partial", "why": "Wavelength matches; frequency 5.14 vs 5.8 GHz"}
+{"uid": "u1798", "verdict": "wrong", "why": "Linear in alpha, gold goes as sqrt(alpha)"}
+{"uid": "u1799", "verdict": "wrong", "why": "144 phi0/sigma^2 differs from 72 phi0/sigma"}
+{"uid": "u2000", "verdict": "right", "why": "2\u03c0f d/6 = \u03c0/3 with f=1/d"}
+{"uid": "u2001", "verdict": "right", "why": "k=1/4\u03c0\u03b50, same expressions"}
+{"uid": "u2002", "verdict": "right", "why": "F=a if source in cell else 0"}
+{"uid": "u2003", "verdict": "wrong", "why": "10.5 vs 13.9"}
+{"uid": "u2004", "verdict": "wrong", "why": "Opposite sign of reflection coefficient"}
+{"uid": "u2005", "verdict": "wrong", "why": "Wrong sign and factor 1/2 on stretch term"}
+{"uid": "u2006", "verdict": "partial", "why": "AB/BC signs and U_C sign differ from gold"}
+{"uid": "u2007", "verdict": "right", "why": "Matches with k=1/4\u03c0\u03b50"}
+{"uid": "u2008", "verdict": "right", "why": "1.31 kJ/K equals 1305 J/K"}
+{"uid": "u2009", "verdict": "right", "why": "Option c is 224 mm"}
+{"uid": "u2010", "verdict": "right", "why": "5.8 within 2% of 5.89"}
+{"uid": "u2011", "verdict": "wrong", "why": "Kinetic energy, gold is total energy, differs by m_K"}
+{"uid": "u2012", "verdict": "right", "why": "Identical expression"}
+{"uid": "u2013", "verdict": "wrong", "why": "Gives 1, gold has 2/3, 1/3, etc."}
+{"uid": "u2014", "verdict": "partial", "why": "Parity of spin wrong, other three right"}
+{"uid": "u2015", "verdict": "wrong", "why": "Times differ from 6.67e-12 and 6.67e-7"}
+{"uid": "u2016", "verdict": "right", "why": "Same with R as specific gas constant"}
+{"uid": "u2017", "verdict": "right", "why": "All values within 2% of gold"}
+{"uid": "u2018", "verdict": "wrong", "why": "Gave 1-1/(2a), gold is 1/(2a)"}
+{"uid": "u2019", "verdict": "right", "why": "All three parts match"}
+{"uid": "u2020", "verdict": "wrong", "why": "Different result, no \u03c0 \u0127/(4\u03b5) or 1.65e-28"}
+{"uid": "u2021", "verdict": "partial", "why": "Distance wrong; gap ok; specific heat T^3 only low-T"}
+{"uid": "u2022", "verdict": "right", "why": "\u03c1(v r)^2/r^3 equals \u03c1 v^2/r"}
+{"uid": "u2023", "verdict": "right", "why": "1.5e6 matches 1.53e6 within rounding"}
+{"uid": "u2024", "verdict": "right", "why": "1322 J/K equals 1.32 kJ/K"}
+{"uid": "u2025", "verdict": "right", "why": "Limit matches gold"}
+{"uid": "u2026", "verdict": "partial", "why": "Part (d) V(b)dQ not given; others right"}
+{"uid": "u2027", "verdict": "wrong", "why": "2.42 pm vs gold 2.264 pm"}
+{"uid": "u2028", "verdict": "wrong", "why": "2.42e-12 vs gold 2.264e-12"}
+{"uid": "u2029", "verdict": "wrong", "why": "10.7 eV vs 1.7"}
+{"uid": "u2030", "verdict": "wrong", "why": "Constant potential, not \u03c8=0 condition"}
+{"uid": "u2031", "verdict": "partial", "why": "First two right, (c) and (d) wrong"}
+{"uid": "u2032", "verdict": "wrong", "why": "Flow 2290 vs 10^6; energies not given"}
+{"uid": "u2033", "verdict": "right", "why": "Same energy function"}
+{"uid": "u2034", "verdict": "right", "why": "23.8 torr rounds 23.756"}
+{"uid": "u2035", "verdict": "partial", "why": "Potential differences have opposite signs; U_C correct"}
+{"uid": "u2036", "verdict": "wrong", "why": "Amplitudes and signs differ from gold"}
+{"uid": "u2037", "verdict": "right", "why": "1.2e6 m equals 1.2e3 km"}
+{"uid": "u2038", "verdict": "wrong", "why": "Different expression from R_p \u03c42/(1+I/Is)"}
+{"uid": "u2039", "verdict": "right", "why": "Option C is 224 mm"}
+{"uid": "u1960", "verdict": "right", "why": "5.8 within 2% of 5.89"}
+{"uid": "u1961", "verdict": "partial", "why": "H, B right; M 7.94e5 vs gold 7.9e3"}
+{"uid": "u1962", "verdict": "wrong", "why": "Missing the 1+ term; M/m v differs"}
+{"uid": "u1963", "verdict": "wrong", "why": "l/gamma, not gold's formula with u"}
+{"uid": "u1964", "verdict": "right", "why": "27.1 fm^2 = 2.7e-25 cm^2"}
+{"uid": "u1965", "verdict": "wrong", "why": "Denominator S*mu_r vs (mu_r-1)S"}
+{"uid": "u1966", "verdict": "right", "why": "All values within 1% of gold"}
+{"uid": "u1967", "verdict": "right", "why": "21.8 within 2% of 21.55"}
+{"uid": "u1968", "verdict": "partial", "why": "H, B right; M 7.96e5 vs gold 7.9e3"}
+{"uid": "u1969", "verdict": "wrong", "why": "Sign opposite to gold"}
+{"uid": "u1970", "verdict": "wrong", "why": "Gives alpha, beta+, beta-; gold alpha, gamma, beta"}
+{"uid": "u1971", "verdict": "right", "why": "2mc^2 and h/2mc equal 1.022 MeV, 0.012 A"}
+{"uid": "u1972", "verdict": "wrong", "why": "Double beta plus/triple beta minus, not gold"}
+{"uid": "u1973", "verdict": "wrong", "why": "2.3e14 g/cm3 vs gold 5.3e19"}
+{"uid": "u1974", "verdict": "right", "why": "Same magnitude; sign is time-convention"}
+{"uid": "u1975", "verdict": "right", "why": "Both currents match; 40 us = 1/25000"}
+{"uid": "u1976", "verdict": "right", "why": "5/3 W/K = 0.00167 kW/K"}
+{"uid": "u1977", "verdict": "right", "why": "1.26 nm and 0.516 meV match gold"}
+{"uid": "u1978", "verdict": "partial", "why": "Lab time right; particle-frame time differs"}
+{"uid": "u1979", "verdict": "wrong", "why": "V1/V2 instead of V1/(V1+V2)"}
+{"uid": "u1980", "verdict": "right", "why": "428 eV, 2.3e5, 1.2e3 km all match"}
+{"uid": "u1981", "verdict": "wrong", "why": "Opposite sign to gold"}
+{"uid": "u1982", "verdict": "right", "why": "Same indicator-function result"}
+{"uid": "u1983", "verdict": "right", "why": "Identical expression"}
+{"uid": "u1984", "verdict": "right", "why": "All parts match gold"}
+{"uid": "u1985", "verdict": "right", "why": "431 eV, 2.3e5, 1.2e3 km match"}
+{"uid": "u1986", "verdict": "right", "why": "a, b, c matches"}
+{"uid": "u1987", "verdict": "wrong", "why": "156 W vs gold 2.1e6"}
+{"uid": "u1988", "verdict": "wrong", "why": "No 11 cm value given"}
+{"uid": "u1989", "verdict": "wrong", "why": "394 kW vs gold 2.1e6"}
+{"uid": "u1990", "verdict": "right", "why": "15.75 within 1% of 15.6; linear in A"}
+{"uid": "u1991", "verdict": "right", "why": "Charge and field expressions equivalent"}
+{"uid": "u1992", "verdict": "wrong", "why": "1/3 vs gold 1/2"}
+{"uid": "u1993", "verdict": "wrong", "why": "Formula, not order 1"}
+{"uid": "u1994", "verdict": "wrong", "why": "Linear in alpha vs gold sqrt(alpha)"}
+{"uid": "u1995", "verdict": "partial", "why": "Exact V given; kinetic energy and expansion missing"}
+{"uid": "u1996", "verdict": "right", "why": "Matches gold with phase 1 liquid"}
+{"uid": "u1997", "verdict": "wrong", "why": "Gave air density, not 5.3e19"}
+{"uid": "u1998", "verdict": "wrong", "why": "7.5 vs gold 5"}
+{"uid": "u1999", "verdict": "wrong", "why": "Chose b (161) not 224"}
+{"uid": "u1920", "verdict": "right", "why": "All four match; 9.4e7 vs 9.7e7 is rounding"}
+{"uid": "u1921", "verdict": "partial", "why": "J form fine; E expression wrong, lacks rotational term"}
+{"uid": "u1922", "verdict": "partial", "why": "Only specific heat T^3 right; distance and gap wrong"}
+{"uid": "u1923", "verdict": "wrong", "why": "Spurious 1/A factor in total charge"}
+{"uid": "u1924", "verdict": "right", "why": "Mixture R 288.1 J/kgK equals 0.28806 kJ/kgK"}
+{"uid": "u1925", "verdict": "wrong", "why": "Depends on g1,g2; gold is 2N/3, N/3"}
+{"uid": "u1926", "verdict": "partial", "why": "Only n=0 member given, not the general family"}
+{"uid": "u1927", "verdict": "right", "why": "429 eV, 2.3e5 revolutions, 1200 km all match"}
+{"uid": "u1928", "verdict": "partial", "why": "phi-dot matches; velocity components differ from gold's frame"}
+{"uid": "u1929", "verdict": "wrong", "why": "Gives floor(d/700nm), not order 1"}
+{"uid": "u1930", "verdict": "partial", "why": "Parity of spin wrong; other three right"}
+{"uid": "u1931", "verdict": "wrong", "why": "1.68 versus 7.91 W/K"}
+{"uid": "u1932", "verdict": "partial", "why": "Gave only pi/2, missing +k*pi"}
+{"uid": "u1933", "verdict": "right", "why": "n and mu both match"}
+{"uid": "u1934", "verdict": "wrong", "why": "Specific heat difference has opposite sign"}
+{"uid": "u1935", "verdict": "right", "why": "m_e/M is about 1/1836, 5.4e-4"}
+{"uid": "u1936", "verdict": "partial", "why": "Part a roughly 45 degrees; b, c, d missing or wrong"}
+{"uid": "u1937", "verdict": "wrong", "why": "T^2 versus T^-3/2"}
+{"uid": "u1938", "verdict": "partial", "why": "Only specific heat T^3 right; distance and gap wrong"}
+{"uid": "u1939", "verdict": "wrong", "why": "Gold alpha, gamma, beta; answer multi-beta"}
+{"uid": "u1940", "verdict": "right", "why": "Option D is 122 degrees"}
+{"uid": "u1941", "verdict": "right", "why": "21.8 within 2% of 21.55"}
+{"uid": "u1942", "verdict": "wrong", "why": "3e6 J versus gold 0"}
+{"uid": "u1943", "verdict": "right", "why": "All values match"}
+{"uid": "u1944", "verdict": "partial", "why": "Part 1 right, later parts wrong"}
+{"uid": "u1945", "verdict": "wrong", "why": "Symbolic only, no 208 value"}
+{"uid": "u1946", "verdict": "partial", "why": "Only n=0 member given, not the general family"}
+{"uid": "u1947", "verdict": "right", "why": "Same T and V, phi for theta"}
+{"uid": "u1948", "verdict": "right", "why": "Matches gold components"}
+{"uid": "u1949", "verdict": "right", "why": "1e-25 cm^2 equals 0.1 barn"}
+{"uid": "u1950", "verdict": "wrong", "why": "Missed 2/r term, gave -i d/dr"}
+{"uid": "u1951", "verdict": "right", "why": "R mix 287.9 J/kgK matches 0.28806 kJ/kgK"}
+{"uid": "u1952", "verdict": "partial", "why": "H and B right; M off by factor 100"}
+{"uid": "u1953", "verdict": "partial", "why": "phi-dot matches; x,y differ from gold's orientation"}
+{"uid": "u1954", "verdict": "right", "why": "Gradient matrix and S+A decomposition given"}
+{"uid": "u1955", "verdict": "right", "why": "R mix 288.09 J/kgK matches 0.28806 kJ/kgK"}
+{"uid": "u1956", "verdict": "partial", "why": "Acceleration right; ignored stopping, speed and distance wrong"}
+{"uid": "u1957", "verdict": "right", "why": "1.022 MeV and 1.21e-12 m match"}
+{"uid": "u1958", "verdict": "partial", "why": "First two parts right, rest wrong"}
+{"uid": "u1959", "verdict": "partial", "why": "E right; U_AB sign and max energy wrong"}
+{"uid": "u2040", "verdict": "partial", "why": "Shift and percentages right; both recoil KEs wrong"}
+{"uid": "u2041", "verdict": "wrong", "why": "Not the streamline equation; gold is y-y0=(x\u00b2-x0\u00b2)/(1+At0)"}
+{"uid": "u2042", "verdict": "partial", "why": "a=0, d=0 right; e=3b wrong, extra c=0"}
+{"uid": "u2043", "verdict": "right", "why": "Same result, e^{i\u03c9t} convention gives 1/i"}
+{"uid": "u2044", "verdict": "right", "why": "Exponential form equals sinh(n\u03c0(x-L)/H) series, BCs satisfied"}
+{"uid": "u2045", "verdict": "right", "why": "Same, k=1/4\u03c0\u03b50, y(t) is separation"}
+{"uid": "u2046", "verdict": "wrong", "why": "2610 vs 2670, wrong superheated enthalpy"}
+{"uid": "u2047", "verdict": "wrong", "why": "10.6 eV vs 1.7"}
+{"uid": "u2048", "verdict": "wrong", "why": "Sign of the length-dependent entropy term, and factor, wrong"}
+{"uid": "u2049", "verdict": "right", "why": "F=a when source in cell, else 0"}
+{"uid": "u2050", "verdict": "right", "why": "74 g matches 74.1"}
+{"uid": "u2051", "verdict": "right", "why": "Z and E match gold"}
+{"uid": "u2052", "verdict": "right", "why": "Same expressions, u(t) is separation"}
+{"uid": "u2053", "verdict": "wrong", "why": "Missing \u03c0\u00b2/4 form; sqrt(2EI/\u03c1Al\u00b2) differs"}
+{"uid": "u2054", "verdict": "wrong", "why": "Sign of drag term reversed"}
+{"uid": "u2055", "verdict": "right", "why": "Algebraically identical to gold"}
+{"uid": "u2056", "verdict": "partial", "why": "h1 and t right; velocity 60 m/s not given"}
+{"uid": "u2057", "verdict": "wrong", "why": "240 vs 66.5 kg/s"}
+{"uid": "u2058", "verdict": "right", "why": "0.23 T and 300 A/m match"}
+{"uid": "u2059", "verdict": "right", "why": "Rounded values within 2%"}
+{"uid": "u2060", "verdict": "wrong", "why": "Relation inverted versus gold a_i=e_i/h_i"}
+{"uid": "u2061", "verdict": "wrong", "why": "Sign opposite to gold deflection"}
+{"uid": "u2062", "verdict": "wrong", "why": "Gold alpha, gamma, beta; answer differs"}
+{"uid": "u2063", "verdict": "right", "why": "288.09 J/kgK equals 0.28806 kJ/kgK"}
+{"uid": "u2064", "verdict": "right", "why": "1/320 matches 1/320.55; relation in tail"}
+{"uid": "u2065", "verdict": "wrong", "why": "1/4 vs 1/2"}
+{"uid": "u2066", "verdict": "right", "why": "Same equation, constant is V0"}
+{"uid": "u2067", "verdict": "right", "why": "\u03b1=1.46e6 matches, dp/dT consistent"}
+{"uid": "u2068", "verdict": "wrong", "why": "Wrong flux: integrated wrong range and factor"}
+{"uid": "u2069", "verdict": "wrong", "why": "Dropped constant V0, rearranged form differs"}
+{"uid": "u2070", "verdict": "partial", "why": "Last value 9.44e7 vs 9.7e7 off 2.7%"}
+{"uid": "u2071", "verdict": "right", "why": "All values within 2% of gold"}
+{"uid": "u2072", "verdict": "right", "why": "20 s and 120 m"}
+{"uid": "u2073", "verdict": "wrong", "why": "5768 vs 2.1e6"}
+{"uid": "u2074", "verdict": "partial", "why": "20 s, 20 m/s right; 10 kg vs 12.6"}
+{"uid": "u2075", "verdict": "right", "why": "All parts match"}
+{"uid": "u2076", "verdict": "right", "why": "5.69 fs matches 5.68e-15 s"}
+{"uid": "u2077", "verdict": "wrong", "why": "Dropped \u03b50; 3/(2+\u03b5) inconsistent with gold"}
+{"uid": "u2078", "verdict": "wrong", "why": "c\u00b2 instead of c\u00b3, wrong dimensions"}
+{"uid": "u2079", "verdict": "right", "why": "8.33 cm = 0.083 m; 774 N"}
+{"uid": "u2120", "verdict": "wrong", "why": "gives 2, gold is 1/2"}
+{"uid": "u2121", "verdict": "wrong", "why": "sigma^2 vs gold sigma; differs from gold as written"}
+{"uid": "u2122", "verdict": "wrong", "why": "different expression from gold"}
+{"uid": "u2123", "verdict": "wrong", "why": "sets a=0, pV=bT; gold has -a/T term"}
+{"uid": "u2124", "verdict": "wrong", "why": "gives V T^3 form, gold is 3Nk"}
+{"uid": "u2125", "verdict": "right", "why": "1.26 nm=12.6 A; 8.27e-23 J=5.2e-4 eV"}
+{"uid": "u2126", "verdict": "wrong", "why": "c/n, gold is Fresnel drag expression"}
+{"uid": "u2127", "verdict": "wrong", "why": "1.59 nm and 3.26e-4 eV mismatch gold"}
+{"uid": "u2128", "verdict": "right", "why": "mixture R 0.288 matches 0.28806"}
+{"uid": "u2129", "verdict": "right", "why": "0.27 b = 2.7e-25 cm^2"}
+{"uid": "u2130", "verdict": "right", "why": "20.5*sqrt3 = 35.5"}
+{"uid": "u2131", "verdict": "right", "why": "24.6 kW heat rate, 25 kW within 2%"}
+{"uid": "u2132", "verdict": "wrong", "why": "3.14 A vs 3.4 A; other parts missing"}
+{"uid": "u2133", "verdict": "right", "why": "T^3 low T, constant high T"}
+{"uid": "u2134", "verdict": "right", "why": "matches gold limit"}
+{"uid": "u2135", "verdict": "right", "why": "429 eV, 2.33e5, 1.23e3 km all match"}
+{"uid": "u2136", "verdict": "partial", "why": "missing gold's eigenvalue 1; others match"}
+{"uid": "u2137", "verdict": "partial", "why": "AB, BC right; V_A, V_C, U_A signs wrong"}
+{"uid": "u2138", "verdict": "wrong", "why": "16.67 vs gold 11"}
+{"uid": "u2139", "verdict": "wrong", "why": "no probabilities or values given"}
+{"uid": "u2140", "verdict": "wrong", "why": "E=mg/q, gold sqrt3 mg/q"}
+{"uid": "u2141", "verdict": "wrong", "why": "e=-3b, gold e=6b"}
+{"uid": "u2142", "verdict": "wrong", "why": "2534 vs 2670 kJ/kg"}
+{"uid": "u2143", "verdict": "wrong", "why": "1.8 eV per turn, gold 430 eV"}
+{"uid": "u2144", "verdict": "partial", "why": "top mass sign positive, gold -2/3"}
+{"uid": "u2145", "verdict": "wrong", "why": "different expression, not e^2/(4 pi eps0 n hbar)"}
+{"uid": "u2146", "verdict": "right", "why": "same energy function"}
+{"uid": "u2147", "verdict": "wrong", "why": "4267 W vs gold 3.07 kW"}
+{"uid": "u2148", "verdict": "right", "why": "E proportional to 1/x^3"}
+{"uid": "u2149", "verdict": "right", "why": "1.022 MeV; 1.21 pm = 0.0121 A"}
+{"uid": "u2150", "verdict": "wrong", "why": "factor 2 off both times"}
+{"uid": "u2151", "verdict": "wrong", "why": "sign of omega^2 cos term wrong"}
+{"uid": "u2152", "verdict": "wrong", "why": "claims self-adjoint, gold has 2/r term"}
+{"uid": "u2153", "verdict": "right", "why": "0.0545% = 5.45e-4"}
+{"uid": "u2154", "verdict": "right", "why": "tail's final E_K matches gold, no box"}
+{"uid": "u2155", "verdict": "right", "why": "matches gold limit"}
+{"uid": "u2156", "verdict": "wrong", "why": "0.015 vs 13.9"}
+{"uid": "u2157", "verdict": "wrong", "why": "T^-2 vs T^-3/2"}
+{"uid": "u2158", "verdict": "wrong", "why": "2e12 vs 1e12 Pa"}
+{"uid": "u2159", "verdict": "wrong", "why": "factor 2 smaller than gold"}
+{"uid": "u2200", "verdict": "partial", "why": "Wavelength matches; frequency 5.10 GHz vs gold 5.8"}
+{"uid": "u2201", "verdict": "right", "why": "Option A is the gold value"}
+{"uid": "u2202", "verdict": "right", "why": "1020 kPa equals 1.02 MPa"}
+{"uid": "u2203", "verdict": "right", "why": "omega=ck and k.A0=0 match"}
+{"uid": "u2204", "verdict": "wrong", "why": "72 K vs 50.7 K"}
+{"uid": "u2205", "verdict": "right", "why": "Components match gold"}
+{"uid": "u2206", "verdict": "right", "why": "Both energies match, k=1/4pi eps0"}
+{"uid": "u2207", "verdict": "partial", "why": "(a),(c) match; (b) sign in denominator differs"}
+{"uid": "u2208", "verdict": "right", "why": "k=omega/c and k.A0=0"}
+{"uid": "u2209", "verdict": "wrong", "why": "2b/3 vs b/2"}
+{"uid": "u2210", "verdict": "right", "why": "Same three-point formula"}
+{"uid": "u2211", "verdict": "right", "why": "Same expression with Re substituted"}
+{"uid": "u2212", "verdict": "right", "why": "Matches gold flux expression"}
+{"uid": "u2213", "verdict": "right", "why": "Same components"}
+{"uid": "u2214", "verdict": "wrong", "why": "1.68 vs 7.91 W/K"}
+{"uid": "u2215", "verdict": "wrong", "why": "Linear sum vs gold quadrature sum"}
+{"uid": "u2216", "verdict": "right", "why": "Same energy function"}
+{"uid": "u2217", "verdict": "wrong", "why": "Gives 3.91e3 Pa/K, not alpha=1.46e6"}
+{"uid": "u2218", "verdict": "wrong", "why": "Tangential E vs wavefunction vanishing"}
+{"uid": "u2219", "verdict": "right", "why": "Final result a if x_s in cell"}
+{"uid": "u2220", "verdict": "partial", "why": "Part 4 gives 24.2 s, 37.2 vs 22, 37"}
+{"uid": "u2221", "verdict": "right", "why": "2.3e-4 rad matches"}
+{"uid": "u2222", "verdict": "partial", "why": "3.13 \u00c5 vs 3.4 wrong; T^3 stated"}
+{"uid": "u2223", "verdict": "right", "why": "100 dyne/cm matches"}
+{"uid": "u2224", "verdict": "wrong", "why": "Air-layer coefficient, not layer-halfspace"}
+{"uid": "u2225", "verdict": "partial", "why": "Three of four eigenvalues match; 1 vs 1/2"}
+{"uid": "u2226", "verdict": "right", "why": "Same J and E(J)"}
+{"uid": "u2227", "verdict": "right", "why": "All three parts match"}
+{"uid": "u2228", "verdict": "right", "why": "Same limit"}
+{"uid": "u2229", "verdict": "wrong", "why": "Missing the 2/r term"}
+{"uid": "u2230", "verdict": "right", "why": "a if x_s in V_i else 0"}
+{"uid": "u2231", "verdict": "wrong", "why": "Coefficient 1.88 vs pi/2"}
+{"uid": "u2232", "verdict": "wrong", "why": "Different J and E expressions"}
+{"uid": "u2233", "verdict": "partial", "why": "Probabilities partly match; hbar,0 missing, final 1/2"}
+{"uid": "u2234", "verdict": "right", "why": "2.5, 0, 80 m match"}
+{"uid": "u2235", "verdict": "wrong", "why": "Sign of L-dependent term opposite"}
+{"uid": "u2236", "verdict": "wrong", "why": "5.27 km vs 5.89 km"}
+{"uid": "u2237", "verdict": "partial", "why": "3.1 eV and T^3 right; 3.14 \u00c5 vs 3.4"}
+{"uid": "u2238", "verdict": "wrong", "why": "32 GHz vs 1.27 THz"}
+{"uid": "u2239", "verdict": "right", "why": "All values within 1% of gold"}
+{"uid": "u2160", "verdict": "partial", "why": "CA sign and U_C sign differ from gold"}
+{"uid": "u2161", "verdict": "right", "why": "Same expression, c^2 factor only"}
+{"uid": "u2162", "verdict": "wrong", "why": "Gold is 2rV/(b^2-a^2); different field"}
+{"uid": "u2163", "verdict": "wrong", "why": "About 31.9 cm versus gold 16.16"}
+{"uid": "u2164", "verdict": "right", "why": "3/(eps+2) is the relative-permittivity form of gold"}
+{"uid": "u2165", "verdict": "partial", "why": "H and B match; M is 7.9e5, gold 7.9e3"}
+{"uid": "u2166", "verdict": "wrong", "why": "Extra arbitrary f(V) not in gold"}
+{"uid": "u2167", "verdict": "right", "why": "Matrix and symmetric plus antisymmetric split given"}
+{"uid": "u2168", "verdict": "wrong", "why": "Gives 3e6 J, gold is 0"}
+{"uid": "u2169", "verdict": "wrong", "why": "No probabilities or values given"}
+{"uid": "u2170", "verdict": "right", "why": "a if source in cell, else 0"}
+{"uid": "u2171", "verdict": "right", "why": "5/3 W/K equals 0.00167 kW/K"}
+{"uid": "u2172", "verdict": "right", "why": "152 MeV within 2% of 150"}
+{"uid": "u2173", "verdict": "wrong", "why": "Speed and displacement wrong; gold is 0 and 80 m"}
+{"uid": "u2174", "verdict": "wrong", "why": "22.3 differs from 21.55 by about 3.5%"}
+{"uid": "u2175", "verdict": "wrong", "why": "Sign and factor of the L-dependent term wrong"}
+{"uid": "u2176", "verdict": "right", "why": "L=I omega and torque equals I alpha"}
+{"uid": "u2177", "verdict": "right", "why": "Tail's boxed P and T transformations match gold"}
+{"uid": "u2178", "verdict": "wrong", "why": "Gold is the Bohr form with n; answer uses r"}
+{"uid": "u2179", "verdict": "right", "why": "Same formula, R as specific gas constant"}
+{"uid": "u2180", "verdict": "wrong", "why": "4.6e-4 is double the gold 2.3e-4"}
+{"uid": "u2181", "verdict": "right", "why": "alpha=0.00312=1/320.55; tau relation equivalent"}
+{"uid": "u2182", "verdict": "right", "why": "1.3e16 matches 1.33e16"}
+{"uid": "u2183", "verdict": "wrong", "why": "12.5 V versus gold 5.36 V"}
+{"uid": "u2184", "verdict": "wrong", "why": "Gives 3e6 J, gold is 0"}
+{"uid": "u2185", "verdict": "right", "why": "8.3 cm and 774 N match"}
+{"uid": "u2186", "verdict": "wrong", "why": "Missing the 1/m in the exponent"}
+{"uid": "u2187", "verdict": "right", "why": "Matches gold with phase labels mapped"}
+{"uid": "u2188", "verdict": "right", "why": "1.30 kJ/K equals 1305 J/K"}
+{"uid": "u2189", "verdict": "partial", "why": "Transmitted right; reflected sign is wrong"}
+{"uid": "u2190", "verdict": "partial", "why": "Wavelength matches; frequency 5.15 GHz versus 5.8"}
+{"uid": "u2191", "verdict": "wrong", "why": "10.5 versus gold 13.9"}
+{"uid": "u2192", "verdict": "partial", "why": "First three right; part 4 is 3% off"}
+{"uid": "u2193", "verdict": "right", "why": "sqrt21/11 c equals 0.417c"}
+{"uid": "u2194", "verdict": "wrong", "why": "Sign wrong; gold is -75 J"}
+{"uid": "u2195", "verdict": "right", "why": "4.28 days given, rounded to 4.3"}
+{"uid": "u2196", "verdict": "partial", "why": "Eigenvalue 1 in gold not matched"}
+{"uid": "u2197", "verdict": "wrong", "why": "Different expression from gold"}
+{"uid": "u2198", "verdict": "right", "why": "1.022 MeV and 1.21 pm equals 0.0121 A"}
+{"uid": "u2199", "verdict": "right", "why": "Energy equals m_p c^2"}
+{"uid": "u2080", "verdict": "partial", "why": "Energy matches 5.2e-4 eV; wavelength 0.586 nm vs 12.5 wrong"}
+{"uid": "u2081", "verdict": "right", "why": "50 K within 1.4% of 50.7 K"}
+{"uid": "u2082", "verdict": "wrong", "why": "22.3 vs 21.55, 3.5% off"}
+{"uid": "u2083", "verdict": "right", "why": "J and E equivalent after eliminating D"}
+{"uid": "u2084", "verdict": "wrong", "why": "4.49 \u00c5 vs 3.4 \u00c5; other parts missing"}
+{"uid": "u2085", "verdict": "right", "why": "alpha/T and 1.46e6 match"}
+{"uid": "u2086", "verdict": "partial", "why": "phi-dot matches; x and y components swapped"}
+{"uid": "u2087", "verdict": "wrong", "why": "4e-8 vs 3.7e-8, 8% off"}
+{"uid": "u2088", "verdict": "wrong", "why": "Missing the expansion-coefficient term"}
+{"uid": "u2089", "verdict": "wrong", "why": "Sign of i is opposite to gold"}
+{"uid": "u2090", "verdict": "wrong", "why": "1.59e-3 eV vs 2.14e-3 eV"}
+{"uid": "u2091", "verdict": "wrong", "why": "Denominator has mu_r S instead of (mu_r-1)S"}
+{"uid": "u2092", "verdict": "right", "why": "Equivalent under phase relabeling"}
+{"uid": "u2093", "verdict": "right", "why": "Same relativistic speed expression"}
+{"uid": "u2094", "verdict": "right", "why": "F_i=a if x_s in V_i, else 0"}
+{"uid": "u2095", "verdict": "right", "why": "Final answer (b) 720 cal"}
+{"uid": "u2096", "verdict": "right", "why": "Quadratic form identical to gold"}
+{"uid": "u2097", "verdict": "wrong", "why": "All three parts differ from gold"}
+{"uid": "u2098", "verdict": "right", "why": "6.24e20 and 4 match"}
+{"uid": "u2099", "verdict": "wrong", "why": "Missing pi^2/4 factor and l^2 scaling differs"}
+{"uid": "u2100", "verdict": "right", "why": "74.1 g matches"}
+{"uid": "u2101", "verdict": "wrong", "why": "a*omega vs omega*sqrt(L^2-a^2)"}
+{"uid": "u2102", "verdict": "wrong", "why": "Used eps1/2 instead of eps1/3"}
+{"uid": "u2103", "verdict": "wrong", "why": "All three parts differ from gold"}
+{"uid": "u2104", "verdict": "wrong", "why": "Gives 4 only; gold is 1, 4"}
+{"uid": "u2105", "verdict": "right", "why": "Same speed; sign denotes downward direction"}
+{"uid": "u2106", "verdict": "right", "why": "Elongation 1.9 cm matches 1.92"}
+{"uid": "u2107", "verdict": "wrong", "why": "Flow rate 2300 vs 1e6; energies not boxed"}
+{"uid": "u2108", "verdict": "partial", "why": "V correct; T has wrong form"}
+{"uid": "u2109", "verdict": "partial", "why": "Parts a-c right; part d wrong"}
+{"uid": "u2110", "verdict": "right", "why": "Same adiabatic pressure formula"}
+{"uid": "u2111", "verdict": "wrong", "why": "3:1 versus gold 1/2"}
+{"uid": "u2112", "verdict": "right", "why": "2.5, 0, 80 m all match"}
+{"uid": "u2113", "verdict": "wrong", "why": "33 GHz vs 1.27 THz"}
+{"uid": "u2114", "verdict": "wrong", "why": "3 versus gold 1, 4"}
+{"uid": "u2115", "verdict": "wrong", "why": "All three parts differ from gold"}
+{"uid": "u2116", "verdict": "wrong", "why": "pi^2/15 vs 4pi^2/45, missing 4/3"}
+{"uid": "u2117", "verdict": "wrong", "why": "2g sin(theta) vs gold expression"}
+{"uid": "u2118", "verdict": "right", "why": "Same shifted cosine, f=1/d"}
+{"uid": "u2119", "verdict": "right", "why": "g=9.8 vs 10 variants; all consistent"}
+{"uid": "u2240", "verdict": "wrong", "why": "10.5 vs gold 13.9"}
+{"uid": "u2241", "verdict": "wrong", "why": "Final answer only flow rate 2.3e3, gold 1e6"}
+{"uid": "u2242", "verdict": "wrong", "why": "Gives formula in d, gold is order 1"}
+{"uid": "u2243", "verdict": "right", "why": "5.8 km within 2% of 5.89"}
+{"uid": "u2244", "verdict": "wrong", "why": "Sign wrong; n-type Hall coefficient negative"}
+{"uid": "u2245", "verdict": "wrong", "why": "(m-1/2) vs m; different dark ring formula"}
+{"uid": "u2246", "verdict": "right", "why": "Same T and V, phi for theta"}
+{"uid": "u2247", "verdict": "right", "why": "g=9.8 vs 10 variants, all near 2%"}
+{"uid": "u2248", "verdict": "wrong", "why": "5600 W vs 2.1e6"}
+{"uid": "u2249", "verdict": "right", "why": "Matrix and symmetric plus antisymmetric split correct"}
+{"uid": "u2250", "verdict": "right", "why": "100 erg/cm^2 matches"}
+{"uid": "u2251", "verdict": "wrong", "why": "Factor 1/2 missing; gold -aT(L-L0)^2"}
+{"uid": "u2252", "verdict": "partial", "why": "Potential differences sign-flipped; energy correct"}
+{"uid": "u2253", "verdict": "wrong", "why": "Different expression from gold"}
+{"uid": "u2254", "verdict": "right", "why": "430 eV, 2.3e5, 1.2e6 m all match"}
+{"uid": "u2255", "verdict": "wrong", "why": "9/4 vs 1/2"}
+{"uid": "u2256", "verdict": "right", "why": "187 L = 0.187 m^3"}
+{"uid": "u2257", "verdict": "right", "why": "Same magnitude; sign is axis convention"}
+{"uid": "u2258", "verdict": "partial", "why": "H, B match; M 7.9e5 vs gold 7.9e3"}
+{"uid": "u2259", "verdict": "wrong", "why": "Gives E tangential, gold wavefunction vanishes at surface"}
+{"uid": "u2260", "verdict": "right", "why": "1.022 MeV; 1.21e-12 m = 0.012 \u00c5"}
+{"uid": "u2261", "verdict": "right", "why": "Equivalent equation of state"}
+{"uid": "u2262", "verdict": "right", "why": "Within ~2% using g=9.8"}
+{"uid": "u2263", "verdict": "partial", "why": "E matches; J keeps D, wrong reduced mass"}
+{"uid": "u2264", "verdict": "partial", "why": "H, B match; M 7.9e5 vs gold 7.9e3"}
+{"uid": "u2265", "verdict": "partial", "why": "Parts 1,2 right; part 3 wrong"}
+{"uid": "u2266", "verdict": "partial", "why": "Parts 1,2 right; part 3 wrong"}
+{"uid": "u2267", "verdict": "right", "why": "All three parts match"}
+{"uid": "u2268", "verdict": "partial", "why": "Parts 1,2 right; part 3 wrong"}
+{"uid": "u2269", "verdict": "wrong", "why": "g sin(theta) vs gold expression"}
+{"uid": "u2270", "verdict": "wrong", "why": "45 vs 16.16"}
+{"uid": "u2271", "verdict": "wrong", "why": "No probabilities given; generic answer"}
+{"uid": "u2272", "verdict": "right", "why": "Equivalent under phase relabeling"}
+{"uid": "u2273", "verdict": "partial", "why": "P on s sign wrong; others right"}
+{"uid": "u2274", "verdict": "partial", "why": "Lab time matches; rest-frame time differs"}
+{"uid": "u2275", "verdict": "right", "why": "Same adiabatic formula, R specific"}
+{"uid": "u2276", "verdict": "right", "why": "a if source in cell, else 0"}
+{"uid": "u2277", "verdict": "right", "why": "k = m omega^2 equivalent"}
+{"uid": "u2278", "verdict": "right", "why": "0.1 barn matches"}
+{"uid": "u2279", "verdict": "partial", "why": "Velocity along y not x; phi-dot right"}
+{"uid": "u2280", "verdict": "wrong", "why": "Gives K-dependent form, not 2rV/(b^2-a^2)"}
+{"uid": "u2281", "verdict": "partial", "why": "a,b,c right; d omits the beta correction"}
+{"uid": "u2282", "verdict": "right", "why": "Mixture R 288 J/kgK matches gold 0.288 kJ/kgK"}
+{"uid": "u2283", "verdict": "right", "why": "2.48 \u00c5 equals 0.248 nm"}
+{"uid": "u2284", "verdict": "partial", "why": "Parts 1-3, 5 right; part 4 gives 24.2 s, 37.2 m/s"}
+{"uid": "u2285", "verdict": "wrong", "why": "Flow rate 2.29e3 vs gold 1e6; other parts missing"}
+{"uid": "u2286", "verdict": "right", "why": "21.8 within 1.2% of 21.55"}
+{"uid": "u2287", "verdict": "right", "why": "1.64e-18 J equals 10.2 eV"}
+{"uid": "u2288", "verdict": "right", "why": "r^3 dp/dr = rho (v r)^2 equals dp/dr = rho v^2/r"}
+{"uid": "u2289", "verdict": "wrong", "why": "Claims self-adjoint; gold is i(2/r + d/dr)"}
+{"uid": "u2290", "verdict": "right", "why": "Matches gold exactly"}
+{"uid": "u2291", "verdict": "wrong", "why": "Gives 8 MeV; gold coefficient is 15.6 MeV"}
+{"uid": "u2292", "verdict": "wrong", "why": "Gives pathline-type expression, not (x^2-x0^2)/(1+At0)"}
+{"uid": "u2293", "verdict": "wrong", "why": "2.3 ns vs gold 5.68e-15 s"}
+{"uid": "u2294", "verdict": "right", "why": "1.3 nm = 12.5 \u00c5; 0.52 meV = 5.2e-4 eV"}
+{"uid": "u2295", "verdict": "wrong", "why": "Different expression, factor and alpha_n instead of pi/2"}
+{"uid": "u2296", "verdict": "wrong", "why": "33 GHz vs gold 1.27 THz"}
+{"uid": "u2297", "verdict": "right", "why": "J and E equivalent to gold for m<<M"}
+{"uid": "u2298", "verdict": "wrong", "why": "0.176 W/K vs gold 0.815"}
+{"uid": "u2299", "verdict": "partial", "why": "Potential differences have wrong sign, U_C sign wrong"}
+{"uid": "u2300", "verdict": "wrong", "why": "1.0 nm and 0.82 meV differ from gold"}
+{"uid": "u2301", "verdict": "right", "why": "1.2e6 m equals 1.2e3 km; others match"}
+{"uid": "u2302", "verdict": "wrong", "why": "0.015 vs gold 13.9"}
+{"uid": "u2303", "verdict": "wrong", "why": "Denominator mu_r S, not (mu_r-1)S"}
+{"uid": "u2304", "verdict": "wrong", "why": "Gives alpha, double beta+, triple beta-; gold alpha, gamma, beta"}
+{"uid": "u2305", "verdict": "wrong", "why": "0.5 m vs gold 0.0153 m"}
+{"uid": "u2306", "verdict": "right", "why": "k.A0=0 and k=omega/c"}
+{"uid": "u2307", "verdict": "wrong", "why": "Sign of i opposite to gold"}
+{"uid": "u2308", "verdict": "right", "why": "50 K within 2% of 50.7 K"}
+{"uid": "u2309", "verdict": "right", "why": "Image charge and force match gold"}
+{"uid": "u2310", "verdict": "partial", "why": "Potential energy right; kinetic energy omitted"}
+{"uid": "u2311", "verdict": "right", "why": "5.3e19 matches"}
+{"uid": "u2312", "verdict": "right", "why": "Probabilities and L_z values match gold"}
+{"uid": "u2313", "verdict": "wrong", "why": "T^-3 vs gold T^-3/2"}
+{"uid": "u2314", "verdict": "wrong", "why": "No probabilities or specific values given"}
+{"uid": "u2315", "verdict": "right", "why": "Same magnitude; sign is a convention"}
+{"uid": "u2316", "verdict": "right", "why": "5.3e19 matches"}
+{"uid": "u2317", "verdict": "right", "why": "0.02 ohm; 0.000225 g equals 0.225 mg"}

@@ -1,0 +1,15 @@
+{
+ "model": "RLinf/RLinf-math-1.5B",
+ "path": "/root/hf/hub/models--RLinf--RLinf-math-1.5B/snapshots/82ccc1ca3a8012f2274c15a7844b75ed62910349",
+ "cap": 28672,
+ "n_problems": 58,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 33,
+ "finished": 0.992816091954023,
+ "seconds": {
+  "load": 78,
+  "generate": 1259
+ },
+ "host": "44124840e389"
+}

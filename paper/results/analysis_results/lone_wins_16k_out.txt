@@ -1,0 +1,3 @@
+pair-problems 5400
+rl lone wins 392 (7.3%); the other wrong in all eight 128; budget effects 264 (67%)
+base lone wins 457 (8.5%); the other wrong in all eight 153; budget effects 304 (67%)

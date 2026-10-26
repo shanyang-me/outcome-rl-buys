@@ -1,0 +1,82 @@
+{
+ "Open-RS3 cap4096 phys": {
+  "mean": 0.11723958333333333,
+  "finished": 0.20583333333333334,
+  "score_given_finished": 0.569585020242915,
+  "any_solve8": 0.23666666666666666,
+  "mean_len": 3806.639583333333,
+  "n_items": 300
+ },
+ "Open-RS3 cap8192 phys": {
+  "mean": 0.20550347222222223,
+  "finished": 0.46708333333333335,
+  "score_given_finished": 0.4399717514124294,
+  "any_solve8": 0.37333333333333335,
+  "mean_len": 6496.339583333333,
+  "n_items": 300
+ },
+ "Open-RS3 cap16384 phys": {
+  "mean": 0.26490625,
+  "finished": 0.8054166666666667,
+  "score_given_finished": 0.3289058458354889,
+  "any_solve8": 0.44,
+  "mean_len": 9344.407916666667,
+  "n_items": 300
+ },
+ "Open-RS3 cap24576 phys": {
+  "mean": 0.2796354166666667,
+  "finished": 0.9358333333333333,
+  "score_given_finished": 0.29880899376669634,
+  "any_solve8": 0.4533333333333333,
+  "mean_len": 10237.195,
+  "n_items": 300
+ },
+ "Open-RS3 cap28672 phys": {
+  "mean": 0.28151041666666665,
+  "finished": 0.95125,
+  "score_given_finished": 0.29593736311870344,
+  "any_solve8": 0.46,
+  "mean_len": 10464.3775,
+  "n_items": 300
+ },
+ "Open-RS3 cap32768 phys": {
+  "mean": 0.28171875,
+  "finished": 0.9604166666666667,
+  "score_given_finished": 0.2933297180043384,
+  "any_solve8": 0.46,
+  "mean_len": 10645.410833333333,
+  "n_items": 300
+ },
+ "Open-RS3 cap36864 phys": {
+  "mean": 0.28234375,
+  "finished": 0.965,
+  "score_given_finished": 0.2925841968911917,
+  "any_solve8": 0.4633333333333333,
+  "mean_len": 10795.3625,
+  "n_items": 300
+ },
+ "Open-RS3 cap49152 phys": {
+  "mean": 0.28234375,
+  "finished": 0.9670833333333333,
+  "score_given_finished": 0.2919538991813873,
+  "any_solve8": 0.4633333333333333,
+  "mean_len": 11217.503333333334,
+  "n_items": 300
+ },
+ "Open-RS3 cap53248 phys": {
+  "mean": 0.28234375,
+  "finished": 0.9679166666666666,
+  "score_given_finished": 0.2917025398191993,
+  "any_solve8": 0.4633333333333333,
+  "mean_len": 11350.05375,
+  "n_items": 300
+ },
+ "Open-RS3 cap65536 phys": {
+  "mean": 0.28234375,
+  "finished": 0.97,
+  "score_given_finished": 0.29107603092783507,
+  "any_solve8": 0.4633333333333333,
+  "mean_len": 11732.529166666667,
+  "n_items": 300
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "files": {
+  "AReaL-1.5B-Preview-Stage-3": {
+   "solved_matcher": 516,
+   "solved_judged": 524,
+   "rejected": 1277,
+   "raised": 8,
+   "now_full": 8
+  },
+  "AceReason-Nemotron-14B": {
+   "solved_matcher": 1324,
+   "solved_judged": 1336,
+   "rejected": 689,
+   "raised": 12,
+   "now_full": 12
+  },
+  "AceReason-Nemotron-7B": {
+   "solved_matcher": 1090,
+   "solved_judged": 1099,
+   "rejected": 1109,
+   "raised": 9,
+   "now_full": 9
+  },
+  "DeepMath-1.5B": {
+   "solved_matcher": 596,
+   "solved_judged": 603,
+   "rejected": 1532,
+   "raised": 7,
+   "now_full": 7
+  },
+  "DeepMath-Omn-1.5B": {
+   "solved_matcher": 979,
+   "solved_judged": 989,
+   "rejected": 1042,
+   "raised": 10,
+   "now_full": 10
+  },
+  "DeepScaleR-1.5B-Preview": {
+   "solved_matcher": 582,
+   "solved_judged": 589,
+   "rejected": 1557,
+   "raised": 7,
+   "now_full": 7
+  },
+  "DeepSeek-R1-Distill-Qwen-1.5B": {
+   "solved_matcher": 411,
+   "solved_judged": 416,
+   "rejected": 1358,
+   "raised": 5,
+   "now_full": 5
+  },
+  "DeepSeek-R1-Distill-Qwen-32B": {
+   "solved_matcher": 1093,
+   "solved_judged": 1109,
+   "rejected": 841,
+   "raised": 16,
+   "now_full": 16
+  },
+  "DeepSeek-R1-Distill-Qwen-7B": {
+   "solved_matcher": 830,
+   "solved_judged": 839,
+   "rejected": 1189,
+   "raised": 9,
+   "now_full": 9
+  },
+  "JustRL-DeepSeek-1.5B": {
+   "solved_matcher": 682,
+   "solved_judged": 684,
+   "rejected": 1241,
+   "raised": 2,
+   "now_full": 2
+  },
+  "JustRL-Nemotron-1.5B": {
+   "solved_matcher": 966,
+   "solved_judged": 973,
+   "rejected": 487,
+   "raised": 7,
+   "now_full": 7
+  },
+  "KnowRL-Nemotron-1.5B": {
+   "solved_matcher": 1116,
+   "solved_judged": 1130,
+   "rejected": 702,
+   "raised": 14,
+   "now_full": 14
+  },
+  "Nemotron-Research-Reasoning-Qwen-1.5B": {
+   "solved_matcher": 660,
+   "solved_judged": 669,
+   "rejected": 1543,
+   "raised": 9,
+   "now_full": 9
+  },
+  "Open-RS3": {
+   "solved_matcher": 414,
+   "solved_judged": 418,
+   "rejected": 639,
+   "raised": 4,
+   "now_full": 4
+  },
+  "OpenMath-Nemotron-1.5B": {
+   "solved_matcher": 882,
+   "solved_judged": 892,
+   "rejected": 1176,
+   "raised": 10,
+   "now_full": 10
+  },
+  "QuestA-Nemotron-1.5B": {
+   "solved_matcher": 940,
+   "solved_judged": 951,
+   "rejected": 462,
+   "raised": 11,
+   "now_full": 11
+  },
+  "RLinf-math-1.5B": {
+   "solved_matcher": 652,
+   "solved_judged": 658,
+   "rejected": 1471,
+   "raised": 6,
+   "now_full": 6
+  },
+  "STILL-3-1.5B-preview": {
+   "solved_matcher": 476,
+   "solved_judged": 480,
+   "rejected": 1481,
+   "raised": 4,
+   "now_full": 4
+  },
+  "Skywork-OR1-32B": {
+   "solved_matcher": 1340,
+   "solved_judged": 1363,
+   "rejected": 503,
+   "raised": 23,
+   "now_full": 23
+  },
+  "Skywork-OR1-7B": {
+   "solved_matcher": 991,
+   "solved_judged": 1000,
+   "rejected": 773,
+   "raised": 9,
+   "now_full": 9
+  },
+  "Skywork-OR1-Math-7B": {
+   "solved_matcher": 1046,
+   "solved_judged": 1057,
+   "rejected": 963,
+   "raised": 11,
+   "now_full": 11
+  },
+  "e3-1.7B": {
+   "solved_matcher": 685,
+   "solved_judged": 694,
+   "rejected": 676,
+   "raised": 9,
+   "now_full": 9
+  },
+  "DeepSeek-R1-Distill-Qwen-14B": {
+   "solved_matcher": 1030,
+   "solved_judged": 1040,
+   "rejected": 1055,
+   "raised": 10,
+   "now_full": 10
+  },
+  "Polaris-1.7B-Preview": {
+   "solved_matcher": 896,
+   "solved_judged": 905,
+   "rejected": 508,
+   "raised": 9,
+   "now_full": 9
+  },
+  "Qwen3-1.7B": {
+   "solved_matcher": 759,
+   "solved_judged": 769,
+   "rejected": 1395,
+   "raised": 10,
+   "now_full": 10
+  }
+ },
+ "deferred_last_run": 1023,
+ "distinct_prompts_last_run": 707,
+ "unparsed_last_run": 2
+}

@@ -1,0 +1,82 @@
+{
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap4096 phys": {
+  "mean": 0.12194444444444444,
+  "finished": 0.165,
+  "score_given_finished": 0.7390572390572391,
+  "any_solve8": 0.20333333333333334,
+  "mean_len": 3960.3866666666668,
+  "n_items": 300
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap8192 phys": {
+  "mean": 0.40900694444444446,
+  "finished": 0.98375,
+  "score_given_finished": 0.41576309473386985,
+  "any_solve8": 0.5433333333333333,
+  "mean_len": 5582.902083333333,
+  "n_items": 300
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap16384 phys": {
+  "mean": 0.41029166666666667,
+  "finished": 1.0,
+  "score_given_finished": 0.41029166666666667,
+  "any_solve8": 0.5433333333333333,
+  "mean_len": 5587.92625,
+  "n_items": 300
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap24576 phys": {
+  "mean": 0.41029166666666667,
+  "finished": 1.0,
+  "score_given_finished": 0.41029166666666667,
+  "any_solve8": 0.5433333333333333,
+  "mean_len": 5587.92625,
+  "n_items": 300
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap28672 phys": {
+  "mean": 0.41029166666666667,
+  "finished": 1.0,
+  "score_given_finished": 0.41029166666666667,
+  "any_solve8": 0.5433333333333333,
+  "mean_len": 5587.92625,
+  "n_items": 300
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap32768 phys": {
+  "mean": 0.41029166666666667,
+  "finished": 1.0,
+  "score_given_finished": 0.41029166666666667,
+  "any_solve8": 0.5433333333333333,
+  "mean_len": 5587.92625,
+  "n_items": 300
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap36864 phys": {
+  "mean": 0.41029166666666667,
+  "finished": 1.0,
+  "score_given_finished": 0.41029166666666667,
+  "any_solve8": 0.5433333333333333,
+  "mean_len": 5587.92625,
+  "n_items": 300
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap49152 phys": {
+  "mean": 0.41029166666666667,
+  "finished": 1.0,
+  "score_given_finished": 0.41029166666666667,
+  "any_solve8": 0.5433333333333333,
+  "mean_len": 5587.92625,
+  "n_items": 300
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap53248 phys": {
+  "mean": 0.41029166666666667,
+  "finished": 1.0,
+  "score_given_finished": 0.41029166666666667,
+  "any_solve8": 0.5433333333333333,
+  "mean_len": 5587.92625,
+  "n_items": 300
+ },
+ "Nemotron-Research-Reasoning-Qwen-1.5B cap65536 phys": {
+  "mean": 0.41029166666666667,
+  "finished": 1.0,
+  "score_given_finished": 0.41029166666666667,
+  "any_solve8": 0.5433333333333333,
+  "mean_len": 5587.92625,
+  "n_items": 300
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "Polaris-1.7B-Preview cap4096 phys": {
+  "mean": 0.020833333333333332,
+  "finished": 0.02375,
+  "score_given_finished": 0.8771929824561403,
+  "any_solve8": 0.043333333333333335,
+  "mean_len": 4075.3479166666666,
+  "n_items": 300
+ },
+ "Polaris-1.7B-Preview cap8192 phys": {
+  "mean": 0.07979166666666666,
+  "finished": 0.10625,
+  "score_given_finished": 0.7509803921568627,
+  "any_solve8": 0.13,
+  "mean_len": 7923.099583333334,
+  "n_items": 300
+ },
+ "Polaris-1.7B-Preview cap16384 phys": {
+  "mean": 0.20046875,
+  "finished": 0.29333333333333333,
+  "score_given_finished": 0.6834161931818182,
+  "any_solve8": 0.27,
+  "mean_len": 14450.192916666667,
+  "n_items": 300
+ },
+ "Polaris-1.7B-Preview cap24576 phys": {
+  "mean": 0.3025,
+  "finished": 0.5133333333333333,
+  "score_given_finished": 0.5892857142857143,
+  "any_solve8": 0.44666666666666666,
+  "mean_len": 19393.95125,
+  "n_items": 300
+ },
+ "Polaris-1.7B-Preview cap28672 phys": {
+  "mean": 0.35399305555555555,
+  "finished": 0.6341666666666667,
+  "score_given_finished": 0.5582019272886553,
+  "any_solve8": 0.51,
+  "mean_len": 21133.392916666668,
+  "n_items": 300
+ },
+ "Polaris-1.7B-Preview cap32768 phys": {
+  "mean": 0.3915763888888889,
+  "finished": 0.7395833333333334,
+  "score_given_finished": 0.5294553990610329,
+  "any_solve8": 0.5433333333333333,
+  "mean_len": 22416.772083333333,
+  "n_items": 300
+ },
+ "Polaris-1.7B-Preview cap36864 phys": {
+  "mean": 0.4255833333333333,
+  "finished": 0.8379166666666666,
+  "score_given_finished": 0.5079065141720537,
+  "any_solve8": 0.57,
+  "mean_len": 23284.054583333334,
+  "n_items": 300
+ },
+ "Polaris-1.7B-Preview cap49152 phys": {
+  "mean": 0.4641875,
+  "finished": 0.97,
+  "score_given_finished": 0.4785438144329897,
+  "any_solve8": 0.5933333333333334,
+  "mean_len": 24285.145833333332,
+  "n_items": 300
+ },
+ "Polaris-1.7B-Preview cap53248 phys": {
+  "mean": 0.468875,
+  "finished": 0.9854166666666667,
+  "score_given_finished": 0.4758139534883721,
+  "any_solve8": 0.6066666666666667,
+  "mean_len": 24373.42875,
+  "n_items": 300
+ },
+ "Polaris-1.7B-Preview cap65536 phys": {
+  "mean": 0.4724791666666667,
+  "finished": 0.9983333333333333,
+  "score_given_finished": 0.4732679465776294,
+  "any_solve8": 0.61,
+  "mean_len": 24446.58916666667,
+  "n_items": 300
+ }
+}

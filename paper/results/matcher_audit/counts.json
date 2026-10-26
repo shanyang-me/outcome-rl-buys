@@ -1,0 +1,86 @@
+{
+ "pair_decomp4|OpenMath-Nemotron-1.5B|16384": {
+  "n": 2400,
+  "fin": 2238,
+  "score_sum": 522.7000000000002,
+  "wrong": 1779
+ },
+ "pair_decomp4|JustRL-Nemotron-1.5B|16384": {
+  "n": 2400,
+  "fin": 2289,
+  "score_sum": 622.7833333333331,
+  "wrong": 1737
+ },
+ "pair_decomp4|KnowRL-Nemotron-1.5B|16384": {
+  "n": 2400,
+  "fin": 1547,
+  "score_sum": 532.2833333333332,
+  "wrong": 1066
+ },
+ "pair_decomp4|QuestA-Nemotron-1.5B|16384": {
+  "n": 2400,
+  "fin": 703,
+  "score_sum": 327.25000000000017,
+  "wrong": 401
+ },
+ "pair_decomp4|DeepMath-Omn-1.5B|16384": {
+  "n": 2400,
+  "fin": 1921,
+  "score_sum": 524.2416666666668,
+  "wrong": 1456
+ },
+ "pair_decomp4|Qwen3-1.7B|16384": {
+  "n": 2400,
+  "fin": 2023,
+  "score_sum": 941.0416666666665,
+  "wrong": 1180
+ },
+ "pair_decomp4|e3-1.7B|16384": {
+  "n": 2400,
+  "fin": 2217,
+  "score_sum": 1028.8,
+  "wrong": 1292
+ },
+ "pair_decomp4|Polaris-1.7B-Preview|16384": {
+  "n": 2400,
+  "fin": 728,
+  "score_sum": 484.1250000000002,
+  "wrong": 272
+ },
+ "pair_decomp10_native|Qwen3-1.7B|49152": {
+  "n": 2400,
+  "fin": 2381,
+  "score_sum": 1054.1166666666672,
+  "wrong": 1442
+ },
+ "pair_decomp10_native|Polaris-1.7B-Preview|49152": {
+  "n": 2400,
+  "fin": 2162,
+  "score_sum": 1052.766666666667,
+  "wrong": 1224
+ },
+ "pair_decomp10_native|Qwen3-4B|53248": {
+  "n": 2400,
+  "fin": 2393,
+  "score_sum": 1391.3916666666673,
+  "wrong": 1132
+ },
+ "pair_decomp10_native|Polaris-4B-Preview|53248": {
+  "n": 2400,
+  "fin": 2308,
+  "score_sum": 1407.2166666666678,
+  "wrong": 1025
+ },
+ "pair_decomp9_32b|DeepSeek-R1-Distill-Qwen-32B|32768": {
+  "n": 2400,
+  "fin": 2374,
+  "score_sum": 1384.9500000000012,
+  "wrong": 1122
+ },
+ "pair_decomp9_32b|Skywork-OR1-32B|32768": {
+  "n": 2400,
+  "fin": 2378,
+  "score_sum": 1538.5250000000008,
+  "wrong": 982
+ }
+}

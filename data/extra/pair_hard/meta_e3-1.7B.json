@@ -1,0 +1,29 @@
+{
+ "model": "CMU-AIRe/e3-1.7B",
+ "path": "/root/hf/hub/models--CMU-AIRe--e3-1.7B/snapshots/6db1b2fed3cd8d6cd2cd6270807a45f1e22925df",
+ "revision": "6db1b2fed3cd8d6cd2cd6270807a45f1e22925df",
+ "host": "b7634a952264",
+ "gpu": "NVIDIA H100 80GB HBM3",
+ "vllm": "0.11.0",
+ "dtype": "bfloat16",
+ "yarn": null,
+ "hf_overrides": null,
+ "gen_cap": 16384,
+ "derived_caps": [
+  4096,
+  8192
+ ],
+ "n": 8,
+ "temperature": 0.6,
+ "top_p": 0.95,
+ "seed": 0,
+ "close_ids": [
+  151668
+ ],
+ "seconds": {
+  "load": 219,
+  "generate": 16138,
+  "score": 496
+ },
+ "trace_rows": 0
+}

@@ -1,0 +1,1312 @@
+{
+ "physicsb_5252": {
+  "jaccard": 0.022727272727272728,
+  "shared5": 2,
+  "train": "74 If $0<\\alpha, \\beta<\\frac{\\pi}{2}$, and $\\sin (\\alpha+\\beta)=2 \\sin \\alpha$, then the relationship between $\\alpha$ and $\\beta$ is"
+ },
+ "physcorp_4234": {
+  "jaccard": 0.010309278350515464,
+  "shared5": 1,
+  "train": "Find the smallest square in which 5 circles, each with a radius of 1, can be arranged so that no two circles share any interior points."
+ },
+ "physcorp_5263": {
+  "jaccard": 0.0
+ },
+ "physcorp_5066": {
+  "jaccard": 0.0
+ },
+ "physcorp_5182": {
+  "jaccard": 0.009523809523809525,
+  "shared5": 1,
+  "train": "A sphere is inscribed in a truncated right circular cone as shown. The volume of the truncated cone is twice that of the sphere. What is the ratio of the radius of the bottom base of the truncated cone to the radius of the top base of the truncated cone?"
+ },
+ "physcorp_4130": {
+  "jaccard": 0.01098901098901099,
+  "shared5": 1,
+  "train": "How many zeros are at the end of the product $s(1) \\cdot s(2) \\cdot \\ldots \\cdot s(100)$, where $s(n)$ denotes the sum of the digits of the natural number $n$?"
+ },
+ "physcorp_403": {
+  "jaccard": 0.0
+ },
+ "tbr_374178": {
+  "jaccard": 0.016129032258064516,
+  "shared5": 1,
+  "train": "Given the numbers 252 and 630, find the ratio of the least common multiple to the greatest common factor."
+ },
+ "tbr_10275": {
+  "jaccard": 0.0196078431372549,
+  "shared5": 1,
+  "train": "Solve the following system of equations:\n\n$$\n\\begin{array}{r}\nx^{4}+y^{4}=272 \\\\\nx+y=6\n\\end{array}\n$$"
+ },
+ "tbr_565463": {
+  "jaccard": 0.007462686567164179,
+  "shared5": 1,
+  "train": "Roy bought a new battery-gasoline hybrid car. On a trip the car ran exclusively on its battery for the first $40$ miles, then ran exclusively on gasoline for the rest of the trip, using gasoline at a rate of $0.02$ gallons per mile. On the whole trip he averaged $55$ miles per gallon. How long was the trip in miles?"
+ },
+ "tbr_244976": {
+  "jaccard": 0.0
+ },
+ "tbr_274639": {
+  "jaccard": 0.0
+ },
+ "tbr_548302": {
+  "jaccard": 0.0
+ },
+ "tbr_111764": {
+  "jaccard": 0.0064516129032258064,
+  "shared5": 1,
+  "train": "13.103. From the railway station to the tourist base, one can walk along the highway or a path, with the path being 5 km shorter. Two friends agreed that one would walk along the highway at a constant speed of $\\mathrm{v}$ km/h, while the other would take the path at a speed of 3 km/h. The second one arrived at the tourist base 1 hour earlier than the first. Find the distance from the station to t"
+ },
+ "physcorp_1733": {
+  "jaccard": 0.0
+ },
+ "physcorp_3933": {
+  "jaccard": 0.03076923076923077,
+  "shared5": 4,
+  "train": "15. (3 points) A tree is 24 meters high, and at the bottom of the tree, there is a snail that wants to climb from the bottom to the top of the tree. It climbs up 6 meters during the day and slides down 4 meters at night. This snail will take $\\qquad$ days to reach the top of the tree."
+ },
+ "tbr_255822": {
+  "jaccard": 0.010309278350515464,
+  "shared5": 1,
+  "train": "The number of cans in the layers of a display in a supermarket form an arithmetic sequence. The bottom layer has 28 cans; the next layer has 25 cans and so on until there is one can at the top of the display. How many cans are in the entire display?"
+ },
+ "physcorp_2536": {
+  "jaccard": 0.014492753623188406,
+  "shared5": 1,
+  "train": "Example 7. In a cylindrical vessel with a volume of $V_{0}$, atmospheric air is adiabatically (without heat exchange with the environment) compressed to a volume of $V_{1}$. Calculate the work of compression."
+ },
+ "tbr_271336": {
+  "jaccard": 0.009523809523809525,
+  "shared5": 1,
+  "train": "A cube has edge length 4 m. One end of a rope of length 5 m is anchored to the centre of the top face of the cube. What is the integer formed by the rightmost two digits of the integer closest to 100 times the area of the surface of the cube that can be reached by the other end of the rope?"
+ },
+ "tbr_539290": {
+  "jaccard": 0.0
+ },
+ "comp_problem_77": {
+  "jaccard": 0.014492753623188406,
+  "shared5": 2,
+  "train": "668. Determine the mass of a sphere of radius $r$, if the density at each of its points is proportional to the distance from the center of the sphere."
+ },
+ "physcorp_305": {
+  "jaccard": 0.041666666666666664,
+  "shared5": 2,
+  "train": "7. Given a sphere with a radius of 3. Then the maximum volume of the inscribed regular tetrahedron is $\\qquad$ .\n\n"
+ },
+ "physcorp_1287": {
+  "jaccard": 0.04081632653061224,
+  "shared5": 4,
+  "train": "1. Points $A$ and $B$ lie on a circle with center $O$ and radius 6, and point $C$ is equidistant from points $A, B$, and $O$. Another circle with center $Q$ and radius 8 is circumscribed around triangle $A C O$. Find $B Q$. Answer: 10"
+ },
+ "physcorp_5672": {
+  "jaccard": 0.02702702702702703,
+  "shared5": 2,
+  "train": "If $y=a+\\frac{b}{x}$, where $a$ and $b$ are constants, and if $y=1$ when $x=-1$, and $y=5$ when $x=-5$, then $a+b$ equals:"
+ },
+ "physcorp_3776": {
+  "jaccard": 0.0
+ },
+ "tbr_558505": {
+  "jaccard": 0.009174311926605505,
+  "shared5": 1,
+  "train": "Given the function $f(x) = |\\ln x|$, the solution set of the inequality $f(x) - f(x_0) \\geq c(x - x_0)$ is $(0, +\\infty)$, where $x_0 \\in (0, +\\infty)$, and $c$ is a constant. When $x_0 = 1$, the range of values for $c$ is \\_\\_\\_\\_\\_\\_; when $x_0 = \\frac{1}{2}$, the value of $c$ is \\_\\_\\_\\_\\_\\_."
+ },
+ "physicsb_1664": {
+  "jaccard": 0.007518796992481203,
+  "shared5": 1,
+  "train": "## 98. Math Puzzle $7 / 73$\n\nA plastic pipe has a density of $1.218 \\mathrm{~g} / \\mathrm{cm}^{3}$. The wall thickness is $2.0 \\mathrm{~mm}$, the outer diameter $32 \\mathrm{~mm}$, and the mass $0.8 \\mathrm{~kg}$.\n\nHow long is the pipe?"
+ },
+ "physcorp_3355": {
+  "jaccard": 0.02564102564102564,
+  "shared5": 2,
+  "train": "An isosceles trapezoid has legs of length 30 cm each, two diagonals of length 40 cm each and the longer base is 50 cm. What is the trapezoid's area in sq cm?"
+ },
+ "physcorp_3348": {
+  "jaccard": 0.024193548387096774,
+  "shared5": 3,
+  "train": "A rigid board with a mass of \\(m\\) and a length of \\(l = 24\\) meters partially lies on the edge of a horizontal surface, hanging off by two-thirds of its length. To prevent the board from falling, a stone with a mass of \\(2m\\) is placed at its very edge. How far from the stone can a person with a mass of \\(m\\) walk on the board? Neglect the dimensions of the stone and the person compared to the di"
+ },
+ "tbr_120485": {
+  "jaccard": 0.0031847133757961785,
+  "shared5": 1,
+  "train": "An infinitely long slab of glass is rotated. A light ray is pointed at the slab such that the ray is kept horizontal. If $\\theta$ is the angle the slab makes with the vertical axis, then $\\theta$ is changing as per the function \\[ \\theta(t) = t^2, \\]where $\\theta$ is in radians. Let the $\\emph{glassious ray}$ be the ray that represents the path of the refracted light in the glass, as shown in the "
+ },
+ "physcorp_5528": {
+  "jaccard": 0.00684931506849315,
+  "shared5": 1,
+  "train": "Evaluate the sum\n$$\n\\cos \\left(\\frac{2\\pi}{18}\\right) + \\cos \\left(\\frac{4\\pi}{18}\\right) + \\cdots + \\cos \\left(\\frac{34\\pi}{18}\\right).\n$$"
+ },
+ "tbr_483847": {
+  "jaccard": 0.014925373134328358,
+  "shared5": 1,
+  "train": "1751. Find the expression for the third-order central moment in terms of the initial moments."
+ },
+ "physcorp_1906": {
+  "jaccard": 0.0
+ },
+ "physcorp_2290": {
+  "jaccard": 0.0
+ },
+ "tbr_284519": {
+  "jaccard": 0.02857142857142857,
+  "shared5": 4,
+  "train": "A barrel with a height of 1.5 meters is completely filled with water and sealed with a lid. The mass of the water in the barrel is 1000 kg. A long, thin vertical tube with a cross-section of $1 \\mathrm{~cm}^{2}$ is inserted into the lid of the barrel and completely filled with water. Find the length of the tube if it is known that after filling, the pressure at the bottom of the barrel increased b"
+ },
+ "physcorp_4219": {
+  "jaccard": 0.02531645569620253,
+  "shared5": 2,
+  "train": "In $\\triangle ABC$, the sides opposite to angles $A$, $B$, and $C$ are respectively $a$, $b$, and $c$. It is known that $c\\sin A= \\sqrt {3}a\\cos C$.  \n(I) Find $C$;  \n(II) If $c= \\sqrt {7}$ and $\\sin C+\\sin (B-A)=3\\sin 2A$, find the area of $\\triangle ABC$."
+ },
+ "physcorp_3717": {
+  "jaccard": 0.018018018018018018,
+  "shared5": 2,
+  "train": "On the plane, there are two circles with radii 4 and 3, with centers at points $O_1$ and $O_2$, touching a certain line at points $M_1$ and $M_2$ and lying on opposite sides of this line. The ratio of the segment $O_1 O_2$ to the segment $M_1 M_2$ is $\\frac{2}{\\sqrt{3}} \\cdot$ Find $O_1 O_2$."
+ },
+ "physcorp_3249": {
+  "jaccard": 0.035398230088495575,
+  "shared5": 4,
+  "train": "5. (10 points) Two stones are thrown simultaneously with the same initial speed $v_{0}$. The first stone is thrown horizontally from a height of $H=40$ m, and the second is thrown vertically upward from the surface of the Earth. It is known that the stones collided in the air. Determine the initial distance between the stones. Neglect air resistance."
+ },
+ "tbr_136169": {
+  "jaccard": 0.017857142857142856,
+  "shared5": 2,
+  "train": "11. The integer sequence $u_{0}, u_{1}, u_{2}, u_{3}, \\cdots$ satisfies $u_{0}=1$, and for each positive integer $n, u_{n+1} u_{n-1}=k u_{n}$, where $k$ is some fixed positive integer. If $u_{2000}=2000$, find all possible values of $k$."
+ },
+ "tbr_595733": {
+  "jaccard": 0.0
+ },
+ "physcorp_2277": {
+  "jaccard": 0.0425531914893617,
+  "shared5": 2,
+  "train": "A box with a volume of 16 $\\text{cm}^3$ can hold 50 paperclips. How many paperclips could a box with a volume of 48 $\\text{cm}^3$ hold?"
+ },
+ "cal_problem_00335": {
+  "jaccard": 0.022598870056497175,
+  "shared5": 4,
+  "train": "99. Person A departs from point A to point B, while at the same time, person B departs from point B to point A. After 12 minutes, the two have passed their meeting point and are 100 meters apart. It is known that person A takes 20 minutes to complete the journey, and person B walks at a speed of 65 meters per minute. Therefore, the distance between points A and B is ______ meters. $\\qquad$"
+ },
+ "physcorp_5657": {
+  "jaccard": 0.013513513513513514,
+  "shared5": 2,
+  "train": "## Task A-4.5. (4 points)\n\nA rectangular path with a width of $1.5 \\mathrm{~m}$ and a length of $20 \\mathrm{~m}$ needs to be tiled with identical tiles in the shape of an isosceles right triangle with legs of length $50 \\mathrm{~cm}$, such that the legs are parallel to the sides of the rectangle. Determine the number of ways this can be done."
+ },
+ "physcorp_154": {
+  "jaccard": 0.0
+ },
+ "physicsb_3069": {
+  "jaccard": 0.0
+ },
+ "tbr_421768": {
+  "jaccard": 0.0
+ },
+ "physicsb_2925": {
+  "jaccard": 0.023391812865497075,
+  "shared5": 4,
+  "train": "7. As shown in the figure, a square $A B C D$ with side length 1 rolls along the positive direction of the $x$-axis, i.e., it first rotates clockwise around $A$, and when $B$ lands on the $x$-axis, it then rotates clockwise around $B$, and so on. When a vertex of the square $A B C D$ lands on the $x$-axis, it rotates clockwise around that vertex. Let the curve traced by vertex $C$ during the rolli"
+ },
+ "physicsb_1985": {
+  "jaccard": 0.0
+ },
+ "tbr_422337": {
+  "jaccard": 0.046153846153846156,
+  "shared5": 3,
+  "train": "2.28. Find the ratio of the surface area and volume of a sphere to the surface area and volume of an inscribed cube.\n\n## Group 5"
+ },
+ "physcorp_5334": {
+  "jaccard": 0.018518518518518517,
+  "shared5": 4,
+  "train": "# Problem No. 8 (15 points)\n\n50 g of ice, taken at a temperature of $t_{\\pi}=-10{ }^{\\circ} \\mathrm{C}$, was mixed with water taken at a temperature of $t_{B}=10{ }^{\\circ} \\mathrm{C}$. It is known that the final temperature in the container is $t=0{ }^{\\circ} \\mathrm{C}$. Determine the mass of the added water. The specific heat capacity of water $c_{B}=4200$ J $/$ kg $\\cdot{ }^{\\circ} \\mathrm{C}$"
+ },
+ "physcorp_4572": {
+  "jaccard": 0.006944444444444444,
+  "shared5": 1,
+  "train": "We measured a distance at $t=26^{\\circ} \\mathrm{C}$ temperature using a copper rod that is exactly $a=3 \\mathrm{~m}$ long at $0^{\\circ} \\mathrm{C}$. In this way, we found $n=7856.728 \\mathrm{~m}$. What is the actual distance if the linear expansion coefficient of copper is $\\lambda=0.000017$."
+ },
+ "physcorp_6137": {
+  "jaccard": 0.01282051282051282,
+  "shared5": 1,
+  "train": "The volume of a regular triangular pyramid, whose lateral face is inclined at an angle of $45^{\\circ}$ to the base, is $9 \\mathrm{~cm}^{3}$. Find the total surface area of the pyramid."
+ },
+ "physcorp_367": {
+  "jaccard": 0.0
+ },
+ "tbr_568643": {
+  "jaccard": 0.0
+ },
+ "physcorp_5279": {
+  "jaccard": 0.017241379310344827,
+  "shared5": 1,
+  "train": "1751. Find the expression for the third-order central moment in terms of the initial moments."
+ },
+ "physcorp_4878": {
+  "jaccard": 0.011428571428571429,
+  "shared5": 2,
+  "train": "# Problem No. 6 (10 points)\n\nA pot was filled with $3 \\pi$ liters of water at a temperature of $t=0{ }^{\\circ} C$, and it was brought to a boil in 12 minutes. After that, without removing the pot from the stove, ice at a temperature of $t=0{ }^{\\circ} \\mathrm{C}$ was added. The water began to boil again only after 15 minutes. Determine the mass of the added ice. The specific heat capacity of water"
+ },
+ "physcorp_4936": {
+  "jaccard": 0.016129032258064516,
+  "shared5": 2,
+  "train": "2. It is known that the numbers $x, y, z$ form an arithmetic progression in the given order with a common difference $\\alpha=\\arccos \\frac{2}{3}$, and the numbers $\\frac{1}{\\sin x}, \\frac{6}{\\sin y}, \\frac{1}{\\sin z}$ also form an arithmetic progression in the given order. Find $\\sin ^{2} y$."
+ },
+ "tbr_2548": {
+  "jaccard": 0.007462686567164179,
+  "shared5": 1,
+  "train": "10. As shown in the figure, two circles are placed side by side on a straight line, touching each other. The area of each circle is 1680 square centimeters. The shaded area is the region between the two circles and the straight line. If a circle of the largest possible size is to be placed inside the shaded area, what is the area of this circle in square centimeters?"
+ },
+ "tbr_317851": {
+  "jaccard": 0.0
+ },
+ "physcorp_2775": {
+  "jaccard": 0.006896551724137931,
+  "shared5": 1,
+  "train": "Example 1-43 Three identical particles are distributed in two identical potential wells, with a total energy of $3 \\mathrm{E}_{0}$. Suppose particles at the energy level $k \\mathrm{E}_{0}$ obey the Fermi-Dirac distribution, with $2\\left(1+k^{2}\\right)$ states. How many different configurations are there?\n\nParticles in two different potential wells are independent of each other, although the Fermi-"
+ },
+ "cal_problem_00346": {
+  "jaccard": 0.010526315789473684,
+  "shared5": 2,
+  "train": "Someone divided the quarter circle into two sectors with areas in the ratio of $2: 3$ by dividing the chord of the quarter circle into five equal segments, then connecting the second division point to the center of the circle, and claimed that this line divides the quarter circle in the desired ratio. Is this construction accurate, and if not, what is the magnitude of the error?"
+ },
+ "tbr_427406": {
+  "jaccard": 0.017543859649122806,
+  "shared5": 1,
+  "train": "On a clock, there are two hands: the hour hand and the minute hand. At a random moment in time, the clock stops. Find the probability that the angle between the hands on the stopped clock is acute."
+ },
+ "physcorp_1253": {
+  "jaccard": 0.011627906976744186,
+  "shared5": 1,
+  "train": "Let $A=\\left(\n\\begin{array}{ccc}\n1 & 1& 0 \\\\\n0 & 1& 0 \\\\\n0 &0 & 2 \n\\end{array}\n\\right),\\ B=\\left(\n\\begin{array}{ccc}\na & 1& 0 \\\\\nb & 2& c \\\\\n0 &0 & a+1 \n\\end{array}\n\\right)\\ (a,\\ b,\\ c\\in{\\mathbb{C}}).$\n\n(1) Find the condition for $a,\\ b,\\ c$ such that ${\\text{rank} (AB-BA})\\leq 1.$\n\n(2) Under the condition of (1), find the condition for $a,\\ b,\\ c$ such that $B$ is diagonalizable."
+ },
+ "tbr_277596": {
+  "jaccard": 0.0
+ },
+ "cal_problem_01162": {
+  "jaccard": 0.03529411764705882,
+  "shared5": 6,
+  "train": "A racing turtle moves in a straight line as follows. In the first segment of the path, which measures $\\frac{1}{2} \\mathrm{~m}$, she runs at a speed of $3 \\mathrm{~m} / \\mathrm{s}$. In the second segment, which measures $\\frac{1}{3} \\mathrm{~m}$, she runs at a speed of $4 \\mathrm{~m} / \\mathrm{s}$. In the third segment, which measures $\\frac{1}{4} \\mathrm{~m}$, she runs at a speed of $5 \\mathrm{~m"
+ },
+ "physicsb_6311": {
+  "jaccard": 0.010810810810810811,
+  "shared5": 2,
+  "train": "A square plate has side length $L$ and negligible thickness. It is laid down horizontally on a table and is then rotating about the axis $\\overline{MN}$ where $M$ and $N$ are the midpoints of two adjacent sides of the square. The moment of inertia of the plate about this axis is $kmL^2$, where $m$ is the mass of the plate and $k$ is a real constant. Find $k$. \n\n[color=red]Diagram will be added to "
+ },
+ "physcorp_2783": {
+  "jaccard": 0.013888888888888888,
+  "shared5": 1,
+  "train": "7. $p_{1}^{2}+p_{2}^{2}+p_{3}^{2}+p_{4}^{2}+p_{5}^{2}=p_{6}^{2}$ has $\\qquad$ groups of positive prime solutions $\\left(p_{1}, p_{2}, p_{3}, p_{4}, p_{5}, p_{6}\\right)$."
+ },
+ "physcorp_2500": {
+  "jaccard": 0.01639344262295082,
+  "shared5": 2,
+  "train": "What is the ratio of the least common multiple of 180 and 594 to the greatest common factor of 180 and 594?"
+ },
+ "physcorp_2424": {
+  "jaccard": 0.0
+ },
+ "physicsb_264": {
+  "jaccard": 0.018867924528301886,
+  "shared5": 2,
+  "train": "What is the absolute value of the difference between the squares of 103 and 97?"
+ },
+ "tbr_153636": {
+  "jaccard": 0.0
+ },
+ "tbr_506470": {
+  "jaccard": 0.012048192771084338,
+  "shared5": 2,
+  "train": "A square plate has side length $L$ and negligible thickness. It is laid down horizontally on a table and is then rotating about the axis $\\overline{MN}$ where $M$ and $N$ are the midpoints of two adjacent sides of the square. The moment of inertia of the plate about this axis is $kmL^2$, where $m$ is the mass of the plate and $k$ is a real constant. Find $k$. \n\n[color=red]Diagram will be added to "
+ },
+ "physcorp_1244": {
+  "jaccard": 0.0
+ },
+ "physcorp_5860": {
+  "jaccard": 0.015625,
+  "shared5": 1,
+  "train": "A line contains the points $(6,8)$, $(-2, k)$ and $(-10, 4)$. What is the value of $k$?"
+ },
+ "cal_problem_01371": {
+  "jaccard": 0.029197080291970802,
+  "shared5": 4,
+  "train": "5. (10 points) Two stones are thrown simultaneously with the same initial speed $v_{0}$. The first stone is thrown horizontally from a height of $H=40$ m, and the second is thrown vertically upward from the surface of the Earth. It is known that the stones collided in the air. Determine the initial distance between the stones. Neglect air resistance."
+ },
+ "physcorp_5403": {
+  "jaccard": 0.0
+ },
+ "physcorp_1358": {
+  "jaccard": 0.007142857142857143,
+  "shared5": 1,
+  "train": "Given that $\\cos\\left(\\frac {\\pi}{4} + \\theta\\right) = -\\frac {3}{5}$, and $\\frac {11\\pi}{12} < \\theta < \\frac {5\\pi}{4}$, find the value of $\\frac {\\sin{2\\theta} + 2\\sin^{2}{\\theta}}{1 - \\tan{\\theta}}$."
+ },
+ "cal_problem_01082": {
+  "jaccard": 0.018292682926829267,
+  "shared5": 3,
+  "train": "# Problem \u21161 (10 points)\n\nA stone is thrown from the surface of the Earth at an angle of $60^{\\circ}$ to the horizon with an initial velocity $v_{0}=10 \\mathrm{~m} / \\mathrm{s}$. Determine the radius of curvature of the trajectory at the final point of the flight. The acceleration due to gravity $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$.\n\n#"
+ },
+ "physicsb_1430": {
+  "jaccard": 0.005714285714285714,
+  "shared5": 1,
+  "train": "If the energy released by a magnitude 4 earthquake is $6.3 \\times 10^{10}$ joules and the energy released by a magnitude 6 earthquake is $6.3 \\times 10^{13}$ joules, determine the energy released by the magnitude 5.5 earthquake in Pingyuan County."
+ },
+ "tbr_490020": {
+  "jaccard": 0.011363636363636364,
+  "shared5": 1,
+  "train": "Let \\[p(x,y) =\n\\begin{cases} x + y &\\quad \\text{if } x \\ge 0 \\text{ and } y \\ge 0, \\\\\nx - 2y &\\quad \\text{if } x < 0 \\text{ and } y < 0, \\\\\n3x + y &\\quad \\text{otherwise}.\n\\end{cases}\n\\]What is $p(p(1,-1),p(-5,-2))$?"
+ },
+ "physcorp_1185": {
+  "jaccard": 0.014388489208633094,
+  "shared5": 2,
+  "train": "12.266. The base of the pyramid is an equilateral triangle. Two lateral faces are perpendicular to the plane of the base. The sum of two unequal plane angles at the vertex is $\\frac{\\pi}{2}$. Find these angles."
+ },
+ "physcorp_715": {
+  "jaccard": 0.020689655172413793,
+  "shared5": 3,
+  "train": "Let $\\mathcal F$ be the set of functions $f(x,y)$ that are twice continuously differentiable for $x\\geq 1$, $y\\geq 1$ and that satisfy the following two equations (where subscripts denote partial derivatives):\n\\[xf_x + yf_y = xy\\ln(xy),\\] \\[x^2f_{xx} + y^2f_{yy} = xy.\\]\nFor each $f\\in\\mathcal F$, let\n\\[\nm(f) = \\min_{s\\geq 1}\\left(f(s+1,s+1) - f(s+1,s)-f(s,s+1) + f(s,s)\\right).\n\\]\nDetermine $m(f)$,"
+ },
+ "tbr_634813": {
+  "jaccard": 0.017543859649122806,
+  "shared5": 1,
+  "train": "In triangle \\( \\triangle ABC \\), given \\( AB = 4 \\), \\( AC = 3 \\), and \\( P \\) is a point on the perpendicular bisector of \\( BC \\), find \\( \\overrightarrow{BC} \\cdot \\overrightarrow{AP} \\)."
+ },
+ "physcorp_3338": {
+  "jaccard": 0.009708737864077669,
+  "shared5": 1,
+  "train": "5. (20 points) Two mutually perpendicular rays, propagating in the same vertical plane, fall from air onto a horizontal glass surface. The refractive index of the glass $n=1.6$. The angle of refraction for the first ray $\\beta=30^{\\circ}$. Determine the angle between the refracted rays."
+ },
+ "cal_problem_00340": {
+  "jaccard": 0.021739130434782608,
+  "shared5": 4,
+  "train": "1. At the same time, a car departs from point $A$ to point $B$ at a speed of $90 \\mathrm{~km} / \\mathrm{h}$, and from point $B$ to point $C$ - a train at a speed of $60 \\mathrm{~km} /$ h. After 2 hours of travel, they found themselves at the minimum distance from each other. Find the distance between the points, if all three points are equidistant from each other and are connected by straight road"
+ },
+ "physcorp_1407": {
+  "jaccard": 0.0
+ },
+ "tbr_106015": {
+  "jaccard": 0.0078125,
+  "shared5": 1,
+  "train": "1. Let $t=\\log _{x^{2019}} 2018$, then the equation will take the form: $t+t^{2}+t^{3}+\\ldots=2018$.\n\nSimplify the left part of the last equation using the formula for the sum of an infinite decreasing geometric progression, we get: $\\frac{t}{1-t}=2018$.\n\nFrom which $t=\\frac{2018}{2019}$.\n\nWe get, $\\log _{x^{2019}} 2018=\\frac{2018}{2019},\\left(x^{2019}\\right)^{\\frac{2018}{2019}}=2018, x=\\sqrt[2018"
+ },
+ "physcorp_3754": {
+  "jaccard": 0.0
+ },
+ "tbr_536250": {
+  "jaccard": 0.009009009009009009,
+  "shared5": 1,
+  "train": "6. One mole of an ideal gas was expanded so that during the process, the pressure of the gas turned out to be directly proportional to its volume. In this process, the gas heated up by $\\Delta T=100{ }^{\\circ} \\mathrm{C}$. Determine the work done by the gas in this process. The gas constant $R=8.31$ J/mol$\\cdot$K. (15 points)"
+ },
+ "physicsb_1920": {
+  "jaccard": 0.004273504273504274,
+  "shared5": 1,
+  "train": "Let $x_1,\\ldots,x_n$ be a sequence with each term equal to $0$ or $1$. Form a triangle as follows: its first row is $x_1,\\ldots,x_n$ and if a row if $a_1, a_2, \\ldots, a_m$, then the next row is $a_1 + a_2, a_2 + a_3, \\ldots, a_{m-1} + a_m$ where the addition is performed modulo $2$ (so $1+1=0$). For example, starting from $1$, $0$, $1$, $0$, the second row is $1$, $1$, $1$, the third one is $0$, "
+ },
+ "tbr_381640": {
+  "jaccard": 0.01652892561983471,
+  "shared5": 2,
+  "train": "# Problem \u21161 (10 points)\n\nA stone is thrown from the surface of the Earth at an angle of $60^{\\circ}$ to the horizon with an initial velocity $v_{0}=10 \\mathrm{~m} / \\mathrm{s}$. Determine the radius of curvature of the trajectory at the final point of the flight. The acceleration due to gravity $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$.\n\n#"
+ },
+ "tbr_457711": {
+  "jaccard": 0.015384615384615385,
+  "shared5": 1,
+  "train": "A container at $0^{\\circ}$ temperature contains $300 \\mathrm{~g}$ of water and $50 \\mathrm{~g}$ of ice; the container weighs $100 \\mathrm{~g}$, and the specific heat of the material of the container is 0.5. How many grams of $100^{\\circ}$ steam must be introduced into this container to make the final temperature $20^{\\circ}$?"
+ },
+ "tbr_351598": {
+  "jaccard": 0.02702702702702703,
+  "shared5": 1,
+  "train": "Liliane has $50\\%$ more soda than Jacqueline, and Alice has $25\\%$ more soda than Jacqueline. What is the relationship between the amounts of soda that Liliane and Alice have?"
+ },
+ "physcorp_2961": {
+  "jaccard": 0.011235955056179775,
+  "shared5": 1,
+  "train": "Solve the equation $|x^2 -1|+ |x^2 - 4| = mx$ as a function of the parameter $m$. Which pairs $(x,m)$ of integers satisfy this equation?"
+ },
+ "tbr_429265": {
+  "jaccard": 0.014084507042253521,
+  "shared5": 1,
+  "train": "2. What is average speed? A car travels from point $A$ to point $B$ at a speed of 40 km/h, and returns at a speed of 60 km/h. What is the average speed of the car?"
+ },
+ "physcorp_6316": {
+  "jaccard": 0.02531645569620253,
+  "shared5": 2,
+  "train": "A fair coin is flipped 8 times. What is the probability that at least 6 consecutive flips come up heads?"
+ },
+ "physcorp_5382": {
+  "jaccard": 0.0
+ },
+ "cal_problem_01040": {
+  "jaccard": 0.0064516129032258064,
+  "shared5": 1,
+  "train": "Triangle $ABC$ has $BC=1$ and $AC=2$. What is the maximum possible value of $\\hat{A}$."
+ },
+ "physcorp_2218": {
+  "jaccard": 0.008928571428571428,
+  "shared5": 1,
+  "train": "5. Ana has 16 small cuboids with edge lengths of $2 \\mathrm{~cm}, 2 \\mathrm{~cm}$, and $1 \\mathrm{~cm}$. She can form a larger cuboid in several ways, using all 16 small cuboids without any gaps. What are the edge lengths of the cuboid that Ana formed, if it must have the smallest surface area?"
+ },
+ "cal_problem_01093": {
+  "jaccard": 0.020618556701030927,
+  "shared5": 2,
+  "train": "The steam train travels from Zalakom\u00e1r, which is 21 km away, to Kanizsa. It covers the distance in 16 minutes, starting with uniform acceleration, then traveling at a constant speed of $90 \\frac{\\mathrm{km}}{\\mathrm{h}}$, and finally decelerating uniformly to a stop. How long does the steam train travel at $90 \\frac{\\mathrm{km}}{\\mathrm{h}}$?"
+ },
+ "tbr_578253": {
+  "jaccard": 0.0
+ },
+ "physcorp_6159": {
+  "jaccard": 0.021739130434782608,
+  "shared5": 2,
+  "train": "Example 9 Given $n$ points in the plane with no three points collinear, $m$ line segments are drawn between these $n$ points as endpoints. It is known that for any two points $A$ and $B$, there is a point $C$ such that $C$ is connected to both $A$ and $B$ by line segments. Find the minimum value of $m$.\n\n untranslated text remains the same as the source text."
+ },
+ "tbr_623123": {
+  "jaccard": 0.02,
+  "shared5": 2,
+  "train": "\u0414\u0443\u0431\u0430\u043d\u043e\u0432 \u0418.\u0421.\n\nIn five pots standing in a row, Rabbit poured three kilograms of honey (not necessarily into each and not necessarily equally). Winnie-the-Pooh can take any two adjacent pots. What is the maximum amount of honey that Winnie-the-Pooh can guarantee to eat?\n\n#"
+ },
+ "tbr_259673": {
+  "jaccard": 0.0
+ },
+ "physcorp_4043": {
+  "jaccard": 0.0
+ },
+ "physcorp_4654": {
+  "jaccard": 0.0
+ },
+ "physcorp_1953": {
+  "jaccard": 0.007692307692307693,
+  "shared5": 1,
+  "train": "\nCalculate the arc lengths of the curves given by the parametric equations.\n\n$$\n\\begin{aligned}\n& \\left\\{\\begin{array}{l}\nx=\\frac{1}{2} \\cos t-\\frac{1}{4} \\cos 2 t \\\\\ny=\\frac{1}{2} \\sin t-\\frac{1}{4} \\sin 2 t\n\\end{array}\\right. \\\\\n& \\frac{\\pi}{2} \\leq t \\leq \\frac{2 \\pi}{3}\n\\end{aligned}\n$$"
+ },
+ "physcorp_2992": {
+  "jaccard": 0.0
+ },
+ "physicsb_1984": {
+  "jaccard": 0.0
+ },
+ "physcorp_2377": {
+  "jaccard": 0.07352941176470588,
+  "shared5": 5,
+  "train": "1.25. Find the equation of the tangent to the conic $a x^{2}+$ $+b x y+c y^{2}+d x+e y+f=0$ at the point $\\left(x_{0}, y_{0}\\right)$."
+ },
+ "physcorp_542": {
+  "jaccard": 0.0
+ },
+ "physcorp_3018": {
+  "jaccard": 0.013793103448275862,
+  "shared5": 2,
+  "train": "A tank with a mass of $m_{1}=2$ kg rests on a cart with a mass of $m_{2}=10$ kg, which is accelerated with an acceleration of $a=5 \\, \\text{m/s}^2$. The coefficient of friction between the tank and the cart is $\\mu=0.6$. Determine the frictional force acting on the tank from the cart."
+ },
+ "physcorp_400": {
+  "jaccard": 0.0
+ },
+ "physcorp_3132": {
+  "jaccard": 0.024539877300613498,
+  "shared5": 4,
+  "train": "10. As shown in the figure, in the rectangular plate $ABCD$, $AB=3, BC=2$, with the edge $AD$ standing vertically on the ground. There is another vertical rod $MN$ on the ground, such that $NE$ is the perpendicular bisector of $AB$, with $E$ being the foot of the perpendicular, $NE=3$, $MN=5$. There is a point light source at point $M$. Then the area of the projection of the rectangular plate on t"
+ },
+ "physcorp_5094": {
+  "jaccard": 0.018691588785046728,
+  "shared5": 2,
+  "train": "Determine the area of the smallest square that can contain a circle with a radius of 6."
+ },
+ "tbr_260699": {
+  "jaccard": 0.0
+ },
+ "physicsb_2286": {
+  "jaccard": 0.016260162601626018,
+  "shared5": 2,
+  "train": "668. Determine the mass of a sphere of radius $r$, if the density at each of its points is proportional to the distance from the center of the sphere."
+ },
+ "physcorp_3520": {
+  "jaccard": 0.0
+ },
+ "physcorp_3344": {
+  "jaccard": 0.013245033112582781,
+  "shared5": 2,
+  "train": "125. Formation of integers. Can the reader name the sum of all integers formed from the four digits $1,2,3,4$? In other words, it is required to calculate the sum of such numbers as $1234,1423,4312$, etc. Of course, one could write down all such numbers in a row and then add them up. However, it is more interesting to find a simple rule that can be used to find the sums of numbers formed from four"
+ },
+ "physcorp_4099": {
+  "jaccard": 0.016129032258064516,
+  "shared5": 2,
+  "train": "For a unit circle $O$, arrange points $A,B,C,D$ and $E$ in that order evenly along $O$'s circumference. For each of those points, draw the arc centered at that point inside O from the point to its left to the point to its right. Denote the outermost intersections of these arcs as $A', B', C', D'$ and $E'$, where the prime of any point is opposite the point. The length of $AC'$ can be written as an"
+ },
+ "physcorp_4152": {
+  "jaccard": 0.058823529411764705,
+  "shared5": 3,
+  "train": "The quadratic $4x^2 - 40x + 100$ can be written in the form $(ax+b)^2 + c$, where $a$, $b$, and $c$ are constants. What is $2b-3c$?"
+ },
+ "physcorp_951": {
+  "jaccard": 0.01098901098901099,
+  "shared5": 1,
+  "train": "## Task 24/70\n\nWhat is the probability of rolling a sum of 12 with three dice?"
+ },
+ "tbr_138324": {
+  "jaccard": 0.0
+ },
+ "physcorp_1337": {
+  "jaccard": 0.011235955056179775,
+  "shared5": 2,
+  "train": "Determine the probability that two edges selected at random from the twelve edges of a cube with side length 1 are skew lines (i.e., non-intersecting and not in the same plane)."
+ },
+ "physcorp_398": {
+  "jaccard": 0.003125,
+  "shared5": 1,
+  "train": "You are an expert Python programmer. You will be given a question (problem specification) and will generate a correct Python program that matches the specification and passes all tests.\n\n### Question:\nYou are given a 0-indexed 2D integer array pairs where pairs[i] = [starti, endi]. An arrangement of pairs is valid if for every index i where 1 <= i < pairs.length, we have endi-1 == starti.\nReturn a"
+ },
+ "physcorp_4337": {
+  "jaccard": 0.023255813953488372,
+  "shared5": 2,
+  "train": "5. A sphere with radius $R$ contains 4 smaller spheres with radius $r$. The maximum value of the radius $r$ of the smaller spheres is $\\qquad$ . (Express the answer in terms of $R$)"
+ },
+ "tbr_480403": {
+  "jaccard": 0.00980392156862745,
+  "shared5": 1,
+  "train": "2. It is known that $\\frac{\\cos x-\\sin x}{\\cos y}=2 \\sqrt{2} \\operatorname{ctg} \\frac{x+y}{2}$ and $\\frac{\\sin x+\\cos x}{\\sin y}=\\frac{1}{\\sqrt{2}} \\operatorname{tg} \\frac{x+y}{2}$. Find all possible values of the expression $\\operatorname{tg}(x+y)$, given that there are at least three."
+ },
+ "cal_problem_01369": {
+  "jaccard": 0.04225352112676056,
+  "shared5": 6,
+  "train": "79. A small boat sails upstream from downstream port $A$, and at a point 4 kilometers away from port $A$, it encounters a log drifting with the current. The boat continues its journey to reach upstream port $B$ and immediately turns around, arriving at port $A$ at the same time as the log. Given that the speed of the current is 2 meters/second, and the speed of the boat in still water is 8 meters/"
+ },
+ "tbr_300583": {
+  "jaccard": 0.012345679012345678,
+  "shared5": 1,
+  "train": "6.3. An old problem. On a hot summer day, 6 mowers drank a barrel of kvass in 8 hours. How many mowers will drink the same barrel of kvass in 3 hours?\n\n$$\n\\text { (4-7 grades) }\n$$"
+ },
+ "physcorp_417": {
+  "jaccard": 0.02197802197802198,
+  "shared5": 2,
+  "train": "7.97 A flat corridor in the shape of a right angle has a width of 1 meter and extends infinitely in both directions. Given a rigid, unbendable metal wire (not necessarily straight), which can be dragged through the entire corridor, what is the maximum distance between the two endpoints of the wire?"
+ },
+ "physicsb_7678": {
+  "jaccard": 0.0
+ },
+ "physcorp_4089": {
+  "jaccard": 0.0
+ },
+ "physcorp_6286": {
+  "jaccard": 0.06349206349206349,
+  "shared5": 4,
+  "train": "Find the least $k$ for which the number $2010$ can be expressed as the sum of the squares of $k$ integers."
+ },
+ "tbr_557716": {
+  "jaccard": 0.008064516129032258,
+  "shared5": 1,
+  "train": "5. (25 points) Six resistors with resistances $R_{1}=1$ Ohm, $R_{2}=2$ Ohm, $R_{3}=3$ Ohm, $R_{4}=4$ Ohm, $R_{5}=5$ Ohm, and $R_{6}=6$ Ohm are connected in series and form a loop. A source of constant voltage is connected to the resulting circuit such that the resistance between its terminals is maximized. The voltage of the source is $U=12 \\mathrm{~V}$. Find the power $P_{3}$ dissipated on the re"
+ },
+ "physcorp_3627": {
+  "jaccard": 0.0
+ },
+ "physicsb_1808": {
+  "jaccard": 0.013157894736842105,
+  "shared5": 1,
+  "train": "Determine the value of $\\left(\\log _{2} 4\\right)\\left(\\log _{4} 6\\right)\\left(\\log _{6} 8\\right)$."
+ },
+ "physcorp_2693": {
+  "jaccard": 0.0
+ },
+ "physcorp_409": {
+  "jaccard": 0.009615384615384616,
+  "shared5": 1,
+  "train": "A piece of paper with a thickness of $0.1$ millimeters is folded once, resulting in a thickness of $2 \\times 0.1$ millimeters. Continuing to fold it $2$ times, $3$ times, $4$ times, and so on, determine the total thickness after folding the paper $20$ times and express it as the height of a building, with each floor being $3$ meters high."
+ },
+ "physcorp_5573": {
+  "jaccard": 0.0425531914893617,
+  "shared5": 2,
+  "train": "The symbol $[x]$ represents the greatest integer less than or equal to the real number $x$. Find the solution to the equation $\\left[3 x - 4 \\frac{5}{6}\\right] - 2 x - 1 = 0$."
+ },
+ "physicsb_3952": {
+  "jaccard": 0.0058823529411764705,
+  "shared5": 1,
+  "train": "1. (HUN) Solve the following system of equations:  $$ \\begin{aligned} x+y+z & =a, \\\\ x^{2}+y^{2}+z^{2} & =b^{2}, \\\\ x y & =z^{2} \\end{aligned} $$  where $a$ and $b$ are given real numbers. What conditions must hold on $a$ and $b$ for the solutions to be positive and distinct?"
+ },
+ "physcorp_2849": {
+  "jaccard": 0.0
+ },
+ "physcorp_318": {
+  "jaccard": 0.011904761904761904,
+  "shared5": 1,
+  "train": "What is the period of $y = \\sin 5x $?"
+ },
+ "cal_problem_00272": {
+  "jaccard": 0.02962962962962963,
+  "shared5": 4,
+  "train": "A small ball is released from a height \\( h = 45 \\) m without an initial velocity. The collision with the horizontal surface of the Earth is perfectly elastic. Determine the moment in time after the ball starts falling when its average speed equals its instantaneous speed. The acceleration due to gravity is \\( g = 10 \\ \\text{m}/\\text{s}^2 \\)."
+ },
+ "tbr_572530": {
+  "jaccard": 0.0
+ },
+ "tbr_642894": {
+  "jaccard": 0.0
+ },
+ "tbr_73427": {
+  "jaccard": 0.012345679012345678,
+  "shared5": 1,
+  "train": "Medians $\\overline{DP}$ and $\\overline{EQ}$ of $\\triangle DEF$ intersect at an angle of $60^\\circ$. If $DP = 21$ and $EQ = 27$, determine the length of side $DE$."
+ },
+ "tbr_281677": {
+  "jaccard": 0.0
+ },
+ "physcorp_1714": {
+  "jaccard": 0.0
+ },
+ "physicsb_982": {
+  "jaccard": 0.0
+ },
+ "tbr_271043": {
+  "jaccard": 0.016260162601626018,
+  "shared5": 2,
+  "train": "1.48 In the expression $x_{1}: x_{2}: \\cdots: x_{n}$, use parentheses to indicate the order of operations, and the result can be written in fractional form:\n$$\n\\frac{x_{i_{1}} x_{i_{2}} \\cdots x_{i_{k}}}{x_{j_{1}} x_{j_{2}} \\cdots x_{j_{n-k}}}\n$$\n(At the same time, each letter in $x_{1}, x_{2}, \\cdots, x_{n}$ may appear in the numerator or in the denominator.) How many different fractions can be o"
+ },
+ "tbr_42198": {
+  "jaccard": 0.018018018018018018,
+  "shared5": 2,
+  "train": "For a unit circle $O$, arrange points $A,B,C,D$ and $E$ in that order evenly along $O$'s circumference. For each of those points, draw the arc centered at that point inside O from the point to its left to the point to its right. Denote the outermost intersections of these arcs as $A', B', C', D'$ and $E'$, where the prime of any point is opposite the point. The length of $AC'$ can be written as an"
+ },
+ "tbr_267770": {
+  "jaccard": 0.0125,
+  "shared5": 2,
+  "train": "Given two complex numbers ${z_1}$ and ${z_2}$ that correspond to points in the complex plane that are symmetric about the origin, and ${z_1 = 2 - i}$, determine the value of the complex number $\\frac{z_1}{z_2}$."
+ },
+ "physicsb_2293": {
+  "jaccard": 0.013333333333333334,
+  "shared5": 1,
+  "train": "Given vectors $\\mathbf{a}$ and $\\mathbf{b}$ such that $\\|\\mathbf{a}\\| = 6,$ $\\|\\mathbf{b}\\| = 8,$ and $\\|\\mathbf{a} + \\mathbf{b}\\| = 11.$  Find $\\cos \\theta,$ where $\\theta$ is the angle between $\\mathbf{a}$ and $\\mathbf{b}.$"
+ },
+ "physcorp_229": {
+  "jaccard": 0.0036231884057971015,
+  "shared5": 1,
+  "train": "In a three-dimensional Euclidean space, by $\\overrightarrow{u_1}$ , $\\overrightarrow{u_2}$ , $\\overrightarrow{u_3}$ are denoted the three orthogonal unit vectors on the $x, y$, and $z$ axes, respectively.\na) Prove that the point $P(t) = (1-t)\\overrightarrow{u_1} +(2-3t)\\overrightarrow{u_2} +(2t-1)\\overrightarrow{u_3}$ , where $t$ takes all real values, describes a straight line (which we will deno"
+ },
+ "physcorp_2092": {
+  "jaccard": 0.0
+ },
+ "tbr_81921": {
+  "jaccard": 0.011904761904761904,
+  "shared5": 1,
+  "train": "## Task A-2.2. (4 points)\n\nLet $A B C D$ be a square with side length 1. Circle $k$ has a radius of 1 and its center is at point $C$. Determine the radius of circle $k_{1}$ which is tangent to circle $k$ and the segments $\\overline{A B}$ and $\\overline{A D}$."
+ },
+ "physcorp_741": {
+  "jaccard": 0.0
+ },
+ "physicsb_1307": {
+  "jaccard": 0.007662835249042145,
+  "shared5": 2,
+  "train": "In one container, there is $80 \\mathrm{~cm}^{3}$ of a salt solution with a density of $1.2 \\mathrm{g} / \\mathrm{cm}^{3}$, and in another container, there is $100 \\mathrm{~cm}^{3}$ of an ammonia solution with a density of $0.8 \\mathrm{g} / \\mathrm{cm}^{3}$. From the first container, $x \\mathrm{~cm}^{3}$ is poured into the second one; after thorough mixing, $x \\mathrm{~cm}^{3}$ is poured back into t"
+ },
+ "tbr_558991": {
+  "jaccard": 0.01020408163265306,
+  "shared5": 1,
+  "train": "Homer began peeling a pile of 44 potatoes at the rate of 3 potatoes per minute. Four minutes later Christen joined him and peeled at the rate of 5 potatoes per minute. When they finished, how many potatoes had Christen peeled?"
+ },
+ "physcorp_4622": {
+  "jaccard": 0.008264462809917356,
+  "shared5": 1,
+  "train": "Approximate the increase in the volume of a cylinder with a height of \\( H = 40 \\) cm and a base radius of \\( R = 30 \\) cm when the radius is increased by \\( 0.5 \\) cm."
+ },
+ "physcorp_2985": {
+  "jaccard": 0.012345679012345678,
+  "shared5": 1,
+  "train": "$1 \\cdot 13$ Let the positive integer $M$ in its $n$-ary representation have all distinct digits, and each digit, except the leftmost one, differs from some digit to its left by $\\pm 1$. Find the number of all such positive integers $M$. (The answer should be given as an explicit function of $n$ in its simplest form)\n\n"
+ },
+ "cal_problem_01083": {
+  "jaccard": 0.013054830287206266,
+  "shared5": 5,
+  "train": "1. A person is chasing a car stopped at a traffic light at a constant speed of $6 \\mathrm{~m} / \\mathrm{s}$. When he is $25 \\mathrm{~m}$ away from the car, the traffic light changes from red to green, and the car starts to move with a uniform acceleration of $1 \\mathrm{~m} / \\mathrm{s}^{2}$. Can this person catch up to the car?"
+ },
+ "tbr_479532": {
+  "jaccard": 0.005988023952095809,
+  "shared5": 1,
+  "train": "In a vertical vessel with straight walls closed by a piston, there is water. Its height is $h=2$ mm. There is no air in the vessel. To what height must the piston be raised for all the water to evaporate? The density of water is $\\rho=1000$ kg / $\\mathrm{m}^{3}$, the molar mass of water vapor is $M=0.018$ kg/mol, the pressure of saturated water vapor at a temperature of $T=50{ }^{\\circ} \\mathrm{C}"
+ },
+ "tbr_323328": {
+  "jaccard": 0.0070921985815602835,
+  "shared5": 1,
+  "train": "Example 6. Calculate the area bounded by the parabola $x=8 y-y^{2}-7$ and the $O y$ axis."
+ },
+ "physcorp_3913": {
+  "jaccard": 0.0
+ },
+ "physcorp_1165": {
+  "jaccard": 0.014925373134328358,
+  "shared5": 2,
+  "train": "10. (15 points) Given the set $D=\\left\\{\\left(x_{1}, x_{2}\\right)\\left|x_{1}\\right\\rangle\\right.$ $\\left.0, x_{2}>0, x_{1}+x_{2}=k\\right\\}$, where $k$ is a positive constant. Find the range of $k$ such that the inequality $\\left(\\frac{1}{x_{1}}-x_{1}\\right)\\left(\\frac{1}{x_{2}}-x_{2}\\right) \\geqslant$ $\\left(\\frac{k}{2}-\\frac{2}{k}\\right)^{2}$ holds for any $\\left(x_{1}, x_{2}\\right) \\in D$."
+ },
+ "tbr_325548": {
+  "jaccard": 0.030303030303030304,
+  "shared5": 3,
+  "train": "A sled loaded with children starts from rest and slides down a snowy $25^\\circ$ (with respect to the horizontal) incline traveling $85$ meters in $17$ seconds. Ignore air resistance. What is the coefficient of kinetic friction between the sled and the slope?"
+ },
+ "physcorp_2442": {
+  "jaccard": 0.0
+ },
+ "physcorp_3569": {
+  "jaccard": 0.0136986301369863,
+  "shared5": 1,
+  "train": "Problem 2. The area of trapezoid $ABCD$ is $164 \\mathrm{~cm}^{2}$. Its height is $8 \\mathrm{~cm}$, and the lengths of the legs $BC$ and $AD$ are $17 \\mathrm{~cm}$ and $10 \\mathrm{~cm}$, respectively. What is the length of the base $CD$?"
+ },
+ "tbr_302705": {
+  "jaccard": 0.0
+ },
+ "cal_problem_00583": {
+  "jaccard": 0.012658227848101266,
+  "shared5": 2,
+  "train": "Given that Josie jogs parallel to a canal along which a boat is moving at a constant speed in the same direction and counts 130 steps to reach the front of the boat from behind it, and 70 steps from the front to the back, find the length of the boat in terms of Josie's steps."
+ },
+ "tbr_646306": {
+  "jaccard": 0.0
+ },
+ "tbr_22163": {
+  "jaccard": 0.019801980198019802,
+  "shared5": 2,
+  "train": "30. As shown in the figure, in square $A B C D$, $A B=2$. With $C$ as the center and $C D$ as the radius, draw an arc. Then, with $B$ as the center and $B A$ as the radius, draw another arc intersecting the first arc at $E$. The area of sector $B A E$ is"
+ },
+ "physicsb_549": {
+  "jaccard": 0.0106951871657754,
+  "shared5": 2,
+  "train": "4. On the side $B C$ of triangle $A B C$, a point $M$ is taken such that $B M: M C=2: 7$. The bisector $B L$ of the given triangle and the segment $A M$ intersect at point $P$ at an angle of $90^{\\circ}$.\n\na) Find the ratio of the area of triangle $A B P$ to the area of quadrilateral $L P M C$.\n\nb) On the segment $M C$, a point $T$ is marked such that $M T: T C=1: 6$. It is additionally known that"
+ },
+ "physicsb_1099": {
+  "jaccard": 0.02666666666666667,
+  "shared5": 2,
+  "train": "A $1 \\mathrm{~m}$ long, closed at both ends, horizontal pipe contains 100 small balls. Each ball has a speed of $10 \\mathrm{~m} / \\mathrm{s}$, and the balls collide with each other and the ends of the pipe completely elastically. How many collisions occur in 10 seconds?"
+ },
+ "physcorp_1303": {
+  "jaccard": 0.01818181818181818,
+  "shared5": 2,
+  "train": "Find the maximum value of\n\\[\\cos \\theta_1 \\sin \\theta_2 + \\cos \\theta_2 \\sin \\theta_3 + \\cos \\theta_3 \\sin \\theta_4 + \\cos \\theta_4 \\sin \\theta_5 + \\cos \\theta_5 \\sin \\theta_1,\\]over all real numbers $\\theta_1,$ $\\theta_2,$ $\\theta_3,$ $\\theta_4,$ and $\\theta_5.$"
+ },
+ "physcorp_583": {
+  "jaccard": 0.023529411764705882,
+  "shared5": 2,
+  "train": "A bullet with a mass of \\( m = 10 \\) g, flying horizontally with a speed of \\( v_{1} = 400 \\) m/s, passes through a massive board and emerges from it with a speed of \\( v_{2} = 100 \\) m/s. Find the amount of work done on the bullet by the resistive force of the board."
+ },
+ "physcorp_1858": {
+  "jaccard": 0.0
+ },
+ "physicsb_2066": {
+  "jaccard": 0.058823529411764705,
+  "shared5": 4,
+  "train": "Circles with centers of $(2,2)$ and $(17,10)$ are both tangent to the $x$-axis. What is the distance between the closest points of the two circles?"
+ },
+ "physcorp_3620": {
+  "jaccard": 0.0
+ },
+ "physcorp_6270": {
+  "jaccard": 0.01,
+  "shared5": 1,
+  "train": "277. The random variable $X$ in the interval (-c, c) is given by the probability density function $f(x)=1 /\\left(\\pi \\sqrt{c^{2}-x^{2}}\\right)$; outside this interval, $f(x)=0$. Find the mathematical expectation of the variable $X$."
+ },
+ "tbr_603836": {
+  "jaccard": 0.0
+ },
+ "physicsb_134": {
+  "jaccard": 0.015384615384615385,
+  "shared5": 1,
+  "train": "The ship decided to determine the depth of the ocean at its location. The signal sent by the echo sounder was received on the ship 8 seconds later. The speed of sound in water is 1.5 km/s. Determine the depth of the ocean."
+ },
+ "physcorp_1766": {
+  "jaccard": 0.017543859649122806,
+  "shared5": 2,
+  "train": "7. If a moving point $P(x, y)$ rotates counterclockwise on the unit circle with a constant angular velocity $\\omega$, then the motion of point $Q\\left(-2 x y, y^{2}-x^{2}\\right)$ is\nA. Rotates clockwise on the unit circle with angular velocity $\\omega$\nB. Rotates counterclockwise on the unit circle with angular velocity $\\omega$\nC. Rotates clockwise on the unit circle with angular velocity $2 \\ome"
+ },
+ "tbr_564452": {
+  "jaccard": 0.007692307692307693,
+  "shared5": 1,
+  "train": "We measured the angle of elevation of an antenna tower standing on flat terrain from distances of $100 \\text{ m}$, $200 \\text{ m}$, and $300 \\text{ m}$ from its base. The sum of the three angles is $90^\\circ$. How tall is the tower?"
+ },
+ "physcorp_3499": {
+  "jaccard": 0.02702702702702703,
+  "shared5": 2,
+  "train": "Liliane has $50\\%$ more soda than Jacqueline, and Alice has $25\\%$ more soda than Jacqueline. What is the relationship between the amounts of soda that Liliane and Alice have?"
+ },
+ "physcorp_2974": {
+  "jaccard": 0.02727272727272727,
+  "shared5": 3,
+  "train": "An open organ pipe has its first overtone $N_{1}=512$, if it is blown with air (the speed of sound in air is $V=340 \\frac{\\mathrm{m}}{\\mathrm{sec}}$). How high will the fundamental frequency of this pipe be if it is blown with hydrogen, in which the speed of sound is $V^{\\prime}=1200 \\overline{\\mathrm{m}} \\sec$?"
+ },
+ "physcorp_2598": {
+  "jaccard": 0.017543859649122806,
+  "shared5": 2,
+  "train": "A tank with a mass of $m_{1}=2$ kg rests on a cart with a mass of $m_{2}=10$ kg, which is accelerated with an acceleration of $a=5 \\, \\text{m/s}^2$. The coefficient of friction between the tank and the cart is $\\mu=0.6$. Determine the frictional force acting on the tank from the cart."
+ },
+ "tbr_495459": {
+  "jaccard": 0.0
+ },
+ "physicsb_7699": {
+  "jaccard": 0.031746031746031744,
+  "shared5": 2,
+  "train": "A cylindrical water tank, placed horizontally, has an interior length of 15 feet and an interior diameter of 8 feet. If the surface area of the water exposed is 60 square feet, find the depth of the water in the tank."
+ },
+ "physcorp_1719": {
+  "jaccard": 0.0
+ },
+ "physcorp_3099": {
+  "jaccard": 0.012658227848101266,
+  "shared5": 1,
+  "train": "Suppose the probability distribution of the random variable $X$ is given by $P\\left(X=\\frac{k}{5}\\right)=ak$, where $k=1,2,3,4,5$.\n(1) Find the value of $a$.\n(2) Calculate $P\\left(X \\geq \\frac{3}{5}\\right)$.\n(3) Find $P\\left(\\frac{1}{10} < X \\leq \\frac{7}{10}\\right)$."
+ },
+ "physcorp_1076": {
+  "jaccard": 0.020833333333333332,
+  "shared5": 3,
+  "train": "Find the number of ordered triples of sets  $(T_1, T_2, T_3)$  such that\n1. each of  $T_1, T_2$ , and  $T_3$  is a subset of  $\\{1, 2, 3, 4\\}$ ,\n2.  $T_1 \\subseteq T_2 \\cup T_3$ ,\n3.  $T_2 \\subseteq T_1 \\cup T_3$ , and\n4.  $T_3\\subseteq T_1 \\cup T_2$ ."
+ },
+ "tbr_341829": {
+  "jaccard": 0.0
+ },
+ "tbr_619005": {
+  "jaccard": 0.03,
+  "shared5": 3,
+  "train": "5. (15 points) A light ray falls at an angle $\\alpha=30^{\\circ}$ on the front surface of a parallel glass plate. The refractive index of the glass is $n=1.5$. By what angle is the ray, reflected from the back surface of the plate and exiting back through the front surface, deflected from the direction of the incident ray?"
+ },
+ "tbr_609067": {
+  "jaccard": 0.0
+ },
+ "physcorp_1831": {
+  "jaccard": 0.011494252873563218,
+  "shared5": 1,
+  "train": "3A. Find the relationship between the roots of the quadratic equation\n\n$$\n\\left(x^{2}-6 m+5\\right)+m\\left(x^{2}-5 x+6\\right)=0\n$$\n\nthat does not depend on $m$?"
+ },
+ "tbr_192876": {
+  "jaccard": 0.03389830508474576,
+  "shared5": 2,
+  "train": "10.007. An isosceles trapezoid with a side length of 17 cm is circumscribed around a circle with a diameter of 15 cm. Find the bases of the trapezoid."
+ },
+ "physcorp_3829": {
+  "jaccard": 0.0
+ },
+ "physcorp_6093": {
+  "jaccard": 0.0
+ },
+ "tbr_290657": {
+  "jaccard": 0.005917159763313609,
+  "shared5": 1,
+  "train": "There is a settlement $C$ (a point) located at the intersection of roads $A$ and $B$ (straight lines). Sasha walks along road $A$ towards $C$, taking 45 steps per minute with a step length of 60 cm. At the start, Sasha is 290 m away from $C$. Dania walks along road $B$ towards $C$ at a rate of 55 steps per minute with a step length of 65 cm, and at the start of their movement, Dania is 310 m away "
+ },
+ "tbr_583211": {
+  "jaccard": 0.0
+ },
+ "physcorp_6029": {
+  "jaccard": 0.0
+ },
+ "tbr_390453": {
+  "jaccard": 0.018867924528301886,
+  "shared5": 1,
+  "train": "The polynomial $\\frac{1}{5}{x^2}{y^{|m|}}-(m+1)y+\\frac{1}{7}$ is a cubic binomial in terms of $x$ and $y$. Find the value of $m$."
+ },
+ "physcorp_1160": {
+  "jaccard": 0.012048192771084338,
+  "shared5": 2,
+  "train": "# Problem \u21161 (10 points)\n\nA stone is thrown from the surface of the Earth at an angle of $60^{\\circ}$ to the horizon with an initial velocity $v_{0}=10 \\mathrm{~m} / \\mathrm{s}$. Determine the radius of curvature of the trajectory at the final point of the flight. The acceleration due to gravity $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$.\n\n#"
+ },
+ "physcorp_1059": {
+  "jaccard": 0.0
+ },
+ "physicsb_2324": {
+  "jaccard": 0.0
+ },
+ "physcorp_4931": {
+  "jaccard": 0.03125,
+  "shared5": 3,
+  "train": "Given a cone whose vertex and the circumference of its base are both on the same sphere, if the radius of the sphere is $1$, then when the volume of the cone is maximized, the height of the cone is ______."
+ },
+ "physcorp_3616": {
+  "jaccard": 0.006756756756756757,
+  "shared5": 1,
+  "train": "A5. The sizes in degrees of the interior angles of a pentagon are consecutive even numbers. What is the size of the largest of these angles?"
+ },
+ "tbr_283193": {
+  "jaccard": 0.0
+ },
+ "physcorp_3590": {
+  "jaccard": 0.0136986301369863,
+  "shared5": 2,
+  "train": "A simple pendulum experiment is constructed from a point mass $m$ attached to a pivot by a massless rod of length $L$ in a constant gravitational \ffield. The rod is released from an angle $\\theta_0 < \\frac{\\pi}{2}$ at rest and the period of motion is found to be $T_0$. Ignore air resistance and friction.\n\nWhat is the maximum value of the tension in the rod?\n\n$\\textbf{(A) } mg\\\\\n\\textbf{(B) }  2mg\\"
+ },
+ "tbr_326976": {
+  "jaccard": 0.037037037037037035,
+  "shared5": 3,
+  "train": "The triangle $\\triangle ABC$ is equilateral, and the point $P$ is such that $PA = 3 \\, \\text{cm}$, $PB = 4 \\, \\text{cm}$, and $PC = 5 \\, \\text{cm}$. Calculate the length of the sides of the triangle $\\triangle ABC$."
+ },
+ "physcorp_1330": {
+  "jaccard": 0.023809523809523808,
+  "shared5": 1,
+  "train": "G2.2 Let $b=89+899+8999+89999+899999$, find the value of $b$."
+ },
+ "cal_problem_00917": {
+  "jaccard": 0.02027027027027027,
+  "shared5": 3,
+  "train": "There are 13 weights arranged in a row on a table, ordered by mass (the lightest on the left, the heaviest on the right). It is known that the mass of each weight is an integer number of grams, the masses of any two adjacent weights differ by no more than 5 grams, and the total mass of the weights does not exceed 2019 grams. Find the maximum possible mass of the heaviest weight under these conditi"
+ },
+ "physcorp_2134": {
+  "jaccard": 0.013513513513513514,
+  "shared5": 1,
+  "train": "8.4. In the record $*+*+*+*+*+*+*+*=* *$, replace the asterisks with different digits so that the equality is true. Justify that the given example is unique up to the order of the addends in the left part of the equation."
+ },
+ "physcorp_5996": {
+  "jaccard": 0.03076923076923077,
+  "shared5": 2,
+  "train": "4.4. Given the equation of a plane in general form $2 x-2 y+$ $+z-20=0$.\n\nTransform this equation: 1) into the equation of a plane in intercept form; 2) into the normal equation of the plane."
+ },
+ "physcorp_3840": {
+  "jaccard": 0.011560693641618497,
+  "shared5": 2,
+  "train": "2. Let the set $A=\\left\\{x \\mid a x^{2}+3 x-2 a=0\\right\\}$ (where $a$ is a non-zero real number), $B=\\left\\{x \\mid 2 x^{2}-5 x-42 \\leqslant 0\\right\\}$, if $A \\cap B=A$, then the range of values for $a$ is $\\qquad$ ."
+ },
+ "tbr_585100": {
+  "jaccard": 0.0
+ },
+ "physcorp_2687": {
+  "jaccard": 0.0
+ },
+ "physcorp_2983": {
+  "jaccard": 0.014285714285714285,
+  "shared5": 1,
+  "train": "Compute the number of positive integers less than 10! which can be expressed as the sum of at most 4 (not necessarily distinct) factorials."
+ },
+ "physcorp_5779": {
+  "jaccard": 0.011904761904761904,
+  "shared5": 1,
+  "train": "Determine the maximum number of three-term arithmetic progressions which can be chosen from a sequence of $n$ real numbers \\[a_1<a_2<\\cdots<a_n.\\]"
+ },
+ "tbr_559935": {
+  "jaccard": 0.023529411764705882,
+  "shared5": 2,
+  "train": "A regular polygon of $n$ sides is inscribed in a circle of radius $R$. The area of the polygon is $3R^2$. Then $n$ equals:"
+ },
+ "tbr_121827": {
+  "jaccard": 0.0
+ },
+ "tbr_109964": {
+  "jaccard": 0.0
+ },
+ "physcorp_967": {
+  "jaccard": 0.008620689655172414,
+  "shared5": 1,
+  "train": "In a stationery store, packages of paper are stored in stacks of 60 packages. Each package contains 500 sheets of paper and each sheet of paper has a thickness of $0.1 \\mathrm{~mm}$. Ignoring the thickness of the paper used to wrap the packages, we can state that the height of a stack of 60 packages is approximately equal to the height of:\n(a) an adult person;\n(d) a 10-story building;\n(b) a one-ye"
+ },
+ "physcorp_397": {
+  "jaccard": 0.0
+ },
+ "tbr_321204": {
+  "jaccard": 0.0
+ },
+ "physcorp_5946": {
+  "jaccard": 0.009345794392523364,
+  "shared5": 1,
+  "train": "A particular coin has a $\\frac{1}{3}$ chance of landing on heads (H), $\\frac{1}{3}$ chance of landing on tails (T), and $\\frac{1}{3}$ chance of landing vertically in the middle (M). When continuously flipping this coin, what is the probability of observing the continuous sequence HMMT before HMT?"
+ },
+ "cal_problem_00745": {
+  "jaccard": 0.022727272727272728,
+  "shared5": 3,
+  "train": "# Problem \u21161 (10 points)\n\nA stone is thrown from the surface of the Earth at an angle of $60^{\\circ}$ to the horizon with an initial velocity $v_{0}=10 \\mathrm{~m} / \\mathrm{s}$. Determine the radius of curvature of the trajectory at the final point of the flight. The acceleration due to gravity $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$.\n\n#"
+ },
+ "physicsb_2258": {
+  "jaccard": 0.0072992700729927005,
+  "shared5": 1,
+  "train": "8. The speed of the yacht in still water is $x$ km/h, and the speed of the current is $y$ km/h. Pleasant Goat drives the yacht from downstream location $\\mathrm{A}$ to upstream location $\\mathrm{B}$, and then immediately returns to downstream $\\mathrm{A}$. The time it takes for the yacht to travel from $\\mathrm{A}$ to $\\mathrm{B}$ is twice the time it takes to travel from $\\mathrm{B}$ to $\\mathrm{"
+ },
+ "physicsb_4256": {
+  "jaccard": 0.0125,
+  "shared5": 1,
+  "train": "The amount of heat \\( Q \\) received by a certain substance when heated from 0 to \\( T \\) is determined by the formula \\( Q = 0.1054t + 0.000002t^2 \\) (\\( Q \\) is in joules, \\( t \\) is in kelvins). Find the heat capacity of this substance at \\( 100 \\) K."
+ },
+ "physcorp_6352": {
+  "jaccard": 0.017964071856287425,
+  "shared5": 3,
+  "train": "## 251. Math Puzzle $4 / 86$\n\nThe \"Golden Rider\" in Dresden almost magically draws the gaze of passersby, living up to its name. During the last restoration, it was overlaid with 140 g of gold leaf, which has a specific density of $19.3 \\mathrm{~g} / \\mathrm{cm}^{3}$.\n\nHow thick is the average gold coating if the monument has a surface area to be coated of $40 \\mathrm{~m}^{2}$?"
+ },
+ "tbr_272924": {
+  "jaccard": 0.011363636363636364,
+  "shared5": 1,
+  "train": "The parabola $y^2 = 8x$ and the circle $x^2 + y^2 - 2x - 4y = 0$ intersect at two points $A$ and $B.$  Find the distance $AB.$"
+ },
+ "cal_problem_01077": {
+  "jaccard": 0.013636363636363636,
+  "shared5": 3,
+  "train": "\nA firecracker was thrown vertically upwards with a speed of 20 m/s. Three seconds after the start of its flight, it exploded into two unequal parts, the mass ratio of which is $1: 2$. The smaller fragment immediately after the explosion flew horizontally at a speed of $16 \\mathrm{~m}/\\mathrm{s}$. Find the magnitude of the speed of the second fragment (in m/s) immediately after the explosion. Assu"
+ },
+ "physcorp_5440": {
+  "jaccard": 0.015625,
+  "shared5": 1,
+  "train": "29. Inscribe a cube in a sphere of radius $R$ and find its volume."
+ },
+ "physcorp_2107": {
+  "jaccard": 0.02666666666666667,
+  "shared5": 4,
+  "train": "A rectangular tank with a horizontal cross-sectional area of \\(S = 6 \\ \\text{m}^2\\) is filled with water up to a height of \\(H = 5 \\ \\text{m}\\). Determine the time it takes for all the water to flow out of the tank through a small hole at the bottom with an area of \\(s = 0.01 \\ \\text{m}^2\\), assuming that the outflow speed of the water is \\(0.6 \\sqrt{2gh}\\), where \\(h\\) is the height of the water "
+ },
+ "physcorp_5466": {
+  "jaccard": 0.014705882352941176,
+  "shared5": 2,
+  "train": "The digits $0,1,2,3,4,5,6$ are randomly arranged in a sequence. What is the probability of obtaining a seven-digit number that is divisible by four? (The number cannot start with zero.)"
+ },
+ "physcorp_595": {
+  "jaccard": 0.010362694300518135,
+  "shared5": 2,
+  "train": "The nine squares in the table shown are to be filled so that every row and every column contains each of the numbers $1,2,3$.  Then $A+B=$ \\begin{tabular}{|c|c|c|}\\hline 1 & &\\\\ \\hline & 2 & A\\\\ \\hline & & B\\\\ \\hline\\end{tabular}"
+ },
+ "physcorp_3043": {
+  "jaccard": 0.0
+ },
+ "tbr_172668": {
+  "jaccard": 0.0
+ },
+ "tbr_100404": {
+  "jaccard": 0.008620689655172414,
+  "shared5": 1,
+  "train": "A uniform ladder of mass $m$ and length $\\mathcal{L}$ is resting on a wall. A man of mass $m$ climbs up the ladder and is in perfect equilibrium with the ladder when he is $\\frac{2}{3}\\mathcal{L}$ the way up the ladder. The ladder makes an angle of $ \\theta = 30^\\circ $ with the horizontal floor. If the coefficient of static friction between the ladder and the wall is the same as that between the "
+ },
+ "physcorp_3538": {
+  "jaccard": 0.012195121951219513,
+  "shared5": 1,
+  "train": "Given that the slant height of a cone is 2, and its net is a semicircle, what is the area of the cross section of the axis of the cone?"
+ },
+ "physcorp_5612": {
+  "jaccard": 0.008928571428571428,
+  "shared5": 1,
+  "train": "8. Develop a test for divisibility by 37 , based on the fact that $10^{3} \\equiv 1(\\bmod 37)$. Use this to check 443692 and 11092785 for divisibility by 37."
+ },
+ "physcorp_6368": {
+  "jaccard": 0.02631578947368421,
+  "shared5": 2,
+  "train": "12.419 A rectangle rotates around an axis passing through its vertex parallel to the diagonal. Find the surface area of the solid of revolution, if the area of the rectangle is $S$, and the angle between the diagonals is $\\alpha$."
+ },
+ "physcorp_635": {
+  "jaccard": 0.03636363636363636,
+  "shared5": 2,
+  "train": "Example 5 In a triangle where the sum of two sides is $m$ and their included angle $\\alpha$ is a constant, find the minimum value of the perimeter.\n\nIn a triangle where the sum of two sides is $m$ and their included angle $\\alpha$ is a constant, find the minimum value of the perimeter."
+ },
+ "physcorp_4414": {
+  "jaccard": 0.014925373134328358,
+  "shared5": 1,
+  "train": "An ordered list of four numbers is called a quadruple. A quadruple $(p, q, r, s)$ of integers with $p, q, r, s \\geq 0$ is chosen at random such that $2 p+q+r+s=4$. What is the probability that $p+q+r+s=3$?"
+ },
+ "tbr_494439": {
+  "jaccard": 0.03875968992248062,
+  "shared5": 5,
+  "train": "Find the smallest positive real number \\( r \\) with the following property: For every choice of 2023 unit vectors \\( \\mathbf{v}_1, \\mathbf{v}_2, \\ldots, \\mathbf{v}_{2023} \\in \\mathbb{R}^2 \\), a point \\( \\mathbf{p} \\) can be found in the plane such that for each subset \\( S \\) of \\(\\{1, 2, \\ldots, 2023\\}\\), the sum\n\\[ \\sum_{i \\in S} \\mathbf{v}_i \\]\nlies inside the disc \\(\\left\\{ \\mathbf{x} \\in \\mat"
+ },
+ "physcorp_1848": {
+  "jaccard": 0.006329113924050633,
+  "shared5": 1,
+  "train": "Let  $T_1$  and  $T_2$  be the points of tangency of the excircles of a triangle  $ABC$  with its sides  $BC$  and  $AC$  respectively. It is known that the reflection of the incenter of  $ABC$  across the midpoint of  $AB$  lies on the circumcircle of triangle  $CT_1T_2$ . Find  $\\angle BCA$ ."
+ },
+ "physcorp_5439": {
+  "jaccard": 0.0273972602739726,
+  "shared5": 2,
+  "train": "A train travelling at constant speed takes five seconds to pass completely through a tunnel which is $85 \\mathrm{~m}$ long, and eight seconds to pass completely through a second tunnel which is $160 \\mathrm{~m}$ long. What is the speed of the train?"
+ },
+ "physcorp_5247": {
+  "jaccard": 0.06521739130434782,
+  "shared5": 3,
+  "train": "If the operation $Z$ is defined as $a Z b = b + 10a - a^2$, what is the value of $2Z6$?"
+ },
+ "physicsb_2110": {
+  "jaccard": 0.0
+ },
+ "tbr_647979": {
+  "jaccard": 0.027522935779816515,
+  "shared5": 3,
+  "train": "A particle is located on the coordinate plane at $(5,0)$. Define a ''move'' for the particle as a counterclockwise rotation of $\\frac{\\pi}{4}$ radians about the origin followed by a translation of $10$ units in the positive $x$-direction.  Find the particle's position after $150$ moves."
+ },
+ "physcorp_2365": {
+  "jaccard": 0.0
+ },
+ "physicsb_15": {
+  "jaccard": 0.011627906976744186,
+  "shared5": 1,
+  "train": "Example 4 Let the edge length of the cube $A B C D-A_{1} B_{1} C_{1} D_{1}$ be $1, P$ is a moving point on the face diagonal $B C_{1}$, and $Q$ is a moving point on the base $A B C D$. Try to find the minimum value of $D_{1} P+P Q$.\n(1998 \"Hope Cup\" Competition Question)"
+ },
+ "tbr_500712": {
+  "jaccard": 0.020833333333333332,
+  "shared5": 1,
+  "train": "3. If $a-b=2, \\frac{(1-a)^{2}}{b}-\\frac{(1+b)^{2}}{a}=4$, then $a^{5}-b^{5}=$"
+ },
+ "physcorp_3393": {
+  "jaccard": 0.009433962264150943,
+  "shared5": 1,
+  "train": "How many values of $x,-19<x<98$, satisfy $$\\cos ^{2} x+2 \\sin ^{2} x=1 ?$$"
+ },
+ "tbr_75206": {
+  "jaccard": 0.016129032258064516,
+  "shared5": 2,
+  "train": "8. (10 points) As shown in the figure, a large cube with an edge length of 4 is formed by 64 smaller cubes with an edge length of 1. Then, 4 smaller cubes (the shaded part in the figure) are removed from top to bottom. If the inner and outer surfaces of the remaining solid are painted red, how many smaller cubes have exactly two faces painted red? $\\qquad$"
+ },
+ "physcorp_3104": {
+  "jaccard": 0.02912621359223301,
+  "shared5": 3,
+  "train": "10. Points $A, B, C$ lie on a circle centered at $O$ with radius 7 . The perpendicular bisector of $A B$ meets the segment $B C$ at $P$ and the extension of $A C$ at $Q$. Determine the value of $O P \\cdot O Q$."
+ },
+ "physicsb_1365": {
+  "jaccard": 0.01694915254237288,
+  "shared5": 2,
+  "train": "An elastic ball falls from a height of 128m, where each bounce reaches half of its previous height before falling again. Calculate the total distance traveled by the ball when it hits the ground for the 8th time."
+ },
+ "physcorp_602": {
+  "jaccard": 0.00980392156862745,
+  "shared5": 1,
+  "train": "We measured a distance at $t=26^{\\circ} \\mathrm{C}$ temperature using a copper rod that is exactly $a=3 \\mathrm{~m}$ long at $0^{\\circ} \\mathrm{C}$. In this way, we found $n=7856.728 \\mathrm{~m}$. What is the actual distance if the linear expansion coefficient of copper is $\\lambda=0.000017$."
+ },
+ "physicsb_716": {
+  "jaccard": 0.014084507042253521,
+  "shared5": 1,
+  "train": "4. Let the edge length of a regular octahedron be 1. Then the distance between its two parallel planes is $\\qquad$ ."
+ },
+ "physcorp_2841": {
+  "jaccard": 0.0
+ },
+ "tbr_333529": {
+  "jaccard": 0.0
+ },
+ "physicsb_7519": {
+  "jaccard": 0.008547008547008548,
+  "shared5": 1,
+  "train": "Given a circle C that passes through points A(1, 4) and B(3, -2), and the distance from the center of the circle C to line AB is $\\sqrt{10}$, find the equation of circle C."
+ },
+ "tbr_245633": {
+  "jaccard": 0.01098901098901099,
+  "shared5": 1,
+  "train": "A triangle has sides of 13, 17, and 24 units. The 24-unit side is divided into three equal parts. What is the distance from the opposite vertex to the division points?"
+ },
+ "tbr_102982": {
+  "jaccard": 0.011111111111111112,
+  "shared5": 1,
+  "train": "A line in the plane is called strange if it passes through \\((a, 0)\\) and \\((0, 10-a)\\) for some \\(a\\) in the interval \\([0,10]\\). A point in the plane is called charming if it lies in the first quadrant and also lies below some strange line. What is the area of the set of all charming points?"
+ },
+ "physcorp_2013": {
+  "jaccard": 0.0
+ },
+ "tbr_78665": {
+  "jaccard": 0.0
+ },
+ "tbr_7118": {
+  "jaccard": 0.013888888888888888,
+  "shared5": 1,
+  "train": "Given the function\n\\[ x(t)=5(t+1)^{2}+\\frac{a}{(t+1)^{5}}, \\]\nwhere \\( a \\) is a constant. Find the minimum value of \\( a \\) such that \\( x(t) \\geqslant 24 \\) for all \\( t \\geqslant 0 \\)."
+ },
+ "tbr_317246": {
+  "jaccard": 0.012195121951219513,
+  "shared5": 1,
+  "train": "# Problem \u21161 (10 points)\n\nA stone is thrown from the surface of the Earth at an angle of $60^{\\circ}$ to the horizon with an initial velocity $v_{0}=10 \\mathrm{~m} / \\mathrm{s}$. Determine the radius of curvature of the trajectory at the final point of the flight. The acceleration due to gravity $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$.\n\n#"
+ },
+ "tbr_32409": {
+  "jaccard": 0.04081632653061224,
+  "shared5": 2,
+  "train": "What is the ratio of the least common multiple of 180 and 594 to the greatest common factor of 180 and 594?"
+ },
+ "cal_problem_00258": {
+  "jaccard": 0.036036036036036036,
+  "shared5": 4,
+  "train": "Given that Xiao Ming ran a lap on a 360-meter circular track at a speed of 5 meters per second in the first half of the time and 4 meters per second in the second half of the time, determine the time taken to run in the second half of the distance."
+ },
+ "physcorp_5112": {
+  "jaccard": 0.019230769230769232,
+  "shared5": 2,
+  "train": "Suppose a regular tetrahedron \\( P-ABCD \\) has all edges equal in length. Using \\(ABCD\\) as one face, construct a cube \\(ABCD-EFGH\\) on the other side of the regular tetrahedron. Determine the cosine of the angle between the skew lines \\( PA \\) and \\( CF \\)."
+ },
+ "tbr_462584": {
+  "jaccard": 0.0
+ },
+ "tbr_353756": {
+  "jaccard": 0.0
+ },
+ "physcorp_2580": {
+  "jaccard": 0.0
+ },
+ "physicsb_5295": {
+  "jaccard": 0.006134969325153374,
+  "shared5": 1,
+  "train": "Given the equation \\((7+4 \\sqrt{3}) x^{2}+(2+\\sqrt{3}) x-2=0\\), calculate the difference between the larger root and the smaller root."
+ },
+ "physcorp_396": {
+  "jaccard": 0.0
+ },
+ "physcorp_1129": {
+  "jaccard": 0.0024813895781637717,
+  "shared5": 1,
+  "train": "You will be given a question (problem specification) and will generate a correct Python program that matches the specification and passes all tests.\n\nLet's consider a permutation P = {$p_{1}$,$ p_{2}$, ..., $p_{N}$} of the set of N = {1, 2, 3, ..., N} elements .  \n\nP is called a magic set if it satisfies both of the following constraints:  \n\nGiven a set of K integers, the elements in positions $a_"
+ },
+ "physcorp_702": {
+  "jaccard": 0.0
+ },
+ "physcorp_5518": {
+  "jaccard": 0.028037383177570093,
+  "shared5": 3,
+  "train": "A square floor is tiled with a large number of regular hexagonal tiles, which are either blue or white. Each blue tile is surrounded by 6 white tiles, and each white tile is surrounded by 3 white and 3 blue tiles. Determine the ratio of the number of blue tiles to the number of white tiles, ignoring part tiles."
+ },
+ "physcorp_5055": {
+  "jaccard": 0.0
+ },
+ "tbr_296770": {
+  "jaccard": 0.02247191011235955,
+  "shared5": 2,
+  "train": "The first term of a sequence is 20 .\n\nIf a term in the sequence is $t$ and $t$ is even, the next term is $\\frac{1}{2} t$.\n\nIf a term in the sequence is $t$ and $t$ is odd, the next term is $3 t+1$.\n\nTherefore, the first three terms in the sequence are 20, 10, 5 .\n\nWhat is the 10th term of the sequence?\n(A) 2\n(B) 4\n(C) 5\n(D) 1\n(E) 8"
+ },
+ "physcorp_3457": {
+  "jaccard": 0.0
+ },
+ "tbr_340902": {
+  "jaccard": 0.013888888888888888,
+  "shared5": 1,
+  "train": "In a right triangle PQR with right angle at P, suppose $\\sin Q = 0.6$. If the length of QP is 15, what is the length of QR?"
+ },
+ "tbr_29222": {
+  "jaccard": 0.06329113924050633,
+  "shared5": 5,
+  "train": "104. The centers of three spheres, with radii of 3, 4, and 6, are located at the vertices of an equilateral triangle with a side length of 11. How many planes exist that are tangent to all three spheres simultaneously?"
+ },
+ "tbr_178377": {
+  "jaccard": 0.006802721088435374,
+  "shared5": 1,
+  "train": "A boy presses his thumb along a vertical rod that rests on a rough horizontal surface. Then he gradually tilts the rod, keeping the component of the force along the rod constant, which is applied to its end. When the tilt angle of the rod to the horizontal is $\\alpha=80^{\\circ}$, the rod begins to slide on the surface. Determine the coefficient of friction between the surface and the rod if, in th"
+ },
+ "physicsb_7164": {
+  "jaccard": 0.0
+ },
+ "comp_problem_78": {
+  "jaccard": 0.00796812749003984,
+  "shared5": 2,
+  "train": "A spherical shell of mass $M$ and radius $R$ is completely \ffilled with a frictionless fluid, also of mass M. It is released from rest, and then it rolls without slipping down an incline that makes an angle $\\theta$\u0012 with the horizontal. What will be the acceleration of the shell down the incline just after it is released? Assume the acceleration of free fall is $g$. The moment of inertia of a thi"
+ },
+ "physcorp_4910": {
+  "jaccard": 0.05660377358490566,
+  "shared5": 6,
+  "train": "Let \\( f(x) = x^3 + 3x + 1 \\), where \\( x \\) is a real number. Given that the inverse function of \\( f \\) exists and is given by\n\\[ f^{-1}(x) = \\left( \\frac{x - a + \\sqrt{x^2 - bx + c}}{2} \\right)^{1/3} + \\left( \\frac{x - a - \\sqrt{x^2 - bx + c}}{2} \\right)^{1/3} \\]\nwhere \\( a \\), \\( b \\), and \\( c \\) are positive constants, find the value of \\( a + 10b + 100c \\)."
+ },
+ "physcorp_610": {
+  "jaccard": 0.0
+ },
+ "tbr_289366": {
+  "jaccard": 0.023529411764705882,
+  "shared5": 2,
+  "train": "What is the sum of the digits of the square of the number 22222?"
+ },
+ "tbr_14281": {
+  "jaccard": 0.0
+ },
+ "tbr_41042": {
+  "jaccard": 0.0
+ },
+ "cal_problem_00365": {
+  "jaccard": 0.006134969325153374,
+  "shared5": 1,
+  "train": "# Problem \u2116 8 (15 points)\n\n100 identical metal balls with a radius of $R=1$ mm were connected by equal conducting segments into a chain, with the length of each connecting wire segment $l=50$ cm being much greater than the radius of the ball. The resulting structure was then placed in a uniform electric field of known intensity $E=1000 V / m$. The balls are arranged in a straight line parallel to "
+ },
+ "physcorp_5768": {
+  "jaccard": 0.03067484662576687,
+  "shared5": 5,
+  "train": "Two identical cylindrical containers are connected at the bottom by a small tube with a tap. While the tap was closed, water was poured into the first container, and oil was poured into the second one, so that the liquid levels were the same and equal to $h = 40$ cm. At what level will the water in the first container settle if the tap is opened? The density of water is 1000 kg/$\\mathrm{m}^3$, and"
+ },
+ "tbr_79501": {
+  "jaccard": 0.022900763358778626,
+  "shared5": 3,
+  "train": "A right-triangular wooden block of mass $M$ is at rest on a table, as shown in figure. Two smaller wooden cubes, both with mass $m$, initially rest on the two sides of the larger block. As all contact surfaces are frictionless, the smaller cubes start sliding down the larger block while the block remains at rest. What is the normal force from the system to the table?\n\n$\\textbf{(A) } 2mg\\\\\n\\textbf{"
+ },
+ "tbr_524703": {
+  "jaccard": 0.0
+ },
+ "physcorp_4032": {
+  "jaccard": 0.02,
+  "shared5": 3,
+  "train": "A cylinder is filled with gas at atmospheric pressure (103.3 kPa). Assuming the gas is ideal, determine the work (in joules) during the isothermal compression of the gas by a piston that has moved inside the cylinder by $h$ meters.\n\nHint: The equation of state for the gas is given by $\\rho V=$ const, where $\\rho$ is pressure and $V$ is volume.\n\nGiven:\n$$\nH=0.4 \\text{ m}, \\ h=0.2 \\text{ m}, \\ R=0.1"
+ },
+ "tbr_365650": {
+  "jaccard": 0.0
+ }
+}

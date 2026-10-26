@@ -1,0 +1,15 @@
+{
+ "model": "hbx/JustRL-Nemotron-1.5B",
+ "path": "/root/hf/hub/models--hbx--JustRL-Nemotron-1.5B/snapshots/9c904d05e6aac281a5e57f2357acd94662f66cad",
+ "cap": 16384,
+ "n_problems": 2,
+ "n_new": 24,
+ "seed": 2,
+ "solved_any_new": 2,
+ "finished": 0.9583333333333334,
+ "seconds": {
+  "load": 55,
+  "generate": 93
+ },
+ "host": "f030079c0c71"
+}

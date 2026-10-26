@@ -1,0 +1,137 @@
+{
+ "Nemotron-Research-Reasoning-Qwen-1.5B": [
+  0.6,
+  0.95,
+  16384
+ ],
+ "DeepSeek-R1-Distill-Qwen-1.5B": [
+  0.6,
+  0.95,
+  28672
+ ],
+ "JustRL-DeepSeek-1.5B": [
+  0.6,
+  0.95,
+  16384
+ ],
+ "DeepScaleR-1.5B-Preview": [
+  0.6,
+  0.95,
+  24576
+ ],
+ "DeepMath-1.5B": [
+  0.6,
+  0.95,
+  24576
+ ],
+ "RLinf-math-1.5B": [
+  0.6,
+  0.95,
+  28672
+ ],
+ "STILL-3-1.5B-preview": [
+  0.6,
+  0.95,
+  28672
+ ],
+ "AReaL-1.5B-Preview-Stage-3": [
+  0.6,
+  0.95,
+  24576
+ ],
+ "Open-RS3": [
+  0.6,
+  0.95,
+  16384
+ ],
+ "JustRL-Nemotron-1.5B": [
+  0.6,
+  0.95,
+  16384
+ ],
+ "OpenMath-Nemotron-1.5B": [
+  0.6,
+  0.95,
+  24576
+ ],
+ "QuestA-Nemotron-1.5B": [
+  0.6,
+  0.95,
+  24576
+ ],
+ "KnowRL-Nemotron-1.5B": [
+  0.6,
+  0.95,
+  24576
+ ],
+ "DeepMath-Omn-1.5B": [
+  0.6,
+  0.95,
+  24576
+ ],
+ "e3-1.7B": [
+  0.6,
+  0.95,
+  16384
+ ],
+ "Qwen3-1.7B": [
+  0.6,
+  0.95,
+  49152
+ ],
+ "Polaris-1.7B-Preview": [
+  0.6,
+  0.95,
+  49152
+ ],
+ "Polaris-4B-Preview": [
+  0.6,
+  0.95,
+  53248
+ ],
+ "Qwen3-4B": [
+  0.6,
+  0.95,
+  53248
+ ],
+ "Skywork-OR1-7B": [
+  0.6,
+  0.95,
+  32768
+ ],
+ "DeepSeek-R1-Distill-Qwen-7B": [
+  0.6,
+  0.95,
+  32768
+ ],
+ "AceReason-Nemotron-14B": [
+  0.6,
+  0.95,
+  32768
+ ],
+ "DeepSeek-R1-Distill-Qwen-14B": [
+  0.6,
+  0.95,
+  32768
+ ],
+ "Skywork-OR1-32B": [
+  0.6,
+  0.95,
+  24576
+ ],
+ "DeepSeek-R1-Distill-Qwen-32B": [
+  0.6,
+  0.95,
+  24576
+ ],
+ "Skywork-OR1-Math-7B": [
+  0.6,
+  0.95,
+  32768
+ ],
+ "AceReason-Nemotron-7B": [
+  0.6,
+  0.95,
+  32768
+ ]
+}
