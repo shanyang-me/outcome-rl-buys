@@ -1,6 +1,6 @@
 # What Outcome RL Buys: Finishing, Reliability, Rarely Reach
 
-Code, metrics, test sets and row-level data for the paper (Shan Yang, 2026; arXiv: TODO).
+Code, metrics, test sets and row-level data for the paper (Shan Yang, 2026; [arXiv:2610.34894](https://arxiv.org/abs/2610.34894)).
 Project page: https://shanyang.me/what-outcome-rl-buys/
 
 We read 20 released outcome-RL models (1.5B to 32B, seven bases) against the thinking models they started from at fixed token
@@ -62,3 +62,13 @@ CC BY-NC-SA 4.0); the builder fails loudly if any rebuilt text differs from what
 
 Code and data are Apache-2.0, except `sets/phys300.jsonl`, which is CC BY-NC-SA 4.0 (`sets/SOURCES.md`). The rows are derived measurements and carry no third-party text. `CITATION.cff` has the
 metadata.
+
+```bibtex
+@misc{yang2026outcomerl,
+  title         = {What Outcome {RL} Buys: Finishing, Reliability, Rarely Reach},
+  author        = {Yang, Shan},
+  year          = {2026},
+  eprint        = {2610.34894},
+  archivePrefix = {arXiv}
+}
+```

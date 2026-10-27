@@ -14,4 +14,8 @@ preferred-citation:
       given-names: Shan
   year: 2026
   journal: "arXiv preprint"
-  notes: "TODO(shan): add the arXiv identifier once the paper is up"
+  url: "https://arxiv.org/abs/2610.34894"
+  identifiers:
+    - type: other
+      value: "arXiv:2610.34894"
+      description: "arXiv identifier"
